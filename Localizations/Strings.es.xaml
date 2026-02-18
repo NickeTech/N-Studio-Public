@@ -1,0 +1,2072 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib"
+                    xml:space="preserve">
+
+    <!--To use a new line: &#13; or CarriageReturn + NewLine: &#13;&#10;-->
+    <!--You can use the zero-width-divider to suggest where the word should be divided when there's no space &#8203;-->
+    <!--Special texts like {0}, are placeholders for dynamic values, such as numbers.-->
+
+    <!--Information-->
+    <s:String x:Key="S.Translation.Authors">⚠️ Traducido por máquina (Machine translated)</s:String>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-02-16</s:DateTime>
+
+    <!--Imperative-->
+    <s:String x:Key="S.Imperative.Accept">Aceptar</s:String>
+    <s:String x:Key="S.Imperative.Yes">Sí</s:String>
+    <s:String x:Key="S.Imperative.No">No</s:String>
+    <s:String x:Key="S.Imperative.Add">Añadir</s:String>
+    <s:String x:Key="S.Imperative.Select">Seleccionar</s:String>
+    <s:String x:Key="S.Imperative.Reset">Restablecer</s:String>
+    <s:String x:Key="S.Imperative.Reset.Info">Restablecer a la configuración original</s:String>
+    <s:String x:Key="S.Imperative.Revert">Revertir</s:String>
+    <s:String x:Key="S.Imperative.Export">Exportar</s:String>
+    <s:String x:Key="S.Imperative.Edit">Editar</s:String>
+    <s:String x:Key="S.Imperative.Discard">Descartar</s:String>
+    <s:String x:Key="S.Imperative.Delete">Eliminar</s:String>
+    <s:String x:Key="S.Imperative.Reload">Recargar</s:String>
+    <s:String x:Key="S.Imperative.Remove">Quitar</s:String>
+    <s:String x:Key="S.Imperative.RemoveAll">Quitar todo</s:String>
+    <s:String x:Key="S.Imperative.Insert">Insertar</s:String>
+    <s:String x:Key="S.Imperative.Import">Importar</s:String>
+    <s:String x:Key="S.Imperative.Keep">Mantener</s:String>
+    <s:String x:Key="S.Imperative.KeepAll">Mantener todo</s:String>
+    <s:String x:Key="S.Imperative.Download">Descargar</s:String>
+    <s:String x:Key="S.Imperative.LeaveAsIs">Dejar como está</s:String>
+    <s:String x:Key="S.Imperative.Dismiss">Cerrar</s:String>
+    <s:String x:Key="S.Imperative.Upgrade">Mejorar</s:String>
+    <s:String x:Key="S.Imperative.Save">Guardar</s:String>
+    <s:String x:Key="S.Imperative.Create">Crear</s:String>
+    <s:String x:Key="S.Imperative.Ok">Ok</s:String>
+    <s:String x:Key="S.Imperative.Cancel">Cancelar</s:String>
+    <s:String x:Key="S.Imperative.Close">Cerrar</s:String>
+    <s:String x:Key="S.Imperative.Continue">Continuar</s:String>
+    <s:String x:Key="S.Imperative.Clear">Borrar</s:String>
+    <s:String x:Key="S.Imperative.SeeMore">Ver más</s:String>
+    <s:String x:Key="S.Imperative.FixIssue">Solucionar problema</s:String>
+    <s:String x:Key="S.Imperative.Login">Iniciar sesión</s:String>
+    <s:String x:Key="S.Imperative.Logout">Cerrar sesión</s:String>
+    <s:String x:Key="S.Imperative.Update">Actualizar</s:String>
+    <s:String x:Key="S.Imperative.Ignore">Ignorar</s:String>
+    <s:String x:Key="S.Imperative.Exit">Salir</s:String>
+    <s:String x:Key="S.Imperative.KeepOpen">Mantener abierto</s:String>
+    <s:String x:Key="S.Imperative.OpenSettings">Abrir ajustes</s:String>
+    <s:String x:Key="S.Imperative.OpenPresetSettings">Abrir ajustes de preajustes</s:String>
+    <s:String x:Key="S.Imperative.OpenFile">Abrir archivo</s:String>
+    <s:String x:Key="S.Imperative.SelectAll">Seleccionar todo</s:String>
+    <s:String x:Key="S.Imperative.DeselectAll">Deseleccionar todo</s:String>
+    <s:String x:Key="S.Imperative.ReportIssue">Informar de un problema</s:String>
+    <s:String x:Key="S.Imperative.AskMe">Preguntarme</s:String>
+    <s:String x:Key="S.Imperative.Abort">Abortar</s:String>
+    <s:String x:Key="S.Imperative.TryAgain">Reintentar</s:String>
+    <s:String x:Key="S.Imperative.Overwrite">Sobrescribir</s:String>
+    <s:String x:Key="S.Imperative.SendFeedback">Enviar comentarios</s:String>
+    <s:String x:Key="S.Imperative.OpenFolder">Abrir carpeta</s:String>
+    <s:String x:Key="S.Imperative.OpenDrive">Abrir unidad</s:String>
+
+    <!--Time • Referential-->
+    <s:String x:Key="S.Time.Ago.Seconds">hace unos segundos</s:String>
+    <s:String x:Key="S.Time.Ago.Minute">hace un minuto</s:String>
+    <s:String x:Key="S.Time.Ago.Minutes">hace {0} minutos</s:String>
+    <s:String x:Key="S.Time.Ago.Hour">hace una hora</s:String>
+    <s:String x:Key="S.Time.Ago.Hours">hace {0} horas</s:String>
+    <s:String x:Key="S.Time.Ago.Day">ayer</s:String>
+    <s:String x:Key="S.Time.Ago.Days">hace {0} días</s:String>
+    <s:String x:Key="S.Time.Ago.Month">el mes pasado</s:String>
+    <s:String x:Key="S.Time.Ago.Months">hace {0} meses</s:String>
+    <s:String x:Key="S.Time.Ago.Year">el año pasado</s:String>
+    <s:String x:Key="S.Time.Ago.Years">hace {0} años</s:String>
+
+    <!--Time • Static (leave 2/3-4 plurals same as the normal plural if your language makes no difference for those quantities)-->
+    <s:String x:Key="S.Time.Static.Millisecond">milisegundo</s:String>
+    <s:String x:Key="S.Time.Static.Milliseconds">milisegundos</s:String>
+    <s:String x:Key="S.Time.Static.Milliseconds.2">milisegundos</s:String>
+    <s:String x:Key="S.Time.Static.Milliseconds.3-4">milisegundos</s:String>
+    <s:String x:Key="S.Time.Static.Short.Milliseconds">ms</s:String>
+    <s:String x:Key="S.Time.Static.Second">segundo</s:String>
+    <s:String x:Key="S.Time.Static.Seconds">segundos</s:String>
+    <s:String x:Key="S.Time.Static.Seconds.2">segundos</s:String>
+    <s:String x:Key="S.Time.Static.Seconds.3-4">segundos</s:String>
+    <s:String x:Key="S.Time.Static.Short.Second">seg</s:String>
+    <s:String x:Key="S.Time.Static.Short.Seconds">segs</s:String>
+    <s:String x:Key="S.Time.Static.Single.Second">s</s:String>
+    <s:String x:Key="S.Time.Static.Minute">minuto</s:String>
+    <s:String x:Key="S.Time.Static.Minutes">minutos</s:String>
+    <s:String x:Key="S.Time.Static.Minutes.2">minutos</s:String>
+    <s:String x:Key="S.Time.Static.Minutes.3-4">minutos</s:String>
+    <s:String x:Key="S.Time.Static.Short.Minute">min</s:String>
+    <s:String x:Key="S.Time.Static.Single.Minute">m</s:String>
+    <s:String x:Key="S.Time.Static.Hour">hora</s:String>
+    <s:String x:Key="S.Time.Static.Hours">horas</s:String>
+    <s:String x:Key="S.Time.Static.Hours.2">horas</s:String>
+    <s:String x:Key="S.Time.Static.Hours.3-4">horas</s:String>
+    <s:String x:Key="S.Time.Static.Short.Hour">hr</s:String>
+    <s:String x:Key="S.Time.Static.Short.Hours">hrs</s:String>
+    <s:String x:Key="S.Time.Static.Single.Hour">h</s:String>
+    <s:String x:Key="S.Time.Static.Day">día</s:String>
+    <s:String x:Key="S.Time.Static.Days">días</s:String>
+    <s:String x:Key="S.Time.Static.Days.2">días</s:String>
+    <s:String x:Key="S.Time.Static.Days.3-4">días</s:String>
+    <s:String x:Key="S.Time.Static.Single.Day">d</s:String>
+
+    <!--Dialogs • Error-->
+    <s:String x:Key="S.Dialog.Error.Header">Vaya. Algo inesperado ha ocurrido...</s:String>
+    <s:String x:Key="S.Dialog.Error.Info">La aplicación se ha bloqueado por un motivo imprevisto.&#10;Por favor, envía los detalles mediante la herramienta de comentarios para ayudar a solucionarlo.</s:String>
+    <s:String x:Key="S.Dialog.Error.SeeMore">Haz clic aquí para ver más detalles.</s:String>
+    <s:String x:Key="S.Dialog.Error.SeeMore.Tooltip">Abre otra ventana para mostrar más detalles sobre el error.</s:String>
+
+    <!--Dialogs • Error details-->
+    <s:String x:Key="S.Dialog.Exception.Header">Detalles del error</s:String>
+    <s:String x:Key="S.Dialog.Exception.Copy">Copiar detalles</s:String>
+
+    <!--Dialogs • First Time-->
+    <s:String x:Key="S.Dialog.FirstTime.Header">Bienvenido a N-Studio</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.Subtitle">Activa la aplicación usando tu dirección de correo + contraseña o número de serie.</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.Subtitle.Settings">Configura la aplicación para que se adapte mejor a tu flujo de trabajo.</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.Account">Ver suscripción</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.AlmostDone.Title">Casi listo</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.AlmostDone.Message">Las credenciales de activación fueron proporcionadas por tu administrador del sistema</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.Email">Correo electrónico</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.Password">Contraseña</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.Serial">Número de serie</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.OnStart">Al iniciar, abrir...</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.AfterRecording">Después de grabar, mostrar...</s:String>
+
+    <!--Dialogs • Reset Styles-->
+    <s:String x:Key="S.Dialog.ResetStyles.Header">¿Te gustaría restablecer estos ajustes?</s:String>
+    <s:String x:Key="S.Dialog.ResetStyles.Subtitle">Los ajustes para ese tipo de segmento se restablecerán a sus valores predeterminados.</s:String>
+
+    <!--Dialogs • Create Project-->
+    <s:String x:Key="S.Dialog.NewProject.Header">Nuevo proyecto</s:String>
+    <s:String x:Key="S.Dialog.NewProject.Name">Nombre</s:String>
+    <s:String x:Key="S.Dialog.NewProject.Optional">Opcional</s:String>
+    <s:String x:Key="S.Dialog.NewProject.Background">Fondo</s:String>
+    <s:String x:Key="S.Dialog.NewProject.Dpi">DPI</s:String>
+
+    <!--Dialogs • Update-->
+    <s:String x:Key="S.Dialog.Update.Header">Actualización disponible</s:String>
+    <s:String x:Key="S.Dialog.Update.Warning.NoUpdate">No se ha encontrado ninguna actualización</s:String>
+
+    <!--Dialogs • Color selector-->
+    <s:String x:Key="S.Dialog.ColorSelector.Header">Selecciona un color</s:String>
+    <s:String x:Key="S.Dialog.ColorSelector.Red">Rojo</s:String>
+    <s:String x:Key="S.Dialog.ColorSelector.Green">Verde</s:String>
+    <s:String x:Key="S.Dialog.ColorSelector.Blue">Azul</s:String>
+    <s:String x:Key="S.Dialog.ColorSelector.Alpha">Alfa</s:String>
+    <s:String x:Key="S.Dialog.ColorSelector.Hexadecimal">Hex</s:String>
+    <s:String x:Key="S.Dialog.ColorSelector.Initial">Color inicial</s:String>
+    <s:String x:Key="S.Dialog.ColorSelector.Current">Color actual</s:String>
+    <s:String x:Key="S.Dialog.ColorSelector.Latest">Último color</s:String>
+    <s:String x:Key="S.Dialog.ColorSelector.Sample">Arrastra esto para&#13;muestrear colores</s:String>
+    <s:String x:Key="S.Dialog.ColorSelector.Sample.Info">Haz clic y arrastra para recoger&#13;colores de tu pantalla.</s:String>
+    <s:String x:Key="S.Dialog.ColorSelector.Control">Haz clic aquí para seleccionar un color</s:String>
+
+    <!--Dialogs • Token-->
+    <s:String x:Key="S.Dialog.Token.Header">Autorización</s:String>
+    <s:String x:Key="S.Dialog.Token.Url">URL de retorno</s:String>
+
+    <!--Dialogs • File Name Automation-->
+    <s:String x:Key="S.Dialog.NameAutomation.Title">Automatización del nombre de archivo</s:String>
+    <s:String x:Key="S.Dialog.NameAutomation.Preview">Vista previa</s:String>
+    <s:String x:Key="S.Dialog.NameAutomation.Format">Formato</s:String>
+    <s:String x:Key="S.Dialog.NameAutomation.Types.Number">Número automático de archivo</s:String>
+    <s:String x:Key="S.Dialog.NameAutomation.Types.Date">Fecha y hora</s:String>
+    <s:String x:Key="S.Dialog.NameAutomation.Insert.Info">Inserta la sección de automatización seleccionada en la posición del cursor en el campo de formato</s:String>
+    <s:String x:Key="S.Dialog.NameAutomation.TurnStatic">Convertir en estático</s:String>
+    <s:String x:Key="S.Dialog.NameAutomation.TurnStatic.Info">Usa el nombre de archivo convertido como formato, convirtiendo básicamente el nombre en estático</s:String>
+    <s:String x:Key="S.Dialog.NameAutomation.RemoveSections">Eliminar secciones</s:String>
+    <s:String x:Key="S.Dialog.NameAutomation.RemoveSections.Info">Elimina todas las secciones de automatización</s:String>
+
+    <!--Dialogs • Key Translations-->
+    <s:String x:Key="S.Dialog.KeyTranslations.Header">Traducciones de nombres de teclas</s:String>
+    <s:String x:Key="S.Dialog.KeyTranslations.Subtitle">Selecciona qué teclas deben mostrarse con un nombre traducido</s:String>
+    <s:String x:Key="S.Dialog.KeyTranslations.ToggleTranslation">Activar/desactivar traducción</s:String>
+    <s:String x:Key="S.Dialog.KeyTranslations.OriginalKey">Nombre original de la tecla</s:String>
+    <s:String x:Key="S.Dialog.KeyTranslations.TranslatedKey">Nombre traducido de la tecla</s:String>
+
+    <!--Dialogs • Key Aliases-->
+    <s:String x:Key="S.Dialog.KeyAliases.Header">Alias de nombres de teclas</s:String>
+    <s:String x:Key="S.Dialog.KeyAliases.Subtitle">Define alias (nombres diferentes) para las teclas</s:String>
+    <s:String x:Key="S.Dialog.KeyAliases.Alias">Nuevo nombre de tecla</s:String>
+
+    <!--Dialogs • Login-->
+    <s:String x:Key="S.Dialog.Login.Header">Iniciar sesión</s:String>
+    <s:String x:Key="S.Dialog.Login.Username">Nombre de usuario</s:String>
+    <s:String x:Key="S.Dialog.Login.Password">Contraseña</s:String>
+
+    <!--Dialogs • Import localization-->
+    <s:String x:Key="S.Dialog.ImportLocalization.Header">Importar localización</s:String>
+    <s:String x:Key="S.Dialog.ImportLocalization.Resource">Archivo de recursos (.xaml)</s:String>
+    <s:String x:Key="S.Dialog.ImportLocalization.Language">Idioma</s:String>
+    <s:String x:Key="S.Dialog.ImportLocalization.Select.Info">Selecciona una localización para importar</s:String>
+    <s:String x:Key="S.Dialog.ImportLocalization.Open">Abrir una localización</s:String>
+    <s:String x:Key="S.Dialog.ImportLocalization.File">Localización</s:String>
+
+    <!--Dialogs • Upgrade now-->
+    <s:String x:Key="S.Dialog.UpgradeNow.Header">Actualizar ahora</s:String>
+    <s:String x:Key="S.Dialog.UpgradeNow.Subtitle">Esta función está disponible en la versión Pro</s:String>
+
+    <!--Dialogs • Command output-->
+    <s:String x:Key="S.Dialog.CommandOutput.Header">Salida del comando</s:String>
+    <s:String x:Key="S.Dialog.CommandOutput.StartedOn">Iniciado el</s:String>
+    <s:String x:Key="S.Dialog.CommandOutput.FinishedOn">Finalizado el</s:String>
+    <s:String x:Key="S.Dialog.CommandOutput.Result">Resultado</s:String>
+
+    <!--Dialogs • New preset-->
+    <s:String x:Key="S.Dialog.NewPreset.Header">Nuevo ajuste preestablecido</s:String>
+
+    <!--Dialogs • Recording underway-->
+    <s:String x:Key="S.Dialog.OngoingRecording.Title">¿Quieres conservar tu grabación antes de cerrar?</s:String>
+    <s:String x:Key="S.Dialog.OngoingRecording.Details">Tienes una grabación en curso.&#10;¿Quieres conservarla o descartarla?</s:String>
+
+    <!--Dialogs • Unsaved changes-->
+    <s:String x:Key="S.Dialog.UnsavedChanges.Title">¿Quieres guardar los cambios antes de cerrar?</s:String>
+    <s:String x:Key="S.Dialog.UnsavedChanges.Details">Tienes cambios sin guardar en este proyecto.&#10;¿Quieres guardarlos antes de cerrarlo?</s:String>
+
+    <!--Dialogs • Exiting app-->
+    <s:String x:Key="S.Dialog.Exiting.Header">¿Seguro que quieres salir?</s:String>
+    <s:String x:Key="S.Dialog.Exiting.Message">Todas las ventanas se cerrarán y el icono de la bandeja se eliminará</s:String>
+
+    <!--Dialogs • Keep Project-->
+    <s:String x:Key="S.Dialog.KeepProject.Title">¿Quieres mantener este proyecto en caché?</s:String>
+    <s:String x:Key="S.Dialog.KeepProject.Details">Este proyecto está almacenado en la carpeta de caché, pero se eliminará en unos días.&#10;¿Quieres conservarlo por ahora?</s:String>
+
+    <!--Dialogs • Insert Recording Position-->
+    <s:String x:Key="S.Dialog.InsertRecording.Header">Insertar grabación en la marca de tiempo</s:String>
+    <s:String x:Key="S.Dialog.InsertRecording.Message">Elige dónde colocar tu grabación en la línea de tiempo y quizá establecerlo como punto de inserción predeterminado.</s:String>
+
+    <!--Dialogs • Insert Media Position-->
+    <s:String x:Key="S.Dialog.InsertMedia.Header">Insertar medio en la marca de tiempo</s:String>
+    <s:String x:Key="S.Dialog.InsertMedia.Message">Elige dónde colocar tu medio en la línea de tiempo y quizá establecerlo como punto de inserción predeterminado.</s:String>
+
+    <!--Dialogs • Insert Media Settings-->
+    <s:String x:Key="S.Dialog.InsertMedia.Settings.Header">Insertar medio</s:String>
+    <s:String x:Key="S.Dialog.InsertMedia.Settings.Subtitle">Elige cómo agrupar y posicionar el medio en la línea de tiempo.</s:String>
+
+    <!--Dialogs • Remove Effect-->
+    <s:String x:Key="S.Dialog.RemoveEffect.Title">¿Quieres eliminar el efecto?</s:String>
+    <s:String x:Key="S.Dialog.RemoveEffect.Details">Será posible deshacer.</s:String>
+
+    <!--Dialogs • Remove Segment-->
+    <s:String x:Key="S.Dialog.RemoveSegment.Title">¿Quieres eliminar el/los segmento(s)?</s:String>
+    <s:String x:Key="S.Dialog.RemoveSegment.Details">Será posible deshacer.</s:String>
+
+        <!--Dialogs • Remove Track-->
+    <s:String x:Key="S.Dialog.RemoveTrack.Title">¿Quieres eliminar la pista?</s:String>
+    <s:String x:Key="S.Dialog.RemoveTrack.Details">Será posible deshacer.</s:String>
+
+    <!--Dialogs • Missing Contact Email-->
+    <s:String x:Key="S.Dialog.ContactEmail.Title">No has proporcionado una dirección de correo electrónico</s:String>
+    <s:String x:Key="S.Dialog.ContactEmail.Details">Para recibir una respuesta sobre tus comentarios, necesitas proporcionar una.</s:String>
+
+    <!--Dialogs • Remove All Projects-->
+    <s:String x:Key="S.Dialog.RemoveAllProjects.Title">¿Quieres eliminar todos los proyectos?</s:String>
+    <s:String x:Key="S.Dialog.RemoveAllProjects.Description">Esto eliminará todos los proyectos de la caché. Esta acción no se puede deshacer.</s:String>
+
+    <!--Dialogs • Remove Project-->
+    <s:String x:Key="S.Dialog.RemoveProject.Title">¿Quieres eliminar el proyecto?</s:String>
+    <s:String x:Key="S.Dialog.RemoveProject.Description">Esto eliminará el proyecto seleccionado de la caché. Esta acción no se puede deshacer.</s:String>
+
+    <!--Dialogs • Missing 'Follow Cursor' shortcuts-->
+    <s:String x:Key="S.Dialog.FollowCursor.Header">Falta una tecla de acceso rápido para seguir el cursor</s:String>
+    <s:String x:Key="S.Dialog.FollowCursor.Message">Para usar la función de seguimiento del cursor, debes configurar una tecla de acceso rápido para activarla cuando sea necesario.</s:String>
+
+    <!--Dialogs • Delete file with same name-->
+    <s:String x:Key="S.Dialog.Overwrite.Header">¿Quieres sobrescribir el archivo?</s:String>
+    <s:String x:Key="S.Dialog.Overwrite.Message">Ya existe un archivo con el mismo nombre.</s:String>
+
+    <!--Dialogs • Delete file-->
+    <s:String x:Key="S.Dialog.DeleteFile.Header">¿Seguro que quieres eliminar el archivo?</s:String>
+    <s:String x:Key="S.Dialog.DeleteFile.Message">Esta acción no se puede deshacer.</s:String>
+
+    <!--Dialogs • Delete old project-->
+    <s:String x:Key="S.Dialog.DeleteOld.Title">¿Quieres eliminar el proyecto antiguo?</s:String>
+    <s:String x:Key="S.Dialog.DeleteOld.Message">El proyecto seleccionado se convertirá al nuevo formato.&#10;¿Quieres eliminar el antiguo después?</s:String>
+
+    <!--Dialogs • Discard recording-->
+    <s:String x:Key="S.Dialog.DiscardRecording.Header">¿Seguro que quieres descartar la grabación?</s:String>
+    <s:String x:Key="S.Dialog.DiscardRecording.Message">Todo el contenido capturado será descartado.&#10;No podrás deshacer esta operación.</s:String>
+
+    <!--Dialogs • Delete preset-->
+    <s:String x:Key="S.Dialog.DeletePreset.Header">¿Seguro que quieres eliminar el ajuste preestablecido?</s:String>
+    <s:String x:Key="S.Dialog.DeletePreset.Message">El ajuste preestablecido seleccionado será eliminado y esto no se puede deshacer.</s:String>
+
+    <!--Dialogs • Reset preset-->
+    <s:String x:Key="S.Dialog.ResetPreset.Header">¿Seguro que quieres restablecer el ajuste preestablecido?</s:String>
+    <s:String x:Key="S.Dialog.ResetPreset.Message">El ajuste preestablecido seleccionado se restablecerá a sus valores predeterminados y esto no se puede deshacer.</s:String>
+
+    <!--Dialogs • Remove all effects-->
+    <s:String x:Key="S.Dialog.RemoveAllEffects.Header">¿Seguro que quieres eliminar todos los efectos?</s:String>
+    <s:String x:Key="S.Dialog.RemoveAllEffects.Message">Los efectos predeterminados pueden restaurarse haciendo clic en 'Restablecer', pero cualquier efecto personalizado se perderá.</s:String>
+
+    <!--Dialogs • Reset effects-->
+    <s:String x:Key="S.Dialog.ResetEffects.Header">¿Seguro que quieres restablecer a los valores predeterminados?</s:String>
+    <s:String x:Key="S.Dialog.ResetEffects.Message">Cualquier efecto personalizado se perderá.</s:String>
+
+    <!--Dialogs • Remove effect-->
+    <s:String x:Key="S.Dialog.RemoveEffect.Header">¿Seguro que quieres eliminar el efecto?</s:String>
+    <s:String x:Key="S.Dialog.RemoveEffect.Message">Esta acción no se puede deshacer, pero puedes recuperar los efectos predeterminados pulsando 'Restablecer'.</s:String>
+
+    <!--Dialogs • Clear cache-->
+    <s:String x:Key="S.Dialogs.Cache.Header">¿Quieres limpiar la carpeta de caché?</s:String>
+    <s:String x:Key="S.Dialogs.Cache.Message">Cuando creas una grabación o abres algo para editar, se crea un proyecto y se almacena dentro de la carpeta de caché.</s:String>
+    <s:String x:Key="S.Dialogs.Cache.KeepRecent">Mantener proyectos recientes</s:String>
+    <s:String x:Key="S.Dialogs.Cache.KeepRecent.Info">Solo se eliminarán los proyectos más antiguos que lo configurado en Ajustes > Almacenamiento</s:String>
+
+    <!--Validation • Field Validations-->
+    <s:String x:Key="S.Validation.Required.Header">Campos obligatorios</s:String>
+    <s:String x:Key="S.Validation.Required.Description">Algunos campos obligatorios están vacíos o contienen datos no válidos</s:String>
+    <s:String x:Key="S.Validation.Required.Fields.Title">Se requiere un título válido (de 5 a 100 caracteres)</s:String>
+    <s:String x:Key="S.Validation.Required.Fields.Description">Se requiere una descripción válida (de 5 a 5.000 caracteres)</s:String>
+    <s:String x:Key="S.Validation.Required.Fields.Email">Se requiere una dirección de correo válida</s:String>
+    <s:String x:Key="S.Validation.Required.Fields.Password">Se requiere una contraseña de entre 8 y 128 caracteres</s:String>
+    <s:String x:Key="S.Validation.Required.Fields.Serial">Se requiere un número de serie válido</s:String>
+
+    <!--Validation • Attachments too large-->
+    <s:String x:Key="S.Validation.AttachmentsLarge.Header">Tamaño de los archivos adjuntos</s:String>
+    <s:String x:Key="S.Validation.AttachmentsLarge.Description">El tamaño de los archivos adjuntos supera los 100 MiB</s:String>
+
+    <!--Validation • Missing dependency-->
+    <s:String x:Key="S.Validation.Missing.Header">Dependencia faltante</s:String>
+    <s:String x:Key="S.Validation.Missing.Ffmpeg.Message">No se encontró FFmpeg. Descárgalo desde Ajustes > Plugins</s:String>
+    <s:String x:Key="S.Validation.Missing.Gifski.Message">No se encontró Gifski. Descárgalo desde Ajustes > Plugins</s:String>
+
+    <!--Validation • Empty parameters-->
+    <s:String x:Key="S.Validation.EmptyParameters.Header">Parámetros vacíos</s:String>
+    <s:String x:Key="S.Validation.EmptyParameters.Message">No hay parámetros configurados para el ajuste preestablecido</s:String>
+
+    <!--Validation • Missing input/output parameters-->
+    <s:String x:Key="S.Validation.MissingParameters.Header">Parámetros faltantes</s:String>
+    <s:String x:Key="S.Validation.MissingParameters.Message">Los parámetros especiales {input} y/o {output} faltan en el campo de parámetros</s:String>
+
+    <!--Validation • No export type-->
+    <s:String x:Key="S.Validation.NoExport.Header">Ninguna exportación seleccionada</s:String>
+    <s:String x:Key="S.Validation.NoExport.Message">Debes seleccionar dónde guardar el archivo (en una carpeta, en el portapapeles o subirlo a otro lugar)</s:String>
+
+    <!--Validation • No extension selected-->
+    <s:String x:Key="S.Validation.NoExtension.Header">Ninguna extensión seleccionada</s:String>
+    <s:String x:Key="S.Validation.NoExtension.Message">No has seleccionado la extensión del archivo</s:String>
+
+        <!--Validation • No output folder selected-->
+    <s:String x:Key="S.Validation.NoOutput.Header">No se ha seleccionado una carpeta de salida</s:String>
+    <s:String x:Key="S.Validation.NoOutput.Message">Necesitas seleccionar dónde debe almacenarse el archivo</s:String>
+
+    <!--Validation • Invalid characters in folder-->
+    <s:String x:Key="S.Validation.InvalidOutput.Header">Caracteres no válidos</s:String>
+    <s:String x:Key="S.Validation.InvalidOutput.Message">La carpeta de salida contiene uno o más caracteres no válidos. Por favor, selecciona una carpeta válida.</s:String>
+
+    <!--Validation • Output folder missing-->
+    <s:String x:Key="S.Validation.OutputMissing.Header">Carpeta faltante</s:String>
+    <s:String x:Key="S.Validation.OutputMissing.Message">La carpeta de salida no existe</s:String>
+
+    <!--Validation • File name empty-->
+    <s:String x:Key="S.Validation.FileNameEmpty.Header">Sin nombre de archivo</s:String>
+    <s:String x:Key="S.Validation.FileNameEmpty.Message">Necesitas elegir el nombre del archivo</s:String>
+
+    <!--Validation • File name invalid-->
+    <s:String x:Key="S.Validation.InvalidFileName.Header">Nombre de archivo no válido</s:String>
+    <s:String x:Key="S.Validation.InvalidFileName.Message">El nombre del archivo contiene uno o más caracteres no válidos</s:String>
+
+    <!--Validation • File already exists-->
+    <s:String x:Key="S.Validation.FileAlreadyExists.Header">El archivo ya existe</s:String>
+    <s:String x:Key="S.Validation.FileAlreadyExists.Message">El nombre del archivo contiene uno o más caracteres no válidos</s:String>
+
+    <!--Validation • Low disk space-->
+    <s:String x:Key="S.Validation.LowSpace.Header">Poco espacio en disco</s:String>
+    <s:String x:Key="S.Validation.LowSpace.Message">Selecciona otro disco o elimina algunos archivos</s:String>
+
+    <!--Validation • Can't copy link-->
+    <s:String x:Key="S.Validation.NoLink.Header">No hay enlace para copiar</s:String>
+    <s:String x:Key="S.Validation.NoLink.Message">No puedes seleccionar la opción de copiar el enlace porque no configuraste subir el archivo</s:String>
+
+    <!--Validation • No custom command-->
+    <s:String x:Key="S.Validation.NoCommand.Header">No hay comando para ejecutar</s:String>
+    <s:String x:Key="S.Validation.NoCommand.Message">Para ejecutar un comando posterior a la codificación, necesitas escribir algo en el campo de comandos</s:String>
+
+    <!--Success • Export feedback-->
+    <s:String x:Key="S.Success.ExportFeedback.Header">Éxito</s:String>
+    <s:String x:Key="S.Success.ExportFeedback.Message">Los comentarios se han exportado correctamente como un archivo zip</s:String>
+
+    <!--Info • Pro feature-->
+    <s:String x:Key="S.Info.ProFeature.Title">Actualiza para desbloquear esta función</s:String>
+    <s:String x:Key="S.Info.ProFeature.Upgrade">Actualizar</s:String>
+
+    <!--Info • Format limitations-->
+    <s:String x:Key="S.Info.FormatLimitations.Title">Limitaciones del formato</s:String>
+    <s:String x:Key="S.Info.FormatLimitations.Message">El ajuste preestablecido actual impone límites a la tasa de fotogramas</s:String>
+    <s:String x:Key="S.Info.FormatLimitations.Gif.Message">El formato solo admite retrasos entre fotogramas en múltiplos de 10 ms. El rango utilizable va de 20 ms a 65.535 ms. El codificador ajustará la tasa de fotogramas en consecuencia.</s:String>
+    <s:String x:Key="S.Info.FormatLimitations.Ignore.Message">El formato ignora los ajustes de la tasa de fotogramas. Estas opciones se usarán solo para presentación en la ventana de exportación.</s:String>
+
+    <!--Info • Default preset-->
+    <s:String x:Key="S.Info.DefaultPreset.Title">Solo lectura</s:String>
+    <s:String x:Key="S.Info.DefaultPreset.Message">Algunas propiedades de un ajuste preestablecido predeterminado son de solo lectura</s:String>
+
+    <!--Warnings • Single instance-->
+    <s:String x:Key="S.Warning.Single.Header">La aplicación ya está en ejecución</s:String>
+    <s:String x:Key="S.Warning.Single.Message">N-Studio ya está en ejecución, pero aparentemente no hay ninguna ventana abierta. Comprueba la bandeja del sistema, debe haber un icono de N-Studio allí.</s:String>
+
+    <!--Warnings • Audio device detection-->
+    <s:String x:Key="S.Warning.DeviceDetection.Title">Problemas de detección de dispositivos</s:String>
+    <s:String x:Key="S.Warning.DeviceDetection.Description">No fue posible detectar dispositivos de audio</s:String>
+
+    <!--Warnings • Invalid file name-->
+    <s:String x:Key="S.Warning.InvalidFileName.Header">Nombre de archivo no válido</s:String>
+    <s:String x:Key="S.Warning.InvalidFileName.Message">El nombre del archivo contiene caracteres no válidos</s:String>
+    <s:String x:Key="S.Warning.InvalidFileName.Fix">Corregir</s:String>
+    <s:String x:Key="S.Warning.InvalidFileName.Fix.Info">Eliminar caracteres no válidos del nombre del archivo</s:String>
+
+    <!--Warnings • File already exists-->
+    <s:String x:Key="S.Warning.FileAlreadyExists.Header">El archivo ya existe</s:String>
+    <s:String x:Key="S.Warning.FileAlreadyExists.Message">El nombre del archivo contiene caracteres no válidos</s:String>
+
+    <!--Warnings • Failed to authenticate token-->
+    <s:String x:Key="S.Warning.FailedToken.Header">No se pudo obtener respuesta</s:String>
+    <s:String x:Key="S.Warning.FailedToken.Message">Pega aquí la URL completa para autenticar</s:String>
+
+    <!--Warnings • Authorization missing-->
+    <s:String x:Key="S.Warning.AuthorizationMissing.Header">Falta autorización</s:String>
+    <s:String x:Key="S.Warning.AuthorizationMissing.Message">No puedes subir al servicio seleccionado porque no has iniciado sesión</s:String>
+
+    <!--Warnings • Unsupported files dropped-->
+    <s:String x:Key="S.Warning.Drop.Header">No compatible o no válido</s:String>
+    <s:String x:Key="S.Warning.Drop.Message">No fue posible insertar o abrir el/los archivo(s)</s:String>
+
+    <!--Warnings • Graphics engine-->
+    <s:String x:Key="S.Warning.Graphics.Title">Cambiar adaptador gráfico</s:String>
+    <s:String x:Key="S.Warning.Graphics.Instruction">Cambia al adaptador gráfico correcto para capturar la pantalla seleccionada</s:String>
+    <s:String x:Key="S.Warning.Graphics.Message">Debido a una limitación de DirectX, N-Studio debe ejecutarse en el mismo adaptador gráfico que la pantalla que se está capturando.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Action">Cambia el adaptador gráfico configurado para N-Studio abriendo Configuración de Windows > Sistema > Pantalla > Configuración de gráficos, o haciendo clic en el enlace de abajo.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Action.Legacy">Cambia el adaptador gráfico para N-Studio abriendo la configuración gráfica de tu adaptador.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Switch">Abrir Configuración de Windows</s:String>
+
+    <!--Error • Failed to send feedback-->
+    <s:String x:Key="S.Error.FailedToSend.Header">No se pudo enviar el comentario</s:String>
+    <s:String x:Key="S.Error.FailedToSend.Description">Por favor, exporta el contenido del comentario como un archivo zip y envíalo por correo electrónico</s:String>
+    <s:String x:Key="S.Error.FailedToSend.OpenEmail">Abrir correo electrónico</s:String>
+
+        <!--Error • Update Unsupported-->
+    <s:String x:Key="S.Error.UpdateUnsupported.Header">No compatible</s:String>
+    <s:String x:Key="S.Error.UpdateUnsupported.Message">Parece que tu sistema ya no es compatible o algo ha cambiado en el sistema de actualización. Intenta descargarla manualmente desde la página web.</s:String>
+
+    <!--Error • Update Failed-->
+    <s:String x:Key="S.Error.UpdateFailed.Header">La actualización ha fallado</s:String>
+    <s:String x:Key="S.Error.UpdateFailed.Message">No fue posible descargar la actualización.</s:String>
+
+    <!--Error • Login failed-->
+    <s:String x:Key="S.Error.Login.Header">Error al iniciar sesión</s:String>
+    <s:String x:Key="S.Error.Login.Message">La autenticación en el navegador ha fallado, inténtalo de nuevo</s:String>
+
+    <!--Error • Authentication-->
+    <s:String x:Key="S.Error.Authentication.Header">Error de autenticación</s:String>
+    <s:String x:Key="S.Error.Authentication.Message">No fue posible autenticar con el servicio</s:String>
+
+    <!--Error • Delete file-->
+    <s:String x:Key="S.Error.DeleteFile.Header">Error al eliminar el archivo</s:String>
+    <s:String x:Key="S.Error.DeleteFile.Message">No fue posible eliminar el archivo.</s:String>
+
+    <!--Error • Encoding-->
+    <s:String x:Key="S.Error.Encoding.Header">Error de codificación</s:String>
+    <s:String x:Key="S.Error.Encoding.Message">La codificación falló y no pudo finalizar.</s:String>
+
+    <!--Error • Recording-->
+    <s:String x:Key="S.Error.Recording.Header">Error al iniciar la grabación</s:String>
+    <s:String x:Key="S.Error.Recording.Message">Algo salió mal con la captura, no fue posible iniciarla correctamente.</s:String>
+
+    <!--Error • Pausing-->
+    <s:String x:Key="S.Error.Pausing.Header">Error al pausar</s:String>
+    <s:String x:Key="S.Error.Pausing.Message">Algo salió mal con la captura, no fue posible pausarla correctamente.</s:String>
+
+    <!--Error • Stopping-->
+    <s:String x:Key="S.Error.Stopping.Header">Error al detener</s:String>
+    <s:String x:Key="S.Error.Stopping.Message">Algo salió mal con la captura, no fue posible finalizarla correctamente.</s:String>
+
+    <!--Error • Capture-->
+    <s:String x:Key="S.Error.Capture.Header">No fue posible capturar la pantalla</s:String>
+    <s:String x:Key="S.Error.Capture.Message">La captura falló y está en un estado dañado.</s:String>
+
+    <!--Error • Export feedback-->
+    <s:String x:Key="S.Error.ExportFeedback.Header">Error de exportación</s:String>
+    <s:String x:Key="S.Error.ExportFeedback.Message">No fue posible exportar los comentarios</s:String>
+
+    <!--Error • Unsupported files dropped-->
+    <s:String x:Key="S.Error.Drop.Header">Error al importar</s:String>
+    <s:String x:Key="S.Error.Drop.Message">No fue posible insertar o abrir el/los archivo(s)</s:String>
+
+    <!--Error • Unrecognized plugin-->
+    <s:String x:Key="S.Error.UnrecognizedPlugin.Header">Archivo no reconocido</s:String>
+    <s:String x:Key="S.Error.UnrecognizedPlugin.Message">El archivo seleccionado no fue reconocido</s:String>
+
+    <!--Error • Impossible to update-->
+    <s:String x:Key="S.Error.UpdatedFailed.Header">Error al instalar la actualización</s:String>
+    <s:String x:Key="S.Error.UpdatedFailed.Message">Instala la actualización manualmente</s:String>
+
+    <!--Error • Error loading-->
+    <s:String x:Key="S.Errors.Load.Title">Error al cargar</s:String>
+    <s:String x:Key="S.Errors.Load.Description">No fue posible cargar el proyecto</s:String>
+
+    <!--Error • Error with renderer-->
+    <s:String x:Key="S.Errors.Renderer.Header">Error del renderizador</s:String>
+    <s:String x:Key="S.Errors.Renderer.Message">La canalización de renderizado falló</s:String>
+
+    <!--Error • Error initializing-->
+    <s:String x:Key="S.Errors.InitializePreviewer.Header">Error del previsualizador</s:String>
+    <s:String x:Key="S.Errors.InitializePreviewer.Message">No fue posible inicializar el previsualizador</s:String>
+
+    <!--Error • Others-->
+    <s:String x:Key="S.Errors.Activation.Title">La activación ha fallado</s:String>
+    <s:String x:Key="S.Errors.Activation.Generic">No fue posible activar la aplicación debido a un problema desconocido</s:String>
+    <s:String x:Key="S.Errors.Activation.EmailOrPasswordWrong">El intento de activación falló debido a un correo o contraseña incorrectos</s:String>
+    <s:String x:Key="S.Errors.Activation.NoValidSubscription">No se encontró ninguna suscripción activa para esta aplicación</s:String>
+    <s:String x:Key="S.Errors.Activation.NotEnoughSeats">No hay suficientes plazas disponibles en la suscripción. Abre la página de cuenta para configurar más plazas</s:String>
+    <s:String x:Key="S.Errors.Activation.TenantFrozenBlocked">El usuario está bloqueado. Contacta con tu administrador del sistema para liberar el acceso del correo</s:String>
+    <s:String x:Key="S.Errors.Activation.TenantNotFound">No se encontró ningún usuario con el correo y número de serie proporcionados</s:String>
+    <s:String x:Key="S.Errors.Activation.TenantAlreadyInUse">Correo y número de serie ya están en uso en otro equipo. Pide a tu administrador del sistema que añada otra plaza</s:String>
+
+    <!--Windows • Welcome -->
+    <s:String x:Key="S.Welcome.ScreenRecorder">Grabador de pantalla</s:String>
+    <s:String x:Key="S.Welcome.SoundRecorder">Grabador de sonido</s:String>
+    <s:String x:Key="S.Welcome.Editor">Editor</s:String>
+    <s:String x:Key="S.Welcome.Feedback">Comentarios</s:String>
+    <s:String x:Key="S.Welcome.Troubleshoot">Solucionar problemas</s:String>
+    <s:String x:Key="S.Welcome.Settings">Ajustes</s:String>
+    <s:String x:Key="S.Welcome.RecentProjects">Proyectos recientes</s:String>
+    <s:String x:Key="S.Welcome.RecentProjects.DiscardAll">Descartar todo</s:String>
+    <s:String x:Key="S.Welcome.RecentProjects.DiscardAll.Info">Eliminar todos los proyectos de la caché</s:String>
+    <s:String x:Key="S.Welcome.RecentProjects.None">No se han abierto proyectos recientemente</s:String>
+    <s:String x:Key="S.Welcome.Update">Actualización disponible</s:String>
+    <s:String x:Key="S.Welcome.Update.Now">Actualizar ahora</s:String>
+
+    <!--Windows • Screen Recorder-->
+    <s:String x:Key="S.ScreenRecorder.Frequency.Switch">Haz clic para cambiar entre los modos de frecuencia de captura</s:String>
+    <s:String x:Key="S.ScreenRecorder.Frequency.Fps">Máximo de fotogramas por segundo.&#10;Va de 1 a 60 fps, con valores más altos capturando más fotogramas.&#10;Cada incremento representa 16 milisegundos de diferencia.</s:String>
+    <s:String x:Key="S.ScreenRecorder.Frequency.Fps.Short">fps</s:String>
+    <s:String x:Key="S.ScreenRecorder.Frequency.Fpm">Máximo de fotogramas por minuto.&#10;Va de 1 a 60 fpm, con valores más altos capturando más fotogramas.&#10;Cada incremento representa 1 segundo de diferencia.</s:String>
+    <s:String x:Key="S.ScreenRecorder.Frequency.Fpm.Short">fpm</s:String>
+    <s:String x:Key="S.ScreenRecorder.Frequency.Fph">Máximo de fotogramas por hora&#10;Va de 1 a 60 fph, con valores más altos capturando más fotogramas.&#10;Cada incremento representa 1 minuto de diferencia.</s:String>
+    <s:String x:Key="S.ScreenRecorder.Frequency.Fph.Short">fph</s:String>
+    <s:String x:Key="S.ScreenRecorder.ClickOrPress">Haz clic o presiona teclas para capturar</s:String>
+
+    <s:String x:Key="S.ScreenRecorder.Select">Seleccionar</s:String>
+    <s:String x:Key="S.ScreenRecorder.Select.Area">Seleccionar un área</s:String>
+    <s:String x:Key="S.ScreenRecorder.Select.Window">Seleccionar una ventana</s:String>
+    <s:String x:Key="S.ScreenRecorder.Select.NoArea">Ningún área seleccionada</s:String>
+    <s:String x:Key="S.ScreenRecorder.Select.NoWindow">Ninguna ventana seleccionada</s:String>
+    <s:String x:Key="S.ScreenRecorder.Select.NoScreen">Ninguna pantalla seleccionada</s:String>
+    <s:String x:Key="S.ScreenRecorder.Select.Move">Arrastra para mover&#10;la selección.</s:String>
+
+    <s:String x:Key="S.ScreenRecorder.RegionSelect.Rect">Selección rectangular</s:String>
+    <s:String x:Key="S.ScreenRecorder.RegionSelect.Window">Selección de ventana</s:String>
+    <s:String x:Key="S.ScreenRecorder.RegionSelect.Screen">Selección de pantalla</s:String>
+
+    <s:String x:Key="S.ScreenRecorder.Screen.Internal">Pantalla interna</s:String>
+    <s:String x:Key="S.ScreenRecorder.Screen.Generic">Pantalla genérica</s:String>
+    <s:String x:Key="S.ScreenRecorder.Screen.Info">Pantalla: {0}</s:String>
+    <s:String x:Key="S.ScreenRecorder.Screen.Info1">Adaptador gráfico: {0}</s:String>
+    <s:String x:Key="S.ScreenRecorder.Screen.Info2">Resolución: {0} x {1}</s:String>
+    <s:String x:Key="S.ScreenRecorder.Screen.Info3">Resolución nativa: {0} x {1}</s:String>
+    <s:String x:Key="S.ScreenRecorder.Screen.Info4">DPI: {0} ({1:0.##}%)</s:String>
+
+    <s:String x:Key="S.ScreenRecorder.Splash.Title">Pulsa {0} para detener la grabación</s:String>
+    <s:String x:Key="S.ScreenRecorder.Splash.Subtitle">La ventana del grabador se minimizará,&#10;restáurala o pulsa {0} para pausar la captura</s:String>
+
+    <s:String x:Key="S.ScreenRecorder.PreStarting">Preparando...</s:String>
+    <s:String x:Key="S.ScreenRecorder.Processing">Procesando fotogramas...</s:String>
+
+    <!--Windows • Sound Recorder-->
+    <s:String x:Key="S.SoundRecorder.Title">N-Studio • Grabador de sonido</s:String>
+    <s:String x:Key="S.SoundRecorder.NoInputs">No hay micrófonos o altavoces seleccionados</s:String>
+    <s:String x:Key="S.SoundRecorder.Select">Selecciona una o más fuentes y pulsa grabar</s:String>
+
+    <!--Windows • Exporter-->
+    <s:String x:Key="S.Exporter.Title">N-Studio • Exportador</s:String>
+    <s:String x:Key="S.Exporter.Edit.Info">Abrir el proyecto en el editor</s:String>
+    <s:String x:Key="S.Exporter.Tracks">Pistas</s:String>
+    <s:String x:Key="S.Exporter.Tracks.Info">Gestionar pistas</s:String>
+    <s:String x:Key="S.Exporter.Crop">Recortar</s:String>
+    <s:String x:Key="S.Exporter.Crop.Info">Gestionar el recorte del lienzo</s:String>
+    <s:String x:Key="S.Exporter.Resize">Redimensionar</s:String>
+    <s:String x:Key="S.Exporter.Resize.Info">Gestionar el tamaño del lienzo</s:String>
+    <s:String x:Key="S.Exporter.Trim">Recortar tiempo</s:String>
+    <s:String x:Key="S.Exporter.Trim.Info">Gestionar el recorte de la animación</s:String>
+    <s:String x:Key="S.Exporter.Framerate">Tasa de fotogramas</s:String>
+    <s:String x:Key="S.Exporter.Framerate.Info">Controlar la tasa de fotogramas de la animación</s:String>
+    <s:String x:Key="S.Exporter.Speed">Velocidad</s:String>
+    <s:String x:Key="S.Exporter.Speed.Info">Controlar la velocidad de la animación</s:String>
+    <s:String x:Key="S.Exporter.Settings">Ajustes</s:String>
+    <s:String x:Key="S.Exporter.Settings.Info">Abrir ajustes</s:String>
+    <s:String x:Key="S.Exporter.AudioOnly">Solo audio</s:String>
+    <s:String x:Key="S.Exporter.Loading">Cargando...</s:String>
+
+    <!--Windows • Exporter > Type-->
+    <s:String x:Key="S.Exporter.Type">Tipo de archivo y ajuste preestablecido</s:String>
+    <s:String x:Key="S.Exporter.Type.Format.Info">El formato del archivo de salida</s:String>
+    <s:String x:Key="S.Exporter.Type.Preset.Info">El ajuste preestablecido para la exportación</s:String>
+
+    <!--Windows • Exporter > Upload-->
+    <s:String x:Key="S.Exporter.Upload">Subir</s:String>
+    <s:String x:Key="S.Exporter.Upload.Info">Selecciona el ajuste preestablecido de subida, que contiene detalles sobre el servicio utilizado.</s:String>
+    <s:String x:Key="S.Exporter.Upload.Select.Title">Selecciona un ajuste de subida</s:String>
+    <s:String x:Key="S.Exporter.Upload.Select.Message">Déjalo sin seleccionar para omitir la subida</s:String>
+    <s:String x:Key="S.Exporter.Upload.Unavailable.Title">No hay ajustes de subida disponibles para este formato</s:String>
+    <s:String x:Key="S.Exporter.Upload.Unavailable.Message">Añade un ajuste usando el botón de arriba</s:String>
+
+    <!--Windows • Exporter > File-->
+    <s:String x:Key="S.Exporter.File">Archivo</s:String>
+    <s:String x:Key="S.Exporter.File.Automation">Automatización del nombre de archivo</s:String>
+    <s:String x:Key="S.Exporter.File.Folder">Carpeta de salida</s:String>
+    <s:String x:Key="S.Exporter.File.Folder.Select">Elige la carpeta de salida.&#10;Pulsa Shift y haz clic para&#10;seleccionar también el nombre del archivo</s:String>
+    <s:String x:Key="S.Exporter.File.Name">Nombre del archivo</s:String>
+    <s:String x:Key="S.Exporter.File.Format">Formato del archivo</s:String>
+    <s:String x:Key="S.Exporter.File.Extension">Extensión del archivo</s:String>
+    <s:String x:Key="S.Exporter.File.Increase">Aumentar el número del archivo</s:String>
+    <s:String x:Key="S.Exporter.File.Decrease">Disminuir el número del archivo</s:String>
+    <s:String x:Key="S.Exporter.File.Automation.Info">El nombre del archivo contiene secciones de automatización.&#10;Para editar libremente el nombre, elimina todas las secciones de automatización.&#10;Haz clic aquí para editarlo mediante la ventana de ajustes.</s:String>
+
+    <!--Windows • Exporter > Resize-->
+    <s:String x:Key="S.Exporter.Resize.MaintainRatio">Mantener proporción</s:String>
+    <s:String x:Key="S.Exporter.Resize.MaintainRatio.Info">La proporción se mantendrá lo más cercana posible,&#10;intentando obtener un ancho y alto con números enteros</s:String>
+
+    <!--Windows • Exporter > Trim-->
+    <s:String x:Key="S.Exporter.Trim.NewTarget">Nuevo tiempo objetivo</s:String>
+
+    <!--Windows • Exporter > Framerate-->
+    <s:String x:Key="S.Exporter.Framerate.Mode.Info">Modo de tasa de fotogramas</s:String>
+    <s:String x:Key="S.Exporter.Framerate.Mode.Automatic">Automático</s:String>
+    <s:String x:Key="S.Exporter.Framerate.Mode.Automatic.Info">Sigue la tasa de fotogramas basada en eventos de las pistas superiores</s:String>
+    <s:String x:Key="S.Exporter.Framerate.Mode.Custom">Personalizado</s:String>
+    <s:String x:Key="S.Exporter.Framerate.Mode.Custom.Info">Tasa de fotogramas personalizada</s:String>
+    <s:String x:Key="S.Exporter.Framerate.Mode.Film">Cine</s:String>
+    <s:String x:Key="S.Exporter.Framerate.Mode.HighFramerate">Alta tasa de fotogramas</s:String>
+
+    <!--Windows • Exporter > Speed-->
+    <s:String x:Key="S.Exporter.Speed.Title">Velocidad de reproducción</s:String>
+    <s:String x:Key="S.Exporter.Speed.Multiplier">Multiplicador (×)</s:String>
+    <s:String x:Key="S.Exporter.Speed.Target">Objetivo</s:String>
+
+    <!--Windows • Exporter > Encoding-->
+    <s:String x:Key="S.Exporter.Encoding">Codificación</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Export">Exportar</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Export.Past">Exportaciones anteriores</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Export.Past.Clear">Borrar exportaciones anteriores</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Size.Partial">(hasta ahora)</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Size.Partial.Info">Tamaño del archivo exportado hasta ahora</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Size.Partial.Upload.Info">Tamaño subido hasta ahora</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Bitrate.Info">Bits codificados por segundo</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Bitrate.Upload.Info">Bits subidos por segundo</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Pass.First">Primera pasada</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Pass.Second">Segunda pasada</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Pass.Info">Pasada de codificación actual</s:String>
+    <s:String x:Key="S.Exporter.Encoding.MultipleFiles">Múltiples archivos</s:String>
+
+    <s:String x:Key="S.Exporter.Encoding.Status.Replaced">Reemplazado</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Status.Deleted">Eliminado</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Status.Uploading">Subiendo</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Status.Copying">Copiando</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Status.ExecutingCommands">Ejecutando comandos</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Status.Aborting">Cancelando</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Status.Aborted">Cancelado</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Status.Error">Error</s:String>
+
+    <s:String x:Key="S.Exporter.Encoding.Actions.Open">Abrir archivo</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Actions.SeeError">Ver detalles del error</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Actions.RemoveFromList">Eliminar de la lista</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Actions.More">Más acciones</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Actions.OpenFolder">Abrir carpeta</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Actions.CopyFile">Copiar archivo</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Actions.CopyPath">Copiar ruta</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Actions.DeleteFile">Eliminar archivo</s:String>
+
+    <!--Windows • Editor-->
+    <s:String x:Key="S.Editor.Title">N-Studio • Editor</s:String>
+    <s:String x:Key="S.Editor.Project">Proyecto</s:String>
+    <s:String x:Key="S.Editor.Project.New">Nuevo</s:String>
+    <s:String x:Key="S.Editor.Project.New.Screen">Desde grabación de pantalla</s:String>
+    <s:String x:Key="S.Editor.Project.New.Sound">Desde grabación de sonido</s:String>
+    <s:String x:Key="S.Editor.Project.New.Media">Desde archivo multimedia</s:String>
+    <s:String x:Key="S.Editor.Project.New.Empty">Vacío</s:String>
+    <s:String x:Key="S.Editor.Project.Open">Abrir</s:String>
+    <s:String x:Key="S.Editor.Project.OpenRecent">Abrir reciente</s:String>
+    <s:String x:Key="S.Editor.Project.Save">Guardar</s:String>
+    <s:String x:Key="S.Editor.Project.SaveAs">Guardar como...</s:String>
+    <s:String x:Key="S.Editor.Project.Export">Exportar...</s:String>
+    <s:String x:Key="S.Editor.Project.Properties">Propiedades</s:String>
+    <s:String x:Key="S.Editor.Project.Close">Cerrar</s:String>
+    <s:String x:Key="S.Editor.Project.Exit">Salir</s:String>
+    <s:String x:Key="S.Editor.Edit">Editar</s:String>
+    <s:String x:Key="S.Editor.Edit.Undo">Deshacer</s:String>
+    <s:String x:Key="S.Editor.Edit.Redo">Rehacer</s:String>
+    <s:String x:Key="S.Editor.Edit.Cut">Cortar</s:String>
+    <s:String x:Key="S.Editor.Edit.Copy">Copiar</s:String>
+    <s:String x:Key="S.Editor.Edit.Paste">Pegar</s:String>
+    <s:String x:Key="S.Editor.Edit.Remove">Eliminar</s:String>
+    <s:String x:Key="S.Editor.Insert">Insertar</s:String>
+    <s:String x:Key="S.Editor.Insert.Screen">Grabación de pantalla</s:String>
+    <s:String x:Key="S.Editor.Insert.Sound">Grabación de sonido</s:String>
+    <s:String x:Key="S.Editor.Insert.Media">Archivo multimedia</s:String>
+    <s:String x:Key="S.Editor.Insert.Text">Texto</s:String>
+    <s:String x:Key="S.Editor.Insert.Shape">Forma</s:String>
+    <s:String x:Key="S.Editor.Insert.Drawing">Dibujo</s:String>
+    <s:String x:Key="S.Editor.Insert.Progress">Indicador de progreso</s:String>
+    <s:String x:Key="S.Editor.Insert.Pixelation">Pixelación</s:String>
+    <s:String x:Key="S.Editor.Insert.Brightness">Brillo</s:String>
+    <s:String x:Key="S.Editor.Insert.Blur">Desenfoque</s:String>
+    <s:String x:Key="S.Editor.Insert.Zoom">Zoom</s:String>
+    <s:String x:Key="S.Editor.Insert.EmptyTrack">Pista vacía</s:String>
+
+    <s:String x:Key="S.Editor.Segment.TrimStart">Recortar inicio del segmento</s:String>
+    <s:String x:Key="S.Editor.Segment.Split">Dividir segmento</s:String>
+    <s:String x:Key="S.Editor.Segment.TrimEnd">Recortar final del segmento</s:String>
+    <s:String x:Key="S.Editor.Segment.Properties">Propiedades del segmento</s:String>
+
+    <s:String x:Key="S.Editor.More">Más</s:String>
+    <s:String x:Key="S.Editor.More.Help">Ayuda</s:String>
+    <s:String x:Key="S.Editor.More.Feedback">Comentarios</s:String>
+    <s:String x:Key="S.Editor.More.Settings">Ajustes</s:String>
+
+    <!--Windows • Editor > Sections-->
+    <s:String x:Key="S.Editor.Sections.Timing">Tiempo</s:String>
+    <s:String x:Key="S.Editor.Sections.Timing.Start">Inicio</s:String>
+    <s:String x:Key="S.Editor.Sections.Timing.StartOffset">Desplazamiento inicial</s:String>
+    <s:String x:Key="S.Editor.Sections.Timing.End">Fin</s:String>
+    <s:String x:Key="S.Editor.Sections.Timing.EndOffset">Desplazamiento final</s:String>
+    <s:String x:Key="S.Editor.Sections.Timing.Speed">Velocidad</s:String>
+    <s:String x:Key="S.Editor.Sections.Timing.Length">Duración</s:String>
+    <s:String x:Key="S.Editor.Sections.Dimensions">Dimensiones</s:String>
+    <s:String x:Key="S.Editor.Sections.Appearance">Apariencia</s:String>
+    <s:String x:Key="S.Editor.Sections.Appearance.Opacity">Opacidad</s:String>
+    <s:String x:Key="S.Editor.Sections.Miscellaneous">Miscelánea</s:String>
+    <s:String x:Key="S.Editor.Sections.Keys">Teclas</s:String>
+    <s:String x:Key="S.Editor.Sections.Keys.EditAliases">Editar alias de teclas</s:String>
+    <s:String x:Key="S.Editor.Sections.Keys.EditTranslations">Editar traducciones de teclas</s:String>
+    <s:String x:Key="S.Editor.Sections.Sound">Sonido</s:String>
+    <s:String x:Key="S.Editor.Sections.Sound.Device">Nombre del dispositivo</s:String>
+    <s:String x:Key="S.Editor.Sections.Sound.Channels">Canales</s:String>
+    <s:String x:Key="S.Editor.Sections.Sound.SampleRate">Frecuencia de muestreo</s:String>
+    <s:String x:Key="S.Editor.Sections.Progress">Progreso</s:String>
+    <s:String x:Key="S.Editor.Sections.Shape.Thickness">Grosor</s:String>
+
+    <!--Windows • Editor > Timeline-->
+    <s:String x:Key="S.Editor.Timeline.NoTracks">No hay faixas en este proyecto</s:String>
+    <s:String x:Key="S.Editor.Timeline.Locked">Bloqueado</s:String>
+    <s:String x:Key="S.Editor.Timeline.ScrollMode">Alternar modo de desplazamiento de la línea de tiempo</s:String>
+    <s:String x:Key="S.Editor.Timeline.ZoomOut">Alejar</s:String>
+
+    <!--Windows • Feedback-->
+    <s:String x:Key="S.Feedback.Header">Comentarios</s:String>
+    <s:String x:Key="S.Feedback.WhatsSent">¿Qué se enviará?</s:String>
+    <s:String x:Key="S.Feedback.ExportZip">Exportar como zip</s:String>
+    <s:String x:Key="S.Feedback.ExportZip.Info">Exportar comentarios como Zip</s:String>
+    <s:String x:Key="S.Feedback.ExportZip.File">Archivos zip</s:String>
+    <s:String x:Key="S.Feedback.Title">Título</s:String>
+    <s:String x:Key="S.Feedback.Title.Info">Descripción breve...</s:String>
+    <s:String x:Key="S.Feedback.Name">Nombre</s:String>
+    <s:String x:Key="S.Feedback.Name.Info">Tu nombre (opcional)</s:String>
+    <s:String x:Key="S.Feedback.Type">Tipo de comentario</s:String>
+    <s:String x:Key="S.Feedback.Type.Bug">Error</s:String>
+    <s:String x:Key="S.Feedback.Type.Suggestion">Sugerencia</s:String>
+    <s:String x:Key="S.Feedback.Type.Both">Error y sugerencia</s:String>
+    <s:String x:Key="S.Feedback.Type.Other">Otro</s:String>
+    <s:String x:Key="S.Feedback.Description">Descripción</s:String>
+    <s:String x:Key="S.Feedback.Description.Info">Describe con más detalles...</s:String>
+    <s:String x:Key="S.Feedback.Email">Correo electrónico</s:String>
+    <s:String x:Key="S.Feedback.Email.Info">Correo para contacto (opcional)</s:String>
+    <s:String x:Key="S.Feedback.Extra">Detalles adicionales</s:String>
+    <s:String x:Key="S.Feedback.Extra.System.Info">Versión del sistema operativo y parches instalados</s:String>
+    <s:String x:Key="S.Feedback.Extra.Application.Info">Versión de la aplicación</s:String>
+    <s:String x:Key="S.Feedback.Extra.Hardware">Hardware</s:String>
+    <s:String x:Key="S.Feedback.Extra.Hardware.Info">Detalles del procesador, memoria y adaptador gráfico</s:String>
+    <s:String x:Key="S.Feedback.Extra.Screen.Info">Detalles de pantalla como resolución y escala</s:String>
+    <s:String x:Key="S.Feedback.Extra.Disks.Info">Detalles de discos como tamaño total y disponible</s:String>
+    <s:String x:Key="S.Feedback.Extra.Error">Error</s:String>
+    <s:String x:Key="S.Feedback.Extra.Error.Info">Detalles sobre el error</s:String>
+    <s:String x:Key="S.Feedback.Extra.Settings">Ajustes de la aplicación</s:String>
+    <s:String x:Key="S.Feedback.Extra.Settings.Local">Ajustes locales de la aplicación</s:String>
+    <s:String x:Key="S.Feedback.Extra.Settings.Info">La configuración de la aplicación</s:String>
+    <s:String x:Key="S.Feedback.Extra.PreviousErrors">Registros de errores</s:String>
+    <s:String x:Key="S.Feedback.Extra.PreviousErrors.Info">Registros de errores de fallos anteriores</s:String>
+    <s:String x:Key="S.Feedback.Attachments">Adjuntos (máx. 100 MiB, 25 MiB cada uno)</s:String>
+    <s:String x:Key="S.Feedback.Attachments.Add">Añadir adjunto</s:String>
+    <s:String x:Key="S.Feedback.Attachments.Select">Seleccionar archivos para añadir como adjuntos</s:String>
+    <s:String x:Key="S.Feedback.Attachments.None">Aún no se han añadido adjuntos</s:String>
+    <s:String x:Key="S.Feedback.Attachments.Remove">Eliminar adjunto</s:String>
+
+    <!--Windows • Feedback preview-->
+    <s:String x:Key="S.FeedbackPreview.Header">Vista previa de comentarios</s:String>
+    <s:String x:Key="S.FeedbackPreview.System">Sistema</s:String>
+    <s:String x:Key="S.FeedbackPreview.System.Name">Nombre</s:String>
+    <s:String x:Key="S.FeedbackPreview.System.Build">Compilación</s:String>
+    <s:String x:Key="S.FeedbackPreview.System.Architecture">Arquitectura</s:String>
+    <s:String x:Key="S.FeedbackPreview.System.UserName">Nombre de usuario</s:String>
+    <s:String x:Key="S.FeedbackPreview.System.MachineName">Nombre del equipo</s:String>
+    <s:String x:Key="S.FeedbackPreview.Application">Aplicación</s:String>
+    <s:String x:Key="S.FeedbackPreview.Application.Version">Versión</s:String>
+    <s:String x:Key="S.FeedbackPreview.Application.Variant">Variante</s:String>
+    <s:String x:Key="S.FeedbackPreview.Application.Startup">Iniciada en</s:String>
+    <s:String x:Key="S.FeedbackPreview.Application.Date">Fecha</s:String>
+    <s:String x:Key="S.FeedbackPreview.Application.Running">En ejecución durante</s:String>
+    <s:String x:Key="S.FeedbackPreview.Processor">Procesador</s:String>
+    <s:String x:Key="S.FeedbackPreview.Processor.Model">Modelo</s:String>
+    <s:String x:Key="S.FeedbackPreview.Processor.Frequency">Frecuencia</s:String>
+    <s:String x:Key="S.FeedbackPreview.Processor.CoresThreads">Núcleos/hilos</s:String>
+    <s:String x:Key="S.FeedbackPreview.Processor.Architecture">Arquitectura</s:String>
+    <s:String x:Key="S.FeedbackPreview.Memory">Memoria</s:String>
+    <s:String x:Key="S.FeedbackPreview.Memory.Total">Total</s:String>
+    <s:String x:Key="S.FeedbackPreview.Memory.Available">Disponible</s:String>
+    <s:String x:Key="S.FeedbackPreview.Memory.Used">Usada</s:String>
+    <s:String x:Key="S.FeedbackPreview.Graphics">Adaptadores gráficos</s:String>
+    <s:String x:Key="S.FeedbackPreview.Graphics.Refresh">Frecuencia de actualización</s:String>
+    <s:String x:Key="S.FeedbackPreview.Graphics.Driver">Versión del controlador</s:String>
+    <s:String x:Key="S.FeedbackPreview.Screens">Pantallas</s:String>
+    <s:String x:Key="S.FeedbackPreview.Screens.Name">Nombre descriptivo</s:String>
+    <s:String x:Key="S.FeedbackPreview.Screens.Bounds">Límites</s:String>
+    <s:String x:Key="S.FeedbackPreview.Screens.WorkingArea">Área de trabajo</s:String>
+    <s:String x:Key="S.FeedbackPreview.Screens.Scale">DPI/escala</s:String>
+    <s:String x:Key="S.FeedbackPreview.Screens.Adapter">Adaptador gráfico</s:String>
+    <s:String x:Key="S.FeedbackPreview.Disks">Discos</s:String>
+    <s:String x:Key="S.FeedbackPreview.Disks.Root">Raíz</s:String>
+    <s:String x:Key="S.FeedbackPreview.Disks.Total">Total</s:String>
+    <s:String x:Key="S.FeedbackPreview.Disks.Free">Libre</s:String>
+    <s:String x:Key="S.FeedbackPreview.Disks.Format">Formato</s:String>
+    <s:String x:Key="S.FeedbackPreview.Disks.Type">Tipo</s:String>
+    <s:String x:Key="S.FeedbackPreview.Disks.Ready">¿Listo?</s:String>
+
+    <!--Project Types -->
+    <s:String x:Key="S.ProjectTypes.Recording">Grabación</s:String>
+    <s:String x:Key="S.ProjectTypes.Project">Proyecto</s:String>
+    <s:String x:Key="S.ProjectTypes.RecordingOld">Grabación (antigua)</s:String>
+
+    <!--Capture-->
+    <s:String x:Key="S.Capture.Record">Grabar</s:String>
+    <s:String x:Key="S.Capture.Snap">Capturar</s:String>
+    <s:String x:Key="S.Capture.Pause">Pausar</s:String>
+    <s:String x:Key="S.Capture.Continue">Continuar</s:String>
+    <s:String x:Key="S.Capture.Stop">Detener</s:String>
+    <s:String x:Key="S.Capture.Discard">Descartar</s:String>
+    <s:String x:Key="S.Capture.Time">Tiempo de captura</s:String>
+
+    <!--Timer-->
+    <s:String x:Key="S.Timer.Elapsed">Tiempo de captura transcurrido</s:String>
+    <s:String x:Key="S.Timer.Total">Total de fotogramas:</s:String>
+    <s:String x:Key="S.Timer.Manual">Capturados manualmente:</s:String>
+    <s:String x:Key="S.Timer.Paused">La captura está en pausa</s:String>
+    <s:String x:Key="S.Timer.Imprecise">Tu equipo no admite un modo de captura preciso,&#10;lo que significa que la tasa de fotogramas objetivo puede no alcanzarse</s:String>
+
+    <!--Audio-->
+    <s:String x:Key="S.Audio.Toggle.Microphone.Info">Alternar captura de audio desde micrófonos</s:String>
+    <s:String x:Key="S.Audio.Toggle.Speaker.Info">Alternar captura de audio desde altavoces</s:String>
+
+    <!--Remember choices-->
+    <s:String x:Key="S.RememberChoice">Recordar mi elección</s:String>
+    <s:String x:Key="S.RememberChoice.Editor.Info">Para cambiar estas preferencias más tarde, visita Ajustes > Editor</s:String>
+
+        <!--Playback-->
+    <s:String x:Key="S.Playback.Play">Reproducir</s:String>
+    <s:String x:Key="S.Playback.Pause">Pausar</s:String>
+    <s:String x:Key="S.Playback.SkipBackward">Saltar hacia atrás</s:String>
+    <s:String x:Key="S.Playback.SkipFrameBackward">Saltar un fotograma hacia atrás</s:String>
+    <s:String x:Key="S.Playback.SkipForward">Saltar hacia adelante</s:String>
+    <s:String x:Key="S.Playback.SkipFrameForward">Saltar un fotograma hacia adelante</s:String>
+    <s:String x:Key="S.Playback.CurrentTime">Tiempo actual</s:String>
+    <s:String x:Key="S.Playback.TimeLeft">Tiempo restante</s:String>
+    <s:String x:Key="S.Playback.RepeatOn">Repetición activada</s:String>
+    <s:String x:Key="S.Playback.RepeatOff">Repetición desactivada</s:String>
+    <s:String x:Key="S.Playback.Volume">Volumen</s:String>
+    <s:String x:Key="S.Playback.ToggleVolume">Silenciar/activar sonido</s:String>
+    <s:String x:Key="S.Playback.Statistics">Número de fotogramas, tasa de fotogramas media y tiempo medio de exhibición</s:String>
+
+    <!--Positioning-->
+    <s:String x:Key="S.Positioning.Left">Izquierda</s:String>
+    <s:String x:Key="S.Positioning.Top">Arriba</s:String>
+    <s:String x:Key="S.Positioning.Right">Derecha</s:String>
+    <s:String x:Key="S.Positioning.Bottom">Abajo</s:String>
+    <s:String x:Key="S.Positioning.Width">Ancho</s:String>
+    <s:String x:Key="S.Positioning.Height">Alto</s:String>
+    <s:String x:Key="S.Positioning.Angle">Ángulo</s:String>
+
+    <!--Timing-->
+    <s:String x:Key="S.Timing.Start">Inicio</s:String>
+    <s:String x:Key="S.Timing.End">Fin</s:String>
+
+    <!--States-->
+    <s:String x:Key="S.Field.Empty">(vacío)</s:String>
+    <s:String x:Key="S.Field.Space">(espacio)</s:String>
+    <s:String x:Key="S.Field.Key">Haz clic para enfocar el teclado y luego presiona las teclas y modificadores deseados.&#10;Algunas combinaciones no están permitidas.</s:String>
+    <s:String x:Key="S.Field.Key.Remove">Eliminar combinación de teclas</s:String>
+
+    <!--Loading-->
+    <s:String x:Key="S.State.Loading">Cargando...</s:String>
+    <s:String x:Key="S.State.Processing">Procesando...</s:String>
+    <s:String x:Key="S.State.Saving">Guardando...</s:String>
+
+    <!--Track-->
+    <s:String x:Key="S.Track.Visibility.Info">Alternar visibilidad de la faixa</s:String>
+    <s:String x:Key="S.Track.Visibility.Hide">Ocultar</s:String>
+    <s:String x:Key="S.Track.Visibility.Show">Mostrar</s:String>
+    <s:String x:Key="S.Track.Audio.Info">Alternar audio de la faixa</s:String>
+    <s:String x:Key="S.Track.Audio.Mute">Silenciar</s:String>
+    <s:String x:Key="S.Track.Audio.Unmute">Activar sonido</s:String>
+    <s:String x:Key="S.Track.Effects.Info">Alternar efectos de la faixa</s:String>
+    <s:String x:Key="S.Track.Effects.Enabled">Activar efectos</s:String>
+    <s:String x:Key="S.Track.Effects.Disable">Desactivar efectos</s:String>
+    <s:String x:Key="S.Track.Lock.Info">Alternar bloqueo de la faixa</s:String>
+    <s:String x:Key="S.Track.Lock.Enable">Bloquear</s:String>
+    <s:String x:Key="S.Track.Lock.Disable">Desbloquear</s:String>
+    <s:String x:Key="S.Track.Name.Info">Haz doble clic para editar el nombre de la faixa</s:String>
+    <s:String x:Key="S.Track.Properties.Info">Propiedades de la faixa</s:String>
+
+    <!--Status-->
+    <s:String x:Key="S.Status.On">Activado</s:String>
+    <s:String x:Key="S.Status.Off">Desactivado</s:String>
+
+    <!--Drag and drop-->
+    <s:String x:Key="S.DragDrop.Info">Puedes soltar archivos multimedia o un proyecto aquí</s:String>
+    <s:String x:Key="S.DragDrop.Insert">Soltar para insertar el/los archivo(s)</s:String>
+    <s:String x:Key="S.DragDrop.Open">Soltar para abrir el/los archivo(s)</s:String>
+    <s:String x:Key="S.DragDrop.Folder.Insert">Soltar para insertar archivos desde la(s) carpeta(s)</s:String>
+    <s:String x:Key="S.DragDrop.Folder.Open">Soltar para abrir archivos desde la(s) carpeta(s)</s:String>
+    <s:String x:Key="S.DragDrop.Both.Insert">Soltar para insertar archivo(s) junto con archivos de la(s) carpeta(s)</s:String>
+    <s:String x:Key="S.DragDrop.Both.Open">Soltar para abrir archivo(s) junto con archivos de la(s) carpeta(s)</s:String>
+    <s:String x:Key="S.DragDrop.Unsupported">Archivo(s) no compatible(s)</s:String>
+    <s:String x:Key="S.DragDrop.Ignored">Algunos archivos no compatibles serán ignorados</s:String>
+
+    <!--Keys-->
+    <s:String x:Key="S.Keys.Backspace">Retroceso</s:String>
+    <s:String x:Key="S.Keys.Tab">Tabulador</s:String>
+    <s:String x:Key="S.Keys.Return">Enter</s:String>
+    <s:String x:Key="S.Keys.PauseBreak">Pausa/Interrupción</s:String>
+    <s:String x:Key="S.Keys.CapsLock">Bloq Mayús</s:String>
+    <s:String x:Key="S.Keys.Escape">Esc</s:String>
+    <s:String x:Key="S.Keys.Space">Espacio</s:String>
+    <s:String x:Key="S.Keys.PageUp">Re Pág</s:String>
+    <s:String x:Key="S.Keys.PageDown">Av Pág</s:String>
+    <s:String x:Key="S.Keys.Home">Inicio</s:String>
+    <s:String x:Key="S.Keys.End">Fin</s:String>
+    <s:String x:Key="S.Keys.Left">Flecha izquierda</s:String>
+    <s:String x:Key="S.Keys.Up">Flecha arriba</s:String>
+    <s:String x:Key="S.Keys.Right">Flecha derecha</s:String>
+    <s:String x:Key="S.Keys.Down">Flecha abajo</s:String>
+    <s:String x:Key="S.Keys.PrintScreen">Impr Pant</s:String>
+    <s:String x:Key="S.Keys.Insert">Insertar</s:String>
+    <s:String x:Key="S.Keys.Delete">Eliminar</s:String>
+    <s:String x:Key="S.Keys.NumLock">Bloq Num</s:String>
+    <s:String x:Key="S.Keys.ScrollLock">Bloq Despl</s:String>
+    <s:String x:Key="S.Keys.Shift">Shift</s:String>
+    <s:String x:Key="S.Keys.LeftShift">Shift izquierdo</s:String>
+    <s:String x:Key="S.Keys.RightShift">Shift derecho</s:String>
+    <s:String x:Key="S.Keys.Alt">Alt</s:String>
+    <s:String x:Key="S.Keys.LeftAlt">Alt izquierdo</s:String>
+    <s:String x:Key="S.Keys.RightAlt">Alt derecho</s:String>
+    <s:String x:Key="S.Keys.Ctrl">Control</s:String>
+    <s:String x:Key="S.Keys.LeftCtrl">Ctrl izquierdo</s:String>
+    <s:String x:Key="S.Keys.RightCtrl">Ctrl derecho</s:String>
+    <s:String x:Key="S.Keys.Windows">Windows</s:String>
+    <s:String x:Key="S.Keys.LeftWindows">Windows izquierdo</s:String>
+    <s:String x:Key="S.Keys.RightWindows">Windows derecho</s:String>
+    <s:String x:Key="S.Keys.NextTrack">Pista siguiente</s:String>
+    <s:String x:Key="S.Keys.PreviousTrack">Pista anterior</s:String>
+    <s:String x:Key="S.Keys.PlayPause">Reproducir/Pausar</s:String>
+    <s:String x:Key="S.Keys.Stop">Detener</s:String>
+
+    <!--Mouse buttons-->
+    <s:String x:Key="S.Mouse.Right">Clic derecho</s:String>
+
+    <!--Units-->
+    <s:String x:Key="S.Units.Points.Short">pt</s:String>
+    <s:String x:Key="S.Units.Second.Short">s</s:String>
+    <s:String x:Key="S.Units.Millisecond.Short">ms</s:String>
+    <s:String x:Key="S.Units.Pixels.Short">px</s:String>
+    <s:String x:Key="S.Units.FramesPerSecond.Short">fps</s:String>
+
+    <!--Formats-->
+    <s:String x:Key="S.Formats.Type.Animated">Imagen animada</s:String>
+    <s:String x:Key="S.Formats.Type.Video">Vídeo</s:String>
+    <s:String x:Key="S.Formats.Type.Audio">Audio</s:String>
+    <s:String x:Key="S.Formats.Type.Frames">Fotogramas</s:String>
+    <s:String x:Key="S.Formats.Type.Other">Otro</s:String>
+    <s:String x:Key="S.Formats.Type.All">Todos los archivos</s:String>
+
+    <s:String x:Key="S.Formats.Apng">Apng</s:String>
+    <s:String x:Key="S.Formats.Apng.Info">Animated Portable Network Graphics</s:String>
+    <s:String x:Key="S.Formats.Gif">Gif</s:String>
+    <s:String x:Key="S.Formats.Gif.Info">Graphics Interchange Format</s:String>
+    <s:String x:Key="S.Formats.Webp">Webp</s:String>
+    <s:String x:Key="S.Formats.Webp.Info">Web Picture</s:String>
+
+    <s:String x:Key="S.Formats.Avi">Avi</s:String>
+    <s:String x:Key="S.Formats.Avi.Info">Audio Video Interleave</s:String>
+    <s:String x:Key="S.Formats.Mkv">Mkv</s:String>
+    <s:String x:Key="S.Formats.Mkv.Info">Matroska</s:String>
+    <s:String x:Key="S.Formats.Mov">Mov</s:String>
+    <s:String x:Key="S.Formats.Mov.Info">QuickTime File Format</s:String>
+    <s:String x:Key="S.Formats.Mp4">Mp4</s:String>
+    <s:String x:Key="S.Formats.Mp4.Info">Mpeg-4</s:String>
+    <s:String x:Key="S.Formats.Webm">Webm</s:String>
+    <s:String x:Key="S.Formats.Webm.Info">Web Movie</s:String>
+
+    <s:String x:Key="S.Formats.Aac">Aac</s:String>
+    <s:String x:Key="S.Formats.Aac.Info">Advanced Audio Coding</s:String>
+    <s:String x:Key="S.Formats.Ac3">Ac3</s:String>
+    <s:String x:Key="S.Formats.Ac3.Info">Audio Codec 3</s:String>
+    <s:String x:Key="S.Formats.Aiff">Aiff</s:String>
+    <s:String x:Key="S.Formats.Aiff.Info">Audio Interchange File Format</s:String>
+    <s:String x:Key="S.Formats.Alac">Alac</s:String>
+    <s:String x:Key="S.Formats.Alac.Info">Apple Lossless Audio Codec</s:String>
+    <s:String x:Key="S.Formats.Amr">Amr</s:String>
+    <s:String x:Key="S.Formats.Amr.Info">Adaptive Multi-Rate</s:String>
+    <s:String x:Key="S.Formats.Flac">Flac</s:String>
+    <s:String x:Key="S.Formats.Flac.Info">Free Lossless Audio Codec</s:String>
+    <s:String x:Key="S.Formats.Mp3">Mp3</s:String>
+    <s:String x:Key="S.Formats.Mp3.Info">MPEG-1/2 Audio Layer III</s:String>
+    <s:String x:Key="S.Formats.Ogg">Ogg</s:String>
+    <s:String x:Key="S.Formats.Ogg.Info">Ogg Vorbis Container</s:String>
+    <s:String x:Key="S.Formats.Opus">Opus</s:String>
+    <s:String x:Key="S.Formats.Opus.Info">Opus</s:String>
+    <s:String x:Key="S.Formats.Wav">Wav</s:String>
+    <s:String x:Key="S.Formats.Wav.Info">Waveform Audio File Format</s:String>
+    <s:String x:Key="S.Formats.Wma">Wma</s:String>
+    <s:String x:Key="S.Formats.Wma.Info">Windows Media Audio</s:String>
+
+    <s:String x:Key="S.Formats.Bmp">Bmp</s:String>
+    <s:String x:Key="S.Formats.Bmp.Info">Bitmap</s:String>
+    <s:String x:Key="S.Formats.Jpeg">Jpeg</s:String>
+    <s:String x:Key="S.Formats.Jpeg.Info">Joint Photographic Experts Group</s:String>
+    <s:String x:Key="S.Formats.Png">Png</s:String>
+    <s:String x:Key="S.Formats.Png.Info">Portable Network Graphics</s:String>
+    <s:String x:Key="S.Formats.Images.Zip">Imágenes empaquetadas</s:String>
+
+    <s:String x:Key="S.Formats.Project">Proyecto</s:String>
+    <s:String x:Key="S.Formats.Project.Info">Proyecto de N-Studio</s:String>
+    <s:String x:Key="S.Formats.LegacyProject">Proyecto ScreenToGif</s:String>
+    <s:String x:Key="S.Formats.LegacyProject.Info">Archivo de proyecto usado por ScreenToGif</s:String>
+    <s:String x:Key="S.Formats.Psd">Psd</s:String>
+    <s:String x:Key="S.Formats.Psd.Info">Archivo de Photoshop</s:String>
+
+    <!--Objects-->
+    <s:String x:Key="S.Project">Proyecto</s:String>
+    <s:String x:Key="S.Track">Pista</s:String>
+    <s:String x:Key="S.Segment">Segmento</s:String>
+
+    <!--Segments-->
+    <s:String x:Key="S.Segments.Frames">Fotogramas</s:String>
+    <s:String x:Key="S.Segments.MouseCursor">Cursor del ratón</s:String>
+    <s:String x:Key="S.Segments.KeyPresses">Pulsaciones de teclas</s:String>
+    <s:String x:Key="S.Segments.Text">Texto</s:String>
+    <s:String x:Key="S.Segments.Progress">Progreso</s:String>
+    <s:String x:Key="S.Segments.Image">Imagen</s:String>
+    <s:String x:Key="S.Segments.AnimatedImage">Imagen animada</s:String>
+    <s:String x:Key="S.Segments.Video">Vídeo</s:String>
+    <s:String x:Key="S.Segments.LinkedVideo">Vídeo vinculado</s:String>
+    <s:String x:Key="S.Segments.Audio">Audio</s:String>
+    <s:String x:Key="S.Segments.MicrophoneAudio">Audio del micrófono</s:String>
+    <s:String x:Key="S.Segments.SystemAudio">Audio del sistema</s:String>
+    <s:String x:Key="S.Segments.Subtitle">Subtítulo</s:String>
+    <s:String x:Key="S.Segments.Shape">Forma</s:String>
+    <s:String x:Key="S.Segments.Drawing">Dibujo</s:String>
+    <s:String x:Key="S.Segments.Pixelation">Pixelación</s:String>
+    <s:String x:Key="S.Segments.Blur">Desenfoque</s:String>
+    <s:String x:Key="S.Segments.Brightness">Brillo</s:String>
+    <s:String x:Key="S.Segments.Unfocus">Desenfocar</s:String>
+    <s:String x:Key="S.Segments.Zoom">Zoom</s:String>
+    <s:String x:Key="S.Segments.NewTrack">Nueva pista</s:String>
+
+    <!--Settings-->
+    <s:String x:Key="S.Settings.Title">N-Studio • Ajustes</s:String>
+    <s:String x:Key="S.Settings.Pages.Application">Aplicación</s:String>
+    <s:String x:Key="S.Settings.Pages.ScreenRecorder">Grabador de pantalla</s:String>
+    <s:String x:Key="S.Settings.Pages.SoundRecorder">Grabador de sonido</s:String>
+    <s:String x:Key="S.Settings.Pages.DefaultStyles">Estilos predeterminados</s:String>
+    <s:String x:Key="S.Settings.Pages.DefaultEffects">Efectos predeterminados</s:String>
+    <s:String x:Key="S.Settings.Pages.Editor">Editor</s:String>
+    <s:String x:Key="S.Settings.Pages.Exporter">Exportador</s:String>
+    <s:String x:Key="S.Settings.Pages.Storage">Almacenamiento</s:String>
+    <s:String x:Key="S.Settings.Pages.Plugins">Plugins</s:String>
+    <s:String x:Key="S.Settings.Pages.Update">Actualización</s:String>
+    <s:String x:Key="S.Settings.Pages.About">Acerca de</s:String>
+
+    <!--Settings • Sections-->
+    <s:String x:Key="S.Settings.Sections.Interface">Interfaz</s:String>
+    <s:String x:Key="S.Settings.Sections.Behavior">Comportamiento</s:String>
+    <s:String x:Key="S.Settings.Sections.InterfaceBehavior">Interfaz y comportamiento</s:String>
+    <s:String x:Key="S.Settings.Sections.Shortcuts">Atajos</s:String>
+    <s:String x:Key="S.Settings.Sections.Selection">Selección</s:String>
+    <s:String x:Key="S.Settings.Sections.Capture">Captura</s:String>
+    <s:String x:Key="S.Settings.Sections.Guidelines">Guías</s:String>
+    <s:String x:Key="S.Settings.Sections.TemporaryFiles">Archivos temporales</s:String>
+    <s:String x:Key="S.Settings.Sections.Cleanup">Limpieza</s:String>
+    <s:String x:Key="S.Settings.Sections.MoreOptions">Más opciones</s:String>
+
+    <!--Settings • Application-->
+    <s:String x:Key="S.Settings.Application.Language">Idioma</s:String>
+    <s:String x:Key="S.Settings.Application.Language.Auto">Detección automática</s:String>
+    <s:String x:Key="S.Settings.Application.Language.Imported">Localización importada</s:String>
+    <s:String x:Key="S.Settings.Application.Language.Detected">Idioma detectado</s:String>
+    <s:String x:Key="S.Settings.Application.Language.Authors">Autores</s:String>
+    <s:String x:Key="S.Settings.Application.Language.LastUpdated">Última actualización en</s:String>
+    <s:String x:Key="S.Settings.Application.Language.Custom">Traducción personalizada</s:String>
+    <s:String x:Key="S.Settings.Application.Language.Guidelines">Guía de traducción</s:String>
+    <s:String x:Key="S.Settings.Application.Language.Import.Info">Importar un recurso de localización para probar</s:String>
+    <s:String x:Key="S.Settings.Application.Theme">Tema</s:String>
+    <s:String x:Key="S.Settings.Application.Theme.Light">Claro</s:String>
+    <s:String x:Key="S.Settings.Application.Theme.Dark">Oscuro</s:String>
+    <s:String x:Key="S.Settings.Application.Theme.System">Seguir el sistema</s:String>
+    <s:String x:Key="S.Settings.Application.Transparency">Efectos de transparencia</s:String>
+    <s:String x:Key="S.Settings.Application.Transparency.Info">Las ventanas aparecerán translúcidas si es compatible</s:String>
+    <s:String x:Key="S.Settings.Application.Tray">Icono en la bandeja del sistema</s:String>
+    <s:String x:Key="S.Settings.Application.Tray.Info">Controla el icono de la aplicación que se muestra en la bandeja del sistema</s:String>
+    <s:String x:Key="S.Settings.Application.Tray.Show">Mostrar la aplicación en la bandeja del sistema (área de notificación)</s:String>
+    <s:String x:Key="S.Settings.Application.Tray.KeepOpen">Mantener la aplicación abierta incluso si todas las ventanas están cerradas</s:String>
+    <s:String x:Key="S.Settings.Application.Tray.LeftClick">Clic izquierdo</s:String>
+    <s:String x:Key="S.Settings.Application.Tray.LeftDoubleClick">Clic izquierdo (x2)</s:String>
+    <s:String x:Key="S.Settings.Application.Tray.MiddleClick">Clic central</s:String>
+
+    <s:String x:Key="S.Settings.Application.Tray.Interactions.Nothing">Nada</s:String>
+    <s:String x:Key="S.Settings.Application.Tray.Interactions.Open">Abrir</s:String>
+    <s:String x:Key="S.Settings.Application.Tray.Interactions.Open.None">Sin ventana</s:String>
+    <s:String x:Key="S.Settings.Application.Tray.Interactions.Toggle">Alternar</s:String>
+    <s:String x:Key="S.Settings.Application.Tray.Interactions.Minimize">Minimizar</s:String>
+    <s:String x:Key="S.Settings.Application.Tray.Interactions.Restore">Restaurar</s:String>
+    <s:String x:Key="S.Settings.Application.Tray.Interactions.Window">Ventana</s:String>
+    <s:String x:Key="S.Settings.Application.Tray.Interactions.Else">O si no, abrir</s:String>
+
+    <!--Settings • Application > Startup-->
+    <s:String x:Key="S.Settings.Application.Startup">Inicio</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.Info">Controla cómo se comporta la aplicación al iniciar</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith">Iniciar con</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.Info">La ventana inicial de la aplicación</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.Welcome">Ventana de bienvenida</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.Welcome.Info">Pantalla de bienvenida simple con accesos directos</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.Screen">Grabador de pantalla</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.Screen.Info">Captura tu pantalla junto con audio del micrófono o del sistema</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.Sound">Grabador de sonido</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.Sound.Info">Captura audio desde micrófonos o del sistema</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.Editor">Editor</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.Editor.Info">Crear o editar contenido</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.Nothing">Nada</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.Nothing.Info">Dejar la aplicación en la bandeja del sistema</s:String>
+
+    <s:String x:Key="S.Settings.Application.Startup.StartWithWindows">Iniciar con Windows</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWithWindows.Info">La aplicación se ejecutará después de iniciar Windows</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.AllowMultiple">Permitir múltiples instancias</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.AllowMultiple.Info">Podrás ejecutar la aplicación varias veces al mismo tiempo, sin restricciones</s:String>
+
+    <!--Settings • Application > Shortcuts-->
+    <s:String x:Key="S.Settings.Application.Shortcuts.Screen.Info">Cambia al grabador de pantalla o abre una nueva instancia</s:String>
+    <s:String x:Key="S.Settings.Application.Shortcuts.Sound.Info">Cambia al grabador de sonido o abre una nueva instancia</s:String>
+    <s:String x:Key="S.Settings.Application.Shortcuts.Editor.Info">Abre otra instancia del editor</s:String>
+    <s:String x:Key="S.Settings.Application.Shortcuts.Settings">Ajustes</s:String>
+    <s:String x:Key="S.Settings.Application.Shortcuts.Settings.Info">Abre la ventana de ajustes</s:String>
+    <s:String x:Key="S.Settings.Application.Shortcuts.Exit">Salir</s:String>
+    <s:String x:Key="S.Settings.Application.Shortcuts.Exit.Info">Cierra todas las ventanas y elimina la aplicación de la bandeja del sistema</s:String>
+
+    <s:String x:Key="S.Settings.Application.DisableHardwareAcc">Desactivar aceleración por hardware</s:String>
+    <s:String x:Key="S.Settings.Application.DisableHardwareAcc.Info">La interfaz de usuario se renderizará en modo de software</s:String>
+    <s:String x:Key="S.Settings.Application.AskWhenExiting">Preguntarme antes de cerrar la aplicación</s:String>
+    <s:String x:Key="S.Settings.Application.AskWhenExiting.Info">A través del comando 'salir'</s:String>
+
+    <!--Settings • Screen Recorder-->
+    <s:String x:Key="S.Settings.ScreenRecorder.AfterRecording">Ventana después de grabar</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.AfterRecording.Exporter">Exportador</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.AfterRecording.Exporter.Info">Con herramientas simples de edición rápida como recortar, redimensionar, cortar, etc.</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.AfterRecording.Editor">Editor</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.AfterRecording.Editor.Info">Editor completo, insertar capas, controlar la línea de tiempo, etc.</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.StartAfterSelection">Iniciar grabación después de la selección</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.StartAfterSelection.Info">Acelera tu flujo de trabajo grabando automáticamente tras seleccionar una región</s:String>
+
+    <s:String x:Key="S.Settings.ScreenRecorder.Shortcuts.StartPause">Iniciar/pausar</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Shortcuts.StartPause.Info">Inicia o pausa la grabación (toma capturas si el modo manual está activado)</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Shortcuts.Stop">Detener</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Shortcuts.Stop.Info">Detiene la grabación</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Shortcuts.Discard">Descartar</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Shortcuts.Discard.Info">Descarta la grabación actual</s:String>
+
+    <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown">Mostrar cuenta regresiva</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.Info">Espera un tiempo determinado antes de grabar</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.WaitTime">Tiempo de espera</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.ShowDiscardOnRecording">Mostrar botón de descartar durante la grabación</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.ShowDiscardOnRecording.Info">Normalmente solo es visible cuando está en pausa</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.AskBeforeDiscarding">Preguntarme antes de descartar la grabación</s:String>
+
+    <!--Settings • Screen Recorder > Cursor Following-->
+    <s:String x:Key="S.Settings.ScreenRecorder.CursorFollowing">Seguimiento del cursor</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.CursorFollowing.Info">El área de grabación seguirá el cursor del ratón</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.CursorFollowing.Buffer">Margen de seguridad</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.CursorFollowing.Buffer.Info">Distancia mínima desde los bordes cuando comienza el desplazamiento automático</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.CursorFollowing.BufferHide">Margen para ocultar la interfaz</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.CursorFollowing.BufferHide.Info">Distancia mínima desde los bordes cuando la interfaz se oculta</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.CursorFollowing.SwitchShortcut">Atajo para alternar</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.CursorFollowing.SwitchShortcut.Info">Activa/desactiva el seguimiento del cursor</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.CursorFollowing.ToggleTemporarily">Desactivar temporalmente</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.CursorFollowing.ToggleTemporarily.Info">Activa/desactiva temporalmente el seguimiento; solo se aceptan teclas modificadoras</s:String>
+
+    <!--Settings • Screen Recorder > Region Selection-->
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection">Selección de región</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Remember">Recordar selección de pantalla</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Remember.Never">Nunca (siempre preguntar)</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Remember.Size">Solo tamaño</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Remember.SizePosition">Tamaño y posición</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Mode">Modo de selección de pantalla</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Mode.Region">Región</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Mode.Window">Ventana</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Mode.Screen">Pantalla</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.RememberMode">Recordar modo de selección</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.RememberMode.Info">Cuando vuelvas a usar la selección de pantalla, se usará el modo utilizado previamente</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Border">Colores del borde de selección</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Border.Alternate">Haz clic aquí para seleccionar el color alternativo</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Dash">Longitud del trazo de selección</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Magnifier">Mostrar lupa de pantalla</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Magnifier.Info">Muestra una ventana flotante cerca del cursor con el área ampliada</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Panning">Habilitar desplazamiento de selección</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Panning.Info">Permite arrastrar la región seleccionada después de elegirla</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Performance">Mejorar el rendimiento de selección</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Performance.Info">Reduce el retraso durante la selección mostrando una vista estática de la pantalla</s:String>
+
+    <!--Settings • Screen Recorder > Input/Output-->
+    <s:String x:Key="S.Settings.ScreenRecorder.Input">Selección de dispositivo de entrada</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Input.Save">Guardar preferencias de dispositivo</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Input.Save.Never">Nunca</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Input.Save.State">Recordar solo el estado de silencio</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Input.Save.StateSelection">Recordar estado de silencio y selección de dispositivo</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Input.Default">Selección predeterminada</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Input.Default.Mic">Alternar captura de audio desde micrófonos</s:String>
+
+    <s:String x:Key="S.Settings.ScreenRecorder.Output">Selección de dispositivo de salida</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Output.Default.System">Alternar captura de audio desde altavoces</s:String>
+
+    <!--Settings • Screen Recorder > Capture-->
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture">Modo de captura</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Method">Método de captura</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Method.BitBlt.Info">Usa el método de captura antiguo, que es más lento y puede no funcionar al capturar juegos,&#10;pero es más fiable</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Method.DirectX.Info">Usa el método de captura Desktop Duplication API, que es más rápido y&#10;permite capturar juegos a pantalla completa</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Compression">Compresión</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Compression.Slowest">Más lenta</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Compression.Slowest.Info">Lo más pequeño posible, incluso si tarda más en procesar</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Compression.Optimal">Óptima</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Compression.Optimal.Info">Más rápida pero probablemente con compresión menos óptima</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Compression.Fastest">Más rápida</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Compression.Fastest.Info">Más rápida pero probablemente con compresión menos óptima</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Compression.None">Sin compresión</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Compression.None.Info">No debe realizarse compresión al capturar fotogramas</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.CacheSize">Tamaño de caché en memoria</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.CacheSize.Info">Al alcanzar este tamaño, los datos se vaciarán/escribirán en el disco</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.MouseEvents">Capturar eventos del cursor del ratón</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.MouseEvents.Info">Los eventos se almacenarán en una pista separada para trabajar con ellos más tarde</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.KeyboardEvents">Capturar eventos del teclado</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.KeyboardEvents.Info">Los eventos se almacenarán en una pista separada para trabajar con ellos más tarde</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.ForceMemoryCleanUp">Forzar limpieza de memoria durante la captura</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.ForceMemoryCleanUp.Info">Reduce el uso de memoria durante la captura, pero disminuye el rendimiento</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.PreventBlack">Evitar captura de fotogramas completamente negros</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.PreventBlack.Info">Evita capturar incorrectamente fotogramas donde todos los píxeles son negros</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.RemoteImprovement">Desactivar captura de ventanas en capas, mejorando el rendimiento en conexiones de escritorio remoto</s:String>
+
+    <!--Settings • Screen Recorder > Capture Frequency-->
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency">Frecuencia de captura</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Frequency">Frecuencia</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Manual">Manual</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Manual.Info">Cada fotograma será capturado manualmente por ti, presionando el botón de captura&#10;o el atajo de teclado equivalente.</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Interaction">Interacción del usuario</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Interaction.Info">Los fotogramas se capturarán cada vez que hagas clic o escribas algo.</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Second">Por segundo</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Second.Info">Los fotogramas se capturarán en una base “por segundo”,&#10;según el denominador de framerate configurado en la pantalla del grabador.</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Minute">Por minuto</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Minute.Info">Los fotogramas se capturarán en una base “por minuto” (timelapse),&#10;según el denominador de framerate configurado en la pantalla del grabador.</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Hour">Por hora</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Hour.Info">Los fotogramas se capturarán en una base “por hora” (timelapse),&#10;según el denominador de framerate configurado en la pantalla del grabador.</s:String>
+
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Playback">Tiempo de reproducción</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Playback.Info">Cada fotograma capturado se mostrará durante este tiempo</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Trigger">Retardo del disparo</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Trigger.Info">Cada captura de fotograma esperará esta cantidad de tiempo antes de comenzar</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.IgnoreMouseWheel">Ignorar interacciones con la rueda del ratón</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.IgnoreMouseWheel.Info">El desplazamiento con la rueda del ratón ya no activará una captura</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.FixedFramerate">Ignorar tiempos variables entre fotogramas</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.FixedFramerate.Info">Todos los fotogramas capturados usarán los tiempos esperados independientemente de variaciones</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.CaptureChanges">Capturar solo cuando algo cambie</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.CaptureChanges.Info">Solo se capturará un fotograma cuando algo cambie dentro de la región de captura</s:String>
+
+    <!--Settings • Screen Recorder > Guidelines-->
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.RuleOfThirds">Regla de los tercios</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.RuleOfThirds.Info">Muestra una cuadrícula de encuadre representando la proporción de la regla de los tercios</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.Crosshair">Punto de mira</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.Crosshair.Info">Muestra una cuadrícula de encuadre con punto de mira</s:String>
+
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.LineThickness">Grosor de línea</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.LineColor">Color de línea</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.Dashes">Guiones</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.Dashes.Info">Controla el tamaño de los guiones y el tamaño de los espacios.&#10;Puedes definir múltiples tamaños para crear un estilo de guiones elaborado.&#10;El valor predeterminado es "1 0" o vacío, lo que significa un guion sin espacios.</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.Info">Las guías solo se mostrarán mientras el grabador esté pausado o detenido</s:String>
+
+    <!--Settings • Styles-->
+    <s:String x:Key="S.Settings.Styles.FontFamily">Familia tipográfica</s:String>
+    <s:String x:Key="S.Settings.Styles.FontSize">Tamaño de fuente</s:String>
+    <s:String x:Key="S.Settings.Styles.ParagraphAlignment">Alineación del párrafo</s:String>
+    <s:String x:Key="S.Settings.Styles.ParagraphAlignment.Near">Cerca</s:String>
+    <s:String x:Key="S.Settings.Styles.ParagraphAlignment.Far">Lejos</s:String>
+    <s:String x:Key="S.Settings.Styles.ParagraphAlignment.Center">Centro</s:String>
+    <s:String x:Key="S.Settings.Styles.FlowDirection">Dirección del flujo</s:String>
+    <s:String x:Key="S.Settings.Styles.FlowDirection.TopToBottom">De arriba hacia abajo</s:String>
+    <s:String x:Key="S.Settings.Styles.FlowDirection.LeftToRight">De izquierda a derecha</s:String>
+    <s:String x:Key="S.Settings.Styles.FlowDirection.RightToLeft">De derecha a izquierda</s:String>
+    <s:String x:Key="S.Settings.Styles.FlowDirection.BottomToTop">De abajo hacia arriba</s:String>
+    <s:String x:Key="S.Settings.Styles.ReadingDirection">Dirección de lectura</s:String>
+    <s:String x:Key="S.Settings.Styles.IncrementalTabStop">Distancia de tabulación</s:String>
+    <s:String x:Key="S.Settings.Styles.WordWrapping">Ajuste de texto</s:String>
+    <s:String x:Key="S.Settings.Styles.WordWrapping.Wrap">Ajustar</s:String>
+    <s:String x:Key="S.Settings.Styles.WordWrapping.NoWrap">No ajustar</s:String>
+    <s:String x:Key="S.Settings.Styles.WordWrapping.EmergencyBreak">Corte de emergencia</s:String>
+    <s:String x:Key="S.Settings.Styles.WordWrapping.WholeWord">Palabra completa</s:String>
+    <s:String x:Key="S.Settings.Styles.WordWrapping.Character">Carácter</s:String>
+    <s:String x:Key="S.Settings.Styles.LineSpacingMethod">Método de espaciado de línea</s:String>
+    <s:String x:Key="S.Settings.Styles.LineSpacingMethod.Default">Predeterminado</s:String>
+    <s:String x:Key="S.Settings.Styles.LineSpacingMethod.Uniform">Uniforme</s:String>
+    <s:String x:Key="S.Settings.Styles.LineSpacingMethod.Proportional">Proporcional</s:String>
+    <s:String x:Key="S.Settings.Styles.LineSpacing">Espaciado de línea</s:String>
+    <s:String x:Key="S.Settings.Styles.Baseline">Línea base</s:String>
+    <s:String x:Key="S.Settings.Styles.TrimmingDelimiter">Delimitador de recorte</s:String>
+    <s:String x:Key="S.Settings.Styles.DelimiterCount">Cantidad de delimitadores</s:String>
+    <s:String x:Key="S.Settings.Styles.TrimmingGranularity">Granularidad de recorte</s:String>
+    <s:String x:Key="S.Settings.Styles.TrimmingGranularity.None">Ninguna</s:String>
+    <s:String x:Key="S.Settings.Styles.TrimmingGranularity.Character">Carácter</s:String>
+    <s:String x:Key="S.Settings.Styles.TrimmingGranularity.Word">Palabra</s:String>
+    <s:String x:Key="S.Settings.Styles.Underline">Subrayado</s:String>
+    <s:String x:Key="S.Settings.Styles.Strikethrough">Tachado</s:String>
+    <s:String x:Key="S.Settings.Styles.Foreground">Color de texto</s:String>
+    <s:String x:Key="S.Settings.Styles.Outline">Contorno</s:String>
+    <s:String x:Key="S.Settings.Styles.OutlineThickness">Grosor del contorno</s:String>
+    <s:String x:Key="S.Settings.Styles.Background">Fondo</s:String>
+    <s:String x:Key="S.Settings.Styles.CornerRadius">Radio de esquina</s:String>
+    <s:String x:Key="S.Settings.Styles.Padding">Relleno</s:String>
+    <s:String x:Key="S.Settings.Styles.Margin">Margen</s:String>
+    <s:String x:Key="S.Settings.Styles.IgnoreNonModifiersKeys">Ignorar teclas no modificadoras</s:String>
+    <s:String x:Key="S.Settings.Styles.IgnoreJustModifiersKeys">Ignorar solo teclas modificadoras</s:String>
+    <s:String x:Key="S.Settings.Styles.IgnoreInjectedKeys">Ignorar teclas inyectadas</s:String>
+    <s:String x:Key="S.Settings.Styles.IgnoreSpecialKeys">Ignorar teclas especiales</s:String>
+    <s:String x:Key="S.Settings.Styles.IgnoreArrowKeys">Ignorar teclas de flecha</s:String>
+    <s:String x:Key="S.Settings.Styles.IgnoreFunctionKeys">Ignorar teclas de función</s:String>
+    <s:String x:Key="S.Settings.Styles.GroupLetterKeys">Agrupar teclas de letras</s:String>
+    <s:String x:Key="S.Settings.Styles.StickForLonger">Mantener pulsaciones por más tiempo</s:String>
+    <s:String x:Key="S.Settings.Styles.StickForLonger.None">No mantener por más tiempo</s:String>
+    <s:String x:Key="S.Settings.Styles.StickForLonger.Time">Hasta que el tiempo se agote</s:String>
+    <s:String x:Key="S.Settings.Styles.StickForLonger.UntilStops">Hasta que cesen las pulsaciones</s:String>
+    <s:String x:Key="S.Settings.Styles.StickForLonger.UntilDifferentKey">Hasta una tecla diferente</s:String>
+    <s:String x:Key="S.Settings.Styles.StickForLonger.All">Todas las opciones</s:String>
+    <s:String x:Key="S.Settings.Styles.StickForLongerTiming">Tiempo de mantenimiento</s:String>
+    <s:String x:Key="S.Settings.Styles.StickForLongerStopTiming">Mantener teclas hasta</s:String>
+    <s:String x:Key="S.Settings.Styles.ResolveKeyCombos">Resolver combinaciones de teclas</s:String>
+    <s:String x:Key="S.Settings.Styles.ForceUpperCasing">Forzar mayúsculas en teclas</s:String>
+    <s:String x:Key="S.Settings.Styles.IgnoreRepeatedPresses">Ignorar pulsaciones repetidas</s:String>
+    <s:String x:Key="S.Settings.Styles.ShowRepeatedPressMultiplier">Mostrar multiplicador de pulsaciones repetidas</s:String>
+    <s:String x:Key="S.Settings.Styles.AppendDirection">Dirección de añadido</s:String>
+    <s:String x:Key="S.Settings.Styles.MaximumQuantityOfLines">Número máximo de líneas</s:String>
+    <s:String x:Key="S.Settings.Styles.TimingOffset">Desplazamiento de tiempo</s:String>
+    <s:String x:Key="S.Settings.Styles.Duration">Duración</s:String>
+    <s:String x:Key="S.Settings.Styles.KeyTranslations">Traducciones de teclas</s:String>
+    <s:String x:Key="S.Settings.Styles.KeyTranslations.Info">Selecciona qué teclas deben mostrar un nombre traducido</s:String>
+    <s:String x:Key="S.Settings.Styles.KeyAliases">Alias de teclas</s:String>
+    <s:String x:Key="S.Settings.Styles.KeyAliases.Info">Define alias para los nombres de teclas</s:String>
+    <s:String x:Key="S.Settings.Styles.KeyPrefix">Prefijo de tecla</s:String>
+    <s:String x:Key="S.Settings.Styles.KeySeparator">Separador de teclas</s:String>
+    <s:String x:Key="S.Settings.Styles.UseNewLineForSeparator">Usar nueva línea en cada separador</s:String>
+    <s:String x:Key="S.Settings.Styles.ModifierSeparator">Separador de modificadores</s:String>
+    <s:String x:Key="S.Settings.Styles.KeySuffix">Sufijo de tecla</s:String>
+    <s:String x:Key="S.Settings.Styles.Animate">Animar</s:String>
+    <s:String x:Key="S.Settings.Styles.AnimationTiming">Tiempo de animación</s:String>
+    <s:String x:Key="S.Settings.Styles.AnimationStyle">Estilo de animación</s:String>
+    <s:String x:Key="S.Settings.Styles.AnimationStyle.ScaleAndOpacity">Escala y opacidad</s:String>
+    <s:String x:Key="S.Settings.Styles.AnimationStyle.Scale">Escala</s:String>
+    <s:String x:Key="S.Settings.Styles.AnimationStyle.Opacity">Opacidad</s:String>
+    <s:String x:Key="S.Settings.Styles.DifferentiateLeftVersusRightModifierKeys">Diferenciar modificadores izquierdos y derechos</s:String>
+    <s:String x:Key="S.Settings.Styles.TranslateOrAliasModifierKeys">Traducir o asignar alias a modificadores</s:String>
+    <s:String x:Key="S.Settings.Styles.MiterLimit">Límite de inglete</s:String>
+    <s:String x:Key="S.Settings.Styles.DashOffset">Desplazamiento de guion</s:String>
+
+    <!--Settings • Styles > Video-->
+    <s:String x:Key="S.Settings.Styles.MaxFramerate">Framerate máximo</s:String>
+    <s:String x:Key="S.Settings.Styles.Mute">Silenciar volumen</s:String>
+    <s:String x:Key="S.Settings.Styles.Volume">Volumen</s:String>
+
+    <!--Settings • Styles > Progress-->
+    <s:String x:Key="S.Settings.Styles.DisplayMode">Modo de visualización</s:String>
+    <s:String x:Key="S.Settings.Styles.DisplayMode.Text">Texto</s:String>
+    <s:String x:Key="S.Settings.Styles.DisplayMode.Bar">Barra</s:String>
+    <s:String x:Key="S.Settings.Styles.BasedOn">Basado en</s:String>
+    <s:String x:Key="S.Settings.Styles.BasedOn.Segment">Segmento</s:String>
+    <s:String x:Key="S.Settings.Styles.BasedOn.Timeline">Línea de tiempo</s:String>
+    <s:String x:Key="S.Settings.Styles.BasedOn.Capture">Captura</s:String>
+    <s:String x:Key="S.Settings.Styles.Format">Formato</s:String>
+    <s:String x:Key="S.Settings.Styles.Format.DateTime">Fecha y hora</s:String>
+    <s:String x:Key="S.Settings.Styles.Format.Time">Tiempo</s:String>
+    <s:String x:Key="S.Settings.Styles.Format.Percentage">Porcentaje</s:String>
+    <s:String x:Key="S.Settings.Styles.Format.Other">Otro</s:String>
+    <s:String x:Key="S.Settings.Styles.Format.Other.Info">Sigue la especificación para crear tu propio formato</s:String>
+    <s:String x:Key="S.Settings.Styles.CustomFormat">Formato personalizado</s:String>
+    <s:String x:Key="S.Settings.Styles.CustomFormat.Specification">Especificación</s:String>
+    <s:String x:Key="S.Settings.Styles.Offset">Desplazamiento</s:String>
+    <s:String x:Key="S.Settings.Styles.Offset.ToggleSign">Cambiar signo</s:String>
+    <s:String x:Key="S.Settings.Styles.ShowTotal">Mostrar total</s:String>
+    <s:String x:Key="S.Settings.Styles.Separator">Separador</s:String>
+    <s:String x:Key="S.Settings.Styles.Prefix">Prefijo</s:String>
+    <s:String x:Key="S.Settings.Styles.Suffix">Sufijo</s:String>
+    <s:String x:Key="S.Settings.Styles.Thickness">Grosor</s:String>
+    <s:String x:Key="S.Settings.Styles.Orientation">Orientación</s:String>
+    <s:String x:Key="S.Settings.Styles.Orientation.Horizontal">Horizontal</s:String>
+    <s:String x:Key="S.Settings.Styles.Orientation.Vertical">Vertical</s:String>
+
+    <!--Settings • Styles > Shape-->
+    <s:String x:Key="S.Settings.Styles.Shape">Forma</s:String>
+    <s:String x:Key="S.Settings.Styles.Shape.LineArrow">Flecha lineal</s:String>
+    <s:String x:Key="S.Settings.Styles.Shape.Arrow">Flecha</s:String>
+    <s:String x:Key="S.Settings.Styles.Shape.Rectangle">Rectángulo</s:String>
+    <s:String x:Key="S.Settings.Styles.Shape.Ellipse">Elipse</s:String>
+    <s:String x:Key="S.Settings.Styles.Shape.Triangle">Triángulo</s:String>
+
+    <!--Settings • Styles > Drawing-->
+    <s:String x:Key="S.Settings.Styles.DrawingMode">Modo de dibujo</s:String>
+    <s:String x:Key="S.Settings.Styles.DrawingMode.Pen">Pluma</s:String>
+    <s:String x:Key="S.Settings.Styles.DrawingMode.Highlighter">Resaltador</s:String>
+    <s:String x:Key="S.Settings.Styles.DrawingMode.Airbrush">Aerógrafo</s:String>
+    <s:String x:Key="S.Settings.Styles.DrawingMode.Eraser">Borrador</s:String>
+    <s:String x:Key="S.Settings.Styles.TipShape">Forma de la punta</s:String>
+    <s:String x:Key="S.Settings.Styles.TipShape.Circle">Círculo</s:String>
+    <s:String x:Key="S.Settings.Styles.TipShape.Rectangle">Rectángulo</s:String>
+    <s:String x:Key="S.Settings.Styles.TipShape.Diamond">Rombo</s:String>
+    <s:String x:Key="S.Settings.Styles.TipShape.HorizontalLine">Línea horizontal</s:String>
+    <s:String x:Key="S.Settings.Styles.TipShape.VerticalLine">Línea vertical</s:String>
+    <s:String x:Key="S.Settings.Styles.StrokeColor">Color del trazo</s:String>
+    <s:String x:Key="S.Settings.Styles.StrokeThickness">Grosor del trazo</s:String>
+
+    <!--Settings • Styles > Pixelation-->
+    <s:String x:Key="S.Settings.Styles.SmoothnessRadius">Radio de suavizado</s:String>
+    <s:String x:Key="S.Settings.Styles.ApplyInverse">Aplicar al inverso de la selección</s:String>
+    <s:String x:Key="S.Settings.Styles.BlockWidth">Ancho del bloque</s:String>
+    <s:String x:Key="S.Settings.Styles.BlockHeight">Alto del bloque</s:String>
+    <s:String x:Key="S.Settings.Styles.SyncWidthHeight">Sincronizar ancho y alto</s:String>
+    <s:String x:Key="S.Settings.Styles.PixelAverage">Calcular el color promedio de cada bloque de píxeles</s:String>
+    <s:String x:Key="S.Settings.Styles.RotatePixelBlock">Rotar bloque de píxeles según el ángulo del segmento</s:String>
+
+    <!--Settings • Styles > Blur-->
+    <s:String x:Key="S.Settings.Styles.BlurRadius">Radio de desenfoque</s:String>
+
+    <!--Settings • Styles > Brightness-->
+    <s:String x:Key="S.Settings.Styles.LightIntensity">Intensidad de luz</s:String>
+
+    <!--Settings • Styles > LineCap-->
+    <s:String x:Key="S.Settings.Styles.LineCap.Start">Inicio del remate</s:String>
+    <s:String x:Key="S.Settings.Styles.LineCap.Dash">Remate de guion</s:String>
+    <s:String x:Key="S.Settings.Styles.LineCap.End">Fin del remate</s:String>
+    <s:String x:Key="S.Settings.Styles.LineCap.Flat">Plano</s:String>
+    <s:String x:Key="S.Settings.Styles.LineCap.Square">Cuadrado</s:String>
+    <s:String x:Key="S.Settings.Styles.LineCap.Round">Redondo</s:String>
+    <s:String x:Key="S.Settings.Styles.LineCap.Triangle">Triangular</s:String>
+
+    <!--Settings • Styles > LineJoin-->
+    <s:String x:Key="S.Settings.Styles.LineJoin">Unión de línea</s:String>
+    <s:String x:Key="S.Settings.Styles.LineJoin.Bevel">Biselado</s:String>
+    <s:String x:Key="S.Settings.Styles.LineJoin.Miter">En inglete</s:String>
+    <s:String x:Key="S.Settings.Styles.LineJoin.Round">Redondo</s:String>
+
+    <!--Settings • Styles > Dash-->
+    <s:String x:Key="S.Settings.Styles.Dash">Estilo de guion</s:String>
+    <s:String x:Key="S.Settings.Styles.Dash.Solid">Sólido</s:String>
+    <s:String x:Key="S.Settings.Styles.Dash.Dash">Guion</s:String>
+    <s:String x:Key="S.Settings.Styles.Dash.Dot">Punto</s:String>
+    <s:String x:Key="S.Settings.Styles.Dash.DashDot">Guion, punto</s:String>
+    <s:String x:Key="S.Settings.Styles.Dash.DashDotDot">Guion, punto, punto</s:String>
+    <s:String x:Key="S.Settings.Styles.Dash.Custom">Personalizado</s:String>
+
+    <!--Settings • Effects-->
+    <s:String x:Key="S.Settings.Effects.Add.Info">Agregar nuevo efecto</s:String>
+    <s:String x:Key="S.Settings.Effects.Reset.Info">Restablecer a los ajustes predeterminados</s:String>
+    <s:String x:Key="S.Settings.Effects.RemoveAll.Info">Eliminar todos los efectos</s:String>
+
+   <!--Settings • Editor-->
+    <s:String x:Key="S.Settings.Editor.WindowPosition">Posicionamiento de ventana</s:String>
+    <s:String x:Key="S.Settings.Editor.WindowPosition.Center">Forzar centrado</s:String>
+    <s:String x:Key="S.Settings.Editor.WindowPosition.Previous">Usar anterior</s:String>
+    <s:String x:Key="S.Settings.Editor.WindowPosition.System">Dejar que el sistema decida</s:String>
+    <s:String x:Key="S.Settings.Editor.WindowPosition.UsePrevious">Usar tamaño de ventana anterior</s:String>
+    <s:String x:Key="S.Settings.Editor.CacheHandling">Gestión de caché del proyecto al cerrar</s:String>
+    <s:String x:Key="S.Settings.Editor.CacheHandling.Keep">Mantener siempre en caché</s:String>
+    <s:String x:Key="S.Settings.Editor.CacheHandling.Delete">Eliminar siempre de la caché</s:String>
+    <s:String x:Key="S.Settings.Editor.InsertPosition">Posición de inserción de grabación</s:String>
+    <s:String x:Key="S.Settings.Editor.InsertPosition.Ask">Preguntarme</s:String>
+    <s:String x:Key="S.Settings.Editor.InsertPosition.Start">Inicio de la línea de tiempo</s:String>
+    <s:String x:Key="S.Settings.Editor.InsertPosition.Current">Posición actual</s:String>
+    <s:String x:Key="S.Settings.Editor.InsertPosition.After">Después de todos los segmentos</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert">Opciones de inserción de medios</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Info">Elige cómo insertar medios en la línea de tiempo</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Grouping">Agrupación</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Grouping.Ask">Preguntarme</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Grouping.Separate">Pista separada para cada archivo</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Grouping.Separate.Info">Cada archivo en una pista separada, uno después del otro en el tiempo</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Grouping.SingleTrack">Pista única</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Grouping.SingleTrack.Info">Todos los archivos en una sola pista</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Grouping.SeparateForType">Una pista por tipo</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Grouping.SeparateForType.Info">Los archivos del mismo tipo serán agrupados</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Sorting">Ordenación</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Sorting.Original">Selección original</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Sorting.Name">Nombre</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Sorting.NameNumber">Nombre (analizar números)</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Sorting.NameSemantic">Nombre (analizar versión semántica)</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Sorting.Length">Duración</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Sorting.Date">Fecha</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Sorting.Size">Tamaño</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Direction">Dirección</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Direction.Ascending">Ascendente</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Direction.Descending">Descendente</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.MediaDuration">Duración de medios estáticos</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Gap">Espacio entre archivos</s:String>
+    <s:String x:Key="S.Settings.Editor.Timeline">Línea de tiempo</s:String>
+    <s:String x:Key="S.Settings.Editor.Timeline.GenerateThumbnails">Generar miniaturas</s:String>
+    <s:String x:Key="S.Settings.Editor.Timeline.ThumbnailPanelMargin">Margen del panel de miniaturas</s:String>
+    <s:String x:Key="S.Settings.Editor.Timeline.ThumbnailMargin">Margen de miniaturas</s:String>
+
+    <!--Settings • Exporter-->
+    <s:String x:Key="S.Settings.Exporter.UncommonFormat">Mostrar formatos poco comunes</s:String>
+    <s:String x:Key="S.Settings.Exporter.UncommonFormat.Info">Formatos antiguos o poco comunes como AVI, AC3, etc. estarán disponibles</s:String>
+
+    <!--Settings • Storage-->
+    <s:String x:Key="S.Settings.Storage.Cache">Caché</s:String>
+    <s:String x:Key="S.Settings.Storage.Cache.Path">Ruta de la caché</s:String>
+    <s:String x:Key="S.Settings.Storage.Cache.Logs">Ruta de los registros</s:String>
+    <s:String x:Key="S.Settings.Storage.SelectPath">Haz clic para seleccionar una ruta</s:String>
+    <s:String x:Key="S.Settings.Storage.Navigate">Navegar con el Explorador</s:String>
+    <s:String x:Key="S.Settings.Storage.Info">La carpeta de caché se usa para almacenar grabaciones/proyectos y otros archivos temporales</s:String>
+    <s:String x:Key="S.Settings.Storage.FreeSpace">{0} libres de {1}</s:String>
+    <s:String x:Key="S.Settings.Storage.AppSettings">Ajustes de la aplicación</s:String>
+    <s:String x:Key="S.Settings.Storage.AppSettings.Global">Globales</s:String>
+    <s:String x:Key="S.Settings.Storage.AppSettings.Local">Locales</s:String>
+    <s:String x:Key="S.Settings.Storage.AppSettings.GlobalSettings">Ajustes globales</s:String>
+    <s:String x:Key="S.Settings.Storage.AppSettings.GlobalSettings.Info">Ajustes almacenados en la carpeta %AppData%/NStudio</s:String>
+    <s:String x:Key="S.Settings.Storage.AppSettings.LocalSettings">Ajustes locales</s:String>
+    <s:String x:Key="S.Settings.Storage.AppSettings.LocalSettings.Info">Ajustes almacenados en un archivo en la misma carpeta que el ejecutable</s:String>
+    <s:String x:Key="S.Settings.Storage.AppSettings.LocalSettings.Create">Crear ajustes locales</s:String>
+    <s:String x:Key="S.Settings.Storage.Cleanup.DeleteOnClose">Eliminar todos los archivos de la caché al cerrar la aplicación</s:String>
+    <s:String x:Key="S.Settings.Storage.Cleanup.DeleteOnClose.Ask">Preguntarme antes de eliminar todos los archivos de la caché</s:String>
+    <s:String x:Key="S.Settings.Storage.Cleanup.RemoveOld">Eliminar automáticamente proyectos antiguos</s:String>
+    <s:String x:Key="S.Settings.Storage.Cleanup.RemoveOld.MaxAge">Edad máxima</s:String>
+    <s:String x:Key="S.Settings.Storage.Cleanup.RemoveOld.MaxAge.Info">Cualquier proyecto cerrado más antiguo que esto será descartado al abrir la aplicación</s:String>
+
+    <s:String x:Key="S.Settings.Storage.Cleanup.Clear.All.Header">¿Deseas eliminar todos los ajustes?</s:String>
+    <s:String x:Key="S.Settings.Storage.Cleanup.Clear.Global.Header">¿Deseas eliminar los ajustes globales?</s:String>
+    <s:String x:Key="S.Settings.Storage.Cleanup.Clear.Local.Header">¿Deseas eliminar los ajustes locales?</s:String>
+    <s:String x:Key="S.Settings.Storage.Cleanup.Clear.Description">Necesitarás reiniciar la aplicación para ver los cambios.</s:String>
+    <s:String x:Key="S.Settings.Storage.Cleanup.Error">Imposible limpiar la caché</s:String>
+
+    <!--Settings • Plugins-->
+    <s:String x:Key="S.Settings.Plugin.Path">Ruta</s:String>
+    <s:String x:Key="S.Settings.Plugin.SelectFile">Haz clic para seleccionar archivo</s:String>
+    <s:String x:Key="S.Settings.Plugin.Version">Versión</s:String>
+    <s:String x:Key="S.Settings.Plugin.Version.Unrecognized">No reconocida</s:String>
+    <s:String x:Key="S.Settings.Plugin.Files.All">Todos los archivos compatibles</s:String>
+    <s:String x:Key="S.Settings.Plugin.Ffmpeg.Select">Selecciona la ubicación del ejecutable de FFmpeg</s:String>
+    <s:String x:Key="S.Settings.Plugin.Ffmpeg.File">Ejecutable de FFmpeg</s:String>
+    <s:String x:Key="S.Settings.Plugin.Gifski.Select">Selecciona la ubicación de la biblioteca Gifski</s:String>
+    <s:String x:Key="S.Settings.Plugin.Gifski.File">Biblioteca Gifski</s:String>
+    <s:String x:Key="S.Settings.Plugin.PackedDownload">Descarga empaquetada</s:String>
+    <s:String x:Key="S.Settings.Plugin.StoreLimitations">Limitaciones de la tienda</s:String>
+    <s:String x:Key="S.Settings.Plugin.StoreLimitations.Info">Debido a las políticas de Microsoft Store, tendrás que descargar los plugins manualmente</s:String>
+
+    <!--Settings • Update-->
+    <s:String x:Key="S.Settings.Update.UpToDate">Estás al día</s:String>
+    <s:String x:Key="S.Settings.Update.LastChecked">Última comprobación:</s:String>
+    <s:String x:Key="S.Settings.Update.ReleaseNotes">Notas de la versión</s:String>
+    <s:String x:Key="S.Settings.Update.CheckForUpdates">Buscar actualizaciones</s:String>
+    <s:String x:Key="S.Settings.Update.DownloadInstall">Descargar e instalar</s:String>
+    <s:String x:Key="S.Settings.Update.Install">Instalar</s:String>
+    <s:String x:Key="S.Settings.Update.Description">Descripción</s:String>
+    <s:String x:Key="S.Settings.Update.Pending">Descarga pendiente</s:String>
+    <s:String x:Key="S.Settings.Update.CheckOnStart">Buscar actualizaciones al iniciar</s:String>
+    <s:String x:Key="S.Settings.Update.CheckOnStart.AutoInstall">Instalar actualizaciones automáticamente al cerrar la aplicación</s:String>
+    <s:String x:Key="S.Settings.Update.CheckOnStart.Prompt">Avisarme antes de comenzar la instalación</s:String>
+    <s:String x:Key="S.Settings.Update.CheckForTranslation">Buscar actualizaciones de traducción</s:String>
+    <s:String x:Key="S.Settings.Update.CheckForTranslation.Info">Las traducciones actualizadas se descargarán e instalarán automáticamente</s:String>
+
+    <!--Settings • About-->
+    <s:String x:Key="S.Settings.About.Contact">Contacto</s:String>
+    <s:String x:Key="S.Settings.About.Contact.Email">Correo electrónico</s:String>
+    <s:String x:Key="S.Settings.About.Contact.Email.Copy">Copiar correo electrónico</s:String>
+    <s:String x:Key="S.Settings.About.Dependencies">Dependencias</s:String>
+
+    <!--Windows • Preset Settings-->
+    <s:String x:Key="S.PresetSettings.Title">NStudio • Ajustes de Presets</s:String>
+    <s:String x:Key="S.PresetSettings.Presets">Presets</s:String>
+    <s:String x:Key="S.PresetSettings.Add.Info">Agregar nuevo preset</s:String>
+    <s:String x:Key="S.PresetSettings.Duplicate">Duplicar</s:String>
+    <s:String x:Key="S.PresetSettings.Duplicate.Info">Duplicar preset seleccionado</s:String>
+    <s:String x:Key="S.PresetSettings.Reset.Info">Restablecer a los ajustes predeterminados</s:String>
+    <s:String x:Key="S.PresetSettings.Remove.Info">Eliminar el preset seleccionado</s:String>
+    <s:String x:Key="S.PresetSettings.Copy">Copiar</s:String>
+    <s:String x:Key="S.PresetSettings.Copied">(Copiado)</s:String>
+
+    <!--Windows • Preset Settings > Identification-->
+    <s:String x:Key="S.Preset.Identification">Identificación</s:String>
+    <s:String x:Key="S.Preset.Identification.Info">Título, descripción y más</s:String>
+    <s:String x:Key="S.Preset.Identification.Title">Título</s:String>
+    <s:String x:Key="S.Preset.Identification.Description">Descripción</s:String>
+    <s:String x:Key="S.Preset.Identification.Service">Servicio</s:String>
+    <s:String x:Key="S.Preset.Identification.Encoder">Codificador</s:String>
+    <s:String x:Key="S.Preset.Identification.Enabled">Habilitado</s:String>
+    <s:String x:Key="S.Preset.Identification.Enabled.Info">Solo los presets habilitados estarán disponibles para usar</s:String>
+    <s:String x:Key="S.Preset.Identification.AutoSave">Guardar automáticamente la selección de salida</s:String>
+    <s:String x:Key="S.Preset.Identification.AutoSave.Info">La ruta de salida y el destino de carga serán recordados</s:String>
+
+    <!--Windows • Preset Settings > Export-->
+    <s:String x:Key="S.Preset.Export.Title">Opciones de exportación</s:String>
+    <s:String x:Key="S.Preset.Export.Title.Info">Destino de salida, carga y comportamiento posterior a la exportación</s:String>
+    <s:String x:Key="S.Preset.Export.Folder">Exportar a una carpeta</s:String>
+    <s:String x:Key="S.Preset.Export.Folder.Info">Exporta el proyecto a una carpeta de tu elección</s:String>
+    <s:String x:Key="S.Preset.Export.Upload">Subir a un servicio</s:String>
+    <s:String x:Key="S.Preset.Export.Upload.Info">Sube el proyecto a un servicio en línea de tu elección</s:String>
+    <s:String x:Key="S.Preset.Export.Clipboard">Copiar al portapapeles</s:String>
+    <s:String x:Key="S.Preset.Export.Clipboard.Info">Copia la ruta o enlace de la animación después de la exportación</s:String>
+    <s:String x:Key="S.Preset.Export.Commands">Ejecutar comandos</s:String>
+    <s:String x:Key="S.Preset.Export.Commands.Info">Ejecuta comandos después de la exportación</s:String>
+
+    <!--Windows • Preset Settings > Output-->
+    <s:String x:Key="S.Preset.Output.Title">Salida</s:String>
+    <s:String x:Key="S.Preset.Output.Title.Info">Carpeta y nombre de archivo predeterminados</s:String>
+    <s:String x:Key="S.Preset.Output.Folder">Carpeta</s:String>
+    <s:String x:Key="S.Preset.Output.FileName">Nombre del archivo</s:String>
+    <s:String x:Key="S.Preset.Output.Select">Seleccionar la carpeta de salida</s:String>
+    <s:String x:Key="S.Preset.Output.Overwrite">Sobrescribir</s:String>
+    <s:String x:Key="S.Preset.Output.Overwrite.Warn">Advertir</s:String>
+    <s:String x:Key="S.Preset.Output.Overwrite.Warn.Info">Solo advierte que existe otro archivo con el mismo nombre</s:String>
+    <s:String x:Key="S.Preset.Output.Overwrite.Prompt">Preguntar</s:String>
+    <s:String x:Key="S.Preset.Output.Overwrite.Prompt.Info">Pregunta si el usuario desea sobrescribir el archivo</s:String>
+    <s:String x:Key="S.Preset.Output.Overwrite.Allow">Permitir</s:String>
+    <s:String x:Key="S.Preset.Output.Overwrite.Allow.Info">Simplemente sobrescribe el archivo</s:String>
+    <s:String x:Key="S.Preset.Output.ExportAsProject">Exportar como proyecto</s:String>
+    <s:String x:Key="S.Preset.Output.ExportAsProject.Info">Exportar también como proyecto, en la misma ubicación</s:String>
+
+    <!--Windows • Preset Settings > Upload-->
+    <s:String x:Key="S.Preset.Upload.Title">Subida</s:String>
+    <s:String x:Key="S.Preset.Upload.Title.Info">Preset de subida predeterminado</s:String>
+    <s:String x:Key="S.Preset.Upload.Title2">Opciones de subida</s:String>
+    <s:String x:Key="S.Preset.Upload.Title2.Info">Opciones específicas del servicio de subida y formato de archivo seleccionados</s:String>
+    <s:String x:Key="S.Preset.Upload.Preset">Preset</s:String>
+
+    <!--Windows • Preset Settings > Clipboard-->
+    <s:String x:Key="S.Preset.Clipboard.Title">Portapapeles</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Title.Info">Copiar la ruta o enlace después de exportar</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior">Comportamiento de copia</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior.File">Archivo</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior.File.Info">Copia el archivo de salida al portapapeles.</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior.FolderPath">Ruta de la carpeta</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior.FolderPath.Info">Copia la ruta de la carpeta del archivo de salida al portapapeles.</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior.FilePath">Ruta del archivo</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior.FilePath.Info">Copia la ruta del archivo de salida al portapapeles.</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior.Link">Enlace</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior.Link.Info">Copia el enlace generado por el servicio de subida al portapapeles.</s:String>
+
+    <s:String x:Key="S.Preset.Commands.Title">Comandos personalizados</s:String>
+    <s:String x:Key="S.Preset.Commands.Title.Info">Comandos a ejecutar después de la exportación</s:String>
+    <s:String x:Key="S.Preset.Commands.Commands">Comandos</s:String>
+    <s:String x:Key="S.Preset.Commands.Commands.Info">Escribe los comandos a ejecutar después de la codificación.&#13;Para ejecutar múltiples comandos, escribe cada uno en una línea separada.&#13;Macros:&#13;{p} = Ruta del archivo de salida.&#13;{f} = Ruta de la carpeta de salida.&#13;{u} = URL del archivo subido.</s:String>
+
+    <s:String x:Key="S.Preset.Playback.Title">Reproducción</s:String>
+    <s:String x:Key="S.Preset.Playback.Title.Info">Opciones de reproducción y framerate para la animación</s:String>
+
+    <s:String x:Key="S.Preset.Playback.AnimatedImage.Looped">Repetir la animación</s:String>
+    <s:String x:Key="S.Preset.Playback.AnimatedImage.Looped.Info">En reproducción, al llegar al final, la animación vuelve a comenzar</s:String>
+    <s:String x:Key="S.Preset.Playback.AnimatedImage.Looped.Forever">Repetir para siempre</s:String>
+    <s:String x:Key="S.Preset.Playback.AnimatedImage.Looped.Forever.Info">La animación se repite sin detenerse</s:String>
+    <s:String x:Key="S.Preset.Playback.AnimatedImage.Looped.Count">Número de repeticiones</s:String>
+    <s:String x:Key="S.Preset.Playback.AnimatedImage.Looped.Count.Info">El número de veces que la animación debe repetirse</s:String>
+
+    <s:String x:Key="S.Preset.Encoder.Title">Opciones del codificador</s:String>
+    <s:String x:Key="S.Preset.Encoder.Title.Info">Opciones específicas del codificador y formato de archivo seleccionados</s:String>
+    <s:String x:Key="S.Preset.Encoder.Version">Versión</s:String>
+    <s:String x:Key="S.Preset.Encoder.Quality">Calidad</s:String>
+    <s:String x:Key="S.Preset.Encoder.Pass">Pasada</s:String>
+
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.UseCommands">Usar comandos</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.UseCommands.Info">Escribe argumentos directamente para FFmpeg (modo avanzado)</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.Parameters">Parámetros</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.Parameters.Info">Lista de parámetros que serán pasados a FFmpeg.&#10;&#10;Parámetros especiales:&#10;{I} es la ruta de entrada (los fotogramas).&#10;{O} es la ruta de salida (el archivo exportado).&#10;{W} es el ancho del fotograma.&#10;{H} es la altura del fotograma.</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.Preview">Vista previa</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.Preview.Info">Comando completo tal como será enviado a FFmpeg</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.Help.PngFilters">Filtros PNG</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.Help.Format">Documentación de formatos</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.Help.Filters">Documentación de filtros</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.PixelFormat">Formato de píxel</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.Pass">Para codificar con 2 pasadas, simplemente añade '-pass 2'</s:String>
+
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.FrameStrategy">Estrategia de framerate</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.FrameStrategy.Info">Controla cómo FFmpeg interpreta y ajusta el tiempo de los fotogramas al leer o escribir secuencias de imágenes.&#10;Esto determina si los fotogramas se mantienen tal cual, se duplican o se descartan para coincidir con el framerate deseado</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.FrameStrategy.Passthrough">Usar marcas de tiempo tal cual</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.FrameStrategy.Cfr">Framerate constante</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.FrameStrategy.Vfr">Framerate variable</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.FrameStrategy.Drop">Descartar fotogramas</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.FrameStrategy.Dup">Duplicar fotogramas</s:String>
+
+    <!--Preset • Apng-->
+    <s:String x:Key="S.Preset.Encoder.Apng.DetectUnchanged">Detectar píxeles sin cambios</s:String>
+    <s:String x:Key="S.Preset.Encoder.Apng.DetectUnchanged.Info">Escanea y elimina partes innecesarias de los fotogramas que no cambiaron entre fotogramas</s:String>
+    <s:String x:Key="S.Preset.Encoder.Apng.PaintTransparent">Pintar todos los píxeles sin cambios con un color transparente</s:String>
+    <s:String x:Key="S.Preset.Encoder.Apng.PaintTransparent.Info">Reemplaza los píxeles que no cambiaron entre fotogramas con un color transparente</s:String>
+    <s:String x:Key="S.Preset.Encoder.Apng.Prediction">Predicción</s:String>
+    <s:String x:Key="S.Preset.Encoder.Apng.Prediction.None">Ninguna</s:String>
+    <s:String x:Key="S.Preset.Encoder.Apng.Prediction.Sub">Sub</s:String>
+    <s:String x:Key="S.Preset.Encoder.Apng.Prediction.Up">Up</s:String>
+    <s:String x:Key="S.Preset.Encoder.Apng.Prediction.Average">Promedio</s:String>
+    <s:String x:Key="S.Preset.Encoder.Apng.Prediction.Mixed">Mixto</s:String>
+
+    <!--Preset • Gif-->
+    <s:String x:Key="S.Preset.Encoder.Gif.GlobalColorTable">Usar una tabla de colores global</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.GlobalColorTable.Info">Puede reducir la calidad y/o el tamaño del gif</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer">Cuantizador</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Info">Algoritmo de reducción de color (cuantización)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Neural">Red neuronal</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Neural.Info">Cuantización de alta fidelidad. Más lento, pero bueno para una mayor cantidad de colores</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Octree">Octree</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Octree.Info">Bueno para animaciones con pocos colores. Más rápido, pero puede producir bandas de color</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.MedianCut">Corte mediano</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.MedianCut.Info">Peor que Octree y más lento</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Grayscale">Escala de grises</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Grayscale.Info">Usa una paleta fija en escala de grises, por lo que es mucho más rápido</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.MostUsed">Colores más usados</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.MostUsed.Info">Simplemente toma los colores más usados en los fotogramas</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Sampling">Muestreo</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Sampling.Info">Factor de muestreo:&#10;Un valor de 1 dará como resultado un gif de mejor apariencia, pero será más lento de renderizar</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Sampling.Best">Mejor</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Sampling.Fastest">Más rápido</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Colors">Colores</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Colors.Info">Número máximo de colores (para cada fotograma)</s:String>
+
+    <s:String x:Key="S.Preset.Encoder.Gif.Transparency.Enable">Habilitar transparencia</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Transparency.Enable.Info">Habilita el modo de transparencia total, lo que hace que el fondo del gif sea completamente transparente.&#10;El proceso de reemplazo por croma será ignorado si esta opción está habilitada</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Transparency.Pick">Seleccionar qué color mostrar como transparente</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Transparency.Pick.Info">Si se selecciona un color, será convertido en transparente y aparecerá como tal en el gif generado.&#10;Si no se selecciona ningún color, todos los colores transparentes (Alpha = 0%) aparecerán como transparentes normalmente</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.DetectUnchanged">Detectar píxeles sin cambios</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.DetectUnchanged.Info">Analizando y detectando píxeles sin cambios entre fotogramas,&#10;será posible guardar solo las partes necesarias en el gif</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.PaintWithChroma">Reemplazar estos píxeles con un croma</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.PaintWithChroma.Info">Los píxeles repetidos/sin cambios serán reemplazados con este croma,&#10;permitiendo usar menos colores por fotograma</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Color">Color</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.ChromaKey">Croma</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Dither">Difuminado</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Dither.Scale">Escala Bayer</s:String>
+
+    <!--Preset • Gifski-->
+    <s:String x:Key="S.Preset.Encoder.Gif.Faster">Usar un proceso de codificación aún más rápido</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Faster.Info">Puede reducir la calidad del gif</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.ExtraEffort">Esfuerzo adicional</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.ExtraEffort.Info">La codificación será significativamente más lenta, pero puede resultar en gifs un poco mejores</s:String>
+
+    <!--Preset • KGy SOFT-->
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.BackColor">Color de fondo</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.BackColor.Info">Los píxeles con alfa (transparencia) considerados opacos por el cuantizador seleccionado serán mezclados con este color antes de obtener el color cuantizado</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.AlphaThreshold">Umbral de alfa</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.AlphaThreshold.Info">Determina el valor de alfa de entrada bajo el cual el color cuantizado será transparente.&#10;Si es 0, el resultado nunca tendrá transparencia.&#10;Si es 255, solo los píxeles completamente transparentes se consideran transparentes</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.WhiteThreshold">Umbral de blanco</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.WhiteThreshold.Info">Determina el brillo mínimo de entrada para considerar el color resultante como blanco.&#10;Afecta el brillo del resultado. Un dithering por difusión de error puede compensar este parámetro</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.DirectMapping">Mapeo directo</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.DirectMapping.Info">Cuando está activado, el color cuantizado se determina mediante mapeo directo en lugar de buscar la entrada más cercana en la paleta.&#10;Acelera la cuantización pero puede generar un resultado con mayor contraste. Un dithering por difusión de error puede compensarlo</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.PaletteSize">Tamaño de la paleta</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.PaletteSize.Info">Determina el tamaño máximo de la paleta por fotograma</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.CustomBitLevel">Nivel de bits personalizado</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.CustomBitLevel.Info">Cuando está activado, el nivel de bits puede configurarse manualmente.&#10;⚠️ Advertencia: ¡El nivel de bits más alto puede requerir MUCHÍSIMA memoria!</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.BitLevel">Nivel de bits</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.BitLevel.Info">Un valor más alto significa mayor precisión, un espacio de color objetivo más grande, procesamiento más lento y mayor uso de memoria.&#10;Por ejemplo, si es 1, el resultado no puede tener más de 8 colores; si es 2, no más de 64 colores.&#10;Para los cuantizadores Octree y Wu también afecta el número máximo de tonos monocromáticos.&#10;Por ejemplo, si es 5 (valor predeterminado para Wu), solo 32 tonos monocromáticos pueden diferenciarse.&#10;⚠️ Precaución: El cuantizador Wu consume al menos 650 MB con el valor más alto</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.BlackAndWhite">Blanco y negro</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.BlackAndWhite.Info">Paleta fija de 1 bpp con colores blanco y negro</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.Grayscale4">Escala de grises (4 colores)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.Grayscale4.Info">Paleta fija de 2 bpp con 4 tonos de gris</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.Grayscale16">Escala de grises (16 colores)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.Grayscale16.Info">Paleta fija de 4 bpp con 16 tonos de gris</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.Grayscale">Escala de grises (256 colores)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.Grayscale.Info">Paleta fija de 8 bpp con 256 tonos de gris</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.SystemDefault4BppPalette">Paleta predeterminada del sistema (4 bpp)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.SystemDefault4BppPalette.Info">Paleta fija de 4 bpp usando los 16 colores sRGB estándar</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.SystemDefault8BppPalette">Paleta predeterminada del sistema (8 bpp)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.SystemDefault8BppPalette.Info">Paleta fija de 8 bpp incluyendo los colores “web-safe” y transparencia</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.Rgb332">Paleta RGB 332</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.Rgb332.Info">Paleta fija de 8 bpp usando el espacio de color RGB 332</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Palette.Octree">Cuantizador Octree</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Palette.Octree.Info">Optimiza la paleta para cada fotograma usando el algoritmo Octree</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Palette.MedianCut">Cuantizador Median Cut</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Palette.MedianCut.Info">Optimiza la paleta para cada fotograma usando el algoritmo Median Cut</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Palette.Wu">Cuantizador Wu</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Palette.Wu.Info">Optimiza la paleta para cada fotograma usando el algoritmo de Xiaolin Wu</s:String>
+
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer">Difuminador</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Strength">Intensidad</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Strength.Info">La intensidad del difuminado, o 0 para calibrar la intensidad automáticamente</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Seed">Semilla</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Seed.Info">Una semilla entera para producir un patrón específico de dithering aleatorio.&#10;Déjalo vacío para usar una semilla aleatoria en cada fotograma</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.None">Ninguno</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.None.Info">Los fotogramas se cuantizan sin dithering.</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.SerpentineProcessing">Procesamiento serpenteante</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.SerpentineProcessing.Info">Cuando está activado, la dirección de propagación del error cambia de línea en línea.&#10;Esto ayuda a reducir el efecto de ondulación del dithering por difusión de error</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer2X2">Bayer 2x2 (Ordenado)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer2X2.Info">El patrón de matriz Bayer 2x2</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer3X3">Bayer 3x3 (Ordenado)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer3X3.Info">El patrón de matriz Bayer 3x3</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer4X4">Bayer 4x4 (Ordenado)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer4X4.Info">El patrón de matriz Bayer 4x4</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer8X8">Bayer 8x8 (Ordenado)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer8X8.Info">El patrón de matriz Bayer 8x8</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.DottedHalftone">Medio tono punteado (Ordenado)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.DottedHalftone.Info">Una matriz 8x8 con un patrón de medio tono punteado</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.BlueNoise">Ruido azul (Ordenado)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.BlueNoise.Info">Una matriz 64x64 con un patrón de ruido azul</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Atkinson">Atkinson (Difusión de error)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Atkinson.Info">Matriz 4x3 de Bill Atkinson con 6 valores efectivos</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Burkes">Burkes (Difusión de error)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Burkes.Info">Matriz 5x2 de D. Burkes</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.FloydSteinberg">Floyd-Steinberg (Difusión de error)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.FloydSteinberg.Info">La matriz original 3x2 de Floyd y Steinberg</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.JarvisJudiceNinke">Jarvis-Judice-Ninke (Difusión de error)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.JarvisJudiceNinke.Info">Una matriz 5x3 de Jarvis, Judice y Ninke</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Sierra3">Sierra 3 (Difusión de error)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Sierra3.Info">Matriz 5x3 de Frankie Sierra</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Sierra2">Sierra 2 (Difusión de error)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Sierra2.Info">Matriz 5x2 de Frankie Sierra</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.SierraLite">Sierra Lite (Difusión de error)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.SierraLite.Info">Matriz 3x2 de Frankie Sierra</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.StevensonArce">Stevenson-Arce (Difusión de error)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.StevensonArce.Info">Matriz hexagonal 7x4 de Stevenson y Arce</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Stucki">Stucki (Difusión de error)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Stucki.Info">Matriz 5x3 de Stucki</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.RandomNoise">Ruido aleatorio</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.RandomNoise.Info">Ruido blanco aleatorio</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.InterleavedGradientNoise">Ruido de gradiente intercalado</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.InterleavedGradientNoise.Info">Ruido de gradiente no aleatorio generado mediante una fórmula</s:String>
+
+    <s:String x:Key="S.Preset.Encoder.Gif.AllowDeltaFrames">Permitir fotogramas delta</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.AllowDeltaFrames.Info">Cuando está activado, se intentan detectar píxeles sin cambios durante la codificación.&#13;&#10;Al usarlo con un cuantizador optimizado, esta opción permite que un fotograma tenga más de 256 colores.&#13;&#10;Esta opción se ignora si el cuantizador no usa transparencia y “Permitir fotogramas recortados” está desactivado</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.DeltaTolerance">Tolerancia delta</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.DeltaTolerance.Info">Especifica la tolerancia máxima al detectar píxeles cambiados.&#13;&#10;Si es 0, no se tolera ninguna diferencia.&#13;&#10;Si es 255, puede haber fotogramas (o incluso todos) añadidos sin contenido.&#13;&#10;El rango razonable es entre 0 y 16 para un cuantizador optimizado. Los de colores fijos pueden usar valores mayores con dithering</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.AllowClippedFrames">Permitir fotogramas recortados</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.AllowClippedFrames.Info">Cuando está activado, el codificador puede añadir fotogramas más pequeños que la resolución real.&#13;&#10;Si “Permitir fotogramas delta” está desactivado, solo permite recortar bordes transparentes posibles</s:String>
+
+    <s:String x:Key="S.Preset.Encoder.Gif.AllowDeltaIgnored">“Permitir fotogramas delta” se ignora porque la configuración actual no usa alfa y “Permitir fotogramas recortados” está desactivado</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.AllowDeltaIgnored.Enable">Habilitar fotogramas recortados</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.HighDeltaTolerance">Si la tolerancia delta es demasiado alta, el resultado puede tener mala calidad</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.HighDeltaTolerance.Reset">Restablecer tolerancia delta</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.AllowClippedIgnored">“Permitir fotogramas recortados” no tiene efecto porque la configuración actual no usa alfa y “Permitir fotogramas delta” está desactivado</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.AllowClippedIgnored.Enable">Habilitar fotogramas delta</s:String>
+
+    <!--Preset • Webp-->
+    <s:String x:Key="S.Preset.Encoder.Webm.Preset.None">Ninguno</s:String>
+    <s:String x:Key="S.Preset.Encoder.Webm.Preset.Default">Predeterminado</s:String>
+    <s:String x:Key="S.Preset.Encoder.Webm.Preset.Picture">Imagen</s:String>
+    <s:String x:Key="S.Preset.Encoder.Webm.Preset.Photo">Foto</s:String>
+    <s:String x:Key="S.Preset.Encoder.Webm.Preset.Drawing">Dibujo</s:String>
+    <s:String x:Key="S.Preset.Encoder.Webm.Preset.Icon">Icono</s:String>
+    <s:String x:Key="S.Preset.Encoder.Webm.Preset.Text">Texto</s:String>
+    <s:String x:Key="S.Preset.Encoder.Webm.Lossless">Usar modo sin pérdidas</s:String>
+    <s:String x:Key="S.Preset.Encoder.Webm.Lossless.Info">Calidad máxima, sin degradación de color</s:String>
+
+    <!--Preset • Video-->
+    <s:String x:Key="S.Preset.Encoder.Video.Codec">Códec</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Codec.Info">El codificador de vídeo, responsable de&#10;convertir los píxeles sin procesar en el archivo de salida</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset">Preset del códec</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.None">Ninguno</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.VerySlow">Muy lento</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Slower">Más lento</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Slow">Lento</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Medium">Medio</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Fast">Rápido</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Faster">Más rápido</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.VeryFast">Muy rápido</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.SuperFast">Súper rápido</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.UltraFast">Ultra rápido</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Quality">Calidad</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Balanced">Equilibrado</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Speed">Velocidad</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Default">Predeterminado</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Lossless">Sin pérdidas</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.LosslessHp">Sin pérdidas (Alto rendimiento)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Hp">Alto rendimiento</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Hq">Alta calidad</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Bd">Disco Blu-ray</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.LowLatency">Baja latencia</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.LowLatencyHp">Baja latencia (Alto rendimiento)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.LowLatencyHq">Baja latencia (Alta calidad)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Info">Relación entre velocidad de codificación y compresión,&#10;los presets más lentos pueden ofrecer mejor compresión&#10;(calidad por tamaño de archivo)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.HardwareAcceleration">Aceleración por hardware</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.HardwareAcceleration.Off">Desactivado</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.HardwareAcceleration.On">Activado</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.HardwareAcceleration.Auto">Selección automática</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.HardwareAcceleration.Info">Controla el uso de hardware dedicado (gráficos de vídeo).&#10;Off: No usa hardware dedicado.&#10;On: Usa hardware dedicado y permite seleccionar codificadores especiales.&#10;Auto: Usa hardware dedicado y selecciona automáticamente el codificador adecuado cuando sea posible</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.PixelFormat">Formato de píxel</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.PixelFormat.Auto">Automático</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Crf.Info">Factor de tasa constante.&#10;Ajuste de calidad y control de tasa.&#10;Déjalo vacío si no deseas configurar esta propiedad</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.QualityLevel">Nivel de calidad</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.QualityLevel.Info">Valores menores significan mejor calidad</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Bitrate">Bitrate</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Info">Tasa de bits objetivo del vídeo</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Mode">Modo de bitrate</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Mode.Constant">Constante</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Mode.Variable">Variable</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Minimum">Tasa mínima</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Minimum.Info">Tolerancia mínima de bitrate.&#10;Muy útil al usar modo CBR.&#10;Déjalo vacío o en cero&#10;si no deseas configurar esta propiedad</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Maximum">Tasa máxima</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Maximum.Info">Tolerancia máxima de bitrate.&#10;Requiere también configurar el tamaño del buffer.&#10;Déjalo vacío o en cero&#10;si no deseas configurar esta propiedad</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Buffer">Tamaño del buffer</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Buffer.Info">Tamaño del buffer de control de tasa.&#10;Déjalo vacío o en cero&#10;si no deseas configurar esta propiedad</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Audio.Include">Incluir audio</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Audio.Include.Info">Si el proyecto contiene pistas de audio, serán incluidas en el archivo de salida</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Audio.Format">Formato de audio</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Audio.Codec">Códec de audio</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Audio.BitRate">Tasa de bits de audio</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Audio.SampleRate">Frecuencia de muestreo</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Audio.Channels">Canales</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Audio.Channels.Info">Déjalo vacío para seguir el número de canales del proyecto</s:String>
+
+    <!--Preset • Psd-->
+    <s:String x:Key="S.Preset.Encoder.Psd.Compress">Comprimir la imagen</s:String>
+    <s:String x:Key="S.Preset.Encoder.Psd.Compress.Info">Comprime los datos de la imagen usando el algoritmo RLE</s:String>
+
+    <!--Preset • Zip-->
+    <s:String x:Key="S.Preset.Encoder.Image.Zip">Comprimir las imágenes en Zip</s:String>
+    <s:String x:Key="S.Preset.Encoder.Image.Zip.Info">Exporta las imágenes dentro de una carpeta comprimida</s:String>
+
+    <!--Windows • Upload Preset Settings-->
+    <s:String x:Key="S.UploadPreset.Title">Presets de subida</s:String>
+    <s:String x:Key="S.UploadPreset.None">No hay presets disponibles</s:String>
+    <s:String x:Key="S.UploadPreset.NoSelected">Ningún preset seleccionado</s:String>
+    <s:String x:Key="S.UploadPreset.Type.None">Ninguno</s:String>
+    <s:String x:Key="S.UploadPreset.Type.Custom">Personalizado</s:String>
+    <s:String x:Key="S.UploadPreset.IsAnonymous">Es anónimo</s:String>
+    <s:String x:Key="S.UploadPreset.IsAnonymous.Info">La subida no está vinculada a ninguna cuenta</s:String>
+    <s:String x:Key="S.UploadPreset.Authorization">Autorización</s:String>
+    <s:String x:Key="S.UploadPreset.DirectLinks">Usar enlaces directos</s:String>
+    <s:String x:Key="S.UploadPreset.DirectLinks.Info">El enlace proporcionado apuntará directamente al archivo subido</s:String>
+    <s:String x:Key="S.UploadPreset.PreferVideo">Preferir vídeo</s:String>
+    <s:String x:Key="S.UploadPreset.PreferVideo.Info">El enlace proporcionado será un vídeo en lugar de un gif</s:String>
+    <s:String x:Key="S.UploadPreset.UploadToAlbum">Subir a un álbum</s:String>
+    <s:String x:Key="S.UploadPreset.UploadToAlbum.Info">El archivo será subido a un álbum de tu elección</s:String>
+    <s:String x:Key="S.UploadPreset.Album">Álbum</s:String>
+    <s:String x:Key="S.UploadPreset.Album.AskMe.Title">Preguntarme</s:String>
+    <s:String x:Key="S.UploadPreset.Album.Empty.Title">Ninguno disponible</s:String>
+    <s:String x:Key="S.UploadPreset.Album.Empty.Message">No hay álbum o carpeta disponible</s:String>
+    <s:String x:Key="S.UploadPreset.Album.NotSelected.Title">Ninguno seleccionado</s:String>
+    <s:String x:Key="S.UploadPreset.Album.NotSelected.Message">No hay álbum o carpeta seleccionados</s:String>
+    <s:String x:Key="S.UploadPreset.Album.Refresh">Actualizar álbumes</s:String>
+
+    <s:String x:Key="S.UploadPreset.Status.Authorized">Autorización completada.</s:String>
+    <s:String x:Key="S.UploadPreset.Status.NotAuthorized">No autorizado.</s:String>
+    <s:String x:Key="S.UploadPreset.Status.Expired">La autorización expiró en {0}.</s:String>
+    <s:String x:Key="S.UploadPreset.Status.Valid">Autorización válida hasta {0}.</s:String>
+
+    <!--Windows • Upload Preset Settings > History-->
+    <s:String x:Key="S.UploadPreset.History.Title">Historial de subidas</s:String>
+    <s:String x:Key="S.UploadPreset.History.Title.Info">Lista de archivos subidos usando este preset</s:String>
+    <s:String x:Key="S.UploadPreset.History.Item">Elemento subido</s:String>
+    <s:String x:Key="S.UploadPreset.History.Details">Detalles</s:String>
+
+    <s:String x:Key="S.UploadPreset.History.Empty.Header">No hay historial de subidas disponible para este preset</s:String>
+    <s:String x:Key="S.UploadPreset.History.Empty.Message">Una vez que un archivo sea subido, aparecerá en esta lista</s:String>
+    <s:String x:Key="S.UploadPreset.History.NotSelected.Header">Ninguna subida pasada seleccionada</s:String>
+    <s:String x:Key="S.UploadPreset.History.NotSelected.Message">Una vez selecciones una subida, sus detalles aparecerán abajo</s:String>
+
+    <!--Presets • Listing-->
+    <s:String x:Key="S.Presets.Default.Title">Predeterminado ({0})</s:String>
+    <s:String x:Key="S.Presets.Default.Description">Preset predeterminado para el codificador</s:String>
+    <s:String x:Key="S.Presets.Twitter.Title">Para X/Twitter ({0})</s:String>
+    <s:String x:Key="S.Presets.Twitter.Description">Respeta los límites de subida de X/Twitter (excepto tamaño y resolución)</s:String>
+    <s:String x:Key="S.Presets.Hevc.Title">HEVC ({0})</s:String>
+    <s:String x:Key="S.Presets.Hevc.Description">Codificación de vídeo de alta eficiencia</s:String>
+    <s:String x:Key="S.Presets.Vp8.Title">VP8 ({0})</s:String>
+    <s:String x:Key="S.Presets.Vp8.Description">Códec más antiguo y conocido</s:String>
+    <s:String x:Key="S.Presets.Filename.Animation">Animación</s:String>
+    <s:String x:Key="S.Presets.Filename.Video">Vídeo</s:String>
+    <s:String x:Key="S.Presets.Filename.Image">Imagen</s:String>
+    <s:String x:Key="S.Presets.Filename.Audio">Audio</s:String>
+    <s:String x:Key="S.Presets.Filename.Project">Proyecto</s:String>
+
+    <s:String x:Key="S.Presets.Gif.Embedded.High.Title">Alta calidad</s:String>
+    <s:String x:Key="S.Presets.Gif.Embedded.High.Description">Más adecuado para grabaciones con más colores y degradados.</s:String>
+    <s:String x:Key="S.Presets.Gif.Embedded.Transparent.Title">Alta calidad • Fondo transparente</s:String>
+    <s:String x:Key="S.Presets.Gif.Embedded.Transparent.Description">Permite guardar la animación con fondo transparente.</s:String>
+    <s:String x:Key="S.Presets.Gif.Embedded.Graphics.Title">Alta calidad • Gráficos</s:String>
+    <s:String x:Key="S.Presets.Gif.Embedded.Graphics.Description">Mejor para grabaciones con menor cantidad de colores.</s:String>
+    <s:String x:Key="S.Presets.Gif.KGySoft.Balanced.Title">KGy SOFT • Equilibrado</s:String>
+    <s:String x:Key="S.Presets.Gif.KGySoft.Balanced.Description">Buena calidad para imágenes tipo foto usando el cuantizador de Wu sin dithering.</s:String>
+    <s:String x:Key="S.Presets.Gif.KGySoft.High.Title">KGy SOFT • Alta calidad</s:String>
+    <s:String x:Key="S.Presets.Gif.KGySoft.High.Description">Alta calidad para imágenes tipo foto usando el cuantizador de Wu con mayor nivel de bits y dithering Floyd-Steinberg.</s:String>
+    <s:String x:Key="S.Presets.Gif.KGySoft.Fast.Title">KGy SOFT • Baja calidad, más rápido</s:String>
+    <s:String x:Key="S.Presets.Gif.KGySoft.Fast.Description">Cuantiza todos los fotogramas con la misma paleta ‘web-safe’ predefinida y dithering Bayer 8x8.</s:String>
+    <s:String x:Key="S.Presets.Gif.Ffmpeg.High.Title">FFmpeg • Mayor calidad</s:String>
+    <s:String x:Key="S.Presets.Gif.Ffmpeg.High.Description">Mayor calidad de imagen, pero con un tamaño de archivo mayor.</s:String>
+    <s:String x:Key="S.Presets.Gif.Ffmpeg.Low.Title">FFmpeg • Menor calidad</s:String>
+    <s:String x:Key="S.Presets.Gif.Ffmpeg.Low.Description">Menor calidad de imagen, pero con un tamaño de archivo menor.</s:String>
+    <s:String x:Key="S.Presets.Gif.Gifski.High.Title">Gifski • Mayor calidad</s:String>
+    <s:String x:Key="S.Presets.Gif.Gifski.High.Description">Mayor calidad de imagen, pero con un tamaño de archivo mayor.</s:String>
+    <s:String x:Key="S.Presets.Gif.Gifski.Low.Title">Gifski • Menor calidad</s:String>
+    <s:String x:Key="S.Presets.Gif.Gifski.Low.Description">Menor calidad de imagen, pero con un tamaño de archivo menor.</s:String>
+    <s:String x:Key="S.Presets.Gif.Gifski.Fast.Title">Gifski • Menor calidad y codificación más rápida</s:String>
+    <s:String x:Key="S.Presets.Gif.Gifski.Fast.Description">Aún menor calidad de imagen, con codificación más rápida y tamaño de archivo menor.</s:String>
+
+    <s:String x:Key="S.Presets.Apng.Ffmpeg.High.Title">FFmpeg • Alta calidad</s:String>
+    <s:String x:Key="S.Presets.Apng.Ffmpeg.High.Description">Alta calidad de imagen y tamaño de archivo pequeño, pero codificación más lenta.</s:String>
+    <s:String x:Key="S.Presets.Apng.Ffmpeg.Low.Title">FFmpeg • Menor calidad</s:String>
+    <s:String x:Key="S.Presets.Apng.Ffmpeg.Low.Description">Menor calidad de imagen, tamaño de archivo pequeño y codificación más rápida.</s:String>
+    <s:String x:Key="S.Presets.Webp.Ffmpeg.High.Title">Alta calidad</s:String>
+    <s:String x:Key="S.Presets.Webp.Ffmpeg.High.Description">Alta calidad de imagen y tamaño de archivo pequeño.</s:String>
+
+    <s:String x:Key="S.Presets.Audio.Low.Title">Baja</s:String>
+    <s:String x:Key="S.Presets.Audio.Low.Description">Para narración de voz casual; 128 kbps • 44.1 kHz</s:String>
+    <s:String x:Key="S.Presets.Audio.Medium.Title">Media</s:String>
+    <s:String x:Key="S.Presets.Audio.Medium.Description">Fidelidad equilibrada para audio diario; 192 kbps • 44.1 kHz</s:String>
+    <s:String x:Key="S.Presets.Audio.High.Title">Alta</s:String>
+    <s:String x:Key="S.Presets.Audio.High.Description">Sonido rico para música y reproducción de vídeo; 320 kbps • 48 kHz</s:String>
+    <s:String x:Key="S.Presets.Audio.Studio.Title">Estudio</s:String>
+    <s:String x:Key="S.Presets.Audio.Studio.Description">Máximo detalle para masterización profesional; 320 kbps • 96 kHz</s:String>
+
+    <!--Font Styles-->
+    <s:String x:Key="S.FontStyles">Estilo de fuente</s:String>
+    <s:String x:Key="S.FontStyles.Normal">Normal</s:String>
+    <s:String x:Key="S.FontStyles.Oblique">Oblicua</s:String>
+    <s:String x:Key="S.FontStyles.Italic">Cursiva</s:String>
+
+    <!--Font Weight-->
+    <s:String x:Key="S.FontWeights">Peso de la fuente</s:String>
+    <s:String x:Key="S.FontWeights.Thin">Fina</s:String>
+    <s:String x:Key="S.FontWeights.ExtraLight">Extra ligera</s:String>
+    <s:String x:Key="S.FontWeights.Light">Ligera</s:String>
+    <s:String x:Key="S.FontWeights.Normal">Normal</s:String>
+    <s:String x:Key="S.FontWeights.Medium">Media</s:String>
+    <s:String x:Key="S.FontWeights.SemiBold">Seminegrita</s:String>
+    <s:String x:Key="S.FontWeights.Bold">Negrita</s:String>
+    <s:String x:Key="S.FontWeights.ExtraBold">Extra negrita</s:String>
+    <s:String x:Key="S.FontWeights.Heavy">Pesada</s:String>
+    <s:String x:Key="S.FontWeights.ExtraHeavy">Extra pesada</s:String>
+
+    <!--Font Stretch-->
+    <s:String x:Key="S.FontStretch">Expansión de la fuente</s:String>
+    <s:String x:Key="S.FontStretch.UltraCondensed">Ultracondensada</s:String>
+    <s:String x:Key="S.FontStretch.ExtraCondensed">Extracondensada</s:String>
+    <s:String x:Key="S.FontStretch.Condensed">Condensada</s:String>
+    <s:String x:Key="S.FontStretch.SemiCondensed">Semicondensada</s:String>
+    <s:String x:Key="S.FontStretch.Medium">Media</s:String>
+    <s:String x:Key="S.FontStretch.Normal">Normal</s:String>
+    <s:String x:Key="S.FontStretch.SemiExpanded">Semiexpandida</s:String>
+    <s:String x:Key="S.FontStretch.Expanded">Expandida</s:String>
+    <s:String x:Key="S.FontStretch.ExtraExpanded">Extra expandida</s:String>
+    <s:String x:Key="S.FontStretch.UltraExpanded">Ultra expandida</s:String>
+
+    <!--Alignment-->
+    <s:String x:Key="S.Alignment.Horizontal">Alineación horizontal</s:String>
+    <s:String x:Key="S.Alignment.Vertical">Alineación vertical</s:String>
+    <s:String x:Key="S.Alignment.Top">Arriba</s:String>
+    <s:String x:Key="S.Alignment.Left">Izquierda</s:String>
+    <s:String x:Key="S.Alignment.Center">Centro</s:String>
+    <s:String x:Key="S.Alignment.Bottom">Abajo</s:String>
+    <s:String x:Key="S.Alignment.Right">Derecha</s:String>
+    <s:String x:Key="S.Alignment.Stretch">Estirar</s:String>
+    <s:String x:Key="S.Alignment.Free">Libre (sin restricciones)</s:String>
+
+    <!--Orientation-->
+    <s:String x:Key="S.Orientation">Orientación</s:String>
+    <s:String x:Key="S.Orientation.Horizontal">Horizontal</s:String>
+    <s:String x:Key="S.Orientation.Vertical">Vertical</s:String>
+
+    <!--Text Alignment-->
+    <s:String x:Key="S.TextAlignment">Alineación del texto</s:String>
+    <s:String x:Key="S.TextAlignment.Left">Izquierda</s:String>
+    <s:String x:Key="S.TextAlignment.Right">Derecha</s:String>
+    <s:String x:Key="S.TextAlignment.Center">Centro</s:String>
+    <s:String x:Key="S.TextAlignment.Justify">Justificar</s:String>
+</ResourceDictionary>
