@@ -56,7 +56,7 @@ _Also, there's a problem with this feature, special characters such as **Carriag
 
 ## 📩 After it's done
 
-* You can send the `xaml` file as attachment to [nicke@outlook.com.br](malito:nicke@outlook.com.br). Don't forget to provide your name or nickname.
+* You can send the `xaml` file as attachment to [the contact email](https://nicke.tech). Don't forget to provide your name or nickname.
 * Or make a pull request (PR) using Git:
     1. [Create a fork](https://help.github.com/articles/fork-a-repo/) of this repository.
     2. Add your new or updated translation to the forked project (you can visit your forked project web page and simply upload the file to the folder Localizations).
