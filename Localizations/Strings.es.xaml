@@ -401,6 +401,10 @@
     <s:String x:Key="S.Info.DefaultPreset.Title">Solo lectura</s:String>
     <s:String x:Key="S.Info.DefaultPreset.Message">Algunas propiedades de un ajuste preestablecido predeterminado son de solo lectura</s:String>
 
+    <!--Info • Undo/redo recovered-->
+    <s:String x:Key="S.Info.ResumeUndo.Header">Reanudar donde lo dejaste</s:String>
+    <s:String x:Key="S.Info.ResumeUndo.Message">Se detectó un estado de edición anterior. Historial de deshacer/rehacer disponible</s:String>
+
     <!--Warnings • Single instance-->
     <s:String x:Key="S.Warning.Single.Header">La aplicación ya está en ejecución</s:String>
     <s:String x:Key="S.Warning.Single.Message">N-Studio ya está en ejecución, pero aparentemente no hay ninguna ventana abierta. Comprueba la bandeja del sistema, debe haber un icono de N-Studio allí.</s:String>
@@ -444,7 +448,7 @@
     <s:String x:Key="S.Error.FailedToSend.Description">Por favor, exporta el contenido del comentario como un archivo zip y envíalo por correo electrónico</s:String>
     <s:String x:Key="S.Error.FailedToSend.OpenEmail">Abrir correo electrónico</s:String>
 
-        <!--Error • Update Unsupported-->
+    <!--Error • Update Unsupported-->
     <s:String x:Key="S.Error.UpdateUnsupported.Header">No compatible</s:String>
     <s:String x:Key="S.Error.UpdateUnsupported.Message">Parece que tu sistema ya no es compatible o algo ha cambiado en el sistema de actualización. Intenta descargarla manualmente desde la página web.</s:String>
 
@@ -511,6 +515,10 @@
     <!--Error • Error initializing-->
     <s:String x:Key="S.Errors.InitializePreviewer.Header">Error del previsualizador</s:String>
     <s:String x:Key="S.Errors.InitializePreviewer.Message">No fue posible inicializar el previsualizador</s:String>
+
+    <!--Error • Saving project--> 
+    <s:String x:Key="S.Errors.SaveProject.Header">Error al guardar</s:String>
+    <s:String x:Key="S.Errors.SaveProject.Message">No fue posible guardar el proyecto</s:String>
 
     <!--Error • Others-->
     <s:String x:Key="S.Errors.Activation.Title">La activación ha fallado</s:String>
@@ -750,6 +758,12 @@
     <s:String x:Key="S.Editor.Timeline.Locked">Bloqueado</s:String>
     <s:String x:Key="S.Editor.Timeline.ScrollMode">Alternar modo de desplazamiento de la línea de tiempo</s:String>
     <s:String x:Key="S.Editor.Timeline.ZoomOut">Alejar</s:String>
+    <s:String x:Key="S.Editor.Timeline.SelectionStart">Inicio de la selección</s:String>
+    <s:String x:Key="S.Editor.Timeline.SelectionEnd">Fin de la selección</s:String>
+    <s:String x:Key="S.Editor.Timeline.ExpandStart">Expandir para ver o navegar hasta el inicio del segmento (Ctrl + Clic)</s:String>
+    <s:String x:Key="S.Editor.Timeline.ExpandEnd">Expandir para ver o navegar hasta el fin del segmento (Ctrl + Clic)</s:String>
+    <s:String x:Key="S.Editor.Timeline.DragStart">Arrastrar para cambiar la velocidad o recortar el inicio (mantener Shift)</s:String>
+    <s:String x:Key="S.Editor.Timeline.DragEnd">Arrastrar para cambiar la velocidad o recortar el fin (mantener Shift)</s:String>
 
     <!--Windows • Feedback-->
     <s:String x:Key="S.Feedback.Header">Comentarios</s:String>
@@ -922,6 +936,7 @@
     <s:String x:Key="S.DragDrop.Info">Puedes soltar archivos multimedia o un proyecto aquí</s:String>
     <s:String x:Key="S.DragDrop.Insert">Soltar para insertar el/los archivo(s)</s:String>
     <s:String x:Key="S.DragDrop.Open">Soltar para abrir el/los archivo(s)</s:String>
+    <s:String x:Key="S.DragDrop.Open.Project">Soltar para abrir el proyecto</s:String>
     <s:String x:Key="S.DragDrop.Folder.Insert">Soltar para insertar archivos desde la(s) carpeta(s)</s:String>
     <s:String x:Key="S.DragDrop.Folder.Open">Soltar para abrir archivos desde la(s) carpeta(s)</s:String>
     <s:String x:Key="S.DragDrop.Both.Insert">Soltar para insertar archivo(s) junto con archivos de la(s) carpeta(s)</s:String>

@@ -401,6 +401,10 @@
     <s:String x:Key="S.Info.DefaultPreset.Title">Somente leitura</s:String>
     <s:String x:Key="S.Info.DefaultPreset.Message">Algumas das propriedades de uma predefinição padrão são somente leitura</s:String>
 
+    <!--Info • Undo/redo recovered-->
+    <s:String x:Key="S.Info.ResumeUndo.Header">Continue de onde parou</s:String>
+    <s:String x:Key="S.Info.ResumeUndo.Message">Foi detectado um estado de edição anterior. Histórico de desfazer/refazer disponível</s:String>
+
     <!--Warnings • Single instance-->
     <s:String x:Key="S.Warning.Single.Header">O aplicativo já está rodando</s:String>
     <s:String x:Key="S.Warning.Single.Message">O N-Studio já está rodando, mas aparentemente não há nenhuma janela aberta. Verifique sua bandeja do sistema, um ícone do N-Studio deve estar lá.</s:String>
@@ -511,6 +515,10 @@
     <!--Error • Error initializing--> 
     <s:String x:Key="S.Errors.InitializePreviewer.Header">Erro do visualizador</s:String>
     <s:String x:Key="S.Errors.InitializePreviewer.Message">Não foi possível inicializar o visualizador (previewer)</s:String>
+
+    <!--Error • Saving project--> 
+    <s:String x:Key="S.Errors.SaveProject.Header">Erro no salvar</s:String>
+    <s:String x:Key="S.Errors.SaveProject.Message">Não foi possível salvar o projeto</s:String>
 
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Falha na ativação</s:String>
@@ -750,6 +758,12 @@
     <s:String x:Key="S.Editor.Timeline.Locked">Bloqueado</s:String>
     <s:String x:Key="S.Editor.Timeline.ScrollMode">Alternar modo de rolagem da linha do tempo</s:String>
     <s:String x:Key="S.Editor.Timeline.ZoomOut">Diminuir zoom</s:String>
+    <s:String x:Key="S.Editor.Timeline.SelectionStart">Início da seleção</s:String>
+    <s:String x:Key="S.Editor.Timeline.SelectionEnd">Fim da seleção</s:String>
+    <s:String x:Key="S.Editor.Timeline.ExpandStart">Expandir para visualizar ou navegar até o início do segmento (Ctrl + Clique)</s:String>
+    <s:String x:Key="S.Editor.Timeline.ExpandEnd">Expandir para visualizar ou navegar até o fim do segmento (Ctrl + Clique)</s:String>
+    <s:String x:Key="S.Editor.Timeline.DragStart">Arraste para alterar a velocidade ou cortar o início (segure Shift)</s:String>
+    <s:String x:Key="S.Editor.Timeline.DragEnd">Arraste para alterar a velocidade ou cortar o fim (segure Shift)</s:String>
 
     <!--Windows • Feedback-->
     <s:String x:Key="S.Feedback.Header">Feedback</s:String>
@@ -922,6 +936,7 @@
     <s:String x:Key="S.DragDrop.Info">Você pode soltar arquivos de mídia ou um projeto aqui</s:String>
     <s:String x:Key="S.DragDrop.Insert">Solte para inserir o(s) arquivo(s)</s:String>
     <s:String x:Key="S.DragDrop.Open">Solte para abrir o(s) arquivo(s)</s:String>
+    <s:String x:Key="S.DragDrop.Open.Project">Solte para abrir o projeto</s:String>
     <s:String x:Key="S.DragDrop.Folder.Insert">Solte para inserir arquivos da(s) pasta(s)</s:String>
     <s:String x:Key="S.DragDrop.Folder.Open">Solte para abrir arquivos da(s) pasta(s)</s:String>
     <s:String x:Key="S.DragDrop.Both.Insert">Solte para inserir arquivo(s) junto com arquivos da(s) pasta(s)</s:String>

@@ -401,6 +401,10 @@
     <s:String x:Key="S.Info.DefaultPreset.Title">Read-only</s:String>
     <s:String x:Key="S.Info.DefaultPreset.Message">Some of the properties of a default preset are read-only</s:String>
 
+    <!--Info • Undo/redo recovered-->
+    <s:String x:Key="S.Info.ResumeUndo.Header">Resume where you left</s:String>
+    <s:String x:Key="S.Info.ResumeUndo.Message">Previous editing state detected. Undo/redo history available</s:String>
+
     <!--Warnings • Single instance-->
     <s:String x:Key="S.Warning.Single.Header">The app is already running</s:String>
     <s:String x:Key="S.Warning.Single.Message">N-Studio is already running, but apparently there's no window open. Check you system tray, a N-Studio icon must be there.</s:String>
@@ -511,6 +515,10 @@
     <!--Error • Error initializing--> 
     <s:String x:Key="S.Errors.InitializePreviewer.Header">Previewer error</s:String>
     <s:String x:Key="S.Errors.InitializePreviewer.Message">It was not possible to initialize the previewer</s:String>
+
+    <!--Error • Saving project--> 
+    <s:String x:Key="S.Errors.SaveProject.Header">Error saving</s:String>
+    <s:String x:Key="S.Errors.SaveProject.Message">It was not possible to save the project</s:String>
 
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Activation failed</s:String>
@@ -750,6 +758,12 @@
     <s:String x:Key="S.Editor.Timeline.Locked">Locked</s:String>
     <s:String x:Key="S.Editor.Timeline.ScrollMode">Toggle timeline scroll mode</s:String>
     <s:String x:Key="S.Editor.Timeline.ZoomOut">Zoom out</s:String>
+    <s:String x:Key="S.Editor.Timeline.SelectionStart">Selection start</s:String>
+    <s:String x:Key="S.Editor.Timeline.SelectionEnd">Selection end</s:String>
+    <s:String x:Key="S.Editor.Timeline.ExpandStart">Expand to view or navigate to start of segment (Ctrl + Click)</s:String>
+    <s:String x:Key="S.Editor.Timeline.ExpandEnd">Expand to view or navigate to end of segment (Ctrl + Click)</s:String>
+    <s:String x:Key="S.Editor.Timeline.DragStart">Drag to change speed or to trim start (hold Shift)</s:String>
+    <s:String x:Key="S.Editor.Timeline.DragEnd">Drag to change speed or to trim end (hold Shift)</s:String>
 
     <!--Windows • Feedback-->
     <s:String x:Key="S.Feedback.Header">Feedback</s:String>
@@ -922,6 +936,7 @@
     <s:String x:Key="S.DragDrop.Info">You can drop media files or a project here</s:String>
     <s:String x:Key="S.DragDrop.Insert">Drop to insert the file(s)</s:String>
     <s:String x:Key="S.DragDrop.Open">Drop to open the file(s)</s:String>
+    <s:String x:Key="S.DragDrop.Open.Project">Drop to open the project</s:String>
     <s:String x:Key="S.DragDrop.Folder.Insert">Drop to insert files from the folder(s)</s:String>
     <s:String x:Key="S.DragDrop.Folder.Open">Drop to open files from the folder(s)</s:String>
     <s:String x:Key="S.DragDrop.Both.Insert">Drop to insert file(s) along with files from the folder(s)</s:String>
