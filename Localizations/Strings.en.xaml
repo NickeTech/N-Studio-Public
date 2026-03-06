@@ -1503,10 +1503,12 @@
     <s:String x:Key="S.Settings.Editor.CacheHandling.Keep">Always keep in cache</s:String>
     <s:String x:Key="S.Settings.Editor.CacheHandling.Delete">Always delete from cache</s:String>
     <s:String x:Key="S.Settings.Editor.InsertPosition">Recording insert position</s:String>
-    <s:String x:Key="S.Settings.Editor.InsertPosition.Ask">Ask me</s:String>
     <s:String x:Key="S.Settings.Editor.InsertPosition.Start">Start of timeline</s:String>
     <s:String x:Key="S.Settings.Editor.InsertPosition.Current">Current position</s:String>
     <s:String x:Key="S.Settings.Editor.InsertPosition.After">After all segments</s:String>
+    <s:String x:Key="S.Settings.Editor.SegmentPasteBehavior">Segment pasting behavior</s:String>
+    <s:String x:Key="S.Settings.Editor.SegmentPasteBehavior.Existing">In the selected track</s:String>
+    <s:String x:Key="S.Settings.Editor.SegmentPasteBehavior.New">In a new track</s:String>
     <s:String x:Key="S.Settings.Editor.MediaInsert">Media insert options</s:String>
     <s:String x:Key="S.Settings.Editor.MediaInsert.Info">Choose how to insert media in the timeline</s:String>
     <s:String x:Key="S.Settings.Editor.MediaInsert.Grouping">Grouping</s:String>

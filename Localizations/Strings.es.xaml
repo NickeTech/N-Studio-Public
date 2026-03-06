@@ -1503,10 +1503,12 @@
     <s:String x:Key="S.Settings.Editor.CacheHandling.Keep">Mantener siempre en caché</s:String>
     <s:String x:Key="S.Settings.Editor.CacheHandling.Delete">Eliminar siempre de la caché</s:String>
     <s:String x:Key="S.Settings.Editor.InsertPosition">Posición de inserción de grabación</s:String>
-    <s:String x:Key="S.Settings.Editor.InsertPosition.Ask">Preguntarme</s:String>
     <s:String x:Key="S.Settings.Editor.InsertPosition.Start">Inicio de la línea de tiempo</s:String>
     <s:String x:Key="S.Settings.Editor.InsertPosition.Current">Posición actual</s:String>
     <s:String x:Key="S.Settings.Editor.InsertPosition.After">Después de todos los segmentos</s:String>
+    <s:String x:Key="S.Settings.Editor.SegmentPasteBehavior">Comportamiento de pegado de segmentos</s:String>
+    <s:String x:Key="S.Settings.Editor.SegmentPasteBehavior.Existing">En la pista seleccionada</s:String>
+    <s:String x:Key="S.Settings.Editor.SegmentPasteBehavior.New">En una nueva pista</s:String>
     <s:String x:Key="S.Settings.Editor.MediaInsert">Opciones de inserción de medios</s:String>
     <s:String x:Key="S.Settings.Editor.MediaInsert.Info">Elige cómo insertar medios en la línea de tiempo</s:String>
     <s:String x:Key="S.Settings.Editor.MediaInsert.Grouping">Agrupación</s:String>
