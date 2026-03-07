@@ -505,8 +505,8 @@
     <s:String x:Key="S.Error.UpdatedFailed.Message">Instale a atualização manualmente</s:String>
 
     <!--Error • Error loading--> 
-    <s:String x:Key="S.Errors.Load.Title">Erro de carregamento</s:String>
-    <s:String x:Key="S.Errors.Load.Description">Não foi possível carregar o projeto</s:String>
+    <s:String x:Key="S.Errors.Load.Header">Erro de carregamento</s:String>
+    <s:String x:Key="S.Errors.Load.Message">Não foi possível carregar o projeto</s:String>
 
     <!--Error • Error with renderer--> 
     <s:String x:Key="S.Errors.Renderer.Header">Erro do renderizador</s:String>
@@ -519,6 +519,114 @@
     <!--Error • Saving project--> 
     <s:String x:Key="S.Errors.SaveProject.Header">Erro no salvar</s:String>
     <s:String x:Key="S.Errors.SaveProject.Message">Não foi possível salvar o projeto</s:String>
+
+    <!--Error • Creating empty project--> 
+    <s:String x:Key="S.Errors.EmptyProject.Header">Erro ao criar projeto</s:String>
+    <s:String x:Key="S.Errors.EmptyProject.Message">Não foi possível criar o projeto vazio</s:String>
+
+    <!--Error • Creating project from recording--> 
+    <s:String x:Key="S.Errors.ProjectFromRecording.Header">Erro ao criar projeto</s:String>
+    <s:String x:Key="S.Errors.ProjectFromRecording.Message">Não foi possível criar o projeto a partir de uma gravação</s:String>
+
+    <!--Error • Creating project from media--> 
+    <s:String x:Key="S.Errors.ProjectFromMedia.Header">Erro ao criar projeto</s:String>
+    <s:String x:Key="S.Errors.ProjectFromMedia.Message">Não foi possível criar o projeto a partir de uma mídia</s:String>
+
+    <!--Error • Copy--> 
+    <s:String x:Key="S.Errors.Copy.Header">Erro ao copiar</s:String>
+    <s:String x:Key="S.Errors.Copy.Message">Não foi possível copiar o item selecionado</s:String>
+
+    <!--Error • Cut-->
+    <s:String x:Key="S.Errors.Cut.Header">Falha ao recortar</s:String>
+    <s:String x:Key="S.Errors.Cut.Message">Falha ao recortar os itens selecionados</s:String>
+
+    <!--Error • Paste-->
+    <s:String x:Key="S.Errors.Paste.Header">Falha ao colar</s:String>
+    <s:String x:Key="S.Errors.Paste.Message">Falha ao colar os itens</s:String>
+
+    <!--Error • Inserting recording-->
+    <s:String x:Key="S.Errors.InsertingRecording.Header">Erro ao inserir gravação</s:String>
+    <s:String x:Key="S.Errors.InsertingRecording.Message">Falha ao inserir a gravação capturada no projeto</s:String>
+
+    <!--Error • Inserting media-->
+    <s:String x:Key="S.Errors.InsertingMedia.Header">Erro ao inserir mídia</s:String>
+    <s:String x:Key="S.Errors.InsertingMedia.Message">Falha ao inserir a mídia selecionada no projeto</s:String>
+
+    <!--Error • Inserting text-->
+    <s:String x:Key="S.Errors.InsertingText.Header">Erro ao inserir texto</s:String>
+    <s:String x:Key="S.Errors.InsertingText.Message">Falha ao inserir o elemento de texto no projeto</s:String>
+
+    <!--Error • Inserting progress-->
+    <s:String x:Key="S.Errors.InsertingProgress.Header">Erro ao inserir progresso</s:String>
+    <s:String x:Key="S.Errors.InsertingProgress.Message">Falha ao inserir o elemento de progresso no projeto</s:String>
+
+    <!--Error • Inserting drawing-->
+    <s:String x:Key="S.Errors.InsertingDrawing.Header">Erro ao inserir desenho</s:String>
+    <s:String x:Key="S.Errors.InsertingDrawing.Message">Falha ao inserir o elemento de desenho no projeto</s:String>
+
+    <!--Error • Editing drawing-->
+    <s:String x:Key="S.Errors.EditingDrawing.Header">Erro ao editar desenho</s:String>
+    <s:String x:Key="S.Errors.EditingDrawing.Message">Falha ao editar o desenho selecionado</s:String>
+
+    <!--Error • Inserting segment (generic)-->
+    <s:String x:Key="S.Errors.InsertingSegment.Header">Erro ao inserir segmento</s:String>
+    <s:String x:Key="S.Errors.InsertingSegment.Message">Falha ao inserir o segmento no projeto</s:String>
+
+    <!--Error • Inserting track (empty)-->
+    <s:String x:Key="S.Errors.InsertingEmptyTrack.Header">Erro ao inserir faixa</s:String>
+    <s:String x:Key="S.Errors.InsertingEmptyTrack.Message">Falha ao inserir a faixa vazia no projeto</s:String>
+
+    <!--Error • Reorder tracks-->
+    <s:String x:Key="S.Errors.ReorderingTracks.Header">Erro ao reordenar faixas</s:String>
+    <s:String x:Key="S.Errors.ReorderingTracks.Message">Falha ao reordenar as faixas selecionadas</s:String>
+
+    <!--Error • Remove tracks-->
+    <s:String x:Key="S.Errors.RemoveTracks.Header">Erro ao remover faixas</s:String>
+    <s:String x:Key="S.Errors.RemoveTracks.Message">Falha ao remover as faixas selecionadas</s:String>
+
+    <!--Error • Move segments-->
+    <s:String x:Key="S.Errors.MoveSegments.Header">Erro ao mover segmentos</s:String>
+    <s:String x:Key="S.Errors.MoveSegments.Message">Falha ao mover os segmentos selecionados</s:String>
+
+    <!--Error • Remove segments-->
+    <s:String x:Key="S.Errors.RemoveSegments.Header">Erro ao remover segmentos</s:String>
+    <s:String x:Key="S.Errors.RemoveSegments.Message">Falha ao remover os segmentos selecionados</s:String>
+
+    <!--Error • Split segment-->
+    <s:String x:Key="S.Errors.SplitSegment.Header">Erro ao dividir segmento</s:String>
+    <s:String x:Key="S.Errors.SplitSegment.Message">Falha ao dividir o segmento selecionado</s:String>
+
+    <!--Error • Trim segment-->
+    <s:String x:Key="S.Errors.TrimSegment.Header">Erro ao aparar segmento</s:String>
+    <s:String x:Key="S.Errors.TrimSegment.Message">Falha ao aparar o segmento selecionado</s:String>
+
+    <!--Error • Edit key aliases-->
+    <s:String x:Key="S.Errors.EditAliases.Header">Erro ao editar aliases de teclas</s:String>
+    <s:String x:Key="S.Errors.EditAliases.Message">Falha ao editar os aliases de teclas</s:String>
+
+    <!--Error • Edit key translations-->
+    <s:String x:Key="S.Errors.EditTranslations.Header">Erro ao editar traduções de teclas</s:String>
+    <s:String x:Key="S.Errors.EditTranslations.Message">Falha ao editar as traduções de teclas</s:String>
+
+    <!--Error • Add effect-->
+    <s:String x:Key="S.Errors.AddEffect.Header">Erro ao adicionar efeito</s:String>
+    <s:String x:Key="S.Errors.AddEffect.Message">Falha ao adicionar o efeito</s:String>
+
+    <!--Error • Edit effect-->
+    <s:String x:Key="S.Errors.EditEffect.Header">Erro ao editar efeito</s:String>
+    <s:String x:Key="S.Errors.EditEffect.Message">Falha ao editar o efeito</s:String>
+
+    <!--Error • Remove effect-->
+    <s:String x:Key="S.Errors.RemoveEffect.Header">Erro ao remover efeito</s:String>
+    <s:String x:Key="S.Errors.RemoveEffect.Message">Falha ao remover o efeito</s:String>
+
+    <!--Error • Redo-->
+    <s:String x:Key="S.Errors.Redo.Header">Erro ao refazer ação</s:String>
+    <s:String x:Key="S.Errors.Redo.Message">Falha ao refazer a ação anterior</s:String>
+
+    <!--Error • Undo-->
+    <s:String x:Key="S.Errors.Undo.Header">Erro ao desfazer ação</s:String>
+    <s:String x:Key="S.Errors.Undo.Message">Falha ao desfazer a ação anterior</s:String>
 
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Falha na ativação</s:String>
@@ -911,6 +1019,14 @@
     <s:String x:Key="S.State.Loading">Carregando...</s:String>
     <s:String x:Key="S.State.Processing">Processando...</s:String>
     <s:String x:Key="S.State.Saving">Salvando...</s:String>
+    <s:String x:Key="S.State.Done">Pronto</s:String>
+    <s:String x:Key="S.State.Copied">Copiado</s:String>
+    <s:String x:Key="S.State.Cut">Recortado</s:String>
+    <s:String x:Key="S.State.Pasted">Colado</s:String>
+    <s:String x:Key="S.State.Saved">Salvo</s:String>
+    <s:String x:Key="S.State.Redone">Refeito</s:String>
+    <s:String x:Key="S.State.Undone">Desfeito</s:String>
+    <s:String x:Key="S.State.SavedToCache">Salvo no cache</s:String>
 
     <!--Track-->
     <s:String x:Key="S.Track.Visibility.Info">Alternar visibilidade da faixa</s:String>
