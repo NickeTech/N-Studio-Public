@@ -1157,8 +1157,12 @@
     <s:String x:Key="S.Formats.Wma">Wma</s:String>
     <s:String x:Key="S.Formats.Wma.Info">Windows Media Audio</s:String>
 
+    <s:String x:Key="S.Formats.Avif">AVIF</s:String>
+    <s:String x:Key="S.Formats.Avif.Info">AV1‑Compressed Image (HEIF/AV1)</s:String>
     <s:String x:Key="S.Formats.Bmp">Bmp</s:String>
     <s:String x:Key="S.Formats.Bmp.Info">Bitmap</s:String>
+    <s:String x:Key="S.Formats.Heic">HEIC</s:String>
+    <s:String x:Key="S.Formats.Heic.Info">High‑Efficiency Image (HEIF/HEVC)</s:String>
     <s:String x:Key="S.Formats.Jpeg">Jpeg</s:String>
     <s:String x:Key="S.Formats.Jpeg.Info">Joint Photographic Experts Group</s:String>
     <s:String x:Key="S.Formats.Png">Png</s:String>
