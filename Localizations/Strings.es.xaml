@@ -139,7 +139,6 @@
     <!--Dialogs • Create Project-->
     <s:String x:Key="S.Dialog.NewProject.Header">Nuevo proyecto</s:String>
     <s:String x:Key="S.Dialog.NewProject.Name">Nombre</s:String>
-    <s:String x:Key="S.Dialog.NewProject.Optional">Opcional</s:String>
     <s:String x:Key="S.Dialog.NewProject.Background">Fondo</s:String>
     <s:String x:Key="S.Dialog.NewProject.Dpi">DPI</s:String>
 
@@ -211,6 +210,79 @@
     <s:String x:Key="S.Dialog.CommandOutput.StartedOn">Iniciado el</s:String>
     <s:String x:Key="S.Dialog.CommandOutput.FinishedOn">Finalizado el</s:String>
     <s:String x:Key="S.Dialog.CommandOutput.Result">Resultado</s:String>
+
+    <!--Dialogs • Effects-->
+    <s:String x:Key="S.Dialog.Effects.Header.New">Nuevo efecto</s:String>
+    <s:String x:Key="S.Dialog.Effects.Header.Edit">Editar efecto</s:String>
+    <s:String x:Key="S.Dialog.Effects.Type">Tipo de efecto</s:String>
+    <s:String x:Key="S.Dialog.Effects.Type.ColorInversion">Inversión de color</s:String>
+    <s:String x:Key="S.Dialog.Effects.Type.Fade">Fundido</s:String>
+    <s:String x:Key="S.Dialog.Effects.Type.Move">Mover/trasladar</s:String>
+    <s:String x:Key="S.Dialog.Effects.Type.Overlay">Superposición</s:String>
+    <s:String x:Key="S.Dialog.Effects.Type.Scale">Escala</s:String>
+    <s:String x:Key="S.Dialog.Effects.Type.Shadow">Sombra</s:String>
+    <s:String x:Key="S.Dialog.Effects.Type.Tint">Tinte</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger">Disparador</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.SegmentStart">Inicio del segmento</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.SegmentEnd">Fin del segmento</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.SubSegment">Subsegmento</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.MouseClick">Clic del ratón</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.MouseClick.Left">Izquierdo</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.MouseClick.Middle">Central</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.MouseClick.Right">Derecho</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.MouseClick.Extra1">Extra 1</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.MouseClick.Extra2">Extra 2</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.MouseHover">Paso del ratón</s:String>
+    <s:String x:Key="S.Dialog.Effects.TimingModifier">Modificadores de tiempo</s:String>
+    <s:String x:Key="S.Dialog.Effects.Duration">Duración</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect">Efecto</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.Style">Estilo</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.Fill">Relleno</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.Stroke">Trazo</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.StrokeThickness">Grosor del trazo</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.HorizontalOffset">Desplazamiento horizontal</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.VerticalOffset">Desplazamiento vertical</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.AppliesBeforeSegment">¿Se aplica antes del segmento?</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.HorizontalScale">Escala horizontal</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.VerticalScale">Escala vertical</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.HorizontalCenter">Centro horizontal</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.VerticalCenter">Centro vertical</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing">Suavizado</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type">Tipo de suavizado</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.None">Ninguno</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Back">Rebote atrás</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Bounce">Rebote</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Circle">Círculo</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Cubic">Cúbico</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Elastic">Elástico</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Exponential">Exponencial</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Power">Potencia</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Quadratic">Cuadrático</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Quartic">Cuártico</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Quintic">Quíntico</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Sine">Seno</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.KeyFrames">Fotogramas clave</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Mode">Modo de suavizado</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Mode.In">Entrada suave</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Mode.Out">Salida suave</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Mode.InOut">Entrada + salida suave</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Direction">Dirección del suavizado</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Direction.Forward">Hacia adelante</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Direction.Backward">Hacia atrás</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Direction.ForwardBackward">Adelante → atrás</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Direction.BackwardForward">Atrás → adelante</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Amplitude">Amplitud</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Bounces">Rebotes</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Bounciness">Elasticidad de rebote</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Oscillations">Oscilaciones</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Springiness">Resorte</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Exponent">Exponente</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Power">Potencia</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.KeyFrames">Fotogramas clave</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.KeyFrames.SmoothTransition">Transición suave</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.KeyFrames.Position">Posición</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.KeyFrames.Value">Valor</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.NoSettings">No hay más ajustes para esta función de suavizado</s:String>
 
     <!--Dialogs • New preset-->
     <s:String x:Key="S.Dialog.NewPreset.Header">Nuevo ajuste preestablecido</s:String>
@@ -628,6 +700,10 @@
     <s:String x:Key="S.Errors.Undo.Header">Error al deshacer acción</s:String>
     <s:String x:Key="S.Errors.Undo.Message">No se pudo deshacer la acción anterior</s:String>
 
+    <!--Error • Generic--> 
+    <s:String x:Key="S.Errors.Action.Header">Error al ejecutar la acción</s:String>
+    <s:String x:Key="S.Errors.Action.Message">No se pudo ejecutar la acción</s:String>
+
     <!--Error • Others-->
     <s:String x:Key="S.Errors.Activation.Title">La activación ha fallado</s:String>
     <s:String x:Key="S.Errors.Activation.Generic">No fue posible activar la aplicación debido a un problema desconocido</s:String>
@@ -860,6 +936,8 @@
     <s:String x:Key="S.Editor.Sections.Sound.SampleRate">Frecuencia de muestreo</s:String>
     <s:String x:Key="S.Editor.Sections.Progress">Progreso</s:String>
     <s:String x:Key="S.Editor.Sections.Shape.Thickness">Grosor</s:String>
+    <s:String x:Key="S.Editor.Sections.Effects">Efectos</s:String>
+    <s:String x:Key="S.Editor.Sections.Effects.Add">Añadir efecto</s:String>
 
     <!--Windows • Editor > Timeline-->
     <s:String x:Key="S.Editor.Timeline.NoTracks">No hay faixas en este proyecto</s:String>
@@ -1012,6 +1090,7 @@
     <!--States-->
     <s:String x:Key="S.Field.Empty">(vacío)</s:String>
     <s:String x:Key="S.Field.Space">(espacio)</s:String>
+    <s:String x:Key="S.Field.Optional">(opcional)</s:String>
     <s:String x:Key="S.Field.Key">Haz clic para enfocar el teclado y luego presiona las teclas y modificadores deseados.&#10;Algunas combinaciones no están permitidas.</s:String>
     <s:String x:Key="S.Field.Key.Remove">Eliminar combinación de teclas</s:String>
 
@@ -1029,6 +1108,9 @@
     <s:String x:Key="S.State.SavedToCache">Guardado en la caché</s:String>
 
     <!--Track-->
+    <s:String x:Key="S.Track.Hidden">Oculta</s:String>
+    <s:String x:Key="S.Track.Muted">Silenciada</s:String>
+    <s:String x:Key="S.Track.Locked">Bloqueada</s:String>
     <s:String x:Key="S.Track.Visibility.Info">Alternar visibilidad de la faixa</s:String>
     <s:String x:Key="S.Track.Visibility.Hide">Ocultar</s:String>
     <s:String x:Key="S.Track.Visibility.Show">Mostrar</s:String>
@@ -1041,6 +1123,7 @@
     <s:String x:Key="S.Track.Lock.Info">Alternar bloqueo de la faixa</s:String>
     <s:String x:Key="S.Track.Lock.Enable">Bloquear</s:String>
     <s:String x:Key="S.Track.Lock.Disable">Desbloquear</s:String>
+    <s:String x:Key="S.Track.Name">Nombre</s:String>
     <s:String x:Key="S.Track.Name.Info">Haz doble clic para editar el nombre de la faixa</s:String>
     <s:String x:Key="S.Track.Properties.Info">Propiedades de la faixa</s:String>
 

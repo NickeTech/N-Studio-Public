@@ -139,7 +139,6 @@
     <!--Dialogs • Create Project-->
     <s:String x:Key="S.Dialog.NewProject.Header">New project</s:String>
     <s:String x:Key="S.Dialog.NewProject.Name">Name</s:String>
-    <s:String x:Key="S.Dialog.NewProject.Optional">Optional</s:String>
     <s:String x:Key="S.Dialog.NewProject.Background">Background</s:String>
     <s:String x:Key="S.Dialog.NewProject.Dpi">DPI</s:String>
 
@@ -211,6 +210,79 @@
     <s:String x:Key="S.Dialog.CommandOutput.StartedOn">Started on</s:String>
     <s:String x:Key="S.Dialog.CommandOutput.FinishedOn">Finished on</s:String>
     <s:String x:Key="S.Dialog.CommandOutput.Result">Result</s:String>
+
+    <!--Dialogs • Effects-->
+    <s:String x:Key="S.Dialog.Effects.Header.New">New effect</s:String>
+    <s:String x:Key="S.Dialog.Effects.Header.Edit">Edit effect</s:String>
+    <s:String x:Key="S.Dialog.Effects.Type">Effect type</s:String>
+    <s:String x:Key="S.Dialog.Effects.Type.ColorInversion">Color inversion</s:String>
+    <s:String x:Key="S.Dialog.Effects.Type.Fade">Fade</s:String>
+    <s:String x:Key="S.Dialog.Effects.Type.Move">Move/translate</s:String>
+    <s:String x:Key="S.Dialog.Effects.Type.Overlay">Overlay</s:String>
+    <s:String x:Key="S.Dialog.Effects.Type.Scale">Scale</s:String>
+    <s:String x:Key="S.Dialog.Effects.Type.Shadow">Shadow</s:String>
+    <s:String x:Key="S.Dialog.Effects.Type.Tint">Tint</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger">Trigger</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.SegmentStart">Segment start</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.SegmentEnd">Segment end</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.SubSegment">Sub segment</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.MouseClick">Mouse click</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.MouseClick.Left">Left</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.MouseClick.Middle">Middle</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.MouseClick.Right">Right</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.MouseClick.Extra1">Extra 1</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.MouseClick.Extra2">Extra 2</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.MouseHover">Mouse hover</s:String>
+    <s:String x:Key="S.Dialog.Effects.TimingModifier">Timing modifiers</s:String>
+    <s:String x:Key="S.Dialog.Effects.Duration">Duration</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect">Effect</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.Style">Style</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.Fill">Fill</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.Stroke">Stroke</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.StrokeThickness">Stroke thickness</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.HorizontalOffset">Horizonal offset</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.VerticalOffset">Vertical offset</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.AppliesBeforeSegment">Applies before segment?</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.HorizontalScale">Horizontal scale</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.VerticalScale">Vertical scale</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.HorizontalCenter">Horizontal center</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.VerticalCenter">Vertical center</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing">Easing</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type">Easing type</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.None">None</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Back">Back</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Bounce">Bounce</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Circle">Circle</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Cubic">Cubic</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Elastic">Elastic</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Exponential">Exponential</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Power">Power</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Quadratic">Quadratic</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Quartic">Quartic</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Quintic">Quintic</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Sine">Sine</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.KeyFrames">Key frames</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Mode">Easing mode</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Mode.In">Ease in</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Mode.Out">Ease out</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Mode.InOut">Ease in + out</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Direction">Easing direction</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Direction.Forward">Forward</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Direction.Backward">Backward</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Direction.ForwardBackward">Forward → backward</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Direction.BackwardForward">Backward → forward</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Amplitude">Amplitude</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Bounces">Bounces</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Bounciness">Bounciness</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Oscillations">Oscillations</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Springiness">Springiness</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Exponent">Exponent</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Power">Power</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.KeyFrames">Key frames</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.KeyFrames.SmoothTransition">Smooth transition</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.KeyFrames.Position">Position</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.KeyFrames.Value">Value</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.NoSettings">No other settings for this easing function</s:String>
 
     <!--Dialogs • New preset-->
     <s:String x:Key="S.Dialog.NewPreset.Header">New preset</s:String>
@@ -628,6 +700,10 @@
     <s:String x:Key="S.Errors.Undo.Header">Error undoing action</s:String>
     <s:String x:Key="S.Errors.Undo.Message">Failed to undo the previous action</s:String>
 
+    <!--Error • Generic--> 
+    <s:String x:Key="S.Errors.Action.Header">Error running action</s:String>
+    <s:String x:Key="S.Errors.Action.Message">Failed to run the action</s:String>
+
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Activation failed</s:String>
     <s:String x:Key="S.Errors.Activation.Generic">It was not possible to activate the app due to an unknown problem</s:String>
@@ -860,6 +936,8 @@
     <s:String x:Key="S.Editor.Sections.Sound.SampleRate">Sample rate</s:String>
     <s:String x:Key="S.Editor.Sections.Progress">Progress</s:String>
     <s:String x:Key="S.Editor.Sections.Shape.Thickness">Thickness</s:String>
+    <s:String x:Key="S.Editor.Sections.Effects">Effects</s:String>
+    <s:String x:Key="S.Editor.Sections.Effects.Add">Add effect</s:String>
 
     <!--Windows • Editor > Timeline-->
     <s:String x:Key="S.Editor.Timeline.NoTracks">There are no tracks in this project</s:String>
@@ -1012,6 +1090,7 @@
     <!--States-->
     <s:String x:Key="S.Field.Empty">(empty)</s:String>
     <s:String x:Key="S.Field.Space">(space)</s:String>
+    <s:String x:Key="S.Field.Optional">(optional)</s:String>
     <s:String x:Key="S.Field.Key">Click to set keyboard focus, then press the desired keys and modifiers.&#10;Some keys combinations are not allowed.</s:String>
     <s:String x:Key="S.Field.Key.Remove">Remove key combination</s:String>
 
@@ -1029,6 +1108,9 @@
     <s:String x:Key="S.State.SavedToCache">Saved to cache</s:String>
 
     <!--Track-->
+    <s:String x:Key="S.Track.Hidden">Hidden</s:String>
+    <s:String x:Key="S.Track.Muted">Muted</s:String>
+    <s:String x:Key="S.Track.Locked">Locked</s:String>
     <s:String x:Key="S.Track.Visibility.Info">Toggle track visibility</s:String>
     <s:String x:Key="S.Track.Visibility.Hide">Hide</s:String>
     <s:String x:Key="S.Track.Visibility.Show">Show</s:String>
@@ -1041,6 +1123,7 @@
     <s:String x:Key="S.Track.Lock.Info">Toggle track lock</s:String>
     <s:String x:Key="S.Track.Lock.Enable">Lock</s:String>
     <s:String x:Key="S.Track.Lock.Disable">Unlock</s:String>
+    <s:String x:Key="S.Track.Name">Name</s:String>
     <s:String x:Key="S.Track.Name.Info">Double-click to edit track name</s:String>
     <s:String x:Key="S.Track.Properties.Info">Track properties</s:String>
 
@@ -1183,17 +1266,17 @@
 
     <!--Segments-->
     <s:String x:Key="S.Segments.Frames">Frames</s:String>
-    <s:String x:Key="S.Segments.MouseCursor">Mouse Cursor</s:String>
-    <s:String x:Key="S.Segments.KeyPresses">Key Presses</s:String>
+    <s:String x:Key="S.Segments.MouseCursor">Mouse cursor</s:String>
+    <s:String x:Key="S.Segments.KeyPresses">Key presses</s:String>
     <s:String x:Key="S.Segments.Text">Text</s:String>
     <s:String x:Key="S.Segments.Progress">Progress</s:String>
     <s:String x:Key="S.Segments.Image">Image</s:String>
-    <s:String x:Key="S.Segments.AnimatedImage">Animated Image</s:String>
+    <s:String x:Key="S.Segments.AnimatedImage">Animated image</s:String>
     <s:String x:Key="S.Segments.Video">Video</s:String>
-    <s:String x:Key="S.Segments.LinkedVideo">Linked Video</s:String>
+    <s:String x:Key="S.Segments.LinkedVideo">Linked video</s:String>
     <s:String x:Key="S.Segments.Audio">Audio</s:String>
-    <s:String x:Key="S.Segments.MicrophoneAudio">Microphone Audio</s:String>
-    <s:String x:Key="S.Segments.SystemAudio">System Audio</s:String>
+    <s:String x:Key="S.Segments.MicrophoneAudio">Microphone audio</s:String>
+    <s:String x:Key="S.Segments.SystemAudio">System audio</s:String>
     <s:String x:Key="S.Segments.Subtitle">Subtitle</s:String>
     <s:String x:Key="S.Segments.Shape">Shape</s:String>
     <s:String x:Key="S.Segments.Drawing">Drawing</s:String>
@@ -1202,7 +1285,7 @@
     <s:String x:Key="S.Segments.Brightness">Brightness</s:String>
     <s:String x:Key="S.Segments.Unfocus">Unfocus</s:String>
     <s:String x:Key="S.Segments.Zoom">Zoom</s:String>
-    <s:String x:Key="S.Segments.NewTrack">New Track</s:String>
+    <s:String x:Key="S.Segments.NewTrack">New track</s:String>
 
     <!--Settings-->
     <s:String x:Key="S.Settings.Title">N-Studio • Settings</s:String>
