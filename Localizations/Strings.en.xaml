@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">Nicke Manarin</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-02-16</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-03-16</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Accept</s:String>
@@ -20,6 +20,7 @@
     <s:String x:Key="S.Imperative.Reset">Reset</s:String>
     <s:String x:Key="S.Imperative.Reset.Info">Reset to the original settings</s:String>
     <s:String x:Key="S.Imperative.Revert">Revert</s:String>
+    <s:String x:Key="S.Imperative.Retry">Retry</s:String>
     <s:String x:Key="S.Imperative.Export">Export</s:String>
     <s:String x:Key="S.Imperative.Edit">Edit</s:String>
     <s:String x:Key="S.Imperative.Discard">Discard</s:String>
@@ -214,6 +215,7 @@
     <!--Dialogs • Effects-->
     <s:String x:Key="S.Dialog.Effects.Header.New">New effect</s:String>
     <s:String x:Key="S.Dialog.Effects.Header.Edit">Edit effect</s:String>
+    <s:String x:Key="S.Dialog.Effects.Target">Target segment</s:String>
     <s:String x:Key="S.Dialog.Effects.Type">Effect type</s:String>
     <s:String x:Key="S.Dialog.Effects.Type.ColorInversion">Color inversion</s:String>
     <s:String x:Key="S.Dialog.Effects.Type.Fade">Fade</s:String>
@@ -460,7 +462,8 @@
     <s:String x:Key="S.Success.ExportFeedback.Message">Feedback exported as zip successfully</s:String>
 
     <!--Info • Pro feature-->
-    <s:String x:Key="S.Info.ProFeature.Title">Upgrade to unlock this feature</s:String>
+    <s:String x:Key="S.Info.ProFeature.Header">Only for Pro</s:String>
+    <s:String x:Key="S.Info.ProFeature.Message">Upgrade to unlock this feature</s:String>
     <s:String x:Key="S.Info.ProFeature.Upgrade">Upgrade</s:String>
 
     <!--Info • Format limitations-->
@@ -704,6 +707,10 @@
     <s:String x:Key="S.Errors.Action.Header">Error running action</s:String>
     <s:String x:Key="S.Errors.Action.Message">Failed to run the action</s:String>
 
+    <!--Error • Plugin--> 
+    <s:String x:Key="S.Errors.Plugin.Header">Error downloading plugin</s:String>
+    <s:String x:Key="S.Errors.Plugin.Message">Failed download and extract plugin</s:String>
+
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Activation failed</s:String>
     <s:String x:Key="S.Errors.Activation.Generic">It was not possible to activate the app due to an unknown problem</s:String>
@@ -891,6 +898,8 @@
     <s:String x:Key="S.Editor.Edit.Copy">Copy</s:String>
     <s:String x:Key="S.Editor.Edit.Paste">Paste</s:String>
     <s:String x:Key="S.Editor.Edit.Remove">Remove</s:String>
+    <s:String x:Key="S.Editor.Edit.Content.Text">Edit text</s:String>
+    <s:String x:Key="S.Editor.Edit.Content.Drawing">Edit drawing</s:String>
     <s:String x:Key="S.Editor.Insert">Insert</s:String>
     <s:String x:Key="S.Editor.Insert.Screen">Screen Recording</s:String>
     <s:String x:Key="S.Editor.Insert.Sound">Sound Recording</s:String>
@@ -1326,7 +1335,7 @@
     <s:String x:Key="S.Settings.Application.Theme">Theme</s:String>
     <s:String x:Key="S.Settings.Application.Theme.Light">Light</s:String>
     <s:String x:Key="S.Settings.Application.Theme.Dark">Dark</s:String>
-    <s:String x:Key="S.Settings.Application.Theme.System">Follow System</s:String>
+    <s:String x:Key="S.Settings.Application.Theme.System">Follow the system</s:String>
     <s:String x:Key="S.Settings.Application.Transparency">Transparency effects</s:String>
     <s:String x:Key="S.Settings.Application.Transparency.Info">The windows will appear translucent if supported</s:String>
     <s:String x:Key="S.Settings.Application.Tray">System tray icon</s:String>
@@ -1361,7 +1370,6 @@
     <s:String x:Key="S.Settings.Application.Startup.StartWith.Editor.Info">Create or edit content</s:String>
     <s:String x:Key="S.Settings.Application.Startup.StartWith.Nothing">Nothing</s:String>
     <s:String x:Key="S.Settings.Application.Startup.StartWith.Nothing.Info">Leave the app in the system tray</s:String>
-
     <s:String x:Key="S.Settings.Application.Startup.StartWithWindows">Start with Windows</s:String>
     <s:String x:Key="S.Settings.Application.Startup.StartWithWindows.Info">The app will be executed after Windows startup</s:String>
     <s:String x:Key="S.Settings.Application.Startup.AllowMultiple">Allow multiple instances</s:String>
@@ -1375,7 +1383,6 @@
     <s:String x:Key="S.Settings.Application.Shortcuts.Settings.Info">Opens the settings window</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Exit">Exit</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Exit.Info">Closes all windows and removes the app from the system tray</s:String>
-
     <s:String x:Key="S.Settings.Application.DisableHardwareAcc">Disable hardware acceleration</s:String>
     <s:String x:Key="S.Settings.Application.DisableHardwareAcc.Info">The user interface will be rendered via software mode</s:String>
     <s:String x:Key="S.Settings.Application.AskWhenExiting">Ask me before closing the app</s:String>
@@ -1598,7 +1605,7 @@
     <s:String x:Key="S.Settings.Styles.DashOffset">Dash offset</s:String>
 
     <!--Settings • Styles > Video-->
-    <s:String x:Key="S.Settings.Styles.MaxFramerate">Max Framerate</s:String>
+    <s:String x:Key="S.Settings.Styles.MaxFramerate">Max framerate</s:String>
     <s:String x:Key="S.Settings.Styles.Mute">Mute volume</s:String>
     <s:String x:Key="S.Settings.Styles.Volume">Volume</s:String>
 
@@ -1616,7 +1623,7 @@
     <s:String x:Key="S.Settings.Styles.Format.Percentage">Percentage</s:String>
     <s:String x:Key="S.Settings.Styles.Format.Other">Other</s:String>
     <s:String x:Key="S.Settings.Styles.Format.Other.Info">Follow the specification to build your own format</s:String>
-    <s:String x:Key="S.Settings.Styles.CustomFormat">Custom Format</s:String>
+    <s:String x:Key="S.Settings.Styles.CustomFormat">Custom format</s:String>
     <s:String x:Key="S.Settings.Styles.CustomFormat.Specification">Specification</s:String>
     <s:String x:Key="S.Settings.Styles.Offset">Offset</s:String>
     <s:String x:Key="S.Settings.Styles.Offset.ToggleSign">Toggle sign</s:String>
@@ -1789,17 +1796,23 @@
     <!--Settings • Update-->
     <s:String x:Key="S.Settings.Update.UpToDate">You're up to date</s:String>
     <s:String x:Key="S.Settings.Update.LastChecked">Last checked:</s:String>
-    <s:String x:Key="S.Settings.Update.ReleaseNotes">Release Notes</s:String>
-    <s:String x:Key="S.Settings.Update.CheckForUpdates">Check for Updates</s:String>
-    <s:String x:Key="S.Settings.Update.DownloadInstall">Download and Install</s:String>
+    <s:String x:Key="S.Settings.Update.ReleaseNotes">Release notes</s:String>
+    <s:String x:Key="S.Settings.Update.CheckForUpdates">Check for updates</s:String>
+    <s:String x:Key="S.Settings.Update.Checking">Checking for updates...</s:String>
+    <s:String x:Key="S.Settings.Update.DownloadInstall">Download and install</s:String>
     <s:String x:Key="S.Settings.Update.Install">Install</s:String>
     <s:String x:Key="S.Settings.Update.Description">Description</s:String>
     <s:String x:Key="S.Settings.Update.Pending">Pending download</s:String>
+    <s:String x:Key="S.Settings.Update.Error">Error encountered</s:String>
+    <s:String x:Key="S.Settings.Update.NeverChecked">Never checked</s:String>
     <s:String x:Key="S.Settings.Update.CheckOnStart">Check for updates on startup</s:String>
     <s:String x:Key="S.Settings.Update.CheckOnStart.AutoInstall">Automatically install updates after closing the app</s:String>
     <s:String x:Key="S.Settings.Update.CheckOnStart.Prompt">Prompt me before the installation starts</s:String>
     <s:String x:Key="S.Settings.Update.CheckForTranslation">Check for translation updates</s:String>
     <s:String x:Key="S.Settings.Update.CheckForTranslation.Info">Updated translations will be downloaded and installed automatically</s:String>
+    <s:String x:Key="S.Settings.Update.StoreHandled">How to update?</s:String>
+    <s:String x:Key="S.Settings.Update.StoreHandled.Info">The updates are handled directly via the Microsoft Store</s:String>
+    <s:String x:Key="S.Settings.Update.StoreHandled.Action">Open Microsoft Store</s:String>
 
     <!--Settings • About-->
     <s:String x:Key="S.Settings.About.Contact">Contact</s:String>

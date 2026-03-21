@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">Nicke Manarin</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-02-16</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-03-16</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Aceitar</s:String>
@@ -20,6 +20,7 @@
     <s:String x:Key="S.Imperative.Reset">Redefinir</s:String>
     <s:String x:Key="S.Imperative.Reset.Info">Redefinir para as configurações originais</s:String>
     <s:String x:Key="S.Imperative.Revert">Reverter</s:String>
+    <s:String x:Key="S.Imperative.Retry">Tentar novamente</s:String>
     <s:String x:Key="S.Imperative.Export">Exportar</s:String>
     <s:String x:Key="S.Imperative.Edit">Editar</s:String>
     <s:String x:Key="S.Imperative.Discard">Descartar</s:String>
@@ -34,7 +35,7 @@
     <s:String x:Key="S.Imperative.Download">Baixar</s:String>
     <s:String x:Key="S.Imperative.LeaveAsIs">Deixar como está</s:String>
     <s:String x:Key="S.Imperative.Dismiss">Ignorar</s:String>
-    <s:String x:Key="S.Imperative.Upgrade">Atualizar</s:String>
+    <s:String x:Key="S.Imperative.Upgrade">Obter Pro</s:String>
     <s:String x:Key="S.Imperative.Save">Salvar</s:String>
     <s:String x:Key="S.Imperative.Create">Criar</s:String>
     <s:String x:Key="S.Imperative.Ok">Ok</s:String>
@@ -214,6 +215,7 @@
     <!--Dialogs • Effects-->
     <s:String x:Key="S.Dialog.Effects.Header.New">Novo efeito</s:String>
     <s:String x:Key="S.Dialog.Effects.Header.Edit">Editar efeito</s:String>
+    <s:String x:Key="S.Dialog.Effects.Target">Segmento-alvo</s:String>
     <s:String x:Key="S.Dialog.Effects.Type">Tipo de efeito</s:String>
     <s:String x:Key="S.Dialog.Effects.Type.ColorInversion">Inversão de cor</s:String>
     <s:String x:Key="S.Dialog.Effects.Type.Fade">Transparência</s:String>
@@ -460,8 +462,9 @@
     <s:String x:Key="S.Success.ExportFeedback.Message">Feedback exportado como zip com sucesso</s:String>
 
     <!--Info • Pro feature-->
-    <s:String x:Key="S.Info.ProFeature.Title">Atualize para desbloquear este recurso</s:String>
-    <s:String x:Key="S.Info.ProFeature.Upgrade">Atualizar</s:String>
+    <s:String x:Key="S.Info.ProFeature.Header">Apenas para pros</s:String>
+    <s:String x:Key="S.Info.ProFeature.Message">Desbloqueie este recurso com a versão Pro</s:String>
+    <s:String x:Key="S.Info.ProFeature.Upgrade">Desbloquear</s:String>
 
     <!--Info • Format limitations-->
     <s:String x:Key="S.Info.FormatLimitations.Title">Limitações de Formato</s:String>
@@ -704,6 +707,10 @@
     <s:String x:Key="S.Errors.Action.Header">Erro ao executar a ação</s:String>
     <s:String x:Key="S.Errors.Action.Message">Falha ao executar a ação</s:String>
 
+    <!--Error • Plugin--> 
+    <s:String x:Key="S.Errors.Plugin.Header">Erro ao baixar o plugin</s:String>
+    <s:String x:Key="S.Errors.Plugin.Message">Falha ao baixar e extrair o plugin</s:String>
+
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Falha na ativação</s:String>
     <s:String x:Key="S.Errors.Activation.Generic">Não foi possível ativar o aplicativo devido a um problema desconhecido</s:String>
@@ -891,6 +898,8 @@
     <s:String x:Key="S.Editor.Edit.Copy">Copiar</s:String>
     <s:String x:Key="S.Editor.Edit.Paste">Colar</s:String>
     <s:String x:Key="S.Editor.Edit.Remove">Remover</s:String>
+    <s:String x:Key="S.Editor.Edit.Content.Text">Editar texto</s:String>
+    <s:String x:Key="S.Editor.Edit.Content.Drawing">Editar desenho</s:String>
     <s:String x:Key="S.Editor.Insert">Inserir</s:String>
     <s:String x:Key="S.Editor.Insert.Screen">Gravação de Tela</s:String>
     <s:String x:Key="S.Editor.Insert.Sound">Gravação de Som</s:String>
@@ -1326,7 +1335,7 @@
     <s:String x:Key="S.Settings.Application.Theme">Tema</s:String>
     <s:String x:Key="S.Settings.Application.Theme.Light">Claro</s:String>
     <s:String x:Key="S.Settings.Application.Theme.Dark">Escuro</s:String>
-    <s:String x:Key="S.Settings.Application.Theme.System">Seguir o Sistema</s:String>
+    <s:String x:Key="S.Settings.Application.Theme.System">Seguir o sistema</s:String>
     <s:String x:Key="S.Settings.Application.Transparency">Efeitos de transparência</s:String>
     <s:String x:Key="S.Settings.Application.Transparency.Info">As janelas aparecerão translúcidas, se houver suporte</s:String>
     <s:String x:Key="S.Settings.Application.Tray">Ícone da bandeja do sistema</s:String>
@@ -1400,7 +1409,6 @@
     <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.WaitTime">Tempo de espera</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.ShowDiscardOnRecording">Mostrar o botão de descartar durante a gravação</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.ShowDiscardOnRecording.Info">Normalmente, ele fica visível apenas quando pausado</s:String>
- 
     <s:String x:Key="S.Settings.ScreenRecorder.AskBeforeDiscarding">Perguntar antes de descartar a gravação</s:String>
 
     <!--Settings • Screen Recorder > Cursor Following-->
@@ -1532,7 +1540,7 @@
     <s:String x:Key="S.Settings.Styles.WordWrapping.EmergencyBreak">Quebra de emergência</s:String>
     <s:String x:Key="S.Settings.Styles.WordWrapping.WholeWord">Palavra inteira</s:String>
     <s:String x:Key="S.Settings.Styles.WordWrapping.Character">Caractere</s:String>
-    <s:String x:Key="S.Settings.Styles.LineSpacingMethod">Método de espaçamento entre linhas</s:String>
+    <s:String x:Key="S.Settings.Styles.LineSpacingMethod">Método de espaçamento</s:String>
     <s:String x:Key="S.Settings.Styles.LineSpacingMethod.Default">Padrão</s:String>
     <s:String x:Key="S.Settings.Styles.LineSpacingMethod.Uniform">Uniforme</s:String>
     <s:String x:Key="S.Settings.Styles.LineSpacingMethod.Proportional">Proporcional</s:String>
@@ -1597,7 +1605,7 @@
     <s:String x:Key="S.Settings.Styles.DashOffset">Deslocamento do traço</s:String>
 
     <!--Settings • Styles > Video-->
-    <s:String x:Key="S.Settings.Styles.MaxFramerate">Framerate Máximo</s:String>
+    <s:String x:Key="S.Settings.Styles.MaxFramerate">Framerate máximo</s:String>
     <s:String x:Key="S.Settings.Styles.Mute">Silenciar volume</s:String>
     <s:String x:Key="S.Settings.Styles.Volume">Volume</s:String>
 
@@ -1714,7 +1722,7 @@
     <s:String x:Key="S.Settings.Editor.MediaInsert">Opções de inserção de mídia</s:String>
     <s:String x:Key="S.Settings.Editor.MediaInsert.Info">Escolha como inserir mídia na linha do tempo</s:String>
     <s:String x:Key="S.Settings.Editor.MediaInsert.Grouping">Agrupamento</s:String>
-    <s:String x:Key="S.Settings.Editor.MediaInsert.Grouping.Ask">Perguntar-me</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Grouping.Ask">Me pergunte</s:String>
     <s:String x:Key="S.Settings.Editor.MediaInsert.Grouping.Separate">Faixa separada para cada arquivo</s:String>
     <s:String x:Key="S.Settings.Editor.MediaInsert.Grouping.Separate.Info">Cada arquivo em uma faixa separada, um após o outro no tempo</s:String>
     <s:String x:Key="S.Settings.Editor.MediaInsert.Grouping.SingleTrack">Faixa única</s:String>
@@ -1790,15 +1798,21 @@
     <s:String x:Key="S.Settings.Update.LastChecked">Última verificação:</s:String>
     <s:String x:Key="S.Settings.Update.ReleaseNotes">Notas de Lançamento</s:String>
     <s:String x:Key="S.Settings.Update.CheckForUpdates">Verificar Atualizações</s:String>
-    <s:String x:Key="S.Settings.Update.DownloadInstall">Baixar e Instalar</s:String>
+    <s:String x:Key="S.Settings.Update.Checking">Verificando atualizações...</s:String>
+    <s:String x:Key="S.Settings.Update.DownloadInstall">Baixar e instalar</s:String>
     <s:String x:Key="S.Settings.Update.Install">Instalar</s:String>
     <s:String x:Key="S.Settings.Update.Description">Descrição</s:String>
     <s:String x:Key="S.Settings.Update.Pending">Download pendente</s:String>
+    <s:String x:Key="S.Settings.Update.Error">Erro encontrado</s:String>
+    <s:String x:Key="S.Settings.Update.NeverChecked">Nunca verificado</s:String>
     <s:String x:Key="S.Settings.Update.CheckOnStart">Verificar atualizações na inicialização</s:String>
     <s:String x:Key="S.Settings.Update.CheckOnStart.AutoInstall">Instalar atualizações automaticamente após fechar o app</s:String>
     <s:String x:Key="S.Settings.Update.CheckOnStart.Prompt">Perguntar antes de iniciar a instalação</s:String>
     <s:String x:Key="S.Settings.Update.CheckForTranslation">Verificar atualizações de tradução</s:String>
     <s:String x:Key="S.Settings.Update.CheckForTranslation.Info">Traduções atualizadas serão baixadas e instaladas automaticamente</s:String>
+    <s:String x:Key="S.Settings.Update.StoreHandled">Como atualizar?</s:String>
+    <s:String x:Key="S.Settings.Update.StoreHandled.Info">As atualizações são gerenciadas diretamente pela loja da Microsoft</s:String>
+    <s:String x:Key="S.Settings.Update.StoreHandled.Action">Abrir a loja da Microsoft</s:String>
 
     <!--Settings • About-->
     <s:String x:Key="S.Settings.About.Contact">Contato</s:String>
@@ -1823,7 +1837,7 @@
     <s:String x:Key="S.Preset.Identification.Title">Título</s:String>
     <s:String x:Key="S.Preset.Identification.Description">Descrição</s:String>
     <s:String x:Key="S.Preset.Identification.Service">Serviço</s:String>
-    <s:String x:Key="S.Preset.Identification.Encoder">Codificador (Encoder)</s:String>
+    <s:String x:Key="S.Preset.Identification.Encoder">Codificador</s:String>
     <s:String x:Key="S.Preset.Identification.Enabled">Ativado</s:String>
     <s:String x:Key="S.Preset.Identification.Enabled.Info">Apenas predefinições ativadas estão disponíveis para uso</s:String>
     <s:String x:Key="S.Preset.Identification.AutoSave">Salvar seleção de saída automaticamente</s:String>
@@ -2152,7 +2166,6 @@
     <s:String x:Key="S.UploadPreset.Authorization">Autorização</s:String>
     <s:String x:Key="S.UploadPreset.DirectLinks">Usar links diretos</s:String>
     <s:String x:Key="S.UploadPreset.DirectLinks.Info">O link fornecido apontará diretamente para o arquivo carregado</s:String>
-   
     <s:String x:Key="S.UploadPreset.PreferVideo">Preferir vídeo</s:String>
     <s:String x:Key="S.UploadPreset.PreferVideo.Info">O link fornecido será de vídeo em vez de gif</s:String>
     <s:String x:Key="S.UploadPreset.UploadToAlbum">Fazer upload para um álbum</s:String>

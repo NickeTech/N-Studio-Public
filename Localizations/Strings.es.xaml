@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Traducido por máquina (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-02-16</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-03-16</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Aceptar</s:String>
@@ -20,6 +20,7 @@
     <s:String x:Key="S.Imperative.Reset">Restablecer</s:String>
     <s:String x:Key="S.Imperative.Reset.Info">Restablecer a la configuración original</s:String>
     <s:String x:Key="S.Imperative.Revert">Revertir</s:String>
+    <s:String x:Key="S.Imperative.Retry">Rever</s:String>
     <s:String x:Key="S.Imperative.Export">Exportar</s:String>
     <s:String x:Key="S.Imperative.Edit">Editar</s:String>
     <s:String x:Key="S.Imperative.Discard">Descartar</s:String>
@@ -34,7 +35,7 @@
     <s:String x:Key="S.Imperative.Download">Descargar</s:String>
     <s:String x:Key="S.Imperative.LeaveAsIs">Dejar como está</s:String>
     <s:String x:Key="S.Imperative.Dismiss">Cerrar</s:String>
-    <s:String x:Key="S.Imperative.Upgrade">Mejorar</s:String>
+    <s:String x:Key="S.Imperative.Upgrade">Desbloquear</s:String>
     <s:String x:Key="S.Imperative.Save">Guardar</s:String>
     <s:String x:Key="S.Imperative.Create">Crear</s:String>
     <s:String x:Key="S.Imperative.Ok">Ok</s:String>
@@ -214,6 +215,7 @@
     <!--Dialogs • Effects-->
     <s:String x:Key="S.Dialog.Effects.Header.New">Nuevo efecto</s:String>
     <s:String x:Key="S.Dialog.Effects.Header.Edit">Editar efecto</s:String>
+    <s:String x:Key="S.Dialog.Effects.Target">Segmento objetivo</s:String>
     <s:String x:Key="S.Dialog.Effects.Type">Tipo de efecto</s:String>
     <s:String x:Key="S.Dialog.Effects.Type.ColorInversion">Inversión de color</s:String>
     <s:String x:Key="S.Dialog.Effects.Type.Fade">Fundido</s:String>
@@ -323,7 +325,7 @@
     <s:String x:Key="S.Dialog.RemoveSegment.Title">¿Quieres eliminar el/los segmento(s)?</s:String>
     <s:String x:Key="S.Dialog.RemoveSegment.Details">Será posible deshacer.</s:String>
 
-        <!--Dialogs • Remove Track-->
+    <!--Dialogs • Remove Track-->
     <s:String x:Key="S.Dialog.RemoveTrack.Title">¿Quieres eliminar la pista?</s:String>
     <s:String x:Key="S.Dialog.RemoveTrack.Details">Será posible deshacer.</s:String>
 
@@ -419,7 +421,7 @@
     <s:String x:Key="S.Validation.NoExtension.Header">Ninguna extensión seleccionada</s:String>
     <s:String x:Key="S.Validation.NoExtension.Message">No has seleccionado la extensión del archivo</s:String>
 
-        <!--Validation • No output folder selected-->
+    <!--Validation • No output folder selected-->
     <s:String x:Key="S.Validation.NoOutput.Header">No se ha seleccionado una carpeta de salida</s:String>
     <s:String x:Key="S.Validation.NoOutput.Message">Necesitas seleccionar dónde debe almacenarse el archivo</s:String>
 
@@ -460,8 +462,9 @@
     <s:String x:Key="S.Success.ExportFeedback.Message">Los comentarios se han exportado correctamente como un archivo zip</s:String>
 
     <!--Info • Pro feature-->
-    <s:String x:Key="S.Info.ProFeature.Title">Actualiza para desbloquear esta función</s:String>
-    <s:String x:Key="S.Info.ProFeature.Upgrade">Actualizar</s:String>
+    <s:String x:Key="S.Info.ProFeature.Title">Solo para pros</s:String>
+    <s:String x:Key="S.Info.ProFeature.Message">Desbloquea esta función con la versión Pro.</s:String>
+    <s:String x:Key="S.Info.ProFeature.Upgrade">Desbloquear</s:String>
 
     <!--Info • Format limitations-->
     <s:String x:Key="S.Info.FormatLimitations.Title">Limitaciones del formato</s:String>
@@ -704,6 +707,10 @@
     <s:String x:Key="S.Errors.Action.Header">Error al ejecutar la acción</s:String>
     <s:String x:Key="S.Errors.Action.Message">No se pudo ejecutar la acción</s:String>
 
+    <!--Error • Plugin--> 
+    <s:String x:Key="S.Errors.Plugin.Header">Error al descargar el complemento</s:String>
+    <s:String x:Key="S.Errors.Plugin.Message">Error al descargar y extraer el complemento</s:String>
+
     <!--Error • Others-->
     <s:String x:Key="S.Errors.Activation.Title">La activación ha fallado</s:String>
     <s:String x:Key="S.Errors.Activation.Generic">No fue posible activar la aplicación debido a un problema desconocido</s:String>
@@ -891,6 +898,8 @@
     <s:String x:Key="S.Editor.Edit.Copy">Copiar</s:String>
     <s:String x:Key="S.Editor.Edit.Paste">Pegar</s:String>
     <s:String x:Key="S.Editor.Edit.Remove">Eliminar</s:String>
+    <s:String x:Key="S.Editor.Edit.Content.Text">Editar texto</s:String>
+    <s:String x:Key="S.Editor.Edit.Content.Drawing">Editar dibujo</s:String>
     <s:String x:Key="S.Editor.Insert">Insertar</s:String>
     <s:String x:Key="S.Editor.Insert.Screen">Grabación de pantalla</s:String>
     <s:String x:Key="S.Editor.Insert.Sound">Grabación de sonido</s:String>
@@ -1361,7 +1370,6 @@
     <s:String x:Key="S.Settings.Application.Startup.StartWith.Editor.Info">Crear o editar contenido</s:String>
     <s:String x:Key="S.Settings.Application.Startup.StartWith.Nothing">Nada</s:String>
     <s:String x:Key="S.Settings.Application.Startup.StartWith.Nothing.Info">Dejar la aplicación en la bandeja del sistema</s:String>
-
     <s:String x:Key="S.Settings.Application.Startup.StartWithWindows">Iniciar con Windows</s:String>
     <s:String x:Key="S.Settings.Application.Startup.StartWithWindows.Info">La aplicación se ejecutará después de iniciar Windows</s:String>
     <s:String x:Key="S.Settings.Application.Startup.AllowMultiple">Permitir múltiples instancias</s:String>
@@ -1375,7 +1383,6 @@
     <s:String x:Key="S.Settings.Application.Shortcuts.Settings.Info">Abre la ventana de ajustes</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Exit">Salir</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Exit.Info">Cierra todas las ventanas y elimina la aplicación de la bandeja del sistema</s:String>
-
     <s:String x:Key="S.Settings.Application.DisableHardwareAcc">Desactivar aceleración por hardware</s:String>
     <s:String x:Key="S.Settings.Application.DisableHardwareAcc.Info">La interfaz de usuario se renderizará en modo de software</s:String>
     <s:String x:Key="S.Settings.Application.AskWhenExiting">Preguntarme antes de cerrar la aplicación</s:String>
@@ -1791,15 +1798,21 @@
     <s:String x:Key="S.Settings.Update.LastChecked">Última comprobación:</s:String>
     <s:String x:Key="S.Settings.Update.ReleaseNotes">Notas de la versión</s:String>
     <s:String x:Key="S.Settings.Update.CheckForUpdates">Buscar actualizaciones</s:String>
+    <s:String x:Key="S.Settings.Update.Checking">Buscando actualizaciones...</s:String>
     <s:String x:Key="S.Settings.Update.DownloadInstall">Descargar e instalar</s:String>
     <s:String x:Key="S.Settings.Update.Install">Instalar</s:String>
     <s:String x:Key="S.Settings.Update.Description">Descripción</s:String>
     <s:String x:Key="S.Settings.Update.Pending">Descarga pendiente</s:String>
+    <s:String x:Key="S.Settings.Update.Error">Se ha producido un error</s:String>
+    <s:String x:Key="S.Settings.Update.NeverChecked">Nunca verificado</s:String>
     <s:String x:Key="S.Settings.Update.CheckOnStart">Buscar actualizaciones al iniciar</s:String>
     <s:String x:Key="S.Settings.Update.CheckOnStart.AutoInstall">Instalar actualizaciones automáticamente al cerrar la aplicación</s:String>
     <s:String x:Key="S.Settings.Update.CheckOnStart.Prompt">Avisarme antes de comenzar la instalación</s:String>
     <s:String x:Key="S.Settings.Update.CheckForTranslation">Buscar actualizaciones de traducción</s:String>
     <s:String x:Key="S.Settings.Update.CheckForTranslation.Info">Las traducciones actualizadas se descargarán e instalarán automáticamente</s:String>
+    <s:String x:Key="S.Settings.Update.StoreHandled">¿Cómo actualizar?</s:String>
+    <s:String x:Key="S.Settings.Update.StoreHandled.Info">Las actualizaciones se gestionan directamente a través de Microsoft Store</s:String>
+    <s:String x:Key="S.Settings.Update.StoreHandled.Action">Abrir Microsoft Store</s:String>
 
     <!--Settings • About-->
     <s:String x:Key="S.Settings.About.Contact">Contacto</s:String>
