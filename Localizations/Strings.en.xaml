@@ -1236,7 +1236,7 @@
     <s:String x:Key="S.Formats.Alac.Info">Apple Lossless Audio Codec</s:String>
     <s:String x:Key="S.Formats.Amr">Amr</s:String>
     <s:String x:Key="S.Formats.Amr.Info">Adaptive Multi-Rate</s:String>
-    <s:String x:Key="S.Formats.Flac">flac</s:String>
+    <s:String x:Key="S.Formats.Flac">Flac</s:String>
     <s:String x:Key="S.Formats.Flac.Info">Free Lossless Audio Codec</s:String>
     <s:String x:Key="S.Formats.Mp3">Mp3</s:String>
     <s:String x:Key="S.Formats.Mp3.Info">MPEG-1/2 Audio Layer III</s:String>
