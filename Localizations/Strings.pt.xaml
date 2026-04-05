@@ -480,6 +480,10 @@
     <s:String x:Key="S.Info.ResumeUndo.Header">Continue de onde parou</s:String>
     <s:String x:Key="S.Info.ResumeUndo.Message">Foi detectado um estado de edição anterior. Histórico de desfazer/refazer disponível</s:String>
 
+    <!--Info • Load canceled-->
+    <s:String x:Key="S.Info.LoadCanceled.Header">Carregamento cancelado</s:String>
+    <s:String x:Key="S.Info.LoadCanceled.Message">O projeto não foi carregado porque a operação foi cancelada pelo usuário</s:String>
+
     <!--Warnings • Single instance-->
     <s:String x:Key="S.Warning.Single.Header">O aplicativo já está rodando</s:String>
     <s:String x:Key="S.Warning.Single.Message">O N-Studio já está rodando, mas aparentemente não há nenhuma janela aberta. Verifique sua bandeja do sistema, um ícone do N-Studio deve estar lá.</s:String>
@@ -879,14 +883,14 @@
     <s:String x:Key="S.Editor.Title">N-Studio • Editor</s:String>
     <s:String x:Key="S.Editor.Project">Projeto</s:String>
     <s:String x:Key="S.Editor.Project.New">Novo</s:String>
-    <s:String x:Key="S.Editor.Project.New.Screen">A partir de Gravação de Tela</s:String>
-    <s:String x:Key="S.Editor.Project.New.Sound">A partir de Gravação de Som</s:String>
-    <s:String x:Key="S.Editor.Project.New.Media">A partir de Mídia</s:String>
+    <s:String x:Key="S.Editor.Project.New.Screen">A partir de uma gravação de tela</s:String>
+    <s:String x:Key="S.Editor.Project.New.Sound">A partir de uma gravação de som</s:String>
+    <s:String x:Key="S.Editor.Project.New.Media">A partir de uma mídia</s:String>
     <s:String x:Key="S.Editor.Project.New.Empty">Vazio</s:String>
     <s:String x:Key="S.Editor.Project.Open">Abrir</s:String>
-    <s:String x:Key="S.Editor.Project.OpenRecent">Abrir Recente</s:String>
+    <s:String x:Key="S.Editor.Project.OpenRecent">Abrir recente</s:String>
     <s:String x:Key="S.Editor.Project.Save">Salvar</s:String>
-    <s:String x:Key="S.Editor.Project.SaveAs">Salvar Como...</s:String>
+    <s:String x:Key="S.Editor.Project.SaveAs">Salvar como...</s:String>
     <s:String x:Key="S.Editor.Project.Export">Exportar...</s:String>
     <s:String x:Key="S.Editor.Project.Properties">Propriedades</s:String>
     <s:String x:Key="S.Editor.Project.Close">Fechar</s:String>
@@ -901,7 +905,7 @@
     <s:String x:Key="S.Editor.Edit.Content.Text">Editar texto</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Drawing">Editar desenho</s:String>
     <s:String x:Key="S.Editor.Insert">Inserir</s:String>
-    <s:String x:Key="S.Editor.Insert.Screen">Gravação de Tela</s:String>
+    <s:String x:Key="S.Editor.Insert.Screen">Gravação de tela</s:String>
     <s:String x:Key="S.Editor.Insert.Sound">Gravação de Som</s:String>
     <s:String x:Key="S.Editor.Insert.Media">Mídia</s:String>
     <s:String x:Key="S.Editor.Insert.Text">Texto</s:String>

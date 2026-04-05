@@ -480,6 +480,10 @@
     <s:String x:Key="S.Info.ResumeUndo.Header">Resume where you left</s:String>
     <s:String x:Key="S.Info.ResumeUndo.Message">Previous editing state detected. Undo/redo history available</s:String>
 
+    <!--Info • Load canceled-->
+    <s:String x:Key="S.Info.LoadCanceled.Header">Loading canceled</s:String>
+    <s:String x:Key="S.Info.LoadCanceled.Message">The project was not loaded because the operation was canceled by the user</s:String>
+
     <!--Warnings • Single instance-->
     <s:String x:Key="S.Warning.Single.Header">The app is already running</s:String>
     <s:String x:Key="S.Warning.Single.Message">N-Studio is already running, but apparently there's no window open. Check you system tray, a N-Studio icon must be there.</s:String>
@@ -879,14 +883,14 @@
     <s:String x:Key="S.Editor.Title">N-Studio • Editor</s:String>
     <s:String x:Key="S.Editor.Project">Project</s:String>
     <s:String x:Key="S.Editor.Project.New">New</s:String>
-    <s:String x:Key="S.Editor.Project.New.Screen">From Screen Recording</s:String>
-    <s:String x:Key="S.Editor.Project.New.Sound">From Sound Recording</s:String>
-    <s:String x:Key="S.Editor.Project.New.Media">From Media</s:String>
+    <s:String x:Key="S.Editor.Project.New.Screen">From screen recording</s:String>
+    <s:String x:Key="S.Editor.Project.New.Sound">From sound recording</s:String>
+    <s:String x:Key="S.Editor.Project.New.Media">From media</s:String>
     <s:String x:Key="S.Editor.Project.New.Empty">Empty</s:String>
     <s:String x:Key="S.Editor.Project.Open">Open</s:String>
-    <s:String x:Key="S.Editor.Project.OpenRecent">Open Recent</s:String>
+    <s:String x:Key="S.Editor.Project.OpenRecent">Open recent</s:String>
     <s:String x:Key="S.Editor.Project.Save">Save</s:String>
-    <s:String x:Key="S.Editor.Project.SaveAs">Save As...</s:String>
+    <s:String x:Key="S.Editor.Project.SaveAs">Save as...</s:String>
     <s:String x:Key="S.Editor.Project.Export">Export...</s:String>
     <s:String x:Key="S.Editor.Project.Properties">Properties</s:String>
     <s:String x:Key="S.Editor.Project.Close">Close</s:String>

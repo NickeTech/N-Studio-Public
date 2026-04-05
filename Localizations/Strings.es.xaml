@@ -484,6 +484,10 @@
     <s:String x:Key="S.Warning.Single.Header">La aplicación ya está en ejecución</s:String>
     <s:String x:Key="S.Warning.Single.Message">N-Studio ya está en ejecución, pero aparentemente no hay ninguna ventana abierta. Comprueba la bandeja del sistema, debe haber un icono de N-Studio allí.</s:String>
 
+    <!--Info • Load canceled-->
+    <s:String x:Key="S.Info.LoadCanceled.Header">Carga cancelada</s:String>
+    <s:String x:Key="S.Info.LoadCanceled.Message">El proyecto no se cargó porque la operación fue cancelada por el usuario</s:String>
+
     <!--Warnings • Audio device detection-->
     <s:String x:Key="S.Warning.DeviceDetection.Title">Problemas de detección de dispositivos</s:String>
     <s:String x:Key="S.Warning.DeviceDetection.Description">No fue posible detectar dispositivos de audio</s:String>
