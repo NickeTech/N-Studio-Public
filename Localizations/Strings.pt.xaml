@@ -2157,7 +2157,7 @@
 
     <!--Preset • Zip-->
     <s:String x:Key="S.Preset.Encoder.Image.Zip">Compactar as imagens (Zip)</s:String>
-    <s:String x:Key="S.Preset.Encoder.Image.Zip.Info">Exporta as imagens dentro de uma pasta compactada</s:String>
+    <s:String x:Key="S.Preset.Encoder.Image.Zip.Info">Exporta as imagens em uma pasta compactada</s:String>
 
     <!--Windows • Upload Preset Settings-->
     <s:String x:Key="S.UploadPreset.Title">Predefinições de upload</s:String>
@@ -2207,7 +2207,7 @@
     <s:String x:Key="S.Presets.Hevc.Description">Codificação de Vídeo de Alta Eficiência (High Efficiency Video Coding)</s:String>
     <s:String x:Key="S.Presets.Vp8.Title">VP8 ({0})</s:String>
     <s:String x:Key="S.Presets.Vp8.Description">Codec mais antigo e mais conhecido</s:String>
-    <s:String x:Key="S.Presets.Filename.Animation">Animacao</s:String>
+    <s:String x:Key="S.Presets.Filename.Animation">Animação</s:String>
     <s:String x:Key="S.Presets.Filename.Video">Video</s:String>
     <s:String x:Key="S.Presets.Filename.Image">Imagem</s:String>
     <s:String x:Key="S.Presets.Filename.Audio">Audio</s:String>
