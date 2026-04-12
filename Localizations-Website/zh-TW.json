@@ -1,0 +1,480 @@
+{
+  "info": {
+    "authors": "Machine Translated",
+    "last-update": "2026-04-11"
+  },
+
+  "common": {
+    "download": "下載",
+    "get-pro": "取得 Pro",
+    "log-in": "登入",
+    "retry": "重試",
+    "dismiss": "關閉",
+    "ok": "確定",
+    "select": "選取",
+    "accept": "接受",
+    "decline": "拒絕",
+    "cancel": "取消",
+    "remove": "移除",
+    "go-back": "返回",
+    "show-more": "顯示更多",
+    "expand": "展開",
+    "collapse": "折疊"
+  },
+
+  "validations": {
+    "required": "此欄位為必填項"
+  },
+
+  "modals": {
+    "currency-selector": {
+      "title": "透過 PayPal 捐款",
+      "subtitle": "繼續前請選擇你的貨幣",
+      "currency": "貨幣"
+    },
+
+    "donate-crypto": {
+      "title-bitcoin": "使用比特幣捐款",
+      "title-bitcoin-cash": "使用 BitcoinCash 捐款",
+      "title-ethereum": "使用以太坊捐款",
+      "subtitle": "掃描 QR 碼或複製地址"
+    }
+  },
+
+  "n-tech": {
+    "about": "關於",
+    "change-language": "切換語言",
+    "moto": "這是一個單人開發者的專案",
+    "toggle-theme": "切換主題",
+    "switch-to-light": "切換到亮色主題",
+    "switch-to-dark": "切換到深色主題",
+    "sign-in-up": "登入或註冊",
+
+    "cookies-consent": {
+      "title": "分析 Cookie",
+      "message": "我們使用分析來改進網站。接受分析 Cookie？"
+    },
+
+    "sign-in": {
+      "title": "登入",
+      "email": "電子郵件",
+      "email-placeholder": "輸入你的電子郵件",
+      "password": "密碼",
+      "password-placeholder": "輸入你的密碼",
+      "remember": "記住我",
+      "forgot": "忘記密碼？",
+      "action": "登入",
+      "new-here": "新來的？請註冊"
+    },
+
+    "sign-up": {
+      "title": "建立帳戶",
+      "type": "帳戶類型",
+      "type-individual": "個人",
+      "type-company": "公司/團隊",
+      "name": "姓名",
+      "name-placeholder": "輸入你的姓名",
+      "company-name": "公司名稱",
+      "company-name-placeholder": "輸入公司的名稱",
+      "contact-name": "聯絡人姓名",
+      "contact-name-placeholder": "輸入公司聯絡人姓名",
+      "confirm-password": "確認密碼",
+      "confirm-password-placeholder": "再次輸入你的密碼",
+      "action": "註冊",
+      "already-has": "已有帳戶？請登入"
+    },
+
+    "forgot": {
+      "title": "忘記密碼？",
+      "action": "要求重設密碼"
+    },
+
+    "reset": {
+      "title": "重設密碼",
+      "action": "重設密碼"
+    },
+
+    "home": {
+      "new-experience": "全新體驗",
+      "familiar-face": "熟悉的面孔",
+      "custom-solution": "尋找客製化解決方案？",
+      "talk": "我們聊聊 :)"
+    },
+
+    "account": {
+      "title": "帳戶",
+
+      "actions": {
+        "sign-out": "登出",
+        "edit": "編輯資訊",
+        "change-email": "更改電子郵件",
+        "change-password": "更改密碼"
+      },
+
+      "edit": {
+        "title": "編輯帳戶"
+      },
+
+      "change-email": {
+        "title": "更改電子郵件地址",
+        "new-address": "新地址"
+      },
+
+      "change-password": {
+        "title": "更改密碼",
+        "current-password": "當前密碼",
+        "current-password-placeholder": "輸入當前密碼",
+        "new-password": "新密碼",
+        "new-password-placeholder": "輸入新的強密碼",
+        "confirm-password-placeholder": "再次輸入新密碼"
+      },
+
+      "not-verified": {
+        "title": "電子郵件地址未驗證",
+        "message": "請檢查你的電子郵件以取得驗證郵件",
+        "resend": "重新發送"
+      },
+
+      "subscriptions": {
+        "title": "方案或訂閱",
+        "empty": "尚未有方案/訂閱",
+        "get-n-studio": "取得 N-Studio",
+        "go-to-product": "前往產品頁面",
+        "status": "=0 {尚未完成或付款失敗} =1 {已提議} =2 {已啟用} =3 {已過期} =4 {已取消}",
+        "seats": "<0 {無限名額} =1 {1 名名額} >1 {{{count}} 名名額}",
+        "type": {
+          "month": "月",
+          "year": "年",
+          "per-version": "每版本"
+        },
+        "dismiss-info": "關閉方案/訂閱",
+        "download-info": "前往產品下載頁",
+        "manage": "管理",
+        "manage-info": "管理方案/訂閱",
+        "restore": "恢復",
+        "restore-info": "恢復先前付款",
+        "proceed": "繼續",
+        "proceed-info": "繼續付款"
+      },
+
+      "subscription": {
+        "title": "方案/訂閱",
+        "manage": "管理訂閱/付款",
+        "manage-info": "透過 Stripe 管理訂閱或付款",
+        "users-domains": "使用者/網域",
+        "user": "使用者",
+        "domain": "網域",
+        "error-loading": "載入方案/訂閱時出錯...",
+        "none": "尚無使用者/網域",
+        "documentation": "了解如何管理使用者並分享應用程式存取",
+
+        "actions": {
+          "import": "匯入多個使用者...",
+          "add": "新增...",
+          "add-info": "新增使用者或網域",
+          "copy-serial": "複製序號",
+          "send-email": "發送啟用郵件",
+          "freeze": "凍結",
+          "unfreeze": "解凍",
+          "remove": "移除",
+          "more": "更多操作",
+          "export-all": "匯出全部...",
+          "export": "匯出..."
+        },
+
+        "add": {
+          "title": "新增使用者/網域",
+          "type": "類型",
+          "domain": "網域（萬用字元）",
+          "send-email": "發送註冊郵件",
+          "explanation": "此網域下的所有地址都可加入。",
+          "action": "新增"
+        },
+
+        "remove": {
+          "title": "是否要移除此使用者？",
+          "title-domain": "是否要移除此網域？",
+          "message": "使用者將失去應用程式存取權。<br>如果想再次授予存取，請新增使用者並分享新的序號。",
+          "message-domain": "此網域的使用者將無法自動加入。"
+        },
+
+        "import": {
+          "title": "匯入使用者",
+          "emails": "電子郵件地址（以分號、逗號或新行分隔）",
+          "send-to-all": "向所有人發送註冊郵件",
+          "action": "匯入"
+        },
+
+        "export": {
+          "title": "=1 {匯出使用者} >1 {匯出使用者}",
+          "content": "內容為 JSON",
+          "documentation": "了解如何加快使用者啟用",
+          "action": "匯出為 JSON"
+        }
+      },
+
+      "support": {
+        "title": "支援",
+        "message": "如果你有任何問題或困難，請透過此電子郵件與我們聯絡"
+      }
+    },
+
+    "checkout": {
+      "title": "結帳",
+      "how-many": "會有多少使用者使用此應用？",
+      "get-discount": "想要透過年度計費獲得 2 個月免費嗎？",
+      "yes-for-discount": "是，按年計費",
+      "two-installations": "你最多可以有兩個同時安裝",
+      "manage-installations": "你可以透過帳戶頁面控制存取",
+      "agree-prefix": "繼續即表示你同意",
+      "agree-middle": "和",
+      "action": "使用 Stripe 結帳",
+      "wait": "請等待結帳完成..."
+    },
+
+    "success": {
+      "title": "付款成功",
+      "message-company": "你的付款已通過，現在你可以下載應用或管理你的使用者。",
+      "message-individual": "你的付款已通過，現在你可以下載應用。"
+    },
+
+    "contact": {
+      "title": "聯絡",
+      "subtitle": "提問、回報錯誤等",
+      "email": "電子郵件",
+      "email-info": "回報錯誤、提問或提供回饋",
+      "discord-info": "與社群聊天"
+    },
+
+    "terms-of-service": {
+      "title": "服務條款"
+    },
+
+    "privacy-policy": {
+      "title": "隱私政策"
+    }
+  },
+
+  "n-studio": {
+    "home": {
+      "header": "螢幕錄製的新時代",
+      "subtitle": "現在下載免費版或升級為 Pro",
+      "info": "適用於 Windows 10/11",
+      "migrated": {
+        "title": "一個新應用",
+        "message": "這是同一開發者製作的 <em>ScreenToGif</em> 的後繼產品 :)",
+        "action": "取得 ScreenToGif"
+      },
+      "more": "想查看更多嗎？"
+    },
+
+    "downloads": {
+      "title": "下載",
+      "license": {
+        "title": "那 Pro 呢？",
+        "message": "你可以下載應用的<em>免費</em>版本。想改為獲得 Pro 嗎？",
+        "message-extra": "<br>如果你已擁有 Pro，請登入。"
+      },
+      "latest": {
+        "title": "最新版本",
+        "latest-tag": "最新",
+        "description": "描述",
+        "error": "載入最新版本時出錯..."
+      },
+      "past": {
+        "title": "往期版本",
+        "error": "載入往期版本時出錯..."
+      },
+      "assets": {
+        "title": "資源",
+        "which-arch": "該選擇哪個？",
+        "which-arch.info": "開啟 Windows 設定查看系統架構",
+        "list": "列表",
+        "details": "詳細資訊",
+        "get-installer": "下載安裝程式",
+        "get-portable": "下載可攜版",
+        "downloads": "=0 {無下載} =1 {1 次下載} >1 {{{count}} 次下載}}",
+        "portable": "可攜",
+        "light": "輕量",
+        "none": "未找到資源..."
+      },
+      "previous": "是否改為尋找往期版本？"
+    },
+
+    "pricing": {
+      "title": "價格",
+      "plans": "價格方案",
+      "individuals": "個人使用",
+      "companies": "企業/團隊",
+
+      "log-in-first": {
+        "title": "請先登入",
+        "message": "繼續之前你需要先登入"
+      },
+
+      "starter": "Starter",
+      "professional": "Professional",
+      "business": "Business",
+      "enterprise": "Enterprise",
+      "free": "免費",
+      "one-time": "一次性付款",
+      "subscription": "訂閱",
+      "flexible": "彈性投資",
+      "download-now": "立即下載",
+      "get-professional": "取得 Professional",
+      "contact-us": "聯絡我們",
+      "month": "月",
+      "month-user": "月/使用者",
+
+      "capture-screen": "自由擷取你的螢幕",
+      "capture-screen-framerate": "控制幀率",
+      "framerate-regular": "一般（1 到 60 fps）",
+      "framerate-manual": "手動擷取（透過按鈕或快捷鍵）",
+      "framerate-user-interaction": "使用者互動（滑鼠或鍵盤事件）",
+      "select-area": "選擇螢幕區域、視窗或螢幕",
+      "capture-cursor-clicks": "擷取游標和點擊",
+      "capture-keystrokes": "擷取鍵盤輸入",
+      "capture-audio": "擷取麥克風或系統音訊",
+      "quick-adjustments": "導出前進行快速調整",
+      "trim": "裁剪",
+      "crop": "剪裁",
+      "resize": "調整大小",
+      "toggle-layers": "切換圖層",
+      "export-multiple-formats": "匯出為多種格式",
+      "no-limits": "無限制",
+      "no-watermark": "無浮水印",
+      "no-ads": "無廣告",
+
+      "starter-has": "包含 Starter 的所有功能",
+      "extra-frequencies": "額外擷取頻率",
+      "timelapse": "延時（每分鐘 1-60 幀）",
+      "long-timelapse": "長時間延時（每小時 1-60 幀）",
+      "extra-adjustments": "匯出前的額外調整",
+      "change-framerate": "更改動畫幀率",
+      "change-speed": "更改播放速度",
+      "full-editor": "具有時間軸的完整編輯器",
+      "insert-layers": "插入圖層",
+      "recordings": "錄製（螢幕或聲音）",
+      "media": "媒體（影片、圖片、音訊）",
+      "texts": "文字",
+      "images": "圖片",
+      "shapes": "形狀",
+      "drawings": "繪圖",
+      "progress-indicator": "進度指示器",
+      "pixelation": "像素化",
+      "brightness": "亮度",
+      "add-effects": "新增效果",
+      "split-segments": "拆分片段",
+      "free-upgrades": "包含小版本（v1.X）的免費升級",
+
+      "same-as-one-time": "功能上與一次性付款選項相同",
+      "free-upgrades-major": "包含主版本的免費升級",
+      "annual-billing": "年繳可獲兩個月免費",
+      "admin-dashboard": "提供管理儀表板以控制使用者存取",
+      "add-user": "新增/移除使用者",
+      "user-access": "透過電子郵件或網域存取",
+
+      "same-as-business": "功能上與 Business 選項相同",
+      "large-corpo": "適用於大型企業",
+      "custom-billing": "根據公司需求定制的計費方案"
+    },
+
+    "screenshots": {
+      "title": "螢幕截圖",
+      "welcome": "一開始，你可能會看到歡迎視窗",
+      "welcome-info": "這是可選的，你可以設定啟動時開啟錄製器或編輯器",
+      "record": "你可以錄製螢幕，以及游標和按鍵",
+      "record-info": "你可以選擇錄製哪一部分螢幕並控制 FPS（你甚至可以捕獲延時錄影！）",
+      "export": "然後你可以匯出錄製內容",
+      "export-info": "你可以進行一些最後調整，如隱藏游標、裁剪、剪輯等",
+      "edit": "但如果你想要更強大的編輯體驗，這裡有適合的解決方案",
+      "edit-info": "在這裡你可以新增其他圖層（圖片、文字等）、新增效果、控制時間軸以及更多"
+    },
+
+    "documentation": {
+      "title": "文件",
+      "pages": {
+        "getting-started": "開始使用",
+        "how-to-record": "如何錄製",
+        "how-to-edit": "如何編輯",
+        "how-to-export": "如何匯出",
+        "how-to-import": "如何匯入"
+      }
+    }
+  },
+
+  "screentogif": {
+    "home": {
+      "subtitle": "帶整合編輯器的螢幕、網路攝影機和白板錄製",
+      "info": "適用於 Windows 10 或更高版本",
+      "donate": "捐贈",
+      "more": "想查看更多嗎？",
+
+      "special-thanks": {
+        "header": "特別感謝",
+        "subtitle": "這裡是本專案的一些贊助者",
+        "action": "成為贊助者"
+      }
+    },
+
+    "downloads": {
+      "get-new": {
+        "title": "有改良版",
+        "message": "這是該應用的<em>舊</em>版本。想取得新版嗎？",
+        "action": "取得 N-Studio"
+      },
+
+      "assets": {
+        "get-package": "取得套件"
+      }
+    },
+
+    "donation": {
+      "title": "捐贈",
+      "why": {
+        "title": "為何要幫忙？",
+        "subtitle": "本專案將受惠於你的支持",
+        "free": "免費",
+        "free-info": "GitHub 上的開源",
+        "no-ads": "無廣告",
+        "no-ads-info": "連安裝程式也沒有廣告",
+        "commitment": "承諾",
+        "commitment-info": "由一位投入的開發者用愛製作",
+        "for-you": "為你",
+        "for-you-info": "以反饋推動開發"
+      },
+      "how": {
+        "title": "我如何幫忙？",
+        "subtitle": "如果你願意幫忙，請這樣做",
+        "feedback": "反饋",
+        "feedback-info": "報告錯誤或提供使用體驗反饋",
+        "share": "分享",
+        "share-info": "與朋友分享",
+        "localize": "在地化",
+        "localize-info": "幫助保持翻譯最新",
+        "donate": "捐贈",
+        "donate-info": "捐贈也歡迎 ☺️"
+      },
+      "donate": {
+        "title": "我如何捐贈？",
+        "subtitle": "這裡是捐贈方式",
+        "single-info": "一次性捐贈",
+        "subscribe-info": "訂閱每月捐贈",
+        "both-info": "一次或每月",
+        "games-info": "捐贈遊戲",
+        "parts-info": "幫我取得新的電腦零件",
+        "address-info": "點擊查看地址"
+      }
+    },
+
+    "screenshots": {
+      "title": "螢幕截圖",
+      "welcome": "一開始，你可能會看到歡迎視窗",
+      "welcome-info": "這是可選的，你可以設定啟動時開啟錄製器或編輯器",
+      "record": "你可以錄製螢幕，以及游標和按鍵",
+      "record-info": "你可以選擇錄製哪一部分螢幕並控制 FPS（你甚至可以捕獲延時錄影！）",
+      "edit": "錄製完成後，你將擁有一個強大的編輯器",
+      "edit-info": "你可以在這裡新增其他圖層（圖片、文字、繪圖等）、刪除影格以及更多"
+    }
+  }
+}

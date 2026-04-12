@@ -1,0 +1,480 @@
+{
+  "info": {
+    "authors": "Machine Translated",
+    "last-update": "2026-04-11"
+  },
+
+  "common": {
+    "download": "ダウンロード",
+    "get-pro": "Proを入手",
+    "log-in": "ログイン",
+    "retry": "再試行",
+    "dismiss": "閉じる",
+    "ok": "OK",
+    "select": "選択",
+    "accept": "承認",
+    "decline": "拒否",
+    "cancel": "キャンセル",
+    "remove": "削除",
+    "go-back": "戻る",
+    "show-more": "もっと表示",
+    "expand": "展開",
+    "collapse": "折りたたむ"
+  },
+
+  "validations": {
+    "required": "このフィールドは必須です"
+  },
+
+  "modals": {
+    "currency-selector": {
+      "title": "PayPalで寄付",
+      "subtitle": "続行する前に通貨を選択してください",
+      "currency": "通貨"
+    },
+
+    "donate-crypto": {
+      "title-bitcoin": "Bitcoinで寄付",
+      "title-bitcoin-cash": "BitcoinCashで寄付",
+      "title-ethereum": "Ethereumで寄付",
+      "subtitle": "QRコードをスキャンするかアドレスをコピーしてください"
+    }
+  },
+
+  "n-tech": {
+    "about": "概要",
+    "change-language": "言語を変更",
+    "moto": "これは1人の開発者による取り組みです",
+    "toggle-theme": "テーマを切り替え",
+    "switch-to-light": "ライトテーマに切り替え",
+    "switch-to-dark": "ダークテーマに切り替え",
+    "sign-in-up": "サインインまたはサインアップ",
+
+    "cookies-consent": {
+      "title": "分析クッキー",
+      "message": "ウェブサイトの改善のために解析を使用しています。解析クッキーを受け入れますか？"
+    },
+
+    "sign-in": {
+      "title": "サインイン",
+      "email": "メール",
+      "email-placeholder": "メールアドレスを入力してください",
+      "password": "パスワード",
+      "password-placeholder": "パスワードを入力してください",
+      "remember": "ログインを保持",
+      "forgot": "パスワードをお忘れですか？",
+      "action": "サインイン",
+      "new-here": "初めてですか？サインアップしてください"
+    },
+
+    "sign-up": {
+      "title": "アカウント作成",
+      "type": "アカウントタイプ",
+      "type-individual": "個人",
+      "type-company": "会社/チーム",
+      "name": "名前",
+      "name-placeholder": "名前を入力してください",
+      "company-name": "会社名",
+      "company-name-placeholder": "会社名を入力してください",
+      "contact-name": "担当者名",
+      "contact-name-placeholder": "会社の担当者名を入力してください",
+      "confirm-password": "パスワード確認",
+      "confirm-password-placeholder": "もう一度パスワードを入力してください",
+      "action": "サインアップ",
+      "already-has": "既にアカウントをお持ちですか？サインインしてください"
+    },
+
+    "forgot": {
+      "title": "パスワードをお忘れですか？",
+      "action": "パスワードリセットを依頼"
+    },
+
+    "reset": {
+      "title": "パスワードのリセット",
+      "action": "パスワードをリセット"
+    },
+
+    "home": {
+      "new-experience": "新しい体験",
+      "familiar-face": "見覚えのある顔",
+      "custom-solution": "カスタムソリューションをお探しですか？",
+      "talk": "話しましょう :)"
+    },
+
+    "account": {
+      "title": "アカウント",
+
+      "actions": {
+        "sign-out": "サインアウト",
+        "edit": "情報を編集",
+        "change-email": "メールを変更",
+        "change-password": "パスワードを変更"
+      },
+
+      "edit": {
+        "title": "アカウント編集"
+      },
+
+      "change-email": {
+        "title": "メールアドレスを変更",
+        "new-address": "新しいアドレス"
+      },
+
+      "change-password": {
+        "title": "パスワードを変更",
+        "current-password": "現在のパスワード",
+        "current-password-placeholder": "現在のパスワードを入力してください",
+        "new-password": "新しいパスワード",
+        "new-password-placeholder": "新しい安全なパスワードを入力してください",
+        "confirm-password-placeholder": "新しいパスワードを再入力してください"
+      },
+
+      "not-verified": {
+        "title": "メールアドレスが確認されていません",
+        "message": "確認メールをご確認ください",
+        "resend": "再送信"
+      },
+
+      "subscriptions": {
+        "title": "プランまたはサブスクリプション",
+        "empty": "まだプラン/サブスクリプションはありません",
+        "get-n-studio": "N-Studioを入手",
+        "go-to-product": "製品ページへ移動",
+        "status": "=0 {未完了または支払いに失敗しました} =1 {提案済み} =2 {アクティブ} =3 {期限切れ} =4 {キャンセル済み}",
+        "seats": "<0 {無制限の席} =1 {1席} >1 {{{count}} 席}",
+        "type": {
+          "month": "月",
+          "year": "年",
+          "per-version": "バージョンあたり"
+        },
+        "dismiss-info": "プラン/サブスクリプションを閉じる",
+        "download-info": "製品のダウンロードページへ移動",
+        "manage": "管理",
+        "manage-info": "プラン/サブスクリプションを管理",
+        "restore": "復元",
+        "restore-info": "以前の支払いを復元",
+        "proceed": "続行",
+        "proceed-info": "支払いを続行"
+      },
+
+      "subscription": {
+        "title": "プラン/サブスクリプション",
+        "manage": "サブスクリプション/支払いを管理",
+        "manage-info": "Stripeを介してサブスクリプションまたは支払いを管理",
+        "users-domains": "ユーザー/ドメイン",
+        "user": "ユーザー",
+        "domain": "ドメイン",
+        "error-loading": "プラン/サブスクリプションの読み込み中にエラーが発生しました...",
+        "none": "まだユーザー/ドメインはありません",
+        "documentation": "ユーザーの管理方法とアプリのアクセス共有方法を学ぶ",
+
+        "actions": {
+          "import": "複数のユーザーをインポート...",
+          "add": "追加...",
+          "add-info": "ユーザーまたはドメインを追加",
+          "copy-serial": "シリアルをコピー",
+          "send-email": "アクティベーションメールを送信",
+          "freeze": "凍結",
+          "unfreeze": "解除",
+          "remove": "削除",
+          "more": "その他のアクション",
+          "export-all": "すべてエクスポート...",
+          "export": "エクスポート..."
+        },
+
+        "add": {
+          "title": "ユーザー/ドメインを追加",
+          "type": "タイプ",
+          "domain": "ドメイン（ワイルドカード）",
+          "send-email": "登録メールを送信",
+          "explanation": "このドメインのすべてのアドレスが参加できます。",
+          "action": "追加"
+        },
+
+        "remove": {
+          "title": "このユーザーを削除しますか？",
+          "title-domain": "このドメインを削除しますか？",
+          "message": "ユーザーはアプリへのアクセスを失います。<br>再度アクセスを許可するには、ユーザーを追加して新しいシリアルを共有してください。",
+          "message-domain": "このドメインのユーザーは自動的に参加できなくなります。"
+        },
+
+        "import": {
+          "title": "ユーザーをインポート",
+          "emails": "メールアドレス（セミコロン、カンマ、新しい行で区切る）",
+          "send-to-all": "登録メールを全員に送信",
+          "action": "インポート"
+        },
+
+        "export": {
+          "title": "=1 {ユーザーをエクスポート} >1 {ユーザーをエクスポート}",
+          "content": "JSONとしての内容",
+          "documentation": "ユーザーのアクティベーションを高速化する方法をチェック",
+          "action": "JSONとしてエクスポート"
+        }
+      },
+
+      "support": {
+        "title": "サポート",
+        "message": "ご質問や問題がある場合は、このメールでお問い合わせください"
+      }
+    },
+
+    "checkout": {
+      "title": "チェックアウト",
+      "how-many": "何人のユーザーがアプリを使用しますか？",
+      "get-discount": "年額請求で2か月無料にしますか？",
+      "yes-for-discount": "はい、年額請求にします",
+      "two-installations": "同時に最大2つのインストールが可能です",
+      "manage-installations": "アカウントページからアクセスを管理できます",
+      "agree-prefix": "続行すると、以下に同意したことになります：",
+      "agree-middle": "と",
+      "action": "Stripeでチェックアウト",
+      "wait": "チェックアウトをお待ちください..."
+    },
+
+    "success": {
+      "title": "支払い成功",
+      "message-company": "お支払いが承認されました。アプリをダウンロードするか、ユーザーを管理できます。",
+      "message-individual": "お支払いが承認されました。アプリをダウンロードできます。"
+    },
+
+    "contact": {
+      "title": "お問い合わせ",
+      "subtitle": "質問、バグ報告など",
+      "email": "メール",
+      "email-info": "バグを報告したり、質問したり、フィードバックを提供してください",
+      "discord-info": "コミュニティとチャット"
+    },
+
+    "terms-of-service": {
+      "title": "利用規約"
+    },
+
+    "privacy-policy": {
+      "title": "プライバシーポリシー"
+    }
+  },
+
+  "n-studio": {
+    "home": {
+      "header": "画面録画の新時代",
+      "subtitle": "今すぐ無料版をダウンロードするか、Proにアップグレード",
+      "info": "Windows 10/11対応",
+      "migrated": {
+        "title": "新しいアプリ",
+        "message": "これは同じ開発者による<em>ScreenToGif</em>の後継です :)",
+        "action": "ScreenToGifを入手"
+      },
+      "more": "もっと見たいですか？"
+    },
+
+    "downloads": {
+      "title": "ダウンロード",
+      "license": {
+        "title": "Proはどうですか？",
+        "message": "アプリの<em>無料</em>版をダウンロードできます。代わりにProを入手しますか？",
+        "message-extra": "<br>すでにProをお持ちの場合はログインしてください。"
+      },
+      "latest": {
+        "title": "最新バージョン",
+        "latest-tag": "最新",
+        "description": "説明",
+        "error": "最新バージョンの読み込み中にエラーが発生しました..."
+      },
+      "past": {
+        "title": "過去のバージョン",
+        "error": "過去のバージョンの読み込み中にエラーが発生しました..."
+      },
+      "assets": {
+        "title": "アセット",
+        "which-arch": "どれを選べばよいですか？",
+        "which-arch.info": "Windowsの設定を開いてシステムのアーキテクチャを確認してください",
+        "list": "リスト",
+        "details": "詳細",
+        "get-installer": "インストーラーを取得",
+        "get-portable": "ポータブルを取得",
+        "downloads": "=0 {ダウンロードはありません} =1 {1件のダウンロード} >1 {{{count}} 件のダウンロード}}",
+        "portable": "ポータブル",
+        "light": "ライト",
+        "none": "ファイルが見つかりません..."
+      },
+      "previous": "代わりに過去のバージョンをお探しですか？"
+    },
+
+    "pricing": {
+      "title": "料金",
+      "plans": "料金プラン",
+      "individuals": "個人利用",
+      "companies": "企業/チーム",
+
+      "log-in-first": {
+        "title": "まずログインしてください",
+        "message": "続行するにはまずログインする必要があります"
+      },
+
+      "starter": "Starter",
+      "professional": "Professional",
+      "business": "Business",
+      "enterprise": "Enterprise",
+      "free": "無料",
+      "one-time": "一括払い",
+      "subscription": "サブスクリプション",
+      "flexible": "柔軟な投資",
+      "download-now": "今すぐダウンロード",
+      "get-professional": "Professionalを入手",
+      "contact-us": "お問い合わせ",
+      "month": "月",
+      "month-user": "月/ユーザー",
+
+      "capture-screen": "画面を自由にキャプチャ",
+      "capture-screen-framerate": "フレームレートを制御",
+      "framerate-regular": "通常（1〜60 fps）",
+      "framerate-manual": "手動キャプチャ（ボタンまたはショートカットで）",
+      "framerate-user-interaction": "ユーザー操作（マウスまたはキーボードイベント）",
+      "select-area": "画面の領域、ウィンドウ、またはスクリーンを選択",
+      "capture-cursor-clicks": "カーソルとクリックをキャプチャ",
+      "capture-keystrokes": "キー入力をキャプチャ",
+      "capture-audio": "マイクまたはシステムの音声をキャプチャ",
+      "quick-adjustments": "エクスポート前に迅速な調整を行う",
+      "trim": "トリム",
+      "crop": "クロップ",
+      "resize": "リサイズ",
+      "toggle-layers": "レイヤーを切り替える",
+      "export-multiple-formats": "複数の形式でエクスポート",
+      "no-limits": "制限なし",
+      "no-watermark": "ウォーターマークなし",
+      "no-ads": "広告なし",
+
+      "starter-has": "Starterのすべての機能",
+      "extra-frequencies": "追加のキャプチャ頻度",
+      "timelapse": "タイムラプス（1〜60フレーム/分）",
+      "long-timelapse": "長時間タイムラプス（1〜60フレーム/時）",
+      "extra-adjustments": "エクスポート前の追加調整",
+      "change-framerate": "アニメーションのフレームレートを変更",
+      "change-speed": "再生速度を変更",
+      "full-editor": "タイムライン付きフルエディタ",
+      "insert-layers": "レイヤーを挿入",
+      "recordings": "録画（画面または音声）",
+      "media": "メディア（動画、画像、音声）",
+      "texts": "テキスト",
+      "images": "画像",
+      "shapes": "図形",
+      "drawings": "描画",
+      "progress-indicator": "進行状況インジケーター",
+      "pixelation": "ピクセル化",
+      "brightness": "明るさ",
+      "add-effects": "効果を追加",
+      "split-segments": "セグメントを分割",
+      "free-upgrades": "マイナーバージョンの無料アップグレード付き（v1.X）",
+
+      "same-as-one-time": "機能面では一括払いオプションと同じ",
+      "free-upgrades-major": "メジャーバージョンの無料アップグレード付き",
+      "annual-billing": "年額請求で2か月無料",
+      "admin-dashboard": "ユーザーアクセスを制御する管理ダッシュボード付き",
+      "add-user": "ユーザーの追加/削除",
+      "user-access": "メールまたはドメインによるアクセス",
+
+      "same-as-business": "機能面ではBusinessオプションと同じ",
+      "large-corpo": "大企業向け",
+      "custom-billing": "会社のニーズに応じたカスタム請求スキーム"
+    },
+
+    "screenshots": {
+      "title": "スクリーンショット",
+      "welcome": "最初に歓迎ウィンドウが表示されることがあります",
+      "welcome-info": "これは任意です。起動時にレコーダーまたはエディタを開くように設定できます",
+      "record": "画面、カーソル、およびキー入力を録画できます",
+      "record-info": "録画する画面の部分を選択し、FPSを制御できます（タイムラプスも撮影できます！）",
+      "export": "その後、録画をエクスポートできます",
+      "export-info": "カーソルを非表示にしたり、トリミング、クロップなどの最終調整ができます",
+      "edit": "より高度な編集体験が必要な場合、本格的なソリューションがあります",
+      "edit-info": "ここでは、他のレイヤー（画像、テキストなど）を追加し、効果を追加し、タイムラインを制御できます"
+    },
+
+    "documentation": {
+      "title": "ドキュメント",
+      "pages": {
+        "getting-started": "はじめに",
+        "how-to-record": "録画方法",
+        "how-to-edit": "編集方法",
+        "how-to-export": "エクスポート方法",
+        "how-to-import": "インポート方法"
+      }
+    }
+  },
+
+  "screentogif": {
+    "home": {
+      "subtitle": "組み込みエディタ付きの画面、ウェブカメラ、ホワイトボード録画",
+      "info": "Windows 10以降対応",
+      "donate": "寄付",
+      "more": "もっと見たいですか？",
+
+      "special-thanks": {
+        "header": "特別な感謝",
+        "subtitle": "このプロジェクトのサポーターの一部です",
+        "action": "スポンサーになる"
+      }
+    },
+
+    "downloads": {
+      "get-new": {
+        "title": "改良版があります",
+        "message": "これはアプリの<em>古い</em>バージョンです。新しいものを入手しますか？",
+        "action": "N-Studioを入手"
+      },
+
+      "assets": {
+        "get-package": "パッケージを入手"
+      }
+    },
+
+    "donation": {
+      "title": "寄付",
+      "why": {
+        "title": "なぜ支援するの？",
+        "subtitle": "このプロジェクトはあなたの支援により恩恵を受けます",
+        "free": "無料",
+        "free-info": "GitHubでオープンソース",
+        "no-ads": "広告なし",
+        "no-ads-info": "インストーラーにも広告はありません",
+        "commitment": "コミットメント",
+        "commitment-info": "熱心な開発者による愛情込めた制作",
+        "for-you": "あなたのために",
+        "for-you-info": "フィードバック主導の開発"
+      },
+      "how": {
+        "title": "どうやって手伝える？",
+        "subtitle": "手伝いたい場合は、次のようにしてください",
+        "feedback": "フィードバック",
+        "feedback-info": "バグを報告するか、体験についてフィードバックを提供してください",
+        "share": "共有",
+        "share-info": "友達と共有してください",
+        "localize": "ローカライズ",
+        "localize-info": "翻訳を最新に保つのを手伝ってください",
+        "donate": "寄付",
+        "donate-info": "寄付も歓迎します ☺️"
+      },
+      "donate": {
+        "title": "どうやって寄付できますか？",
+        "subtitle": "寄付の方法はこちらです",
+        "single-info": "一度だけの寄付",
+        "subscribe-info": "毎月寄付するために購読",
+        "both-info": "一度または毎月",
+        "games-info": "ゲームを寄付",
+        "parts-info": "コンピュータの新しい部品を手に入れるのを手伝ってください",
+        "address-info": "住所を見るにはクリック"
+      }
+    },
+
+    "screenshots": {
+      "title": "スクリーンショット",
+      "welcome": "最初に歓迎ウィンドウが表示されることがあります",
+      "welcome-info": "これは任意です。起動時にレコーダーやエディタを開くように設定できます",
+      "record": "画面、カーソル、キー入力を録画できます",
+      "record-info": "録画する画面の部分を選択し、FPSを制御できます（タイムラプスも撮影できます！）",
+      "edit": "録画後に強力なエディタが提供されます",
+      "edit-info": "ここでは、他のレイヤー（画像、テキスト、図形など）を追加し、フレームを削除し、さらに多くのことができます"
+    }
+  }
+}

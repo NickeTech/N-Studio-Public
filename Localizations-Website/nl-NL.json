@@ -1,0 +1,480 @@
+{
+  "info": {
+    "authors": "Machine Translated",
+    "last-update": "2026-04-11"
+  },
+
+  "common": {
+    "download": "Download",
+    "get-pro": "Pro krijgen",
+    "log-in": "Inloggen",
+    "retry": "Opnieuw proberen",
+    "dismiss": "Sluiten",
+    "ok": "OK",
+    "select": "Selecteren",
+    "accept": "Accepteren",
+    "decline": "Weigeren",
+    "cancel": "Annuleren",
+    "remove": "Verwijderen",
+    "go-back": "Ga terug",
+    "show-more": "Meer tonen",
+    "expand": "Uitklappen",
+    "collapse": "Inklappen"
+  },
+
+  "validations": {
+    "required": "Dit veld is verplicht"
+  },
+
+  "modals": {
+    "currency-selector": {
+      "title": "Doneer met PayPal",
+      "subtitle": "Selecteer je valuta voordat je verdergaat",
+      "currency": "Valuta"
+    },
+
+    "donate-crypto": {
+      "title-bitcoin": "Doneer met Bitcoin",
+      "title-bitcoin-cash": "Doneer met BitcoinCash",
+      "title-ethereum": "Doneer met Ethereum",
+      "subtitle": "Scan de QR-code of kopieer het adres"
+    }
+  },
+
+  "n-tech": {
+    "about": "Over",
+    "change-language": "Taal wijzigen",
+    "moto": "Dit is een project van één ontwikkelaar",
+    "toggle-theme": "Thema wisselen",
+    "switch-to-light": "Overschakelen naar licht thema",
+    "switch-to-dark": "Overschakelen naar donker thema",
+    "sign-in-up": "Inloggen of aanmelden",
+
+    "cookies-consent": {
+      "title": "Analysecookies",
+      "message": "We gebruiken analyse om de website te verbeteren. Accepteer je analytische cookies?"
+    },
+
+    "sign-in": {
+      "title": "Inloggen",
+      "email": "E-mail",
+      "email-placeholder": "Voer je e-mail in",
+      "password": "Wachtwoord",
+      "password-placeholder": "Voer je wachtwoord in",
+      "remember": "Onthoud mij",
+      "forgot": "Wachtwoord vergeten?",
+      "action": "Inloggen",
+      "new-here": "Nieuw hier? Meld je dan aan"
+    },
+
+    "sign-up": {
+      "title": "Account aanmaken",
+      "type": "Accounttype",
+      "type-individual": "Individueel",
+      "type-company": "Bedrijf/Team",
+      "name": "Naam",
+      "name-placeholder": "Voer je naam in",
+      "company-name": "Bedrijfsnaam",
+      "company-name-placeholder": "Voer de bedrijfsnaam in",
+      "contact-name": "Contactpersoon",
+      "contact-name-placeholder": "Voer de contactpersoon voor het bedrijf in",
+      "confirm-password": "Bevestig wachtwoord",
+      "confirm-password-placeholder": "Voer je wachtwoord opnieuw in",
+      "action": "Aanmelden",
+      "already-has": "Heb je al een account? Log dan in"
+    },
+
+    "forgot": {
+      "title": "Wachtwoord vergeten?",
+      "action": "Wachtwoordreset aanvragen"
+    },
+
+    "reset": {
+      "title": "Wachtwoord resetten",
+      "action": "Wachtwoord resetten"
+    },
+
+    "home": {
+      "new-experience": "Een nieuwe ervaring",
+      "familiar-face": "Een vertrouwd gezicht",
+      "custom-solution": "Op zoek naar een oplossing op maat?",
+      "talk": "Laten we praten :)"
+    },
+
+    "account": {
+      "title": "Account",
+
+      "actions": {
+        "sign-out": "Uitloggen",
+        "edit": "Informatie bewerken",
+        "change-email": "E-mail wijzigen",
+        "change-password": "Wachtwoord wijzigen"
+      },
+
+      "edit": {
+        "title": "Account bewerken"
+      },
+
+      "change-email": {
+        "title": "E-mailadres wijzigen",
+        "new-address": "Nieuw adres"
+      },
+
+      "change-password": {
+        "title": "Wachtwoord wijzigen",
+        "current-password": "Huidig wachtwoord",
+        "current-password-placeholder": "Voer je huidige wachtwoord in",
+        "new-password": "Nieuw wachtwoord",
+        "new-password-placeholder": "Voer een nieuw, sterk wachtwoord in",
+        "confirm-password-placeholder": "Voer je nieuwe wachtwoord opnieuw in"
+      },
+
+      "not-verified": {
+        "title": "E-mailadres niet geverifieerd",
+        "message": "Controleer je e-mail voor het verificatiebericht",
+        "resend": "Opnieuw verzenden"
+      },
+
+      "subscriptions": {
+        "title": "Plannen of abonnementen",
+        "empty": "Nog geen plannen/abonnementen",
+        "get-n-studio": "Krijg N-Studio",
+        "go-to-product": "Ga naar de productpagina",
+        "status": "=0 {Onvoltooid of betaling mislukt} =1 {Voorgesteld} =2 {Actief} =3 {Verlopen} =4 {Geannuleerd}",
+        "seats": "<0 {onbeperkte plaatsen} =1 {1 plaats} >1 {{{count}} plaatsen}",
+        "type": {
+          "month": "maand",
+          "year": "jaar",
+          "per-version": "per versie"
+        },
+        "dismiss-info": "Negeer plan/abonnement",
+        "download-info": "Ga naar de downloadpagina van het product",
+        "manage": "Beheren",
+        "manage-info": "Beheer plan/abonnement",
+        "restore": "Herstellen",
+        "restore-info": "Herstel je vorige betaling",
+        "proceed": "Doorgaan",
+        "proceed-info": "Doorgaan met betaling"
+      },
+
+      "subscription": {
+        "title": "Plan/abonnement",
+        "manage": "Beheer abonnement/betaling",
+        "manage-info": "Beheer abonnement of betaling via Stripe",
+        "users-domains": "Gebruikers/Domeinen",
+        "user": "Gebruiker",
+        "domain": "Domein",
+        "error-loading": "Fout bij het laden van het plan/abonnement...",
+        "none": "Nog geen gebruikers/domeinen",
+        "documentation": "Leer hoe je gebruikers beheert en toegang deelt",
+
+        "actions": {
+          "import": "Importeer meerdere gebruikers...",
+          "add": "Toevoegen...",
+          "add-info": "Voeg een gebruiker of domein toe",
+          "copy-serial": "Kopieer serienummer",
+          "send-email": "Verzend activatiemail",
+          "freeze": "Bevriezen",
+          "unfreeze": "Ontdooien",
+          "remove": "Verwijderen",
+          "more": "Meer acties",
+          "export-all": "Alles exporteren...",
+          "export": "Exporteren..."
+        },
+
+        "add": {
+          "title": "Gebruiker/domein toevoegen",
+          "type": "Type",
+          "domain": "Domein (wildcard)",
+          "send-email": "Verzend registratie-e-mail",
+          "explanation": "Alle adressen onder dit domein kunnen lid worden.",
+          "action": "Toevoegen"
+        },
+
+        "remove": {
+          "title": "Wil je deze gebruiker verwijderen?",
+          "title-domain": "Wil je dit domein verwijderen?",
+          "message": "De gebruiker verliest toegang tot de app.<br>Als je opnieuw toegang wilt geven, voeg je de gebruiker toe en deel je het nieuwe serienummer.",
+          "message-domain": "Gebruikers in dit domein kunnen niet langer automatisch deelnemen."
+        },
+
+        "import": {
+          "title": "Gebruikers importeren",
+          "emails": "E-mailadressen (gescheiden door puntkomma's, komma's of nieuwe regels)",
+          "send-to-all": "Stuur registratie-e-mail naar iedereen",
+          "action": "Importeren"
+        },
+
+        "export": {
+          "title": "=1 {Exporteer gebruiker} >1 {Exporteer gebruikers}",
+          "content": "Inhoud als JSON",
+          "documentation": "Lees hoe je de activering voor gebruikers versnelt",
+          "action": "Exporteren als JSON"
+        }
+      },
+
+      "support": {
+        "title": "Ondersteuning",
+        "message": "Als je vragen of problemen hebt, neem dan contact met ons op via deze e-mail"
+      }
+    },
+
+    "checkout": {
+      "title": "Afrekenen",
+      "how-many": "Hoeveel gebruikers gebruiken de app?",
+      "get-discount": "Wil je 2 maanden gratis krijgen door jaarlijks te factureren?",
+      "yes-for-discount": "Ja, jaarlijks factureren",
+      "two-installations": "Je kunt tot twee gelijktijdige installaties hebben",
+      "manage-installations": "Je kunt toegang beheren via de accountpagina",
+      "agree-prefix": "Door verder te gaan ga je akkoord met",
+      "agree-middle": "en",
+      "action": "Afrekenen met Stripe",
+      "wait": "Wacht op de checkout..."
+    },
+
+    "success": {
+      "title": "Betaling geslaagd",
+      "message-company": "Je betaling is goedgekeurd, je kunt nu de app downloaden of je gebruikers beheren.",
+      "message-individual": "Je betaling is goedgekeurd, je kunt nu de app downloaden."
+    },
+
+    "contact": {
+      "title": "Contact",
+      "subtitle": "Stel vragen, meld bugs, enz.",
+      "email": "E-mail",
+      "email-info": "Meld bugs, stel vragen of geef feedback",
+      "discord-info": "Chat met de community"
+    },
+
+    "terms-of-service": {
+      "title": "Gebruiksvoorwaarden"
+    },
+
+    "privacy-policy": {
+      "title": "Privacybeleid"
+    }
+  },
+
+  "n-studio": {
+    "home": {
+      "header": "Een nieuw tijdperk voor schermopnames",
+      "subtitle": "Download nu de gratis versie of ga Pro",
+      "info": "Voor Windows 10/11",
+      "migrated": {
+        "title": "Een nieuwe app",
+        "message": "Dit is de opvolger van <em>ScreenToGif</em>, gemaakt door dezelfde ontwikkelaar :)",
+        "action": "Krijg ScreenToGif"
+      },
+      "more": "Wil je meer zien?"
+    },
+
+    "downloads": {
+      "title": "Downloads",
+      "license": {
+        "title": "En Pro?",
+        "message": "Je kunt de <em>gratis</em> versie van de app downloaden. Wil je in plaats daarvan Pro krijgen?",
+        "message-extra": "<br>Log in als je al Pro hebt."
+      },
+      "latest": {
+        "title": "Laatste versie",
+        "latest-tag": "Laatste",
+        "description": "Beschrijving",
+        "error": "Fout bij het laden van de laatste versie..."
+      },
+      "past": {
+        "title": "Eerdere versies",
+        "error": "Fout bij het laden van eerdere versies..."
+      },
+      "assets": {
+        "title": "Assets",
+        "which-arch": "Welke moet ik kiezen?",
+        "which-arch.info": "Open Windows-instellingen om de architectuur van je systeem te controleren",
+        "list": "Lijst",
+        "details": "Details",
+        "get-installer": "Installer downloaden",
+        "get-portable": "Portable downloaden",
+        "downloads": "=0 {Geen downloads} =1 {1 download} >1 {{{count}} downloads}}",
+        "portable": "portable",
+        "light": "light",
+        "none": "Geen bestanden gevonden..."
+      },
+      "previous": "Op zoek naar eerdere versies?"
+    },
+
+    "pricing": {
+      "title": "Prijzen",
+      "plans": "Prijsplannen",
+      "individuals": "Persoonlijk gebruik",
+      "companies": "Bedrijven/Teams",
+
+      "log-in-first": {
+        "title": "Log eerst in",
+        "message": "Je moet eerst inloggen om verder te gaan"
+      },
+
+      "starter": "Starter",
+      "professional": "Professional",
+      "business": "Business",
+      "enterprise": "Enterprise",
+      "free": "Gratis",
+      "one-time": "Eenmalige betaling",
+      "subscription": "Abonnement",
+      "flexible": "Flexibele investering",
+      "download-now": "Nu downloaden",
+      "get-professional": "Krijg Professional",
+      "contact-us": "Neem contact op",
+      "month": "maand",
+      "month-user": "maand/gebruiker",
+
+      "capture-screen": "Neem je scherm vrij op",
+      "capture-screen-framerate": "Beheer de framerate",
+      "framerate-regular": "Regulier (1 tot 60 fps)",
+      "framerate-manual": "Handmatige opname (via knop of snelkoppeling)",
+      "framerate-user-interaction": "Gebruikersinteractie (muis- of toetsenbordgebeurtenissen)",
+      "select-area": "Selecteer een schermgebied, venster of scherm",
+      "capture-cursor-clicks": "Leg cursor en klikken vast",
+      "capture-keystrokes": "Leg toetsaanslagen vast",
+      "capture-audio": "Neem audio op vanaf je microfoon of systeem",
+      "quick-adjustments": "Maak snelle aanpassingen voordat je exporteert",
+      "trim": "Trimmen",
+      "crop": "Bijsnijden",
+      "resize": "Formaat wijzigen",
+      "toggle-layers": "Laag weergave wisselen",
+      "export-multiple-formats": "Exporteren naar meerdere formaten",
+      "no-limits": "Geen limieten",
+      "no-watermark": "Geen watermerk",
+      "no-ads": "Geen advertenties",
+
+      "starter-has": "Alles wat Starter heeft",
+      "extra-frequencies": "Extra opnameratio's",
+      "timelapse": "Timelapse (1-60 frames per minuut)",
+      "long-timelapse": "Lange timelapse (1-60 frames per uur)",
+      "extra-adjustments": "Extra aanpassingen voor export",
+      "change-framerate": "Wijzig de framerate van de animatie",
+      "change-speed": "Wijzig de afspeelsnelheid",
+      "full-editor": "Volwaardige editor met tijdlijn",
+      "insert-layers": "Laag invoegen",
+      "recordings": "Opnames (scherm of geluid)",
+      "media": "Media (video, afbeelding, audio)",
+      "texts": "Teksten",
+      "images": "Afbeeldingen",
+      "shapes": "Vormen",
+      "drawings": "Tekeningen",
+      "progress-indicator": "Voortgangsindicator",
+      "pixelation": "Pixelering",
+      "brightness": "Helderheid",
+      "add-effects": "Effecten toevoegen",
+      "split-segments": "Segmenten splitsen",
+      "free-upgrades": "Met gratis upgrades naar minor versies (v1.X)",
+
+      "same-as-one-time": "Zelfde functies als de eenmalige betalingsoptie",
+      "free-upgrades-major": "Met gratis upgrades naar major versies",
+      "annual-billing": "Krijg twee maanden gratis bij jaarlijkse facturatie",
+      "admin-dashboard": "Met beheerder dashboard om gebruikers toegang te regelen",
+      "add-user": "Gebruiker toevoegen/verwijderen",
+      "user-access": "Toegang via e-mail of domein",
+
+      "same-as-business": "Zelfde functies als de Business-optie",
+      "large-corpo": "Voor grote bedrijven",
+      "custom-billing": "Aangepaste facturering op basis van je bedrijfsbehoeften"
+    },
+
+    "screenshots": {
+      "title": "Screenshots",
+      "welcome": "Aan het begin kun je een welkomstvenster zien",
+      "welcome-info": "Dit is optioneel, je kunt instellen dat de recorder of editor bij het starten opent",
+      "record": "Je kunt je scherm opnemen, samen met cursor en toetsaanslagen",
+      "record-info": "Je kunt kiezen welk deel van het scherm je opneemt en de FPS regelen (je kunt zelfs timelapses opnemen!)",
+      "export": "Vervolgens kun je je opname exporteren",
+      "export-info": "Je kunt laatste wijzigingen aanbrengen, zoals de cursor verbergen, bijsnijden, trimmen, enz.",
+      "edit": "Maar als je een krachtigere bewerkingservaring wilt, is er een echte oplossing",
+      "edit-info": "Hier kun je extra lagen toevoegen (afbeeldingen, tekst, enz.), effecten toevoegen, de tijdlijn regelen en veel meer"
+    },
+
+    "documentation": {
+      "title": "Documentatie",
+      "pages": {
+        "getting-started": "Aan de slag",
+        "how-to-record": "Hoe je opneemt",
+        "how-to-edit": "Hoe je bewerkt",
+        "how-to-export": "Hoe je exporteert",
+        "how-to-import": "Hoe je importeert"
+      }
+    }
+  },
+
+  "screentogif": {
+    "home": {
+      "subtitle": "Scherm-, webcam- en whiteboardrecorder met geïntegreerde editor",
+      "info": "Voor Windows 10 of hoger",
+      "donate": "Doneren",
+      "more": "Wil je meer zien?",
+
+      "special-thanks": {
+        "header": "Speciale dank",
+        "subtitle": "Hier zijn enkele supporters van dit project",
+        "action": "Word sponsor"
+      }
+    },
+
+    "downloads": {
+      "get-new": {
+        "title": "Er is een verbeterde versie",
+        "message": "Dit is de <em>oude</em> versie van de app. Wil je de nieuwe verkrijgen?",
+        "action": "Krijg N-Studio"
+      },
+
+      "assets": {
+        "get-package": "Pakket verkrijgen"
+      }
+    },
+
+    "donation": {
+      "title": "Donatie",
+      "why": {
+        "title": "Waarom helpen?",
+        "subtitle": "Het project zou profiteren van je steun",
+        "free": "Gratis",
+        "free-info": "Open source op GitHub",
+        "no-ads": "Geen advertenties",
+        "no-ads-info": "Niet eens in de installer",
+        "commitment": "Toewijding",
+        "commitment-info": "Met liefde gemaakt door een toegewijde ontwikkelaar",
+        "for-you": "Voor jou",
+        "for-you-info": "Feedback-gedreven ontwikkeling"
+      },
+      "how": {
+        "title": "Hoe kan ik helpen?",
+        "subtitle": "Als je wilt helpen, zo kan het",
+        "feedback": "Feedback",
+        "feedback-info": "Meld bugs of geef feedback over je ervaring",
+        "share": "Delen",
+        "share-info": "Deel met je vrienden",
+        "localize": "Lokaliseren",
+        "localize-info": "Help vertalingen actueel te houden",
+        "donate": "Doneren",
+        "donate-info": "Donaties zijn ook welkom ☺️"
+      },
+      "donate": {
+        "title": "Hoe kan ik doneren?",
+        "subtitle": "Hier zijn manieren om te doneren",
+        "single-info": "Eenmalige donatie",
+        "subscribe-info": "Abonneer om maandelijks te doneren",
+        "both-info": "Eenmalig of maandelijks",
+        "games-info": "Doneer games",
+        "parts-info": "Help me nieuwe onderdelen voor mijn computer te krijgen",
+        "address-info": "Klik om het adres te zien"
+      }
+    },
+
+    "screenshots": {
+      "title": "Screenshots",
+      "welcome": "Aan het begin kun je een welkomstvenster zien",
+      "welcome-info": "Dit is optioneel, je kunt instellen dat de recorder of editor bij het starten opent",
+      "record": "Je kunt je scherm opnemen, samen met cursor en toetsaanslagen",
+      "record-info": "Je kunt kiezen welk deel van het scherm je opneemt en de FPS regelen (je kunt zelfs timelapses opnemen!)",
+      "edit": "Na de opname krijg je een krachtige editor",
+      "edit-info": "Hier kun je extra lagen toevoegen (afbeeldingen, tekst, tekeningen, enz.), frames verwijderen en veel meer"
+    }
+  }
+}

@@ -1,0 +1,480 @@
+{
+  "info": {
+    "authors": "Machine Translated",
+    "last-update": "2026-04-11"
+  },
+
+  "common": {
+    "download": "下载",
+    "get-pro": "获取 Pro",
+    "log-in": "登录",
+    "retry": "重试",
+    "dismiss": "关闭",
+    "ok": "确定",
+    "select": "选择",
+    "accept": "接受",
+    "decline": "拒绝",
+    "cancel": "取消",
+    "remove": "删除",
+    "go-back": "返回",
+    "show-more": "显示更多",
+    "expand": "展开",
+    "collapse": "折叠"
+  },
+
+  "validations": {
+    "required": "此字段为必填项"
+  },
+
+  "modals": {
+    "currency-selector": {
+      "title": "通过 PayPal 捐赠",
+      "subtitle": "继续前请选择你的货币",
+      "currency": "货币"
+    },
+
+    "donate-crypto": {
+      "title-bitcoin": "使用比特币捐赠",
+      "title-bitcoin-cash": "使用 BitcoinCash 捐赠",
+      "title-ethereum": "使用以太坊捐赠",
+      "subtitle": "扫描二维码或复制地址"
+    }
+  },
+
+  "n-tech": {
+    "about": "关于",
+    "change-language": "切换语言",
+    "moto": "这是一个单人开发者的项目",
+    "toggle-theme": "切换主题",
+    "switch-to-light": "切换到亮色主题",
+    "switch-to-dark": "切换到深色主题",
+    "sign-in-up": "登录或注册",
+
+    "cookies-consent": {
+      "title": "分析 Cookie",
+      "message": "我们使用分析来改进网站。接受分析 Cookie？"
+    },
+
+    "sign-in": {
+      "title": "登录",
+      "email": "电子邮箱",
+      "email-placeholder": "输入你的电子邮箱",
+      "password": "密码",
+      "password-placeholder": "输入你的密码",
+      "remember": "记住我",
+      "forgot": "忘记密码？",
+      "action": "登录",
+      "new-here": "新用户？请先注册"
+    },
+
+    "sign-up": {
+      "title": "创建账户",
+      "type": "账户类型",
+      "type-individual": "个人",
+      "type-company": "公司/团队",
+      "name": "姓名",
+      "name-placeholder": "输入你的姓名",
+      "company-name": "公司名称",
+      "company-name-placeholder": "输入公司的名称",
+      "contact-name": "联系人姓名",
+      "contact-name-placeholder": "输入公司联系人姓名",
+      "confirm-password": "确认密码",
+      "confirm-password-placeholder": "再次输入你的密码",
+      "action": "注册",
+      "already-has": "已有账户？请登录"
+    },
+
+    "forgot": {
+      "title": "忘记密码？",
+      "action": "请求重置密码"
+    },
+
+    "reset": {
+      "title": "密码重置",
+      "action": "重置密码"
+    },
+
+    "home": {
+      "new-experience": "全新体验",
+      "familiar-face": "熟悉的面孔",
+      "custom-solution": "正在寻找定制解决方案？",
+      "talk": "我们聊聊 :)"
+    },
+
+    "account": {
+      "title": "账户",
+
+      "actions": {
+        "sign-out": "登出",
+        "edit": "编辑信息",
+        "change-email": "更改邮箱",
+        "change-password": "更改密码"
+      },
+
+      "edit": {
+        "title": "编辑账户"
+      },
+
+      "change-email": {
+        "title": "更改邮箱地址",
+        "new-address": "新地址"
+      },
+
+      "change-password": {
+        "title": "更改密码",
+        "current-password": "当前密码",
+        "current-password-placeholder": "输入当前密码",
+        "new-password": "新密码",
+        "new-password-placeholder": "输入新的强密码",
+        "confirm-password-placeholder": "再次输入你的新密码"
+      },
+
+      "not-verified": {
+        "title": "邮箱地址未验证",
+        "message": "请检查你的邮箱以获取验证邮件",
+        "resend": "重新发送"
+      },
+
+      "subscriptions": {
+        "title": "计划或订阅",
+        "empty": "尚无计划/订阅",
+        "get-n-studio": "获取 N-Studio",
+        "go-to-product": "前往产品页面",
+        "status": "=0 {未完成或付款失败} =1 {已提议} =2 {已激活} =3 {已过期} =4 {已取消}",
+        "seats": "<0 {无限席位} =1 {1 个席位} >1 {{{count}} 个席位}",
+        "type": {
+          "month": "月",
+          "year": "年",
+          "per-version": "每版本"
+        },
+        "dismiss-info": "忽略计划/订阅",
+        "download-info": "前往产品下载页",
+        "manage": "管理",
+        "manage-info": "管理计划/订阅",
+        "restore": "恢复",
+        "restore-info": "恢复以前的付款",
+        "proceed": "继续",
+        "proceed-info": "继续付款"
+      },
+
+      "subscription": {
+        "title": "计划/订阅",
+        "manage": "管理订阅/付款",
+        "manage-info": "通过 Stripe 管理订阅或付款",
+        "users-domains": "用户/域",
+        "user": "用户",
+        "domain": "域",
+        "error-loading": "加载计划/订阅时出错...",
+        "none": "尚无用户/域",
+        "documentation": "了解如何管理用户并共享应用访问",
+
+        "actions": {
+          "import": "导入多个用户...",
+          "add": "添加...",
+          "add-info": "添加用户或域",
+          "copy-serial": "复制序列号",
+          "send-email": "发送激活邮件",
+          "freeze": "冻结",
+          "unfreeze": "解冻",
+          "remove": "删除",
+          "more": "更多操作",
+          "export-all": "导出全部...",
+          "export": "导出..."
+        },
+
+        "add": {
+          "title": "添加用户/域",
+          "type": "类型",
+          "domain": "域名（通配符）",
+          "send-email": "发送注册邮件",
+          "explanation": "此域下的所有地址都可加入。",
+          "action": "添加"
+        },
+
+        "remove": {
+          "title": "是否要删除此用户？",
+          "title-domain": "是否要删除此域？",
+          "message": "该用户将失去对应用的访问权限。<br>如果你想重新授予访问，请添加该用户并共享新的序列号。",
+          "message-domain": "此域中的用户将无法自动加入。"
+        },
+
+        "import": {
+          "title": "导入用户",
+          "emails": "电子邮件地址（以分号、逗号或新行分隔）",
+          "send-to-all": "向所有人发送注册邮件",
+          "action": "导入"
+        },
+
+        "export": {
+          "title": "=1 {导出用户} >1 {导出用户}",
+          "content": "内容为 JSON",
+          "documentation": "了解如何加快用户激活",
+          "action": "导出为 JSON"
+        }
+      },
+
+      "support": {
+        "title": "支持",
+        "message": "如果你有任何问题或问题，请通过此邮箱联系我们"
+      }
+    },
+
+    "checkout": {
+      "title": "结账",
+      "how-many": "将有多少用户使用此应用？",
+      "get-discount": "想要按年计费获得 2 个月免费吗？",
+      "yes-for-discount": "是的，按年计费",
+      "two-installations": "你最多可以拥有两个同时安装",
+      "manage-installations": "你可以通过账户页面控制访问",
+      "agree-prefix": "继续即表示你同意",
+      "agree-middle": "和",
+      "action": "使用 Stripe 结账",
+      "wait": "请等待结账完成..."
+    },
+
+    "success": {
+      "title": "支付成功",
+      "message-company": "你的付款已获批准，现在可以下载应用或管理你的用户。",
+      "message-individual": "你的付款已获批准，现在可以下载应用。"
+    },
+
+    "contact": {
+      "title": "联系",
+      "subtitle": "提问、报告错误等",
+      "email": "电子邮箱",
+      "email-info": "报告错误、提问或提供反馈",
+      "discord-info": "与社区聊天"
+    },
+
+    "terms-of-service": {
+      "title": "服务条款"
+    },
+
+    "privacy-policy": {
+      "title": "隐私政策"
+    }
+  },
+
+  "n-studio": {
+    "home": {
+      "header": "屏幕录制新时代",
+      "subtitle": "立即下载免费版本或升级到 Pro",
+      "info": "适用于 Windows 10/11",
+      "migrated": {
+        "title": "一个新应用",
+        "message": "这是同一开发者制作的 <em>ScreenToGif</em> 的后继产品 :)",
+        "action": "获取 ScreenToGif"
+      },
+      "more": "想查看更多吗？"
+    },
+
+    "downloads": {
+      "title": "下载",
+      "license": {
+        "title": "Pro 怎么办？",
+        "message": "你可以下载应用的<em>免费</em>版本。想改为获取 Pro 吗？",
+        "message-extra": "<br>如果你已经拥有 Pro，请登录。"
+      },
+      "latest": {
+        "title": "最新版本",
+        "latest-tag": "最新",
+        "description": "描述",
+        "error": "加载最新版本时出错..."
+      },
+      "past": {
+        "title": "过往版本",
+        "error": "加载过往版本时出错..."
+      },
+      "assets": {
+        "title": "资源",
+        "which-arch": "该选择哪个？",
+        "which-arch.info": "打开 Windows 设置来检查系统架构",
+        "list": "列表",
+        "details": "详情",
+        "get-installer": "获取安装程序",
+        "get-portable": "获取便携版",
+        "downloads": "=0 {无下载} =1 {1 次下载} >1 {{{count}} 次下载}}",
+        "portable": "便携",
+        "light": "轻量",
+        "none": "未找到资源..."
+      },
+      "previous": "改为查找过往版本吗？"
+    },
+
+    "pricing": {
+      "title": "价格",
+      "plans": "价格计划",
+      "individuals": "个人使用",
+      "companies": "公司/团队",
+
+      "log-in-first": {
+        "title": "请先登录",
+        "message": "继续之前你需要先登录"
+      },
+
+      "starter": "Starter",
+      "professional": "Professional",
+      "business": "Business",
+      "enterprise": "Enterprise",
+      "free": "免费",
+      "one-time": "一次性付款",
+      "subscription": "订阅",
+      "flexible": "灵活投资",
+      "download-now": "立即下载",
+      "get-professional": "获取 Professional",
+      "contact-us": "联系我们",
+      "month": "月",
+      "month-user": "月/用户",
+
+      "capture-screen": "自由捕获屏幕",
+      "capture-screen-framerate": "控制帧率",
+      "framerate-regular": "常规（1 到 60 fps）",
+      "framerate-manual": "手动捕获（通过按钮或快捷键）",
+      "framerate-user-interaction": "用户交互（鼠标或键盘事件）",
+      "select-area": "选择屏幕区域、窗口或屏幕",
+      "capture-cursor-clicks": "捕获光标和点击",
+      "capture-keystrokes": "捕获按键",
+      "capture-audio": "捕获麦克风或系统音频",
+      "quick-adjustments": "导出前快速调整",
+      "trim": "剪辑",
+      "crop": "裁剪",
+      "resize": "调整大小",
+      "toggle-layers": "切换图层",
+      "export-multiple-formats": "导出为多种格式",
+      "no-limits": "无限制",
+      "no-watermark": "无水印",
+      "no-ads": "无广告",
+
+      "starter-has": "包含 Starter 的所有内容",
+      "extra-frequencies": "额外捕获频率",
+      "timelapse": "延时（每分钟 1 到 60 帧）",
+      "long-timelapse": "长延时（每小时 1 到 60 帧）",
+      "extra-adjustments": "导出前更多调整",
+      "change-framerate": "更改动画帧率",
+      "change-speed": "更改播放速度",
+      "full-editor": "带时间线的完整编辑器",
+      "insert-layers": "插入图层",
+      "recordings": "录制（屏幕或声音）",
+      "media": "媒体（视频、图像、音频）",
+      "texts": "文本",
+      "images": "图像",
+      "shapes": "形状",
+      "drawings": "绘图",
+      "progress-indicator": "进度指示器",
+      "pixelation": "像素化",
+      "brightness": "亮度",
+      "add-effects": "添加效果",
+      "split-segments": "分割片段",
+      "free-upgrades": "包含小版本（v1.X）的免费升级",
+
+      "same-as-one-time": "功能与一次性付款选项相同",
+      "free-upgrades-major": "包含主版本的免费升级",
+      "annual-billing": "按年计费可获得两个月免费",
+      "admin-dashboard": "附带管理仪表板以控制用户访问",
+      "add-user": "添加/删除用户",
+      "user-access": "通过邮箱或域名访问",
+
+      "same-as-business": "功能与 Business 选项相同",
+      "large-corpo": "适用于大型企业",
+      "custom-billing": "基于公司需求的定制计费方案"
+    },
+
+    "screenshots": {
+      "title": "截图",
+      "welcome": "一开始，你可能会看到欢迎窗口",
+      "welcome-info": "这是可选的，你可以设置启动时打开录制器或编辑器",
+      "record": "你可以录制屏幕，以及光标和按键",
+      "record-info": "你可以选择录制屏幕的哪一部分并控制 FPS（你甚至可以捕获延时！）",
+      "export": "然后你可以导出你的录制",
+      "export-info": "你可以进行一些最后调整，例如隐藏光标、裁剪、剪辑等",
+      "edit": "但如果你想要更强大的编辑体验，这里有一个合适的解决方案",
+      "edit-info": "在这里你可以添加其他图层（图像、文本等）、添加效果、控制时间线以及更多"
+    },
+
+    "documentation": {
+      "title": "文档",
+      "pages": {
+        "getting-started": "入门",
+        "how-to-record": "如何录制",
+        "how-to-edit": "如何编辑",
+        "how-to-export": "如何导出",
+        "how-to-import": "如何导入"
+      }
+    }
+  },
+
+  "screentogif": {
+    "home": {
+      "subtitle": "带集成编辑器的屏幕、网络摄像头和白板录制",
+      "info": "适用于 Windows 10 或更高版本",
+      "donate": "捐赠",
+      "more": "想查看更多吗？",
+
+      "special-thanks": {
+        "header": "特别感谢",
+        "subtitle": "这里是该项目的一些支持者",
+        "action": "成为赞助者"
+      }
+    },
+
+    "downloads": {
+      "get-new": {
+        "title": "有改进版本",
+        "message": "这是该应用的<em>旧</em>版本。想获取新版吗？",
+        "action": "获取 N-Studio"
+      },
+
+      "assets": {
+        "get-package": "获取软件包"
+      }
+    },
+
+    "donation": {
+      "title": "捐赠",
+      "why": {
+        "title": "为什么要帮助？",
+        "subtitle": "该项目将从你的支持中受益",
+        "free": "免费",
+        "free-info": "GitHub 上的开源",
+        "no-ads": "无广告",
+        "no-ads-info": "安装程序中也没有广告",
+        "commitment": "承诺",
+        "commitment-info": "由一位富有热情的开发者用爱制作",
+        "for-you": "为你",
+        "for-you-info": "以反馈驱动开发"
+      },
+      "how": {
+        "title": "我如何帮助？",
+        "subtitle": "如果你愿意帮助，请按以下方式",
+        "feedback": "反馈",
+        "feedback-info": "报告错误或提供使用体验反馈",
+        "share": "分享",
+        "share-info": "分享给你的朋友",
+        "localize": "本地化",
+        "localize-info": "帮助保持翻译最新",
+        "donate": "捐赠",
+        "donate-info": "捐赠也欢迎 ☺️"
+      },
+      "donate": {
+        "title": "我如何捐赠？",
+        "subtitle": "以下是捐赠方式",
+        "single-info": "一次性捐赠",
+        "subscribe-info": "订阅以每月捐赠",
+        "both-info": "一次性或每月",
+        "games-info": "捐赠游戏",
+        "parts-info": "帮助我为电脑购买新配件",
+        "address-info": "点击查看地址"
+      }
+    },
+
+    "screenshots": {
+      "title": "截图",
+      "welcome": "一开始，你可能会看到欢迎窗口",
+      "welcome-info": "这是可选的，你可以设置启动时打开录制器或编辑器",
+      "record": "你可以录制屏幕，以及你的光标和按键",
+      "record-info": "你可以选择录制屏幕的哪一部分并控制 FPS（你甚至可以捕获延时！）",
+      "edit": "录制后，你将获得一个强大的编辑器",
+      "edit-info": "你可以在这里添加其他图层（图像、文本、绘图等）、删除帧以及更多"
+    }
+  }
+}

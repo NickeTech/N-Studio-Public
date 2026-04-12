@@ -1,0 +1,480 @@
+{
+  "info": {
+    "authors": "Machine Translated",
+    "last-update": "2026-04-11"
+  },
+
+  "common": {
+    "download": "Scarica",
+    "get-pro": "Ottieni Pro",
+    "log-in": "Accedi",
+    "retry": "Riprova",
+    "dismiss": "Ignora",
+    "ok": "OK",
+    "select": "Seleziona",
+    "accept": "Accetta",
+    "decline": "Rifiuta",
+    "cancel": "Annulla",
+    "remove": "Rimuovi",
+    "go-back": "Torna indietro",
+    "show-more": "Mostra altro",
+    "expand": "Espandi",
+    "collapse": "Comprimi"
+  },
+
+  "validations": {
+    "required": "Il campo è obbligatorio"
+  },
+
+  "modals": {
+    "currency-selector": {
+      "title": "Dona con PayPal",
+      "subtitle": "Seleziona la tua valuta prima di continuare",
+      "currency": "Valuta"
+    },
+
+    "donate-crypto": {
+      "title-bitcoin": "Dona con Bitcoin",
+      "title-bitcoin-cash": "Dona con BitcoinCash",
+      "title-ethereum": "Dona con Ethereum",
+      "subtitle": "Scansiona il QR code o copia l'indirizzo"
+    }
+  },
+
+  "n-tech": {
+    "about": "Informazioni",
+    "change-language": "Cambia lingua",
+    "moto": "Questo è un progetto di un solo sviluppatore",
+    "toggle-theme": "Cambia tema",
+    "switch-to-light": "Passa al tema chiaro",
+    "switch-to-dark": "Passa al tema scuro",
+    "sign-in-up": "Accedi o registrati",
+
+    "cookies-consent": {
+      "title": "Cookie di analisi",
+      "message": "Usiamo le analisi per migliorare il sito. Accetti i cookie analitici?"
+    },
+
+    "sign-in": {
+      "title": "Accedi",
+      "email": "Email",
+      "email-placeholder": "Inserisci la tua email",
+      "password": "Password",
+      "password-placeholder": "Inserisci la tua password",
+      "remember": "Ricordami",
+      "forgot": "Hai dimenticato la password?",
+      "action": "Accedi",
+      "new-here": "Nuovo qui? Registrati"
+    },
+
+    "sign-up": {
+      "title": "Crea account",
+      "type": "Tipo di account",
+      "type-individual": "Individuale",
+      "type-company": "Azienda/Squadra",
+      "name": "Nome",
+      "name-placeholder": "Inserisci il tuo nome",
+      "company-name": "Nome dell'azienda",
+      "company-name-placeholder": "Inserisci il nome dell'azienda",
+      "contact-name": "Nome del referente",
+      "contact-name-placeholder": "Inserisci il nome del referente per l'azienda",
+      "confirm-password": "Conferma password",
+      "confirm-password-placeholder": "Reinserisci la tua password",
+      "action": "Registrati",
+      "already-has": "Hai già un account? Accedi"
+    },
+
+    "forgot": {
+      "title": "Hai dimenticato la password?",
+      "action": "Richiedi reset password"
+    },
+
+    "reset": {
+      "title": "Reset password",
+      "action": "Reimposta password"
+    },
+
+    "home": {
+      "new-experience": "Una nuova esperienza",
+      "familiar-face": "Un volto familiare",
+      "custom-solution": "Cerchi una soluzione personalizzata?",
+      "talk": "Parliamone :)"
+    },
+
+    "account": {
+      "title": "Account",
+
+      "actions": {
+        "sign-out": "Esci",
+        "edit": "Modifica informazioni",
+        "change-email": "Cambia email",
+        "change-password": "Cambia password"
+      },
+
+      "edit": {
+        "title": "Modifica account"
+      },
+
+      "change-email": {
+        "title": "Cambia indirizzo email",
+        "new-address": "Nuovo indirizzo"
+      },
+
+      "change-password": {
+        "title": "Cambia password",
+        "current-password": "Password corrente",
+        "current-password-placeholder": "Inserisci la tua password corrente",
+        "new-password": "Nuova password",
+        "new-password-placeholder": "Inserisci una nuova password sicura",
+        "confirm-password-placeholder": "Reinserisci la nuova password"
+      },
+
+      "not-verified": {
+        "title": "Indirizzo email non verificato",
+        "message": "Controlla la tua email per il messaggio di verifica",
+        "resend": "Rinvia"
+      },
+
+      "subscriptions": {
+        "title": "Piani o abbonamenti",
+        "empty": "Nessun piano/abbonamento ancora",
+        "get-n-studio": "Ottieni N-Studio",
+        "go-to-product": "Vai alla pagina del prodotto",
+        "status": "=0 {Non terminato o pagamento fallito} =1 {Proposto} =2 {Attivo} =3 {Scaduto} =4 {Annullato}",
+        "seats": "<0 {posti illimitati} =1 {1 posto} >1 {{{count}} posti}",
+        "type": {
+          "month": "mese",
+          "year": "anno",
+          "per-version": "per versione"
+        },
+        "dismiss-info": "Ignora piano/abbonamento",
+        "download-info": "Vai alla pagina di download del prodotto",
+        "manage": "Gestisci",
+        "manage-info": "Gestisci piano/abbonamento",
+        "restore": "Ripristina",
+        "restore-info": "Ripristina il tuo pagamento precedente",
+        "proceed": "Procedi",
+        "proceed-info": "Procedi con il pagamento"
+      },
+
+      "subscription": {
+        "title": "Piano/Abbonamento",
+        "manage": "Gestisci abbonamento/pagamento",
+        "manage-info": "Gestisci abbonamento o pagamento tramite Stripe",
+        "users-domains": "Utenti/Domini",
+        "user": "Utente",
+        "domain": "Dominio",
+        "error-loading": "Errore durante il caricamento del piano/abbonamento...",
+        "none": "Nessun utente/dominio ancora",
+        "documentation": "Scopri come gestire gli utenti e condividere l'accesso all'app",
+
+        "actions": {
+          "import": "Importa più utenti...",
+          "add": "Aggiungi...",
+          "add-info": "Aggiungi un utente o un dominio",
+          "copy-serial": "Copia il seriale",
+          "send-email": "Invia email di attivazione",
+          "freeze": "Congela",
+          "unfreeze": "Scongela",
+          "remove": "Rimuovi",
+          "more": "Altre azioni",
+          "export-all": "Esporta tutto...",
+          "export": "Esporta..."
+        },
+
+        "add": {
+          "title": "Aggiungi utente/dominio",
+          "type": "Tipo",
+          "domain": "Dominio (jolly)",
+          "send-email": "Invia email di registrazione",
+          "explanation": "Tutti gli indirizzi sotto questo dominio potranno unirsi.",
+          "action": "Aggiungi"
+        },
+
+        "remove": {
+          "title": "Vuoi rimuovere questo utente?",
+          "title-domain": "Vuoi rimuovere questo dominio?",
+          "message": "L'utente perderà l'accesso all'app.<br>Se vuoi ridargli accesso, aggiungi l'utente e condividi il nuovo seriale.",
+          "message-domain": "Gli utenti di questo dominio non potranno più unirsi automaticamente."
+        },
+
+        "import": {
+          "title": "Importa utenti",
+          "emails": "Indirizzi email (separati da punto e virgola, virgola o nuova riga)",
+          "send-to-all": "Invia email di registrazione a tutti",
+          "action": "Importa"
+        },
+
+        "export": {
+          "title": "=1 {Esporta utente} >1 {Esporta utenti}",
+          "content": "Contenuto come JSON",
+          "documentation": "Scopri come accelerare l'attivazione per gli utenti",
+          "action": "Esporta come JSON"
+        }
+      },
+
+      "support": {
+        "title": "Supporto",
+        "message": "Se hai domande o problemi, contattaci tramite questa email"
+      }
+    },
+
+    "checkout": {
+      "title": "Checkout",
+      "how-many": "Quanti utenti utilizzeranno l'app?",
+      "get-discount": "Vuoi ottenere 2 mesi gratis fatturando annualmente?",
+      "yes-for-discount": "Sì, fattura annualmente",
+      "two-installations": "Puoi avere fino a due installazioni simultanee",
+      "manage-installations": "Puoi controllare l'accesso dalla pagina account",
+      "agree-prefix": "Procedendo accetti i",
+      "agree-middle": "e",
+      "action": "Paga con Stripe",
+      "wait": "Attendi il completamento del checkout..."
+    },
+
+    "success": {
+      "title": "Pagamento riuscito",
+      "message-company": "Il tuo pagamento è stato approvato, ora puoi scaricare l'app o gestire i tuoi utenti.",
+      "message-individual": "Il tuo pagamento è stato approvato, ora puoi scaricare l'app."
+    },
+
+    "contact": {
+      "title": "Contatti",
+      "subtitle": "Fai domande, segnala bug, ecc.",
+      "email": "Email",
+      "email-info": "Segnala bug, fai domande o fornisci feedback",
+      "discord-info": "Chatta con la community"
+    },
+
+    "terms-of-service": {
+      "title": "Termini di servizio"
+    },
+
+    "privacy-policy": {
+      "title": "Informativa sulla privacy"
+    }
+  },
+
+  "n-studio": {
+    "home": {
+      "header": "Una nuova era per la registrazione dello schermo",
+      "subtitle": "Scarica ora la versione gratuita o passa a Pro",
+      "info": "Per Windows 10/11",
+      "migrated": {
+        "title": "Una nuova app",
+        "message": "Questo è il successore di <em>ScreenToGif</em>, realizzato dallo stesso sviluppatore :)",
+        "action": "Ottieni ScreenToGif"
+      },
+      "more": "Vuoi vedere altro?"
+    },
+
+    "downloads": {
+      "title": "Download",
+      "license": {
+        "title": "E Pro?",
+        "message": "Puoi scaricare la versione <em>gratuita</em> dell'app. Vuoi ottenere invece Pro?",
+        "message-extra": "<br>Accedi se hai già Pro."
+      },
+      "latest": {
+        "title": "Ultima versione",
+        "latest-tag": "Ultima",
+        "description": "Descrizione",
+        "error": "Errore durante il caricamento dell'ultima versione..."
+      },
+      "past": {
+        "title": "Versioni precedenti",
+        "error": "Errore durante il caricamento delle versioni precedenti..."
+      },
+      "assets": {
+        "title": "File",
+        "which-arch": "Quale scegliere?",
+        "which-arch.info": "Apri Impostazioni di Windows per verificare l'architettura del tuo sistema",
+        "list": "Elenco",
+        "details": "Dettagli",
+        "get-installer": "Scarica l'installer",
+        "get-portable": "Scarica la versione portatile",
+        "downloads": "=0 {Nessun download} =1 {1 download} >1 {{{count}} download}}",
+        "portable": "portatile",
+        "light": "light",
+        "none": "Nessun file trovato..."
+      },
+      "previous": "Cerchi invece le versioni precedenti?"
+    },
+
+    "pricing": {
+      "title": "Prezzi",
+      "plans": "Piani tariffari",
+      "individuals": "Uso personale",
+      "companies": "Aziende/Squadre",
+
+      "log-in-first": {
+        "title": "Accedi prima",
+        "message": "Devi accedere prima di continuare"
+      },
+
+      "starter": "Starter",
+      "professional": "Professional",
+      "business": "Business",
+      "enterprise": "Enterprise",
+      "free": "Gratis",
+      "one-time": "Pagamento una tantum",
+      "subscription": "Abbonamento",
+      "flexible": "Investimento flessibile",
+      "download-now": "Scarica ora",
+      "get-professional": "Ottieni Professional",
+      "contact-us": "Contattaci",
+      "month": "mese",
+      "month-user": "mese/utente",
+
+      "capture-screen": "Cattura lo schermo liberamente",
+      "capture-screen-framerate": "Controlla il frame rate",
+      "framerate-regular": "Regolare (1 a 60 fps)",
+      "framerate-manual": "Manuale (tramite pulsante o scorciatoia)",
+      "framerate-user-interaction": "Interazione utente (eventi mouse o tastiera)",
+      "select-area": "Seleziona area dello schermo, finestra o schermo",
+      "capture-cursor-clicks": "Cattura il cursore e i clic",
+      "capture-keystrokes": "Cattura le battute",
+      "capture-audio": "Cattura audio dal microfono o dal sistema",
+      "quick-adjustments": "Effettua regolazioni rapide prima di esportare",
+      "trim": "Taglia",
+      "crop": "Ritaglia",
+      "resize": "Ridimensiona",
+      "toggle-layers": "Attiva/disattiva livelli",
+      "export-multiple-formats": "Esporta in più formati",
+      "no-limits": "Nessun limite",
+      "no-watermark": "Nessun watermark",
+      "no-ads": "Nessuna pubblicità",
+
+      "starter-has": "Tutto ciò che offre Starter",
+      "extra-frequencies": "Frequenze di acquisizione extra",
+      "timelapse": "Timelapse (1-60 fotogrammi al minuto)",
+      "long-timelapse": "Timelapse esteso (1-60 fotogrammi all'ora)",
+      "extra-adjustments": "Maggiori regolazioni prima dell'esportazione",
+      "change-framerate": "Modifica il frame rate dell'animazione",
+      "change-speed": "Modifica la velocità di riproduzione",
+      "full-editor": "Editor completo con timeline",
+      "insert-layers": "Inserisci livelli",
+      "recordings": "Registrazioni (schermo o audio)",
+      "media": "Media (video, immagine, audio)",
+      "texts": "Testi",
+      "images": "Immagini",
+      "shapes": "Forme",
+      "drawings": "Disegni",
+      "progress-indicator": "Indicatore di progresso",
+      "pixelation": "Pixelizzazione",
+      "brightness": "Luminosità",
+      "add-effects": "Aggiungi effetti",
+      "split-segments": "Dividi segmenti",
+      "free-upgrades": "Con aggiornamenti gratuiti alle versioni minori (v1.X)",
+
+      "same-as-one-time": "Uguale all'opzione pagamento una tantum in termini di funzionalità",
+      "free-upgrades-major": "Con aggiornamenti gratuiti alle versioni maggiori",
+      "annual-billing": "Ottieni due mesi gratis fatturando annualmente",
+      "admin-dashboard": "Con dashboard amministratore per controllare l'accesso degli utenti",
+      "add-user": "Aggiungi/rimuovi utenti",
+      "user-access": "Accesso tramite email o dominio",
+
+      "same-as-business": "Uguale all'opzione Business in termini di funzionalità",
+      "large-corpo": "Per grandi aziende",
+      "custom-billing": "Fatturazione personalizzata basata sulle esigenze della tua azienda"
+    },
+
+    "screenshots": {
+      "title": "Schermate",
+      "welcome": "All'inizio potresti essere accolto dalla finestra di benvenuto",
+      "welcome-info": "Questo è opzionale, puoi impostare l'apertura del registratore o dell'editor all'avvio",
+      "record": "Puoi registrare lo schermo, insieme al cursore e ai tasti premuti",
+      "record-info": "Puoi scegliere quale parte dello schermo registrare e controllare gli FPS (puoi persino acquisire timelapse!)",
+      "export": "Poi puoi esportare la tua registrazione",
+      "export-info": "Puoi apportare alcune modifiche dell'ultimo minuto, come nascondere il cursore, ritagliare, tagliare, ecc.",
+      "edit": "Ma se vuoi un'esperienza di modifica più potente, c'è una soluzione adeguata",
+      "edit-info": "Qui puoi aggiungere altri livelli (immagini, testo, ecc.), aggiungere effetti, controllare la timeline e molto altro"
+    },
+
+    "documentation": {
+      "title": "Documentazione",
+      "pages": {
+        "getting-started": "Primi passi",
+        "how-to-record": "Come registrare",
+        "how-to-edit": "Come modificare",
+        "how-to-export": "Come esportare",
+        "how-to-import": "Come importare"
+      }
+    }
+  },
+
+  "screentogif": {
+    "home": {
+      "subtitle": "Registratore di schermo, webcam e lavagna con editor integrato",
+      "info": "Per Windows 10 o superiore",
+      "donate": "Dona",
+      "more": "Vuoi vedere altro?",
+
+      "special-thanks": {
+        "header": "Ringraziamenti speciali",
+        "subtitle": "Ecco alcuni sostenitori di questo progetto",
+        "action": "Diventa sponsor"
+      }
+    },
+
+    "downloads": {
+      "get-new": {
+        "title": "C'è una versione migliorata",
+        "message": "Questa è la versione <em>vecchia</em> dell'app. Vuoi ottenere la nuova?",
+        "action": "Ottieni N-Studio"
+      },
+
+      "assets": {
+        "get-package": "Ottieni pacchetto"
+      }
+    },
+
+    "donation": {
+      "title": "Donazione",
+      "why": {
+        "title": "Perché aiutare?",
+        "subtitle": "Il progetto trarrebbe beneficio dal tuo supporto",
+        "free": "Gratuito",
+        "free-info": "Open source su GitHub",
+        "no-ads": "Nessuna pubblicità",
+        "no-ads-info": "Neanche nell'installer",
+        "commitment": "Impegno",
+        "commitment-info": "Fatto con amore da uno sviluppatore impegnato",
+        "for-you": "Per te",
+        "for-you-info": "Sviluppo guidato dal feedback"
+      },
+      "how": {
+        "title": "Come posso aiutare?",
+        "subtitle": "Se vuoi aiutare, ecco come",
+        "feedback": "Feedback",
+        "feedback-info": "Segnala bug o fornisci feedback sulla tua esperienza",
+        "share": "Condividi",
+        "share-info": "Condividi con i tuoi amici",
+        "localize": "Localizza",
+        "localize-info": "Aiuta a mantenere aggiornate le traduzioni",
+        "donate": "Dona",
+        "donate-info": "Anche le donazioni sono benvenute ☺️"
+      },
+      "donate": {
+        "title": "Come posso donare?",
+        "subtitle": "Ecco alcuni modi per donare",
+        "single-info": "Donazione una tantum",
+        "subscribe-info": "Abbonati per donare mensilmente",
+        "both-info": "Una volta o mensilmente",
+        "games-info": "Dona giochi",
+        "parts-info": "Aiutami a ottenere nuovi componenti per il mio computer",
+        "address-info": "Clicca per vedere l'indirizzo"
+      }
+    },
+
+    "screenshots": {
+      "title": "Schermate",
+      "welcome": "All'inizio potresti essere accolto dalla finestra di benvenuto",
+      "welcome-info": "Questo è opzionale, puoi impostare l'apertura del registratore o dell'editor all'avvio",
+      "record": "Puoi registrare lo schermo insieme al cursore e ai tasti premuti",
+      "record-info": "Puoi scegliere quale parte dello schermo registrare e controllare gli FPS (puoi perfino acquisire timelapse!)",
+      "edit": "Dopo la registrazione avrai a disposizione un editor potente",
+      "edit-info": "Qui puoi aggiungere altri livelli (immagini, testo, disegni, ecc.), eliminare fotogrammi e molto altro"
+    }
+  }
+}

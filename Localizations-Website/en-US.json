@@ -1,0 +1,481 @@
+{
+  "info": {
+    "authors": "Nicke Manarin",
+    "last-update": "2026-04-11"
+  },
+
+  "common": {
+    "download": "Download",
+    "get-pro": "Get Pro",
+    "log-in": "Log In",
+    "retry": "Retry",
+    "dismiss": "Dismiss",
+    "ok": "OK",
+    "select": "Select",
+    "accept": "Accept",
+    "decline": "Decline",
+    "cancel": "Cancel",
+    "remove": "Remove",
+    "go-back": "Go back",
+    "show-more": "Show more",
+    "expand": "Expand",
+    "collapse": "Collapse"
+  },
+
+  "validations": {
+    "required": "The field is required"
+  },
+
+  "modals": {
+    "currency-selector": {
+      "title": "Donate with PayPal",
+      "subtitle": "Select your currency before continuing",
+      "currency": "Currency"
+    },
+
+    "donate-crypto": {
+      "title-bitcoin": "Donate using Bitcoin",
+      "title-bitcoin-cash": "Donate using BitcoinCash",
+      "title-ethereum": "Donate using Ethereum",
+      "subtitle": "Scan the QR code or copy the address"
+    }
+  },
+
+  "n-tech": {
+    "about": "About",
+    "change-language": "Change language",
+    "moto": "This is a one developer endeavor",
+    "toggle-theme": "Toggle theme",
+    "switch-to-light": "Switch to light theme",
+    "switch-to-dark": "Switch to dark theme",
+    "sign-in-up": "Sign in or sign up",
+
+    "cookies-consent": {
+      "title": "Analytics cookies",
+      "message": "We use analytics to improve the website. Accept analytics cookies?"
+    },
+
+    "sign-in": {
+      "title": "Sign In",
+      "email": "Email",
+      "email-placeholder": "Enter your email",
+      "password": "Password",
+      "password-placeholder": "Enter your password",
+      "remember": "Remember me",
+      "forgot": "Forgot your password?",
+      "action": "Sign In",
+      "new-here": "New here? Sign up then"
+    },
+
+    "sign-up": {
+      "title": "Create Account",
+      "type": "Account type",
+      "type-individual": "Individual",
+      "type-company": "Company/Team",
+      "name": "Name",
+      "name-placeholder": "Enter your name",
+      "company-name": "Company's name",
+      "company-name-placeholder": "Enter the company's name",
+      "contact-name": "Contact's name",
+      "contact-name-placeholder": "Enter the contact name for the company",
+      "confirm-password": "Confirm password",
+      "confirm-password-placeholder": "Enter again your password",
+      "action": "Sign Up",
+      "already-has": "Already have an account? Sign in then"
+    },
+
+    "forgot": {
+      "title": "Forgot your Password?",
+      "action": "Request Password Reset"
+    },
+
+    "reset": {
+      "title": "Password Reset",
+      "action": "Reset Password"
+    },
+
+    "home": {
+      "new-experience": "A new experience",
+      "familiar-face": "A familiar face",
+      "custom-solution": "Looking for a custom solution?",
+      "talk": "Let's talk :)"
+    },
+
+    "account": {
+      "title": "Account",
+
+      "actions": {
+        "sign-out": "Sign Out",
+        "edit": "Edit Info",
+        "change-email": "Change Email",
+        "change-password": "Change Password"
+      },
+
+      "edit": {
+        "title": "Edit Account"
+      },
+
+      "change-email": {
+        "title": "Change Email Address",
+        "new-address": "New Address"
+      },
+
+      "change-password": {
+        "title": "Change Password",
+        "current-password": "Current Password",
+        "current-password-placeholder": "Enter your current password",
+        "new-password": "New Password",
+        "new-password-placeholder": "Enter your new and strong password",
+        "confirm-password-placeholder": "Enter again your new password"
+      },
+
+      "not-verified": {
+        "title": "Email address not verified",
+        "message": "Please, check your email for the verification message",
+        "resend": "Resend"
+      },
+
+      "subscriptions": {
+        "title": "Plans or Subscriptions",
+        "empty": "No plans/subscriptions yet",
+        "get-n-studio": "Get N-Studio",
+        "go-to-product": "Go to product page",
+        "status": "=0 {Unfinished or payment failed} =1 {Proposed} =2 {Active} =3 {Expired} =4 {Canceled}",
+        "seats": "<0 {unlimited seats} =1 {1 seat} >1 {{{count}} seats}",
+        "type": {
+          "month": "month",
+          "year": "year",
+          "per-version": "per-version"
+        },
+        "dismiss-info": "Dismiss plan/subscription",
+        "download-info": "Go to the download page for the product",
+        "manage": "Manage",
+        "manage-info": "Manage plan/subscription",
+        "restore": "Restore",
+        "restore-info": "Restore your previous payment",
+        "proceed": "Proceed",
+        "proceed-info": "Proceed with payment"
+      },
+
+      "subscription": {
+        "title": "Plan/Subscription",
+        "manage": "Manage Subscription/Payment",
+        "manage-info": "Manage subscription or payment via Stripe",
+        "users-domains": "Users/Domains",
+        "user": "User",
+        "domain": "Domain",
+        "error-loading": "Error loading plan/subscription...",
+        "none": "No users/domains yet",
+        "documentation": "Learn how manage users and share access to the app",
+
+        "actions": {
+          "import": "Import multiple users...",
+          "add": "Add...",
+          "add-info": "Add an user or domain",
+          "copy-serial": "Copy serial",
+          "send-email": "Send activation email",
+          "freeze": "Freeze",
+          "unfreeze": "Unfreeze",
+          "remove": "Remove",
+          "more": "More actions",
+          "export-all": "Export all...",
+          "export": "Export..."
+        },
+
+        "add": {
+          "title": "Add User/Domain",
+          "type": "Type",
+          "domain": "Domain (wildcard)",
+          "send-email": "Send registration email",
+          "explanation": "All addresses under this domain will be able to join.",
+          "action": "Add"
+        },
+
+        "remove": {
+          "title": "Would you like to remove this user?",
+          "title-domain": "Would you like to remove this domain?",
+          "message": "The user will lose access to the app.<br>If you want to give them access again, add the user and share the new serial.",
+          "message-domain": "Users in this domain will not be able to join automatically anymore."
+        },
+
+        "import": {
+          "title": "Import Users",
+          "emails": "Email addresses (separated by semicolons, commas or new lines)",
+          "send-to-all": "Send registration email to all",
+          "action": "Import"
+        },
+
+        "export": {
+          "title": "=1 {Export User} >1 {Export Users}",
+          "content": "Content as JSON",
+          "documentation": "Checkout how to speed up activation for users",
+          "action": "Export as JSON"
+        }
+      },
+
+      "support": {
+        "title": "Support",
+        "message": "If you have any questions or issues, please contact us through this email"
+      }
+    },
+
+    "checkout": {
+      "title": "Checkout",
+      "how-many": "How many users will be using the app?",
+      "get-discount": "Do you want to get 2 months free by billing annually?",
+      "yes-for-discount": "Yes, bill anually",
+      "two-installations": "You may have up to two simultaneous installations",
+      "manage-installations": "You can control access via the account page",
+      "agree-prefix": "By proceeding you agree with the",
+      "agree-middle": "and",
+      "action": "Checkout with Stripe",
+      "wait": "Wait for checkout..."
+    },
+
+    "success": {
+      "title": "Payment Successful",
+      "message-company": "Your payment was approved, you can now download the app or manage your users.",
+      "message-individual": "Your payment was approved, you can now download the app."
+    },
+
+    "contact": {
+      "title": "Contact",
+      "subtitle": "Ask questions, report bugs, etc.",
+      "email": "Email",
+      "email-info": "Report bugs, ask or provide feedback",
+      "discord-info": "Chat with the community"
+    },
+
+    "terms-of-service": {
+      "title": "Terms of Service"
+    },
+
+    "privacy-policy": {
+      "title": "Privacy Policy"
+    }
+  },
+
+  "n-studio": {
+    "home": {
+      "header": "A new era for screen recording",
+      "subtitle": "Download now the free version or go pro!",
+      "info": "For Windows 10/11",
+      "migrated": {
+        "title": "A new app",
+        "message": "This is the successor of <em>ScreenToGif</em>, made by the same developer :)",
+        "action": "Get ScreenToGif"
+      },
+      "more": "Want to see more of it?"
+    },
+
+    "downloads": {
+      "title": "Downloads",
+      "license": {
+        "title": "What about Pro?",
+        "message": "You are able to download the <em>free</em> version of the app. Do you want get pro instead?",
+        "message-extra": "<br>Log in if you already have pro."
+      },
+      "latest": {
+        "title": "Latest Version",
+        "latest-tag": "Latest",
+        "description": "Description",
+        "error": "Error loading latest version..."
+      },
+      "past": {
+        "title": "Past Versions",
+        "error": "Error loading past versions..."
+      },
+      "assets": {
+        "title": "Assets",
+        "which-arch": "Which to choose?",
+        "which-arch.info": "Open Windows Settings to check the architecture of your system",
+        "list": "List",
+        "details": "Details",
+        "get-installer": "Get Installer",
+        "get-portable": "Get Portable",
+        "downloads": "=0 {No downloads} =1 {1 download} >1 {{{count}} downloads}}",
+        "portable": "portable",
+        "light": "light",
+        "none": "No assets found..."
+      },
+      "previous": "Looking for previous versions instead?"
+    },
+
+    "pricing": {
+      "title": "Pricing",
+      "plans": "Pricing Plans",
+      "individuals": "Personal Use",
+      "companies": "Companies/Teams",
+
+      "log-in-first": {
+        "title": "Log in first",
+        "message": "You need to be logged in first to continue"
+      },
+
+      "starter": "Starter",
+      "professional": "Professional",
+      "business": "Business",
+      "enterprise": "Enterprise",
+      "free": "Free",
+      "one-time": "One-time payment",
+      "subscription": "Subscription",
+      "flexible": "Flexible investment",
+      "download-now": "Download Now",
+      "get-professional": "Get Professional",
+      "contact-us": "Contact Us",
+      "month": "month",
+      "month-user": "month/user",
+
+      "capture-screen": "Capture your screen freely",
+      "capture-screen-framerate": "Control the framerate",
+      "framerate-regular": "Regular (1 to 60 fps)",
+      "framerate-manual": "Manual capture (via button or shortcut)",
+      "framerate-user-interaction": "User interaction (mouse or keyboard events)",
+      "select-area": "Select screen area, window or screen",
+      "capture-cursor-clicks": "Capture cursor and clicks",
+      "capture-keystrokes": "Capture key strokes",
+      "capture-audio": "Capture audio from your microphone or system",
+      "quick-adjustments": "Make quick adjustments before exporting",
+      "trim": "Trim",
+      "crop": "Crop",
+      "resize": "Resize",
+      "toggle-layers": "Toggle layers",
+      "export-multiple-formats": "Export to multiple formats",
+      "no-limits": "No limits",
+      "no-watermark": "No watermark",
+      "no-ads": "No ads",
+
+      "starter-has": "Everything that Starter has",
+      "extra-frequencies": "Extra capture frequencies",
+      "timelapse": "Timelapse (1-60 frames per minute)",
+      "long-timelapse": "Long timelapse (1-60 frames per hour)",
+      "extra-adjustments": "Extra adjustments before exporting",
+      "change-framerate": "Change framerate of animation",
+      "change-speed": "Change playback speed",
+      "full-editor": "Full-fledged editor with timeline",
+      "insert-layers": "Insert layers",
+      "recordings": "Recordings (screen or sound)",
+      "media": "Media (video, image, audio)",
+      "texts": "Texts",
+      "images": "Images",
+      "shapes": "Shapes",
+      "drawings": "Drawings",
+      "progress-indicator": "Progress indicator",
+      "pixelation": "Pixelation",
+      "brightness": "Brightness",
+      "add-effects": "Add effects",
+      "split-segments": "Split segments",
+      "free-upgrades": "With free upgrades to minor versions (v1.X)",
+
+      "same-as-one-time": "Same as the one-time payment option feature-wise",
+      "free-upgrades-major": "With free upgrades to major versions",
+      "annual-billing": "Get two months for free by billing annually",
+      
+      "admin-dashboard": "With admin dashboard to control user access",
+      "add-user": "Add/remove users",
+      "user-access": "Per email or per domain access",
+
+      "same-as-business": "Same as business option feature-wise",
+      "large-corpo": "For large corporations",
+      "custom-billing": "Custom billing scheme based on the needs of your company"
+    },
+
+    "screenshots": {
+      "title": "Screenshots",
+      "welcome": "At first, you may be greeted by the welcome window",
+      "welcome-info": "This is optional, as you can set to open the recorder or editor on startup",
+      "record": "You can record your screen, along with your cursor and key presses",
+      "record-info": "You are able to pick which part of the screen you'll record and control the FPS (you can even capture timelapses!)",
+      "export": "Then you can export your recording",
+      "export-info": "You can make some last minute changes, like hiding your cursor, cropping, trimming, etc.",
+      "edit": "But if you want a more powerful editing experience, there's a proper solution for that",
+      "edit-info": "Here you can add other layers (images, text, etc), add effects, control the timeline and much more"
+    },
+
+    "documentation": {
+      "title": "Documentation",
+      "pages": {
+        "getting-started": "Getting Started",
+        "how-to-record": "How To Record",
+        "how-to-edit": "How To Edit",
+        "how-to-export": "How To Export",
+        "how-to-import": "How To Import"
+      }
+    }
+  },
+
+  "screentogif": {
+    "home": {
+      "subtitle": "Screen, webcam and sketchboard recorder with an integrated editor",
+      "info": "For Windows 10 or greater",
+      "donate": "Donate",
+      "more": "Want to see more of it?",
+
+      "special-thanks": {
+        "header": "Special Thanks",
+        "subtitle": "Here are some of the supporters of this project",
+        "action": "Become a Sponsor"
+      }
+    },
+
+    "downloads": {
+      "get-new": {
+        "title": "There's an improved version",
+        "message": "This is the <em>old</em> version of the app. Do you want get the new one?",
+        "action": "Get N-Studio"
+      },
+
+      "assets": {
+        "get-package": "Get Package"
+      }
+    },
+
+    "donation": {
+      "title": "Donation",
+      "why": {
+        "title": "Why help?",
+        "subtitle": "The project would benefit from your support",
+        "free": "Free",
+        "free-info": "Open source on GitHub",
+        "no-ads": "No Ads",
+        "no-ads-info": "Not even in the installer",
+        "commitment": "Commitment",
+        "commitment-info": "Made with love by a committed developer",
+        "for-you": "Made for you",
+        "for-you-info": "Feedback driven development"
+      },
+      "how": {
+        "title": "How can I help?",
+        "subtitle": "If you wish to help the project, here's how",
+        "feedback": "Feedback",
+        "feedback-info": "Report bugs or provide feedback on your experience",
+        "share": "Share",
+        "share-info": "Share with your friends",
+        "localize": "Localize",
+        "localize-info": "Help keeping the localizations up to date",
+        "donate": "Donate",
+        "donate-info": "Donations are also welcome ☺️"
+      },
+      "donate": {
+        "title": "How can I donate?",
+        "subtitle": "Here are some ways to donate",
+        "single-info": "Single time donation",
+        "subscribe-info": "Subscribe to donate monthly",
+        "both-info": "One time or monthly donations",
+        "games-info": "Donate games",
+        "parts-info": "Help me get new parts for my computer",
+        "address-info": "Click to see the address"
+      }
+    },
+
+    "screenshots": {
+      "title": "Screenshots",
+      "welcome": "At first, you may be greeted by the welcome window",
+      "welcome-info": "This is optional, as you can set to open the recorder or editor on startup",
+      "record": "You can record your screen, along with your cursor and key presses",
+      "record-info": "You are able to pick which part of the screen you'll record and control the FPS (you can even capture timelapses!)",
+      "edit": "After the recording, you'll be presented with a powerful editor",
+      "edit-info": "Here you can add other layers (images, text, drawings, etc.), delete frames and much more"
+    }
+  }
+}
