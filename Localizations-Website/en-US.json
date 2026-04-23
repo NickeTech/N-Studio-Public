@@ -14,6 +14,7 @@
     "select": "Select",
     "accept": "Accept",
     "decline": "Decline",
+    "success": "Success",
     "cancel": "Cancel",
     "remove": "Remove",
     "go-back": "Go back",
@@ -94,6 +95,18 @@
       "action": "Reset Password"
     },
 
+    "verify-email": {
+      "title": "Validating email",
+      "message": "Wait while we confirm your email address.",
+      "error-title": "We couldn't validate your email",
+      "error-message": "Likely, the verification link has expired or it was already verified.",
+      "success-title": "Email validated",
+      "success-message": "Your email address was verified successfully.",
+      "open-account": "Open account page",
+      "invalid-link": "The email verification link is invalid or incomplete.",
+      "validation-error": "It was not possible to validate your email address."
+    },
+
     "home": {
       "new-experience": "A new experience",
       "familiar-face": "A familiar face",
@@ -117,7 +130,8 @@
 
       "change-email": {
         "title": "Change Email Address",
-        "new-address": "New Address"
+        "new-address": "New Address",
+        "success": "Verification email sent"
       },
 
       "change-password": {
@@ -126,7 +140,8 @@
         "current-password-placeholder": "Enter your current password",
         "new-password": "New Password",
         "new-password-placeholder": "Enter your new and strong password",
-        "confirm-password-placeholder": "Enter again your new password"
+        "confirm-password-placeholder": "Enter again your new password",
+        "success": "Password changed successfully"
       },
 
       "not-verified": {

@@ -14,6 +14,7 @@
     "select": "Sélectionner",
     "accept": "Accepter",
     "decline": "Refuser",
+    "success": "Succès",
     "cancel": "Annuler",
     "remove": "Supprimer",
     "go-back": "Revenir",
@@ -94,6 +95,18 @@
       "action": "Réinitialiser le mot de passe"
     },
 
+    "verify-email": {
+      "title": "Validation de l'e-mail",
+      "message": "Veuillez patienter pendant que nous confirmons votre adresse e-mail.",
+      "error-title": "Nous n'avons pas pu valider votre e-mail",
+      "error-message": "Le lien de vérification a probablement expiré ou a déjà été utilisé.",
+      "success-title": "E-mail validé",
+      "success-message": "Votre adresse e-mail a été vérifiée avec succès.",
+      "open-account": "Ouvrir la page du compte",
+      "invalid-link": "Le lien de vérification de l'e-mail est invalide ou incomplet.",
+      "validation-error": "Il n'a pas été possible de valider votre adresse e-mail."
+    },
+
     "home": {
       "new-experience": "Une nouvelle expérience",
       "familiar-face": "Un visage familier",
@@ -117,7 +130,8 @@
 
       "change-email": {
         "title": "Changer d'adresse e-mail",
-        "new-address": "Nouvelle adresse"
+        "new-address": "Nouvelle adresse",
+        "success": "E-mail de vérification envoyé"
       },
 
       "change-password": {
@@ -126,7 +140,8 @@
         "current-password-placeholder": "Entrez votre mot de passe actuel",
         "new-password": "Nouveau mot de passe",
         "new-password-placeholder": "Entrez votre nouveau mot de passe sécurisé",
-        "confirm-password-placeholder": "Entrez à nouveau votre nouveau mot de passe"
+        "confirm-password-placeholder": "Entrez à nouveau votre nouveau mot de passe",
+        "success": "Mot de passe modifié avec succès"
       },
 
       "not-verified": {

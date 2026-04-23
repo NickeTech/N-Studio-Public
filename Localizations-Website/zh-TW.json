@@ -14,6 +14,7 @@
     "select": "選取",
     "accept": "接受",
     "decline": "拒絕",
+    "success": "成功",
     "cancel": "取消",
     "remove": "移除",
     "go-back": "返回",
@@ -94,6 +95,18 @@
       "action": "重設密碼"
     },
 
+    "verify-email": {
+      "title": "正在驗證電子郵件",
+      "message": "請稍候，我們正在確認你的電子郵件地址。",
+      "error-title": "我們無法驗證你的電子郵件",
+      "error-message": "驗證連結很可能已過期，或該電子郵件已經驗證過。",
+      "success-title": "電子郵件已驗證",
+      "success-message": "你的電子郵件地址已成功驗證。",
+      "open-account": "開啟帳戶頁面",
+      "invalid-link": "電子郵件驗證連結無效或不完整。",
+      "validation-error": "無法驗證你的電子郵件地址。"
+    },
+
     "home": {
       "new-experience": "全新體驗",
       "familiar-face": "熟悉的面孔",
@@ -117,7 +130,8 @@
 
       "change-email": {
         "title": "更改電子郵件地址",
-        "new-address": "新地址"
+        "new-address": "新地址",
+        "success": "驗證電子郵件已寄出"
       },
 
       "change-password": {
@@ -126,7 +140,8 @@
         "current-password-placeholder": "輸入當前密碼",
         "new-password": "新密碼",
         "new-password-placeholder": "輸入新的強密碼",
-        "confirm-password-placeholder": "再次輸入新密碼"
+        "confirm-password-placeholder": "再次輸入新密碼",
+        "success": "密碼已成功變更"
       },
 
       "not-verified": {

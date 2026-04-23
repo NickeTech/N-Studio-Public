@@ -14,6 +14,7 @@
     "select": "Seleccionar",
     "accept": "Aceptar",
     "decline": "Rechazar",
+    "success": "Éxito",
     "cancel": "Cancelar",
     "remove": "Eliminar",
     "go-back": "Volver",
@@ -94,6 +95,18 @@
       "action": "Restablecer contraseña"
     },
 
+    "verify-email": {
+      "title": "Validando correo electrónico",
+      "message": "Espera mientras confirmamos tu dirección de correo.",
+      "error-title": "No pudimos validar tu correo electrónico",
+      "error-message": "Es probable que el enlace de verificación haya caducado o que ya se haya verificado.",
+      "success-title": "Correo electrónico validado",
+      "success-message": "Tu dirección de correo se verificó correctamente.",
+      "open-account": "Abrir página de la cuenta",
+      "invalid-link": "El enlace de verificación del correo no es válido o está incompleto.",
+      "validation-error": "No fue posible validar tu dirección de correo electrónico."
+    },
+
     "home": {
       "new-experience": "Una nueva experiencia",
       "familiar-face": "Una cara familiar",
@@ -117,7 +130,8 @@
 
       "change-email": {
         "title": "Cambiar dirección de correo",
-        "new-address": "Nueva dirección"
+        "new-address": "Nueva dirección",
+        "success": "Correo de verificación enviado"
       },
 
       "change-password": {
@@ -126,7 +140,8 @@
         "current-password-placeholder": "Introduce tu contraseña actual",
         "new-password": "Nueva contraseña",
         "new-password-placeholder": "Introduce tu nueva contraseña fuerte",
-        "confirm-password-placeholder": "Introduce de nuevo tu nueva contraseña"
+        "confirm-password-placeholder": "Introduce de nuevo tu nueva contraseña",
+        "success": "Contraseña cambiada correctamente"
       },
 
       "not-verified": {

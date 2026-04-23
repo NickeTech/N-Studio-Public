@@ -14,6 +14,7 @@
     "select": "Selecteren",
     "accept": "Accepteren",
     "decline": "Weigeren",
+    "success": "Succes",
     "cancel": "Annuleren",
     "remove": "Verwijderen",
     "go-back": "Ga terug",
@@ -94,6 +95,18 @@
       "action": "Wachtwoord resetten"
     },
 
+    "verify-email": {
+      "title": "E-mail verifiëren",
+      "message": "Even geduld terwijl we je e-mailadres bevestigen.",
+      "error-title": "We konden je e-mail niet verifiëren",
+      "error-message": "Waarschijnlijk is de verificatielink verlopen of al gebruikt.",
+      "success-title": "E-mail geverifieerd",
+      "success-message": "Je e-mailadres is succesvol geverifieerd.",
+      "open-account": "Accountpagina openen",
+      "invalid-link": "De e-mailverificatielink is ongeldig of onvolledig.",
+      "validation-error": "Het was niet mogelijk om je e-mailadres te verifiëren."
+    },
+
     "home": {
       "new-experience": "Een nieuwe ervaring",
       "familiar-face": "Een vertrouwd gezicht",
@@ -117,7 +130,8 @@
 
       "change-email": {
         "title": "E-mailadres wijzigen",
-        "new-address": "Nieuw adres"
+        "new-address": "Nieuw adres",
+        "success": "Verificatie-e-mail verzonden"
       },
 
       "change-password": {
@@ -126,7 +140,8 @@
         "current-password-placeholder": "Voer je huidige wachtwoord in",
         "new-password": "Nieuw wachtwoord",
         "new-password-placeholder": "Voer een nieuw, sterk wachtwoord in",
-        "confirm-password-placeholder": "Voer je nieuwe wachtwoord opnieuw in"
+        "confirm-password-placeholder": "Voer je nieuwe wachtwoord opnieuw in",
+        "success": "Wachtwoord succesvol gewijzigd"
       },
 
       "not-verified": {

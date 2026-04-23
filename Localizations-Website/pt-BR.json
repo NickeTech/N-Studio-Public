@@ -14,6 +14,7 @@
     "select": "Selecionar",
     "accept": "Aceitar",
     "decline": "Recusar",
+    "success": "Sucesso",
     "cancel": "Cancelar",
     "remove": "Remover",
     "go-back": "Voltar",
@@ -94,6 +95,18 @@
       "action": "Redefinir Senha"
     },
 
+    "verify-email": {
+      "title": "Validando e-mail",
+      "message": "Aguarde enquanto confirmamos seu endereço de e-mail.",
+      "error-title": "Não foi possível validar seu e-mail",
+      "error-message": "Provavelmente, o link de verificação expirou ou já foi utilizado.",
+      "success-title": "E-mail validado",
+      "success-message": "Seu endereço de e-mail foi verificado com sucesso.",
+      "open-account": "Abrir página da conta",
+      "invalid-link": "O link de verificação de e-mail é inválido ou está incompleto.",
+      "validation-error": "Não foi possível validar seu endereço de e-mail."
+    },
+
     "home": {
       "new-experience": "Uma nova experiência",
       "familiar-face": "Um rosto familiar",
@@ -117,7 +130,8 @@
 
       "change-email": {
         "title": "Alterar Endereço de E-mail",
-        "new-address": "Novo Endereço"
+        "new-address": "Novo Endereço",
+        "success": "E-mail de verificação enviado"
       },
 
       "change-password": {
@@ -126,7 +140,8 @@
         "current-password-placeholder": "Digite sua senha atual",
         "new-password": "Nova Senha",
         "new-password-placeholder": "Digite sua nova (e forte) senha",
-        "confirm-password-placeholder": "Digite novamente sua nova senha"
+        "confirm-password-placeholder": "Digite novamente sua nova senha",
+        "success": "Senha alterada com sucesso"
       },
 
       "not-verified": {

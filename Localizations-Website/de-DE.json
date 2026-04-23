@@ -14,6 +14,7 @@
     "select": "Auswählen",
     "accept": "Akzeptieren",
     "decline": "Ablehnen",
+    "success": "Erfolg",
     "cancel": "Abbrechen",
     "remove": "Entfernen",
     "go-back": "Zurück",
@@ -94,6 +95,18 @@
       "action": "Passwort zurücksetzen"
     },
 
+    "verify-email": {
+      "title": "E-Mail wird bestätigt",
+      "message": "Bitte warte, während wir deine E-Mail-Adresse bestätigen.",
+      "error-title": "Deine E-Mail konnte nicht bestätigt werden",
+      "error-message": "Wahrscheinlich ist der Bestätigungslink abgelaufen oder wurde bereits verwendet.",
+      "success-title": "E-Mail bestätigt",
+      "success-message": "Deine E-Mail-Adresse wurde erfolgreich bestätigt.",
+      "open-account": "Kontoseite öffnen",
+      "invalid-link": "Der E-Mail-Bestätigungslink ist ungültig oder unvollständig.",
+      "validation-error": "Deine E-Mail-Adresse konnte nicht bestätigt werden."
+    },
+
     "home": {
       "new-experience": "Eine neue Erfahrung",
       "familiar-face": "Ein bekanntes Gesicht",
@@ -117,7 +130,8 @@
 
       "change-email": {
         "title": "E-Mail-Adresse ändern",
-        "new-address": "Neue Adresse"
+        "new-address": "Neue Adresse",
+        "success": "Bestätigungs-E-Mail gesendet"
       },
 
       "change-password": {
@@ -126,7 +140,8 @@
         "current-password-placeholder": "Gib dein aktuelles Passwort ein",
         "new-password": "Neues Passwort",
         "new-password-placeholder": "Gib dein neues, sicheres Passwort ein",
- "confirm-password-placeholder": "Gib dein neues Passwort erneut ein"
+       "confirm-password-placeholder": "Gib dein neues Passwort erneut ein",
+         "success": "Passwort erfolgreich geändert"
       },
 
       "not-verified": {

@@ -14,6 +14,7 @@
     "select": "Seleziona",
     "accept": "Accetta",
     "decline": "Rifiuta",
+    "success": "Operazione riuscita",
     "cancel": "Annulla",
     "remove": "Rimuovi",
     "go-back": "Torna indietro",
@@ -94,6 +95,18 @@
       "action": "Reimposta password"
     },
 
+    "verify-email": {
+      "title": "Verifica dell'email",
+      "message": "Attendi mentre confermiamo il tuo indirizzo email.",
+      "error-title": "Non siamo riusciti a verificare la tua email",
+      "error-message": "Probabilmente il link di verifica è scaduto oppure è già stato utilizzato.",
+      "success-title": "Email verificata",
+      "success-message": "Il tuo indirizzo email è stato verificato con successo.",
+      "open-account": "Apri la pagina dell'account",
+      "invalid-link": "Il link di verifica dell'email non è valido o è incompleto.",
+      "validation-error": "Non è stato possibile verificare il tuo indirizzo email."
+    },
+
     "home": {
       "new-experience": "Una nuova esperienza",
       "familiar-face": "Un volto familiare",
@@ -117,7 +130,8 @@
 
       "change-email": {
         "title": "Cambia indirizzo email",
-        "new-address": "Nuovo indirizzo"
+        "new-address": "Nuovo indirizzo",
+        "success": "Email di verifica inviata"
       },
 
       "change-password": {
@@ -126,7 +140,8 @@
         "current-password-placeholder": "Inserisci la tua password corrente",
         "new-password": "Nuova password",
         "new-password-placeholder": "Inserisci una nuova password sicura",
-        "confirm-password-placeholder": "Reinserisci la nuova password"
+        "confirm-password-placeholder": "Reinserisci la nuova password",
+        "success": "Password modificata con successo"
       },
 
       "not-verified": {

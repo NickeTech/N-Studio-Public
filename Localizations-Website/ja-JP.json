@@ -14,6 +14,7 @@
     "select": "選択",
     "accept": "承認",
     "decline": "拒否",
+    "success": "成功",
     "cancel": "キャンセル",
     "remove": "削除",
     "go-back": "戻る",
@@ -94,6 +95,18 @@
       "action": "パスワードをリセット"
     },
 
+    "verify-email": {
+      "title": "メールを確認しています",
+      "message": "メールアドレスを確認している間、しばらくお待ちください。",
+      "error-title": "メールを確認できませんでした",
+      "error-message": "確認リンクの有効期限が切れているか、すでに確認済みである可能性があります。",
+      "success-title": "メールを確認しました",
+      "success-message": "メールアドレスの確認が正常に完了しました。",
+      "open-account": "アカウントページを開く",
+      "invalid-link": "メール確認リンクが無効か、不完全です。",
+      "validation-error": "メールアドレスを確認できませんでした。"
+    },
+
     "home": {
       "new-experience": "新しい体験",
       "familiar-face": "見覚えのある顔",
@@ -117,7 +130,8 @@
 
       "change-email": {
         "title": "メールアドレスを変更",
-        "new-address": "新しいアドレス"
+        "new-address": "新しいアドレス",
+        "success": "確認メールを送信しました"
       },
 
       "change-password": {
@@ -126,7 +140,8 @@
         "current-password-placeholder": "現在のパスワードを入力してください",
         "new-password": "新しいパスワード",
         "new-password-placeholder": "新しい安全なパスワードを入力してください",
-        "confirm-password-placeholder": "新しいパスワードを再入力してください"
+        "confirm-password-placeholder": "新しいパスワードを再入力してください",
+        "success": "パスワードが正常に変更されました"
       },
 
       "not-verified": {

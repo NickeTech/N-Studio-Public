@@ -14,6 +14,7 @@
     "select": "选择",
     "accept": "接受",
     "decline": "拒绝",
+    "success": "成功",
     "cancel": "取消",
     "remove": "删除",
     "go-back": "返回",
@@ -94,6 +95,18 @@
       "action": "重置密码"
     },
 
+    "verify-email": {
+      "title": "正在验证邮箱",
+      "message": "请稍候，我们正在确认你的邮箱地址。",
+      "error-title": "我们无法验证你的邮箱",
+      "error-message": "验证链接很可能已过期，或者该邮箱已经验证过。",
+      "success-title": "邮箱已验证",
+      "success-message": "你的邮箱地址已成功验证。",
+      "open-account": "打开账户页面",
+      "invalid-link": "邮箱验证链接无效或不完整。",
+      "validation-error": "无法验证你的邮箱地址。"
+    },
+
     "home": {
       "new-experience": "全新体验",
       "familiar-face": "熟悉的面孔",
@@ -117,7 +130,8 @@
 
       "change-email": {
         "title": "更改邮箱地址",
-        "new-address": "新地址"
+        "new-address": "新地址",
+        "success": "验证邮件已发送"
       },
 
       "change-password": {
@@ -126,7 +140,8 @@
         "current-password-placeholder": "输入当前密码",
         "new-password": "新密码",
         "new-password-placeholder": "输入新的强密码",
-        "confirm-password-placeholder": "再次输入你的新密码"
+        "confirm-password-placeholder": "再次输入你的新密码",
+        "success": "密码修改成功"
       },
 
       "not-verified": {
