@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">Anlv</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-04-11</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-04-26</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">接受</s:String>
@@ -54,6 +54,7 @@
     <s:String x:Key="S.Imperative.OpenSettings">打开设置</s:String>
     <s:String x:Key="S.Imperative.OpenPresetSettings">打开预设设置</s:String>
     <s:String x:Key="S.Imperative.OpenFile">打开文件</s:String>
+    <s:String x:Key="S.Imperative.Open">打开</s:String>
     <s:String x:Key="S.Imperative.SelectAll">全选</s:String>
     <s:String x:Key="S.Imperative.DeselectAll">取消全选</s:String>
     <s:String x:Key="S.Imperative.ReportIssue">报告问题</s:String>
@@ -64,6 +65,8 @@
     <s:String x:Key="S.Imperative.SendFeedback">发送反馈</s:String>
     <s:String x:Key="S.Imperative.OpenFolder">打开文件夹</s:String>
     <s:String x:Key="S.Imperative.OpenDrive">打开驱动器</s:String>
+    <s:String x:Key="S.Imperative.AddEmail">添加邮件</s:String>
+    <s:String x:Key="S.Imperative.SendWithout">不带...发送</s:String>
 
     <!--Time • Referential-->
     <s:String x:Key="S.Time.Ago.Seconds">几秒前</s:String>
@@ -305,185 +308,188 @@
     <s:String x:Key="S.Dialog.KeepProject.Title">是否要将此项目保留在缓存中？</s:String>
     <s:String x:Key="S.Dialog.KeepProject.Details">此项目存储在缓存文件夹中，但帆一专天内将被删除。&#10;是否要不时保留它？</s:String>
 
-        <!--Dialogs • Insert Recording Position-->
-        <s:String x:Key="S.Dialog.InsertRecording.Header">在时间戳处插入录制</s:String>
-        <s:String x:Key="S.Dialog.InsertRecording.Message">选择在时间线中放置录制的位置，也可以将其设置为默认插入点。</s:String>
+    <!--Dialogs • Insert Recording Position-->
+    <s:String x:Key="S.Dialog.InsertRecording.Header">在时间戳处插入录制</s:String>
+    <s:String x:Key="S.Dialog.InsertRecording.Message">选择在时间线中放置录制的位置，也可以将其设置为默认插入点。</s:String>
 
-        <!--Dialogs • Insert Media Position-->
-        <s:String x:Key="S.Dialog.InsertMedia.Header">在时间戳处插入媒体</s:String>
-        <s:String x:Key="S.Dialog.InsertMedia.Message">选择在时间线中放置媒体的位置，也可以将其设置为默认插入点。</s:String>
+    <!--Dialogs • Insert Media Position-->
+    <s:String x:Key="S.Dialog.InsertMedia.Header">在时间戳处插入媒体</s:String>
+    <s:String x:Key="S.Dialog.InsertMedia.Message">选择在时间线中放置媒体的位置，也可以将其设置为默认插入点。</s:String>
 
-        <!--Dialogs • Insert Media Settings-->
-        <s:String x:Key="S.Dialog.InsertMedia.Settings.Header">插入媒体</s:String>
-        <s:String x:Key="S.Dialog.InsertMedia.Settings.Subtitle">选择如何对媒体进行分组和在时间线中定位。</s:String>
+    <!--Dialogs • Insert Media Settings-->
+    <s:String x:Key="S.Dialog.InsertMedia.Settings.Header">插入媒体</s:String>
+    <s:String x:Key="S.Dialog.InsertMedia.Settings.Subtitle">选择如何对媒体进行分组和在时间线中定位。</s:String>
 
-        <!--Dialogs • Remove Effect-->
-        <s:String x:Key="S.Dialog.RemoveEffect.Title">是否删除该效果？</s:String>
-        <s:String x:Key="S.Dialog.RemoveEffect.Details">可以撤销此操作。</s:String>
+    <!--Dialogs • Remove Effect-->
+    <s:String x:Key="S.Dialog.RemoveEffect.Title">是否删除该效果？</s:String>
+    <s:String x:Key="S.Dialog.RemoveEffect.Details">可以撤销此操作。</s:String>
 
-        <!--Dialogs • Remove Segment-->
-        <s:String x:Key="S.Dialog.RemoveSegment.Title">是否删除片段？</s:String>
-        <s:String x:Key="S.Dialog.RemoveSegment.Details">可以撤销此操作。</s:String>
+    <!--Dialogs • Remove Segment-->
+    <s:String x:Key="S.Dialog.RemoveSegment.Title">是否删除片段？</s:String>
+    <s:String x:Key="S.Dialog.RemoveSegment.Details">可以撤销此操作。</s:String>
 
-        <!--Dialogs • Remove Track-->
-        <s:String x:Key="S.Dialog.RemoveTrack.Title">是否删除轨道？</s:String>
-        <s:String x:Key="S.Dialog.RemoveTrack.Details">可以撤销此操作。</s:String>
+    <!--Dialogs • Remove Track-->
+    <s:String x:Key="S.Dialog.RemoveTrack.Title">是否删除轨道？</s:String>
+    <s:String x:Key="S.Dialog.RemoveTrack.Details">可以撤销此操作。</s:String>
 
-        <!--Dialogs • Missing Contact Email-->
-        <s:String x:Key="S.Dialog.ContactEmail.Title">未提供电子邮件地址</s:String>
-        <s:String x:Key="S.Dialog.ContactEmail.Details">为了收到关于反馈的回复，你需要提供一个电子邮件地址。</s:String>
+    <!--Dialogs • Missing Contact Email-->
+    <s:String x:Key="S.Dialog.ContactEmail.Title">未提供电子邮件地址</s:String>
+    <s:String x:Key="S.Dialog.ContactEmail.Details">为了收到关于反馈的回复，你需要提供一个电子邮件地址。</s:String>
 
-        <!--Dialogs • Remove All Projects-->
-        <s:String x:Key="S.Dialog.RemoveAllProjects.Title">是否要删除所有项目？</s:String>
-        <s:String x:Key="S.Dialog.RemoveAllProjects.Description">这将从缓存中删除所有项目。此操作无法撤销。</s:String>
+    <!--Dialogs • Remove All Projects-->
+    <s:String x:Key="S.Dialog.RemoveAllProjects.Title">是否要删除所有项目？</s:String>
+    <s:String x:Key="S.Dialog.RemoveAllProjects.Description">这将从缓存中删除所有项目。此操作无法撤销。</s:String>
 
-        <!--Dialogs • Remove Project-->
-        <s:String x:Key="S.Dialog.RemoveProject.Title">是否要删除该项目？</s:String>
-        <s:String x:Key="S.Dialog.RemoveProject.Description">这将从缓存中删除选定的项目。此操作无法撤销。</s:String>
+    <!--Dialogs • Remove Project-->
+    <s:String x:Key="S.Dialog.RemoveProject.Title">是否要删除该项目？</s:String>
+    <s:String x:Key="S.Dialog.RemoveProject.Description">这将从缓存中删除选定的项目。此操作无法撤销。</s:String>
 
-        <!--Dialogs • Missing 'Follow Cursor' shortcuts-->
-        <s:String x:Key="S.Dialog.FollowCursor.Header">缺少鼠标跟随快捷键</s:String>
-        <s:String x:Key="S.Dialog.FollowCursor.Message">要使用鼠标光标跟随功能，必须设置快捷键以在需要时切换。</s:String>
+    <!--Dialogs • Missing 'Follow Cursor' shortcuts-->
+    <s:String x:Key="S.Dialog.FollowCursor.Header">缺少鼠标跟随快捷键</s:String>
+    <s:String x:Key="S.Dialog.FollowCursor.Message">要使用鼠标光标跟随功能，必须设置快捷键以在需要时切换。</s:String>
 
-        <!--Dialogs • Delete file with same name-->
-        <s:String x:Key="S.Dialog.Overwrite.Header">是否要覆盖该文件？</s:String>
-        <s:String x:Key="S.Dialog.Overwrite.Message">已存在同名的文件。</s:String>
+    <!--Dialogs • Delete file with same name-->
+    <s:String x:Key="S.Dialog.Overwrite.Header">是否要覆盖该文件？</s:String>
+    <s:String x:Key="S.Dialog.Overwrite.Message">已存在同名的文件。</s:String>
 
-        <!--Dialogs • Delete file-->
-        <s:String x:Key="S.Dialog.DeleteFile.Header">确定要删除该文件吗？</s:String>
-        <s:String x:Key="S.Dialog.DeleteFile.Message">此操作无法撤销。</s:String>
+    <!--Dialogs • Delete file-->
+    <s:String x:Key="S.Dialog.DeleteFile.Header">确定要删除该文件吗？</s:String>
+    <s:String x:Key="S.Dialog.DeleteFile.Message">此操作无法撤销。</s:String>
 
-        <!--Dialogs • Delete old project-->
-        <s:String x:Key="S.Dialog.DeleteOld.Title">是否要删除旧项目？</s:String>
-        <s:String x:Key="S.Dialog.DeleteOld.Message">选定的项目将被转换为新格式。&#10;之后是否要删除旧项目？</s:String>
+    <!--Dialogs • Delete old project-->
+    <s:String x:Key="S.Dialog.DeleteOld.Title">是否要删除旧项目？</s:String>
+    <s:String x:Key="S.Dialog.DeleteOld.Message">选定的项目将被转换为新格式。&#10;之后是否要删除旧项目？</s:String>
 
-        <!--Dialogs • Discard recording-->
-        <s:String x:Key="S.Dialog.DiscardRecording.Header">确定要放弃录制吗？</s:String>
-        <s:String x:Key="S.Dialog.DiscardRecording.Message">所有捕获的内容都将被放弃。&#10;无法撤销此操作。</s:String>
+    <!--Dialogs • Discard recording-->
+    <s:String x:Key="S.Dialog.DiscardRecording.Header">确定要放弃录制吗？</s:String>
+    <s:String x:Key="S.Dialog.DiscardRecording.Message">所有捕获的内容都将被放弃。&#10;无法撤销此操作。</s:String>
 
-        <!--Dialogs • Delete preset-->
-        <s:String x:Key="S.Dialog.DeletePreset.Header">确定要删除该预设吗？</s:String>
-        <s:String x:Key="S.Dialog.DeletePreset.Message">选定的预设将被删除，此操作无法撤销。</s:String>
+    <!--Dialogs • Delete preset-->
+    <s:String x:Key="S.Dialog.DeletePreset.Header">确定要删除该预设吗？</s:String>
+    <s:String x:Key="S.Dialog.DeletePreset.Message">选定的预设将被删除，此操作无法撤销。</s:String>
 
-        <!--Dialogs • Reset preset-->
-        <s:String x:Key="S.Dialog.ResetPreset.Header">确定要重置该预设吗？</s:String>
-        <s:String x:Key="S.Dialog.ResetPreset.Message">选定的预设将被重置为默认设置，此操作无法撤销。</s:String>
+    <!--Dialogs • Reset preset-->
+    <s:String x:Key="S.Dialog.ResetPreset.Header">确定要重置该预设吗？</s:String>
+    <s:String x:Key="S.Dialog.ResetPreset.Message">选定的预设将被重置为默认设置，此操作无法撤销。</s:String>
 
-        <!--Dialogs • Remove all effects-->
-        <s:String x:Key="S.Dialog.RemoveAllEffects.Header">确定要删除所有效果吗？</s:String>
-        <s:String x:Key="S.Dialog.RemoveAllEffects.Message">点击"重置"可以恢复默认效果，但任何自定义效果都将丢失。</s:String>
+    <!--Dialogs • Remove all effects-->
+    <s:String x:Key="S.Dialog.RemoveAllEffects.Header">确定要删除所有效果吗？</s:String>
+    <s:String x:Key="S.Dialog.RemoveAllEffects.Message">点击"重置"可以恢复默认效果，但任何自定义效果都将丢失。</s:String>
 
-        <!--Dialogs • Reset effects-->
-        <s:String x:Key="S.Dialog.ResetEffects.Header">确定要重置为默认设置吗？</s:String>
-        <s:String x:Key="S.Dialog.ResetEffects.Message">任何自定义效果都将丢失。</s:String>
+    <!--Dialogs • Reset effects-->
+    <s:String x:Key="S.Dialog.ResetEffects.Header">确定要重置为默认设置吗？</s:String>
+    <s:String x:Key="S.Dialog.ResetEffects.Message">任何自定义效果都将丢失。</s:String>
 
-        <!--Dialogs • Remove effect-->
-        <s:String x:Key="S.Dialog.RemoveEffect.Header">确定要删除该效果吗？</s:String>
-        <s:String x:Key="S.Dialog.RemoveEffect.Message">此操作无法撤销，但可以按"重置"恢复默认效果。</s:String>
+    <!--Dialogs • Remove effect-->
+    <s:String x:Key="S.Dialog.RemoveEffect.Header">确定要删除该效果吗？</s:String>
+    <s:String x:Key="S.Dialog.RemoveEffect.Message">此操作无法撤销，但可以按"重置"恢复默认效果。</s:String>
 
-        <!--Dialogs • Clear cache-->
-        <s:String x:Key="S.Dialogs.Cache.Header">是否要清空缓存文件夹？</s:String>
-        <s:String x:Key="S.Dialogs.Cache.Message">创建录制或打开要编辑的内容时，会创建一个项目并将其存储在缓存文件夹中。</s:String>
-        <s:String x:Key="S.Dialogs.Cache.KeepRecent">保留最近的项目</s:String>
-        <s:String x:Key="S.Dialogs.Cache.KeepRecent.Info">只有早于"设置">"存储空间"中配置的项目才会被删除</s:String>
+    <!--Dialogs • Clear cache-->
+    <s:String x:Key="S.Dialogs.Cache.Header">是否要清空缓存文件夹？</s:String>
+    <s:String x:Key="S.Dialogs.Cache.Message">创建录制或打开要编辑的内容时，会创建一个项目并将其存储在缓存文件夹中。</s:String>
+    <s:String x:Key="S.Dialogs.Cache.KeepRecent">保留最近的项目</s:String>
+    <s:String x:Key="S.Dialogs.Cache.KeepRecent.Info">只有早于"设置">"存储空间"中配置的项目才会被删除</s:String>
 
-        <!--Validation • Field Validations-->
-        <s:String x:Key="S.Validation.Required.Header">必填字段</s:String>
-        <s:String x:Key="S.Validation.Required.Description">某些必填字段为空或包含无效数据</s:String>
-        <s:String x:Key="S.Validation.Required.Fields.Title">需要有效的标题（5 到 100 个字符）</s:String>
-        <s:String x:Key="S.Validation.Required.Fields.Description">需要有效的描述标题（5 到 5,000 个字符）</s:String>
-        <s:String x:Key="S.Validation.Required.Fields.Email">需要有效的电子邮件地址</s:String>
-        <s:String x:Key="S.Validation.Required.Fields.Password">需要 8 到 128 个字符的密钥</s:String>
-        <s:String x:Key="S.Validation.Required.Fields.Serial">需要有效的序列号</s:String>
+    <!--Validation • Field Validations-->
+    <s:String x:Key="S.Validation.Required.Header">必填字段</s:String>
+    <s:String x:Key="S.Validation.Required.Description">某些必填字段为空或包含无效数据</s:String>
+    <s:String x:Key="S.Validation.Required.Fields.Title">需要有效的标题（5 到 100 个字符）</s:String>
+    <s:String x:Key="S.Validation.Required.Fields.Description">需要有效的描述标题（5 到 5,000 个字符）</s:String>
+    <s:String x:Key="S.Validation.Required.Fields.Email">需要有效的电子邮件地址</s:String>
+    <s:String x:Key="S.Validation.Required.Fields.Password">需要 8 到 128 个字符的密钥</s:String>
+    <s:String x:Key="S.Validation.Required.Fields.Serial">需要有效的序列号</s:String>
 
-        <!--Validation • Attachments too large-->
-        <s:String x:Key="S.Validation.AttachmentsLarge.Header">附件大小</s:String>
-        <s:String x:Key="S.Validation.AttachmentsLarge.Description">附件大小超过 100 MiB</s:String>
+    <!--Validation • Attachments too large-->
+    <s:String x:Key="S.Validation.AttachmentsLarge.Header">附件大小</s:String>
+    <s:String x:Key="S.Validation.AttachmentsLarge.Description">附件大小超过 100 MiB</s:String>
 
-        <!--Validation • Missing dependency-->
-        <s:String x:Key="S.Validation.Missing.Header">缺少依赖项</s:String>
-        <s:String x:Key="S.Validation.Missing.Ffmpeg.Message">未找到 FFmpeg。通过"设置">"插件"下载</s:String>
-        <s:String x:Key="S.Validation.Missing.Gifski.Message">未找到 Gifski。通过"设置">"插件"下载</s:String>
+    <!--Validation • Missing dependency-->
+    <s:String x:Key="S.Validation.Missing.Header">缺少依赖项</s:String>
+    <s:String x:Key="S.Validation.Missing.Ffmpeg.Message">未找到 FFmpeg。通过"设置">"插件"下载</s:String>
+    <s:String x:Key="S.Validation.Missing.Gifski.Message">未找到 Gifski。通过"设置">"插件"下载</s:String>
 
-        <!--Validation • Empty parameters-->
-        <s:String x:Key="S.Validation.EmptyParameters.Header">空的参数</s:String>
-        <s:String x:Key="S.Validation.EmptyParameters.Message">未为预设设置任何参数</s:String>
+    <!--Validation • Empty parameters-->
+    <s:String x:Key="S.Validation.EmptyParameters.Header">空的参数</s:String>
+    <s:String x:Key="S.Validation.EmptyParameters.Message">未为预设设置任何参数</s:String>
 
-        <!--Validation • Missing input/output parameters-->
-        <s:String x:Key="S.Validation.MissingParameters.Header">缺少参数</s:String>
-        <s:String x:Key="S.Validation.MissingParameters.Message">参数字段中缺少特殊参数 {input} 和/或 {output}</s:String>
+    <!--Validation • Missing input/output parameters-->
+    <s:String x:Key="S.Validation.MissingParameters.Header">缺少参数</s:String>
+    <s:String x:Key="S.Validation.MissingParameters.Message">参数字段中缺少特殊参数 {input} 和/或 {output}</s:String>
 
-        <!--Validation • No export type-->
-        <s:String x:Key="S.Validation.NoExport.Header">未选择导出</s:String>
-        <s:String x:Key="S.Validation.NoExport.Message">需要选择保存文件的位置（保存到文件夹、复制到剪贴板或上传到其他位置）</s:String>
+    <!--Validation • No export type-->
+    <s:String x:Key="S.Validation.NoExport.Header">未选择导出</s:String>
+    <s:String x:Key="S.Validation.NoExport.Message">需要选择保存文件的位置（保存到文件夹、复制到剪贴板或上传到其他位置）</s:String>
 
-        <!--Validation • No extension selected-->
-        <s:String x:Key="S.Validation.NoExtension.Header">未选择扩展名</s:String>
-        <s:String x:Key="S.Validation.NoExtension.Message">未选择文件扩展名</s:String>
+    <!--Validation • No extension selected-->
+    <s:String x:Key="S.Validation.NoExtension.Header">未选择扩展名</s:String>
+    <s:String x:Key="S.Validation.NoExtension.Message">未选择文件扩展名</s:String>
 
-        <!--Validation • No output folder selected-->
-        <s:String x:Key="S.Validation.NoOutput.Header">未选择输出文件夹</s:String>
-        <s:String x:Key="S.Validation.NoOutput.Message">需要选择文件存储的位置</s:String>
+    <!--Validation • No output folder selected-->
+    <s:String x:Key="S.Validation.NoOutput.Header">未选择输出文件夹</s:String>
+    <s:String x:Key="S.Validation.NoOutput.Message">需要选择文件存储的位置</s:String>
 
-        <!--Validation • Invalid characters in folder-->
-        <s:String x:Key="S.Validation.InvalidOutput.Header">无效字符</s:String>
-        <s:String x:Key="S.Validation.InvalidOutput.Message">输出文件夹包含一个或多个无效字符。请选择有效的文件夹。</s:String>
+    <!--Validation • Invalid characters in folder-->
+    <s:String x:Key="S.Validation.InvalidOutput.Header">无效字符</s:String>
+    <s:String x:Key="S.Validation.InvalidOutput.Message">输出文件夹包含一个或多个无效字符。请选择有效的文件夹。</s:String>
 
-        <!--Validation • Output folder missing-->
-        <s:String x:Key="S.Validation.OutputMissing.Header">缺少文件夹</s:String>
-        <s:String x:Key="S.Validation.OutputMissing.Message">输出文件夹不存在</s:String>
+    <!--Validation • Output folder missing-->
+    <s:String x:Key="S.Validation.OutputMissing.Header">缺少文件夹</s:String>
+    <s:String x:Key="S.Validation.OutputMissing.Message">输出文件夹不存在</s:String>
 
-        <!--Validation • File name empty-->
-        <s:String x:Key="S.Validation.FileNameEmpty.Header">没有文件名</s:String>
-        <s:String x:Key="S.Validation.FileNameEmpty.Message">需要选择文件的名称</s:String>
+    <!--Validation • File name empty-->
+    <s:String x:Key="S.Validation.FileNameEmpty.Header">没有文件名</s:String>
+    <s:String x:Key="S.Validation.FileNameEmpty.Message">需要选择文件的名称</s:String>
 
-        <!--Validation • File name invalid-->
-        <s:String x:Key="S.Validation.InvalidFileName.Header">无效的文件名</s:String>
-        <s:String x:Key="S.Validation.InvalidFileName.Message">文件名包含一个或多个无效字符</s:String>
+    <!--Validation • File name invalid-->
+    <s:String x:Key="S.Validation.InvalidFileName.Header">无效的文件名</s:String>
+    <s:String x:Key="S.Validation.InvalidFileName.Message">文件名包含一个或多个无效字符</s:String>
 
-        <!--Validation • File already exists-->
-        <s:String x:Key="S.Validation.FileAlreadyExists.Header">文件已存在</s:String>
-        <s:String x:Key="S.Validation.FileAlreadyExists.Message">文件名包含一个或多个无效字符</s:String>
+    <!--Validation • File already exists-->
+    <s:String x:Key="S.Validation.FileAlreadyExists.Header">文件已存在</s:String>
+    <s:String x:Key="S.Validation.FileAlreadyExists.Message">文件名包含一个或多个无效字符</s:String>
 
-        <!--Validation • Low disk space-->
-        <s:String x:Key="S.Validation.LowSpace.Header">磁盘空间不足</s:String>
-        <s:String x:Key="S.Validation.LowSpace.Message">选择另一个磁盘或删除一些文件</s:String>
+    <!--Validation • Low disk space-->
+    <s:String x:Key="S.Validation.LowSpace.Header">磁盘空间不足</s:String>
+    <s:String x:Key="S.Validation.LowSpace.Message">选择另一个磁盘或删除一些文件</s:String>
 
-        <!--Validation • Can't copy link-->
-        <s:String x:Key="S.Validation.NoLink.Header">没有可复制的链接</s:String>
-        <s:String x:Key="S.Validation.NoLink.Message">无法选择复制链接选项，因为未设置上传文件</s:String>
+    <!--Validation • Can't copy link-->
+    <s:String x:Key="S.Validation.NoLink.Header">没有可复制的链接</s:String>
+    <s:String x:Key="S.Validation.NoLink.Message">无法选择复制链接选项，因为未设置上传文件</s:String>
 
-        <!--Validation • No custom command-->
-        <s:String x:Key="S.Validation.NoCommand.Header">无命令执行</s:String>
-        <s:String x:Key="S.Validation.NoCommand.Message">要执行编码后命令，需要在命令文本字段中输入内容</s:String>
+    <!--Validation • No custom command-->
+    <s:String x:Key="S.Validation.NoCommand.Header">无命令执行</s:String>
+    <s:String x:Key="S.Validation.NoCommand.Message">要执行编码后命令，需要在命令文本字段中输入内容</s:String>
 
-        <!--Success • Export feedback-->
-        <s:String x:Key="S.Success.ExportFeedback.Header">成功</s:String>
-        <s:String x:Key="S.Success.ExportFeedback.Message">已成功将反馈导出为 zip</s:String>
+    <!--Success • Export feedback-->
+    <s:String x:Key="S.Success.ExportFeedback.Header">成功</s:String>
+    <s:String x:Key="S.Success.ExportFeedback.Message">已成功将反馈导出为 zip</s:String>
 
-        <!--Info • Pro feature-->
-        <s:String x:Key="S.Info.ProFeature.Header">仅供 Pro 版使用</s:String>
-        <s:String x:Key="S.Info.ProFeature.Message">升级以解锁此功能</s:String>
-        <s:String x:Key="S.Info.ProFeature.Upgrade">升级</s:String>
+    <!--Info • Pro feature-->
+    <s:String x:Key="S.Info.ProFeature.Header">仅供 Pro 版使用</s:String>
+    <s:String x:Key="S.Info.ProFeature.Message">升级以解锁此功能</s:String>
+    <s:String x:Key="S.Info.ProFeature.Upgrade">升级</s:String>
 
-        <!--Info • Format limitations-->
-        <s:String x:Key="S.Info.FormatLimitations.Title">格式限制</s:String>
-        <s:String x:Key="S.Info.FormatLimitations.Message">当前预设对帧率施加了限制</s:String>
-        <s:String x:Key="S.Info.FormatLimitations.Gif.Message">该格式仅支持 10ms 倍数的帧延迟。可用范围为 20ms 到 65,535ms。编码器将相应调整帧率。</s:String>
-        <s:String x:Key="S.Info.FormatLimitations.Ignore.Message">该格式忽略帧率设置。这些选项仅在导出窗口中使用。</s:String>
+    <!--Info • Format limitations-->
+    <s:String x:Key="S.Info.FormatLimitations.Title">格式限制</s:String>
+    <s:String x:Key="S.Info.FormatLimitations.Message">当前预设对帧率施加了限制</s:String>
+    <s:String x:Key="S.Info.FormatLimitations.Gif.Message">该格式仅支持 10ms 倍数的帧延迟。可用范围为 20ms 到 65,535ms。编码器将相应调整帧率。</s:String>
+    <s:String x:Key="S.Info.FormatLimitations.Ignore.Message">该格式忽略帧率设置。这些选项仅在导出窗口中使用。</s:String>
 
-        <!--Info • Default preset-->
-        <s:String x:Key="S.Info.DefaultPreset.Title">只读</s:String>
-        <s:String x:Key="S.Info.DefaultPreset.Message">默认预设的某些属性是只读的</s:String>
+    <!--Info • Default preset-->
+    <s:String x:Key="S.Info.DefaultPreset.Title">只读</s:String>
+    <s:String x:Key="S.Info.DefaultPreset.Message">默认预设的某些属性是只读的</s:String>
 
-        <!--Info • Undo/redo recovered-->
-        <s:String x:Key="S.Info.ResumeUndo.Header">从离开的地方继续</s:String>
-        <s:String x:Key="S.Info.ResumeUndo.Message">检测到之前的编辑状态。撤销/重做历史可用</s:String>
+    <!--Info • Undo/redo recovered-->
+    <s:String x:Key="S.Info.ResumeUndo.Header">从离开的地方继续</s:String>
+    <s:String x:Key="S.Info.ResumeUndo.Message">检测到之前的编辑状态。撤销/重做历史可用</s:String>
 
-        <!--Info • Load canceled-->
-        <s:String x:Key="S.Info.LoadCanceled.Header">加载已取消</s:String>
-        <s:String x:Key="S.Info.LoadCanceled.Message">项目未加载，因为用户取消了操作</s:String>
+    <!--Info • Load canceled-->
+    <s:String x:Key="S.Info.LoadCanceled.Header">加载已取消</s:String>
+    <s:String x:Key="S.Info.LoadCanceled.Message">项目未加载，因为用户取消了操作</s:String>
 
+    <!--Info • Feedback sent-->
+    <s:String x:Key="S.Info.FeedbackSent.Header">感谢您的反馈</s:String>
+    <s:String x:Key="S.Info.FeedbackSent.Message">您的消息已发送。感谢您抽出时间与我们分享</s:String>
 
     <!--Warnings • Single instance-->
     <s:String x:Key="S.Warning.Single.Header">应用程序已运行</s:String>
@@ -529,206 +535,211 @@
     <s:String x:Key="S.Error.FailedToSend.OpenEmail">打开电子邮件</s:String>
 
     <!--Error • Update Unsupported-->
-    <s:String x:Key="S.Error.UpdateUnsupported.Header">Unsupported</s:String>
-    <s:String x:Key="S.Error.UpdateUnsupported.Message">It appears that your system is no longer supported or something changed in the update system. Try downloading it manually from the website.</s:String>
+    <s:String x:Key="S.Error.UpdateUnsupported.Header">不受支持</s:String>
+    <s:String x:Key="S.Error.UpdateUnsupported.Message">你的系统似乎已不再受支持，或者更新系统发生了变化。请尝试从网站手动下载。</s:String>
 
     <!--Error • Update Failed--> 
-    <s:String x:Key="S.Error.UpdateFailed.Header">Update failed</s:String>
-    <s:String x:Key="S.Error.UpdateFailed.Message">It was not possible to download the update.</s:String>
+    <s:String x:Key="S.Error.UpdateFailed.Header">更新失败</s:String>
+    <s:String x:Key="S.Error.UpdateFailed.Message">无法下载更新。</s:String>
 
     <!--Error • Login failed--> 
-    <s:String x:Key="S.Error.Login.Header">Login failed</s:String>
-    <s:String x:Key="S.Error.Login.Message">In browser authentication failed, try again</s:String>
+    <s:String x:Key="S.Error.Login.Header">登录失败</s:String>
+    <s:String x:Key="S.Error.Login.Message">浏览器身份验证失败，请重试</s:String>
 
     <!--Error • Authentication--> 
-    <s:String x:Key="S.Error.Authentication.Header">Authentication error</s:String>
-    <s:String x:Key="S.Error.Authentication.Message">It was not possible to authenticate to the service</s:String>
+    <s:String x:Key="S.Error.Authentication.Header">身份验证错误</s:String>
+    <s:String x:Key="S.Error.Authentication.Message">无法对该服务进行身份验证</s:String>
 
     <!--Error • Delete file--> 
-    <s:String x:Key="S.Error.DeleteFile.Header">Error deleting file</s:String>
-    <s:String x:Key="S.Error.DeleteFile.Message">It was not possible to delete the file.</s:String>
+    <s:String x:Key="S.Error.DeleteFile.Header">删除文件时出错</s:String>
+    <s:String x:Key="S.Error.DeleteFile.Message">无法删除该文件。</s:String>
 
     <!--Error • Encoding--> 
-    <s:String x:Key="S.Error.Encoding.Header">Encoding error</s:String>
-    <s:String x:Key="S.Error.Encoding.Message">The encoding failed and it could not finish.</s:String>
+    <s:String x:Key="S.Error.Encoding.Header">编码错误</s:String>
+    <s:String x:Key="S.Error.Encoding.Message">编码失败，无法完成。</s:String>
 
     <!--Error • Recording--> 
-    <s:String x:Key="S.Error.Recording.Header">Error while starting recording</s:String>
-    <s:String x:Key="S.Error.Recording.Message">Something wrong with the capture, it was not possible correctly start it.</s:String>
+    <s:String x:Key="S.Error.Recording.Header">启动录制时出错</s:String>
+    <s:String x:Key="S.Error.Recording.Message">捕获出现问题，无法正确开始。</s:String>
 
     <!--Error • Pausing--> 
-    <s:String x:Key="S.Error.Pausing.Header">Error while pausing</s:String>
-    <s:String x:Key="S.Error.Pausing.Message">Something wrong with the capture, it was not possible correctly pause it.</s:String>
+    <s:String x:Key="S.Error.Pausing.Header">暂停时出错</s:String>
+    <s:String x:Key="S.Error.Pausing.Message">捕获出现问题，无法正确暂停。</s:String>
 
     <!--Error • Stopping--> 
-    <s:String x:Key="S.Error.Stopping.Header">Error while stopping</s:String>
-    <s:String x:Key="S.Error.Stopping.Message">Something wrong with the capture, it was not possible correctly finish it.</s:String>
+    <s:String x:Key="S.Error.Stopping.Header">停止时出错</s:String>
+    <s:String x:Key="S.Error.Stopping.Message">捕获出现问题，无法正确结束。</s:String>
 
     <!--Error • Capture--> 
-    <s:String x:Key="S.Error.Capture.Header">It was not possible to capture the screen</s:String>
-    <s:String x:Key="S.Error.Capture.Message">The capture crashed, and it's in a broken state.</s:String>
+    <s:String x:Key="S.Error.Capture.Header">无法捕获屏幕</s:String>
+    <s:String x:Key="S.Error.Capture.Message">捕获已崩溃，处于损坏状态。</s:String>
 
     <!--Error • Export feedback--> 
-    <s:String x:Key="S.Error.ExportFeedback.Header">Export error</s:String>
-    <s:String x:Key="S.Error.ExportFeedback.Message">It was not possible to export the feedback</s:String>
+    <s:String x:Key="S.Error.ExportFeedback.Header">导出错误</s:String>
+    <s:String x:Key="S.Error.ExportFeedback.Message">无法导出反馈</s:String>
 
     <!--Error • Unsupported files dropped--> 
-    <s:String x:Key="S.Error.Drop.Header">Error on import</s:String>
-    <s:String x:Key="S.Error.Drop.Message">It was not possible to insert or open the file(s)</s:String>
+    <s:String x:Key="S.Error.Drop.Header">导入错误</s:String>
+    <s:String x:Key="S.Error.Drop.Message">无法插入或打开文件</s:String>
 
     <!--Error • Unrecognized plugin--> 
-    <s:String x:Key="S.Error.UnrecognizedPlugin.Header">Unrecognized file</s:String>
-    <s:String x:Key="S.Error.UnrecognizedPlugin.Message">The file selected was not recognized</s:String>
+    <s:String x:Key="S.Error.UnrecognizedPlugin.Header">无法识别的文件</s:String>
+    <s:String x:Key="S.Error.UnrecognizedPlugin.Message">所选文件无法识别</s:String>
 
     <!--Error • Impossible to update--> 
-    <s:String x:Key="S.Error.UpdatedFailed.Header">Failed to install update</s:String>
-    <s:String x:Key="S.Error.UpdatedFailed.Message">Install the update manually</s:String>
+    <s:String x:Key="S.Error.UpdatedFailed.Header">安装更新失败</s:String>
+    <s:String x:Key="S.Error.UpdatedFailed.Message">请手动安装更新</s:String>
 
     <!--Error • Error loading--> 
-    <s:String x:Key="S.Errors.Load.Header">Load error</s:String>
-    <s:String x:Key="S.Errors.Load.Message">It was not possible to load the project</s:String>
+    <s:String x:Key="S.Errors.Load.Header">加载错误</s:String>
+    <s:String x:Key="S.Errors.Load.Message">无法加载项目</s:String>
 
     <!--Error • Error with renderer--> 
-    <s:String x:Key="S.Errors.Renderer.Header">Renderer error</s:String>
-    <s:String x:Key="S.Errors.Renderer.Message">The render pipeline crashed</s:String>
+    <s:String x:Key="S.Errors.Renderer.Header">渲染器错误</s:String>
+    <s:String x:Key="S.Errors.Renderer.Message">渲染管线已崩溃</s:String>
 
     <!--Error • Error initializing--> 
-    <s:String x:Key="S.Errors.InitializePreviewer.Header">Previewer error</s:String>
-    <s:String x:Key="S.Errors.InitializePreviewer.Message">It was not possible to initialize the previewer</s:String>
+    <s:String x:Key="S.Errors.InitializePreviewer.Header">预览器错误</s:String>
+    <s:String x:Key="S.Errors.InitializePreviewer.Message">无法初始化预览器</s:String>
 
     <!--Error • Saving project--> 
-    <s:String x:Key="S.Errors.SaveProject.Header">Error saving</s:String>
-    <s:String x:Key="S.Errors.SaveProject.Message">It was not possible to save the project</s:String>
+    <s:String x:Key="S.Errors.SaveProject.Header">保存出错</s:String>
+    <s:String x:Key="S.Errors.SaveProject.Message">无法保存项目</s:String>
 
     <!--Error • Creating empty project--> 
-    <s:String x:Key="S.Errors.EmptyProject.Header">Error creating project</s:String>
-    <s:String x:Key="S.Errors.EmptyProject.Message">Failed to create empty project</s:String>
+    <s:String x:Key="S.Errors.EmptyProject.Header">创建项目出错</s:String>
+    <s:String x:Key="S.Errors.EmptyProject.Message">创建空项目失败</s:String>
 
     <!--Error • Creating project from recording--> 
-    <s:String x:Key="S.Errors.ProjectFromRecording.Header">Error creating project</s:String>
-    <s:String x:Key="S.Errors.ProjectFromRecording.Message">It was not possible to create the project from the recording</s:String>
+    <s:String x:Key="S.Errors.ProjectFromRecording.Header">创建项目出错</s:String>
+    <s:String x:Key="S.Errors.ProjectFromRecording.Message">无法从录制内容创建项目</s:String>
 
     <!--Error • Creating project from media--> 
-    <s:String x:Key="S.Errors.ProjectFromMedia.Header">Error creating project</s:String>
-    <s:String x:Key="S.Errors.ProjectFromMedia.Message">It was not possible to create the project from the media</s:String>
+    <s:String x:Key="S.Errors.ProjectFromMedia.Header">创建项目出错</s:String>
+    <s:String x:Key="S.Errors.ProjectFromMedia.Message">无法从媒体创建项目</s:String>
 
     <!--Error • Copy--> 
-    <s:String x:Key="S.Errors.Copy.Header">Copy failed</s:String>
-    <s:String x:Key="S.Errors.Copy.Message">Failed to copy the selected items</s:String>
+    <s:String x:Key="S.Errors.Copy.Header">复制失败</s:String>
+    <s:String x:Key="S.Errors.Copy.Message">复制所选项目失败</s:String>
 
     <!--Error • Cut--> 
-    <s:String x:Key="S.Errors.Cut.Header">Cut failed</s:String>
-    <s:String x:Key="S.Errors.Cut.Message">Failed to cut the selected items</s:String>
+    <s:String x:Key="S.Errors.Cut.Header">剪切失败</s:String>
+    <s:String x:Key="S.Errors.Cut.Message">剪切所选项目失败</s:String>
 
     <!--Error • Paste--> 
-    <s:String x:Key="S.Errors.Paste.Header">Paste failed</s:String>
-    <s:String x:Key="S.Errors.Paste.Message">Failed to paste the items</s:String>
+    <s:String x:Key="S.Errors.Paste.Header">粘贴失败</s:String>
+    <s:String x:Key="S.Errors.Paste.Message">粘贴项目失败</s:String>
 
     <!--Error • Inserting recording--> 
-    <s:String x:Key="S.Errors.InsertingRecording.Header">Error inserting recording</s:String>
-    <s:String x:Key="S.Errors.InsertingRecording.Message">Failed to insert the captured recording into the project</s:String>
+    <s:String x:Key="S.Errors.InsertingRecording.Header">插入录制时出错</s:String>
+    <s:String x:Key="S.Errors.InsertingRecording.Message">无法将捕获的录制插入项目</s:String>
 
     <!--Error • Inserting media--> 
-    <s:String x:Key="S.Errors.InsertingMedia.Header">Error inserting media</s:String>
-    <s:String x:Key="S.Errors.InsertingMedia.Message">Failed to insert the selected media into the project</s:String>
+    <s:String x:Key="S.Errors.InsertingMedia.Header">插入媒体时出错</s:String>
+    <s:String x:Key="S.Errors.InsertingMedia.Message">无法将所选媒体插入项目</s:String>
 
     <!--Error • Inserting text--> 
-    <s:String x:Key="S.Errors.InsertingText.Header">Error inserting text</s:String>
-    <s:String x:Key="S.Errors.InsertingText.Message">Failed to insert the text element into the project</s:String>
+    <s:String x:Key="S.Errors.InsertingText.Header">插入文本时出错</s:String>
+    <s:String x:Key="S.Errors.InsertingText.Message">无法将文本元素插入项目</s:String>
 
     <!--Error • Inserting progress--> 
-    <s:String x:Key="S.Errors.InsertingProgress.Header">Error inserting progress</s:String>
-    <s:String x:Key="S.Errors.InsertingProgress.Message">Failed to insert the progress element into the project</s:String>
+    <s:String x:Key="S.Errors.InsertingProgress.Header">插入进度时出错</s:String>
+    <s:String x:Key="S.Errors.InsertingProgress.Message">无法将进度元素插入项目</s:String>
 
     <!--Error • Inserting drawing--> 
-    <s:String x:Key="S.Errors.InsertingDrawing.Header">Error inserting drawing</s:String>
-    <s:String x:Key="S.Errors.InsertingDrawing.Message">Failed to insert the drawing element into the project</s:String>
+    <s:String x:Key="S.Errors.InsertingDrawing.Header">插入绘图时出错</s:String>
+    <s:String x:Key="S.Errors.InsertingDrawing.Message">无法将绘图元素插入项目</s:String>
 
     <!--Error • Editing drawing--> 
-    <s:String x:Key="S.Errors.EditingDrawing.Header">Error editing drawing</s:String>
-    <s:String x:Key="S.Errors.EditingDrawing.Message">Failed to edit the select drawing</s:String>
+    <s:String x:Key="S.Errors.EditingDrawing.Header">编辑绘图时出错</s:String>
+    <s:String x:Key="S.Errors.EditingDrawing.Message">无法编辑所选绘图</s:String>
 
     <!--Error • Inserting segment (generic)--> 
-    <s:String x:Key="S.Errors.InsertingSegment.Header">Error inserting segment</s:String>
-    <s:String x:Key="S.Errors.InsertingSegment.Message">Failed to insert the segment into the project</s:String>
+    <s:String x:Key="S.Errors.InsertingSegment.Header">插入分段时出错</s:String>
+    <s:String x:Key="S.Errors.InsertingSegment.Message">无法将分段插入项目</s:String>
 
     <!--Error • Inserting track (empty)--> 
-    <s:String x:Key="S.Errors.InsertingEmptyTrack.Header">Error inserting track</s:String>
-    <s:String x:Key="S.Errors.InsertingEmptyTrack.Message">Failed to insert the empty track into the project</s:String>
+    <s:String x:Key="S.Errors.InsertingEmptyTrack.Header">插入轨道时出错</s:String>
+    <s:String x:Key="S.Errors.InsertingEmptyTrack.Message">无法将空轨道插入项目</s:String>
 
     <!--Error • Reorder tracks--> 
-    <s:String x:Key="S.Errors.ReorderingTracks.Header">Error reordering tracks</s:String>
-    <s:String x:Key="S.Errors.ReorderingTracks.Message">Failed to reorder the selected tracks</s:String>
+    <s:String x:Key="S.Errors.ReorderingTracks.Header">重新排序轨道时出错</s:String>
+    <s:String x:Key="S.Errors.ReorderingTracks.Message">无法重新排序所选轨道</s:String>
 
     <!--Error • Remove tracks--> 
-    <s:String x:Key="S.Errors.RemoveTracks.Header">Error remove tracks</s:String>
-    <s:String x:Key="S.Errors.RemoveTracks.Message">Failed to remove the selected tracks</s:String>
+    <s:String x:Key="S.Errors.RemoveTracks.Header">移除轨道时出错</s:String>
+    <s:String x:Key="S.Errors.RemoveTracks.Message">无法移除所选轨道</s:String>
 
     <!--Error • Move segments--> 
-    <s:String x:Key="S.Errors.MoveSegments.Header">Error moving segments</s:String>
-    <s:String x:Key="S.Errors.MoveSegments.Message">Failed to move the selected segments</s:String>
+    <s:String x:Key="S.Errors.MoveSegments.Header">移动分段时出错</s:String>
+    <s:String x:Key="S.Errors.MoveSegments.Message">无法移动所选分段</s:String>
 
     <!--Error • Remove segments--> 
-    <s:String x:Key="S.Errors.RemoveSegments.Header">Error removing segments</s:String>
-    <s:String x:Key="S.Errors.RemoveSegments.Message">Failed to remove the selected segments</s:String>
+    <s:String x:Key="S.Errors.RemoveSegments.Header">移除分段时出错</s:String>
+    <s:String x:Key="S.Errors.RemoveSegments.Message">无法移除所选分段</s:String>
 
     <!--Error • Split segment--> 
-    <s:String x:Key="S.Errors.SplitSegment.Header">Error splitting segment</s:String>
-    <s:String x:Key="S.Errors.SplitSegment.Message">Failed to split the selected segment</s:String>
+    <s:String x:Key="S.Errors.SplitSegment.Header">拆分分段时出错</s:String>
+    <s:String x:Key="S.Errors.SplitSegment.Message">无法拆分所选分段</s:String>
 
     <!--Error • Trim segment--> 
-    <s:String x:Key="S.Errors.TrimSegment.Header">Error trimming segment</s:String>
-    <s:String x:Key="S.Errors.TrimSegment.Message">Failed to trim the selected segment</s:String>
+    <s:String x:Key="S.Errors.TrimSegment.Header">修剪分段时出错</s:String>
+    <s:String x:Key="S.Errors.TrimSegment.Message">无法修剪所选分段</s:String>
 
     <!--Error • Edit key aliases--> 
-    <s:String x:Key="S.Errors.EditAliases.Header">Error editing key aliases</s:String>
-    <s:String x:Key="S.Errors.EditAliases.Message">Failed to edit the key aliases</s:String>
+    <s:String x:Key="S.Errors.EditAliases.Header">编辑按键别名时出错</s:String>
+    <s:String x:Key="S.Errors.EditAliases.Message">无法编辑按键别名</s:String>
 
     <!--Error • Edit key translations--> 
-    <s:String x:Key="S.Errors.EditTranslations.Header">Error editing key translations</s:String>
-    <s:String x:Key="S.Errors.EditTranslations.Message">Failed to edit the key translations</s:String>
+    <s:String x:Key="S.Errors.EditTranslations.Header">编辑按键翻译时出错</s:String>
+    <s:String x:Key="S.Errors.EditTranslations.Message">无法编辑按键翻译</s:String>
 
     <!--Error • Add effect--> 
-    <s:String x:Key="S.Errors.AddEffect.Header">Error adding effect</s:String>
-    <s:String x:Key="S.Errors.AddEffect.Message">Failed to add the effect</s:String>
+    <s:String x:Key="S.Errors.AddEffect.Header">添加效果时出错</s:String>
+    <s:String x:Key="S.Errors.AddEffect.Message">无法添加效果</s:String>
 
     <!--Error • Edit effect--> 
-    <s:String x:Key="S.Errors.EditEffect.Header">Error editing effect</s:String>
-    <s:String x:Key="S.Errors.EditEffect.Message">Failed to edit the effect</s:String>
+    <s:String x:Key="S.Errors.EditEffect.Header">编辑效果时出错</s:String>
+    <s:String x:Key="S.Errors.EditEffect.Message">无法编辑效果</s:String>
 
     <!--Error • Remove effect--> 
-    <s:String x:Key="S.Errors.RemoveEffect.Header">Error removing effect</s:String>
-    <s:String x:Key="S.Errors.RemoveEffect.Message">Failed to remove the effect</s:String>
+    <s:String x:Key="S.Errors.RemoveEffect.Header">移除效果时出错</s:String>
+    <s:String x:Key="S.Errors.RemoveEffect.Message">无法移除效果</s:String>
 
     <!--Error • Redo--> 
-    <s:String x:Key="S.Errors.Redo.Header">Error redoing action</s:String>
-    <s:String x:Key="S.Errors.Redo.Message">Failed to redo the previous action</s:String>
+    <s:String x:Key="S.Errors.Redo.Header">重做操作时出错</s:String>
+    <s:String x:Key="S.Errors.Redo.Message">无法重做上一步操作</s:String>
 
     <!--Error • Redo--> 
-    <s:String x:Key="S.Errors.Undo.Header">Error undoing action</s:String>
-    <s:String x:Key="S.Errors.Undo.Message">Failed to undo the previous action</s:String>
+    <s:String x:Key="S.Errors.Undo.Header">撤销操作时出错</s:String>
+    <s:String x:Key="S.Errors.Undo.Message">无法撤销上一步操作</s:String>
 
     <!--Error • Generic--> 
-    <s:String x:Key="S.Errors.Action.Header">Error running action</s:String>
-    <s:String x:Key="S.Errors.Action.Message">Failed to run the action</s:String>
+    <s:String x:Key="S.Errors.Action.Header">运行操作时出错</s:String>
+    <s:String x:Key="S.Errors.Action.Message">无法运行该操作</s:String>
 
     <!--Error • Plugin--> 
-    <s:String x:Key="S.Errors.Plugin.Header">Error downloading plugin</s:String>
-    <s:String x:Key="S.Errors.Plugin.Message">Failed download and extract plugin</s:String>
+    <s:String x:Key="S.Errors.Plugin.Header">下载插件时出错</s:String>
+    <s:String x:Key="S.Errors.Plugin.Message">下载并解压插件失败</s:String>
+
+    <!--Error • Open windows settings--> 
+    <s:String x:Key="S.Errors.WindowsSettings.Header">Windows 设置</s:String>
+    <s:String x:Key="S.Errors.WindowsSettings.Message">无法打开设置页面</s:String>
 
     <!--Error • Others--> 
-    <s:String x:Key="S.Errors.Activation.Title">Activation failed</s:String>
-    <s:String x:Key="S.Errors.Activation.Generic">It was not possible to activate the app due to an unknown problem</s:String>
-    <s:String x:Key="S.Errors.Activation.EmailOrPasswordWrong">The activation attempt failed due to incorrect email or password</s:String>
-    <s:String x:Key="S.Errors.Activation.NoValidSubscription">No active subscription found for this app</s:String>
-    <s:String x:Key="S.Errors.Activation.NotEnoughSeats">Not enough seats available for subscription. Open the account page to configure more seats</s:String>
-    <s:String x:Key="S.Errors.Activation.TenantFrozenBlocked">User is blocked. Contact your sys-admin to free access for email</s:String>
-    <s:String x:Key="S.Errors.Activation.TenantNotFound">No user found with given email and serial</s:String>
-    <s:String x:Key="S.Errors.Activation.TenantAlreadyInUse">Email and serial already in use in another computer. Ask your sys-admin to add another seat</s:String>
+    <s:String x:Key="S.Errors.Activation.Title">激活失败</s:String>
+    <s:String x:Key="S.Errors.Activation.Generic">由于未知问题，无法激活应用</s:String>
+    <s:String x:Key="S.Errors.Activation.EmailOrPasswordWrong">由于电子邮件或密码错误，激活尝试失败</s:String>
+    <s:String x:Key="S.Errors.Activation.NoValidSubscription">未找到此应用的有效订阅</s:String>
+    <s:String x:Key="S.Errors.Activation.NotEnoughSeats">订阅可用席位不足。请打开账户页面配置更多席位</s:String>
+    <s:String x:Key="S.Errors.Activation.TenantFrozenBlocked">用户已被阻止。请联系系统管理员解除电子邮件访问限制</s:String>
+    <s:String x:Key="S.Errors.Activation.TenantNotFound">未找到具有给定电子邮件和序列号的用户</s:String>
+    <s:String x:Key="S.Errors.Activation.TenantAlreadyInUse">电子邮件和序列号已在另一台计算机中使用。请让系统管理员添加另一个席位</s:String>
 
     <!--Windows • Welcome -->
     <s:String x:Key="S.Welcome.ScreenRecorder">屏幕录制</s:String>
     <s:String x:Key="S.Welcome.SoundRecorder">声音录制</s:String>
+    <s:String x:Key="S.Welcome.RegionShare">区域共享</s:String>
     <s:String x:Key="S.Welcome.Editor">编辑器</s:String>
     <s:String x:Key="S.Welcome.Feedback">反馈</s:String>
     <s:String x:Key="S.Welcome.Troubleshoot">故障排查</s:String>
@@ -780,6 +791,19 @@
     <s:String x:Key="S.SoundRecorder.Title">N-Studio • 声音录制器</s:String>
     <s:String x:Key="S.SoundRecorder.NoInputs">未选择麦克风或扬声器</s:String>
     <s:String x:Key="S.SoundRecorder.Select">选择一个或多个源并按录制</s:String>
+
+    <!--Windows • Region Share-->
+    <s:String x:Key="S.RegionShare.Title">N-Studio • 区域共享</s:String>
+    <s:String x:Key="S.RegionShare.Pick">选择要共享的区域</s:String>
+    <s:String x:Key="S.RegionShare.HideCursor">隐藏鼠标光标</s:String>
+    <s:String x:Key="S.RegionShare.HideCursorEffects">隐藏鼠标光标效果</s:String>
+    <s:String x:Key="S.RegionShare.DisableCursorFollowing">禁用光标跟随</s:String>
+    <s:String x:Key="S.RegionShare.HideKeyPresses">隐藏按键显示</s:String>
+    <s:String x:Key="S.RegionShare.RecentShares">最近的共享</s:String>
+    <s:String x:Key="S.RegionShare.RecentShares.None">没有最近的共享</s:String>
+    <s:String x:Key="S.RegionShare.QuickSettings">快速设置</s:String>
+    <s:String x:Key="S.RegionShare.QuickSettings.Info">显示快速设置</s:String>
+    <s:String x:Key="S.RegionShare.PickAnother">选择另一个屏幕区域</s:String>
 
     <!--Windows • Exporter-->
     <s:String x:Key="S.Exporter.Title">N-Studio • 导出器</s:String>
@@ -918,6 +942,7 @@
     <s:String x:Key="S.Editor.Insert.Blur">模糊</s:String>
     <s:String x:Key="S.Editor.Insert.Zoom">放大</s:String>
     <s:String x:Key="S.Editor.Insert.EmptyTrack">空白轨道</s:String>
+
     <s:String x:Key="S.Editor.Segment.TrimStart">修剪片段头</s:String>
     <s:String x:Key="S.Editor.Segment.Split">分割片段</s:String>
     <s:String x:Key="S.Editor.Segment.TrimEnd">修剪片段尾</s:String>
@@ -989,6 +1014,8 @@
     <s:String x:Key="S.Feedback.Extra.Hardware">硬件</s:String>
     <s:String x:Key="S.Feedback.Extra.Hardware.Info">处理器、内存和图形适配器详情</s:String>
     <s:String x:Key="S.Feedback.Extra.Screen.Info">屏幕详情，例如分辨率和缩放</s:String>
+    <s:String x:Key="S.Feedback.Extra.Sound">声音设备</s:String>
+    <s:String x:Key="S.Feedback.Extra.Sound.Info">关于声音设备（如麦克风和扬声器）的详细信息</s:String>
     <s:String x:Key="S.Feedback.Extra.Disks.Info">磁盘详情，例如总容量和可用容量</s:String>
     <s:String x:Key="S.Feedback.Extra.Error">错误</s:String>
     <s:String x:Key="S.Feedback.Extra.Error.Info">有关错误的详情</s:String>
@@ -1035,6 +1062,12 @@
     <s:String x:Key="S.FeedbackPreview.Screens.WorkingArea">工作区</s:String>
     <s:String x:Key="S.FeedbackPreview.Screens.Scale">DPI/缩放</s:String>
     <s:String x:Key="S.FeedbackPreview.Screens.Adapter">图形适配器</s:String>
+    <s:String x:Key="S.FeedbackPreview.Sound.Name">友好名称</s:String>
+    <s:String x:Key="S.FeedbackPreview.Sound.Kind">类型</s:String>
+    <s:String x:Key="S.FeedbackPreview.Sound.IsDefault">是否为默认？</s:String>
+    <s:String x:Key="S.FeedbackPreview.Sound.IsEnabled">是否已启用？</s:String>
+    <s:String x:Key="S.FeedbackPreview.Sound.Channels">声道</s:String>
+    <s:String x:Key="S.FeedbackPreview.Sound.SampleRate">采样率</s:String>
     <s:String x:Key="S.FeedbackPreview.Disks">磁盘</s:String>
     <s:String x:Key="S.FeedbackPreview.Disks.Root">根目录</s:String>
     <s:String x:Key="S.FeedbackPreview.Disks.Total">总计</s:String>
@@ -1048,21 +1081,21 @@
     <s:String x:Key="S.ProjectTypes.Project">项目</s:String>
     <s:String x:Key="S.ProjectTypes.RecordingOld">录制（旧版）</s:String>
 
-        <!--Capture-->
-        <s:String x:Key="S.Capture.Record">录制</s:String>
-        <s:String x:Key="S.Capture.Snap">快照</s:String>
-        <s:String x:Key="S.Capture.Pause">暂停</s:String>
-        <s:String x:Key="S.Capture.Continue">继续</s:String>
-        <s:String x:Key="S.Capture.Stop">停止</s:String>
-        <s:String x:Key="S.Capture.Discard">放弃</s:String>
-        <s:String x:Key="S.Capture.Time">录制时间</s:String>
+    <!--Capture-->
+    <s:String x:Key="S.Capture.Record">录制</s:String>
+    <s:String x:Key="S.Capture.Snap">快照</s:String>
+    <s:String x:Key="S.Capture.Pause">暂停</s:String>
+    <s:String x:Key="S.Capture.Continue">继续</s:String>
+    <s:String x:Key="S.Capture.Stop">停止</s:String>
+    <s:String x:Key="S.Capture.Discard">放弃</s:String>
+    <s:String x:Key="S.Capture.Time">录制时间</s:String>
 
-        <!--Timer-->
-        <s:String x:Key="S.Timer.Elapsed">已用录制时间</s:String>
-        <s:String x:Key="S.Timer.Total">总帧数:</s:String>
-        <s:String x:Key="S.Timer.Manual">手动捕获:</s:String>
-        <s:String x:Key="S.Timer.Paused">录制已暂停</s:String>
-        <s:String x:Key="S.Timer.Imprecise">你的计算机不支持精确的录制模式，&#10;这意味着目标帧率可能永远无法达到</s:String>
+    <!--Timer-->
+    <s:String x:Key="S.Timer.Elapsed">已用录制时间</s:String>
+    <s:String x:Key="S.Timer.Total">总帧数:</s:String>
+    <s:String x:Key="S.Timer.Manual">手动捕获:</s:String>
+    <s:String x:Key="S.Timer.Paused">录制已暂停</s:String>
+    <s:String x:Key="S.Timer.Imprecise">你的计算机不支持精确的录制模式，&#10;这意味着目标帧率可能永远无法达到</s:String>
 
     <!--Audio-->
     <s:String x:Key="S.Audio.Toggle.Microphone.Info">切换麦克风音频捕获</s:String>
@@ -1075,6 +1108,7 @@
     <!--Playback-->
     <s:String x:Key="S.Playback.Play">播放</s:String>
     <s:String x:Key="S.Playback.Pause">暂停</s:String>
+    <s:String x:Key="S.Playback.Paused">已暂停</s:String>
     <s:String x:Key="S.Playback.SkipBackward">跳过后面</s:String>
     <s:String x:Key="S.Playback.SkipFrameBackward">向后跳过帧</s:String>
     <s:String x:Key="S.Playback.SkipForward">跳过前面</s:String>
@@ -1092,6 +1126,15 @@
     <s:String x:Key="S.Positioning.Top">顶部</s:String>
     <s:String x:Key="S.Positioning.Right">右侧</s:String>
     <s:String x:Key="S.Positioning.Bottom">底部</s:String>
+    <s:String x:Key="S.Positioning.TopLeft">左上角</s:String>
+    <s:String x:Key="S.Positioning.TopCenter">顶部居中</s:String>
+    <s:String x:Key="S.Positioning.TopRight">右上角</s:String>
+    <s:String x:Key="S.Positioning.MiddleLeft">中间左侧</s:String>
+    <s:String x:Key="S.Positioning.Center">屏幕中心</s:String>
+    <s:String x:Key="S.Positioning.MiddleRight">中间右侧</s:String>
+    <s:String x:Key="S.Positioning.BottomLeft">左下角</s:String>
+    <s:String x:Key="S.Positioning.BottomCenter">底部居中</s:String>
+    <s:String x:Key="S.Positioning.BottomRight">右下角</s:String>
     <s:String x:Key="S.Positioning.Width">宽度</s:String>
     <s:String x:Key="S.Positioning.Height">高度</s:String>
     <s:String x:Key="S.Positioning.Angle">角度</s:String>
@@ -1254,16 +1297,16 @@
     <s:String x:Key="S.Formats.Wma.Info">Windows Media Audio</s:String>
 
     <s:String x:Key="S.Formats.Avif">AVIF</s:String>
-    <s:String x:Key="S.Formats.Avif.Info">AV1‑Compressed Image (HEIF/AV1)</s:String>
+    <s:String x:Key="S.Formats.Avif.Info">AV1 压缩图像（HEIF/AV1）</s:String>
     <s:String x:Key="S.Formats.Bmp">Bmp</s:String>
     <s:String x:Key="S.Formats.Bmp.Info">Bitmap</s:String>
     <s:String x:Key="S.Formats.Heic">HEIC</s:String>
-    <s:String x:Key="S.Formats.Heic.Info">High‑Efficiency Image (HEIF/HEVC)</s:String>
+    <s:String x:Key="S.Formats.Heic.Info">高效图像（HEIF/HEVC）</s:String>
     <s:String x:Key="S.Formats.Jpeg">Jpeg</s:String>
     <s:String x:Key="S.Formats.Jpeg.Info">Joint Photographic Experts Group</s:String>
     <s:String x:Key="S.Formats.Png">Png</s:String>
     <s:String x:Key="S.Formats.Png.Info">Portable Network Graphics</s:String>
-    <s:String x:Key="S.Formats.Images.Zip">Packed images</s:String>
+    <s:String x:Key="S.Formats.Images.Zip">打包图像</s:String>
 
     <s:String x:Key="S.Formats.Project">项目</s:String>
     <s:String x:Key="S.Formats.Project.Info">N-Studio 项目</s:String>
@@ -1305,6 +1348,7 @@
     <s:String x:Key="S.Settings.Pages.Application">应用设置</s:String>
     <s:String x:Key="S.Settings.Pages.ScreenRecorder">屏幕录制</s:String>
     <s:String x:Key="S.Settings.Pages.SoundRecorder">声音录制</s:String>
+    <s:String x:Key="S.Settings.Pages.RegionShare">区域共享</s:String>
     <s:String x:Key="S.Settings.Pages.DefaultStyles">默认样式</s:String>
     <s:String x:Key="S.Settings.Pages.DefaultEffects">默认效果</s:String>
     <s:String x:Key="S.Settings.Pages.Editor">编辑器</s:String>
@@ -1325,6 +1369,7 @@
     <s:String x:Key="S.Settings.Sections.TemporaryFiles">临时文件</s:String>
     <s:String x:Key="S.Settings.Sections.Cleanup">清理</s:String>
     <s:String x:Key="S.Settings.Sections.MoreOptions">更多选项</s:String>
+    <s:String x:Key="S.Settings.Sections.Styles">样式</s:String>
 
     <!--Settings • Application-->
     <s:String x:Key="S.Settings.Application.Language">语言</s:String>
@@ -1370,6 +1415,8 @@
     <s:String x:Key="S.Settings.Application.Startup.StartWith.Screen.Info">录制屏幕以及麦克风或系统音频</s:String>
     <s:String x:Key="S.Settings.Application.Startup.StartWith.Sound">声音录制器</s:String>
     <s:String x:Key="S.Settings.Application.Startup.StartWith.Sound.Info">从麦克风或系统音频采集音频</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.RegionShare">区域共享</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.RegionShare.Info">选择屏幕的一个区域与其他应用程序共享</s:String>
     <s:String x:Key="S.Settings.Application.Startup.StartWith.Editor">编辑器</s:String>
     <s:String x:Key="S.Settings.Application.Startup.StartWith.Editor.Info">创建或编辑内容</s:String>
     <s:String x:Key="S.Settings.Application.Startup.StartWith.Nothing">不进行任何操作</s:String>
@@ -1382,6 +1429,7 @@
     <!--Settings • Application > Shortcuts-->
     <s:String x:Key="S.Settings.Application.Shortcuts.Screen.Info">切换到屏幕录制器或打开新实例</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Sound.Info">切换到音声录制器或打开新实例</s:String>
+    <s:String x:Key="S.Settings.Application.Shortcuts.RegionShare.Info">切换到区域共享工具或打开新实例</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Editor.Info">打开另一个编辑器实例</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Settings">设置</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Settings.Info">打开设置窗口</s:String>
@@ -1512,101 +1560,114 @@
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.CaptureChanges">仅在有变化时捕获</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.CaptureChanges.Info">只有在捕获区域内的内容发生变化时，才会捕获帧</s:String>
 
-        <!--Settings • Screen Recorder > Guidelines-->
-        <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.RuleOfThirds">三分法则</s:String>
-        <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.RuleOfThirds.Info">显示代表三分法则比例的框架网格</s:String>
-        <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.Crosshair">十字线</s:String>
-        <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.Crosshair.Info">显示十字准线框架网格</s:String>
+    <!--Settings • Screen Recorder > Guidelines-->
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.RuleOfThirds">三分法则</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.RuleOfThirds.Info">显示代表三分法则比例的框架网格</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.Crosshair">十字线</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.Crosshair.Info">显示十字准线框架网格</s:String>
 
-        <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.LineThickness">线条厚度</s:String>
-        <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.LineColor">线条颜色</s:String>
-        <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.Dashes">虚线</s:String>
-        <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.Dashes.Info">控制虚线和间隙的大小。&#10;你可以设置多个大小来创建复杂的虚线样式。&#10;默认值为"1 0"或空，表示没有间隙的虚线。</s:String>
-        <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.Info">只有在录制器暂停或停止时才会显示辅助线</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.LineThickness">线条厚度</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.LineColor">线条颜色</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.Dashes">虚线</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.Dashes.Info">控制虚线和间隙的大小。&#10;你可以设置多个大小来创建复杂的虚线样式。&#10;默认值为"1 0"或空，表示没有间隙的虚线。</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.Info">只有在录制器暂停或停止时才会显示辅助线</s:String>
 
-        <!--Settings • Styles-->
-        <s:String x:Key="S.Settings.Styles.FontFamily">字体系列</s:String>
-        <s:String x:Key="S.Settings.Styles.FontSize">字体大小</s:String>
-        <s:String x:Key="S.Settings.Styles.ParagraphAlignment">段落对齐</s:String>
-        <s:String x:Key="S.Settings.Styles.ParagraphAlignment.Near">靠近</s:String>
-        <s:String x:Key="S.Settings.Styles.ParagraphAlignment.Far">靠远</s:String>
-        <s:String x:Key="S.Settings.Styles.ParagraphAlignment.Center">居中</s:String>
-        <s:String x:Key="S.Settings.Styles.FlowDirection">分布</s:String>
-        <s:String x:Key="S.Settings.Styles.FlowDirection.TopToBottom">从上到下</s:String>
-        <s:String x:Key="S.Settings.Styles.FlowDirection.LeftToRight">从左到右</s:String>
-        <s:String x:Key="S.Settings.Styles.FlowDirection.RightToLeft">从右到左</s:String>
-        <s:String x:Key="S.Settings.Styles.FlowDirection.BottomToTop">从下到上</s:String>
-        <s:String x:Key="S.Settings.Styles.ReadingDirection">阅读方向</s:String>
-        <s:String x:Key="S.Settings.Styles.IncrementalTabStop">制表符停止距离</s:String>
-        <s:String x:Key="S.Settings.Styles.WordWrapping">自动换行</s:String>
-        <s:String x:Key="S.Settings.Styles.WordWrapping.Wrap">换行</s:String>
-        <s:String x:Key="S.Settings.Styles.WordWrapping.NoWrap">不换行</s:String>
-        <s:String x:Key="S.Settings.Styles.WordWrapping.EmergencyBreak">紧急换行</s:String>
-        <s:String x:Key="S.Settings.Styles.WordWrapping.WholeWord">整词换行</s:String>
-        <s:String x:Key="S.Settings.Styles.WordWrapping.Character">按字符换行</s:String>
-        <s:String x:Key="S.Settings.Styles.LineSpacingMethod">行距方法</s:String>
-        <s:String x:Key="S.Settings.Styles.LineSpacingMethod.Default">默认</s:String>
-        <s:String x:Key="S.Settings.Styles.LineSpacingMethod.Uniform">均匀</s:String>
-        <s:String x:Key="S.Settings.Styles.LineSpacingMethod.Proportional">比例</s:String>
-        <s:String x:Key="S.Settings.Styles.LineSpacing">行距</s:String>
-        <s:String x:Key="S.Settings.Styles.Baseline">基线</s:String>
-        <s:String x:Key="S.Settings.Styles.TrimmingDelimiter">修剪分隔符</s:String>
-        <s:String x:Key="S.Settings.Styles.DelimiterCount">分隔符计数</s:String>
-        <s:String x:Key="S.Settings.Styles.TrimmingGranularity">修剪粒度</s:String>
-        <s:String x:Key="S.Settings.Styles.TrimmingGranularity.None">无</s:String>
-        <s:String x:Key="S.Settings.Styles.TrimmingGranularity.Character">字符</s:String>
-        <s:String x:Key="S.Settings.Styles.TrimmingGranularity.Word">单词</s:String>
-        <s:String x:Key="S.Settings.Styles.Underline">下划线</s:String>
-        <s:String x:Key="S.Settings.Styles.Strikethrough">删除线</s:String>
-        <s:String x:Key="S.Settings.Styles.Foreground">前景</s:String>
-        <s:String x:Key="S.Settings.Styles.Outline">轮廓</s:String>
-        <s:String x:Key="S.Settings.Styles.OutlineThickness">轮廓厚度</s:String>
-        <s:String x:Key="S.Settings.Styles.Background">背景</s:String>
-        <s:String x:Key="S.Settings.Styles.CornerRadius">圆角半径</s:String>
-        <s:String x:Key="S.Settings.Styles.Padding">内边距</s:String>
-        <s:String x:Key="S.Settings.Styles.Margin">外边距</s:String>
-        <s:String x:Key="S.Settings.Styles.IgnoreNonModifiersKeys">忽略非修饰键</s:String>
-        <s:String x:Key="S.Settings.Styles.IgnoreJustModifiersKeys">忽略仅修饰键</s:String>
-        <s:String x:Key="S.Settings.Styles.IgnoreInjectedKeys">忽略注入的键</s:String>
-        <s:String x:Key="S.Settings.Styles.IgnoreSpecialKeys">忽略特殊键</s:String>
-        <s:String x:Key="S.Settings.Styles.IgnoreArrowKeys">忽略箭头键</s:String>
-        <s:String x:Key="S.Settings.Styles.IgnoreFunctionKeys">忽略功能键</s:String>
-        <s:String x:Key="S.Settings.Styles.GroupLetterKeys">组合字母键</s:String>
-        <s:String x:Key="S.Settings.Styles.StickForLonger">延长按键按压</s:String>
-        <s:String x:Key="S.Settings.Styles.StickForLonger.None">不延长按压</s:String>
-        <s:String x:Key="S.Settings.Styles.StickForLonger.Time">直到时间到达</s:String>
-        <s:String x:Key="S.Settings.Styles.StickForLonger.UntilStops">直到按键停止</s:String>
-        <s:String x:Key="S.Settings.Styles.StickForLonger.UntilDifferentKey">直到不同按键</s:String>
-        <s:String x:Key="S.Settings.Styles.StickForLonger.All">所有选项</s:String>
-        <s:String x:Key="S.Settings.Styles.StickForLongerTiming">延长按压时间</s:String>
-        <s:String x:Key="S.Settings.Styles.StickForLongerStopTiming">按键延长至</s:String>
-        <s:String x:Key="S.Settings.Styles.ResolveKeyCombos">解析按键组合</s:String>
-        <s:String x:Key="S.Settings.Styles.ForceUpperCasing">强制按键大写</s:String>
-        <s:String x:Key="S.Settings.Styles.IgnoreRepeatedPresses">忽略重复按压</s:String>
-        <s:String x:Key="S.Settings.Styles.ShowRepeatedPressMultiplier">显示重复按压乘数</s:String>
-        <s:String x:Key="S.Settings.Styles.AppendDirection">附加方向</s:String>
-        <s:String x:Key="S.Settings.Styles.MaximumQuantityOfLines">最大行数</s:String>
-        <s:String x:Key="S.Settings.Styles.TimingOffset">时间偏移</s:String>
-        <s:String x:Key="S.Settings.Styles.Duration">持续时间</s:String>
-        <s:String x:Key="S.Settings.Styles.KeyTranslations">按键翻译</s:String>
-        <s:String x:Key="S.Settings.Styles.KeyTranslations.Info">选择哪些键应显示翻译名称</s:String>
-        <s:String x:Key="S.Settings.Styles.KeyAliases">按键别名</s:String>
-        <s:String x:Key="S.Settings.Styles.KeyAliases.Info">为键名设置别名</s:String>
-        <s:String x:Key="S.Settings.Styles.KeyPrefix">按键前缀</s:String>
-        <s:String x:Key="S.Settings.Styles.KeySeparator">按键分隔符</s:String>
-        <s:String x:Key="S.Settings.Styles.UseNewLineForSeparator">在每个按键分隔符处使用新行</s:String>
-        <s:String x:Key="S.Settings.Styles.ModifierSeparator">修饰符分隔符</s:String>
-        <s:String x:Key="S.Settings.Styles.KeySuffix">按键后缀</s:String>
-        <s:String x:Key="S.Settings.Styles.Animate">动画</s:String>
-        <s:String x:Key="S.Settings.Styles.AnimationTiming">动画时间</s:String>
-        <s:String x:Key="S.Settings.Styles.AnimationStyle">动画样式</s:String>
-        <s:String x:Key="S.Settings.Styles.AnimationStyle.ScaleAndOpacity">缩放和透明度</s:String>
-        <s:String x:Key="S.Settings.Styles.AnimationStyle.Scale">缩放</s:String>
-        <s:String x:Key="S.Settings.Styles.AnimationStyle.Opacity">透明度</s:String>
-        <s:String x:Key="S.Settings.Styles.DifferentiateLeftVersusRightModifierKeys">区分左右修饰键</s:String>
-        <s:String x:Key="S.Settings.Styles.TranslateOrAliasModifierKeys">翻译或别名修饰键</s:String>
-        <s:String x:Key="S.Settings.Styles.MiterLimit">斜接限制</s:String>
-        <s:String x:Key="S.Settings.Styles.DashOffset">虚线偏移</s:String>
+    <!--Settings • Region Share-->
+    <s:String x:Key="S.Settings.RegionShare.Remember">记住共享</s:String>
+    <s:String x:Key="S.Settings.RegionShare.RememberLast">记住的选择数量</s:String>
+    <s:String x:Key="S.Settings.RegionShare.Overlay">记住覆盖选择</s:String>
+    <s:String x:Key="S.Settings.RegionShare.Overlay.Info">选择应用程序应记住哪些选项</s:String>
+    <s:String x:Key="S.Settings.RegionShare.Overlay.MouseCursor">记住鼠标光标可见性</s:String>
+    <s:String x:Key="S.Settings.RegionShare.Overlay.MouseCursorEffects">记住鼠标光标效果</s:String>
+    <s:String x:Key="S.Settings.RegionShare.Overlay.KeyPresses">记住按键显示</s:String>
+    <s:String x:Key="S.Settings.RegionShare.AntiMirror">防止预览镜像</s:String>
+    <s:String x:Key="S.Settings.RegionShare.AntiMirror.Info">在共享区域内将预览内容区域绘制为纯灰色块，以避免无限镜像效果。</s:String>
+    <s:String x:Key="S.Settings.RegionShare.Effects.Cursor">鼠标光标效果</s:String>
+    <s:String x:Key="S.Settings.RegionShare.Effects.Cursor.Info">选择鼠标点击交互的效果</s:String>
+
+    <!--Settings • Styles-->
+    <s:String x:Key="S.Settings.Styles.FontFamily">字体系列</s:String>
+    <s:String x:Key="S.Settings.Styles.FontSize">字体大小</s:String>
+    <s:String x:Key="S.Settings.Styles.ParagraphAlignment">段落对齐</s:String>
+    <s:String x:Key="S.Settings.Styles.ParagraphAlignment.Near">靠近</s:String>
+    <s:String x:Key="S.Settings.Styles.ParagraphAlignment.Far">靠远</s:String>
+    <s:String x:Key="S.Settings.Styles.ParagraphAlignment.Center">居中</s:String>
+    <s:String x:Key="S.Settings.Styles.FlowDirection">分布</s:String>
+    <s:String x:Key="S.Settings.Styles.FlowDirection.TopToBottom">从上到下</s:String>
+    <s:String x:Key="S.Settings.Styles.FlowDirection.LeftToRight">从左到右</s:String>
+    <s:String x:Key="S.Settings.Styles.FlowDirection.RightToLeft">从右到左</s:String>
+    <s:String x:Key="S.Settings.Styles.FlowDirection.BottomToTop">从下到上</s:String>
+    <s:String x:Key="S.Settings.Styles.ReadingDirection">阅读方向</s:String>
+    <s:String x:Key="S.Settings.Styles.IncrementalTabStop">制表符停止距离</s:String>
+    <s:String x:Key="S.Settings.Styles.WordWrapping">自动换行</s:String>
+    <s:String x:Key="S.Settings.Styles.WordWrapping.Wrap">换行</s:String>
+    <s:String x:Key="S.Settings.Styles.WordWrapping.NoWrap">不换行</s:String>
+    <s:String x:Key="S.Settings.Styles.WordWrapping.EmergencyBreak">紧急换行</s:String>
+    <s:String x:Key="S.Settings.Styles.WordWrapping.WholeWord">整词换行</s:String>
+    <s:String x:Key="S.Settings.Styles.WordWrapping.Character">按字符换行</s:String>
+    <s:String x:Key="S.Settings.Styles.LineSpacingMethod">行距方法</s:String>
+    <s:String x:Key="S.Settings.Styles.LineSpacingMethod.Default">默认</s:String>
+    <s:String x:Key="S.Settings.Styles.LineSpacingMethod.Uniform">均匀</s:String>
+    <s:String x:Key="S.Settings.Styles.LineSpacingMethod.Proportional">比例</s:String>
+    <s:String x:Key="S.Settings.Styles.LineSpacing">行距</s:String>
+    <s:String x:Key="S.Settings.Styles.Baseline">基线</s:String>
+    <s:String x:Key="S.Settings.Styles.TrimmingDelimiter">修剪分隔符</s:String>
+    <s:String x:Key="S.Settings.Styles.DelimiterCount">分隔符计数</s:String>
+    <s:String x:Key="S.Settings.Styles.TrimmingGranularity">修剪粒度</s:String>
+    <s:String x:Key="S.Settings.Styles.TrimmingGranularity.None">无</s:String>
+    <s:String x:Key="S.Settings.Styles.TrimmingGranularity.Character">字符</s:String>
+    <s:String x:Key="S.Settings.Styles.TrimmingGranularity.Word">单词</s:String>
+    <s:String x:Key="S.Settings.Styles.Underline">下划线</s:String>
+    <s:String x:Key="S.Settings.Styles.Strikethrough">删除线</s:String>
+    <s:String x:Key="S.Settings.Styles.Foreground">前景</s:String>
+    <s:String x:Key="S.Settings.Styles.Outline">轮廓</s:String>
+    <s:String x:Key="S.Settings.Styles.OutlineThickness">轮廓厚度</s:String>
+    <s:String x:Key="S.Settings.Styles.Background">背景</s:String>
+    <s:String x:Key="S.Settings.Styles.CornerRadius">圆角半径</s:String>
+    <s:String x:Key="S.Settings.Styles.Padding">内边距</s:String>
+    <s:String x:Key="S.Settings.Styles.Margin">外边距</s:String>
+    <s:String x:Key="S.Settings.Styles.IgnoreNonModifiersKeys">忽略非修饰键</s:String>
+    <s:String x:Key="S.Settings.Styles.IgnoreJustModifiersKeys">忽略仅修饰键</s:String>
+    <s:String x:Key="S.Settings.Styles.IgnoreInjectedKeys">忽略注入的键</s:String>
+    <s:String x:Key="S.Settings.Styles.IgnoreSpecialKeys">忽略特殊键</s:String>
+    <s:String x:Key="S.Settings.Styles.IgnoreArrowKeys">忽略箭头键</s:String>
+    <s:String x:Key="S.Settings.Styles.IgnoreFunctionKeys">忽略功能键</s:String>
+    <s:String x:Key="S.Settings.Styles.GroupLetterKeys">组合字母键</s:String>
+    <s:String x:Key="S.Settings.Styles.StickForLonger">延长按键按压</s:String>
+    <s:String x:Key="S.Settings.Styles.StickForLonger.None">不延长按压</s:String>
+    <s:String x:Key="S.Settings.Styles.StickForLonger.Time">直到时间到达</s:String>
+    <s:String x:Key="S.Settings.Styles.StickForLonger.UntilStops">直到按键停止</s:String>
+    <s:String x:Key="S.Settings.Styles.StickForLonger.UntilDifferentKey">直到不同按键</s:String>
+    <s:String x:Key="S.Settings.Styles.StickForLonger.All">所有选项</s:String>
+    <s:String x:Key="S.Settings.Styles.StickForLongerTiming">延长按压时间</s:String>
+    <s:String x:Key="S.Settings.Styles.StickForLongerStopTiming">按键延长至</s:String>
+    <s:String x:Key="S.Settings.Styles.ResolveKeyCombos">解析按键组合</s:String>
+    <s:String x:Key="S.Settings.Styles.ForceUpperCasing">强制按键大写</s:String>
+    <s:String x:Key="S.Settings.Styles.IgnoreRepeatedPresses">忽略重复按压</s:String>
+    <s:String x:Key="S.Settings.Styles.ShowRepeatedPressMultiplier">显示重复按压乘数</s:String>
+    <s:String x:Key="S.Settings.Styles.AppendDirection">附加方向</s:String>
+    <s:String x:Key="S.Settings.Styles.MaximumQuantityOfLines">最大行数</s:String>
+    <s:String x:Key="S.Settings.Styles.TimingOffset">时间偏移</s:String>
+    <s:String x:Key="S.Settings.Styles.Duration">持续时间</s:String>
+    <s:String x:Key="S.Settings.Styles.KeyTranslations">按键翻译</s:String>
+    <s:String x:Key="S.Settings.Styles.KeyTranslations.Info">选择哪些键应显示翻译名称</s:String>
+    <s:String x:Key="S.Settings.Styles.KeyAliases">按键别名</s:String>
+    <s:String x:Key="S.Settings.Styles.KeyAliases.Info">为键名设置别名</s:String>
+    <s:String x:Key="S.Settings.Styles.KeyPrefix">按键前缀</s:String>
+    <s:String x:Key="S.Settings.Styles.KeySeparator">按键分隔符</s:String>
+    <s:String x:Key="S.Settings.Styles.UseNewLineForSeparator">在每个按键分隔符处使用新行</s:String>
+    <s:String x:Key="S.Settings.Styles.ModifierSeparator">修饰符分隔符</s:String>
+    <s:String x:Key="S.Settings.Styles.KeySuffix">按键后缀</s:String>
+    <s:String x:Key="S.Settings.Styles.Animate">动画</s:String>
+    <s:String x:Key="S.Settings.Styles.AnimationTiming">动画时间</s:String>
+    <s:String x:Key="S.Settings.Styles.AnimationStyle">动画样式</s:String>
+    <s:String x:Key="S.Settings.Styles.AnimationStyle.ScaleAndOpacity">缩放和透明度</s:String>
+    <s:String x:Key="S.Settings.Styles.AnimationStyle.Scale">缩放</s:String>
+    <s:String x:Key="S.Settings.Styles.AnimationStyle.Opacity">透明度</s:String>
+    <s:String x:Key="S.Settings.Styles.DifferentiateLeftVersusRightModifierKeys">区分左右修饰键</s:String>
+    <s:String x:Key="S.Settings.Styles.TranslateOrAliasModifierKeys">翻译或别名修饰键</s:String>
+    <s:String x:Key="S.Settings.Styles.MiterLimit">斜接限制</s:String>
+    <s:String x:Key="S.Settings.Styles.DashOffset">虚线偏移</s:String>
 
     <!--Settings • Styles > Video-->
     <s:String x:Key="S.Settings.Styles.MaxFramerate">最大帧率</s:String>
@@ -1703,6 +1764,7 @@
     <s:String x:Key="S.Settings.Styles.Dash.Custom">自定义</s:String>
 
     <!--Settings • Effects-->
+    <s:String x:Key="S.Settings.Effects.None">尚未添加任何效果</s:String>
     <s:String x:Key="S.Settings.Effects.Add.Info">添加新效果</s:String>
     <s:String x:Key="S.Settings.Effects.Reset.Info">重置为默认设置</s:String>
     <s:String x:Key="S.Settings.Effects.RemoveAll.Info">移除所有效果</s:String>
@@ -1835,120 +1897,120 @@
     <s:String x:Key="S.PresetSettings.Copy">复制</s:String>
     <s:String x:Key="S.PresetSettings.Copied">(复制)</s:String>
 
-        <!--Windows • Preset Settings > Identification-->
-        <s:String x:Key="S.Preset.Identification">识别</s:String>
-        <s:String x:Key="S.Preset.Identification.Info">标题、描述等</s:String>
-        <s:String x:Key="S.Preset.Identification.Title">标题</s:String>
-        <s:String x:Key="S.Preset.Identification.Description">描述</s:String>
-        <s:String x:Key="S.Preset.Identification.Service">服务</s:String>
-        <s:String x:Key="S.Preset.Identification.Encoder">编码器</s:String>
-        <s:String x:Key="S.Preset.Identification.Enabled">启用</s:String>
-        <s:String x:Key="S.Preset.Identification.Enabled.Info">只有启用的预设才可以使用</s:String>
-        <s:String x:Key="S.Preset.Identification.AutoSave">自动保存输出选择</s:String>
-        <s:String x:Key="S.Preset.Identification.AutoSave.Info">输出路径和上传目标将被记住</s:String>
+    <!--Windows • Preset Settings > Identification-->
+    <s:String x:Key="S.Preset.Identification">识别</s:String>
+    <s:String x:Key="S.Preset.Identification.Info">标题、描述等</s:String>
+    <s:String x:Key="S.Preset.Identification.Title">标题</s:String>
+    <s:String x:Key="S.Preset.Identification.Description">描述</s:String>
+    <s:String x:Key="S.Preset.Identification.Service">服务</s:String>
+    <s:String x:Key="S.Preset.Identification.Encoder">编码器</s:String>
+    <s:String x:Key="S.Preset.Identification.Enabled">启用</s:String>
+    <s:String x:Key="S.Preset.Identification.Enabled.Info">只有启用的预设才可以使用</s:String>
+    <s:String x:Key="S.Preset.Identification.AutoSave">自动保存输出选择</s:String>
+    <s:String x:Key="S.Preset.Identification.AutoSave.Info">输出路径和上传目标将被记住</s:String>
 
-        <!--Windows • Preset Settings > Export-->
-        <s:String x:Key="S.Preset.Export.Title">导出选项</s:String>
-        <s:String x:Key="S.Preset.Export.Title.Info">输出目标、上传和导出后行为</s:String>
-        <s:String x:Key="S.Preset.Export.Folder">导出到文件夹</s:String>
-        <s:String x:Key="S.Preset.Export.Folder.Info">将项目导出到所选文件夹</s:String>
-        <s:String x:Key="S.Preset.Export.Upload">上传到服务</s:String>
-        <s:String x:Key="S.Preset.Export.Upload.Info">将项目上传到所选在线服务</s:String>
-        <s:String x:Key="S.Preset.Export.Clipboard">复制到剪贴板</s:String>
-        <s:String x:Key="S.Preset.Export.Clipboard.Info">导出后将路径或链接复制到剪贴板</s:String>
-        <s:String x:Key="S.Preset.Export.Commands">执行命令</s:String>
-        <s:String x:Key="S.Preset.Export.Commands.Info">导出后执行命令</s:String>
+    <!--Windows • Preset Settings > Export-->
+    <s:String x:Key="S.Preset.Export.Title">导出选项</s:String>
+    <s:String x:Key="S.Preset.Export.Title.Info">输出目标、上传和导出后行为</s:String>
+    <s:String x:Key="S.Preset.Export.Folder">导出到文件夹</s:String>
+    <s:String x:Key="S.Preset.Export.Folder.Info">将项目导出到所选文件夹</s:String>
+    <s:String x:Key="S.Preset.Export.Upload">上传到服务</s:String>
+    <s:String x:Key="S.Preset.Export.Upload.Info">将项目上传到所选在线服务</s:String>
+    <s:String x:Key="S.Preset.Export.Clipboard">复制到剪贴板</s:String>
+    <s:String x:Key="S.Preset.Export.Clipboard.Info">导出后将路径或链接复制到剪贴板</s:String>
+    <s:String x:Key="S.Preset.Export.Commands">执行命令</s:String>
+    <s:String x:Key="S.Preset.Export.Commands.Info">导出后执行命令</s:String>
 
-        <!--Windows • Preset Settings > Output-->
-        <s:String x:Key="S.Preset.Output.Title">输出</s:String>
-        <s:String x:Key="S.Preset.Output.Title.Info">默认输出文件夹和文件名</s:String>
-        <s:String x:Key="S.Preset.Output.Folder">文件夹</s:String>
-        <s:String x:Key="S.Preset.Output.FileName">文件名</s:String>
-        <s:String x:Key="S.Preset.Output.Select">选择输出文件夹</s:String>
-        <s:String x:Key="S.Preset.Output.Overwrite">覆盖</s:String>
-        <s:String x:Key="S.Preset.Output.Overwrite.Warn">警告</s:String>
-        <s:String x:Key="S.Preset.Output.Overwrite.Warn.Info">仅警告另一个同名文件存在</s:String>
-        <s:String x:Key="S.Preset.Output.Overwrite.Prompt">提示</s:String>
-        <s:String x:Key="S.Preset.Output.Overwrite.Prompt.Info">询问用户是否要覆盖该文件</s:String>
-        <s:String x:Key="S.Preset.Output.Overwrite.Allow">允许</s:String>
-        <s:String x:Key="S.Preset.Output.Overwrite.Allow.Info">直接覆盖该文件</s:String>
-        <s:String x:Key="S.Preset.Output.ExportAsProject">导出为项目</s:String>
-        <s:String x:Key="S.Preset.Output.ExportAsProject.Info">也导出为项目，到同一位置</s:String>
+    <!--Windows • Preset Settings > Output-->
+    <s:String x:Key="S.Preset.Output.Title">输出</s:String>
+    <s:String x:Key="S.Preset.Output.Title.Info">默认输出文件夹和文件名</s:String>
+    <s:String x:Key="S.Preset.Output.Folder">文件夹</s:String>
+    <s:String x:Key="S.Preset.Output.FileName">文件名</s:String>
+    <s:String x:Key="S.Preset.Output.Select">选择输出文件夹</s:String>
+    <s:String x:Key="S.Preset.Output.Overwrite">覆盖</s:String>
+    <s:String x:Key="S.Preset.Output.Overwrite.Warn">警告</s:String>
+    <s:String x:Key="S.Preset.Output.Overwrite.Warn.Info">仅警告另一个同名文件存在</s:String>
+    <s:String x:Key="S.Preset.Output.Overwrite.Prompt">提示</s:String>
+    <s:String x:Key="S.Preset.Output.Overwrite.Prompt.Info">询问用户是否要覆盖该文件</s:String>
+    <s:String x:Key="S.Preset.Output.Overwrite.Allow">允许</s:String>
+    <s:String x:Key="S.Preset.Output.Overwrite.Allow.Info">直接覆盖该文件</s:String>
+    <s:String x:Key="S.Preset.Output.ExportAsProject">导出为项目</s:String>
+    <s:String x:Key="S.Preset.Output.ExportAsProject.Info">也导出为项目，到同一位置</s:String>
 
-        <!--Windows • Preset Settings > Upload-->
-        <s:String x:Key="S.Preset.Upload.Title">上传</s:String>
-        <s:String x:Key="S.Preset.Upload.Title.Info">默认上传预设</s:String>
-        <s:String x:Key="S.Preset.Upload.Title2">上传选项</s:String>
-        <s:String x:Key="S.Preset.Upload.Title2.Info">特定于所选上传服务和文件格式的选项</s:String>
-        <s:String x:Key="S.Preset.Upload.Preset">预设</s:String>
+    <!--Windows • Preset Settings > Upload-->
+    <s:String x:Key="S.Preset.Upload.Title">上传</s:String>
+    <s:String x:Key="S.Preset.Upload.Title.Info">默认上传预设</s:String>
+    <s:String x:Key="S.Preset.Upload.Title2">上传选项</s:String>
+    <s:String x:Key="S.Preset.Upload.Title2.Info">特定于所选上传服务和文件格式的选项</s:String>
+    <s:String x:Key="S.Preset.Upload.Preset">预设</s:String>
 
-        <!--Windows • Preset Settings > Clipboard-->
-        <s:String x:Key="S.Preset.Clipboard.Title">剪贴板</s:String>
-        <s:String x:Key="S.Preset.Clipboard.Title.Info">导出后复制路径或链接</s:String>
-        <s:String x:Key="S.Preset.Clipboard.Behavior">复制行为</s:String>
-        <s:String x:Key="S.Preset.Clipboard.Behavior.File">文件</s:String>
-        <s:String x:Key="S.Preset.Clipboard.Behavior.File.Info">将输出文件复制到剪贴板。</s:String>
-        <s:String x:Key="S.Preset.Clipboard.Behavior.FolderPath">文件夹路径</s:String>
-        <s:String x:Key="S.Preset.Clipboard.Behavior.FolderPath.Info">将输出文件的文件夹路径复制到剪贴板。</s:String>
-        <s:String x:Key="S.Preset.Clipboard.Behavior.FilePath">文件路径</s:String>
-        <s:String x:Key="S.Preset.Clipboard.Behavior.FilePath.Info">将输出文件的路径复制到剪贴板。</s:String>
-        <s:String x:Key="S.Preset.Clipboard.Behavior.Link">链接</s:String>
-        <s:String x:Key="S.Preset.Clipboard.Behavior.Link.Info">将上传服务生成的链接复制到剪贴板。</s:String>
+    <!--Windows • Preset Settings > Clipboard-->
+    <s:String x:Key="S.Preset.Clipboard.Title">剪贴板</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Title.Info">导出后复制路径或链接</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior">复制行为</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior.File">文件</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior.File.Info">将输出文件复制到剪贴板。</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior.FolderPath">文件夹路径</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior.FolderPath.Info">将输出文件的文件夹路径复制到剪贴板。</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior.FilePath">文件路径</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior.FilePath.Info">将输出文件的路径复制到剪贴板。</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior.Link">链接</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior.Link.Info">将上传服务生成的链接复制到剪贴板。</s:String>
 
-        <s:String x:Key="S.Preset.Commands.Title">自定义命令</s:String>
-        <s:String x:Key="S.Preset.Commands.Title.Info">导出后要执行的命令</s:String>
-        <s:String x:Key="S.Preset.Commands.Commands">命令</s:String>
-        <s:String x:Key="S.Preset.Commands.Commands.Info">输入编码后要执行的命令。&#10;要执行多个命令，请在单独的行上输入每个命令。&#10;宏：&#10;{p} = 输出文件路径。&#10;{f} = 输出文件夹路径。&#10;{u} = 已上传文件的 URL。</s:String>
+    <s:String x:Key="S.Preset.Commands.Title">自定义命令</s:String>
+    <s:String x:Key="S.Preset.Commands.Title.Info">导出后要执行的命令</s:String>
+    <s:String x:Key="S.Preset.Commands.Commands">命令</s:String>
+    <s:String x:Key="S.Preset.Commands.Commands.Info">输入编码后要执行的命令。&#10;要执行多个命令，请在单独的行上输入每个命令。&#10;宏：&#10;{p} = 输出文件路径。&#10;{f} = 输出文件夹路径。&#10;{u} = 已上传文件的 URL。</s:String>
 
-        <s:String x:Key="S.Preset.Playback.Title">播放</s:String>
-        <s:String x:Key="S.Preset.Playback.Title.Info">动画的播放和帧率选项</s:String>
+    <s:String x:Key="S.Preset.Playback.Title">播放</s:String>
+    <s:String x:Key="S.Preset.Playback.Title.Info">动画的播放和帧率选项</s:String>
 
-        <s:String x:Key="S.Preset.Playback.AnimatedImage.Looped">循环动画</s:String>
-        <s:String x:Key="S.Preset.Playback.AnimatedImage.Looped.Info">播放时，到达末尾后，动画重新开始</s:String>
-        <s:String x:Key="S.Preset.Playback.AnimatedImage.Looped.Forever">永远重复</s:String>
-        <s:String x:Key="S.Preset.Playback.AnimatedImage.Looped.Forever.Info">动画无停止地重复</s:String>
-        <s:String x:Key="S.Preset.Playback.AnimatedImage.Looped.Count">重复次数</s:String>
-        <s:String x:Key="S.Preset.Playback.AnimatedImage.Looped.Count.Info">动画应重复的次数</s:String>
+    <s:String x:Key="S.Preset.Playback.AnimatedImage.Looped">循环动画</s:String>
+    <s:String x:Key="S.Preset.Playback.AnimatedImage.Looped.Info">播放时，到达末尾后，动画重新开始</s:String>
+    <s:String x:Key="S.Preset.Playback.AnimatedImage.Looped.Forever">永远重复</s:String>
+    <s:String x:Key="S.Preset.Playback.AnimatedImage.Looped.Forever.Info">动画无停止地重复</s:String>
+    <s:String x:Key="S.Preset.Playback.AnimatedImage.Looped.Count">重复次数</s:String>
+    <s:String x:Key="S.Preset.Playback.AnimatedImage.Looped.Count.Info">动画应重复的次数</s:String>
 
-        <s:String x:Key="S.Preset.Encoder.Title">编码器选项</s:String>
-        <s:String x:Key="S.Preset.Encoder.Title.Info">特定于所选编码器和文件格式的选项</s:String>
-        <s:String x:Key="S.Preset.Encoder.Version">版本</s:String>
-        <s:String x:Key="S.Preset.Encoder.Quality">质量</s:String>
-        <s:String x:Key="S.Preset.Encoder.Pass">遍</s:String>
+    <s:String x:Key="S.Preset.Encoder.Title">编码器选项</s:String>
+    <s:String x:Key="S.Preset.Encoder.Title.Info">特定于所选编码器和文件格式的选项</s:String>
+    <s:String x:Key="S.Preset.Encoder.Version">版本</s:String>
+    <s:String x:Key="S.Preset.Encoder.Quality">质量</s:String>
+    <s:String x:Key="S.Preset.Encoder.Pass">遍</s:String>
 
-        <s:String x:Key="S.Preset.Encoder.FFmpeg.UseCommands">使用命令</s:String>
-        <s:String x:Key="S.Preset.Encoder.FFmpeg.UseCommands.Info">直接向 FFmpeg 输入参数（高级模式）</s:String>
-        <s:String x:Key="S.Preset.Encoder.FFmpeg.Parameters">参数</s:String>
-        <s:String x:Key="S.Preset.Encoder.FFmpeg.Parameters.Info">将传递给 FFmpeg 的参数列表。&#10;&#10;特殊参数：&#10;{I} 是输入路径（帧）。&#10;{O} 是输出路径（导出的文件）。&#10;{W} 是帧的宽度。&#10;{H} 是帧的高度。</s:String>
-        <s:String x:Key="S.Preset.Encoder.FFmpeg.Preview">预览</s:String>
-        <s:String x:Key="S.Preset.Encoder.FFmpeg.Preview.Info">将被发送到 FFmpeg 的完整命令</s:String>
-        <s:String x:Key="S.Preset.Encoder.FFmpeg.Help.PngFilters">PNG 过滤器</s:String>
-        <s:String x:Key="S.Preset.Encoder.FFmpeg.Help.Format">格式文档</s:String>
-        <s:String x:Key="S.Preset.Encoder.FFmpeg.Help.Filters">过滤器文档</s:String>
-        <s:String x:Key="S.Preset.Encoder.FFmpeg.PixelFormat">像素格式</s:String>
-        <s:String x:Key="S.Preset.Encoder.FFmpeg.Pass">要使用 2 遍编码，只需添加"-pass 2"</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.UseCommands">使用命令</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.UseCommands.Info">直接向 FFmpeg 输入参数（高级模式）</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.Parameters">参数</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.Parameters.Info">将传递给 FFmpeg 的参数列表。&#10;&#10;特殊参数：&#10;{I} 是输入路径（帧）。&#10;{O} 是输出路径（导出的文件）。&#10;{W} 是帧的宽度。&#10;{H} 是帧的高度。</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.Preview">预览</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.Preview.Info">将被发送到 FFmpeg 的完整命令</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.Help.PngFilters">PNG 过滤器</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.Help.Format">格式文档</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.Help.Filters">过滤器文档</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.PixelFormat">像素格式</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.Pass">要使用 2 遍编码，只需添加"-pass 2"</s:String>
 
-        <s:String x:Key="S.Preset.Encoder.FFmpeg.FrameStrategy">帧率策略</s:String>
-        <s:String x:Key="S.Preset.Encoder.FFmpeg.FrameStrategy.Info">控制 FFmpeg 如何在读取或写入图像序列时解释和调整帧定时。&#10;这确定帧是保持原样、复制还是丢弃以匹配所需的帧率</s:String>
-        <s:String x:Key="S.Preset.Encoder.FFmpeg.FrameStrategy.Passthrough">按原样使用时间戳</s:String>
-        <s:String x:Key="S.Preset.Encoder.FFmpeg.FrameStrategy.Cfr">恒定帧率</s:String>
-        <s:String x:Key="S.Preset.Encoder.FFmpeg.FrameStrategy.Vfr">可变帧率</s:String>
-        <s:String x:Key="S.Preset.Encoder.FFmpeg.FrameStrategy.Drop">丢弃帧</s:String>
-        <s:String x:Key="S.Preset.Encoder.FFmpeg.FrameStrategy.Dup">复制帧</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.FrameStrategy">帧率策略</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.FrameStrategy.Info">控制 FFmpeg 如何在读取或写入图像序列时解释和调整帧定时。&#10;这确定帧是保持原样、复制还是丢弃以匹配所需的帧率</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.FrameStrategy.Passthrough">按原样使用时间戳</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.FrameStrategy.Cfr">恒定帧率</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.FrameStrategy.Vfr">可变帧率</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.FrameStrategy.Drop">丢弃帧</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.FrameStrategy.Dup">复制帧</s:String>
 
-        <!--Preset • Apng-->
-        <s:String x:Key="S.Preset.Encoder.Apng.DetectUnchanged">检测未改变的像素</s:String>
-        <s:String x:Key="S.Preset.Encoder.Apng.DetectUnchanged.Info">扫描并删除帧之间未改变的不必要部分</s:String>
-        <s:String x:Key="S.Preset.Encoder.Apng.PaintTransparent">用透明颜色绘制所有未改变的像素</s:String>
-        <s:String x:Key="S.Preset.Encoder.Apng.PaintTransparent.Info">将帧之间未改变的像素替换为透明颜色</s:String>
-        <s:String x:Key="S.Preset.Encoder.Apng.Prediction">预测</s:String>
-        <s:String x:Key="S.Preset.Encoder.Apng.Prediction.None">无</s:String>
-        <s:String x:Key="S.Preset.Encoder.Apng.Prediction.Sub">子</s:String>
-        <s:String x:Key="S.Preset.Encoder.Apng.Prediction.Up">上</s:String>
-        <s:String x:Key="S.Preset.Encoder.Apng.Prediction.Average">平均</s:String>
-        <s:String x:Key="S.Preset.Encoder.Apng.Prediction.Mixed">混合</s:String>
+    <!--Preset • Apng-->
+    <s:String x:Key="S.Preset.Encoder.Apng.DetectUnchanged">检测未改变的像素</s:String>
+    <s:String x:Key="S.Preset.Encoder.Apng.DetectUnchanged.Info">扫描并删除帧之间未改变的不必要部分</s:String>
+    <s:String x:Key="S.Preset.Encoder.Apng.PaintTransparent">用透明颜色绘制所有未改变的像素</s:String>
+    <s:String x:Key="S.Preset.Encoder.Apng.PaintTransparent.Info">将帧之间未改变的像素替换为透明颜色</s:String>
+    <s:String x:Key="S.Preset.Encoder.Apng.Prediction">预测</s:String>
+    <s:String x:Key="S.Preset.Encoder.Apng.Prediction.None">无</s:String>
+    <s:String x:Key="S.Preset.Encoder.Apng.Prediction.Sub">子</s:String>
+    <s:String x:Key="S.Preset.Encoder.Apng.Prediction.Up">上</s:String>
+    <s:String x:Key="S.Preset.Encoder.Apng.Prediction.Average">平均</s:String>
+    <s:String x:Key="S.Preset.Encoder.Apng.Prediction.Mixed">混合</s:String>
 
-    <!--预设 • Gif-->
+    <!--Preset • Gif-->
     <s:String x:Key="S.Preset.Encoder.Gif.GlobalColorTable">使用全局色表</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.GlobalColorTable.Info">可能会降低 gif 的质量和/或大小</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer">量化器</s:String>
@@ -1983,13 +2045,13 @@
     <s:String x:Key="S.Preset.Encoder.Gif.Dither">抖动</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Dither.Scale">贝叶尔缩放</s:String>
 
-    <!--预设 • Gifski-->
+    <!--Preset • Gifski-->
     <s:String x:Key="S.Preset.Encoder.Gif.Faster">使用更快的编码过程</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Faster.Info">可能会降低 gif 的质量</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.ExtraEffort">额外效果</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.ExtraEffort.Info">编码将明显变慢，但可能会产生质量稍好的 gif</s:String>
 
-    <!--预设 • KGy SOFT-->
+    <!--Preset • KGy SOFT-->
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.BackColor">背景颜色</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.BackColor.Info">具有 alpha（透明度）的像素在被所选量化器认为不透明之前，将与此颜色混合，然后获得量化颜色</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.AlphaThreshold">Alpha 阈值</s:String>
@@ -2007,7 +2069,7 @@
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.BlackAndWhite">黑白</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.BlackAndWhite.Info">固定 1 bpp 调色板，包含黑白颜色</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.Grayscale4">灰度 4 种颜色</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.Grayscale4.Info">Fixed 2 bpp palette with 4 grayscale entries（固定 2 bpp 调色板，包含 4 个灰度条目）</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.Grayscale4.Info">固定 2 bpp 调色板，包含 4 个灰度条目</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.Grayscale16">灰度 16 种颜色</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.Grayscale16.Info">固定 4 bpp 调色板，包含 16 个灰度条目</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.Grayscale">灰度 256 种颜色</s:String>
@@ -2024,6 +2086,7 @@
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Palette.MedianCut.Info">使用中位数切割算法为每帧优化调色板</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Palette.Wu">Wu 量化器</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Palette.Wu.Info">使用肖林·吴（Xiaolin Wu）算法为每帧优化调色板</s:String>
+
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer">抖动</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Strength">强度</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Strength.Info">抖动器的强度，或设为 0 以自动校准强度</s:String>
@@ -2075,14 +2138,14 @@
     <s:String x:Key="S.Preset.Encoder.Gif.AllowClippedFrames">允许裁剪帧</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.AllowClippedFrames.Info">选中后，编码器允许添加比实际分辨率更小的帧。&#13;&#10;如果"允许增量帧"未选中，则仅允许裁剪可能透明的边框</s:String>
 
-    <s:String x:Key="S.Preset.Encoder.Gif.AllowDeltaIgnored">允许增量帧被忽略，因为当前配置不使用 Alpha 且"允许裁剪帧"未选中</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.AllowDeltaIgnored">由于当前配置不使用 Alpha 且“允许裁剪帧”未选中，允许增量帧已被忽略</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.AllowDeltaIgnored.Enable">启用裁剪帧</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.HighDeltaTolerance">如果增量容差太高，结果可能质量较差</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.HighDeltaTolerance">如果增量容差过高，结果可能质量较差</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.HighDeltaTolerance.Reset">重置增量容差</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.AllowClippedIgnored">允许裁剪帧无效，因为当前配置不使用 Alpha 且"允许增量帧"未选中</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.AllowClippedIgnored">由于当前配置不使用 Alpha 且“允许增量帧”未选中，允许裁剪帧已无效</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.AllowClippedIgnored.Enable">启用增量帧</s:String>
 
-    <!--预设 • Webp-->
+    <!--Preset • Webp-->
     <s:String x:Key="S.Preset.Encoder.Webm.Preset.None">无</s:String>
     <s:String x:Key="S.Preset.Encoder.Webm.Preset.Default">默认</s:String>
     <s:String x:Key="S.Preset.Encoder.Webm.Preset.Picture">图片</s:String>
@@ -2093,7 +2156,7 @@
     <s:String x:Key="S.Preset.Encoder.Webm.Lossless">使用无损模式</s:String>
     <s:String x:Key="S.Preset.Encoder.Webm.Lossless.Info">最高质量，不会降低颜色质量</s:String>
     
-    <!--预设 • 视频-->
+    <!--Preset • Video-->
     <s:String x:Key="S.Preset.Encoder.Video.Codec">编码器</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.Codec.Info">视频编码器，负责将原始像素转换为输出文件</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.CodecPreset">编码器预设</s:String>
@@ -2150,11 +2213,11 @@
     <s:String x:Key="S.Preset.Encoder.Video.Audio.Channels">声道</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.Audio.Channels.Info">留空以跟随项目的声道数</s:String>
 
-    <!--预设 • Psd-->
+    <!--Preset • Psd-->
     <s:String x:Key="S.Preset.Encoder.Psd.Compress">压缩图像</s:String>
     <s:String x:Key="S.Preset.Encoder.Psd.Compress.Info">使用 RLE 算法压缩图像数据</s:String>
 
-    <!--预设 • Zip-->
+    <!--Preset • Zip-->
     <s:String x:Key="S.Preset.Encoder.Image.Zip">压缩图像</s:String>
     <s:String x:Key="S.Preset.Encoder.Image.Zip.Info">将图像导出在压缩文件夹中</s:String>
 
@@ -2198,58 +2261,58 @@
     <s:String x:Key="S.UploadPreset.History.NotSelected.Message">选择上传后，其详情将显示在下方</s:String>
 
     <!--Presets • Listing-->
-    <s:String x:Key="S.Presets.Default.Title">Default ({0})</s:String>
-    <s:String x:Key="S.Presets.Default.Description">Default preset for the encoder</s:String>
-    <s:String x:Key="S.Presets.Twitter.Title">For X/Twitter ({0})</s:String>
-    <s:String x:Key="S.Presets.Twitter.Description">Respects X/Twitter upload limits (except size and resolution)</s:String>
-    <s:String x:Key="S.Presets.Hevc.Title">HEVC ({0})</s:String>
-    <s:String x:Key="S.Presets.Hevc.Description">High Efficiency Video Coding</s:String>
-    <s:String x:Key="S.Presets.Vp8.Title">VP8 ({0})</s:String>
-    <s:String x:Key="S.Presets.Vp8.Description">Older and better known codec</s:String>
-    <s:String x:Key="S.Presets.Filename.Animation">Animation</s:String>
-    <s:String x:Key="S.Presets.Filename.Video">Video</s:String>
-    <s:String x:Key="S.Presets.Filename.Image">Image</s:String>
-    <s:String x:Key="S.Presets.Filename.Audio">Audio</s:String>
+    <s:String x:Key="S.Presets.Default.Title">默认（{0}）</s:String>
+    <s:String x:Key="S.Presets.Default.Description">编码器的默认预设</s:String>
+    <s:String x:Key="S.Presets.Twitter.Title">适用于 X/Twitter（{0}）</s:String>
+    <s:String x:Key="S.Presets.Twitter.Description">遵守 X/Twitter 的上传限制（大小和分辨率除外）</s:String>
+    <s:String x:Key="S.Presets.Hevc.Title">HEVC（{0}）</s:String>
+    <s:String x:Key="S.Presets.Hevc.Description">高效视频编码</s:String>
+    <s:String x:Key="S.Presets.Vp8.Title">VP8（{0}）</s:String>
+    <s:String x:Key="S.Presets.Vp8.Description">较旧但更知名的编解码器</s:String>
+    <s:String x:Key="S.Presets.Filename.Animation">动画</s:String>
+    <s:String x:Key="S.Presets.Filename.Video">视频</s:String>
+    <s:String x:Key="S.Presets.Filename.Image">图像</s:String>
+    <s:String x:Key="S.Presets.Filename.Audio">音频</s:String>
     <s:String x:Key="S.Presets.Filename.Project">项目</s:String>
 
-    <s:String x:Key="S.Presets.Gif.Embedded.High.Title">High quality</s:String>
-    <s:String x:Key="S.Presets.Gif.Embedded.High.Description">Better suited for recordings with more colors and gradients.</s:String>
-    <s:String x:Key="S.Presets.Gif.Embedded.Transparent.Title">High quality • Transparent background</s:String>
-    <s:String x:Key="S.Presets.Gif.Embedded.Transparent.Description">Supports saving the animation with a transparent background.</s:String>
-    <s:String x:Key="S.Presets.Gif.Embedded.Graphics.Title">High quality • Graphics</s:String>
-    <s:String x:Key="S.Presets.Gif.Embedded.Graphics.Description">Better for recordings with a lower quantity of colors.</s:String>
-    <s:String x:Key="S.Presets.Gif.KGySoft.Balanced.Title">KGy SOFT • Balanced</s:String>
-    <s:String x:Key="S.Presets.Gif.KGySoft.Balanced.Description">Good quality for photo-like images using Wu's quantizer without dithering.</s:String>
-    <s:String x:Key="S.Presets.Gif.KGySoft.High.Title">KGy SOFT • High quality</s:String>
-    <s:String x:Key="S.Presets.Gif.KGySoft.High.Description">High quality for photo-like images using Wu's quantizer with higher bit level and Floyd-Steinberg error diffusion dithering.</s:String>
-    <s:String x:Key="S.Presets.Gif.KGySoft.Fast.Title">KGy SOFT • Low quality, faster</s:String>
-    <s:String x:Key="S.Presets.Gif.KGySoft.Fast.Description">Quantizing all frames with the same predefined 'web-safe' palette and Bayer 8x8 ordered dithering.</s:String>
-    <s:String x:Key="S.Presets.Gif.Ffmpeg.High.Title">FFmpeg • Higher quality</s:String>
-    <s:String x:Key="S.Presets.Gif.Ffmpeg.High.Description">Higher image quality, but with a greater file size.</s:String>
-    <s:String x:Key="S.Presets.Gif.Ffmpeg.Low.Title">FFmpeg • Lower quality</s:String>
-    <s:String x:Key="S.Presets.Gif.Ffmpeg.Low.Description">Lower image quality, but with a smaller file size.</s:String>
-    <s:String x:Key="S.Presets.Gif.Gifski.High.Title">Gifski • Higher quality</s:String>
-    <s:String x:Key="S.Presets.Gif.Gifski.High.Description">Higher image quality, but with a greater file size.</s:String>
-    <s:String x:Key="S.Presets.Gif.Gifski.Low.Title">Gifski • Lower quality</s:String>
-    <s:String x:Key="S.Presets.Gif.Gifski.Low.Description">Lower image quality, but with a smaller file size.</s:String>
-    <s:String x:Key="S.Presets.Gif.Gifski.Fast.Title">Gifski • Lower quality and faster encoding</s:String>
-    <s:String x:Key="S.Presets.Gif.Gifski.Fast.Description">Even lower image quality, with a faster encoding, but with a smaller file size.</s:String>
+    <s:String x:Key="S.Presets.Gif.Embedded.High.Title">高质量</s:String>
+    <s:String x:Key="S.Presets.Gif.Embedded.High.Description">更适合包含更多颜色和渐变的录制内容。</s:String>
+    <s:String x:Key="S.Presets.Gif.Embedded.Transparent.Title">高质量 • 透明背景</s:String>
+    <s:String x:Key="S.Presets.Gif.Embedded.Transparent.Description">支持以透明背景保存动画。</s:String>
+    <s:String x:Key="S.Presets.Gif.Embedded.Graphics.Title">高质量 • 图形</s:String>
+    <s:String x:Key="S.Presets.Gif.Embedded.Graphics.Description">更适合颜色较少的录制内容。</s:String>
+    <s:String x:Key="S.Presets.Gif.KGySoft.Balanced.Title">KGy SOFT • 平衡</s:String>
+    <s:String x:Key="S.Presets.Gif.KGySoft.Balanced.Description">使用 Wu 量化器且不抖动，为类似照片的图像提供良好质量。</s:String>
+    <s:String x:Key="S.Presets.Gif.KGySoft.High.Title">KGy SOFT • 高质量</s:String>
+    <s:String x:Key="S.Presets.Gif.KGySoft.High.Description">使用 Wu 量化器、更高位级别和 Floyd-Steinberg 错误扩散抖动，为类似照片的图像提供高质量。</s:String>
+    <s:String x:Key="S.Presets.Gif.KGySoft.Fast.Title">KGy SOFT • 低质量，更快</s:String>
+    <s:String x:Key="S.Presets.Gif.KGySoft.Fast.Description">使用相同的预定义“网页安全”调色板并采用 Bayer 8x8 有序抖动对所有帧进行量化。</s:String>
+    <s:String x:Key="S.Presets.Gif.Ffmpeg.High.Title">FFmpeg • 更高质量</s:String>
+    <s:String x:Key="S.Presets.Gif.Ffmpeg.High.Description">更高的图像质量，但文件更大。</s:String>
+    <s:String x:Key="S.Presets.Gif.Ffmpeg.Low.Title">FFmpeg • 较低质量</s:String>
+    <s:String x:Key="S.Presets.Gif.Ffmpeg.Low.Description">更低的图像质量，但文件更小。</s:String>
+    <s:String x:Key="S.Presets.Gif.Gifski.High.Title">Gifski • 更高质量</s:String>
+    <s:String x:Key="S.Presets.Gif.Gifski.High.Description">更高的图像质量，但文件更大。</s:String>
+    <s:String x:Key="S.Presets.Gif.Gifski.Low.Title">Gifski • 较低质量</s:String>
+    <s:String x:Key="S.Presets.Gif.Gifski.Low.Description">更低的图像质量，但文件更小。</s:String>
+    <s:String x:Key="S.Presets.Gif.Gifski.Fast.Title">Gifski • 较低质量和更快编码</s:String>
+    <s:String x:Key="S.Presets.Gif.Gifski.Fast.Description">图像质量更低，但编码更快且文件更小。</s:String>
 
-    <s:String x:Key="S.Presets.Apng.Ffmpeg.High.Title">FFmpeg • High quality</s:String>
-    <s:String x:Key="S.Presets.Apng.Ffmpeg.High.Description">High image quality and small file size, but slower encoding.</s:String>
-    <s:String x:Key="S.Presets.Apng.Ffmpeg.Low.Title">FFmpeg • Lower quality</s:String>
-    <s:String x:Key="S.Presets.Apng.Ffmpeg.Low.Description">Lower image quality, small file size and faster encoding.</s:String>
-    <s:String x:Key="S.Presets.Webp.Ffmpeg.High.Title">High quality</s:String>
-    <s:String x:Key="S.Presets.Webp.Ffmpeg.High.Description">High image quality and small file size.</s:String>
+    <s:String x:Key="S.Presets.Apng.Ffmpeg.High.Title">FFmpeg • 高质量</s:String>
+    <s:String x:Key="S.Presets.Apng.Ffmpeg.High.Description">图像质量高且文件较小，但编码较慢。</s:String>
+    <s:String x:Key="S.Presets.Apng.Ffmpeg.Low.Title">FFmpeg • 较低质量</s:String>
+    <s:String x:Key="S.Presets.Apng.Ffmpeg.Low.Description">较低的图像质量、更小的文件和更快的编码。</s:String>
+    <s:String x:Key="S.Presets.Webp.Ffmpeg.High.Title">高质量</s:String>
+    <s:String x:Key="S.Presets.Webp.Ffmpeg.High.Description">图像质量高且文件较小。</s:String>
 
-    <s:String x:Key="S.Presets.Audio.Low.Title">Low</s:String>
-    <s:String x:Key="S.Presets.Audio.Low.Description">For casual voice narration; 128 kbps • 44.1 kHz</s:String>
-    <s:String x:Key="S.Presets.Audio.Medium.Title">Medium</s:String>
-    <s:String x:Key="S.Presets.Audio.Medium.Description">Balanced fidelity for everyday audio; 192 kbps • 44.1 kHz</s:String>
-    <s:String x:Key="S.Presets.Audio.High.Title">High</s:String>
-    <s:String x:Key="S.Presets.Audio.High.Description">Rich sound for music and video playback; 320 kbps • 48 kHz</s:String>
-    <s:String x:Key="S.Presets.Audio.Studio.Title">Studio</s:String>
-    <s:String x:Key="S.Presets.Audio.Studio.Description">Maximum detail for professional mastering; 320 kbps • 96 kHz</s:String>
+    <s:String x:Key="S.Presets.Audio.Low.Title">低</s:String>
+    <s:String x:Key="S.Presets.Audio.Low.Description">适用于日常语音旁白；128 kbps • 44.1 kHz</s:String>
+    <s:String x:Key="S.Presets.Audio.Medium.Title">中</s:String>
+    <s:String x:Key="S.Presets.Audio.Medium.Description">适用于日常音频的平衡音质；192 kbps • 44.1 kHz</s:String>
+    <s:String x:Key="S.Presets.Audio.High.Title">高</s:String>
+    <s:String x:Key="S.Presets.Audio.High.Description">适用于音乐和视频播放的丰富音质；320 kbps • 48 kHz</s:String>
+    <s:String x:Key="S.Presets.Audio.Studio.Title">工作室</s:String>
+    <s:String x:Key="S.Presets.Audio.Studio.Description">适用于专业母带处理的最高细节；320 kbps • 96 kHz</s:String>
 
     <!--Font Styles-->
     <s:String x:Key="S.FontStyles">字体样式</s:String>
@@ -2271,7 +2334,7 @@
     <s:String x:Key="S.FontWeights.ExtraHeavy">最粗</s:String>
 
     <!--Font Stretch-->
-    <s:String x:Key="S.FontStretch">字体宽度</s:String>
+    <s:String x:Key="S.FontStretch">字体拉伸</s:String>
     <s:String x:Key="S.FontStretch.UltraCondensed">超窄</s:String>
     <s:String x:Key="S.FontStretch.ExtraCondensed">特窄</s:String>
     <s:String x:Key="S.FontStretch.Condensed">窄</s:String>
@@ -2285,7 +2348,7 @@
 
     <!--Alignment-->
     <s:String x:Key="S.Alignment.Horizontal">水平对齐</s:String>
-    <s:String x:Key="S.Alignment.Vertical">竖直对齐</s:String>
+    <s:String x:Key="S.Alignment.Vertical">垂直对齐</s:String>
     <s:String x:Key="S.Alignment.Top">顶部</s:String>
     <s:String x:Key="S.Alignment.Left">左侧</s:String>
     <s:String x:Key="S.Alignment.Center">居中</s:String>
