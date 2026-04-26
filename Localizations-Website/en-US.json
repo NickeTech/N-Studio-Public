@@ -20,7 +20,10 @@
     "go-back": "Go back",
     "show-more": "Show more",
     "expand": "Expand",
-    "collapse": "Collapse"
+    "collapse": "Collapse",
+    "hide": "Hide",
+    "previous": "Previous",
+    "next": "Next"
   },
 
   "validations": {
@@ -313,7 +316,17 @@
         "light": "light",
         "none": "No assets found..."
       },
-      "previous": "Looking for previous versions instead?"
+      "previous": "Looking for previous versions instead?",
+      "previous-versions": {
+        "title": "Previous Versions",
+        "empty": "No previous versions were found.",
+        "column": {
+          "version": "Version",
+          "title": "Title",
+          "date": "Release Date",
+          "downloads": "Downloads"
+        }
+      }
     },
 
     "pricing": {

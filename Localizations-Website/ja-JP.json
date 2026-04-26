@@ -20,7 +20,10 @@
     "go-back": "戻る",
     "show-more": "もっと表示",
     "expand": "展開",
-    "collapse": "折りたたむ"
+    "collapse": "折りたたむ",
+    "hide": "非表示",
+    "previous": "前へ",
+    "next": "次へ"
   },
 
   "validations": {
@@ -313,7 +316,17 @@
         "light": "ライト",
         "none": "ファイルが見つかりません..."
       },
-      "previous": "代わりに過去のバージョンをお探しですか？"
+      "previous": "代わりに過去のバージョンをお探しですか？",
+      "previous-versions": {
+        "title": "過去のバージョン",
+        "empty": "過去のバージョンは見つかりませんでした。",
+        "column": {
+          "version": "バージョン",
+          "title": "タイトル",
+          "date": "リリース日",
+          "downloads": "ダウンロード"
+        }
+      }
     },
 
     "pricing": {

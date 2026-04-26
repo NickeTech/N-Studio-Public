@@ -20,7 +20,10 @@
     "go-back": "返回",
     "show-more": "顯示更多",
     "expand": "展開",
-    "collapse": "折疊"
+    "collapse": "折疊",
+    "hide": "隱藏",
+    "previous": "上一頁",
+    "next": "下一頁"
   },
 
   "validations": {
@@ -313,7 +316,17 @@
         "light": "輕量",
         "none": "未找到資源..."
       },
-      "previous": "是否改為尋找往期版本？"
+      "previous": "是否改為尋找往期版本？",
+      "previous-versions": {
+        "title": "往期版本",
+        "empty": "未找到往期版本。",
+        "column": {
+          "version": "版本",
+          "title": "標題",
+          "date": "發布日期",
+          "downloads": "下載次數"
+        }
+      }
     },
 
     "pricing": {

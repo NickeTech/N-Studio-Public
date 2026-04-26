@@ -20,7 +20,10 @@
     "go-back": "Ga terug",
     "show-more": "Meer tonen",
     "expand": "Uitklappen",
-    "collapse": "Inklappen"
+    "collapse": "Inklappen",
+    "hide": "Verbergen",
+    "previous": "Vorige",
+    "next": "Volgende"
   },
 
   "validations": {
@@ -313,7 +316,17 @@
         "light": "light",
         "none": "Geen bestanden gevonden..."
       },
-      "previous": "Op zoek naar eerdere versies?"
+      "previous": "Op zoek naar eerdere versies?",
+      "previous-versions": {
+        "title": "Eerdere versies",
+        "empty": "Geen eerdere versies gevonden.",
+        "column": {
+          "version": "Versie",
+          "title": "Titel",
+          "date": "Releasedatum",
+          "downloads": "Downloads"
+        }
+      }
     },
 
     "pricing": {

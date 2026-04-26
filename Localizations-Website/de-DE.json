@@ -20,7 +20,10 @@
     "go-back": "Zurück",
     "show-more": "Mehr anzeigen",
     "expand": "Erweitern",
-    "collapse": "Reduzieren"
+    "collapse": "Reduzieren",
+    "hide": "Ausblenden",
+    "previous": "Vorherige",
+    "next": "Weiter"
   },
 
   "validations": {
@@ -313,7 +316,17 @@
         "light": "light",
         "none": "Keine Dateien gefunden..."
       },
-      "previous": "Suchst du stattdessen frühere Versionen?"
+      "previous": "Suchst du stattdessen frühere Versionen?",
+      "previous-versions": {
+        "title": "Frühere Versionen",
+        "empty": "Keine früheren Versionen gefunden.",
+        "column": {
+          "version": "Version",
+          "title": "Titel",
+          "date": "Veröffentlichungsdatum",
+          "downloads": "Downloads"
+        }
+      }
     },
 
     "pricing": {
