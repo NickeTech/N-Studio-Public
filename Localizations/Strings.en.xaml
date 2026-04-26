@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">Nicke Manarin</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-03-16</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-04-22</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Accept</s:String>
@@ -54,6 +54,7 @@
     <s:String x:Key="S.Imperative.OpenSettings">Open Settings</s:String>
     <s:String x:Key="S.Imperative.OpenPresetSettings">Open Preset Settings</s:String>
     <s:String x:Key="S.Imperative.OpenFile">Open file</s:String>
+    <s:String x:Key="S.Imperative.Open">Open</s:String>
     <s:String x:Key="S.Imperative.SelectAll">Select all</s:String>
     <s:String x:Key="S.Imperative.DeselectAll">Deselect all</s:String>
     <s:String x:Key="S.Imperative.ReportIssue">Report issue</s:String>
@@ -64,6 +65,8 @@
     <s:String x:Key="S.Imperative.SendFeedback">Send feedback</s:String>
     <s:String x:Key="S.Imperative.OpenFolder">Open folder</s:String>
     <s:String x:Key="S.Imperative.OpenDrive">Open drive</s:String>
+    <s:String x:Key="S.Imperative.AddEmail">Add email</s:String>
+    <s:String x:Key="S.Imperative.SendWithout">Send without</s:String>
 
     <!--Time • Referential-->
     <s:String x:Key="S.Time.Ago.Seconds">few seconds ago</s:String>
@@ -330,8 +333,8 @@
     <s:String x:Key="S.Dialog.RemoveTrack.Details">It will be possible to undo.</s:String>
 
     <!--Dialogs • Missing Contact Email-->
-    <s:String x:Key="S.Dialog.ContactEmail.Title">You didn't provide an email address</s:String>
-    <s:String x:Key="S.Dialog.ContactEmail.Details">In order to receive a response about your feedback, you need to provide one.</s:String>
+    <s:String x:Key="S.Dialog.ContactEmail.Title">Want a Reply?</s:String>
+    <s:String x:Key="S.Dialog.ContactEmail.Details">If you’d like us to follow up, please enter your email.&#10;Otherwise, we’ll still receive your feedback, but we won’t be able to contact you.</s:String>
 
     <!--Dialogs • Remove All Projects-->
     <s:String x:Key="S.Dialog.RemoveAllProjects.Title">Would you like to remove all projects?</s:String>
@@ -484,9 +487,13 @@
     <s:String x:Key="S.Info.LoadCanceled.Header">Loading canceled</s:String>
     <s:String x:Key="S.Info.LoadCanceled.Message">The project was not loaded because the operation was canceled by the user</s:String>
 
+    <!--Info • Feedback sent-->
+    <s:String x:Key="S.Info.FeedbackSent.Header">Thanks for your feedback</s:String>
+    <s:String x:Key="S.Info.FeedbackSent.Message">Your message has been sent. We appreciate you taking the time to share it with us</s:String>
+
     <!--Warnings • Single instance-->
     <s:String x:Key="S.Warning.Single.Header">The app is already running</s:String>
-    <s:String x:Key="S.Warning.Single.Message">N-Studio is already running, but apparently there's no window open. Check you system tray, a N-Studio icon must be there.</s:String>
+    <s:String x:Key="S.Warning.Single.Message">N-Studio is already running, but apparently there's no window open. Check you system tray, the N-Studio icon must be there</s:String>
 
     <!--Warnings • Audio device detection--> 
     <s:String x:Key="S.Warning.DeviceDetection.Title">Device detection issues</s:String>
@@ -715,6 +722,10 @@
     <s:String x:Key="S.Errors.Plugin.Header">Error downloading plugin</s:String>
     <s:String x:Key="S.Errors.Plugin.Message">Failed download and extract plugin</s:String>
 
+    <!--Error • Open windows settings--> 
+    <s:String x:Key="S.Errors.WindowsSettings.Header">Windows Settings</s:String>
+    <s:String x:Key="S.Errors.WindowsSettings.Message">Unable to open the settings page</s:String>
+
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Activation failed</s:String>
     <s:String x:Key="S.Errors.Activation.Generic">It was not possible to activate the app due to an unknown problem</s:String>
@@ -728,6 +739,7 @@
     <!--Windows • Welcome -->
     <s:String x:Key="S.Welcome.ScreenRecorder">Screen Recorder</s:String>
     <s:String x:Key="S.Welcome.SoundRecorder">Sound Recorder</s:String>
+    <s:String x:Key="S.Welcome.RegionShare">Region Share</s:String>
     <s:String x:Key="S.Welcome.Editor">Editor</s:String>
     <s:String x:Key="S.Welcome.Feedback">Feedback</s:String>
     <s:String x:Key="S.Welcome.Troubleshoot">Troubleshoot</s:String>
@@ -779,6 +791,19 @@
     <s:String x:Key="S.SoundRecorder.Title">N-Studio • Sound Recorder</s:String>
     <s:String x:Key="S.SoundRecorder.NoInputs">No microphones or speakers selected</s:String>
     <s:String x:Key="S.SoundRecorder.Select">Select one or more sources and press record</s:String>
+
+    <!--Windows • Region Share-->
+    <s:String x:Key="S.RegionShare.Title">N-Studio • Region Share</s:String>
+    <s:String x:Key="S.RegionShare.Pick">Pick a region to share</s:String>
+    <s:String x:Key="S.RegionShare.HideCursor">Hide mouse cursor</s:String>
+    <s:String x:Key="S.RegionShare.HideCursorEffects">Hide mouse cursor effects</s:String>
+    <s:String x:Key="S.RegionShare.DisableCursorFollowing">Disable cursor following</s:String>
+    <s:String x:Key="S.RegionShare.HideKeyPresses">Hide key presses</s:String>
+    <s:String x:Key="S.RegionShare.RecentShares">Recent shares</s:String>
+    <s:String x:Key="S.RegionShare.RecentShares.None">No recent shares</s:String>
+    <s:String x:Key="S.RegionShare.QuickSettings">Quick settings</s:String>
+    <s:String x:Key="S.RegionShare.QuickSettings.Info">Show quick settings</s:String>
+    <s:String x:Key="S.RegionShare.PickAnother">Pick another screen region</s:String>
 
     <!--Windows • Exporter-->
     <s:String x:Key="S.Exporter.Title">N-Studio • Exporter</s:String>
@@ -989,6 +1014,8 @@
     <s:String x:Key="S.Feedback.Extra.Hardware">Hardware</s:String>
     <s:String x:Key="S.Feedback.Extra.Hardware.Info">Processor, memory and graphics adapter details</s:String>
     <s:String x:Key="S.Feedback.Extra.Screen.Info">Screen details such as resolution and scale</s:String>
+    <s:String x:Key="S.Feedback.Extra.Sound">Sound devices</s:String>
+    <s:String x:Key="S.Feedback.Extra.Sound.Info">Details about sound devices such as microphones and speakers</s:String>
     <s:String x:Key="S.Feedback.Extra.Disks.Info">Disk details such as total and available size</s:String>
     <s:String x:Key="S.Feedback.Extra.Error">Error</s:String>
     <s:String x:Key="S.Feedback.Extra.Error.Info">Details about the error</s:String>
@@ -1035,6 +1062,12 @@
     <s:String x:Key="S.FeedbackPreview.Screens.WorkingArea">Working area</s:String>
     <s:String x:Key="S.FeedbackPreview.Screens.Scale">DPI/scale</s:String>
     <s:String x:Key="S.FeedbackPreview.Screens.Adapter">Graphics adapter</s:String>
+    <s:String x:Key="S.FeedbackPreview.Sound.Name">Friendly name</s:String>
+    <s:String x:Key="S.FeedbackPreview.Sound.Kind">Kind</s:String>
+    <s:String x:Key="S.FeedbackPreview.Sound.IsDefault">Is default?</s:String>
+    <s:String x:Key="S.FeedbackPreview.Sound.IsEnabled">Is enabled?</s:String>
+    <s:String x:Key="S.FeedbackPreview.Sound.Channels">Channels</s:String>
+    <s:String x:Key="S.FeedbackPreview.Sound.SampleRate">Sample rate</s:String>
     <s:String x:Key="S.FeedbackPreview.Disks">Disks</s:String>
     <s:String x:Key="S.FeedbackPreview.Disks.Root">Root</s:String>
     <s:String x:Key="S.FeedbackPreview.Disks.Total">Total</s:String>
@@ -1075,6 +1108,7 @@
     <!--Playback-->
     <s:String x:Key="S.Playback.Play">Play</s:String>
     <s:String x:Key="S.Playback.Pause">Pause</s:String>
+    <s:String x:Key="S.Playback.Paused">Paused</s:String>
     <s:String x:Key="S.Playback.SkipBackward">Skip backward</s:String>
     <s:String x:Key="S.Playback.SkipFrameBackward">Skip frame backward</s:String>
     <s:String x:Key="S.Playback.SkipForward">Skip forward</s:String>
@@ -1092,6 +1126,15 @@
     <s:String x:Key="S.Positioning.Top">Top</s:String>
     <s:String x:Key="S.Positioning.Right">Right</s:String>
     <s:String x:Key="S.Positioning.Bottom">Bottom</s:String>
+    <s:String x:Key="S.Positioning.TopLeft">Top left corner</s:String>
+    <s:String x:Key="S.Positioning.TopCenter">Top center</s:String>
+    <s:String x:Key="S.Positioning.TopRight">Top right corner</s:String>
+    <s:String x:Key="S.Positioning.MiddleLeft">Middle left</s:String>
+    <s:String x:Key="S.Positioning.Center">Center of screen</s:String>
+    <s:String x:Key="S.Positioning.MiddleRight">Middle right</s:String>
+    <s:String x:Key="S.Positioning.BottomLeft">Bottom left corner</s:String>
+    <s:String x:Key="S.Positioning.BottomCenter">Bottom center</s:String>
+    <s:String x:Key="S.Positioning.BottomRight">Bottom right corner</s:String>
     <s:String x:Key="S.Positioning.Width">Width</s:String>
     <s:String x:Key="S.Positioning.Height">Height</s:String>
     <s:String x:Key="S.Positioning.Angle">Angle</s:String>
@@ -1305,6 +1348,7 @@
     <s:String x:Key="S.Settings.Pages.Application">Application</s:String>
     <s:String x:Key="S.Settings.Pages.ScreenRecorder">Screen Recorder</s:String>
     <s:String x:Key="S.Settings.Pages.SoundRecorder">Sound Recorder</s:String>
+    <s:String x:Key="S.Settings.Pages.RegionShare">Region Share</s:String>
     <s:String x:Key="S.Settings.Pages.DefaultStyles">Default Styles</s:String>
     <s:String x:Key="S.Settings.Pages.DefaultEffects">Default Effects</s:String>
     <s:String x:Key="S.Settings.Pages.Editor">Editor</s:String>
@@ -1325,6 +1369,7 @@
     <s:String x:Key="S.Settings.Sections.TemporaryFiles">Temporary files</s:String>
     <s:String x:Key="S.Settings.Sections.Cleanup">Cleanup</s:String>
     <s:String x:Key="S.Settings.Sections.MoreOptions">More options</s:String>
+    <s:String x:Key="S.Settings.Sections.Styles">Styles</s:String>
 
     <!--Settings • Application-->
     <s:String x:Key="S.Settings.Application.Language">Language</s:String>
@@ -1370,6 +1415,8 @@
     <s:String x:Key="S.Settings.Application.Startup.StartWith.Screen.Info">Capture your screen along with microphone or system audio</s:String>
     <s:String x:Key="S.Settings.Application.Startup.StartWith.Sound">Sound recorder</s:String>
     <s:String x:Key="S.Settings.Application.Startup.StartWith.Sound.Info">Capture audio from microphones or the system</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.RegionShare">Region share</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.RegionShare.Info">Pick a region of your screen to share with other apps</s:String>
     <s:String x:Key="S.Settings.Application.Startup.StartWith.Editor">Editor</s:String>
     <s:String x:Key="S.Settings.Application.Startup.StartWith.Editor.Info">Create or edit content</s:String>
     <s:String x:Key="S.Settings.Application.Startup.StartWith.Nothing">Nothing</s:String>
@@ -1382,6 +1429,7 @@
     <!--Settings • Application > Shortcuts-->
     <s:String x:Key="S.Settings.Application.Shortcuts.Screen.Info">Switches to the screen recorder or opens a new instance</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Sound.Info">Switches to the sound recorder or opens a new instance</s:String>
+    <s:String x:Key="S.Settings.Application.Shortcuts.RegionShare.Info">Switches to the region share tool or opens a new instance</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Editor.Info">Opens another editor instance</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Settings">Settings</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Settings.Info">Opens the settings window</s:String>
@@ -1417,7 +1465,7 @@
 
     <!--Settings • Screen Recorder > Cursor Following-->
     <s:String x:Key="S.Settings.ScreenRecorder.CursorFollowing">Cursor following</s:String>
-    <s:String x:Key="S.Settings.ScreenRecorder.CursorFollowing.Info">The recording area will follow the mouse cursor</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.CursorFollowing.Info">The capture area will follow the mouse cursor</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.CursorFollowing.Buffer">Buffer margin</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.CursorFollowing.Buffer.Info">Minimum distance from the borders of the recording when automatic panning starts</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.CursorFollowing.BufferHide">Buffer margin for hiding UI</s:String>
@@ -1523,6 +1571,19 @@
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.Dashes">Dashes</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.Dashes.Info">Controls the size of the dashes and the size of the gaps.&#10;You can set multiple sizes to create an elaborate dash style.&#10;The default is "1 0" or empty, meaning a dash with no gaps.</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.Info">The guidelines will only be displayed while the recorder is paused or stopped</s:String>
+
+    <!--Settings • Region Share-->
+    <s:String x:Key="S.Settings.RegionShare.Remember">Remember shares</s:String>
+    <s:String x:Key="S.Settings.RegionShare.RememberLast">Quantity of selections to remember</s:String>
+    <s:String x:Key="S.Settings.RegionShare.Overlay">Remember overlay selection</s:String>
+    <s:String x:Key="S.Settings.RegionShare.Overlay.Info">Pick which options the app should remember</s:String>
+    <s:String x:Key="S.Settings.RegionShare.Overlay.MouseCursor">Remember mouse cursor visibility</s:String>
+    <s:String x:Key="S.Settings.RegionShare.Overlay.MouseCursorEffects">Remember mouse cursor effects</s:String>
+    <s:String x:Key="S.Settings.RegionShare.Overlay.KeyPresses">Remember key presses display</s:String>
+    <s:String x:Key="S.Settings.RegionShare.AntiMirror">Prevent preview mirror</s:String>
+    <s:String x:Key="S.Settings.RegionShare.AntiMirror.Info">Paints the preview content area as a solid gray block inside the shared region to avoid the infinite mirror effect.</s:String>
+    <s:String x:Key="S.Settings.RegionShare.Effects.Cursor">Mouse cursor effects</s:String>
+    <s:String x:Key="S.Settings.RegionShare.Effects.Cursor.Info">Pick effects for mouse click interactions</s:String>
 
     <!--Settings • Styles-->
     <s:String x:Key="S.Settings.Styles.FontFamily">Font family</s:String>
@@ -1703,6 +1764,7 @@
     <s:String x:Key="S.Settings.Styles.Dash.Custom">Custom</s:String>
 
     <!--Settings • Effects-->
+    <s:String x:Key="S.Settings.Effects.None">No effects added yet</s:String>
     <s:String x:Key="S.Settings.Effects.Add.Info">Add new effect</s:String>
     <s:String x:Key="S.Settings.Effects.Reset.Info">Reset to the default settings</s:String>
     <s:String x:Key="S.Settings.Effects.RemoveAll.Info">Remove the all effects</s:String>

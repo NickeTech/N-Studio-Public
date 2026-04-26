@@ -54,6 +54,7 @@
     <s:String x:Key="S.Imperative.OpenSettings">Abrir ajustes</s:String>
     <s:String x:Key="S.Imperative.OpenPresetSettings">Abrir ajustes de preajustes</s:String>
     <s:String x:Key="S.Imperative.OpenFile">Abrir archivo</s:String>
+    <s:String x:Key="S.Imperative.Open">Abrir</s:String>
     <s:String x:Key="S.Imperative.SelectAll">Seleccionar todo</s:String>
     <s:String x:Key="S.Imperative.DeselectAll">Deseleccionar todo</s:String>
     <s:String x:Key="S.Imperative.ReportIssue">Informar de un problema</s:String>
@@ -64,6 +65,8 @@
     <s:String x:Key="S.Imperative.SendFeedback">Enviar comentarios</s:String>
     <s:String x:Key="S.Imperative.OpenFolder">Abrir carpeta</s:String>
     <s:String x:Key="S.Imperative.OpenDrive">Abrir unidad</s:String>
+    <s:String x:Key="S.Imperative.AddEmail">Añadir correo electrónico</s:String>
+    <s:String x:Key="S.Imperative.SendWithout">Enviar sin</s:String>
 
     <!--Time • Referential-->
     <s:String x:Key="S.Time.Ago.Seconds">hace unos segundos</s:String>
@@ -330,8 +333,8 @@
     <s:String x:Key="S.Dialog.RemoveTrack.Details">Será posible deshacer.</s:String>
 
     <!--Dialogs • Missing Contact Email-->
-    <s:String x:Key="S.Dialog.ContactEmail.Title">No has proporcionado una dirección de correo electrónico</s:String>
-    <s:String x:Key="S.Dialog.ContactEmail.Details">Para recibir una respuesta sobre tus comentarios, necesitas proporcionar una.</s:String>
+    <s:String x:Key="S.Dialog.ContactEmail.Title">¿Desea recibir una respuesta?</s:String>
+    <s:String x:Key="S.Dialog.ContactEmail.Details">Si deseas que te contactemos, ingresa tu correo electrónico.&#10;De lo contrario, recibiremos tus comentarios, pero no podremos ponernos en contacto contigo.</s:String>
 
     <!--Dialogs • Remove All Projects-->
     <s:String x:Key="S.Dialog.RemoveAllProjects.Title">¿Quieres eliminar todos los proyectos?</s:String>
@@ -480,13 +483,17 @@
     <s:String x:Key="S.Info.ResumeUndo.Header">Reanudar donde lo dejaste</s:String>
     <s:String x:Key="S.Info.ResumeUndo.Message">Se detectó un estado de edición anterior. Historial de deshacer/rehacer disponible</s:String>
 
-    <!--Warnings • Single instance-->
-    <s:String x:Key="S.Warning.Single.Header">La aplicación ya está en ejecución</s:String>
-    <s:String x:Key="S.Warning.Single.Message">N-Studio ya está en ejecución, pero aparentemente no hay ninguna ventana abierta. Comprueba la bandeja del sistema, debe haber un icono de N-Studio allí.</s:String>
-
     <!--Info • Load canceled-->
     <s:String x:Key="S.Info.LoadCanceled.Header">Carga cancelada</s:String>
     <s:String x:Key="S.Info.LoadCanceled.Message">El proyecto no se cargó porque la operación fue cancelada por el usuario</s:String>
+
+    <!--Info • Feedback sent-->
+    <s:String x:Key="S.Info.FeedbackSent.Header">Gracias por sus comentarios</s:String>
+    <s:String x:Key="S.Info.FeedbackSent.Message">Tu mensaje ha sido enviado. Agradecemos que te hayas tomado el tiempo para compartirlo con nosotros</s:String>
+
+    <!--Warnings • Single instance-->
+    <s:String x:Key="S.Warning.Single.Header">La aplicación ya está en ejecución</s:String>
+    <s:String x:Key="S.Warning.Single.Message">N-Studio ya está en ejecución, pero aparentemente no hay ninguna ventana abierta. Comprueba la bandeja del sistema, debe haber un icono de N-Studio allí.</s:String>
 
     <!--Warnings • Audio device detection-->
     <s:String x:Key="S.Warning.DeviceDetection.Title">Problemas de detección de dispositivos</s:String>
@@ -715,6 +722,10 @@
     <s:String x:Key="S.Errors.Plugin.Header">Error al descargar el complemento</s:String>
     <s:String x:Key="S.Errors.Plugin.Message">Error al descargar y extraer el complemento</s:String>
 
+    <!--Error • Open windows settings-->
+    <s:String x:Key="S.Errors.WindowsSettings.Header">Configuración de Windows</s:String>
+    <s:String x:Key="S.Errors.WindowsSettings.Message">No se pudo abrir la página de configuración</s:String>
+
     <!--Error • Others-->
     <s:String x:Key="S.Errors.Activation.Title">La activación ha fallado</s:String>
     <s:String x:Key="S.Errors.Activation.Generic">No fue posible activar la aplicación debido a un problema desconocido</s:String>
@@ -728,6 +739,7 @@
     <!--Windows • Welcome -->
     <s:String x:Key="S.Welcome.ScreenRecorder">Grabador de pantalla</s:String>
     <s:String x:Key="S.Welcome.SoundRecorder">Grabador de sonido</s:String>
+    <s:String x:Key="S.Welcome.RegionShare">Compartir región</s:String>
     <s:String x:Key="S.Welcome.Editor">Editor</s:String>
     <s:String x:Key="S.Welcome.Feedback">Comentarios</s:String>
     <s:String x:Key="S.Welcome.Troubleshoot">Solucionar problemas</s:String>
@@ -779,6 +791,19 @@
     <s:String x:Key="S.SoundRecorder.Title">N-Studio • Grabador de sonido</s:String>
     <s:String x:Key="S.SoundRecorder.NoInputs">No hay micrófonos o altavoces seleccionados</s:String>
     <s:String x:Key="S.SoundRecorder.Select">Selecciona una o más fuentes y pulsa grabar</s:String>
+
+    <!--Windows • Region Share-->
+    <s:String x:Key="S.RegionShare.Title">N-Studio • Compartir región</s:String>
+    <s:String x:Key="S.RegionShare.Pick">Elige una región para compartir</s:String>
+    <s:String x:Key="S.RegionShare.HideCursor">Ocultar cursor del ratón</s:String>
+    <s:String x:Key="S.RegionShare.HideCursorEffects">Ocultar efectos del cursor del ratón</s:String>
+    <s:String x:Key="S.RegionShare.DisableCursorFollowing">Desactivar seguimiento del cursor</s:String>
+    <s:String x:Key="S.RegionShare.HideKeyPresses">Ocultar pulsaciones de teclas</s:String>
+    <s:String x:Key="S.RegionShare.RecentShares">Regiones compartidas recientes</s:String>
+    <s:String x:Key="S.RegionShare.RecentShares.None">No hay regiones compartidas recientes</s:String>
+    <s:String x:Key="S.RegionShare.QuickSettings">Ajustes rápidos</s:String>
+    <s:String x:Key="S.RegionShare.QuickSettings.Info">Mostrar ajustes rápidos</s:String>
+    <s:String x:Key="S.RegionShare.PickAnother">Elegir otra región de pantalla</s:String>
 
     <!--Windows • Exporter-->
     <s:String x:Key="S.Exporter.Title">N-Studio • Exportador</s:String>
@@ -989,6 +1014,8 @@
     <s:String x:Key="S.Feedback.Extra.Hardware">Hardware</s:String>
     <s:String x:Key="S.Feedback.Extra.Hardware.Info">Detalles del procesador, memoria y adaptador gráfico</s:String>
     <s:String x:Key="S.Feedback.Extra.Screen.Info">Detalles de pantalla como resolución y escala</s:String>
+    <s:String x:Key="S.Feedback.Extra.Sound">Sonido</s:String>
+    <s:String x:Key="S.Feedback.Extra.Sound.Info">Detalles sobre dispositivos de sonido, como micrófonos y altavoces</s:String>
     <s:String x:Key="S.Feedback.Extra.Disks.Info">Detalles de discos como tamaño total y disponible</s:String>
     <s:String x:Key="S.Feedback.Extra.Error">Error</s:String>
     <s:String x:Key="S.Feedback.Extra.Error.Info">Detalles sobre el error</s:String>
@@ -1035,6 +1062,12 @@
     <s:String x:Key="S.FeedbackPreview.Screens.WorkingArea">Área de trabajo</s:String>
     <s:String x:Key="S.FeedbackPreview.Screens.Scale">DPI/escala</s:String>
     <s:String x:Key="S.FeedbackPreview.Screens.Adapter">Adaptador gráfico</s:String>
+    <s:String x:Key="S.FeedbackPreview.Sound.Name">Nombre descriptivo</s:String>
+    <s:String x:Key="S.FeedbackPreview.Sound.Kind">Tipo</s:String>
+    <s:String x:Key="S.FeedbackPreview.Sound.IsDefault">¿Es el predeterminado?</s:String>
+    <s:String x:Key="S.FeedbackPreview.Sound.IsEnabled">¿Está habilitado?</s:String>
+    <s:String x:Key="S.FeedbackPreview.Sound.Channels">Canales</s:String>
+    <s:String x:Key="S.FeedbackPreview.Sound.SampleRate">Frecuencia de muestreo</s:String>
     <s:String x:Key="S.FeedbackPreview.Disks">Discos</s:String>
     <s:String x:Key="S.FeedbackPreview.Disks.Root">Raíz</s:String>
     <s:String x:Key="S.FeedbackPreview.Disks.Total">Total</s:String>
@@ -1072,9 +1105,10 @@
     <s:String x:Key="S.RememberChoice">Recordar mi elección</s:String>
     <s:String x:Key="S.RememberChoice.Editor.Info">Para cambiar estas preferencias más tarde, visita Ajustes > Editor</s:String>
 
-        <!--Playback-->
+    <!--Playback-->
     <s:String x:Key="S.Playback.Play">Reproducir</s:String>
     <s:String x:Key="S.Playback.Pause">Pausar</s:String>
+    <s:String x:Key="S.Playback.Paused">En pausa</s:String>
     <s:String x:Key="S.Playback.SkipBackward">Saltar hacia atrás</s:String>
     <s:String x:Key="S.Playback.SkipFrameBackward">Saltar un fotograma hacia atrás</s:String>
     <s:String x:Key="S.Playback.SkipForward">Saltar hacia adelante</s:String>
@@ -1092,6 +1126,15 @@
     <s:String x:Key="S.Positioning.Top">Arriba</s:String>
     <s:String x:Key="S.Positioning.Right">Derecha</s:String>
     <s:String x:Key="S.Positioning.Bottom">Abajo</s:String>
+    <s:String x:Key="S.Positioning.TopLeft">Esquina superior izquierda</s:String>
+    <s:String x:Key="S.Positioning.TopCenter">Centro superior</s:String>
+    <s:String x:Key="S.Positioning.TopRight">Esquina superior derecha</s:String>
+    <s:String x:Key="S.Positioning.MiddleLeft">Centro izquierda</s:String>
+    <s:String x:Key="S.Positioning.Center">Centro de la pantalla</s:String>
+    <s:String x:Key="S.Positioning.MiddleRight">Centro derecha</s:String>
+    <s:String x:Key="S.Positioning.BottomLeft">Esquina inferior izquierda</s:String>
+    <s:String x:Key="S.Positioning.BottomCenter">Centro inferior</s:String>
+    <s:String x:Key="S.Positioning.BottomRight">Esquina inferior derecha</s:String>
     <s:String x:Key="S.Positioning.Width">Ancho</s:String>
     <s:String x:Key="S.Positioning.Height">Alto</s:String>
     <s:String x:Key="S.Positioning.Angle">Ángulo</s:String>
@@ -1305,6 +1348,7 @@
     <s:String x:Key="S.Settings.Pages.Application">Aplicación</s:String>
     <s:String x:Key="S.Settings.Pages.ScreenRecorder">Grabador de pantalla</s:String>
     <s:String x:Key="S.Settings.Pages.SoundRecorder">Grabador de sonido</s:String>
+    <s:String x:Key="S.Settings.Pages.RegionShare">Compartir región</s:String>
     <s:String x:Key="S.Settings.Pages.DefaultStyles">Estilos predeterminados</s:String>
     <s:String x:Key="S.Settings.Pages.DefaultEffects">Efectos predeterminados</s:String>
     <s:String x:Key="S.Settings.Pages.Editor">Editor</s:String>
@@ -1325,6 +1369,7 @@
     <s:String x:Key="S.Settings.Sections.TemporaryFiles">Archivos temporales</s:String>
     <s:String x:Key="S.Settings.Sections.Cleanup">Limpieza</s:String>
     <s:String x:Key="S.Settings.Sections.MoreOptions">Más opciones</s:String>
+    <s:String x:Key="S.Settings.Sections.Styles">Estilos</s:String>
 
     <!--Settings • Application-->
     <s:String x:Key="S.Settings.Application.Language">Idioma</s:String>
@@ -1370,6 +1415,8 @@
     <s:String x:Key="S.Settings.Application.Startup.StartWith.Screen.Info">Captura tu pantalla junto con audio del micrófono o del sistema</s:String>
     <s:String x:Key="S.Settings.Application.Startup.StartWith.Sound">Grabador de sonido</s:String>
     <s:String x:Key="S.Settings.Application.Startup.StartWith.Sound.Info">Captura audio desde micrófonos o del sistema</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.RegionShare">Compartir región</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.RegionShare.Info">Elige una región de tu pantalla para compartirla con otras aplicaciones</s:String>
     <s:String x:Key="S.Settings.Application.Startup.StartWith.Editor">Editor</s:String>
     <s:String x:Key="S.Settings.Application.Startup.StartWith.Editor.Info">Crear o editar contenido</s:String>
     <s:String x:Key="S.Settings.Application.Startup.StartWith.Nothing">Nada</s:String>
@@ -1382,6 +1429,7 @@
     <!--Settings • Application > Shortcuts-->
     <s:String x:Key="S.Settings.Application.Shortcuts.Screen.Info">Cambia al grabador de pantalla o abre una nueva instancia</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Sound.Info">Cambia al grabador de sonido o abre una nueva instancia</s:String>
+    <s:String x:Key="S.Settings.Application.Shortcuts.RegionShare.Info">Cambia a la herramienta de compartir región o abre una nueva instancia</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Editor.Info">Abre otra instancia del editor</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Settings">Ajustes</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Settings.Info">Abre la ventana de ajustes</s:String>
@@ -1523,6 +1571,19 @@
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.Dashes">Guiones</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.Dashes.Info">Controla el tamaño de los guiones y el tamaño de los espacios.&#10;Puedes definir múltiples tamaños para crear un estilo de guiones elaborado.&#10;El valor predeterminado es "1 0" o vacío, lo que significa un guion sin espacios.</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.Info">Las guías solo se mostrarán mientras el grabador esté pausado o detenido</s:String>
+
+    <!--Settings • Region Share-->
+    <s:String x:Key="S.Settings.RegionShare.Remember">Recordar comparticiones</s:String>
+    <s:String x:Key="S.Settings.RegionShare.RememberLast">Cantidad de selecciones a recordar</s:String>
+    <s:String x:Key="S.Settings.RegionShare.Overlay">Recordar selección de superposición</s:String>
+    <s:String x:Key="S.Settings.RegionShare.Overlay.Info">Elige qué opciones debe recordar la aplicación</s:String>
+    <s:String x:Key="S.Settings.RegionShare.Overlay.MouseCursor">Recordar visibilidad del cursor</s:String>
+    <s:String x:Key="S.Settings.RegionShare.Overlay.MouseCursorEffects">Recordar efectos del cursor</s:String>
+    <s:String x:Key="S.Settings.RegionShare.Overlay.KeyPresses">Recordar visualización de pulsaciones</s:String>
+    <s:String x:Key="S.Settings.RegionShare.AntiMirror">Evitar efecto espejo</s:String>
+    <s:String x:Key="S.Settings.RegionShare.AntiMirror.Info">Pinta el área de vista previa como un bloque gris sólido dentro de la región compartida para evitar el efecto de espejo infinito.</s:String>
+    <s:String x:Key="S.Settings.RegionShare.Effects.Cursor">Efectos del cursor</s:String>
+    <s:String x:Key="S.Settings.RegionShare.Effects.Cursor.Info">Elige los efectos para las interacciones de clic</s:String>
 
     <!--Settings • Styles-->
     <s:String x:Key="S.Settings.Styles.FontFamily">Familia tipográfica</s:String>
@@ -1703,6 +1764,7 @@
     <s:String x:Key="S.Settings.Styles.Dash.Custom">Personalizado</s:String>
 
     <!--Settings • Effects-->
+    <s:String x:Key="S.Settings.Effects.None">Aún no se han añadido efectos</s:String>
     <s:String x:Key="S.Settings.Effects.Add.Info">Agregar nuevo efecto</s:String>
     <s:String x:Key="S.Settings.Effects.Reset.Info">Restablecer a los ajustes predeterminados</s:String>
     <s:String x:Key="S.Settings.Effects.RemoveAll.Info">Eliminar todos los efectos</s:String>
