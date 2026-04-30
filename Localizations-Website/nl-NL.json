@@ -278,10 +278,17 @@
       "header": "Een nieuw tijdperk voor schermopnames",
       "subtitle": "Download nu de gratis versie of ga Pro",
       "info": "Voor Windows 10/11",
-      "migrated": {
-        "title": "Een nieuwe app",
-        "message": "Dit is de opvolger van <em>ScreenToGif</em>, gemaakt door dezelfde ontwikkelaar :)",
-        "action": "Krijg ScreenToGif"
+      "banners": {
+        "migrated": {
+          "title": "Een nieuwe app",
+          "message": "Dit is de opvolger van <em>ScreenToGif</em>, gemaakt door dezelfde ontwikkelaar :)",
+          "action": "Krijg ScreenToGif"
+        },
+        "false-positive": {
+          "title": "Vals alarm",
+          "message": "Als Windows Defender de app als virus markeert, werk de Defender-beveiligingsdefinitie bij naar 1.449.348.0",
+          "action": "Bekijk VirusTotal-resultaten"
+        }
       },
       "more": "Wil je meer zien?"
     },

@@ -278,10 +278,17 @@
       "header": "画面録画の新時代",
       "subtitle": "今すぐ無料版をダウンロードするか、Proにアップグレード",
       "info": "Windows 10/11対応",
-      "migrated": {
-        "title": "新しいアプリ",
-        "message": "これは同じ開発者による<em>ScreenToGif</em>の後継です :)",
-        "action": "ScreenToGifを入手"
+      "banners": {
+        "migrated": {
+          "title": "新しいアプリ",
+          "message": "これは同じ開発者による<em>ScreenToGif</em>の後継です :)",
+          "action": "ScreenToGifを入手"
+        },
+        "false-positive": {
+          "title": "誤検知",
+          "message": "Windows Defender がアプリをウイルスとして検出する場合は、Defender のセキュリティ定義を 1.449.348.0 に更新してください",
+          "action": "VirusTotal の結果を見る"
+        }
       },
       "more": "もっと見たいですか？"
     },

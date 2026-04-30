@@ -278,10 +278,17 @@
       "header": "Una nuova era per la registrazione dello schermo",
       "subtitle": "Scarica ora la versione gratuita o passa a Pro",
       "info": "Per Windows 10/11",
-      "migrated": {
-        "title": "Una nuova app",
-        "message": "Questo è il successore di <em>ScreenToGif</em>, realizzato dallo stesso sviluppatore :)",
-        "action": "Ottieni ScreenToGif"
+      "banners": {
+        "migrated": {
+          "title": "Una nuova app",
+          "message": "Questo è il successore di <em>ScreenToGif</em>, realizzato dallo stesso sviluppatore :)",
+          "action": "Ottieni ScreenToGif"
+        },
+        "false-positive": {
+          "title": "Falso positivo",
+          "message": "Se Windows Defender segnala l'app come virus, aggiorna la definizione di sicurezza di Defender a 1.449.348.0",
+          "action": "Visualizza i risultati di VirusTotal"
+        }
       },
       "more": "Vuoi vedere altro?"
     },

@@ -278,10 +278,17 @@
       "header": "螢幕錄製的新時代",
       "subtitle": "現在下載免費版或升級為 Pro",
       "info": "適用於 Windows 10/11",
-      "migrated": {
-        "title": "一個新應用",
-        "message": "這是同一開發者製作的 <em>ScreenToGif</em> 的後繼產品 :)",
-        "action": "取得 ScreenToGif"
+      "banners": {
+        "migrated": {
+          "title": "一個新應用",
+          "message": "這是同一開發者製作的 <em>ScreenToGif</em> 的後繼產品 :)",
+          "action": "取得 ScreenToGif"
+        },
+        "false-positive": {
+          "title": "誤判",
+          "message": "如果 Windows Defender 將此應用標示為病毒，請將 Defender 安全定義更新至 1.449.348.0",
+          "action": "查看 VirusTotal 結果"
+        }
       },
       "more": "想查看更多嗎？"
     },

@@ -278,10 +278,17 @@
       "header": "Une nouvelle ère pour l'enregistrement d'écran",
       "subtitle": "Téléchargez maintenant la version gratuite ou passez Pro",
       "info": "Pour Windows 10/11",
-      "migrated": {
-        "title": "Une nouvelle application",
-        "message": "Ceci est le successeur de <em>ScreenToGif</em>, créé par le même développeur :)",
-        "action": "Obtenir ScreenToGif"
+      "banners": {
+        "migrated": {
+          "title": "Une nouvelle application",
+          "message": "Ceci est le successeur de <em>ScreenToGif</em>, créé par le même développeur :)",
+          "action": "Obtenir ScreenToGif"
+        },
+        "false-positive": {
+          "title": "Faux positif",
+          "message": "Si Windows Defender signale l'application comme un virus, mettez à jour la définition de sécurité Defender vers 1.449.348.0",
+          "action": "Voir les résultats VirusTotal"
+        }
       },
       "more": "Vous voulez en voir plus ?"
     },
