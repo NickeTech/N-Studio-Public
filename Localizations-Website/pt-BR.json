@@ -90,7 +90,12 @@
 
     "forgot": {
       "title": "Esqueceu sua Senha?",
-      "action": "Requisitar Nova Senha"
+      "action": "Requisitar Nova Senha",
+
+      "sent": {
+        "title": "Solicitação de redefinição enviada",
+        "message": "Se existir uma conta com o e-mail informado, você deve receber uma mensagem de redefinição em breve."
+      }
     },
 
     "reset": {

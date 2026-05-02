@@ -90,7 +90,12 @@
 
     "forgot": {
       "title": "Mot de passe oublié ?",
-      "action": "Demander la réinitialisation"
+      "action": "Demander la réinitialisation",
+
+      "sent": {
+        "title": "Réinitialisation demandée",
+        "message": "Si un compte existe pour l'e-mail fourni, vous devriez recevoir un message de réinitialisation sous peu."
+      }
     },
 
     "reset": {

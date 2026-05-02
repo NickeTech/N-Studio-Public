@@ -90,7 +90,12 @@
 
     "forgot": {
       "title": "Passwort vergessen?",
-      "action": "Passwort zurücksetzen anfordern"
+      "action": "Passwort zurücksetzen anfordern",
+
+      "sent": {
+        "title": "Passwort zurücksetzen angefordert",
+        "message": "Wenn ein Konto mit der angegebenen E-Mail existiert, solltest du in Kürze eine Nachricht zum Zurücksetzen erhalten."
+      }
     },
 
     "reset": {

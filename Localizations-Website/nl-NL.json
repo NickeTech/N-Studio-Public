@@ -90,7 +90,12 @@
 
     "forgot": {
       "title": "Wachtwoord vergeten?",
-      "action": "Wachtwoordreset aanvragen"
+      "action": "Wachtwoordreset aanvragen",
+
+      "sent": {
+        "title": "Wachtwoordreset aangevraagd",
+        "message": "Als er een account bestaat met het opgegeven e-mailadres, ontvang je binnenkort een bericht om je wachtwoord opnieuw in te stellen."
+      }
     },
 
     "reset": {

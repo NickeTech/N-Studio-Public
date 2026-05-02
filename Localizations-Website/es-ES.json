@@ -90,7 +90,12 @@
 
     "forgot": {
       "title": "¿Has olvidado tu contraseña?",
-      "action": "Solicitar restablecimiento de contraseña"
+      "action": "Solicitar restablecimiento de contraseña",
+
+      "sent": {
+        "title": "Restablecimiento de contraseña solicitado",
+        "message": "Si existe una cuenta con el correo proporcionado, deberías recibir un mensaje de restablecimiento pronto."
+      }
     },
 
     "reset": {

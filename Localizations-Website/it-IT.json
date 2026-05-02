@@ -90,7 +90,12 @@
 
     "forgot": {
       "title": "Hai dimenticato la password?",
-      "action": "Richiedi reset password"
+      "action": "Richiedi reset password",
+
+      "sent": {
+        "title": "Richiesta di reset inviata",
+        "message": "Se esiste un account con l'email fornita, dovresti ricevere un messaggio di reset a breve."
+      }
     },
 
     "reset": {
