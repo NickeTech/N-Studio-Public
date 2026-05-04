@@ -135,6 +135,8 @@
     <s:String x:Key="S.Dialog.FirstTime.Serial">Serial</s:String>
     <s:String x:Key="S.Dialog.FirstTime.OnStart">On start, open...</s:String>
     <s:String x:Key="S.Dialog.FirstTime.AfterRecording">After recording, show...</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.CacheLocation">Store recordings and projects on...</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.CacheLocation.Low">Low on space</s:String>
 
     <!--Dialogs • Reset Styles-->
     <s:String x:Key="S.Dialog.ResetStyles.Header">Would you like to reset these settings?</s:String>
@@ -1147,6 +1149,7 @@
     <s:String x:Key="S.Field.Empty">(empty)</s:String>
     <s:String x:Key="S.Field.Space">(space)</s:String>
     <s:String x:Key="S.Field.Optional">(optional)</s:String>
+    <s:String x:Key="S.Field.Minimum">(min)</s:String>
     <s:String x:Key="S.Field.Key">Click to set keyboard focus, then press the desired keys and modifiers.&#10;Some keys combinations are not allowed.</s:String>
     <s:String x:Key="S.Field.Key.Remove">Remove key combination</s:String>
 
