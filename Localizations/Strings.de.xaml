@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Maschinell übersetzt (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-04-26</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-06</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Akzeptieren</s:String>

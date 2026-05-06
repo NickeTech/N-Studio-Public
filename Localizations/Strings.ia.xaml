@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Machine Translated</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-02-16</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-06</s:DateTime>
 
     <s:String x:Key="S.Time.Ago.Seconds">alcun secundas passate</s:String>
     <s:String x:Key="S.Time.Ago.Minute">un minuta passate</s:String>
