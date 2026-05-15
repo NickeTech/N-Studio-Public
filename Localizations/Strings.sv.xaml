@@ -1,0 +1,2409 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib"
+                    xml:space="preserve">
+
+    <!--To use a NewLine: &#10; or CarriageReturn + NewLine: &#13;&#10;-->
+    <!--You can use the zero-width-divider to suggest where the word should be divided when there's no space &#8203;-->
+    <!--Special texts like {0}, are placeholders for dynamic values, such as numbers.-->
+
+    <!--Information-->
+    <s:String x:Key="S.Translation.Authors">⚠️ Maskinöversatt (Machine translated)</s:String>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-14</s:DateTime>
+
+    <!--Imperative-->
+    <s:String x:Key="S.Imperative.Accept">Acceptera</s:String>
+    <s:String x:Key="S.Imperative.Yes">Ja</s:String>
+    <s:String x:Key="S.Imperative.No">Nej</s:String>
+    <s:String x:Key="S.Imperative.Add">Lägg till</s:String>
+    <s:String x:Key="S.Imperative.Select">Välj</s:String>
+    <s:String x:Key="S.Imperative.Reset">Återställ</s:String>
+    <s:String x:Key="S.Imperative.Reset.Info">Återställ till ursprungliga inställningar</s:String>
+    <s:String x:Key="S.Imperative.Revert">Återgå</s:String>
+    <s:String x:Key="S.Imperative.Retry">Försök igen</s:String>
+    <s:String x:Key="S.Imperative.Export">Exportera</s:String>
+    <s:String x:Key="S.Imperative.Edit">Redigera</s:String>
+    <s:String x:Key="S.Imperative.Discard">Kassera</s:String>
+    <s:String x:Key="S.Imperative.Delete">Ta bort</s:String>
+    <s:String x:Key="S.Imperative.Reload">Ladda om</s:String>
+    <s:String x:Key="S.Imperative.Remove">Ta bort</s:String>
+    <s:String x:Key="S.Imperative.RemoveAll">Ta bort alla</s:String>
+    <s:String x:Key="S.Imperative.Insert">Infoga</s:String>
+    <s:String x:Key="S.Imperative.Import">Importera</s:String>
+    <s:String x:Key="S.Imperative.Keep">Behåll</s:String>
+    <s:String x:Key="S.Imperative.KeepAll">Behåll alla</s:String>
+    <s:String x:Key="S.Imperative.Download">Ladda ned</s:String>
+    <s:String x:Key="S.Imperative.LeaveAsIs">Låt vara</s:String>
+    <s:String x:Key="S.Imperative.Dismiss">Avfärda</s:String>
+    <s:String x:Key="S.Imperative.Upgrade">Uppgradera</s:String>
+    <s:String x:Key="S.Imperative.Save">Spara</s:String>
+    <s:String x:Key="S.Imperative.Create">Skapa</s:String>
+    <s:String x:Key="S.Imperative.Ok">OK</s:String>
+    <s:String x:Key="S.Imperative.Cancel">Avbryt</s:String>
+    <s:String x:Key="S.Imperative.Close">Stäng</s:String>
+    <s:String x:Key="S.Imperative.Continue">Fortsätt</s:String>
+    <s:String x:Key="S.Imperative.Clear">Rensa</s:String>
+    <s:String x:Key="S.Imperative.SeeMore">Se mer</s:String>
+    <s:String x:Key="S.Imperative.FixIssue">Åtgärda problemet</s:String>
+    <s:String x:Key="S.Imperative.Login">Logga in</s:String>
+    <s:String x:Key="S.Imperative.Logout">Logga ut</s:String>
+    <s:String x:Key="S.Imperative.Update">Uppdatera</s:String>
+    <s:String x:Key="S.Imperative.Ignore">Ignorera</s:String>
+    <s:String x:Key="S.Imperative.Exit">Avsluta</s:String>
+    <s:String x:Key="S.Imperative.KeepOpen">Håll öppet</s:String>
+    <s:String x:Key="S.Imperative.OpenSettings">Öppna inställningar</s:String>
+    <s:String x:Key="S.Imperative.OpenPresetSettings">Öppna förinställningsinställningar</s:String>
+    <s:String x:Key="S.Imperative.OpenFile">Öppna fil</s:String>
+    <s:String x:Key="S.Imperative.Open">Öppna</s:String>
+    <s:String x:Key="S.Imperative.SelectAll">Markera alla</s:String>
+    <s:String x:Key="S.Imperative.DeselectAll">Avmarkera alla</s:String>
+    <s:String x:Key="S.Imperative.ReportIssue">Rapportera problem</s:String>
+    <s:String x:Key="S.Imperative.AskMe">Fråga mig</s:String>
+    <s:String x:Key="S.Imperative.Abort">Avbryt</s:String>
+    <s:String x:Key="S.Imperative.TryAgain">Försök igen</s:String>
+    <s:String x:Key="S.Imperative.Overwrite">Skriv över</s:String>
+    <s:String x:Key="S.Imperative.SendFeedback">Skicka feedback</s:String>
+    <s:String x:Key="S.Imperative.OpenFolder">Öppna mapp</s:String>
+    <s:String x:Key="S.Imperative.OpenDrive">Öppna enhet</s:String>
+    <s:String x:Key="S.Imperative.AddEmail">Lägg till e-post</s:String>
+    <s:String x:Key="S.Imperative.SendWithout">Skicka utan</s:String>
+
+    <!--Time • Referential-->
+    <s:String x:Key="S.Time.Ago.Seconds">för några sekunder sedan</s:String>
+    <s:String x:Key="S.Time.Ago.Minute">för en minut sedan</s:String>
+    <s:String x:Key="S.Time.Ago.Minutes">för {0} minuter sedan</s:String>
+    <s:String x:Key="S.Time.Ago.Hour">för en timme sedan</s:String>
+    <s:String x:Key="S.Time.Ago.Hours">för {0} timmar sedan</s:String>
+    <s:String x:Key="S.Time.Ago.Day">igår</s:String>
+    <s:String x:Key="S.Time.Ago.Days">för {0} dagar sedan</s:String>
+    <s:String x:Key="S.Time.Ago.Month">förra månaden</s:String>
+    <s:String x:Key="S.Time.Ago.Months">för {0} månader sedan</s:String>
+    <s:String x:Key="S.Time.Ago.Year">förra året</s:String>
+    <s:String x:Key="S.Time.Ago.Years">för {0} år sedan</s:String>
+
+    <!--Time • Static (leave 2/3-4 plurals same as the normal plural if your language makes no difference for those quantities)-->
+    <s:String x:Key="S.Time.Static.Millisecond">millisekund</s:String>
+    <s:String x:Key="S.Time.Static.Milliseconds">millisekunder</s:String>
+    <s:String x:Key="S.Time.Static.Milliseconds.2">millisekunder</s:String>
+    <s:String x:Key="S.Time.Static.Milliseconds.3-4">millisekunder</s:String>
+    <s:String x:Key="S.Time.Static.Short.Milliseconds">ms</s:String>
+    <s:String x:Key="S.Time.Static.Second">sekund</s:String>
+    <s:String x:Key="S.Time.Static.Seconds">sekunder</s:String>
+    <s:String x:Key="S.Time.Static.Seconds.2">sekunder</s:String>
+    <s:String x:Key="S.Time.Static.Seconds.3-4">sekunder</s:String>
+    <s:String x:Key="S.Time.Static.Short.Second">sek</s:String>
+    <s:String x:Key="S.Time.Static.Short.Seconds">sek</s:String>
+    <s:String x:Key="S.Time.Static.Single.Second">s</s:String>
+    <s:String x:Key="S.Time.Static.Minute">minut</s:String>
+    <s:String x:Key="S.Time.Static.Minutes">minuter</s:String>
+    <s:String x:Key="S.Time.Static.Minutes.2">minuter</s:String>
+    <s:String x:Key="S.Time.Static.Minutes.3-4">minuter</s:String>
+    <s:String x:Key="S.Time.Static.Short.Minute">min</s:String>
+    <s:String x:Key="S.Time.Static.Single.Minute">m</s:String>
+    <s:String x:Key="S.Time.Static.Hour">timme</s:String>
+    <s:String x:Key="S.Time.Static.Hours">timmar</s:String>
+    <s:String x:Key="S.Time.Static.Hours.2">timmar</s:String>
+    <s:String x:Key="S.Time.Static.Hours.3-4">timmar</s:String>
+    <s:String x:Key="S.Time.Static.Short.Hour">t</s:String>
+    <s:String x:Key="S.Time.Static.Short.Hours">t</s:String>
+    <s:String x:Key="S.Time.Static.Single.Hour">h</s:String>
+    <s:String x:Key="S.Time.Static.Day">dag</s:String>
+    <s:String x:Key="S.Time.Static.Days">dagar</s:String>
+    <s:String x:Key="S.Time.Static.Days.2">dagar</s:String>
+    <s:String x:Key="S.Time.Static.Days.3-4">dagar</s:String>
+    <s:String x:Key="S.Time.Static.Single.Day">d</s:String>
+
+    <!--Dialogs • Error-->
+    <s:String x:Key="S.Dialog.Error.Header">Oj. Något oväntat hände...</s:String>
+    <s:String x:Key="S.Dialog.Error.Info">Appen kraschade av en oförutsedd anledning.&#10;Skicka gärna detaljer via feedbackverktyget för att hjälpa till att åtgärda det.</s:String>
+    <s:String x:Key="S.Dialog.Error.SeeMore">Klicka här för att se fler detaljer.</s:String>
+    <s:String x:Key="S.Dialog.Error.SeeMore.Tooltip">Öppnar ett annat fönster för att visa fler detaljer om felet.</s:String>
+
+    <!--Dialogs • Error details-->
+    <s:String x:Key="S.Dialog.Exception.Header">Felinformation</s:String>
+    <s:String x:Key="S.Dialog.Exception.Copy">Kopiera detaljer</s:String>
+
+    <!--Dialogs • First Time-->
+    <s:String x:Key="S.Dialog.FirstTime.Header">Välkommen till N-Studio</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.Subtitle">Aktivera appen genom att använda din e-postadress + lösenord eller serienummer.</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.Subtitle.Settings">Konfigurera appen för att bäst följa ditt arbetsflöde.</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.Account">Visa prenumeration</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.AlmostDone.Title">Nästan klart</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.AlmostDone.Message">Aktiveringsuppgifterna gavs av din systemadministratör</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.Email">E-post</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.Password">Lösenord</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.Serial">Serienummer</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.OnStart">Vid start, öppna...</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.AfterRecording">Efter inspelning, visa...</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.CacheLocation">Spara inspelningar och projekt på...</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.CacheLocation.Low">Lite plats kvar</s:String>
+
+    <!--Dialogs • Reset Styles-->
+    <s:String x:Key="S.Dialog.ResetStyles.Header">Vill du återställa dessa inställningar?</s:String>
+    <s:String x:Key="S.Dialog.ResetStyles.Subtitle">Inställningarna för den typen av segment återställs till standardvärden.</s:String>
+
+    <!--Dialogs • Create Project-->
+    <s:String x:Key="S.Dialog.NewProject.Header">Nytt projekt</s:String>
+    <s:String x:Key="S.Dialog.NewProject.Name">Namn</s:String>
+    <s:String x:Key="S.Dialog.NewProject.Background">Bakgrund</s:String>
+    <s:String x:Key="S.Dialog.NewProject.Dpi">DPI</s:String>
+
+    <!--Dialogs • Update-->
+    <s:String x:Key="S.Dialog.Update.Header">Uppdatering tillgänglig</s:String>
+    <s:String x:Key="S.Dialog.Update.Warning.NoUpdate">Ingen uppdatering hittades</s:String>
+
+    <!--Dialogs • Color selector-->
+    <s:String x:Key="S.Dialog.ColorSelector.Header">Välj en färg</s:String>
+    <s:String x:Key="S.Dialog.ColorSelector.Red">Röd</s:String>
+    <s:String x:Key="S.Dialog.ColorSelector.Green">Grön</s:String>
+    <s:String x:Key="S.Dialog.ColorSelector.Blue">Blå</s:String>
+    <s:String x:Key="S.Dialog.ColorSelector.Alpha">Alfa</s:String>
+    <s:String x:Key="S.Dialog.ColorSelector.Hexadecimal">Hex</s:String>
+    <s:String x:Key="S.Dialog.ColorSelector.Initial">Startfärg</s:String>
+    <s:String x:Key="S.Dialog.ColorSelector.Current">Aktuell färg</s:String>
+    <s:String x:Key="S.Dialog.ColorSelector.Latest">Senaste färg</s:String>
+    <s:String x:Key="S.Dialog.ColorSelector.Sample">Dra detta för att&#10;provta färger</s:String>
+    <s:String x:Key="S.Dialog.ColorSelector.Sample.Info">Klicka och dra för att välja&#10;färger från din skärm.</s:String>
+    <s:String x:Key="S.Dialog.ColorSelector.Control">Klicka här för att välja färg</s:String>
+
+    <!--Dialogs • Token-->
+    <s:String x:Key="S.Dialog.Token.Header">Auktorisering</s:String>
+    <s:String x:Key="S.Dialog.Token.Url">Callback-URL</s:String>
+
+    <!--Dialogs • File Name Automation-->
+    <s:String x:Key="S.Dialog.NameAutomation.Title">Filnamnsautomation</s:String>
+    <s:String x:Key="S.Dialog.NameAutomation.Preview">Förhandsvisning</s:String>
+    <s:String x:Key="S.Dialog.NameAutomation.Format">Format</s:String>
+    <s:String x:Key="S.Dialog.NameAutomation.Types.Number">Automatiskt filnummer</s:String>
+    <s:String x:Key="S.Dialog.NameAutomation.Types.Date">Datum och tid</s:String>
+    <s:String x:Key="S.Dialog.NameAutomation.Insert.Info">Infogar den valda automationsdelen på markörens position i formatfältet</s:String>
+    <s:String x:Key="S.Dialog.NameAutomation.TurnStatic">Gör statiskt</s:String>
+    <s:String x:Key="S.Dialog.NameAutomation.TurnStatic.Info">Använd det konverterade filnamnet som format, vilket i praktiken gör filnamnet statiskt</s:String>
+    <s:String x:Key="S.Dialog.NameAutomation.RemoveSections">Ta bort sektioner</s:String>
+    <s:String x:Key="S.Dialog.NameAutomation.RemoveSections.Info">Ta bort alla automationssektioner</s:String>
+
+    <!--Dialogs • Key Translations-->
+    <s:String x:Key="S.Dialog.KeyTranslations.Header">Översatta tangenter</s:String>
+    <s:String x:Key="S.Dialog.KeyTranslations.Subtitle">Välj vilka tangenter som ska visas med ett översatt namn</s:String>
+    <s:String x:Key="S.Dialog.KeyTranslations.ToggleTranslation">Växla översättningsanvändning</s:String>
+    <s:String x:Key="S.Dialog.KeyTranslations.OriginalKey">Ursprungligt tangentnamn</s:String>
+    <s:String x:Key="S.Dialog.KeyTranslations.TranslatedKey">Översatt tangentnamn</s:String>
+
+    <!--Dialogs • Key Aliases-->
+    <s:String x:Key="S.Dialog.KeyAliases.Header">Tangentnamnsalias</s:String>
+    <s:String x:Key="S.Dialog.KeyAliases.Subtitle">Ange alias (andra namn) för tangenter</s:String>
+    <s:String x:Key="S.Dialog.KeyAliases.Alias">Nytt tangentnamn</s:String>
+
+    <!--Dialogs • Login-->
+    <s:String x:Key="S.Dialog.Login.Header">Logga in</s:String>
+    <s:String x:Key="S.Dialog.Login.Username">Användarnamn</s:String>
+    <s:String x:Key="S.Dialog.Login.Password">Lösenord</s:String>
+
+    <!--Dialogs • Import localization-->
+    <s:String x:Key="S.Dialog.ImportLocalization.Header">Importera lokalisation</s:String>
+    <s:String x:Key="S.Dialog.ImportLocalization.Resource">Resursfil (.xaml)</s:String>
+    <s:String x:Key="S.Dialog.ImportLocalization.Language">Språk</s:String>
+    <s:String x:Key="S.Dialog.ImportLocalization.Select.Info">Välj en lokalisering att importera</s:String>
+    <s:String x:Key="S.Dialog.ImportLocalization.Open">Öppna en lokalisering</s:String>
+    <s:String x:Key="S.Dialog.ImportLocalization.File">Lokalisering</s:String>
+
+    <!--Dialogs • Upgrade now-->
+    <s:String x:Key="S.Dialog.UpgradeNow.Header">Uppgradera nu</s:String>
+    <s:String x:Key="S.Dialog.UpgradeNow.Subtitle">Den här funktionen är tillgänglig i Pro-versionen</s:String>
+
+    <!--Dialogs • Command output-->
+    <s:String x:Key="S.Dialog.CommandOutput.Header">Kommandoresultat</s:String>
+    <s:String x:Key="S.Dialog.CommandOutput.StartedOn">Startade</s:String>
+    <s:String x:Key="S.Dialog.CommandOutput.FinishedOn">Avslutade</s:String>
+    <s:String x:Key="S.Dialog.CommandOutput.Result">Resultat</s:String>
+
+    <!--Dialogs • Effects-->
+    <s:String x:Key="S.Dialog.Effects.Header.New">Ny effekt</s:String>
+    <s:String x:Key="S.Dialog.Effects.Header.Edit">Redigera effekt</s:String>
+    <s:String x:Key="S.Dialog.Effects.Target">Målsegment</s:String>
+    <s:String x:Key="S.Dialog.Effects.Type">Effekttyp</s:String>
+    <s:String x:Key="S.Dialog.Effects.Type.ColorInversion">Färgnegativ</s:String>
+    <s:String x:Key="S.Dialog.Effects.Type.Fade">Tonning</s:String>
+    <s:String x:Key="S.Dialog.Effects.Type.Move">Flytta/översätt</s:String>
+    <s:String x:Key="S.Dialog.Effects.Type.Overlay">Överlagring</s:String>
+    <s:String x:Key="S.Dialog.Effects.Type.Scale">Skala</s:String>
+    <s:String x:Key="S.Dialog.Effects.Type.Shadow">Skugga</s:String>
+    <s:String x:Key="S.Dialog.Effects.Type.Tint">Nyans</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger">Utlösare</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.SegmentStart">Segmentstart</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.SegmentEnd">Segment slut</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.SubSegment">Delsegment</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.MouseClick">Musklick</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.MouseClick.Left">Vänster</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.MouseClick.Middle">Mitten</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.MouseClick.Right">Höger</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.MouseClick.Extra1">Extra 1</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.MouseClick.Extra2">Extra 2</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.MouseHover">Hovra med musen</s:String>
+    <s:String x:Key="S.Dialog.Effects.TimingModifier">Tidsmodifierare</s:String>
+    <s:String x:Key="S.Dialog.Effects.Duration">Varaktighet</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect">Effekt</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.Style">Stil</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.Fill">Fyllning</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.Stroke">Kontur</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.StrokeThickness">Konturtjocklek</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.HorizontalOffset">Horisontell förskjutning</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.VerticalOffset">Vertikal förskjutning</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.AppliesBeforeSegment">Appliceras före segment?</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.HorizontalScale">Horisontell skala</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.VerticalScale">Vertikal skala</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.HorizontalCenter">Horisontell mitt</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.VerticalCenter">Vertikal mitt</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing">Easing</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type">Easing-typ</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.None">Ingen</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Back">Back</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Bounce">Studs</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Circle">Cirkel</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Cubic">Kubisk</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Elastic">Elastisk</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Exponential">Exponentiell</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Power">Power</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Quadratic">Kvadratisk</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Quartic">Quartisk</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Quintic">Kvintisk</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Sine">Sinus</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.KeyFrames">Nyckelbilder</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Mode">Easing-läge</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Mode.In">Inåt</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Mode.Out">Utåt</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Mode.InOut">Inåt + utåt</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Direction">Easing-riktning</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Direction.Forward">Framåt</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Direction.Backward">Bakåt</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Direction.ForwardBackward">Framåt → bakåt</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Direction.BackwardForward">Bakåt → framåt</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Amplitude">Amplitud</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Bounces">Studsar</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Bounciness">Studsighet</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Oscillations">Oscillationer</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Springiness">Fjädring</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Exponent">Exponent</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Power">Power</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.KeyFrames">Nyckelbilder</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.KeyFrames.SmoothTransition">Mjuk övergång</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.KeyFrames.Position">Position</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.KeyFrames.Value">Värde</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.NoSettings">Inga andra inställningar för denna easingfunktion</s:String>
+
+    <!--Dialogs • New preset-->
+    <s:String x:Key="S.Dialog.NewPreset.Header">Nytt förinställt</s:String>
+
+    <!--Dialogs • Recording underway-->
+    <s:String x:Key="S.Dialog.OngoingRecording.Title">Vill du behålla din inspelning innan du stänger?</s:String>
+    <s:String x:Key="S.Dialog.OngoingRecording.Details">Du har en pågående inspelning.&#10;Vill du behålla eller kassera den?</s:String>
+
+    <!--Dialogs • Unsaved changes-->
+    <s:String x:Key="S.Dialog.UnsavedChanges.Title">Vill du spara dina ändringar innan du stänger?</s:String>
+    <s:String x:Key="S.Dialog.UnsavedChanges.Details">Du har osparade ändringar i detta projekt.&#10;Vill du spara det innan du stänger?</s:String>
+    <s:String x:Key="S.Dialog.UnsavedChanges.KeepInCache">Behåll i tillfällig cache för senare</s:String>
+    <s:String x:Key="S.Dialog.UnsavedChanges.KeepInCache.Info">Förutom att spara projektet som en fil, behåll det i cachen för enkel åtkomst senare</s:String>
+
+    <!--Dialogs • Exiting app-->
+    <s:String x:Key="S.Dialog.Exiting.Header">Är du säker på att du vill avsluta?</s:String>
+    <s:String x:Key="S.Dialog.Exiting.Message">Alla fönster stängs och systemfältikonen tas bort</s:String>
+
+    <!--Dialogs • Keep Project-->
+    <s:String x:Key="S.Dialog.KeepProject.Title">Vill du behålla detta projekt i cache?</s:String>
+    <s:String x:Key="S.Dialog.KeepProject.Details">Detta projekt lagras i cache-mappen, men det kommer att raderas om några dagar.&#10;Vill du behålla det för tillfället?</s:String>
+
+    <!--Dialogs • Insert Recording Position-->
+    <s:String x:Key="S.Dialog.InsertRecording.Header">Infoga inspelning vid tidsstämpel</s:String>
+    <s:String x:Key="S.Dialog.InsertRecording.Message">Välj var du vill placera din inspelning i tidslinjen och kanske ställ in det som standardinfogningspunkt.</s:String>
+
+    <!--Dialogs • Insert Media Position-->
+    <s:String x:Key="S.Dialog.InsertMedia.Header">Infoga media vid tidsstämpel</s:String>
+    <s:String x:Key="S.Dialog.InsertMedia.Message">Välj var du vill placera ditt media i tidslinjen och kanske ställ in det som standardinfogningspunkt.</s:String>
+
+    <!--Dialogs • Insert Media Settings-->
+    <s:String x:Key="S.Dialog.InsertMedia.Settings.Header">Infoga media</s:String>
+    <s:String x:Key="S.Dialog.InsertMedia.Settings.Subtitle">Välj hur du vill gruppera och positionera mediet i tidslinjen.</s:String>
+
+    <!--Dialogs • Remove Effect-->
+    <s:String x:Key="S.Dialog.RemoveEffect.Title">Vill du ta bort effekten?</s:String>
+    <s:String x:Key="S.Dialog.RemoveEffect.Details">Det går att ångra.</s:String>
+
+    <!--Dialogs • Remove Segment-->
+    <s:String x:Key="S.Dialog.RemoveSegment.Title">Vill du ta bort segmentet/segmenten?</s:String>
+    <s:String x:Key="S.Dialog.RemoveSegment.Details">Det går att ångra.</s:String>
+
+    <!--Dialogs • Remove Track-->
+    <s:String x:Key="S.Dialog.RemoveTrack.Title">Vill du ta bort spåret?</s:String>
+    <s:String x:Key="S.Dialog.RemoveTrack.Details">Det går att ångra.</s:String>
+
+    <!--Dialogs • Missing Contact Email-->
+    <s:String x:Key="S.Dialog.ContactEmail.Title">Vill du ha svar?</s:String>
+    <s:String x:Key="S.Dialog.ContactEmail.Details">Om du vill att vi ska återkomma, ange din e-post.&#10;Annars får vi fortfarande din feedback, men kan inte kontakta dig.</s:String>
+
+    <!--Dialogs • Remove All Projects-->
+    <s:String x:Key="S.Dialog.RemoveAllProjects.Title">Vill du ta bort alla projekt?</s:String>
+    <s:String x:Key="S.Dialog.RemoveAllProjects.Description">Detta raderar alla projekt från cachen. Detta kan inte ångras.</s:String>
+
+    <!--Dialogs • Remove Project-->
+    <s:String x:Key="S.Dialog.RemoveProject.Title">Vill du ta bort projektet?</s:String>
+    <s:String x:Key="S.Dialog.RemoveProject.Description">Detta raderar det valda projektet från cachen. Detta kan inte ångras.</s:String>
+
+    <!--Dialogs • Missing 'Follow Cursor' shortcuts-->
+    <s:String x:Key="S.Dialog.FollowCursor.Header">Saknar snabbkommando för att följa markören</s:String>
+    <s:String x:Key="S.Dialog.FollowCursor.Message">För att använda funktionen att följa muspekaren måste du ställa in ett snabbkommando för att växla den vid behov.</s:String>
+
+    <!--Dialogs • Delete file with same name-->
+    <s:String x:Key="S.Dialog.Overwrite.Header">Vill du skriva över filen?</s:String>
+    <s:String x:Key="S.Dialog.Overwrite.Message">En fil med samma namn finns redan.</s:String>
+
+    <!--Dialogs • Delete file-->
+    <s:String x:Key="S.Dialog.DeleteFile.Header">Är du säker på att du vill radera filen?</s:String>
+    <s:String x:Key="S.Dialog.DeleteFile.Message">Denna åtgärd kan inte ångras.</s:String>
+
+    <!--Dialogs • Delete old project-->
+    <s:String x:Key="S.Dialog.DeleteOld.Title">Vill du ta bort det gamla projektet?</s:String>
+    <s:String x:Key="S.Dialog.DeleteOld.Message">Det valda projektet kommer att konverteras till det nya formatet.&#10;Vill du radera det gamla efteråt?</s:String>
+
+    <!--Dialogs • Discard recording-->
+    <s:String x:Key="S.Dialog.DiscardRecording.Header">Är du säker på att du vill kassera inspelningen?</s:String>
+    <s:String x:Key="S.Dialog.DiscardRecording.Message">Allt fångat innehåll kommer att kasseras.&#10;Du kommer inte kunna ångra denna åtgärd.</s:String>
+
+    <!--Dialogs • Delete preset-->
+    <s:String x:Key="S.Dialog.DeletePreset.Header">Är du säker på att du vill ta bort förinställningen?</s:String>
+    <s:String x:Key="S.Dialog.DeletePreset.Message">Den valda förinställningen kommer att raderas och detta kan inte ångras.</s:String>
+
+    <!--Dialogs • Reset preset-->
+    <s:String x:Key="S.Dialog.ResetPreset.Header">Är du säker på att du vill återställa förinställningen?</s:String>
+    <s:String x:Key="S.Dialog.ResetPreset.Message">Den valda förinställningen kommer att återställas till dess standardinställningar och detta kan inte ångras.</s:String>
+
+    <!--Dialogs • Remove all effects-->
+    <s:String x:Key="S.Dialog.RemoveAllEffects.Header">Är du säker på att du vill ta bort alla effekter?</s:String>
+    <s:String x:Key="S.Dialog.RemoveAllEffects.Message">Standardeffekterna kan återställas genom att klicka på 'Återställ', men alla anpassade effekter kommer att gå förlorade.</s:String>
+
+    <!--Dialogs • Reset effects-->
+    <s:String x:Key="S.Dialog.ResetEffects.Header">Är du säker på att du vill återställa till standardinställningar?</s:String>
+    <s:String x:Key="S.Dialog.ResetEffects.Message">Alla anpassade effekter kommer att gå förlorade.</s:String>
+
+    <!--Dialogs • Remove effect-->
+    <s:String x:Key="S.Dialog.RemoveEffect.Header">Är du säker på att du vill ta bort effekten?</s:String>
+    <s:String x:Key="S.Dialog.RemoveEffect.Message">Denna åtgärd kan inte ångras, men du kan återställa standardeffekter genom att trycka på 'Återställ'.</s:String>
+
+    <!--Dialogs • Clear cache-->
+    <s:String x:Key="S.Dialogs.Cache.Header">Vill du rensa cachemappen?</s:String>
+    <s:String x:Key="S.Dialogs.Cache.Message">När du skapar en inspelning eller öppnar något för att redigera skapas ett projekt och lagras i cachemappen.</s:String>
+    <s:String x:Key="S.Dialogs.Cache.KeepRecent">Behåll senaste projekten</s:String>
+    <s:String x:Key="S.Dialogs.Cache.KeepRecent.Info">Endast projekt äldre än vad som är konfigurerat i Inställningar > Lagring kommer att raderas</s:String>
+
+    <!--Validation • Field Validations-->
+    <s:String x:Key="S.Validation.Required.Header">Obligatoriska fält</s:String>
+    <s:String x:Key="S.Validation.Required.Description">Några obligatoriska fält är tomma eller innehåller ogiltiga data</s:String>
+    <s:String x:Key="S.Validation.Required.Fields.Title">En giltig titel krävs (5 till 100 tecken)</s:String>
+    <s:String x:Key="S.Validation.Required.Fields.Description">En beskrivande titel krävs (5 till 5000 tecken)</s:String>
+    <s:String x:Key="S.Validation.Required.Fields.Email">En giltig e-postadress krävs</s:String>
+    <s:String x:Key="S.Validation.Required.Fields.Password">Ett lösenord mellan 8 och 128 tecken krävs</s:String>
+    <s:String x:Key="S.Validation.Required.Fields.Serial">Ett giltigt serienummer krävs</s:String>
+
+    <!--Validation • Attachments too large-->
+    <s:String x:Key="S.Validation.AttachmentsLarge.Header">Bilagornas storlek</s:String>
+    <s:String x:Key="S.Validation.AttachmentsLarge.Description">Bilagornas storlek överstiger 100 MiB</s:String>
+
+    <!--Validation • Missing dependency-->
+    <s:String x:Key="S.Validation.Missing.Header">Saknad beroende</s:String>
+    <s:String x:Key="S.Validation.Missing.Ffmpeg.Message">FFmpeg hittades inte. Ladda ner den via Inställningar > Tillägg</s:String>
+    <s:String x:Key="S.Validation.Missing.Gifski.Message">Gifski hittades inte. Ladda ner den via Inställningar > Tillägg</s:String>
+
+    <!--Validation • Empty parameters-->
+    <s:String x:Key="S.Validation.EmptyParameters.Header">Tomma parametrar</s:String>
+    <s:String x:Key="S.Validation.EmptyParameters.Message">Inga parametrar är inställda för förinställningen</s:String>
+
+    <!--Validation • Missing input/output parameters-->
+    <s:String x:Key="S.Validation.MissingParameters.Header">Saknade parametrar</s:String>
+    <s:String x:Key="S.Validation.MissingParameters.Message">De speciella parametrarna {input} och/eller {output} saknas i parameterfältet</s:String>
+
+    <!--Validation • No export type-->
+    <s:String x:Key="S.Validation.NoExport.Header">Ingen export vald</s:String>
+    <s:String x:Key="S.Validation.NoExport.Message">Du måste välja var du ska spara filen (till en mapp, till Urklipp eller ladda upp någon annanstans)</s:String>
+
+    <!--Validation • No extension selected-->
+    <s:String x:Key="S.Validation.NoExtension.Header">Ingen filändelse vald</s:String>
+    <s:String x:Key="S.Validation.NoExtension.Message">Du valde inte filändelsen</s:String>
+
+    <!--Validation • No output folder selected-->
+    <s:String x:Key="S.Validation.NoOutput.Header">Ingen utdatamapp vald</s:String>
+    <s:String x:Key="S.Validation.NoOutput.Message">Du måste välja var filen ska sparas</s:String>
+
+    <!--Validation • Invalid characters in folder-->
+    <s:String x:Key="S.Validation.InvalidOutput.Header">Ogiltiga tecken</s:String>
+    <s:String x:Key="S.Validation.InvalidOutput.Message">Utdatamappen innehåller ett eller flera ogiltiga tecken. Välj en giltig mapp.</s:String>
+
+    <!--Validation • Output folder missing-->
+    <s:String x:Key="S.Validation.OutputMissing.Header">Saknad mapp</s:String>
+    <s:String x:Key="S.Validation.OutputMissing.Message">Utdatamappen finns inte</s:String>
+
+    <!--Validation • File name empty-->
+    <s:String x:Key="S.Validation.FileNameEmpty.Header">Inget filnamn</s:String>
+    <s:String x:Key="S.Validation.FileNameEmpty.Message">Du måste välja filnamnet</s:String>
+
+    <!--Validation • File name invalid-->
+    <s:String x:Key="S.Validation.InvalidFileName.Header">Ogiltigt filnamn</s:String>
+    <s:String x:Key="S.Validation.InvalidFileName.Message">Filnamnet innehåller ett eller flera ogiltiga tecken</s:String>
+
+    <!--Validation • File already exists-->
+    <s:String x:Key="S.Validation.FileAlreadyExists.Header">Filen finns redan</s:String>
+    <s:String x:Key="S.Validation.FileAlreadyExists.Message">Filnamnet innehåller ett eller flera ogiltiga tecken</s:String>
+
+    <!--Validation • Low disk space-->
+    <s:String x:Key="S.Validation.LowSpace.Header">Lite diskutrymme kvar</s:String>
+    <s:String x:Key="S.Validation.LowSpace.Message">Välj en annan disk eller ta bort några filer</s:String>
+
+    <!--Validation • Can't copy link-->
+    <s:String x:Key="S.Validation.NoLink.Header">Ingen länk att kopiera</s:String>
+    <s:String x:Key="S.Validation.NoLink.Message">Du kan inte välja alternativet att kopiera länken eftersom du inte ställt in att ladda upp filen</s:String>
+
+    <!--Validation • No custom command-->
+    <s:String x:Key="S.Validation.NoCommand.Header">Inget kommando att köra</s:String>
+    <s:String x:Key="S.Validation.NoCommand.Message">För att köra ett efterkodningskommando måste du skriva något i kommandofältet</s:String>
+
+    <!--Validation • Shortcut in use-->
+    <s:String x:Key="S.Validation.ShortcutInUse.Header">Används redan</s:String>
+    <s:String x:Key="S.Validation.ShortcutInUse.Message">Den här genvägen används redan av ett annat kommando</s:String>
+
+    <!--Success • Export feedback-->
+    <s:String x:Key="S.Success.ExportFeedback.Header">Framgång</s:String>
+    <s:String x:Key="S.Success.ExportFeedback.Message">Feedback exporterades som zip</s:String>
+
+    <!--Success • Storage clean up--> 
+    <s:String x:Key="S.Success.StorageCleanup.Header">Framgång</s:String>
+    <s:String x:Key="S.Success.StorageCleanup.Message">Cache-rensning slutförd</s:String>
+
+    <!--Info • Pro feature-->
+    <s:String x:Key="S.Info.ProFeature.Header">Endast för Pro</s:String>
+    <s:String x:Key="S.Info.ProFeature.Message">Uppgradera för att låsa upp den här funktionen</s:String>
+    <s:String x:Key="S.Info.ProFeature.Upgrade">Uppgradera</s:String>
+
+    <!--Info • Format limitations-->
+    <s:String x:Key="S.Info.FormatLimitations.Title">Formatbegränsningar</s:String>
+    <s:String x:Key="S.Info.FormatLimitations.Message">Den aktuella förinställningen ställer begränsningar för bildfrekvensen</s:String>
+    <s:String x:Key="S.Info.FormatLimitations.Gif.Message">Formatet stöder endast bildfördröjningar i multiplar av 10 ms. Det användbara intervallet går från 20 ms till 65 535 ms. Kodaren justerar bildfrekvensen därefter.</s:String>
+    <s:String x:Key="S.Info.FormatLimitations.Ignore.Message">Formatet ignorerar bildfrekvensinställningarna. Dessa alternativ används bara för presentation i exportfönstret.</s:String>
+
+    <!--Info • Default preset-->
+    <s:String x:Key="S.Info.DefaultPreset.Title">Skrivskyddad</s:String>
+    <s:String x:Key="S.Info.DefaultPreset.Message">Vissa egenskaper för en standardförinställning är skrivskyddade</s:String>
+
+    <!--Info • Undo/redo recovered-->
+    <s:String x:Key="S.Info.ResumeUndo.Header">Fortsätt där du slutade</s:String>
+    <s:String x:Key="S.Info.ResumeUndo.Message">Tidigare redigeringsläge upptäckt. Ångra/redo-historik tillgänglig</s:String>
+
+    <!--Info • Load canceled-->
+    <s:String x:Key="S.Info.LoadCanceled.Header">Inläsning avbröts</s:String>
+    <s:String x:Key="S.Info.LoadCanceled.Message">Projektet laddades inte eftersom åtgärden avbröts av användaren</s:String>
+
+    <!--Info • Feedback sent-->
+    <s:String x:Key="S.Info.FeedbackSent.Header">Tack för din återkoppling</s:String>
+    <s:String x:Key="S.Info.FeedbackSent.Message">Ditt meddelande har skickats. Vi uppskattar att du tog dig tid att dela det med oss</s:String>
+
+    <!--Warnings • Single instance-->
+    <s:String x:Key="S.Warning.Single.Header">Appen körs redan</s:String>
+    <s:String x:Key="S.Warning.Single.Message">N-Studio körs redan, men det verkar inte finnas något fönster öppet. Kontrollera systemfältet, N-Studio-ikonen måste vara där</s:String>
+
+    <!--Warnings • Audio device detection--> 
+    <s:String x:Key="S.Warning.DeviceDetection.Title">Problem med enhetsdetektering</s:String>
+    <s:String x:Key="S.Warning.DeviceDetection.Description">Det gick inte att upptäcka ljudenheter</s:String>
+
+    <!--Warnings • Invalid file name--> 
+    <s:String x:Key="S.Warning.InvalidFileName.Header">Ogiltigt filnamn</s:String>
+    <s:String x:Key="S.Warning.InvalidFileName.Message">Filnamnet innehåller ogiltiga tecken</s:String>
+    <s:String x:Key="S.Warning.InvalidFileName.Fix">Åtgärda</s:String>
+    <s:String x:Key="S.Warning.InvalidFileName.Fix.Info">Ta bort ogiltiga tecken från filnamnet</s:String>
+
+    <!--Warnings • File already exists--> 
+    <s:String x:Key="S.Warning.FileAlreadyExists.Header">Filen finns redan</s:String>
+    <s:String x:Key="S.Warning.FileAlreadyExists.Message">Filnamnet innehåller ogiltiga tecken</s:String>
+
+    <!--Warnings • Failed to authenticate token--> 
+    <s:String x:Key="S.Warning.FailedToken.Header">Kunde inte få svar</s:String>
+    <s:String x:Key="S.Warning.FailedToken.Message">Klistra in hela URL:en här för att autentisera</s:String>
+
+    <!--Warnings • Authorization missing--> 
+    <s:String x:Key="S.Warning.AuthorizationMissing.Header">Auktorisering saknas</s:String>
+    <s:String x:Key="S.Warning.AuthorizationMissing.Message">Du kan inte ladda upp till den valda tjänsten eftersom du inte loggat in</s:String>
+
+    <!--Warnings • Unsupported files dropped--> 
+    <s:String x:Key="S.Warning.Drop.Header">Stöds inte eller ogiltigt</s:String>
+    <s:String x:Key="S.Warning.Drop.Message">Det gick inte att infoga eller öppna filen/filerna</s:String>
+
+    <!--Warnings • Low on space-->
+    <s:String x:Key="S.Warning.LowSpace.Header">Lite lagringsutrymme kvar</s:String>
+    <s:String x:Key="S.Warning.LowSpace.Message">Frigör utrymme på din cache-enhet för att kunna spela in</s:String>
+
+    <!--Warnings • Graphics engine-->
+    <s:String x:Key="S.Warning.Graphics.Title">Byt grafikadapter</s:String>
+    <s:String x:Key="S.Warning.Graphics.Instruction">Byt till rätt grafikadapter för att fånga den valda skärmen</s:String>
+    <s:String x:Key="S.Warning.Graphics.Message">På grund av en begränsning i DirectX måste N-Studio köras på samma grafikadapter som skärmen som fångas.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Action">Byt grafikadapter för N-Studio genom att öppna Windows-inställningar > System > Skärm > Grafikinställningar, eller genom att klicka på länken nedan.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Action.Legacy">Byt grafikadapter för N-Studio genom att öppna grafikadapterinställningarna.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Switch">Öppna Windows-inställningar</s:String>
+
+    <!--Error • Failed to send feedback-->
+    <s:String x:Key="S.Error.FailedToSend.Header">Kunde inte skicka feedback</s:String>
+    <s:String x:Key="S.Error.FailedToSend.Description">Exportera feedbackinnehållet som zip och skicka till e-post</s:String>
+    <s:String x:Key="S.Error.FailedToSend.OpenEmail">Öppna e-post</s:String>
+
+    <!--Error • Update Unsupported-->
+    <s:String x:Key="S.Error.UpdateUnsupported.Header">Inte stöds</s:String>
+    <s:String x:Key="S.Error.UpdateUnsupported.Message">Det verkar som att ditt system inte längre stöds eller att något ändrats i uppdateringssystemet. Försök ladda ner det manuellt från webbplatsen.</s:String>
+
+    <!--Error • Update Failed--> 
+    <s:String x:Key="S.Error.UpdateFailed.Header">Uppdatering misslyckades</s:String>
+    <s:String x:Key="S.Error.UpdateFailed.Message">Det gick inte att ladda ner uppdateringen.</s:String>
+
+    <!--Error • Login failed--> 
+    <s:String x:Key="S.Error.Login.Header">Inloggning misslyckades</s:String>
+    <s:String x:Key="S.Error.Login.Message">Autentisering i webbläsaren misslyckades, försök igen</s:String>
+
+    <!--Error • Authentication--> 
+    <s:String x:Key="S.Error.Authentication.Header">Autentiseringsfel</s:String>
+    <s:String x:Key="S.Error.Authentication.Message">Det gick inte att autentisera till tjänsten</s:String>
+
+    <!--Error • Delete file--> 
+    <s:String x:Key="S.Error.DeleteFile.Header">Fel vid borttagning av fil</s:String>
+    <s:String x:Key="S.Error.DeleteFile.Message">Det gick inte att radera filen.</s:String>
+
+    <!--Error • Encoding--> 
+    <s:String x:Key="S.Error.Encoding.Header">Kodningsfel</s:String>
+    <s:String x:Key="S.Error.Encoding.Message">Kodningen misslyckades och kunde inte slutföras.</s:String>
+
+    <!--Error • Recording--> 
+    <s:String x:Key="S.Error.Recording.Header">Fel vid start av inspelning</s:String>
+    <s:String x:Key="S.Error.Recording.Message">Något är fel med inspelningen, det gick inte att starta den korrekt.</s:String>
+
+    <!--Error • Pausing--> 
+    <s:String x:Key="S.Error.Pausing.Header">Fel vid pausning</s:String>
+    <s:String x:Key="S.Error.Pausing.Message">Något är fel med inspelningen, det gick inte att pausa den korrekt.</s:String>
+
+    <!--Error • Stopping--> 
+    <s:String x:Key="S.Error.Stopping.Header">Fel vid stopp</s:String>
+    <s:String x:Key="S.Error.Stopping.Message">Något är fel med inspelningen, det gick inte att avsluta den korrekt.</s:String>
+
+    <!--Error • Capture--> 
+    <s:String x:Key="S.Error.Capture.Header">Det gick inte att fånga skärmen</s:String>
+    <s:String x:Key="S.Error.Capture.Message">Inspelningen kraschade och är i ett trasigt tillstånd.</s:String>
+
+    <!--Error • Export feedback--> 
+    <s:String x:Key="S.Error.ExportFeedback.Header">Exportfel</s:String>
+    <s:String x:Key="S.Error.ExportFeedback.Message">Det gick inte att exportera feedbacken</s:String>
+
+    <!--Error • Unsupported files dropped--> 
+    <s:String x:Key="S.Error.Drop.Header">Fel vid import</s:String>
+    <s:String x:Key="S.Error.Drop.Message">Det gick inte att infoga eller öppna filen/filerna</s:String>
+
+    <!--Error • Unrecognized plugin--> 
+    <s:String x:Key="S.Error.UnrecognizedPlugin.Header">Okänt filformat</s:String>
+    <s:String x:Key="S.Error.UnrecognizedPlugin.Message">Den valda filen kunde inte identifieras</s:String>
+
+    <!--Error • Impossible to update--> 
+    <s:String x:Key="S.Error.UpdatedFailed.Header">Misslyckades att installera uppdatering</s:String>
+    <s:String x:Key="S.Error.UpdatedFailed.Message">Installera uppdateringen manuellt</s:String>
+
+    <!--Error • Error loading--> 
+    <s:String x:Key="S.Errors.Load.Header">Inläsningsfel</s:String>
+    <s:String x:Key="S.Errors.Load.Message">Det gick inte att ladda projektet</s:String>
+
+    <!--Error • Error with renderer--> 
+    <s:String x:Key="S.Errors.Renderer.Header">Renderingsfel</s:String>
+    <s:String x:Key="S.Errors.Renderer.Message">Renderingspipen kraschade</s:String>
+
+    <!--Error • Error initializing--> 
+    <s:String x:Key="S.Errors.InitializePreviewer.Header">Förhandsvisarfel</s:String>
+    <s:String x:Key="S.Errors.InitializePreviewer.Message">Det gick inte att initiera förhandsvisaren</s:String>
+
+    <!--Error • Saving project--> 
+    <s:String x:Key="S.Errors.SaveProject.Header">Fel vid sparning</s:String>
+    <s:String x:Key="S.Errors.SaveProject.Message">Det gick inte att spara projektet</s:String>
+
+    <!--Error • Creating empty project--> 
+    <s:String x:Key="S.Errors.EmptyProject.Header">Fel vid skapande av projekt</s:String>
+    <s:String x:Key="S.Errors.EmptyProject.Message">Det gick inte att skapa ett tomt projekt</s:String>
+
+    <!--Error • Creating project from recording--> 
+    <s:String x:Key="S.Errors.ProjectFromRecording.Header">Fel vid skapande av projekt</s:String>
+    <s:String x:Key="S.Errors.ProjectFromRecording.Message">Det gick inte att skapa projektet från inspelningen</s:String>
+
+    <!--Error • Creating project from media--> 
+    <s:String x:Key="S.Errors.ProjectFromMedia.Header">Fel vid skapande av projekt</s:String>
+    <s:String x:Key="S.Errors.ProjectFromMedia.Message">Det gick inte att skapa projektet från mediet</s:String>
+
+    <!--Error • Copy--> 
+    <s:String x:Key="S.Errors.Copy.Header">Kopiering misslyckades</s:String>
+    <s:String x:Key="S.Errors.Copy.Message">Det gick inte att kopiera de valda objekten</s:String>
+
+    <!--Error • Cut--> 
+    <s:String x:Key="S.Errors.Cut.Header">Klippning misslyckades</s:String>
+    <s:String x:Key="S.Errors.Cut.Message">Det gick inte att klippa de valda objekten</s:String>
+
+    <!--Error • Paste--> 
+    <s:String x:Key="S.Errors.Paste.Header">Klistra in misslyckades</s:String>
+    <s:String x:Key="S.Errors.Paste.Message">Det gick inte att klistra in objekten</s:String>
+
+    <!--Error • Inserting recording--> 
+    <s:String x:Key="S.Errors.InsertingRecording.Header">Fel vid insättning av inspelning</s:String>
+    <s:String x:Key="S.Errors.InsertingRecording.Message">Det gick inte att infoga den inspelade inspelningen i projektet</s:String>
+
+    <!--Error • Inserting media--> 
+    <s:String x:Key="S.Errors.InsertingMedia.Header">Fel vid insättning av media</s:String>
+    <s:String x:Key="S.Errors.InsertingMedia.Message">Det gick inte att infoga det valda mediet i projektet</s:String>
+
+    <!--Error • Inserting text--> 
+    <s:String x:Key="S.Errors.InsertingText.Header">Fel vid insättning av text</s:String>
+    <s:String x:Key="S.Errors.InsertingText.Message">Det gick inte att infoga textelementet i projektet</s:String>
+
+    <!--Error • Inserting progress--> 
+    <s:String x:Key="S.Errors.InsertingProgress.Header">Fel vid insättning av förlopp</s:String>
+    <s:String x:Key="S.Errors.InsertingProgress.Message">Det gick inte att infoga förloppsobjektet i projektet</s:String>
+
+    <!--Error • Inserting drawing--> 
+    <s:String x:Key="S.Errors.InsertingDrawing.Header">Fel vid insättning av ritning</s:String>
+    <s:String x:Key="S.Errors.InsertingDrawing.Message">Det gick inte att infoga ritningselementet i projektet</s:String>
+
+    <!--Error • Editing drawing--> 
+    <s:String x:Key="S.Errors.EditingDrawing.Header">Fel vid redigering av ritning</s:String>
+    <s:String x:Key="S.Errors.EditingDrawing.Message">Det gick inte att redigera den valda ritningen</s:String>
+
+    <!--Error • Inserting segment (generic)--> 
+    <s:String x:Key="S.Errors.InsertingSegment.Header">Fel vid insättning av segment</s:String>
+    <s:String x:Key="S.Errors.InsertingSegment.Message">Det gick inte att infoga segmentet i projektet</s:String>
+
+    <!--Error • Inserting track (empty)--> 
+    <s:String x:Key="S.Errors.InsertingEmptyTrack.Header">Fel vid insättning av spår</s:String>
+    <s:String x:Key="S.Errors.InsertingEmptyTrack.Message">Det gick inte att infoga det tomma spåret i projektet</s:String>
+
+    <!--Error • Reorder tracks--> 
+    <s:String x:Key="S.Errors.ReorderingTracks.Header">Fel vid omordning av spår</s:String>
+    <s:String x:Key="S.Errors.ReorderingTracks.Message">Det gick inte att omordna de valda spåren</s:String>
+
+    <!--Error • Remove tracks--> 
+    <s:String x:Key="S.Errors.RemoveTracks.Header">Fel vid borttagning av spår</s:String>
+    <s:String x:Key="S.Errors.RemoveTracks.Message">Det gick inte att ta bort de valda spåren</s:String>
+
+    <!--Error • Move segments--> 
+    <s:String x:Key="S.Errors.MoveSegments.Header">Fel vid flytt av segment</s:String>
+    <s:String x:Key="S.Errors.MoveSegments.Message">Det gick inte att flytta de valda segmenten</s:String>
+
+    <!--Error • Remove segments--> 
+    <s:String x:Key="S.Errors.RemoveSegments.Header">Fel vid borttagning av segment</s:String>
+    <s:String x:Key="S.Errors.RemoveSegments.Message">Det gick inte att ta bort de valda segmenten</s:String>
+
+    <!--Error • Split segment--> 
+    <s:String x:Key="S.Errors.SplitSegment.Header">Fel vid delning av segment</s:String>
+    <s:String x:Key="S.Errors.SplitSegment.Message">Det gick inte att dela det valda segmentet</s:String>
+
+    <!--Error • Trim segment--> 
+    <s:String x:Key="S.Errors.TrimSegment.Header">Fel vid trimning av segment</s:String>
+    <s:String x:Key="S.Errors.TrimSegment.Message">Det gick inte att trimma det valda segmentet</s:String>
+
+    <!--Error • Edit key aliases--> 
+    <s:String x:Key="S.Errors.EditAliases.Header">Fel vid redigering av tangentalias</s:String>
+    <s:String x:Key="S.Errors.EditAliases.Message">Det gick inte att redigera tangentaliasen</s:String>
+
+    <!--Error • Edit key translations--> 
+    <s:String x:Key="S.Errors.EditTranslations.Header">Fel vid redigering av tangentöversättningar</s:String>
+    <s:String x:Key="S.Errors.EditTranslations.Message">Det gick inte att redigera tangentöversättningarna</s:String>
+
+    <!--Error • Add effect--> 
+    <s:String x:Key="S.Errors.AddEffect.Header">Fel vid tillägg av effekt</s:String>
+    <s:String x:Key="S.Errors.AddEffect.Message">Det gick inte att lägga till effekten</s:String>
+
+    <!--Error • Edit effect--> 
+    <s:String x:Key="S.Errors.EditEffect.Header">Fel vid redigering av effekt</s:String>
+    <s:String x:Key="S.Errors.EditEffect.Message">Det gick inte att redigera effekten</s:String>
+
+    <!--Error • Remove effect--> 
+    <s:String x:Key="S.Errors.RemoveEffect.Header">Fel vid borttagning av effekt</s:String>
+    <s:String x:Key="S.Errors.RemoveEffect.Message">Det gick inte att ta bort effekten</s:String>
+
+    <!--Error • Redo--> 
+    <s:String x:Key="S.Errors.Redo.Header">Fel vid återställning av åtgärd</s:String>
+    <s:String x:Key="S.Errors.Redo.Message">Det gick inte att återställa föregående åtgärd</s:String>
+
+    <!--Error • Undo--> 
+    <s:String x:Key="S.Errors.Undo.Header">Fel vid ångra åtgärd</s:String>
+    <s:String x:Key="S.Errors.Undo.Message">Det gick inte att ångra föregående åtgärd</s:String>
+
+    <!--Error • Generic--> 
+    <s:String x:Key="S.Errors.Action.Header">Fel vid körning av åtgärd</s:String>
+    <s:String x:Key="S.Errors.Action.Message">Det gick inte att köra åtgärden</s:String>
+
+    <!--Error • Plugin--> 
+    <s:String x:Key="S.Errors.Plugin.Header">Fel vid nedladdning av tillägg</s:String>
+    <s:String x:Key="S.Errors.Plugin.Message">Misslyckades ladda ner och extrahera tillägget</s:String>
+
+    <!--Error • Open windows settings--> 
+    <s:String x:Key="S.Errors.WindowsSettings.Header">Windows-inställningar</s:String>
+    <s:String x:Key="S.Errors.WindowsSettings.Message">Kunde inte öppna inställningssidan</s:String>
+
+    <!--Error • Storage clean up--> 
+    <s:String x:Key="S.Errors.StorageCleanup.Header">Fel vid rensning</s:String>
+    <s:String x:Key="S.Errors.StorageCleanup.Message">Det gick inte att rensa cachen</s:String>
+
+    <!--Error • Others--> 
+    <s:String x:Key="S.Errors.Activation.Title">Aktivering misslyckades</s:String>
+    <s:String x:Key="S.Errors.Activation.Generic">Det gick inte att aktivera appen på grund av ett okänt problem</s:String>
+    <s:String x:Key="S.Errors.Activation.EmailOrPasswordWrong">Aktiveringsförsöket misslyckades på grund av felaktig e-post eller lösenord</s:String>
+    <s:String x:Key="S.Errors.Activation.NoValidSubscription">Ingen aktiv prenumeration hittades för den här appen</s:String>
+    <s:String x:Key="S.Errors.Activation.NotEnoughSeats">Inte tillräckligt med platser tillgängliga för prenumerationen. Öppna kontosidan för att konfigurera fler platser</s:String>
+    <s:String x:Key="S.Errors.Activation.TenantFrozenBlocked">Användaren är blockerad. Kontakta din systemadministratör för att frigöra åtkomst för e-post</s:String>
+    <s:String x:Key="S.Errors.Activation.TenantNotFound">Ingen användare hittades med angiven e-post och serienummer</s:String>
+    <s:String x:Key="S.Errors.Activation.TenantAlreadyInUse">E-post och serienummer används redan på en annan dator. Be din systemadministratör att lägga till en annan plats</s:String>
+
+    <!--Windows • Welcome -->
+    <s:String x:Key="S.Welcome.ScreenRecorder">Skärminspelare</s:String>
+    <s:String x:Key="S.Welcome.SoundRecorder">Ljudinspelare</s:String>
+    <s:String x:Key="S.Welcome.RegionShare">Regionsdelning</s:String>
+    <s:String x:Key="S.Welcome.Editor">Redigerare</s:String>
+    <s:String x:Key="S.Welcome.Feedback">Feedback</s:String>
+    <s:String x:Key="S.Welcome.Upgrade">Uppgradera till Pro</s:String>
+    <s:String x:Key="S.Welcome.Troubleshoot">Felsök</s:String>
+    <s:String x:Key="S.Welcome.Settings">Inställningar</s:String>
+    <s:String x:Key="S.Welcome.RecentProjects">Nyligen använda projekt</s:String>
+    <s:String x:Key="S.Welcome.RecentProjects.DiscardAll">Kassera alla</s:String>
+    <s:String x:Key="S.Welcome.RecentProjects.DiscardAll.Info">Radera alla projekt från cachen</s:String>
+    <s:String x:Key="S.Welcome.RecentProjects.None">Inga projekt öppnade nyligen</s:String>
+    <s:String x:Key="S.Welcome.Update">Uppdatering tillgänglig</s:String>
+    <s:String x:Key="S.Welcome.Update.Now">Uppdatera nu</s:String>
+
+    <!--Windows • Screen Recorder-->
+    <s:String x:Key="S.ScreenRecorder.Frequency.Switch">Klicka för att växla mellan inspelningsfrekvenslägen</s:String>
+    <s:String x:Key="S.ScreenRecorder.Frequency.Fps">Maximalt antal bilder per sekund.&#10;Sträcker sig från 1 till 60 fps.&#10;Högre värden innebär att fler bilder fångas.&#10;Varje steg motsvarar 16 millisekunder skillnad.</s:String>
+    <s:String x:Key="S.ScreenRecorder.Frequency.Fps.Short">fps</s:String>
+    <s:String x:Key="S.ScreenRecorder.Frequency.Fpm">Maximalt antal bilder per minut.&#10;Sträcker sig från 1 till 60 fpm.&#10;Högre värden innebär att fler bilder fångas.&#10;Varje steg motsvarar 1 sekunds skillnad.</s:String>
+    <s:String x:Key="S.ScreenRecorder.Frequency.Fpm.Short">fpm</s:String>
+    <s:String x:Key="S.ScreenRecorder.Frequency.Fph">Maximalt antal bilder per timme.&#10;Sträcker sig från 1 till 60 fph.&#10;Högre värden innebär att fler bilder fångas.&#10;Varje steg motsvarar 1 minuts skillnad.</s:String>
+    <s:String x:Key="S.ScreenRecorder.Frequency.Fph.Short">fph</s:String>
+    <s:String x:Key="S.ScreenRecorder.ClickOrPress">Klicka eller tryck på tangenter för att fånga</s:String>
+
+    <s:String x:Key="S.ScreenRecorder.Select">Välj</s:String>
+    <s:String x:Key="S.ScreenRecorder.Select.Area">Välj ett område</s:String>
+    <s:String x:Key="S.ScreenRecorder.Select.Window">Välj ett fönster</s:String>
+    <s:String x:Key="S.ScreenRecorder.Select.NoArea">Inget område valt</s:String>
+    <s:String x:Key="S.ScreenRecorder.Select.NoWindow">Inget fönster valt</s:String>
+    <s:String x:Key="S.ScreenRecorder.Select.NoScreen">Ingen skärm vald</s:String>
+    <s:String x:Key="S.ScreenRecorder.Select.Move">Dra för att flytta&#10;markeringen.</s:String>
+
+    <s:String x:Key="S.ScreenRecorder.RegionSelect.Rect">Rektangulärt urval</s:String>
+    <s:String x:Key="S.ScreenRecorder.RegionSelect.Window">Fönsterval</s:String>
+    <s:String x:Key="S.ScreenRecorder.RegionSelect.Screen">Skärmurval</s:String>
+
+    <s:String x:Key="S.ScreenRecorder.Screen.Internal">Intern skärm</s:String>
+    <s:String x:Key="S.ScreenRecorder.Screen.Generic">Generisk skärm</s:String>
+    <s:String x:Key="S.ScreenRecorder.Screen.Info">Skärm: {0}</s:String>
+    <s:String x:Key="S.ScreenRecorder.Screen.Info1">Grafikadapter: {0}</s:String>
+    <s:String x:Key="S.ScreenRecorder.Screen.Info2">Upplösning: {0} x {1}</s:String>
+    <s:String x:Key="S.ScreenRecorder.Screen.Info3">Naturlig upplösning: {0} x {1}</s:String>
+    <s:String x:Key="S.ScreenRecorder.Screen.Info4">DPI: {0} ({1:0.##}%)</s:String>
+
+    <s:String x:Key="S.ScreenRecorder.DiskSpace.Info">Använd procent av disk och tillgängligt utrymme</s:String>
+    <s:String x:Key="S.ScreenRecorder.AudioSource.Input">Mikrofon och andra ljudingångskällor&#10;som spelas in</s:String>
+    <s:String x:Key="S.ScreenRecorder.AudioSource.Output">Högtalare och andra ljudutgångskällor&#10;som spelas in</s:String>
+    <s:String x:Key="S.ScreenRecorder.Cache.Clearing">Rensar cache...</s:String>
+    <s:String x:Key="S.ScreenRecorder.Cache.Recovered">Återställt {0}</s:String>
+    <s:String x:Key="S.ScreenRecorder.Cache.NothingRecovered">Inget utrymme återställdes</s:String>
+
+    <s:String x:Key="S.ScreenRecorder.Splash.Title">Tryck på {0} för att stoppa inspelningen</s:String>
+    <s:String x:Key="S.ScreenRecorder.Splash.Subtitle">Inspelningsfönstret minimeras,&#10;återställ det eller tryck på {0} för att pausa fångsten</s:String>
+
+    <s:String x:Key="S.ScreenRecorder.PreStarting">Förstartar...</s:String>
+    <s:String x:Key="S.ScreenRecorder.Processing">Bearbetar bilder...</s:String>
+
+    <!--Windows • Sound Recorder-->
+    <s:String x:Key="S.SoundRecorder.Title">N-Studio • Ljudinspelare</s:String>
+    <s:String x:Key="S.SoundRecorder.NoInputs">Inga mikrofoner eller högtalare valda</s:String>
+    <s:String x:Key="S.SoundRecorder.Select">Välj en eller flera källor och tryck på spela in</s:String>
+
+    <!--Windows • Region Share-->
+    <s:String x:Key="S.RegionShare.Title">N-Studio • Regionsdelning</s:String>
+    <s:String x:Key="S.RegionShare.Pick">Välj ett område att dela</s:String>
+    <s:String x:Key="S.RegionShare.HideCursor">Dölj muspekaren</s:String>
+    <s:String x:Key="S.RegionShare.HideCursorEffects">Dölj effekt för muspekaren</s:String>
+    <s:String x:Key="S.RegionShare.DisableCursorFollowing">Inaktivera följ muspekaren</s:String>
+    <s:String x:Key="S.RegionShare.HideKeyPresses">Dölj tangenttryckningar</s:String>
+    <s:String x:Key="S.RegionShare.RecentShares">Senaste delningar</s:String>
+    <s:String x:Key="S.RegionShare.RecentShares.None">Inga senaste delningar</s:String>
+    <s:String x:Key="S.RegionShare.QuickSettings">Snabbinställningar</s:String>
+    <s:String x:Key="S.RegionShare.QuickSettings.Info">Visa snabbinställningar</s:String>
+    <s:String x:Key="S.RegionShare.PickAnother">Välj ett annat skärmområde</s:String>
+
+    <!--Windows • Exporter-->
+    <s:String x:Key="S.Exporter.Title">N-Studio • Exporter</s:String>
+    <s:String x:Key="S.Exporter.Edit.Info">Öppna projektet i redigeraren</s:String>
+    <s:String x:Key="S.Exporter.Tracks">Spår</s:String>
+    <s:String x:Key="S.Exporter.Tracks.Info">Hantera spår</s:String>
+    <s:String x:Key="S.Exporter.Crop">Beskär</s:String>
+    <s:String x:Key="S.Exporter.Crop.Info">Hantera beskärning av arbetsytan</s:String>
+    <s:String x:Key="S.Exporter.Resize">Ändra storlek</s:String>
+    <s:String x:Key="S.Exporter.Resize.Info">Hantera storleksändring av arbetsytan</s:String>
+    <s:String x:Key="S.Exporter.Trim">Trimma</s:String>
+    <s:String x:Key="S.Exporter.Trim.Info">Hantera animationens trimning</s:String>
+    <s:String x:Key="S.Exporter.Framerate">Bildfrekvens</s:String>
+    <s:String x:Key="S.Exporter.Framerate.Info">Styr animationens bildfrekvens</s:String>
+    <s:String x:Key="S.Exporter.Speed">Hastighet</s:String>
+    <s:String x:Key="S.Exporter.Speed.Info">Styr animationens hastighet</s:String>
+    <s:String x:Key="S.Exporter.Settings">Inställningar</s:String>
+    <s:String x:Key="S.Exporter.Settings.Info">Öppna inställningar</s:String>
+    <s:String x:Key="S.Exporter.AudioOnly">Endast ljud</s:String>
+    <s:String x:Key="S.Exporter.Loading">Läser in...</s:String>
+
+    <!--Windows • Exporter > Type-->
+    <s:String x:Key="S.Exporter.Type">Filtyp och förinställning</s:String>
+    <s:String x:Key="S.Exporter.Type.Format.Info">Formatet på utdatafilen</s:String>
+    <s:String x:Key="S.Exporter.Type.Preset.Info">Förinställningen för exportinställningarna</s:String>
+
+    <!--Windows • Exporter > Upload-->
+    <s:String x:Key="S.Exporter.Upload">Ladda upp</s:String>
+    <s:String x:Key="S.Exporter.Upload.Info">Välj uppladdningsförinställningen, som innehåller information om den tjänst som används för uppladdning.</s:String>
+    <s:String x:Key="S.Exporter.Upload.Select.Title">Välj en uppladdningsförinställning</s:String>
+    <s:String x:Key="S.Exporter.Upload.Select.Message">Lämna omarkerat för att hoppa över uppladdningen</s:String>
+    <s:String x:Key="S.Exporter.Upload.Unavailable.Title">Ingen uppladdningsförinställning tillgänglig för detta format</s:String>
+    <s:String x:Key="S.Exporter.Upload.Unavailable.Message">Lägg till en förinställning med knappen ovan</s:String>
+
+    <!--Windows • Exporter > File-->
+    <s:String x:Key="S.Exporter.File">Fil</s:String>
+    <s:String x:Key="S.Exporter.File.Automation">Filnamnsautomation</s:String>
+    <s:String x:Key="S.Exporter.File.Folder">Utdatamapp</s:String>
+    <s:String x:Key="S.Exporter.File.Folder.Select">Välj utdatamappen.&#10;Tryck Shift och klicka för att&#10;välja filnamnet också</s:String>
+    <s:String x:Key="S.Exporter.File.Name">Filnamn</s:String>
+    <s:String x:Key="S.Exporter.File.Format">Filformat</s:String>
+    <s:String x:Key="S.Exporter.File.Extension">Filändelse</s:String>
+    <s:String x:Key="S.Exporter.File.Increase">Öka filnumret</s:String>
+    <s:String x:Key="S.Exporter.File.Decrease">Minska filnumret</s:String>
+    <s:String x:Key="S.Exporter.File.Automation.Info">Filnamnet innehåller automationssektioner.&#10;För att fritt redigera filnamnet, ta bort alla automationssektioner.&#10;Klicka här för att redigera via inställningsfönstret.</s:String>
+
+    <!--Windows • Exporter > Resize-->
+    <s:String x:Key="S.Exporter.Resize.MaintainRatio">Behåll bildförhållande</s:String>
+    <s:String x:Key="S.Exporter.Resize.MaintainRatio.Info">Bildförhållandet kommer att bevaras så nära som möjligt,&#10;samtidigt som det försöker ge ett heltal för bredd och höjd</s:String>
+
+    <!--Windows • Exporter > Trim-->
+    <s:String x:Key="S.Exporter.Trim.NewTarget">Ny måltid</s:String>
+
+    <!--Windows • Exporter > Framerate-->
+    <s:String x:Key="S.Exporter.Framerate.Mode.Info">Bildfrekvensläge</s:String>
+    <s:String x:Key="S.Exporter.Framerate.Mode.Automatic">Automatisk</s:String>
+    <s:String x:Key="S.Exporter.Framerate.Mode.Automatic.Info">Följer bildfrekvensen baserat på händelser från översta spåren</s:String>
+    <s:String x:Key="S.Exporter.Framerate.Mode.Custom">Anpassad</s:String>
+    <s:String x:Key="S.Exporter.Framerate.Mode.Custom.Info">Anpassad bildfrekvens</s:String>
+    <s:String x:Key="S.Exporter.Framerate.Mode.Film">Film</s:String>
+    <s:String x:Key="S.Exporter.Framerate.Mode.HighFramerate">Hög bildfrekvens</s:String>
+
+    <!--Windows • Exporter > Speed-->
+    <s:String x:Key="S.Exporter.Speed.Title">Uppspelningshastighet</s:String>
+    <s:String x:Key="S.Exporter.Speed.Multiplier">Multiplikator (×)</s:String>
+    <s:String x:Key="S.Exporter.Speed.Target">Mål</s:String>
+
+    <!--Windows • Exporter > Encoding-->
+    <s:String x:Key="S.Exporter.Encoding">Kodning</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Export">Exportera</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Export.Past">Tidigare exporter</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Export.Past.Clear">Rensa tidigare exporter</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Size.Partial">(hittills)</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Size.Partial.Info">Storlek på den exporterade filen hittills</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Size.Partial.Upload.Info">Uppladdningsstorlek hittills</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Bitrate.Info">Bitar kodade per sekund</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Bitrate.Upload.Info">Bitar uppladdade per sekund</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Pass.First">Första passet</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Pass.Second">Andra passet</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Pass.Info">Aktuellt kodningspass</s:String>
+    <s:String x:Key="S.Exporter.Encoding.MultipleFiles">Flera filer</s:String>
+
+    <s:String x:Key="S.Exporter.Encoding.Status.Replaced">Ersatt</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Status.Deleted">Raderad</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Status.Uploading">Laddar upp</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Status.Copying">Kopierar</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Status.ExecutingCommands">Utför kommandon</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Status.Aborting">Avbryter</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Status.Aborted">Avbruten</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Status.Error">Fel</s:String>
+
+    <s:String x:Key="S.Exporter.Encoding.Actions.Open">Öppna fil</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Actions.SeeError">Se feluppgifter</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Actions.RemoveFromList">Ta bort från lista</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Actions.More">Fler åtgärder</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Actions.OpenFolder">Öppna mapp</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Actions.CopyFile">Kopiera fil</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Actions.CopyPath">Kopiera sökväg</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Actions.DeleteFile">Radera fil</s:String>
+
+    <!--Windows • Editor-->
+    <s:String x:Key="S.Editor.Title">N-Studio • Redigerare</s:String>
+    <s:String x:Key="S.Editor.Project">Projekt</s:String>
+    <s:String x:Key="S.Editor.Project.New">Nytt</s:String>
+    <s:String x:Key="S.Editor.Project.New.Screen">Från skärminspelning</s:String>
+    <s:String x:Key="S.Editor.Project.New.Sound">Från ljudinspelning</s:String>
+    <s:String x:Key="S.Editor.Project.New.Media">Från media</s:String>
+    <s:String x:Key="S.Editor.Project.New.Empty">Tomt</s:String>
+    <s:String x:Key="S.Editor.Project.Open">Öppna</s:String>
+    <s:String x:Key="S.Editor.Project.OpenRecent">Öppna senaste</s:String>
+    <s:String x:Key="S.Editor.Project.Save">Spara</s:String>
+    <s:String x:Key="S.Editor.Project.SaveAs">Spara som...</s:String>
+    <s:String x:Key="S.Editor.Project.Export">Exportera...</s:String>
+    <s:String x:Key="S.Editor.Project.Properties">Egenskaper</s:String>
+    <s:String x:Key="S.Editor.Project.Close">Stäng</s:String>
+    <s:String x:Key="S.Editor.Project.Exit">Avsluta</s:String>
+    <s:String x:Key="S.Editor.Edit">Redigera</s:String>
+    <s:String x:Key="S.Editor.Edit.Undo">Ångra</s:String>
+    <s:String x:Key="S.Editor.Edit.Redo">Gör om</s:String>
+    <s:String x:Key="S.Editor.Edit.Cut">Klipp ut</s:String>
+    <s:String x:Key="S.Editor.Edit.Copy">Kopiera</s:String>
+    <s:String x:Key="S.Editor.Edit.Paste">Klistra in</s:String>
+    <s:String x:Key="S.Editor.Edit.Remove">Ta bort</s:String>
+    <s:String x:Key="S.Editor.Edit.Content.Text">Redigera text</s:String>
+    <s:String x:Key="S.Editor.Edit.Content.Drawing">Redigera ritning</s:String>
+    <s:String x:Key="S.Editor.Insert">Infoga</s:String>
+    <s:String x:Key="S.Editor.Insert.Screen">Skärminspelning</s:String>
+    <s:String x:Key="S.Editor.Insert.Sound">Ljudinspelning</s:String>
+    <s:String x:Key="S.Editor.Insert.Media">Media</s:String>
+    <s:String x:Key="S.Editor.Insert.Text">Text</s:String>
+    <s:String x:Key="S.Editor.Insert.Shape">Form</s:String>
+    <s:String x:Key="S.Editor.Insert.Drawing">Ritning</s:String>
+    <s:String x:Key="S.Editor.Insert.Progress">Förloppsindikator</s:String>
+    <s:String x:Key="S.Editor.Insert.Pixelation">Pixelering</s:String>
+    <s:String x:Key="S.Editor.Insert.Brightness">Ljusstyrka</s:String>
+    <s:String x:Key="S.Editor.Insert.Blur">Oskärpa</s:String>
+    <s:String x:Key="S.Editor.Insert.Zoom">Zoom</s:String>
+    <s:String x:Key="S.Editor.Insert.EmptyTrack">Tomt spår</s:String>
+
+    <s:String x:Key="S.Editor.Segment.TrimStart">Trimma segmentstart</s:String>
+    <s:String x:Key="S.Editor.Segment.Split">Dela segment</s:String>
+    <s:String x:Key="S.Editor.Segment.TrimEnd">Trimma segmentände</s:String>
+    <s:String x:Key="S.Editor.Segment.Properties">Segmentegenskaper</s:String>
+
+    <s:String x:Key="S.Editor.More">Mer</s:String>
+    <s:String x:Key="S.Editor.More.Help">Hjälp</s:String>
+    <s:String x:Key="S.Editor.More.Feedback">Feedback</s:String>
+    <s:String x:Key="S.Editor.More.Settings">Inställningar</s:String>
+
+    <!--Windows • Editor > Sections-->
+    <s:String x:Key="S.Editor.Sections.Timing">Tid</s:String>
+    <s:String x:Key="S.Editor.Sections.Timing.Start">Start</s:String>
+    <s:String x:Key="S.Editor.Sections.Timing.StartOffset">Startförskjutning</s:String>
+    <s:String x:Key="S.Editor.Sections.Timing.End">Slut</s:String>
+    <s:String x:Key="S.Editor.Sections.Timing.EndOffset">Slutförskjutning</s:String>
+    <s:String x:Key="S.Editor.Sections.Timing.Speed">Hastighet</s:String>
+    <s:String x:Key="S.Editor.Sections.Timing.Length">Längd</s:String>
+    <s:String x:Key="S.Editor.Sections.Dimensions">Dimensioner</s:String>
+    <s:String x:Key="S.Editor.Sections.Appearance">Utseende</s:String>
+    <s:String x:Key="S.Editor.Sections.Appearance.Opacity">Opacitet</s:String>
+    <s:String x:Key="S.Editor.Sections.Miscellaneous">Övrigt</s:String>
+    <s:String x:Key="S.Editor.Sections.Keys">Tangenter</s:String>
+    <s:String x:Key="S.Editor.Sections.Keys.EditAliases">Redigera tangentalias</s:String>
+    <s:String x:Key="S.Editor.Sections.Keys.EditTranslations">Redigera tangentöversättningar</s:String>
+    <s:String x:Key="S.Editor.Sections.Sound">Ljud</s:String>
+    <s:String x:Key="S.Editor.Sections.Sound.Device">Enhetsnamn</s:String>
+    <s:String x:Key="S.Editor.Sections.Sound.Channels">Kanaler</s:String>
+    <s:String x:Key="S.Editor.Sections.Sound.SampleRate">Samplingsfrekvens</s:String>
+    <s:String x:Key="S.Editor.Sections.Progress">Förlopp</s:String>
+    <s:String x:Key="S.Editor.Sections.Shape.Thickness">Tjocklek</s:String>
+    <s:String x:Key="S.Editor.Sections.Effects">Effekter</s:String>
+    <s:String x:Key="S.Editor.Sections.Effects.Add">Lägg till effekt</s:String>
+
+    <!--Windows • Editor > Timeline-->
+    <s:String x:Key="S.Editor.Timeline.NoTracks">Det finns inga spår i detta projekt</s:String>
+    <s:String x:Key="S.Editor.Timeline.Locked">Låst</s:String>
+    <s:String x:Key="S.Editor.Timeline.ScrollMode">Växla tidslinjens rullningsläge</s:String>
+    <s:String x:Key="S.Editor.Timeline.ZoomOut">Zooma ut</s:String>
+    <s:String x:Key="S.Editor.Timeline.SelectionStart">Markeringens start</s:String>
+    <s:String x:Key="S.Editor.Timeline.SelectionEnd">Markeringens slut</s:String>
+    <s:String x:Key="S.Editor.Timeline.ExpandStart">Expandera för att se eller navigera till segmentets start (Ctrl + klick)</s:String>
+    <s:String x:Key="S.Editor.Timeline.ExpandEnd">Expandera för att se eller navigera till segmentets slut (Ctrl + klick)</s:String>
+    <s:String x:Key="S.Editor.Timeline.DragStart">Dra för att ändra hastighet eller trimma start (håll Shift)</s:String>
+    <s:String x:Key="S.Editor.Timeline.DragEnd">Dra för att ändra hastighet eller trimma slut (håll Shift)</s:String>
+
+    <!--Windows • Feedback-->
+    <s:String x:Key="S.Feedback.Header">Feedback</s:String>
+    <s:String x:Key="S.Feedback.WhatsSent">Vad kommer att skickas?</s:String>
+    <s:String x:Key="S.Feedback.ExportZip">Exportera som zip</s:String>
+    <s:String x:Key="S.Feedback.ExportZip.Info">Exportera feedback som Zip</s:String>
+    <s:String x:Key="S.Feedback.ExportZip.File">Zip-filer</s:String>
+    <s:String x:Key="S.Feedback.Title">Titel</s:String>
+    <s:String x:Key="S.Feedback.Title.Info">Kort beskrivning...</s:String>
+    <s:String x:Key="S.Feedback.Name">Namn</s:String>
+    <s:String x:Key="S.Feedback.Name.Info">Ditt namn (valfritt)</s:String>
+    <s:String x:Key="S.Feedback.Type">Typ av feedback</s:String>
+    <s:String x:Key="S.Feedback.Type.Bug">Bugg</s:String>
+    <s:String x:Key="S.Feedback.Type.Suggestion">Förslag</s:String>
+    <s:String x:Key="S.Feedback.Type.Both">Bugg och förslag</s:String>
+    <s:String x:Key="S.Feedback.Type.Other">Annat</s:String>
+    <s:String x:Key="S.Feedback.Description">Beskrivning</s:String>
+    <s:String x:Key="S.Feedback.Description.Info">Beskriv mer i detalj...</s:String>
+    <s:String x:Key="S.Feedback.Email">E-post</s:String>
+    <s:String x:Key="S.Feedback.Email.Info">E-post för kontakt (valfritt)</s:String>
+    <s:String x:Key="S.Feedback.Extra">Extra detaljer</s:String>
+    <s:String x:Key="S.Feedback.Extra.System.Info">Operativsystemversion och installerade patchar</s:String>
+    <s:String x:Key="S.Feedback.Extra.Application.Info">Applikationsversion</s:String>
+    <s:String x:Key="S.Feedback.Extra.Hardware">Maskinvara</s:String>
+    <s:String x:Key="S.Feedback.Extra.Hardware.Info">Processor-, minnes- och grafikadapterdetaljer</s:String>
+    <s:String x:Key="S.Feedback.Extra.Screen.Info">Skärmdetaljer som upplösning och skala</s:String>
+    <s:String x:Key="S.Feedback.Extra.Sound">Ljudenheter</s:String>
+    <s:String x:Key="S.Feedback.Extra.Sound.Info">Detaljer om ljudenheter som mikrofoner och högtalare</s:String>
+    <s:String x:Key="S.Feedback.Extra.Disks.Info">Diskdetaljer som total och tillgänglig storlek</s:String>
+    <s:String x:Key="S.Feedback.Extra.Error">Fel</s:String>
+    <s:String x:Key="S.Feedback.Extra.Error.Info">Detaljer om felet</s:String>
+    <s:String x:Key="S.Feedback.Extra.Settings">Appinställningar</s:String>
+    <s:String x:Key="S.Feedback.Extra.Settings.Local">Lokala appinställningar</s:String>
+    <s:String x:Key="S.Feedback.Extra.Settings.Info">Applikationens konfiguration</s:String>
+    <s:String x:Key="S.Feedback.Extra.PreviousErrors">Felloggar</s:String>
+    <s:String x:Key="S.Feedback.Extra.PreviousErrors.Info">Felloggar från tidigare krascher</s:String>
+    <s:String x:Key="S.Feedback.Attachments">Bilagor (max 100 MiB, 25 MiB vardera)</s:String>
+    <s:String x:Key="S.Feedback.Attachments.Add">Lägg till bilaga</s:String>
+    <s:String x:Key="S.Feedback.Attachments.Select">Välj filer att lägga till som bilagor</s:String>
+    <s:String x:Key="S.Feedback.Attachments.None">Inga bilagor tillagda ännu</s:String>
+    <s:String x:Key="S.Feedback.Attachments.Remove">Ta bort bilaga</s:String>
+
+    <!--Windows • Feedback preview-->
+    <s:String x:Key="S.FeedbackPreview.Header">Feedbackförhandsvisning</s:String>
+    <s:String x:Key="S.FeedbackPreview.System">System</s:String>
+    <s:String x:Key="S.FeedbackPreview.System.Name">Namn</s:String>
+    <s:String x:Key="S.FeedbackPreview.System.Build">Bygg</s:String>
+    <s:String x:Key="S.FeedbackPreview.System.Architecture">Arkitektur</s:String>
+    <s:String x:Key="S.FeedbackPreview.System.UserName">Användarnamn</s:String>
+    <s:String x:Key="S.FeedbackPreview.System.MachineName">Datornamn</s:String>
+    <s:String x:Key="S.FeedbackPreview.Application">Applikation</s:String>
+    <s:String x:Key="S.FeedbackPreview.Application.Version">Version</s:String>
+    <s:String x:Key="S.FeedbackPreview.Application.Variant">Variant</s:String>
+    <s:String x:Key="S.FeedbackPreview.Application.Startup">Startade</s:String>
+    <s:String x:Key="S.FeedbackPreview.Application.Date">Datum</s:String>
+    <s:String x:Key="S.FeedbackPreview.Application.Running">Körs i</s:String>
+    <s:String x:Key="S.FeedbackPreview.Processor">Processor</s:String>
+    <s:String x:Key="S.FeedbackPreview.Processor.Model">Modell</s:String>
+    <s:String x:Key="S.FeedbackPreview.Processor.Frequency">Frekvens</s:String>
+    <s:String x:Key="S.FeedbackPreview.Processor.CoresThreads">Kärnor/trådar</s:String>
+    <s:String x:Key="S.FeedbackPreview.Processor.Architecture">Arkitektur</s:String>
+    <s:String x:Key="S.FeedbackPreview.Memory">Minne</s:String>
+    <s:String x:Key="S.FeedbackPreview.Memory.Total">Totalt</s:String>
+    <s:String x:Key="S.FeedbackPreview.Memory.Available">Tillgängligt</s:String>
+    <s:String x:Key="S.FeedbackPreview.Memory.Used">Använt</s:String>
+    <s:String x:Key="S.FeedbackPreview.Graphics">Grafikadaptrar</s:String>
+    <s:String x:Key="S.FeedbackPreview.Graphics.Refresh">Uppdateringsfrekvens</s:String>
+    <s:String x:Key="S.FeedbackPreview.Graphics.Driver">Drivrutinsversion</s:String>
+    <s:String x:Key="S.FeedbackPreview.Screens">Skärmar</s:String>
+    <s:String x:Key="S.FeedbackPreview.Screens.Name">Vänligt namn</s:String>
+    <s:String x:Key="S.FeedbackPreview.Screens.Bounds">Gränser</s:String>
+    <s:String x:Key="S.FeedbackPreview.Screens.WorkingArea">Arbetsyta</s:String>
+    <s:String x:Key="S.FeedbackPreview.Screens.Scale">DPI/skala</s:String>
+    <s:String x:Key="S.FeedbackPreview.Screens.Adapter">Grafikadapter</s:String>
+    <s:String x:Key="S.FeedbackPreview.Sound.Name">Vänligt namn</s:String>
+    <s:String x:Key="S.FeedbackPreview.Sound.Kind">Typ</s:String>
+    <s:String x:Key="S.FeedbackPreview.Sound.IsDefault">Är standard?</s:String>
+    <s:String x:Key="S.FeedbackPreview.Sound.IsEnabled">Är aktiverad?</s:String>
+    <s:String x:Key="S.FeedbackPreview.Sound.Channels">Kanaler</s:String>
+    <s:String x:Key="S.FeedbackPreview.Sound.SampleRate">Samplingsfrekvens</s:String>
+    <s:String x:Key="S.FeedbackPreview.Disks">Diskar</s:String>
+    <s:String x:Key="S.FeedbackPreview.Disks.Root">Rot</s:String>
+    <s:String x:Key="S.FeedbackPreview.Disks.Total">Totalt</s:String>
+    <s:String x:Key="S.FeedbackPreview.Disks.Free">Ledigt</s:String>
+    <s:String x:Key="S.FeedbackPreview.Disks.Format">Format</s:String>
+    <s:String x:Key="S.FeedbackPreview.Disks.Type">Typ</s:String>
+    <s:String x:Key="S.FeedbackPreview.Disks.Ready">Klar?</s:String>
+
+    <!--Project Types -->
+    <s:String x:Key="S.ProjectTypes.Recording">Inspelning</s:String>
+    <s:String x:Key="S.ProjectTypes.Project">Projekt</s:String>
+    <s:String x:Key="S.ProjectTypes.RecordingOld">Inspelning (gammal)</s:String>
+
+    <!--Capture-->
+    <s:String x:Key="S.Capture.Record">Spela in</s:String>
+    <s:String x:Key="S.Capture.Snap">Ögonblicksbild</s:String>
+    <s:String x:Key="S.Capture.Pause">Paus</s:String>
+    <s:String x:Key="S.Capture.Continue">Fortsätt</s:String>
+    <s:String x:Key="S.Capture.Stop">Stoppa</s:String>
+    <s:String x:Key="S.Capture.Discard">Kassera</s:String>
+    <s:String x:Key="S.Capture.Time">Inspelningstid</s:String>
+
+    <!--Timer-->
+    <s:String x:Key="S.Timer.Elapsed">Förfluten inspelningstid</s:String>
+    <s:String x:Key="S.Timer.Total">Totalt bildantal:</s:String>
+    <s:String x:Key="S.Timer.Manual">Fångat manuellt:</s:String>
+    <s:String x:Key="S.Timer.Paused">Inspelningen är pausad</s:String>
+    <s:String x:Key="S.Timer.Imprecise">Din dator stöder inte ett exakt inspelningsläge,&#10;vilket betyder att målbilder per sekund kanske aldrig uppnås</s:String>
+
+    <!--Audio-->
+    <s:String x:Key="S.Audio.Toggle.Microphone.Info">Växla ljudinspelning från mikrofoner</s:String>
+    <s:String x:Key="S.Audio.Toggle.Microphone.Enabled">Mikrofoninspelning aktiverad</s:String>
+    <s:String x:Key="S.Audio.Toggle.Microphone.Disabled">Mikrofoninspelning inaktiverad</s:String>
+    <s:String x:Key="S.Audio.Toggle.Speaker.Info">Växla ljudinspelning från högtalare</s:String>
+    <s:String x:Key="S.Audio.Toggle.Speaker.Enabled">Högtalarinspelning aktiverad</s:String>
+    <s:String x:Key="S.Audio.Toggle.Speaker.Disabled">Högtalarinspelning inaktiverad</s:String>
+
+    <!--Remember choices-->
+    <s:String x:Key="S.RememberChoice">Kom ihåg mitt val</s:String>
+    <s:String x:Key="S.RememberChoice.Editor.Info">För att ändra dessa preferenser senare, gå till Inställningar > Redigerare</s:String>
+
+    <!--Playback-->
+    <s:String x:Key="S.Playback.Play">Spela upp</s:String>
+    <s:String x:Key="S.Playback.Pause">Paus</s:String>
+    <s:String x:Key="S.Playback.Paused">Pausad</s:String>
+    <s:String x:Key="S.Playback.SkipBackward">Hoppa bakåt</s:String>
+    <s:String x:Key="S.Playback.SkipFrameBackward">Hoppa bild bakåt</s:String>
+    <s:String x:Key="S.Playback.SkipForward">Hoppa framåt</s:String>
+    <s:String x:Key="S.Playback.SkipFrameForward">Hoppa bild framåt</s:String>
+    <s:String x:Key="S.Playback.CurrentTime">Aktuell tid</s:String>
+    <s:String x:Key="S.Playback.TimeLeft">Återstående tid</s:String>
+    <s:String x:Key="S.Playback.RepeatOn">Upprepa på</s:String>
+    <s:String x:Key="S.Playback.RepeatOff">Upprepa av</s:String>
+    <s:String x:Key="S.Playback.Volume">Volym</s:String>
+    <s:String x:Key="S.Playback.ToggleVolume">Tysta/aktivera ljud</s:String>
+    <s:String x:Key="S.Playback.Statistics">Antal bilder, genomsnittlig bildfrekvens och genomsnittlig visningstid per bild</s:String>
+
+    <!--Positioning-->
+    <s:String x:Key="S.Positioning.Left">Vänster</s:String>
+    <s:String x:Key="S.Positioning.Top">Överst</s:String>
+    <s:String x:Key="S.Positioning.Right">Höger</s:String>
+    <s:String x:Key="S.Positioning.Bottom">Nederst</s:String>
+    <s:String x:Key="S.Positioning.TopLeft">Övre vänstra hörnet</s:String>
+    <s:String x:Key="S.Positioning.TopCenter">Övre mitt</s:String>
+    <s:String x:Key="S.Positioning.TopRight">Övre högra hörnet</s:String>
+    <s:String x:Key="S.Positioning.MiddleLeft">Mitten vänster</s:String>
+    <s:String x:Key="S.Positioning.Center">Mitt på skärmen</s:String>
+    <s:String x:Key="S.Positioning.MiddleRight">Mitten höger</s:String>
+    <s:String x:Key="S.Positioning.BottomLeft">Nedre vänstra hörnet</s:String>
+    <s:String x:Key="S.Positioning.BottomCenter">Nedre mitten</s:String>
+    <s:String x:Key="S.Positioning.BottomRight">Nedre högra hörnet</s:String>
+    <s:String x:Key="S.Positioning.Width">Bredd</s:String>
+    <s:String x:Key="S.Positioning.Height">Höjd</s:String>
+    <s:String x:Key="S.Positioning.Angle">Vinkel</s:String>
+
+    <!--Timing-->
+    <s:String x:Key="S.Timing.Start">Start</s:String>
+    <s:String x:Key="S.Timing.End">Slut</s:String>
+
+    <!--States-->
+    <s:String x:Key="S.Field.Empty">(tom)</s:String>
+    <s:String x:Key="S.Field.Space">(blanksteg)</s:String>
+    <s:String x:Key="S.Field.Optional">(valfritt)</s:String>
+    <s:String x:Key="S.Field.Minimum">(min)</s:String>
+    <s:String x:Key="S.Field.Key">Klicka för att sätta tangentbordsfokus, tryck sedan på önskade tangenter och modifierare.&#10;Vissa tangentkombinationer är inte tillåtna.</s:String>
+    <s:String x:Key="S.Field.Key.Remove">Ta bort tangentkombination</s:String>
+
+    <!--Loading-->
+    <s:String x:Key="S.State.Loading">Läser in...</s:String>
+    <s:String x:Key="S.State.Processing">Bearbetar...</s:String>
+    <s:String x:Key="S.State.Saving">Sparar...</s:String>
+    <s:String x:Key="S.State.Discarding">Kasserar...</s:String>
+    <s:String x:Key="S.State.Discarded">Kasserad</s:String>
+    <s:String x:Key="S.State.Done">Klart</s:String>
+    <s:String x:Key="S.State.Copied">Kopierat</s:String>
+    <s:String x:Key="S.State.Cut">Klippt</s:String>
+    <s:String x:Key="S.State.Pasted">Klistrat in</s:String>
+    <s:String x:Key="S.State.Saved">Sparat</s:String>
+    <s:String x:Key="S.State.Redone">Omgjort</s:String>
+    <s:String x:Key="S.State.Undone">Ångrat</s:String>
+    <s:String x:Key="S.State.SavedToCache">Sparat i cache</s:String>
+
+    <!--Track-->
+    <s:String x:Key="S.Track.Hidden">Gömd</s:String>
+    <s:String x:Key="S.Track.Muted">Dämpad</s:String>
+    <s:String x:Key="S.Track.Locked">Låst</s:String>
+    <s:String x:Key="S.Track.Visibility.Info">Växla spårsynlighet</s:String>
+    <s:String x:Key="S.Track.Visibility.Hide">Dölj</s:String>
+    <s:String x:Key="S.Track.Visibility.Show">Visa</s:String>
+    <s:String x:Key="S.Track.Audio.Info">Växla spårljud</s:String>
+    <s:String x:Key="S.Track.Audio.Mute">Dämpa</s:String>
+    <s:String x:Key="S.Track.Audio.Unmute">Slå på ljud</s:String>
+    <s:String x:Key="S.Track.Effects.Info">Växla spåreffekter</s:String>
+    <s:String x:Key="S.Track.Effects.Enabled">Aktivera effekter</s:String>
+    <s:String x:Key="S.Track.Effects.Disable">Inaktivera effekter</s:String>
+    <s:String x:Key="S.Track.Lock.Info">Växla spårlås</s:String>
+    <s:String x:Key="S.Track.Lock.Enable">Lås</s:String>
+    <s:String x:Key="S.Track.Lock.Disable">Lås upp</s:String>
+    <s:String x:Key="S.Track.Name">Namn</s:String>
+    <s:String x:Key="S.Track.Name.Info">Dubbelklicka för att redigera spårnamn</s:String>
+    <s:String x:Key="S.Track.Properties.Info">Spåregenskaper</s:String>
+
+    <!--Status-->
+    <s:String x:Key="S.Status.On">På</s:String>
+    <s:String x:Key="S.Status.Off">Av</s:String>
+
+    <!--Drag and drop-->
+    <s:String x:Key="S.DragDrop.Info">Du kan släppa mediefiler eller ett projekt här</s:String>
+    <s:String x:Key="S.DragDrop.Insert">Släpp för att infoga filen/filerna</s:String>
+    <s:String x:Key="S.DragDrop.Open">Släpp för att öppna filen/filerna</s:String>
+    <s:String x:Key="S.DragDrop.Open.Project">Släpp för att öppna projektet</s:String>
+    <s:String x:Key="S.DragDrop.Folder.Insert">Släpp för att infoga filer från mapp(ar)</s:String>
+    <s:String x:Key="S.DragDrop.Folder.Open">Släpp för att öppna filer från mapp(ar)</s:String>
+    <s:String x:Key="S.DragDrop.Both.Insert">Släpp för att infoga fil(en) tillsammans med filer från mapp(ar)</s:String>
+    <s:String x:Key="S.DragDrop.Both.Open">Släpp för att öppna fil(en) tillsammans med filer från mapp(ar)</s:String>
+    <s:String x:Key="S.DragDrop.Unsupported">Stöds inte fil(er)</s:String>
+    <s:String x:Key="S.DragDrop.Ignored">Vissa ej stödda filer kommer att ignoreras</s:String>
+
+    <!--Keys-->
+    <s:String x:Key="S.Keys.Backspace">Backsteg</s:String>
+    <s:String x:Key="S.Keys.Tab">Tab</s:String>
+    <s:String x:Key="S.Keys.Return">Enter</s:String>
+    <s:String x:Key="S.Keys.PauseBreak">Pause/Break</s:String>
+    <s:String x:Key="S.Keys.CapsLock">Caps Lock</s:String>
+    <s:String x:Key="S.Keys.Escape">Esc</s:String>
+    <s:String x:Key="S.Keys.Space">Blanksteg</s:String>
+    <s:String x:Key="S.Keys.PageUp">Page Up</s:String>
+    <s:String x:Key="S.Keys.PageDown">Page Down</s:String>
+    <s:String x:Key="S.Keys.Home">Home</s:String>
+    <s:String x:Key="S.Keys.End">End</s:String>
+    <s:String x:Key="S.Keys.Left">Vänsterpil</s:String>
+    <s:String x:Key="S.Keys.Up">Uppåtpil</s:String>
+    <s:String x:Key="S.Keys.Right">Högerpil</s:String>
+    <s:String x:Key="S.Keys.Down">Nedåtpil</s:String>
+    <s:String x:Key="S.Keys.PrintScreen">Print Screen</s:String>
+    <s:String x:Key="S.Keys.Insert">Insert</s:String>
+    <s:String x:Key="S.Keys.Delete">Delete</s:String>
+    <s:String x:Key="S.Keys.NumLock">Num Lock</s:String>
+    <s:String x:Key="S.Keys.ScrollLock">Scroll Lock</s:String>
+    <s:String x:Key="S.Keys.Shift">Shift</s:String>
+    <s:String x:Key="S.Keys.LeftShift">Vänster Shift</s:String>
+    <s:String x:Key="S.Keys.RightShift">Höger Shift</s:String>
+    <s:String x:Key="S.Keys.Alt">Alt</s:String>
+    <s:String x:Key="S.Keys.LeftAlt">Vänster Alt</s:String>
+    <s:String x:Key="S.Keys.RightAlt">Höger Alt</s:String>
+    <s:String x:Key="S.Keys.Ctrl">Ctrl</s:String>
+    <s:String x:Key="S.Keys.LeftCtrl">Vänster Ctrl</s:String>
+    <s:String x:Key="S.Keys.RightCtrl">Höger Ctrl</s:String>
+    <s:String x:Key="S.Keys.Windows">Windows</s:String>
+    <s:String x:Key="S.Keys.LeftWindows">Vänster Windows</s:String>
+    <s:String x:Key="S.Keys.RightWindows">Höger Windows</s:String>
+    <s:String x:Key="S.Keys.NextTrack">Nästa spår</s:String>
+    <s:String x:Key="S.Keys.PreviousTrack">Föregående spår</s:String>
+    <s:String x:Key="S.Keys.PlayPause">Spela/pausa</s:String>
+    <s:String x:Key="S.Keys.Stop">Stop</s:String>
+
+    <!--Mouse buttons-->
+    <s:String x:Key="S.Mouse.Right">Högerklick</s:String>
+
+    <!--Units-->
+    <s:String x:Key="S.Units.Points.Short">pt</s:String>
+    <s:String x:Key="S.Units.Second.Short">s</s:String>
+    <s:String x:Key="S.Units.Millisecond.Short">ms</s:String>
+    <s:String x:Key="S.Units.Pixels.Short">px</s:String>
+    <s:String x:Key="S.Units.FramesPerSecond.Short">fps</s:String>
+
+    <!--Formats-->
+    <s:String x:Key="S.Formats.Type.Animated">Animerad bild</s:String>
+    <s:String x:Key="S.Formats.Type.Video">Video</s:String>
+    <s:String x:Key="S.Formats.Type.Audio">Ljud</s:String>
+    <s:String x:Key="S.Formats.Type.Frames">Bilder</s:String>
+    <s:String x:Key="S.Formats.Type.Other">Annat</s:String>
+    <s:String x:Key="S.Formats.Type.All">Alla filer</s:String>
+
+    <s:String x:Key="S.Formats.Apng">Apng</s:String>
+    <s:String x:Key="S.Formats.Apng.Info">Animerad Portable Network Graphics</s:String>
+    <s:String x:Key="S.Formats.Gif">Gif</s:String>
+    <s:String x:Key="S.Formats.Gif.Info">Graphics Interchange Format</s:String>
+    <s:String x:Key="S.Formats.Webp">Webp</s:String>
+    <s:String x:Key="S.Formats.Webp.Info">Web Picture</s:String>
+
+    <s:String x:Key="S.Formats.Avi">Avi</s:String>
+    <s:String x:Key="S.Formats.Avi.Info">Audio Video Interleave</s:String>
+    <s:String x:Key="S.Formats.Mkv">Mkv</s:String>
+    <s:String x:Key="S.Formats.Mkv.Info">Matroska</s:String>
+    <s:String x:Key="S.Formats.Mov">Mov</s:String>
+    <s:String x:Key="S.Formats.Mov.Info">QuickTime File Format</s:String>
+    <s:String x:Key="S.Formats.Mp4">Mp4</s:String>
+    <s:String x:Key="S.Formats.Mp4.Info">Mpeg-4</s:String>
+    <s:String x:Key="S.Formats.Webm">Webm</s:String>
+    <s:String x:Key="S.Formats.Webm.Info">Web Movie</s:String>
+
+    <s:String x:Key="S.Formats.Aac">Aac</s:String>
+    <s:String x:Key="S.Formats.Aac.Info">Advanced Audio Coding</s:String>
+    <s:String x:Key="S.Formats.Ac3">Ac3</s:String>
+    <s:String x:Key="S.Formats.Ac3.Info">Audio Codec 3</s:String>
+    <s:String x:Key="S.Formats.Aiff">Aiff</s:String>
+    <s:String x:Key="S.Formats.Aiff.Info">Audio Interchange File Format</s:String>
+    <s:String x:Key="S.Formats.Alac">Alac</s:String>
+    <s:String x:Key="S.Formats.Alac.Info">Apple Lossless Audio Codec</s:String>
+    <s:String x:Key="S.Formats.Amr">Amr</s:String>
+    <s:String x:Key="S.Formats.Amr.Info">Adaptive Multi-Rate</s:String>
+    <s:String x:Key="S.Formats.Flac">Flac</s:String>
+    <s:String x:Key="S.Formats.Flac.Info">Free Lossless Audio Codec</s:String>
+    <s:String x:Key="S.Formats.Mp3">Mp3</s:String>
+    <s:String x:Key="S.Formats.Mp3.Info">MPEG-1/2 Audio Layer III</s:String>
+    <s:String x:Key="S.Formats.Ogg">Ogg</s:String>
+    <s:String x:Key="S.Formats.Ogg.Info">Ogg Vorbis Container</s:String>
+    <s:String x:Key="S.Formats.Opus">Opus</s:String>
+    <s:String x:Key="S.Formats.Opus.Info">Opus</s:String>
+    <s:String x:Key="S.Formats.Wav">Wav</s:String>
+    <s:String x:Key="S.Formats.Wav.Info">Waveform Audio File Format</s:String>
+    <s:String x:Key="S.Formats.Wma">Wma</s:String>
+    <s:String x:Key="S.Formats.Wma.Info">Windows Media Audio</s:String>
+
+    <s:String x:Key="S.Formats.Avif">AVIF</s:String>
+    <s:String x:Key="S.Formats.Avif.Info">AV1‑Compressed Image (HEIF/AV1)</s:String>
+    <s:String x:Key="S.Formats.Bmp">Bmp</s:String>
+    <s:String x:Key="S.Formats.Bmp.Info">Bitmap</s:String>
+    <s:String x:Key="S.Formats.Heic">HEIC</s:String>
+    <s:String x:Key="S.Formats.Heic.Info">High‑Efficiency Image (HEIF/HEVC)</s:String>
+    <s:String x:Key="S.Formats.Jpeg">Jpeg</s:String>
+    <s:String x:Key="S.Formats.Jpeg.Info">Joint Photographic Experts Group</s:String>
+    <s:String x:Key="S.Formats.Png">Png</s:String>
+    <s:String x:Key="S.Formats.Png.Info">Portable Network Graphics</s:String>
+    <s:String x:Key="S.Formats.Images.Zip">Packade bilder</s:String>
+
+    <s:String x:Key="S.Formats.Project">Projekt</s:String>
+    <s:String x:Key="S.Formats.Project.Info">N-Studio-projekt</s:String>
+    <s:String x:Key="S.Formats.LegacyProject">ScreenToGif-projekt</s:String>
+    <s:String x:Key="S.Formats.LegacyProject.Info">Projektfil som används av ScreenToGif</s:String>
+    <s:String x:Key="S.Formats.Psd">Psd</s:String>
+    <s:String x:Key="S.Formats.Psd.Info">Photoshop-fil</s:String>
+
+    <!--Objects-->
+    <s:String x:Key="S.Project">Projekt</s:String>
+    <s:String x:Key="S.Track">Spår</s:String>
+    <s:String x:Key="S.Segment">Segment</s:String>
+
+    <!--Segments-->
+    <s:String x:Key="S.Segments.Frames">Bilder</s:String>
+    <s:String x:Key="S.Segments.MouseCursor">Muspil</s:String>
+    <s:String x:Key="S.Segments.KeyPresses">Tangenttryckningar</s:String>
+    <s:String x:Key="S.Segments.Text">Text</s:String>
+    <s:String x:Key="S.Segments.Progress">Förlopp</s:String>
+    <s:String x:Key="S.Segments.Image">Bild</s:String>
+    <s:String x:Key="S.Segments.AnimatedImage">Animerad bild</s:String>
+    <s:String x:Key="S.Segments.Video">Video</s:String>
+    <s:String x:Key="S.Segments.LinkedVideo">Länkad video</s:String>
+    <s:String x:Key="S.Segments.Audio">Ljud</s:String>
+    <s:String x:Key="S.Segments.MicrophoneAudio">Mikrofonljud</s:String>
+    <s:String x:Key="S.Segments.SystemAudio">Systemljud</s:String>
+    <s:String x:Key="S.Segments.Subtitle">Textning</s:String>
+    <s:String x:Key="S.Segments.Shape">Form</s:String>
+    <s:String x:Key="S.Segments.Drawing">Ritning</s:String>
+    <s:String x:Key="S.Segments.Pixelation">Pixelering</s:String>
+    <s:String x:Key="S.Segments.Blur">Oskärpa</s:String>
+    <s:String x:Key="S.Segments.Brightness">Ljusstyrka</s:String>
+    <s:String x:Key="S.Segments.Unfocus">Avfokusera</s:String>
+    <s:String x:Key="S.Segments.Zoom">Zoom</s:String>
+    <s:String x:Key="S.Segments.NewTrack">Nytt spår</s:String>
+
+    <!--Settings-->
+    <s:String x:Key="S.Settings.Title">N-Studio • Inställningar</s:String>
+    <s:String x:Key="S.Settings.Pages.Application">Program</s:String>
+    <s:String x:Key="S.Settings.Pages.ScreenRecorder">Skärminspelare</s:String>
+    <s:String x:Key="S.Settings.Pages.SoundRecorder">Ljudinspelare</s:String>
+    <s:String x:Key="S.Settings.Pages.RegionShare">Regionsdelning</s:String>
+    <s:String x:Key="S.Settings.Pages.DefaultStyles">Standardstil</s:String>
+    <s:String x:Key="S.Settings.Pages.DefaultEffects">Standardeffekter</s:String>
+    <s:String x:Key="S.Settings.Pages.Editor">Redigerare</s:String>
+    <s:String x:Key="S.Settings.Pages.Exporter">Exporterare</s:String>
+    <s:String x:Key="S.Settings.Pages.Storage">Lagring</s:String>
+    <s:String x:Key="S.Settings.Pages.Plugins">Tillägg</s:String>
+    <s:String x:Key="S.Settings.Pages.Update">Uppdatering</s:String>
+    <s:String x:Key="S.Settings.Pages.About">Om</s:String>
+
+    <!--Settings • Sections-->
+    <s:String x:Key="S.Settings.Sections.Interface">Gränssnitt</s:String>
+    <s:String x:Key="S.Settings.Sections.Behavior">Beteende</s:String>
+    <s:String x:Key="S.Settings.Sections.InterfaceBehavior">Gränssnitt och beteende</s:String>
+    <s:String x:Key="S.Settings.Sections.Shortcuts">Kortkommandon</s:String>
+    <s:String x:Key="S.Settings.Sections.Selection">Val</s:String>
+    <s:String x:Key="S.Settings.Sections.Capture">Inspelning</s:String>
+    <s:String x:Key="S.Settings.Sections.Guidelines">Riktlinjer</s:String>
+    <s:String x:Key="S.Settings.Sections.TemporaryFiles">Temporära filer</s:String>
+    <s:String x:Key="S.Settings.Sections.Cleanup">Rensning</s:String>
+    <s:String x:Key="S.Settings.Sections.MoreOptions">Fler alternativ</s:String>
+    <s:String x:Key="S.Settings.Sections.Styles">Stilar</s:String>
+
+    <!--Settings • Application-->
+    <s:String x:Key="S.Settings.Application.Language">Språk</s:String>
+    <s:String x:Key="S.Settings.Application.Language.Auto">Autodetektering</s:String>
+    <s:String x:Key="S.Settings.Application.Language.Imported">Importerad lokalisation</s:String>
+    <s:String x:Key="S.Settings.Application.Language.Detected">Upptäckt språk</s:String>
+    <s:String x:Key="S.Settings.Application.Language.Authors">Författare</s:String>
+    <s:String x:Key="S.Settings.Application.Language.LastUpdated">Senast uppdaterat</s:String>
+    <s:String x:Key="S.Settings.Application.Language.Custom">Anpassad översättning</s:String>
+    <s:String x:Key="S.Settings.Application.Language.Guidelines">Översättningsriktlinjer</s:String>
+    <s:String x:Key="S.Settings.Application.Language.Import.Info">Importera en lokaliseringsresurs för testning</s:String>
+    <s:String x:Key="S.Settings.Application.Theme">Tema</s:String>
+    <s:String x:Key="S.Settings.Application.Theme.Light">Ljust</s:String>
+    <s:String x:Key="S.Settings.Application.Theme.Dark">Mörkt</s:String>
+    <s:String x:Key="S.Settings.Application.Theme.System">Följ systemet</s:String>
+    <s:String x:Key="S.Settings.Application.Transparency">Transparenseffekter</s:String>
+    <s:String x:Key="S.Settings.Application.Transparency.Info">Fönstren kommer att se genomskinliga ut om det stöds</s:String>
+    <s:String x:Key="S.Settings.Application.Tray">Systemfältikon</s:String>
+    <s:String x:Key="S.Settings.Application.Tray.Info">Styr appikonen som visas i systemfältet</s:String>
+    <s:String x:Key="S.Settings.Application.Tray.Show">Visa appen i systemfältet (notifikationsområdet)</s:String>
+    <s:String x:Key="S.Settings.Application.Tray.KeepOpen">Håll appen öppen även om alla fönster stängs</s:String>
+    <s:String x:Key="S.Settings.Application.Tray.LeftClick">Vänsterklick</s:String>
+    <s:String x:Key="S.Settings.Application.Tray.LeftDoubleClick">Vänsterklick (x2)</s:String>
+    <s:String x:Key="S.Settings.Application.Tray.MiddleClick">Mittenklick</s:String>
+
+    <s:String x:Key="S.Settings.Application.Tray.Interactions.Nothing">Inget</s:String>
+    <s:String x:Key="S.Settings.Application.Tray.Interactions.Open">Öppna</s:String>
+    <s:String x:Key="S.Settings.Application.Tray.Interactions.Open.None">Inget fönster</s:String>
+    <s:String x:Key="S.Settings.Application.Tray.Interactions.Toggle">Växla</s:String>
+    <s:String x:Key="S.Settings.Application.Tray.Interactions.Minimize">Minimera</s:String>
+    <s:String x:Key="S.Settings.Application.Tray.Interactions.Restore">Återställ</s:String>
+    <s:String x:Key="S.Settings.Application.Tray.Interactions.Window">Fönster</s:String>
+    <s:String x:Key="S.Settings.Application.Tray.Interactions.Else">Annars öppnas</s:String>
+
+    <!--Settings • Application > Startup-->
+    <s:String x:Key="S.Settings.Application.Startup">Start</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.Info">Styr hur applikationen beter sig vid start</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith">Startar med</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.Info">Applikationens startfönster</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.Welcome">Välkomstfönster</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.Welcome.Info">Enkel välkomstskärm med genvägar</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.Screen">Skärminspelare</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.Screen.Info">Spela in din skärm tillsammans med mikrofon- eller systemljud</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.Sound">Ljudinspelare</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.Sound.Info">Spela in ljud från mikrofoner eller systemet</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.RegionShare">Regionsdelning</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.RegionShare.Info">Välj ett område av din skärm att dela med andra appar</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.Editor">Redigerare</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.Editor.Info">Skapa eller redigera innehåll</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.Nothing">Inget</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.Nothing.Info">Lämna appen i systemfältet</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWithWindows">Starta med Windows</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWithWindows.Info">Appen körs efter Windows start</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.AllowMultiple">Tillåt flera instanser</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.AllowMultiple.Info">Du kan köra appen flera gånger samtidigt utan begränsning</s:String>
+
+    <!--Settings • Application > Shortcuts-->
+    <s:String x:Key="S.Settings.Application.Shortcuts.Screen.Info">Byter till skärminspelaren eller öppnar en ny instans</s:String>
+    <s:String x:Key="S.Settings.Application.Shortcuts.Sound.Info">Byter till ljudinspelaren eller öppnar en ny instans</s:String>
+    <s:String x:Key="S.Settings.Application.Shortcuts.RegionShare.Info">Byter till regionsdelningsverktyget eller öppnar en ny instans</s:String>
+    <s:String x:Key="S.Settings.Application.Shortcuts.Editor.Info">Öppnar en annan redigerarinstans</s:String>
+    <s:String x:Key="S.Settings.Application.Shortcuts.Settings">Inställningar</s:String>
+    <s:String x:Key="S.Settings.Application.Shortcuts.Settings.Info">Öppnar inställningsfönstret</s:String>
+    <s:String x:Key="S.Settings.Application.Shortcuts.Exit">Avsluta</s:String>
+    <s:String x:Key="S.Settings.Application.Shortcuts.Exit.Info">Stänger alla fönster och tar bort appen från systemfältet</s:String>
+    <s:String x:Key="S.Settings.Application.DisableHardwareAcc">Inaktivera hårdvaruacceleration</s:String>
+    <s:String x:Key="S.Settings.Application.DisableHardwareAcc.Info">Användargränssnittet kommer att renderas i programvaruläge</s:String>
+    <s:String x:Key="S.Settings.Application.AskWhenExiting">Fråga mig innan appen stängs</s:String>
+    <s:String x:Key="S.Settings.Application.AskWhenExiting.Info">Via kommandot 'exit'</s:String>
+
+    <!--Settings • Screen Recorder-->
+    <s:String x:Key="S.Settings.ScreenRecorder.AfterRecording">Fönster efter inspelning</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.AfterRecording.Exporter">Exporterare</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.AfterRecording.Exporter.Info">Med enkla verktyg för sista minuten-redigering som beskärning, ändring av storlek, trimning etc.</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.AfterRecording.Editor">Redigerare</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.AfterRecording.Editor.Info">Fullfjädrad redigerare, infoga lager, kontrollera tidslinjen etc.</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.StartAfterSelection">Starta inspelning efter val</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.StartAfterSelection.Info">Snabba upp ditt arbetsflöde genom att automatiskt spela in efter att du valt en skärmyta</s:String>
+
+    <s:String x:Key="S.Settings.ScreenRecorder.Shortcuts.StartPause">Starta/pausa</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Shortcuts.StartPause.Info">Startar eller pausar inspelningen (tar ögonblicksbilder om manuellt läge aktiverat)</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Shortcuts.Stop">Stop</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Shortcuts.Stop.Info">Stoppar inspelningen</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Shortcuts.Discard">Kassera</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Shortcuts.Discard.Info">Kasserar den aktuella inspelningen</s:String>
+
+    <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown">Visa nedräkning</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.Info">Väntar en given tid innan inspelningen startar</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.WaitTime">Väntetid</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.ShowDiscardOnRecording">Visa kassera-knappen under inspelning</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.ShowDiscardOnRecording.Info">Normalt syns den endast när pausad</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.AskBeforeDiscarding">Fråga mig innan inspelningen kasseras</s:String>
+
+    <!--Settings • Screen Recorder > Cursor Following-->
+    <s:String x:Key="S.Settings.ScreenRecorder.CursorFollowing">Följ markören</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.CursorFollowing.Info">Inspelningsområdet kommer att följa muspekaren</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.CursorFollowing.Buffer">Buffertmarginal</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.CursorFollowing.Buffer.Info">Minsta avstånd från inspelningens kanter när automatisk panorering börjar</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.CursorFollowing.BufferHide">Buffertmarginal för att dölja UI</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.CursorFollowing.BufferHide.Info">Minsta avstånd från inspelningens kanter när användargränssnittet döljs</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.CursorFollowing.SwitchShortcut">Växla genväg</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.CursorFollowing.SwitchShortcut.Info">Växlar följ markören på/av</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.CursorFollowing.ToggleTemporarily">Tillfälligt inaktivera genväg</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.CursorFollowing.ToggleTemporarily.Info">Växlar tillfälligt följ markören på/av, endast modifieringstangenter accepteras</s:String>
+
+    <!--Settings • Screen Recorder > Region Selection-->
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection">Regionval</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Remember">Kom ihåg skärmuttag</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Remember.Never">Aldrig (fråga alltid)</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Remember.Size">Endast storlek</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Remember.SizePosition">Storlek och position</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Mode">Skärmuttagningsläge</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Mode.Region">Region</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Mode.Window">Fönster</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Mode.Screen">Skärm</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.RememberMode">Kom ihåg skärmuttagningsläge</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.RememberMode.Info">När du använder skärmuttagningsfunktionen igen kommer det tidigare använda läget att väljas</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Border">Regionvalsramens färger</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Border.Alternate">Klicka här för att välja alternativ färg</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Dash">Regionvals strecklängd</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Magnifier">Visa skärmförstoringsglas</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Magnifier.Info">Visar ett flytande fönster nära muspekaren med det inzoomade området</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Panning">Aktivera panorering av urval</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Panning.Info">Låter dig dra skärmuttaget efter urval</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Performance">Förbättra prestanda vid skärmuttag</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Performance.Info">Minskar fördröjningen under skärmuttag genom att visa en statisk vy av skärmen</s:String>
+
+    <!--Settings • Screen Recorder > Input/Output-->
+    <s:String x:Key="S.Settings.ScreenRecorder.Input">Val av inmatningsenhet</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Input.Save">Spara enhetspreferenser</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Input.Save.Never">Aldrig</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Input.Save.State">Kom ihåg endast ljudläge</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Input.Save.StateSelection">Kom ihåg ljudläge och enhetsval</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Input.Default">Standardval</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Input.Default.Mic">Växla ljudinspelning från mikrofoner</s:String>
+
+    <s:String x:Key="S.Settings.ScreenRecorder.Output">Val av utdataenhet</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Output.Default.System">Växla ljudinspelning från högtalare</s:String>
+
+    <!--Settings • Screen Recorder > Capture-->
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture">Inspelningsläge</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Method">Inspelningsmetod</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Method.BitBlt.Info">Använd den äldre inspelningsmetoden, som är långsammare och kanske inte fungerar vid fångst av spel,&#10;men den är mer pålitlig</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Method.DirectX.Info">Använd Desktop Duplication API-inspelningsmetoden, som är snabbare och&#10;kan fånga skärmar i helskärmsläge</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Compression">Kompression</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Compression.Slowest">Långsamast</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Compression.Slowest.Info">Så liten som möjligt, även om det tar längre tid att bearbeta</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Compression.Optimal">Optimal</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Compression.Optimal.Info">Snabbare men sannolikt mindre optimal kompression</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Compression.Fastest">Snabbast</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Compression.Fastest.Info">Snabbare men sannolikt mindre optimal kompression</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Compression.None">Ingen kompression</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Compression.None.Info">Ingen kompression bör utföras under inspelningen av bilder</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.CacheSize">Storlek på minnescache</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.CacheSize.Info">Efter att denna storlek uppnåtts kommer data att spolas ut/sparas till disk</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.MouseEvents">Spela in muspekarehändelser</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.MouseEvents.Info">Händelserna lagras i ett separat spår som du kan arbeta med senare</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.KeyboardEvents">Spela in tangentbortshändelser</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.KeyboardEvents.Info">Händelserna lagras i ett separat spår som du kan arbeta med senare</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.ForceMemoryCleanUp">Tvinga minnesrensning under inspelning</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.ForceMemoryCleanUp.Info">Minskar minnesanvändningen under inspelning, men minskar prestandan</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.PreventBlack">Förhindra inspelning av helsvarta bilder</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.PreventBlack.Info">Förhindrar att felaktigt fånga bilder med alla pixlar svarta</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.RemoteImprovement">Inaktivera fångst av lagerfönster, vilket förbättrar prestandan vid fjärrskrivbord</s:String>
+
+    <!--Settings • Screen Recorder > Capture Frequency-->
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency">Frekvens för inspelning</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Frequency">Frekvens</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Manual">Manuellt</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Manual.Info">Varje bild kommer att fångas manuellt av dig genom att trycka på fångstknappen&#10;eller motsvarande tangentbordsgenväg.</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Interaction">Användarinteraktion</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Interaction.Info">Bilder kommer att fångas varje gång du klickar eller skriver något.</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Second">Per sekund</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Second.Info">Bilder kommer att fångas 'per sekund',&#10;givet bildfrekvensens nämnare som ställts in på inspelningsskärmen.</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Minute">Per minut</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Minute.Info">Bilder kommer att fångas 'per minut' (tidsförlopp),&#10;givet bildfrekvensens nämnare som ställts in på inspelningsskärmen.</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Hour">Per timme</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Hour.Info">Bilder kommer att fångas 'per timme' (tidsförlopp),&#10;givet bildfrekvensens nämnare som ställts in på inspelningsskärmen.</s:String>
+
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Playback">Uppspelningstid</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Playback.Info">Varje fångad bild kommer att visas så länge</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Trigger">Triggtid</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Trigger.Info">Varje bildfångst väntar denna tid innan den startar</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.IgnoreMouseWheel">Ignorera mushjulinteraktioner</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.IgnoreMouseWheel.Info">Scrollning med mushjulet triggar inte längre en inspelning</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.FixedFramerate">Ignorera variabla tidsinställningar för bilder</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.FixedFramerate.Info">Alla fångade bilder kommer att använda de förväntade tidpunkterna, trots att tidsstämplarna varierar.</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.CaptureChanges">Endast fånga när något ändras</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.CaptureChanges.Info">En bild kommer endast att fångas när något ändras inom inspelningsområdet</s:String>
+
+    <!--Settings • Screen Recorder > Guidelines-->
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.RuleOfThirds">Tredjedelsregeln</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.RuleOfThirds.Info">Visar ett rutnät som representerar tredjedelsregeln</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.Crosshair">Korshår</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.Crosshair.Info">Visar ett korshårsramverk</s:String>
+
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.LineThickness">Linjetjocklek</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.LineColor">Linjefärg</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.Dashes">Streck</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.Dashes.Info">Styr storleken på strecken och storleken på mellanrummen.&#10;Du kan ange flera storlekar för att skapa en komplicerad streckstil.&#10;Standard är "1 0" eller tomt, vilket betyder ett streck utan mellanrum.</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.Info">Riktlinjerna visas endast när inspelaren är pausad eller stoppad</s:String>
+
+    <!--Settings • Region Share-->
+    <s:String x:Key="S.Settings.RegionShare.Remember">Kom ihåg delningar</s:String>
+    <s:String x:Key="S.Settings.RegionShare.RememberLast">Antal val att komma ihåg</s:String>
+    <s:String x:Key="S.Settings.RegionShare.Overlay">Kom ihåg överlagringsval</s:String>
+    <s:String x:Key="S.Settings.RegionShare.Overlay.Info">Välj vilka alternativ appen ska komma ihåg</s:String>
+    <s:String x:Key="S.Settings.RegionShare.Overlay.MouseCursor">Kom ihåg muspekarens synlighet</s:String>
+    <s:String x:Key="S.Settings.RegionShare.Overlay.MouseCursorEffects">Kom ihåg muspekarens effekter</s:String>
+    <s:String x:Key="S.Settings.RegionShare.Overlay.KeyPresses">Kom ihåg visning av tangenttryckningar</s:String>
+    <s:String x:Key="S.Settings.RegionShare.AntiMirror">Förhindra förhandsvisningens spegling</s:String>
+    <s:String x:Key="S.Settings.RegionShare.AntiMirror.Info">Målar förhandsvisningsinnehållet som en solid grå block inuti den delade regionen för att undvika den oändliga spegeleffekten.</s:String>
+    <s:String x:Key="S.Settings.RegionShare.Effects.Cursor">Muspekar effekter</s:String>
+    <s:String x:Key="S.Settings.RegionShare.Effects.Cursor.Info">Välj effekter för musklicksinteraktioner</s:String>
+
+    <!--Settings • Styles-->
+    <s:String x:Key="S.Settings.Styles.FontFamily">Teckensnittsfamilj</s:String>
+    <s:String x:Key="S.Settings.Styles.FontSize">Teckenstorlek</s:String>
+    <s:String x:Key="S.Settings.Styles.ParagraphAlignment">Styckejustering</s:String>
+    <s:String x:Key="S.Settings.Styles.ParagraphAlignment.Near">Nära</s:String>
+    <s:String x:Key="S.Settings.Styles.ParagraphAlignment.Far">Fjärr</s:String>
+    <s:String x:Key="S.Settings.Styles.ParagraphAlignment.Center">Centrerat</s:String>
+    <s:String x:Key="S.Settings.Styles.FlowDirection">Flödesriktning</s:String>
+    <s:String x:Key="S.Settings.Styles.FlowDirection.TopToBottom">Uppifrån och ner</s:String>
+    <s:String x:Key="S.Settings.Styles.FlowDirection.LeftToRight">Vänster till höger</s:String>
+    <s:String x:Key="S.Settings.Styles.FlowDirection.RightToLeft">Höger till vänster</s:String>
+    <s:String x:Key="S.Settings.Styles.FlowDirection.BottomToTop">Nerifrån och upp</s:String>
+    <s:String x:Key="S.Settings.Styles.ReadingDirection">Läsriktning</s:String>
+    <s:String x:Key="S.Settings.Styles.IncrementalTabStop">Avstånd mellan tabbstopp</s:String>
+    <s:String x:Key="S.Settings.Styles.WordWrapping">Radbrytning</s:String>
+    <s:String x:Key="S.Settings.Styles.WordWrapping.Wrap">Bryt</s:String>
+    <s:String x:Key="S.Settings.Styles.WordWrapping.NoWrap">Ingen brytning</s:String>
+    <s:String x:Key="S.Settings.Styles.WordWrapping.EmergencyBreak">Nödbrytning</s:String>
+    <s:String x:Key="S.Settings.Styles.WordWrapping.WholeWord">Hela ord</s:String>
+    <s:String x:Key="S.Settings.Styles.WordWrapping.Character">Tecken</s:String>
+    <s:String x:Key="S.Settings.Styles.LineSpacingMethod">Metod för radavstånd</s:String>
+    <s:String x:Key="S.Settings.Styles.LineSpacingMethod.Default">Standard</s:String>
+    <s:String x:Key="S.Settings.Styles.LineSpacingMethod.Uniform">Enhetlig</s:String>
+    <s:String x:Key="S.Settings.Styles.LineSpacingMethod.Proportional">Proportionell</s:String>
+    <s:String x:Key="S.Settings.Styles.LineSpacing">Radavstånd</s:String>
+    <s:String x:Key="S.Settings.Styles.Baseline">Baslinje</s:String>
+    <s:String x:Key="S.Settings.Styles.TrimmingDelimiter">Avgränsare för trimning</s:String>
+    <s:String x:Key="S.Settings.Styles.DelimiterCount">Antal avgränsare</s:String>
+    <s:String x:Key="S.Settings.Styles.TrimmingGranularity">Trimningsnoggrannhet</s:String>
+    <s:String x:Key="S.Settings.Styles.TrimmingGranularity.None">Ingen</s:String>
+    <s:String x:Key="S.Settings.Styles.TrimmingGranularity.Character">Tecken</s:String>
+    <s:String x:Key="S.Settings.Styles.TrimmingGranularity.Word">Ord</s:String>
+    <s:String x:Key="S.Settings.Styles.Underline">Understrykning</s:String>
+    <s:String x:Key="S.Settings.Styles.Strikethrough">Genomstrykning</s:String>
+    <s:String x:Key="S.Settings.Styles.Foreground">Förgrund</s:String>
+    <s:String x:Key="S.Settings.Styles.Outline">Kontur</s:String>
+    <s:String x:Key="S.Settings.Styles.OutlineThickness">Konturtjocklek</s:String>
+    <s:String x:Key="S.Settings.Styles.Background">Bakgrund</s:String>
+    <s:String x:Key="S.Settings.Styles.CornerRadius">Hörnradie</s:String>
+    <s:String x:Key="S.Settings.Styles.Padding">Utfyllnad</s:String>
+    <s:String x:Key="S.Settings.Styles.Margin">Marginal</s:String>
+    <s:String x:Key="S.Settings.Styles.IgnoreNonModifiersKeys">Ignorera icke-modifierande tangenter</s:String>
+    <s:String x:Key="S.Settings.Styles.IgnoreJustModifiersKeys">Ignorera endast modifierande tangenter</s:String>
+    <s:String x:Key="S.Settings.Styles.IgnoreInjectedKeys">Ignorera injicerade tangenter</s:String>
+    <s:String x:Key="S.Settings.Styles.IgnoreSpecialKeys">Ignorera specialtangenter</s:String>
+    <s:String x:Key="S.Settings.Styles.IgnoreArrowKeys">Ignorera piltangenter</s:String>
+    <s:String x:Key="S.Settings.Styles.IgnoreFunctionKeys">Ignorera funktionstangenter</s:String>
+    <s:String x:Key="S.Settings.Styles.GroupLetterKeys">Gruppera bokstavstangenter</s:String>
+    <s:String x:Key="S.Settings.Styles.StickForLonger">Håll tangenttryckningar längre</s:String>
+    <s:String x:Key="S.Settings.Styles.StickForLonger.None">Håll inte kvar längre</s:String>
+    <s:String x:Key="S.Settings.Styles.StickForLonger.Time">Tills tiden löper ut</s:String>
+    <s:String x:Key="S.Settings.Styles.StickForLonger.UntilStops">Tills tangenttryckningarna upphör</s:String>
+    <s:String x:Key="S.Settings.Styles.StickForLonger.UntilDifferentKey">Tills annan tangent trycks</s:String>
+    <s:String x:Key="S.Settings.Styles.StickForLonger.All">Alla alternativ</s:String>
+    <s:String x:Key="S.Settings.Styles.StickForLongerTiming">Tid för att hålla längre</s:String>
+    <s:String x:Key="S.Settings.Styles.StickForLongerStopTiming">Håll tangenter tills</s:String>
+    <s:String x:Key="S.Settings.Styles.ResolveKeyCombos">Lös tangentkombinationer</s:String>
+    <s:String x:Key="S.Settings.Styles.ForceUpperCasing">Tvinga versaler för tangenter</s:String>
+    <s:String x:Key="S.Settings.Styles.IgnoreRepeatedPresses">Ignorera upprepade tryckningar</s:String>
+    <s:String x:Key="S.Settings.Styles.ShowRepeatedPressMultiplier">Visa multiplikator för upprepade tryckningar</s:String>
+    <s:String x:Key="S.Settings.Styles.AppendDirection">Infoga riktning</s:String>
+    <s:String x:Key="S.Settings.Styles.MaximumQuantityOfLines">Max antal rader</s:String>
+    <s:String x:Key="S.Settings.Styles.TimingOffset">Tidskompensation</s:String>
+    <s:String x:Key="S.Settings.Styles.Duration">Varaktighet</s:String>
+    <s:String x:Key="S.Settings.Styles.KeyTranslations">Tangentöversättningar</s:String>
+    <s:String x:Key="S.Settings.Styles.KeyTranslations.Info">Välj vilka tangenter som ska visa ett översatt namn</s:String>
+    <s:String x:Key="S.Settings.Styles.KeyAliases">Tangentalias</s:String>
+    <s:String x:Key="S.Settings.Styles.KeyAliases.Info">Ange alias för tangettnamn</s:String>
+    <s:String x:Key="S.Settings.Styles.KeyPrefix">Tangentprefix</s:String>
+    <s:String x:Key="S.Settings.Styles.KeySeparator">Tangentavgränsare</s:String>
+    <s:String x:Key="S.Settings.Styles.UseNewLineForSeparator">Använd ny rad på varje tangentavgränsare</s:String>
+    <s:String x:Key="S.Settings.Styles.ModifierSeparator">Modifieraravgränsare</s:String>
+    <s:String x:Key="S.Settings.Styles.KeySuffix">Tangentsuffix</s:String>
+    <s:String x:Key="S.Settings.Styles.Animate">Animera</s:String>
+    <s:String x:Key="S.Settings.Styles.AnimationTiming">Animationstiming</s:String>
+    <s:String x:Key="S.Settings.Styles.AnimationStyle">Animationstil</s:String>
+    <s:String x:Key="S.Settings.Styles.AnimationStyle.ScaleAndOpacity">Skala och opacitet</s:String>
+    <s:String x:Key="S.Settings.Styles.AnimationStyle.Scale">Skala</s:String>
+    <s:String x:Key="S.Settings.Styles.AnimationStyle.Opacity">Opacitet</s:String>
+    <s:String x:Key="S.Settings.Styles.DifferentiateLeftVersusRightModifierKeys">Differentiera vänster vs höger modifierare</s:String>
+    <s:String x:Key="S.Settings.Styles.TranslateOrAliasModifierKeys">Översätt eller aliasa modifierartangenter</s:String>
+    <s:String x:Key="S.Settings.Styles.MiterLimit">Mitergräns</s:String>
+    <s:String x:Key="S.Settings.Styles.DashOffset">Streckoffset</s:String>
+
+    <!--Settings • Styles > Video-->
+    <s:String x:Key="S.Settings.Styles.MaxFramerate">Max bildfrekvens</s:String>
+    <s:String x:Key="S.Settings.Styles.Mute">Tysta volym</s:String>
+    <s:String x:Key="S.Settings.Styles.Volume">Volym</s:String>
+
+    <!--Settings • Styles > Progress-->
+    <s:String x:Key="S.Settings.Styles.DisplayMode">Visningsläge</s:String>
+    <s:String x:Key="S.Settings.Styles.DisplayMode.Text">Text</s:String>
+    <s:String x:Key="S.Settings.Styles.DisplayMode.Bar">Stapel</s:String>
+    <s:String x:Key="S.Settings.Styles.BasedOn">Baserat på</s:String>
+    <s:String x:Key="S.Settings.Styles.BasedOn.Segment">Segment</s:String>
+    <s:String x:Key="S.Settings.Styles.BasedOn.Timeline">Tidslinje</s:String>
+    <s:String x:Key="S.Settings.Styles.BasedOn.Capture">Inspelning</s:String>
+    <s:String x:Key="S.Settings.Styles.Format">Format</s:String>
+    <s:String x:Key="S.Settings.Styles.Format.DateTime">Datum och tid</s:String>
+    <s:String x:Key="S.Settings.Styles.Format.Time">Tid</s:String>
+    <s:String x:Key="S.Settings.Styles.Format.Percentage">Procent</s:String>
+    <s:String x:Key="S.Settings.Styles.Format.Other">Annat</s:String>
+    <s:String x:Key="S.Settings.Styles.Format.Other.Info">Följ specifikationen för att bygga ditt eget format</s:String>
+    <s:String x:Key="S.Settings.Styles.CustomFormat">Anpassat format</s:String>
+    <s:String x:Key="S.Settings.Styles.CustomFormat.Specification">Specifikation</s:String>
+    <s:String x:Key="S.Settings.Styles.Offset">Förskjutning</s:String>
+    <s:String x:Key="S.Settings.Styles.Offset.ToggleSign">Växla tecken</s:String>
+    <s:String x:Key="S.Settings.Styles.ShowTotal">Visa total</s:String>
+    <s:String x:Key="S.Settings.Styles.Separator">Avgränsare</s:String>
+    <s:String x:Key="S.Settings.Styles.Prefix">Prefix</s:String>
+    <s:String x:Key="S.Settings.Styles.Suffix">Suffix</s:String>
+    <s:String x:Key="S.Settings.Styles.Thickness">Tjocklek</s:String>
+    <s:String x:Key="S.Settings.Styles.Orientation">Orientering</s:String>
+    <s:String x:Key="S.Settings.Styles.Orientation.Horizontal">Horisontell</s:String>
+    <s:String x:Key="S.Settings.Styles.Orientation.Vertical">Vertikal</s:String>
+    
+    <!--Settings • Styles > Shape-->
+    <s:String x:Key="S.Settings.Styles.Shape">Form</s:String>
+    <s:String x:Key="S.Settings.Styles.Shape.LineArrow">Linje med pil</s:String>
+    <s:String x:Key="S.Settings.Styles.Shape.Arrow">Pil</s:String>
+    <s:String x:Key="S.Settings.Styles.Shape.Rectangle">Rektangel</s:String>
+    <s:String x:Key="S.Settings.Styles.Shape.Ellipse">Ellips</s:String>
+    <s:String x:Key="S.Settings.Styles.Shape.Triangle">Triangel</s:String>
+
+    <!--Settings • Styles > Drawing-->
+    <s:String x:Key="S.Settings.Styles.DrawingMode">Ritningsläge</s:String>
+    <s:String x:Key="S.Settings.Styles.DrawingMode.Pen">Penna</s:String>
+    <s:String x:Key="S.Settings.Styles.DrawingMode.Highlighter">Markör</s:String>
+    <s:String x:Key="S.Settings.Styles.DrawingMode.Airbrush">Airbrush</s:String>
+    <s:String x:Key="S.Settings.Styles.DrawingMode.Eraser">Radergummi</s:String>
+    <s:String x:Key="S.Settings.Styles.TipShape">Tippform</s:String>
+    <s:String x:Key="S.Settings.Styles.TipShape.Circle">Cirkel</s:String>
+    <s:String x:Key="S.Settings.Styles.TipShape.Rectangle">Rektangel</s:String>
+    <s:String x:Key="S.Settings.Styles.TipShape.Diamond">Diamant</s:String>
+    <s:String x:Key="S.Settings.Styles.TipShape.HorizontalLine">Horisontell linje</s:String>
+    <s:String x:Key="S.Settings.Styles.TipShape.VerticalLine">Vertikal linje</s:String>
+    <s:String x:Key="S.Settings.Styles.StrokeColor">Konturfärg</s:String>
+    <s:String x:Key="S.Settings.Styles.StrokeThickness">Konturtjocklek</s:String>
+
+    <!--Settings • Styles > Pixelation-->
+    <s:String x:Key="S.Settings.Styles.SmoothnessRadius">Jämnhetsradie</s:String>
+    <s:String x:Key="S.Settings.Styles.ApplyInverse">Tillämpa på urvalets invertering</s:String>
+    <s:String x:Key="S.Settings.Styles.BlockWidth">Blockbredd</s:String>
+    <s:String x:Key="S.Settings.Styles.BlockHeight">Blockhöjd</s:String>
+    <s:String x:Key="S.Settings.Styles.SyncWidthHeight">Synkronisera bredd och höjd</s:String>
+    <s:String x:Key="S.Settings.Styles.PixelAverage">Beräkna genomsnittsfärg för varje pixelblock</s:String>
+    <s:String x:Key="S.Settings.Styles.RotatePixelBlock">Rotera pixelblocket längs segmentets vinkel</s:String>
+
+    <!--Settings • Styles > Blur-->
+    <s:String x:Key="S.Settings.Styles.BlurRadius">Oskärperadie</s:String>
+
+    <!--Settings • Styles > Brightness-->
+    <s:String x:Key="S.Settings.Styles.LightIntensity">Ljusstyrka</s:String>
+
+    <!--Settings • Styles > LineCap-->
+    <s:String x:Key="S.Settings.Styles.LineCap.Start">Startlinjetopp</s:String>
+    <s:String x:Key="S.Settings.Styles.LineCap.Dash">Strecklinjetopp</s:String>
+    <s:String x:Key="S.Settings.Styles.LineCap.End">Slutlinjetopp</s:String>
+    <s:String x:Key="S.Settings.Styles.LineCap.Flat">Flat</s:String>
+    <s:String x:Key="S.Settings.Styles.LineCap.Square">Fyrkantig</s:String>
+    <s:String x:Key="S.Settings.Styles.LineCap.Round">Rund</s:String>
+    <s:String x:Key="S.Settings.Styles.LineCap.Triangle">Triangel</s:String>
+
+    <!--Settings • Styles > LineJoin-->
+    <s:String x:Key="S.Settings.Styles.LineJoin">Linjesammanfogning</s:String>
+    <s:String x:Key="S.Settings.Styles.LineJoin.Bevel">Flat</s:String>
+    <s:String x:Key="S.Settings.Styles.LineJoin.Miter">Fyrkantig</s:String>
+    <s:String x:Key="S.Settings.Styles.LineJoin.Round">Rund</s:String>
+
+    <!--Settings • Styles > Dash-->
+    <s:String x:Key="S.Settings.Styles.Dash">Streckstil</s:String>
+    <s:String x:Key="S.Settings.Styles.Dash.Solid">Solid</s:String>
+    <s:String x:Key="S.Settings.Styles.Dash.Dash">Streck</s:String>
+    <s:String x:Key="S.Settings.Styles.Dash.Dot">Punkt</s:String>
+    <s:String x:Key="S.Settings.Styles.Dash.DashDot">Streck, punkt</s:String>
+    <s:String x:Key="S.Settings.Styles.Dash.DashDotDot">Streck, punkt, punkt</s:String>
+    <s:String x:Key="S.Settings.Styles.Dash.Custom">Anpassad</s:String>
+
+    <!--Settings • Effects-->
+    <s:String x:Key="S.Settings.Effects.None">Inga effekter tillagda ännu</s:String>
+    <s:String x:Key="S.Settings.Effects.Add.Info">Lägg till ny effekt</s:String>
+    <s:String x:Key="S.Settings.Effects.Reset.Info">Återställ till standardinställningarna</s:String>
+    <s:String x:Key="S.Settings.Effects.RemoveAll.Info">Ta bort alla effekter</s:String>
+
+    <!--Settings • Editor-->
+    <s:String x:Key="S.Settings.Editor.WindowPosition">Fönsterpositionering</s:String>
+    <s:String x:Key="S.Settings.Editor.WindowPosition.Center">Tvinga mitt</s:String>
+    <s:String x:Key="S.Settings.Editor.WindowPosition.Previous">Använd tidigare</s:String>
+    <s:String x:Key="S.Settings.Editor.WindowPosition.System">Låt systemet bestämma</s:String>
+    <s:String x:Key="S.Settings.Editor.WindowPosition.UsePrevious">Använd tidigare fönsterstorlek</s:String>
+    <s:String x:Key="S.Settings.Editor.CacheHandling">Cachehantering för projekt vid stängning</s:String>
+    <s:String x:Key="S.Settings.Editor.CacheHandling.Keep">Behåll alltid i cache</s:String>
+    <s:String x:Key="S.Settings.Editor.CacheHandling.Delete">Radera alltid från cache</s:String>
+    <s:String x:Key="S.Settings.Editor.InsertPosition">Infogningsposition för inspelning</s:String>
+    <s:String x:Key="S.Settings.Editor.InsertPosition.Start">Början av tidslinjen</s:String>
+    <s:String x:Key="S.Settings.Editor.InsertPosition.Current">Aktuell position</s:String>
+    <s:String x:Key="S.Settings.Editor.InsertPosition.After">Efter alla segment</s:String>
+    <s:String x:Key="S.Settings.Editor.SegmentPasteBehavior">Beteende vid inklistring av segment</s:String>
+    <s:String x:Key="S.Settings.Editor.SegmentPasteBehavior.Existing">I det valda spåret</s:String>
+    <s:String x:Key="S.Settings.Editor.SegmentPasteBehavior.New">I ett nytt spår</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert">Alternativ för media-infogning</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Info">Välj hur media ska infogas i tidslinjen</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Grouping">Gruppering</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Grouping.Ask">Fråga mig</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Grouping.Separate">Separat spår för varje fil</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Grouping.Separate.Info">Varje fil i ett separat spår, efter varandra i tiden</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Grouping.SingleTrack">Ett enda spår</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Grouping.SingleTrack.Info">Alla filer i ett enda spår</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Grouping.SeparateForType">Ett spår för varje typ</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Grouping.SeparateForType.Info">Mediefiler av samma typ kommer att grupperas</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Sorting">Sortering</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Sorting.Original">Ursprungligt urval</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Sorting.Name">Namn</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Sorting.NameNumber">Namn (tolka siffror)</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Sorting.NameSemantic">Namn (tolka semantisk version)</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Sorting.Length">Längd</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Sorting.Date">Datum</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Sorting.Size">Storlek</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Direction">Riktning</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Direction.Ascending">Stigande</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Direction.Descending">Fallande</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.MediaDuration">Statisk medielängd</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Gap">Mellanrum mellan filer</s:String>
+    <s:String x:Key="S.Settings.Editor.Timeline">Tidslinje</s:String>
+    <s:String x:Key="S.Settings.Editor.Timeline.TrackHeight">Spårhöjd</s:String>
+    <s:String x:Key="S.Settings.Editor.Timeline.GenerateThumbnails">Generera miniatyrer</s:String>
+    <s:String x:Key="S.Settings.Editor.Timeline.ThumbnailPanelMargin">Marginal för miniatyrpanel</s:String>
+    <s:String x:Key="S.Settings.Editor.Timeline.ThumbnailMargin">Marginal för miniatyr</s:String>
+
+    <!--Settings • Exporter-->
+    <s:String x:Key="S.Settings.Exporter.UncommonFormat">Visa ovanliga format</s:String>
+    <s:String x:Key="S.Settings.Exporter.UncommonFormat.Info">Gamla eller ovanliga format som AVI, AC3, etc. blir tillgängliga</s:String>
+
+    <!--Settings • Storage-->
+    <s:String x:Key="S.Settings.Storage.Cache">Cache</s:String>
+    <s:String x:Key="S.Settings.Storage.Cache.Path">Cache-sökväg</s:String>
+    <s:String x:Key="S.Settings.Storage.Cache.Logs">Logg-sökväg</s:String>
+    <s:String x:Key="S.Settings.Storage.SelectPath">Klicka för att välja en sökväg</s:String>
+    <s:String x:Key="S.Settings.Storage.Navigate">Navigera med Utforskaren</s:String>
+    <s:String x:Key="S.Settings.Storage.Info">Cache-mappen används för att lagra inspelningar/projekt och andra temporära filer</s:String>
+    <s:String x:Key="S.Settings.Storage.FreeSpace">{0} ledigt av {1}</s:String>
+    <s:String x:Key="S.Settings.Storage.AppSettings">App-inställningar</s:String>
+    <s:String x:Key="S.Settings.Storage.AppSettings.Global">Globalt</s:String>
+    <s:String x:Key="S.Settings.Storage.AppSettings.Local">Lokalt</s:String>
+    <s:String x:Key="S.Settings.Storage.AppSettings.GlobalSettings">Globala inställningar</s:String>
+    <s:String x:Key="S.Settings.Storage.AppSettings.GlobalSettings.Info">Inställningar lagras i %AppData%/NStudio-mappen</s:String>
+    <s:String x:Key="S.Settings.Storage.AppSettings.LocalSettings">Lokala inställningar</s:String>
+    <s:String x:Key="S.Settings.Storage.AppSettings.LocalSettings.Info">Inställningar lagras i en fil i samma mapp som appens körbara fil</s:String>
+    <s:String x:Key="S.Settings.Storage.AppSettings.LocalSettings.Create">Skapa lokala inställningar</s:String>
+    <s:String x:Key="S.Settings.Storage.Cleanup.DeleteOnClose">Radera alla filer från cache vid stängning av appen</s:String>
+    <s:String x:Key="S.Settings.Storage.Cleanup.DeleteOnClose.Ask">Fråga mig innan alla filer i cachen raderas</s:String>
+    <s:String x:Key="S.Settings.Storage.Cleanup.RemoveOld">Ta bort gamla projekt automatiskt</s:String>
+    <s:String x:Key="S.Settings.Storage.Cleanup.RemoveOld.MaxAge">Maximal ålder</s:String>
+    <s:String x:Key="S.Settings.Storage.Cleanup.RemoveOld.MaxAge.Info">Alla stängda projekt äldre än detta kommer att tas bort när appen öppnas</s:String>
+
+    <s:String x:Key="S.Settings.Storage.Cleanup.Clear.All.Header">Vill du ta bort alla inställningar?</s:String>
+    <s:String x:Key="S.Settings.Storage.Cleanup.Clear.Global.Header">Vill du ta bort de globala inställningarna?</s:String>
+    <s:String x:Key="S.Settings.Storage.Cleanup.Clear.Local.Header">Vill du ta bort de lokala inställningarna?</s:String>
+    <s:String x:Key="S.Settings.Storage.Cleanup.Clear.Description">Du måste starta om applikationen för att se ändringarna.</s:String>
+
+    <!--Settings • Plugins-->
+    <s:String x:Key="S.Settings.Plugin.Path">Sökväg</s:String>
+    <s:String x:Key="S.Settings.Plugin.SelectFile">Klicka för att välja fil</s:String>
+    <s:String x:Key="S.Settings.Plugin.Version">Version</s:String>
+    <s:String x:Key="S.Settings.Plugin.Version.Unrecognized">Okänd</s:String>
+    <s:String x:Key="S.Settings.Plugin.Files.All">Alla stödda filer</s:String>
+    <s:String x:Key="S.Settings.Plugin.Ffmpeg.Select">Välj platsen för FFmpeg-exekverbara filen</s:String>
+    <s:String x:Key="S.Settings.Plugin.Ffmpeg.File">FFmpeg-exekverbara fil</s:String>
+    <s:String x:Key="S.Settings.Plugin.Gifski.Select">Välj platsen för Gifski-biblioteket</s:String>
+    <s:String x:Key="S.Settings.Plugin.Gifski.File">Gifski-bibliotek</s:String>
+    <s:String x:Key="S.Settings.Plugin.PackedDownload">Packad nedladdning</s:String>
+    <s:String x:Key="S.Settings.Plugin.StoreLimitations">Butikbegränsningar</s:String>
+    <s:String x:Key="S.Settings.Plugin.StoreLimitations.Info">På grund av Microsoft Store-policyer måste du ladda ner plugins manuellt</s:String>
+    
+    <!--Settings • Update-->
+    <s:String x:Key="S.Settings.Update.UpToDate">Du är uppdaterad</s:String>
+    <s:String x:Key="S.Settings.Update.LastChecked">Senast kontrollerat:</s:String>
+    <s:String x:Key="S.Settings.Update.ReleaseNotes">Versionsanteckningar</s:String>
+    <s:String x:Key="S.Settings.Update.CheckForUpdates">Sök efter uppdateringar</s:String>
+    <s:String x:Key="S.Settings.Update.Checking">Kontrollerar efter uppdateringar...</s:String>
+    <s:String x:Key="S.Settings.Update.DownloadInstall">Ladda ner och installera</s:String>
+    <s:String x:Key="S.Settings.Update.Install">Installera</s:String>
+    <s:String x:Key="S.Settings.Update.Description">Beskrivning</s:String>
+    <s:String x:Key="S.Settings.Update.Pending">Väntar på nedladdning</s:String>
+    <s:String x:Key="S.Settings.Update.Error">Fel uppstod</s:String>
+    <s:String x:Key="S.Settings.Update.NeverChecked">Aldrig kontrollerad</s:String>
+    <s:String x:Key="S.Settings.Update.CheckOnStart">Kontrollera uppdateringar vid start</s:String>
+    <s:String x:Key="S.Settings.Update.CheckOnStart.AutoInstall">Installera uppdateringar automatiskt efter att appen stängts</s:String>
+    <s:String x:Key="S.Settings.Update.CheckOnStart.Prompt">Be mig innan installationen startar</s:String>
+    <s:String x:Key="S.Settings.Update.CheckForTranslation">Kontrollera efter översättningsuppdateringar</s:String>
+    <s:String x:Key="S.Settings.Update.CheckForTranslation.Info">Uppdaterade översättningar kommer att laddas ner och installeras automatiskt</s:String>
+    <s:String x:Key="S.Settings.Update.StoreHandled">Hur uppdateras?</s:String>
+    <s:String x:Key="S.Settings.Update.StoreHandled.Info">Uppdateringarna hanteras direkt via Microsoft Store</s:String>
+    <s:String x:Key="S.Settings.Update.StoreHandled.Action">Öppna Microsoft Store</s:String>
+
+    <!--Settings • About-->
+    <s:String x:Key="S.Settings.About.Contact">Kontakt</s:String>
+    <s:String x:Key="S.Settings.About.Contact.Email">E-post</s:String>
+    <s:String x:Key="S.Settings.About.Contact.Email.Copy">Kopiera e-post</s:String>
+    <s:String x:Key="S.Settings.About.Dependencies">Beroenden</s:String>
+
+    <!--Windows • Preset Settings-->
+    <s:String x:Key="S.PresetSettings.Title">N-Studio • Förinställningsinställningar</s:String>
+    <s:String x:Key="S.PresetSettings.Presets">Förinställningar</s:String>
+    <s:String x:Key="S.PresetSettings.Add.Info">Lägg till ny förinställning</s:String>
+    <s:String x:Key="S.PresetSettings.Duplicate">Duplicera</s:String>
+    <s:String x:Key="S.PresetSettings.Duplicate.Info">Duplicera vald förinställning</s:String>
+    <s:String x:Key="S.PresetSettings.Reset.Info">Återställ till standardinställningarna</s:String>
+    <s:String x:Key="S.PresetSettings.Remove.Info">Ta bort vald förinställning</s:String>
+    <s:String x:Key="S.PresetSettings.Copy">Kopiera</s:String>
+    <s:String x:Key="S.PresetSettings.Copied">(Kopierad)</s:String>
+
+    <!--Windows • Preset Settings > Identification-->
+    <s:String x:Key="S.Preset.Identification">Identifiering</s:String>
+    <s:String x:Key="S.Preset.Identification.Info">Titel, beskrivning och mer</s:String>
+    <s:String x:Key="S.Preset.Identification.Title">Titel</s:String>
+    <s:String x:Key="S.Preset.Identification.Description">Beskrivning</s:String>
+    <s:String x:Key="S.Preset.Identification.Service">Tjänst</s:String>
+    <s:String x:Key="S.Preset.Identification.Encoder">Kodare</s:String>
+    <s:String x:Key="S.Preset.Identification.Enabled">Aktiverad</s:String>
+    <s:String x:Key="S.Preset.Identification.Enabled.Info">Endast aktiverade förinställningar kan användas</s:String>
+    <s:String x:Key="S.Preset.Identification.AutoSave">Spara utdataurval automatiskt</s:String>
+    <s:String x:Key="S.Preset.Identification.AutoSave.Info">Sökvägen för utdata och uppladdningsdestinationen kommer att sparas.</s:String>
+
+    <!--Windows • Preset Settings > Export-->
+    <s:String x:Key="S.Preset.Export.Title">Exportalternativ</s:String>
+    <s:String x:Key="S.Preset.Export.Title.Info">Utvägsdestination, uppladdning och beteende efter export</s:String>
+    <s:String x:Key="S.Preset.Export.Folder">Exportera till en mapp</s:String>
+    <s:String x:Key="S.Preset.Export.Folder.Info">Exportera projektet till en mapp som du väljer</s:String>
+    <s:String x:Key="S.Preset.Export.Upload">Ladda upp till en tjänst</s:String>
+    <s:String x:Key="S.Preset.Export.Upload.Info">Ladda upp projektet till en online-tjänst du väljer</s:String>
+    <s:String x:Key="S.Preset.Export.Clipboard">Kopiera till urklipp</s:String>
+    <s:String x:Key="S.Preset.Export.Clipboard.Info">Kopiera sökvägen eller länken till animationen efter export</s:String>
+    <s:String x:Key="S.Preset.Export.Commands">Kör kommandon</s:String>
+    <s:String x:Key="S.Preset.Export.Commands.Info">Kör kommandon efter export</s:String>
+
+    <!--Windows • Preset Settings > Output-->
+    <s:String x:Key="S.Preset.Output.Title">Utdata</s:String>
+    <s:String x:Key="S.Preset.Output.Title.Info">Standardmapp för utdata och filnamn</s:String>
+    <s:String x:Key="S.Preset.Output.Folder">Mapp</s:String>
+    <s:String x:Key="S.Preset.Output.FileName">Filnamn</s:String>
+    <s:String x:Key="S.Preset.Output.Select">Välj utdata mapp</s:String>
+    <s:String x:Key="S.Preset.Output.Overwrite">Överskriv</s:String>
+    <s:String x:Key="S.Preset.Output.Overwrite.Warn">Varning</s:String>
+    <s:String x:Key="S.Preset.Output.Overwrite.Warn.Info">Varnar endast att en annan fil finns med samma namn</s:String>
+    <s:String x:Key="S.Preset.Output.Overwrite.Prompt">Fråga</s:String>
+    <s:String x:Key="S.Preset.Output.Overwrite.Prompt.Info">Frågar om användaren vill skriva över filen</s:String>
+    <s:String x:Key="S.Preset.Output.Overwrite.Allow">Tillåt</s:String>
+    <s:String x:Key="S.Preset.Output.Overwrite.Allow.Info">Överskriver filen</s:String>
+    <s:String x:Key="S.Preset.Output.ExportAsProject">Exportera som projekt</s:String>
+    <s:String x:Key="S.Preset.Output.ExportAsProject.Info">Exportera även som projekt till samma plats</s:String>
+
+    <!--Windows • Preset Settings > Upload-->
+    <s:String x:Key="S.Preset.Upload.Title">Ladda upp</s:String>
+    <s:String x:Key="S.Preset.Upload.Title.Info">Standarduppladdningsförinställning</s:String>
+    <s:String x:Key="S.Preset.Upload.Title2">Uppladdningsalternativ</s:String>
+    <s:String x:Key="S.Preset.Upload.Title2.Info">Alternativ specifika för vald uppladdningstjänst och filformat</s:String>
+    <s:String x:Key="S.Preset.Upload.Preset">Förinställning</s:String>
+
+    <!--Windows • Preset Settings > Clipboard-->
+    <s:String x:Key="S.Preset.Clipboard.Title">Urklipp</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Title.Info">Kopiera sökväg eller länk efter export</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior">Kopieringsbeteende</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior.File">Fil</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior.File.Info">Kopierar utdatafilen till urklipp.</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior.FolderPath">Mappväg</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior.FolderPath.Info">Kopierar mappvägen till utdatafilen till urklipp.</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior.FilePath">Filväg</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior.FilePath.Info">Kopierar sökvägen till utdatafilen till urklipp.</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior.Link">Länk</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior.Link.Info">Kopierar länken genererad av uppladdningstjänsten till urklipp.</s:String>
+
+    <!--Windows • Preset Settings > Commands-->
+    <s:String x:Key="S.Preset.Commands.Title">Egna kommandon</s:String>
+    <s:String x:Key="S.Preset.Commands.Title.Info">Kommandon som ska köras efter export</s:String>
+    <s:String x:Key="S.Preset.Commands.Commands">Kommandon</s:String>
+    <s:String x:Key="S.Preset.Commands.Commands.Info">Skriv kommandon som ska köras efter kodningen.&#10;För att köra flera kommandon, skriv varje på en separat rad.&#10;Makron:&#10;{p} = utdatafilens sökväg.&#10;{f} = utdata mapps sökväg.&#10;{u} = URL för den uppladdade filen.</s:String>
+
+    <!--Windows • Preset Settings > Playback-->
+    <s:String x:Key="S.Preset.Playback.Title">Uppspelning</s:String>
+    <s:String x:Key="S.Preset.Playback.Title.Info">Uppspelnings- och bildfrekvensalternativ för animationen</s:String>
+
+    <s:String x:Key="S.Preset.Playback.AnimatedImage.Looped">Loop animationen</s:String>
+    <s:String x:Key="S.Preset.Playback.AnimatedImage.Looped.Info">Vid uppspelning, efter att ha nått slutet börjar animationen om</s:String>
+    <s:String x:Key="S.Preset.Playback.AnimatedImage.Looped.Forever">Upprepa för alltid</s:String>
+    <s:String x:Key="S.Preset.Playback.AnimatedImage.Looped.Forever.Info">Animationen upprepas utan att stoppa</s:String>
+    <s:String x:Key="S.Preset.Playback.AnimatedImage.Looped.Count">Upprepningsantal</s:String>
+    <s:String x:Key="S.Preset.Playback.AnimatedImage.Looped.Count.Info">Antalet gånger animationen ska upprepas</s:String>
+
+    <!--Windows • Preset Settings > Encoder-->
+    <s:String x:Key="S.Preset.Encoder.Title">Kodare alternativ</s:String>
+    <s:String x:Key="S.Preset.Encoder.Title.Info">Alternativ specifika för vald kodare och filformat</s:String>
+    <s:String x:Key="S.Preset.Encoder.Version">Version</s:String>
+    <s:String x:Key="S.Preset.Encoder.Quality">Kvalitet</s:String>
+    <s:String x:Key="S.Preset.Encoder.Pass">Pass</s:String>
+
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.UseCommands">Använd kommandon</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.UseCommands.Info">Skriv argument till FFmpeg direkt (avancerat läge)</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.Parameters">Parametrar</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.Parameters.Info">Lista med parametrar som skickas till FFmpeg.&#10;&#10;Speciella parametrar:&#10;{I} är inmatningssökväg (ramarna).&#10;{O} är utdata sökväg (den exporterade filen).&#10;{W} är bildens bredd.&#10;{H} är bildens höjd.</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.Preview">Förhandsgranskning</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.Preview.Info">Fullt kommando som kommer att skickas till FFmpeg</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.Help.PngFilters">PNG-filter</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.Help.Format">Formatdokumentation</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.Help.Filters">Filterdokumentation</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.PixelFormat">Pixelformat</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.Pass">För att koda med 2-pass, lägg helt enkelt till '-pass 2'</s:String>
+
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.FrameStrategy">Bildfrekvensstrategi</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.FrameStrategy.Info">Kontrollerar hur FFmpeg tolkar och justerar bildtidsinställningar vid läsning eller skrivning av bildsekvenser.&#10;Detta bestämmer om bilder behålls som de är, dupliceras eller tas bort för att matcha önskad bildfrekvens</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.FrameStrategy.Passthrough">Använd tidsstämplar som de är</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.FrameStrategy.Cfr">Konstant bildfrekvens</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.FrameStrategy.Vfr">Variabel bildfrekvens</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.FrameStrategy.Drop">Ta bort bilder</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.FrameStrategy.Dup">Duplicera bilder</s:String>
+
+    <!--Preset • Apng-->
+    <s:String x:Key="S.Preset.Encoder.Apng.DetectUnchanged">Detektera oförändrade pixlar</s:String>
+    <s:String x:Key="S.Preset.Encoder.Apng.DetectUnchanged.Info">Skannar och tar bort onödiga delar av bilderna som inte ändrades mellan ramarna</s:String>
+    <s:String x:Key="S.Preset.Encoder.Apng.PaintTransparent">Måla alla oförändrade pixlar med transparent färg</s:String>
+    <s:String x:Key="S.Preset.Encoder.Apng.PaintTransparent.Info">Ersätter pixlar som inte ändrats mellan ramar med transparent färg</s:String>
+    <s:String x:Key="S.Preset.Encoder.Apng.Prediction">Förutsägelse</s:String>
+    <s:String x:Key="S.Preset.Encoder.Apng.Prediction.None">Ingen</s:String>
+    <s:String x:Key="S.Preset.Encoder.Apng.Prediction.Sub">Sub</s:String>
+    <s:String x:Key="S.Preset.Encoder.Apng.Prediction.Up">Up</s:String>
+    <s:String x:Key="S.Preset.Encoder.Apng.Prediction.Average">Medel</s:String>
+    <s:String x:Key="S.Preset.Encoder.Apng.Prediction.Mixed">Blandad</s:String>
+
+    <!--Preset • Gif-->
+    <s:String x:Key="S.Preset.Encoder.Gif.GlobalColorTable">Använd en global färgtabell</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.GlobalColorTable.Info">Kan minska kvaliteten och/eller storleken på gif:en</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer">Kvantisering</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Info">Algoritm för färgreducering (kvantisering)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Neural">Neuralt nätverk</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Neural.Info">Högfidelitetskvantisering. Långsammare, men bra för fler färger</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Octree">Octree</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Octree.Info">Bra för animationer med färre färger. Snabbare, men kan ge färgbandning</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.MedianCut">Median cut</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.MedianCut.Info">Mindre bra än Octree och långsammare</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Grayscale">Gråskala</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Grayscale.Info">Använder en fast gråskale-palett, så det är mycket snabbare</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.MostUsed">Mest använda färger</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.MostUsed.Info">Tar helt enkelt de mest använda färgerna i ramarna</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Sampling">Samplingsfaktor</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Sampling.Info">Samplingsfaktor:&#10;Ett värde på 1 ger bättre gif, men det blir långsammare att rendera</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Sampling.Best">Bäst</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Sampling.Fastest">Snabbast</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Colors">Färger</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Colors.Info">Maximalt antal färger (för varje ram)</s:String>
+
+    <s:String x:Key="S.Preset.Encoder.Gif.Transparency.Enable">Aktivera transparens</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Transparency.Enable.Info">Aktiverar fullt transparent läge, vilket gör att bakgrunden i gif:en blir helt transparent.&#10;Chroma key-ersättningsprocessen kommer att ignoreras om detta alternativ är aktiverat</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Transparency.Pick">Välj vilken färg som ska visas som transparent</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Transparency.Pick.Info">Om en färg väljs kommer den att konverteras till transparent och visas som transparent i den genererade gif:en.&#10;Om ingen färg väljs kommer alla transparenta färger (alfa = 0 %) att visas som normalt transparenta.</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.DetectUnchanged">Detektera oförändrade pixlar</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.DetectUnchanged.Info">Genom att analysera och detektera oförändrade pixlar mellan ramarna,&#10;kommer det att vara möjligt att spara endast de nödvändiga delarna till gif:en</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.PaintWithChroma">Ersätt dessa pixlar med en chroma-key</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.PaintWithChroma.Info">Upprepade/oförändrade pixlar kommer att ersättas med denna chroma-key,&#10;vilket gör det möjligt att använda färre färger per ram</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Color">Färg</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.ChromaKey">Chroma-key</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Dither">Dithering</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Dither.Scale">Bayer-skala</s:String>
+
+    <!--Preset • Gifski-->
+    <s:String x:Key="S.Preset.Encoder.Gif.Faster">Använd en ännu snabbare kodningsprocess</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Faster.Info">Kan minska kvaliteten på gif:en</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.ExtraEffort">Extra ansträngning</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.ExtraEffort.Info">Kodningen blir betydligt långsammare, men kan resultera i något bättre gif:ar</s:String>
+
+    <!--Preset • KGy SOFT-->
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.BackColor">Bakgrundsfärg</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.BackColor.Info">Pixlar med alfa (transparens) som betraktas som opaka av den valda kvantiseringen kommer att blandas med denna färg innan de får den kvantiserade färgen</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.AlphaThreshold">Alfatröskel</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.AlphaThreshold.Info">Bestämmer inkommande alfa-värde under vilket den kvantiserade färgen blir transparent.&#10;Om 0, kommer resultatet aldrig bli transparent.&#10;Om 255, är endast helt transparenta pixlar transparenta.</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.WhiteThreshold">Vittröskel</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.WhiteThreshold.Info">Bestämmer det lägsta ingångs-ljusstyrkevärdet för att betrakta resultatfärgen som vit.&#10;Det påverkar resultatets ljusstyrka. En fel-diffusionsdithering kan dock kompensera för värdet av denna parameter.</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.DirectMapping">Direktmappning</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.DirectMapping.Info">När markerad bestäms den kvantiserade färgen genom direkt mappning istället för att leta upp närmaste palettpost.&#10;Det påskyndar kvantiseringen men kan ge ett högre kontrastresultat. En fel-diffusionsdithering kan kompensera för värdet av denna parameter dock</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.PaletteSize">Palettstorlek</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.PaletteSize.Info">Bestämmer maximal storlek på paletten per ram</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.CustomBitLevel">Anpassad bitnivå</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.CustomBitLevel.Info">När markerad kan bitnivån konfigureras manuellt.&#10;⚠️ Varning: Högsta bitnivån kan kräva MYCKET minne!</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.BitLevel">Bitnivå</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.BitLevel.Info">Högre värde betyder mer noggrannhet, större mål färgrymd, långsammare bearbetning och större minnesanvändning.&#10;Till exempel, om 1, kan resultatet ha max 8 färger, eller om 2, max 64 färger.&#10;För Octree och Wu-kvantisatorer påverkar det också maximalt antal monokroma nyanser.&#10;Till exempel, om 5 (vilket är standard för Wu-kvantisator), kan endast 32 monokroma nyanser särskiljas.&#10;⚠️ Försiktighet: Wu-kvantisatorn förbrukar minst 650 MB med högsta värde</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.BlackAndWhite">Svart och vitt</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.BlackAndWhite.Info">Fast 1 bpp-palett med svart och vita färger</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.Grayscale4">Gråskala 4 färger</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.Grayscale4.Info">Fast 2 bpp-palett med 4 gråskaleinlägg</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.Grayscale16">Gråskala 16 färger</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.Grayscale16.Info">Fast 4 bpp-palett med 16 gråskaleinlägg</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.Grayscale">Gråskala 256 färger</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.Grayscale.Info">Fast 8 bpp-palett med 256 gråskaleinlägg</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.SystemDefault4BppPalette">Systemstandard 4 bpp-palett</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.SystemDefault4BppPalette.Info">Fast 4 bpp-palett med standard 16 sRGB-färger</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.SystemDefault8BppPalette">Systemstandard 8 bpp-palett</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.SystemDefault8BppPalette.Info">Fast 8 bpp-palett med 'web-safe' färger och transparens</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.Rgb332">RGB 332-palett</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.Rgb332.Info">Fast 8 bpp-palett med RGB 332-färgrymd</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Palette.Octree">Octree-kvantisator</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Palette.Octree.Info">Optimerar paletten för varje ram med Octree-algoritmen</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Palette.MedianCut">Median Cut-kvantisator</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Palette.MedianCut.Info">Optimerar paletten för varje ram med Median Cut-algoritmen</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Palette.Wu">Wu-kvantisator</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Palette.Wu.Info">Optimerar paletten för varje ram med Xiaolin Wu's algoritm</s:String>
+
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer">Ditherer</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Strength">Styrka</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Strength.Info">Dithererns styrka, eller 0 för att autokalibrera den.</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Seed">Frö</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Seed.Info">Ett heltalsfrö som används för att producera ett specifikt slumpmässigt ditheringmönster.&#10;Lämna tomt för att använda ett slumpmässigt frö för varje ram</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.None">Ingen</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.None.Info">Ramar kvantiseras utan dithering.</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.SerpentineProcessing">Ormmönsterbearbetning</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.SerpentineProcessing.Info">När markerat ändras felpropageringsriktningen från rad till rad.&#10;Detta hjälper att minska vågeffekten i fel-diffusionsditheringen</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer2X2">Bayer 2x2 (Ordnad)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer2X2.Info">2x2 Bayer-matrixmönstret</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer3X3">Bayer 3x3 (Ordnad)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer3X3.Info">3x3 Bayer-matrixmönstret</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer4X4">Bayer 4x4 (Ordnad)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer4X4.Info">4x4 Bayer-matrixmönstret</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer8X8">Bayer 8x8 (Ordnad)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer8X8.Info">8x8 Bayer-matrixmönstret</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.DottedHalftone">Dotted Halftone (Ordnad)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.DottedHalftone.Info">En 8x8 matris med ett prickigt halftonmönster</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.BlueNoise">Blue Noise (Ordnad)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.BlueNoise.Info">En 64x64 matris med ett blått brusmönster</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Atkinson">Atkinson (Error Diffusion)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Atkinson.Info">Bill Atkinsons 4x3-matris med 6 effektiva värden</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Burkes">Burkes (Error Diffusion)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Burkes.Info">D. Burkes 5x2-matris</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.FloydSteinberg">Floyd-Steinberg (Error Diffusion)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.FloydSteinberg.Info">Den ursprungliga 3x2-matrisen av Floyd och Steinberg</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.JarvisJudiceNinke">Jarvis-Judice-Ninke (Error Diffusion)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.JarvisJudiceNinke.Info">En 5x3-matris av Jarvis, Judice och Ninke</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Sierra3">Sierra 3 (Error Diffusion)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Sierra3.Info">Frankie Sierras 5x3-matris</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Sierra2">Sierra 2 (Error Diffusion)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Sierra2.Info">Frankie Sierras 5x2-matris</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.SierraLite">Sierra Lite (Error Diffusion)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.SierraLite.Info">Frankie Sierras 3x2-matris</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.StevensonArce">Stevenson-Arce (Error Diffusion)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.StevensonArce.Info">En 7x4 hexagonal matris av Stevenson och Arce</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Stucki">Stucki (Error Diffusion)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Stucki.Info">Stuckis 5x3-matris</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.RandomNoise">Slumpmässigt brus</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.RandomNoise.Info">Slumpmässigt vitt brus</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.InterleavedGradientNoise">Icke-slumpmässigt gradientbrus</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.InterleavedGradientNoise.Info">Icke-slumpmässigt gradientbrus genererat av en formel</s:String>
+
+    <s:String x:Key="S.Preset.Encoder.Gif.AllowDeltaFrames">Tillåt delta frames</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.AllowDeltaFrames.Info">När markerat försöker systemet detektera oförändrade pixlar under kodningen.&#13;&#10;När det används med en optimerad kvantisator gör detta det möjligt för en ram att ha mer än 256 färger.&#13;&#10;Detta alternativ ignoreras om kvantisatorn inte använder transparens och Tillåt klippade ramar är avmarkerat</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.DeltaTolerance">Delta tolerans</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.DeltaTolerance.Info">Anger maximal tolerans vid detektering av ändrade pixlar.&#13;&#10;Om 0 tolereras ingen skillnad alls.&#13;&#10;Om 255 kan ramar (eller till och med alla) läggas till utan innehåll.&#13;&#10;Rimligt intervall är mellan 0 och 16 för en optimerad kvantisator. De med fasta färger kan användas med något större värden vid dithering</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.AllowClippedFrames">Tillåt klippade ramar</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.AllowClippedFrames.Info">När markerad tillåts kodaren att lägga till mindre ramar än den faktiska upplösningen.&#13;&#10;Om Tillåt delta frames är avmarkerat tillåts endast klippning av möjliga transparenta kanter</s:String>
+
+    <s:String x:Key="S.Preset.Encoder.Gif.AllowDeltaIgnored">Tillåt delta frames ignoreras eftersom den nuvarande konfigurationen inte använder alfa och Tillåt klippade ramar är avmarkerat</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.AllowDeltaIgnored.Enable">Aktivera klippade ramar</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.HighDeltaTolerance">Om delta toleransen är för hög kan resultatet få låg kvalitet</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.HighDeltaTolerance.Reset">Återställ delta tolerans</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.AllowClippedIgnored">Tillåt klippade ramar har ingen effekt eftersom den nuvarande konfigurationen inte använder alfa och Tillåt delta frames är avmarkerat</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.AllowClippedIgnored.Enable">Aktivera delta frames</s:String>
+
+    <!--Preset • Webm-->
+    <s:String x:Key="S.Preset.Encoder.Webm.Preset.None">Ingen</s:String>
+    <s:String x:Key="S.Preset.Encoder.Webm.Preset.Default">Standard</s:String>
+    <s:String x:Key="S.Preset.Encoder.Webm.Preset.Picture">Bild</s:String>
+    <s:String x:Key="S.Preset.Encoder.Webm.Preset.Photo">Foto</s:String>
+    <s:String x:Key="S.Preset.Encoder.Webm.Preset.Drawing">Teckning</s:String>
+    <s:String x:Key="S.Preset.Encoder.Webm.Preset.Icon">Ikon</s:String>
+    <s:String x:Key="S.Preset.Encoder.Webm.Preset.Text">Text</s:String>
+    <s:String x:Key="S.Preset.Encoder.Webm.Lossless">Använd förlustfritt läge</s:String>
+    <s:String x:Key="S.Preset.Encoder.Webm.Lossless.Info">Maximal kvalitet, utan färgförsämring</s:String>
+    
+    <!--Preset • Video-->
+    <s:String x:Key="S.Preset.Encoder.Video.Codec">Codec</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Codec.Info">Videokodaren, ansvarig för&#10;att konvertera råa pixlar till utdatafilen</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset">Codec-preset</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.None">Ingen</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.VerySlow">Mycket långsam</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Slower">Långsammare</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Slow">Långsam</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Medium">Medium</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Fast">Snabb</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Faster">Snabbare</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.VeryFast">Mycket snabb</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.SuperFast">Super snabb</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.UltraFast">Ultrasnabb</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Quality">Kvalitet</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Balanced">Balanserad</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Speed">Hastighet</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Default">Standard</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Lossless">Förlustfri</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.LosslessHp">Förlustfri (hög prestanda)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Hp">Hög prestanda</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Hq">Hög kvalitet</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Bd">Blu-ray-skiva</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.LowLatency">Låg latens</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.LowLatencyHp">Låg latens (hög prestanda)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.LowLatencyHq">Låg latens (hög kvalitet)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Info">Kodningshastighet i förhållande till kompression,&#10;långsammare presets kan ge bättre kompression&#10;(kvalitet per filstorlek)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.HardwareAcceleration">Maskinvaruacceleration</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.HardwareAcceleration.Off">Av</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.HardwareAcceleration.On">På</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.HardwareAcceleration.Auto">Automatiskt val</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.HardwareAcceleration.Info">Styr användningen av dedikerad hårdvara (videografik).&#10;Av: använder inte dedikerad hårdvara.&#10;På: använder dedikerad hårdvara och låter dig välja specialkodare.&#10;Auto: använder dedikerad hårdvara och väljer automatiskt rätt kodare när möjligt</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.PixelFormat">Pixelformat</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.PixelFormat.Auto">Automatisk</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Crf.Info">Konstant Rate Factor.&#10;Inställning för kvalitet och hastighetskontroll.&#10;Lämna tomt om du inte vill ange denna egenskap.</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.QualityLevel">Kvalitetsnivå</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.QualityLevel.Info">Mindre värden innebär bättre kvalitet</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Bitrate">Bitrate</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Info">Målvideobitrate</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Mode">Bitrateläge</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Mode.Constant">Konstant</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Mode.Variable">Variabel</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Minimum">Minsta hastighet</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Minimum.Info">Minsta bitrate-tolerans.&#10;Mest användbart vid CBR-läge.&#10;Lämna tomt eller sätt till noll &#10;om du inte vill ange denna egenskap</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Maximum">Maximal hastighet</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Maximum.Info">Maximal bitrate-tolerans.&#10;Kräver att buffertstorleken också sätts.&#10;Lämna tomt eller sätt till noll &#10;om du inte vill ange denna egenskap</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Buffer">Buffertstorlek</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Buffer.Info">Ratekontrollens buffertstorlek.&#10;Lämna tomt eller sätt till noll &#10;om du inte vill ange denna egenskap</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Audio.Include">Inkludera ljud</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Audio.Include.Info">Om projektet innehåller ljudspår kommer de att inkluderas i utdatafilen</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Audio.Format">Ljudformat</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Audio.Codec">Ljudcodec</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Audio.BitRate">Ljudbitrate</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Audio.SampleRate">Ljudsamplingsfrekvens</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Audio.Channels">Kanaler</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Audio.Channels.Info">Lämna tomt för att följa projektets kanalantal</s:String>
+
+    <!--Preset • Psd-->
+    <s:String x:Key="S.Preset.Encoder.Psd.Compress">Komprimera bilden</s:String>
+    <s:String x:Key="S.Preset.Encoder.Psd.Compress.Info">Komprimera bilddata med RLE-algoritmen</s:String>
+
+    <!--Preset • Zip-->
+    <s:String x:Key="S.Preset.Encoder.Image.Zip">Zippa bilderna</s:String>
+    <s:String x:Key="S.Preset.Encoder.Image.Zip.Info">Exporterar bilderna i en zippad mapp</s:String>
+
+    <!--Windows • Upload Preset Settings-->
+    <s:String x:Key="S.UploadPreset.Title">Uppladdningsförinställningar</s:String>
+    <s:String x:Key="S.UploadPreset.None">Inga förinställningar tillgängliga</s:String>
+    <s:String x:Key="S.UploadPreset.NoSelected">Inga förinställningar valda</s:String>
+    <s:String x:Key="S.UploadPreset.Type.None">Ingen</s:String>
+    <s:String x:Key="S.UploadPreset.Type.Custom">Anpassad</s:String>
+    <s:String x:Key="S.UploadPreset.IsAnonymous">Är anonym</s:String>
+    <s:String x:Key="S.UploadPreset.IsAnonymous.Info">Uppladdningen är inte kopplad till något konto</s:String>
+    <s:String x:Key="S.UploadPreset.Authorization">Auktorisering</s:String>
+    <s:String x:Key="S.UploadPreset.DirectLinks">Använd direktlänkar</s:String>
+    <s:String x:Key="S.UploadPreset.DirectLinks.Info">Den länk som tillhandahålls pekar direkt till den uppladdade filen</s:String>
+    <s:String x:Key="S.UploadPreset.PreferVideo">Föredra video</s:String>
+    <s:String x:Key="S.UploadPreset.PreferVideo.Info">Den länk som tillhandahålls blir video istället för gif</s:String>
+    <s:String x:Key="S.UploadPreset.UploadToAlbum">Ladda upp till ett album</s:String>
+    <s:String x:Key="S.UploadPreset.UploadToAlbum.Info">Filen kommer att laddas upp till ett valt album</s:String>
+    <s:String x:Key="S.UploadPreset.Album">Album</s:String>
+    <s:String x:Key="S.UploadPreset.Album.AskMe.Title">Fråga mig</s:String>
+    <s:String x:Key="S.UploadPreset.Album.Empty.Title">Inga tillgängliga</s:String>
+    <s:String x:Key="S.UploadPreset.Album.Empty.Message">Inget album eller mapp tillgängligt</s:String>
+    <s:String x:Key="S.UploadPreset.Album.NotSelected.Title">Inget valt</s:String>
+    <s:String x:Key="S.UploadPreset.Album.NotSelected.Message">Inget album eller mapp har valts</s:String>
+    <s:String x:Key="S.UploadPreset.Album.Refresh">Uppdatera album</s:String>
+
+    <s:String x:Key="S.UploadPreset.Status.Authorized">Auktorisering klar.</s:String>
+    <s:String x:Key="S.UploadPreset.Status.NotAuthorized">Inte auktoriserad.</s:String>
+    <s:String x:Key="S.UploadPreset.Status.Expired">Auktorisering upphör om {0}.</s:String>
+    <s:String x:Key="S.UploadPreset.Status.Valid">Auktorisering giltig till {0}.</s:String>
+
+    <!--Windows • Upload Preset Settings > History-->
+    <s:String x:Key="S.UploadPreset.History.Title">Uppladdningshistorik</s:String>
+    <s:String x:Key="S.UploadPreset.History.Title.Info">Lista över filer som laddats upp med denna förinställning</s:String>
+    <s:String x:Key="S.UploadPreset.History.Item">Uppladdningspost</s:String>
+    <s:String x:Key="S.UploadPreset.History.Details">Detaljer</s:String>
+
+    <s:String x:Key="S.UploadPreset.History.Empty.Header">Ingen uppladdningshistorik tillgänglig för denna förinställning</s:String>
+    <s:String x:Key="S.UploadPreset.History.Empty.Message">När en fil har laddats upp kommer du att se den i denna lista</s:String>
+    <s:String x:Key="S.UploadPreset.History.NotSelected.Header">Ingen tidigare uppladdning vald</s:String>
+    <s:String x:Key="S.UploadPreset.History.NotSelected.Message">När du väljer en uppladdning visas dess detaljer nedan</s:String>
+
+    <!--Presets • Listing-->
+    <s:String x:Key="S.Presets.Default.Title">Standard ({0})</s:String>
+    <s:String x:Key="S.Presets.Default.Description">Standardförinställning för kodaren</s:String>
+    <s:String x:Key="S.Presets.Twitter.Title">För X/Twitter ({0})</s:String>
+    <s:String x:Key="S.Presets.Twitter.Description">Respekterar X/Twitter uppladdningsbegränsningar (förutom storlek och upplösning)</s:String>
+    <s:String x:Key="S.Presets.Hevc.Title">HEVC ({0})</s:String>
+    <s:String x:Key="S.Presets.Hevc.Description">High Efficiency Video Coding</s:String>
+    <s:String x:Key="S.Presets.Vp8.Title">VP8 ({0})</s:String>
+    <s:String x:Key="S.Presets.Vp8.Description">Äldre och mer välkänt codec</s:String>
+    <s:String x:Key="S.Presets.Filename.Animation">Animation</s:String>
+    <s:String x:Key="S.Presets.Filename.Video">Video</s:String>
+    <s:String x:Key="S.Presets.Filename.Image">Bild</s:String>
+    <s:String x:Key="S.Presets.Filename.Audio">Ljud</s:String>
+    <s:String x:Key="S.Presets.Filename.Project">Projekt</s:String>
+
+    <s:String x:Key="S.Presets.Gif.Embedded.High.Title">Hög kvalitet</s:String>
+    <s:String x:Key="S.Presets.Gif.Embedded.High.Description">Bättre lämpad för inspelningar med fler färger och övergångar.</s:String>
+    <s:String x:Key="S.Presets.Gif.Embedded.Transparent.Title">Hög kvalitet • Transparent bakgrund</s:String>
+    <s:String x:Key="S.Presets.Gif.Embedded.Transparent.Description">Stöder att spara animationen med transparent bakgrund.</s:String>
+    <s:String x:Key="S.Presets.Gif.Embedded.Graphics.Title">Hög kvalitet • Grafik</s:String>
+    <s:String x:Key="S.Presets.Gif.Embedded.Graphics.Description">Bättre för inspelningar med färre färger.</s:String>
+    <s:String x:Key="S.Presets.Gif.KGySoft.Balanced.Title">KGy SOFT • Balanserad</s:String>
+    <s:String x:Key="S.Presets.Gif.KGySoft.Balanced.Description">Bra kvalitet för fotoliknande bilder med Wu-kvantisatorn utan dithering.</s:String>
+    <s:String x:Key="S.Presets.Gif.KGySoft.High.Title">KGy SOFT • Hög kvalitet</s:String>
+    <s:String x:Key="S.Presets.Gif.KGySoft.High.Description">Hög kvalitet för fotoliknande bilder med Wu-kvantisatorn, högre bitnivå och Floyd-Steinberg fel-diffusionsdithering.</s:String>
+    <s:String x:Key="S.Presets.Gif.KGySoft.Fast.Title">KGy SOFT • Låg kvalitet, snabbare</s:String>
+    <s:String x:Key="S.Presets.Gif.KGySoft.Fast.Description">Kvantiserar alla ramar med samma fördefinierade 'web-safe'-palett och Bayer 8x8 ordnad dithering.</s:String>
+    <s:String x:Key="S.Presets.Gif.Ffmpeg.High.Title">FFmpeg • Högre kvalitet</s:String>
+    <s:String x:Key="S.Presets.Gif.Ffmpeg.High.Description">Högre bildkvalitet, men med större filstorlek.</s:String>
+    <s:String x:Key="S.Presets.Gif.Ffmpeg.Low.Title">FFmpeg • Lägre kvalitet</s:String>
+    <s:String x:Key="S.Presets.Gif.Ffmpeg.Low.Description">Lägre bildkvalitet, men med mindre filstorlek.</s:String>
+    <s:String x:Key="S.Presets.Gif.Gifski.High.Title">Gifski • Högre kvalitet</s:String>
+    <s:String x:Key="S.Presets.Gif.Gifski.High.Description">Högre bildkvalitet, men med större filstorlek.</s:String>
+    <s:String x:Key="S.Presets.Gif.Gifski.Low.Title">Gifski • Lägre kvalitet</s:String>
+    <s:String x:Key="S.Presets.Gif.Gifski.Low.Description">Lägre bildkvalitet, men med mindre filstorlek.</s:String>
+    <s:String x:Key="S.Presets.Gif.Gifski.Fast.Title">Gifski • Lägre kvalitet och snabbare kodning</s:String>
+    <s:String x:Key="S.Presets.Gif.Gifski.Fast.Description">Ännu lägre bildkvalitet, med snabbare kodning, men med mindre filstorlek.</s:String>
+
+    <s:String x:Key="S.Presets.Apng.Ffmpeg.High.Title">FFmpeg • Hög kvalitet</s:String>
+    <s:String x:Key="S.Presets.Apng.Ffmpeg.High.Description">Hög bildkvalitet och liten filstorlek, men långsammare kodning.</s:String>
+    <s:String x:Key="S.Presets.Apng.Ffmpeg.Low.Title">FFmpeg • Lägre kvalitet</s:String>
+    <s:String x:Key="S.Presets.Apng.Ffmpeg.Low.Description">Lägre bildkvalitet, liten filstorlek och snabbare kodning.</s:String>
+    <s:String x:Key="S.Presets.Webp.Ffmpeg.High.Title">Hög kvalitet</s:String>
+    <s:String x:Key="S.Presets.Webp.Ffmpeg.High.Description">Hög bildkvalitet och liten filstorlek.</s:String>
+
+    <s:String x:Key="S.Presets.Audio.Low.Title">Låg</s:String>
+    <s:String x:Key="S.Presets.Audio.Low.Description">För avslappnad röstinspelning; 128 kbps • 44.1 kHz</s:String>
+    <s:String x:Key="S.Presets.Audio.Medium.Title">Medium</s:String>
+    <s:String x:Key="S.Presets.Audio.Medium.Description">Balanserad trohet för vardagligt ljud; 192 kbps • 44.1 kHz</s:String>
+    <s:String x:Key="S.Presets.Audio.High.Title">Hög</s:String>
+    <s:String x:Key="S.Presets.Audio.High.Description">Rik ljudkvalitet för musik och videouppspelning; 320 kbps • 48 kHz</s:String>
+    <s:String x:Key="S.Presets.Audio.Studio.Title">Studio</s:String>
+    <s:String x:Key="S.Presets.Audio.Studio.Description">Maximal detalj för professionell mastering; 320 kbps • 96 kHz</s:String>
+
+    <!--Font Styles-->
+    <s:String x:Key="S.FontStyles">Teckensnittsstil</s:String>
+    <s:String x:Key="S.FontStyles.Normal">Normal</s:String>
+    <s:String x:Key="S.FontStyles.Oblique">Oblique</s:String>
+    <s:String x:Key="S.FontStyles.Italic">Kursiv</s:String>
+
+    <!--Font Weight-->
+    <s:String x:Key="S.FontWeights">Teckensnitts vikt</s:String>
+    <s:String x:Key="S.FontWeights.Thin">Tunn</s:String>
+    <s:String x:Key="S.FontWeights.ExtraLight">Extra tunn</s:String>
+    <s:String x:Key="S.FontWeights.Light">Lätt</s:String>
+    <s:String x:Key="S.FontWeights.Normal">Normal</s:String>
+    <s:String x:Key="S.FontWeights.Medium">Medium</s:String>
+    <s:String x:Key="S.FontWeights.SemiBold">Semi fet</s:String>
+    <s:String x:Key="S.FontWeights.Bold">Fet</s:String>
+    <s:String x:Key="S.FontWeights.ExtraBold">Extra fet</s:String>
+    <s:String x:Key="S.FontWeights.Heavy">Tung</s:String>
+    <s:String x:Key="S.FontWeights.ExtraHeavy">Extra tung</s:String>
+
+    <!--Font Stretch-->
+    <s:String x:Key="S.FontStretch">Teckensnittsutsträckning</s:String>
+    <s:String x:Key="S.FontStretch.UltraCondensed">Ultra kondencerad</s:String>
+    <s:String x:Key="S.FontStretch.ExtraCondensed">Extra kondencerad</s:String>
+    <s:String x:Key="S.FontStretch.Condensed">Kondencerad</s:String>
+    <s:String x:Key="S.FontStretch.SemiCondensed">Semi kondencerad</s:String>
+    <s:String x:Key="S.FontStretch.Medium">Medium</s:String>
+    <s:String x:Key="S.FontStretch.Normal">Normal</s:String>
+    <s:String x:Key="S.FontStretch.SemiExpanded">Semi expanderad</s:String>
+    <s:String x:Key="S.FontStretch.Expanded">Expanderad</s:String>
+    <s:String x:Key="S.FontStretch.ExtraExpanded">Extra expanderad</s:String>
+    <s:String x:Key="S.FontStretch.UltraExpanded">Ultra expanderad</s:String>
+
+    <!--Alignment-->
+    <s:String x:Key="S.Alignment.Horizontal">Horisontell justering</s:String>
+    <s:String x:Key="S.Alignment.Vertical">Vertikal justering</s:String>
+    <s:String x:Key="S.Alignment.Top">Topp</s:String>
+    <s:String x:Key="S.Alignment.Left">Vänster</s:String>
+    <s:String x:Key="S.Alignment.Center">Mitten</s:String>
+    <s:String x:Key="S.Alignment.Bottom">Botten</s:String>
+    <s:String x:Key="S.Alignment.Right">Höger</s:String>
+    <s:String x:Key="S.Alignment.Stretch">Sträck</s:String>
+    <s:String x:Key="S.Alignment.Free">Fritt (obundet)</s:String>
+
+    <!--Orientation-->
+    <s:String x:Key="S.Orientation">Orientering</s:String>
+    <s:String x:Key="S.Orientation.Horizontal">Horisontell</s:String>
+    <s:String x:Key="S.Orientation.Vertical">Vertikal</s:String>
+
+    <!--Text Alignment-->
+    <s:String x:Key="S.TextAlignment">Textjustering</s:String>
+    <s:String x:Key="S.TextAlignment.Left">Vänster</s:String>
+    <s:String x:Key="S.TextAlignment.Right">Höger</s:String>
+    <s:String x:Key="S.TextAlignment.Center">Mitten</s:String>
+    <s:String x:Key="S.TextAlignment.Justify">Justera</s:String>
+</ResourceDictionary>

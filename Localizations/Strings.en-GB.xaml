@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">Nicke Manarin</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-06</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-14</s:DateTime>
 
     <!--Imperative-->
     <!--<s:String x:Key="S.Imperative.Accept">Accept</s:String>-->
@@ -301,6 +301,8 @@
     <!--Dialogs • Unsaved changes-->
     <!--<s:String x:Key="S.Dialog.UnsavedChanges.Title">Would you like to save your changes before closing?</s:String>-->
     <!--<s:String x:Key="S.Dialog.UnsavedChanges.Details">You have unsaved changes on this project.&#10;Would you like to save it before closing it?</s:String>-->
+    <!--<s:String x:Key="S.Dialog.UnsavedChanges.KeepInCache">Keep in temporary cache for later</s:String>-->
+    <!--<s:String x:Key="S.Dialog.UnsavedChanges.KeepInCache.Info">Besides saving the project to a file, keep in a cache for easy access later</s:String>-->
 
     <!--Dialogs • Exiting app-->
     <!--<s:String x:Key="S.Dialog.Exiting.Header">Are you sure that you want to exit?</s:String>-->
@@ -462,9 +464,17 @@
     <!--<s:String x:Key="S.Validation.NoCommand.Header">No command to be executed</s:String>-->
     <!--<s:String x:Key="S.Validation.NoCommand.Message">To execute a post encoding command, you need to type something on the commands text field</s:String>-->
 
+    <!--Validation • Shortcut in use-->
+    <!--<s:String x:Key="S.Validation.ShortcutInUse.Header">Already used</s:String>-->
+    <!--<s:String x:Key="S.Validation.ShortcutInUse.Message">That shortcut is already in use by another command</s:String>-->
+
     <!--Success • Export feedback-->
     <!--<s:String x:Key="S.Success.ExportFeedback.Header">Success</s:String>-->
     <!--<s:String x:Key="S.Success.ExportFeedback.Message">Feedback exported as zip successfully</s:String>-->
+
+    <!--Success • Storage clean up--> 
+    <!--<s:String x:Key="S.Success.StorageCleanup.Header">Success</s:String>-->
+    <!--<s:String x:Key="S.Success.StorageCleanup.Message">Cache clean up successful</s:String>-->
 
     <!--Info • Pro feature-->
     <!--<s:String x:Key="S.Info.ProFeature.Header">Only for Pro</s:String>-->
@@ -522,6 +532,10 @@
     <!--Warnings • Unsupported files dropped--> 
     <!--<s:String x:Key="S.Warning.Drop.Header">Unsupported or invalid</s:String>-->
     <!--<s:String x:Key="S.Warning.Drop.Message">It was not possible to insert or open the file(s)</s:String>-->
+
+    <!--Warnings • Low on space--> 
+    <!--<s:String x:Key="S.Warning.LowSpace.Header">Low on space</s:String>-->
+    <!--<s:String x:Key="S.Warning.LowSpace.Message">Clear space on your cache drive to be able to record</s:String>-->
 
     <!--Warnings • Graphics engine-->
     <!--<s:String x:Key="S.Warning.Graphics.Title">Switch Graphics Adapter</s:String>-->
@@ -712,7 +726,7 @@
     <!--<s:String x:Key="S.Errors.Redo.Header">Error redoing action</s:String>-->
     <!--<s:String x:Key="S.Errors.Redo.Message">Failed to redo the previous action</s:String>-->
 
-    <!--Error • Redo--> 
+    <!--Error • Undo--> 
     <!--<s:String x:Key="S.Errors.Undo.Header">Error undoing action</s:String>-->
     <!--<s:String x:Key="S.Errors.Undo.Message">Failed to undo the previous action</s:String>-->
 
@@ -727,6 +741,10 @@
     <!--Error • Open windows settings--> 
     <!--<s:String x:Key="S.Errors.WindowsSettings.Header">Windows Settings</s:String>-->
     <!--<s:String x:Key="S.Errors.WindowsSettings.Message">Unable to open the settings page</s:String>-->
+
+    <!--Error • Storage clean up--> 
+    <!--<s:String x:Key="S.Errors.StorageCleanup.Header">Error in clean up</s:String>-->
+    <!--<s:String x:Key="S.Errors.StorageCleanup.Message">It was not possible to clean the cache</s:String>-->
 
     <!--Error • Others--> 
     <!--<s:String x:Key="S.Errors.Activation.Title">Activation failed</s:String>-->
@@ -744,6 +762,7 @@
     <!--<s:String x:Key="S.Welcome.RegionShare">Region Share</s:String>-->
     <!--<s:String x:Key="S.Welcome.Editor">Editor</s:String>-->
     <!--<s:String x:Key="S.Welcome.Feedback">Feedback</s:String>-->
+    <!--<s:String x:Key="S.Welcome.Upgrade">Upgrade to Pro</s:String>-->
     <!--<s:String x:Key="S.Welcome.Troubleshoot">Troubleshoot</s:String>-->
     <!--<s:String x:Key="S.Welcome.Settings">Settings</s:String>-->
     <!--<s:String x:Key="S.Welcome.RecentProjects">Recent projects</s:String>-->
@@ -782,6 +801,13 @@
     <!--<s:String x:Key="S.ScreenRecorder.Screen.Info2">Resolution: {0} x {1}</s:String>-->
     <!--<s:String x:Key="S.ScreenRecorder.Screen.Info3">Native resolution: {0} x {1}</s:String>-->
     <!--<s:String x:Key="S.ScreenRecorder.Screen.Info4">DPI: {0} ({1:0.##}%)</s:String>-->
+
+    <!--<s:String x:Key="S.ScreenRecorder.DiskSpace.Info">Percentage of disk used and available space</s:String>-->
+    <!--<s:String x:Key="S.ScreenRecorder.AudioSource.Input">Microphone and other audio input&#10;sources being captured</s:String>-->
+    <!--<s:String x:Key="S.ScreenRecorder.AudioSource.Output">Speakers and other audio output&#10;sources being captured</s:String>-->
+    <!--<s:String x:Key="S.ScreenRecorder.Cache.Clearing">Clearing cache...</s:String>-->
+    <!--<s:String x:Key="S.ScreenRecorder.Cache.Recovered">Recovered {0}</s:String>-->
+    <!--<s:String x:Key="S.ScreenRecorder.Cache.NothingRecovered">No space recovered</s:String>-->
 
     <!--<s:String x:Key="S.ScreenRecorder.Splash.Title">Press {0} to stop the recording</s:String>-->
     <s:String x:Key="S.ScreenRecorder.Splash.Subtitle">The recorder window will be minimised,&#10;restore it or press {0} to pause the capture</s:String>
@@ -1101,7 +1127,11 @@
 
     <!--Audio-->
     <!--<s:String x:Key="S.Audio.Toggle.Microphone.Info">Toggle audio capture from microphones</s:String>-->
+    <!--<s:String x:Key="S.Audio.Toggle.Microphone.Enabled">Microphone capture enabled</s:String>-->
+    <!--<s:String x:Key="S.Audio.Toggle.Microphone.Disabled">Microphone capture disabled</s:String>-->
     <!--<s:String x:Key="S.Audio.Toggle.Speaker.Info">Toggle audio capture from speakers</s:String>-->
+    <!--<s:String x:Key="S.Audio.Toggle.Speaker.Enabled">Speaker capture enabled</s:String>-->
+    <!--<s:String x:Key="S.Audio.Toggle.Speaker.Disabled">Speaker capture disabled</s:String>-->
 
     <!--Remember choices-->
     <!--<s:String x:Key="S.RememberChoice">Remember my choice</s:String>-->
@@ -1157,6 +1187,8 @@
     <!--<s:String x:Key="S.State.Loading">Loading...</s:String>-->
     <!--<s:String x:Key="S.State.Processing">Processing...</s:String>-->
     <!--<s:String x:Key="S.State.Saving">Saving...</s:String>-->
+    <!--<s:String x:Key="S.State.Discarding">Discarding...</s:String>-->
+    <!--<s:String x:Key="S.State.Discarded">Discarded</s:String>-->
     <!--<s:String x:Key="S.State.Done">Done</s:String>-->
     <!--<s:String x:Key="S.State.Copied">Copied</s:String>-->
     <!--<s:String x:Key="S.State.Cut">Cut</s:String>-->
@@ -1812,6 +1844,7 @@
     <!--<s:String x:Key="S.Settings.Editor.MediaInsert.MediaDuration">Static media duration</s:String>-->
     <!--<s:String x:Key="S.Settings.Editor.MediaInsert.Gap">Gap between files</s:String>-->
     <!--<s:String x:Key="S.Settings.Editor.Timeline">Timeline</s:String>-->
+    <!--<s:String x:Key="S.Settings.Editor.Timeline.TrackHeight">Track height</s:String>-->
     <!--<s:String x:Key="S.Settings.Editor.Timeline.GenerateThumbnails">Generate thumbnails</s:String>-->
     <!--<s:String x:Key="S.Settings.Editor.Timeline.ThumbnailPanelMargin">Thumbnail panel margin</s:String>-->
     <!--<s:String x:Key="S.Settings.Editor.Timeline.ThumbnailMargin">Thumbnail margin</s:String>-->
@@ -1846,7 +1879,6 @@
     <!--<s:String x:Key="S.Settings.Storage.Cleanup.Clear.Global.Header">Would you like to remove the global settings?</s:String>-->
     <!--<s:String x:Key="S.Settings.Storage.Cleanup.Clear.Local.Header">Would you like to remove the local settings?</s:String>-->
     <!--<s:String x:Key="S.Settings.Storage.Cleanup.Clear.Description">You'll need to restart the application to see changes.</s:String>-->
-    <!--<s:String x:Key="S.Settings.Storage.Cleanup.Error">Impossible to clean the cache</s:String>-->
 
     <!--Settings • Plugins-->
     <!--<s:String x:Key="S.Settings.Plugin.Path">Path</s:String>-->
@@ -1960,11 +1992,13 @@
     <!--<s:String x:Key="S.Preset.Clipboard.Behavior.Link">Link</s:String>-->
     <!--<s:String x:Key="S.Preset.Clipboard.Behavior.Link.Info">Copies the link generated by the upload service into the clipboard.</s:String>-->
 
+    <!--Windows • Preset Settings > Commands-->
     <!--<s:String x:Key="S.Preset.Commands.Title">Custom Commands</s:String>-->
     <!--<s:String x:Key="S.Preset.Commands.Title.Info">Commands to be executed after the export</s:String>-->
     <!--<s:String x:Key="S.Preset.Commands.Commands">Commands</s:String>-->
     <!--<s:String x:Key="S.Preset.Commands.Commands.Info">Type commands to be executed after the encoding.&#10;To execute multiple commands, type each one on a separated line.&#10;Macros:&#10;{p} = Output file path.&#10;{f} = Output folder path.&#10;{u} = URL of the uploaded file.</s:String>-->
 
+    <!--Windows • Preset Settings > Playback-->
     <!--<s:String x:Key="S.Preset.Playback.Title">Playback</s:String>-->
     <!--<s:String x:Key="S.Preset.Playback.Title.Info">Playback and framerate options for the animation</s:String>-->
 
@@ -1975,6 +2009,7 @@
     <!--<s:String x:Key="S.Preset.Playback.AnimatedImage.Looped.Count">Repeat count</s:String>-->
     <!--<s:String x:Key="S.Preset.Playback.AnimatedImage.Looped.Count.Info">The number of times the animation should repeat</s:String>-->
 
+    <!--Windows • Preset Settings > Encoder-->
     <!--<s:String x:Key="S.Preset.Encoder.Title">Encoder options</s:String>-->
     <!--<s:String x:Key="S.Preset.Encoder.Title.Info">Options specific to the selected encoder and file format</s:String>-->
     <!--<s:String x:Key="S.Preset.Encoder.Version">Version</s:String>-->
@@ -2148,7 +2183,7 @@
     <!--<s:String x:Key="S.Preset.Encoder.Gif.AllowClippedIgnored">Allow clipped frames has no effect because the current configuration does not use alpha and Allow delta frames is unchecked</s:String>-->
     <!--<s:String x:Key="S.Preset.Encoder.Gif.AllowClippedIgnored.Enable">Enable delta frames</s:String>-->
 
-    <!--Preset • Webp-->
+    <!--Preset • Webm-->
     <!--<s:String x:Key="S.Preset.Encoder.Webm.Preset.None">None</s:String>-->
     <!--<s:String x:Key="S.Preset.Encoder.Webm.Preset.Default">Default</s:String>-->
     <!--<s:String x:Key="S.Preset.Encoder.Webm.Preset.Picture">Picture</s:String>-->
@@ -2279,11 +2314,11 @@
     <!--<s:String x:Key="S.Presets.Filename.Project">Project</s:String>-->
 
     <!--<s:String x:Key="S.Presets.Gif.Embedded.High.Title">High quality</s:String>-->
-    <s:String x:Key="S.Presets.Gif.Embedded.High.Description">Better suited for recordings with more colours and gradients.</s:String>
+    <!--<s:String x:Key="S.Presets.Gif.Embedded.High.Description">Better suited for recordings with more colours and gradients.</s:String>-->
     <!--<s:String x:Key="S.Presets.Gif.Embedded.Transparent.Title">High quality • Transparent background</s:String>-->
     <!--<s:String x:Key="S.Presets.Gif.Embedded.Transparent.Description">Supports saving the animation with a transparent background.</s:String>-->
     <!--<s:String x:Key="S.Presets.Gif.Embedded.Graphics.Title">High quality • Graphics</s:String>-->
-    <s:String x:Key="S.Presets.Gif.Embedded.Graphics.Description">Better for recordings with a lower quantity of colours.</s:String>
+    <!--<s:String x:Key="S.Presets.Gif.Embedded.Graphics.Description">Better for recordings with a lower quantity of colours.</s:String>-->
     <!--<s:String x:Key="S.Presets.Gif.KGySoft.Balanced.Title">KGy SOFT • Balanced</s:String>-->
     <!--<s:String x:Key="S.Presets.Gif.KGySoft.Balanced.Description">Good quality for photo-like images using Wu's quantizer without dithering.</s:String>-->
     <!--<s:String x:Key="S.Presets.Gif.KGySoft.High.Title">KGy SOFT • High quality</s:String>-->

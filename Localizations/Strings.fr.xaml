@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Traduit par machine (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-06</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-14</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Accepter</s:String>
@@ -301,6 +301,8 @@
     <!--Dialogs • Unsaved changes-->
     <s:String x:Key="S.Dialog.UnsavedChanges.Title">Voulez-vous enregistrer vos modifications avant de fermer ?</s:String>
     <s:String x:Key="S.Dialog.UnsavedChanges.Details">Vous avez des modifications non enregistrées sur ce projet.&#10;Voulez-vous les enregistrer avant de le fermer ?</s:String>
+    <s:String x:Key="S.Dialog.UnsavedChanges.KeepInCache">Conserver dans le cache temporaire pour plus tard</s:String>
+    <s:String x:Key="S.Dialog.UnsavedChanges.KeepInCache.Info">En plus d'enregistrer le projet dans un fichier, conservez-le dans le cache pour un accès facile ultérieurement</s:String>
 
     <!--Dialogs • Exiting app-->
     <s:String x:Key="S.Dialog.Exiting.Header">Êtes-vous sûr de vouloir quitter ?</s:String>
@@ -462,9 +464,17 @@
     <s:String x:Key="S.Validation.NoCommand.Header">Aucune commande à exécuter</s:String>
     <s:String x:Key="S.Validation.NoCommand.Message">Pour exécuter une commande après l'encodage, vous devez saisir quelque chose dans le champ des commandes</s:String>
 
+    <!--Validation • Shortcut in use-->
+    <s:String x:Key="S.Validation.ShortcutInUse.Header">Déjà utilisé</s:String>
+    <s:String x:Key="S.Validation.ShortcutInUse.Message">Ce raccourci est déjà utilisé par une autre commande</s:String>
+
     <!--Success • Export feedback-->
     <s:String x:Key="S.Success.ExportFeedback.Header">Succès</s:String>
     <s:String x:Key="S.Success.ExportFeedback.Message">Les retours ont été exportés avec succès au format zip</s:String>
+
+    <!--Success • Storage clean up--> 
+    <s:String x:Key="S.Success.StorageCleanup.Header">Succès</s:String>
+    <s:String x:Key="S.Success.StorageCleanup.Message">Nettoyage du cache réussi</s:String>
 
     <!--Info • Pro feature-->
     <s:String x:Key="S.Info.ProFeature.Header">Réservé aux utilisateurs Pro</s:String>
@@ -522,6 +532,10 @@
     <!--Warnings • Unsupported files dropped-->
     <s:String x:Key="S.Warning.Drop.Header">Non pris en charge ou invalide</s:String>
     <s:String x:Key="S.Warning.Drop.Message">Il n'a pas été possible d'insérer ou d'ouvrir le(s) fichier(s)</s:String>
+
+    <!--Warnings • Low on space--> 
+    <s:String x:Key="S.Warning.LowSpace.Header">Peu d'espace disponible</s:String>
+    <s:String x:Key="S.Warning.LowSpace.Message">Libérez de l'espace sur votre lecteur cache pour pouvoir enregistrer</s:String>
 
     <!--Warnings • Graphics engine-->
     <s:String x:Key="S.Warning.Graphics.Title">Changer d'adaptateur graphique</s:String>
@@ -712,7 +726,7 @@
     <s:String x:Key="S.Errors.Redo.Header">Erreur de réexécution de l'action</s:String>
     <s:String x:Key="S.Errors.Redo.Message">Échec de la réexécution de l'action précédente</s:String>
 
-    <!--Error • Redo--> 
+    <!--Error • Undo--> 
     <s:String x:Key="S.Errors.Undo.Header">Erreur d'annulation de l'action</s:String>
     <s:String x:Key="S.Errors.Undo.Message">Échec de l'annulation de l'action précédente</s:String>
 
@@ -727,6 +741,10 @@
     <!--Error • Open windows settings--> 
     <s:String x:Key="S.Errors.WindowsSettings.Header">Paramètres Windows</s:String>
     <s:String x:Key="S.Errors.WindowsSettings.Message">Impossible d'ouvrir la page des paramètres</s:String>
+
+    <!--Error • Storage clean up--> 
+    <s:String x:Key="S.Errors.StorageCleanup.Header">Erreur lors du nettoyage</s:String>
+    <s:String x:Key="S.Errors.StorageCleanup.Message">Impossible de nettoyer le cache</s:String>
 
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Échec de l'activation</s:String>
@@ -744,6 +762,7 @@
     <s:String x:Key="S.Welcome.RegionShare">Partage de région</s:String>
     <s:String x:Key="S.Welcome.Editor">Éditeur</s:String>
     <s:String x:Key="S.Welcome.Feedback">Retour</s:String>
+    <s:String x:Key="S.Welcome.Upgrade">Passer à Pro</s:String>
     <s:String x:Key="S.Welcome.Troubleshoot">Dépannage</s:String>
     <s:String x:Key="S.Welcome.Settings">Paramètres</s:String>
     <s:String x:Key="S.Welcome.RecentProjects">Projets récents</s:String>
@@ -783,6 +802,13 @@
     <s:String x:Key="S.ScreenRecorder.Screen.Info3">Résolution native : {0} x {1}</s:String>
     <s:String x:Key="S.ScreenRecorder.Screen.Info4">DPI : {0} ({1:0.##}%)</s:String>
 
+    <s:String x:Key="S.ScreenRecorder.DiskSpace.Info">Pourcentage de disque utilisé et espace disponible</s:String>
+    <s:String x:Key="S.ScreenRecorder.AudioSource.Input">Microphone et autres sources d'entrée audio&#10;en cours de capture</s:String>
+    <s:String x:Key="S.ScreenRecorder.AudioSource.Output">Haut-parleurs et autres sources de sortie audio&#10;en cours de capture</s:String>
+    <s:String x:Key="S.ScreenRecorder.Cache.Clearing">Suppression du cache...</s:String>
+    <s:String x:Key="S.ScreenRecorder.Cache.Recovered">Récupéré {0}</s:String>
+    <s:String x:Key="S.ScreenRecorder.Cache.NothingRecovered">Aucun espace récupéré</s:String>
+
     <s:String x:Key="S.ScreenRecorder.Splash.Title">Appuyez sur {0} pour arrêter l'enregistrement</s:String>
     <s:String x:Key="S.ScreenRecorder.Splash.Subtitle">La fenêtre de l'enregistreur sera minimisée,&#10;restaurez-la ou appuyez sur {0} pour mettre la capture en pause</s:String>
 
@@ -798,7 +824,6 @@
     <s:String x:Key="S.RegionShare.Title">N-Studio • Partage de région</s:String>
     <s:String x:Key="S.RegionShare.Pick">Choisissez une région&#10;à partager</s:String>
     <s:String x:Key="S.RegionShare.HideCursor">Masquer le curseur de la souris</s:String>
-
     <s:String x:Key="S.RegionShare.HideCursorEffects">Masquer les effets du curseur de la souris</s:String>
     <s:String x:Key="S.RegionShare.DisableCursorFollowing">Désactiver le suivi du curseur</s:String>
     <s:String x:Key="S.RegionShare.HideKeyPresses">Masquer les frappes clavier</s:String>
@@ -1102,7 +1127,11 @@
 
     <!--Audio-->
     <s:String x:Key="S.Audio.Toggle.Microphone.Info">Basculer la capture audio des microphones</s:String>
+    <s:String x:Key="S.Audio.Toggle.Microphone.Enabled">Capture du microphone activée</s:String>
+    <s:String x:Key="S.Audio.Toggle.Microphone.Disabled">Capture du microphone désactivée</s:String>
     <s:String x:Key="S.Audio.Toggle.Speaker.Info">Basculer la capture audio des haut-parleurs</s:String>
+    <s:String x:Key="S.Audio.Toggle.Speaker.Enabled">Capture des haut-parleurs activée</s:String>
+    <s:String x:Key="S.Audio.Toggle.Speaker.Disabled">Capture des haut-parleurs désactivée</s:String>
 
     <!--Remember choices-->
     <s:String x:Key="S.RememberChoice">Mémoriser mon choix</s:String>
@@ -1158,6 +1187,8 @@
     <s:String x:Key="S.State.Loading">Chargement...</s:String>
     <s:String x:Key="S.State.Processing">Traitement...</s:String>
     <s:String x:Key="S.State.Saving">Enregistrement...</s:String>
+    <s:String x:Key="S.State.Discarding">Abandon en cours...</s:String>
+    <s:String x:Key="S.State.Discarded">Abandonné</s:String>
     <s:String x:Key="S.State.Done">Terminé</s:String>
     <s:String x:Key="S.State.Copied">Copié</s:String>
     <s:String x:Key="S.State.Cut">Coupé</s:String>
@@ -1261,7 +1292,6 @@
 
     <s:String x:Key="S.Formats.Apng">Apng</s:String>
     <s:String x:Key="S.Formats.Apng.Info">Animated Portable Network Graphics</s:String>
-
     <s:String x:Key="S.Formats.Gif">Gif</s:String>
     <s:String x:Key="S.Formats.Gif.Info">Graphics Interchange Format</s:String>
     <s:String x:Key="S.Formats.Webp">Webp</s:String>
@@ -1814,6 +1844,7 @@
     <s:String x:Key="S.Settings.Editor.MediaInsert.MediaDuration">Durée du média statique</s:String>
     <s:String x:Key="S.Settings.Editor.MediaInsert.Gap">Espace entre les fichiers</s:String>
     <s:String x:Key="S.Settings.Editor.Timeline">Timeline</s:String>
+    <s:String x:Key="S.Settings.Editor.Timeline.TrackHeight">Hauteur de la piste</s:String>
     <s:String x:Key="S.Settings.Editor.Timeline.GenerateThumbnails">Générer des vignettes</s:String>
     <s:String x:Key="S.Settings.Editor.Timeline.ThumbnailPanelMargin">Marge du panneau de vignettes</s:String>
     <s:String x:Key="S.Settings.Editor.Timeline.ThumbnailMargin">Marge des vignettes</s:String>
@@ -1822,7 +1853,7 @@
     <s:String x:Key="S.Settings.Exporter.UncommonFormat">Afficher les formats rares</s:String>
     <s:String x:Key="S.Settings.Exporter.UncommonFormat.Info">Les formats anciens ou rares tels que AVI, AC3, etc. seront disponibles</s:String>
 
-    <!--Settings • Stockage-->
+    <!--Settings • Storage-->
     <s:String x:Key="S.Settings.Storage.Cache">Cache</s:String>
     <s:String x:Key="S.Settings.Storage.Cache.Path">Chemin du cache</s:String>
     <s:String x:Key="S.Settings.Storage.Cache.Logs">Chemin des journaux</s:String>
@@ -1848,7 +1879,6 @@
     <s:String x:Key="S.Settings.Storage.Cleanup.Clear.Global.Header">Voulez-vous supprimer les paramètres globaux ?</s:String>
     <s:String x:Key="S.Settings.Storage.Cleanup.Clear.Local.Header">Voulez-vous supprimer les paramètres locaux ?</s:String>
     <s:String x:Key="S.Settings.Storage.Cleanup.Clear.Description">Vous devrez redémarrer l'application pour voir les changements.</s:String>
-    <s:String x:Key="S.Settings.Storage.Cleanup.Error">Impossible de nettoyer le cache</s:String>
 
     <!--Settings • Plugins-->
     <s:String x:Key="S.Settings.Plugin.Path">Chemin</s:String>

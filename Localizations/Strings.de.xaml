@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Maschinell übersetzt (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-06</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-14</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Akzeptieren</s:String>
@@ -301,6 +301,8 @@
     <!--Dialogs • Unsaved changes-->
     <s:String x:Key="S.Dialog.UnsavedChanges.Title">Möchtest du deine Änderungen vor dem Schließen speichern?</s:String>
     <s:String x:Key="S.Dialog.UnsavedChanges.Details">Du hast ungespeicherte Änderungen in diesem Projekt.&#10;Möchtest du es speichern, bevor du es schließt?</s:String>
+    <s:String x:Key="S.Dialog.UnsavedChanges.KeepInCache">Im Cache behalten zur späteren Verwendung</s:String>
+    <s:String x:Key="S.Dialog.UnsavedChanges.KeepInCache.Info">Neben dem Speichern des Projekts in einer Datei kannst du es auch im Cache behalten für einfachen Zugriff später</s:String>
 
     <!--Dialogs • Exiting app-->
     <s:String x:Key="S.Dialog.Exiting.Header">Bist du sicher, dass du beenden möchtest?</s:String>
@@ -462,9 +464,17 @@
     <s:String x:Key="S.Validation.NoCommand.Header">Kein Befehl zum Ausführen</s:String>
     <s:String x:Key="S.Validation.NoCommand.Message">Um einen Post-Encoding-Befehl auszuführen, musst du etwas in das Befehlsfeld eingeben</s:String>
 
+    <!--Validation • Shortcut in use-->
+    <s:String x:Key="S.Validation.ShortcutInUse.Header">Bereits verwendet</s:String>
+    <s:String x:Key="S.Validation.ShortcutInUse.Message">Diese Tastenkombination wird bereits von einem anderen Befehl verwendet</s:String>
+
     <!--Success • Export feedback-->
     <s:String x:Key="S.Success.ExportFeedback.Header">Erfolg</s:String>
     <s:String x:Key="S.Success.ExportFeedback.Message">Feedback erfolgreich als ZIP exportiert</s:String>
+
+    <!--Success • Storage clean up--> 
+    <s:String x:Key="S.Success.StorageCleanup.Header">Erfolg</s:String>
+    <s:String x:Key="S.Success.StorageCleanup.Message">Cache-Bereinigung erfolgreich</s:String>
 
     <!--Info • Pro feature-->
     <s:String x:Key="S.Info.ProFeature.Header">Nur für Pro</s:String>
@@ -522,6 +532,10 @@
     <!--Warnings • Unsupported files dropped--> 
     <s:String x:Key="S.Warning.Drop.Header">Nicht unterstützte oder ungültige Datei</s:String>
     <s:String x:Key="S.Warning.Drop.Message">Es war nicht möglich, die Datei(en) einzufügen oder zu öffnen</s:String>
+
+    <!--Warnings • Low on space--> 
+    <s:String x:Key="S.Warning.LowSpace.Header">Wenig Speicherplatz</s:String>
+    <s:String x:Key="S.Warning.LowSpace.Message">Schaffe Platz auf deinem Cache-Laufwerk, um aufnehmen zu können</s:String>
 
     <!--Warnings • Graphics engine-->
     <s:String x:Key="S.Warning.Graphics.Title">Grafikadapter wechseln</s:String>
@@ -712,7 +726,7 @@
     <s:String x:Key="S.Errors.Redo.Header">Fehler beim Wiederholen der Aktion</s:String>
     <s:String x:Key="S.Errors.Redo.Message">Die vorherige Aktion konnte nicht wiederholt werden</s:String>
 
-    <!--Error • Redo--> 
+    <!--Error • Undo--> 
     <s:String x:Key="S.Errors.Undo.Header">Fehler beim Rückgängig machen</s:String>
     <s:String x:Key="S.Errors.Undo.Message">Die vorherige Aktion konnte nicht rückgängig gemacht werden</s:String>
 
@@ -727,6 +741,10 @@
     <!--Error • Open windows settings--> 
     <s:String x:Key="S.Errors.WindowsSettings.Header">Windows-Einstellungen</s:String>
     <s:String x:Key="S.Errors.WindowsSettings.Message">Die Einstellungsseite konnte nicht geöffnet werden</s:String>
+
+    <!--Error • Storage clean up--> 
+    <s:String x:Key="S.Errors.StorageCleanup.Header">Fehler bei der Bereinigung</s:String>
+    <s:String x:Key="S.Errors.StorageCleanup.Message">Es war nicht möglich, den Cache zu löschen</s:String>
 
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Aktivierung fehlgeschlagen</s:String>
@@ -744,6 +762,7 @@
     <s:String x:Key="S.Welcome.RegionShare">Region teilen</s:String>
     <s:String x:Key="S.Welcome.Editor">Editor</s:String>
     <s:String x:Key="S.Welcome.Feedback">Feedback</s:String>
+    <s:String x:Key="S.Welcome.Upgrade">Upgrade auf Pro</s:String>
     <s:String x:Key="S.Welcome.Troubleshoot">Fehlerbehebung</s:String>
     <s:String x:Key="S.Welcome.Settings">Einstellungen</s:String>
     <s:String x:Key="S.Welcome.RecentProjects">Letzte Projekte</s:String>
@@ -782,6 +801,13 @@
     <s:String x:Key="S.ScreenRecorder.Screen.Info2">Auflösung: {0} x {1}</s:String>
     <s:String x:Key="S.ScreenRecorder.Screen.Info3">Native Auflösung: {0} x {1}</s:String>
     <s:String x:Key="S.ScreenRecorder.Screen.Info4">DPI: {0} ({1:0.##}%)</s:String>
+
+    <s:String x:Key="S.ScreenRecorder.DiskSpace.Info">Prozentsatz des verwendeten und verfügbaren Speicherplatzes</s:String>
+    <s:String x:Key="S.ScreenRecorder.AudioSource.Input">Mikrofon und andere Audio-Eingabequellen&#10;die aufgenommen werden</s:String>
+    <s:String x:Key="S.ScreenRecorder.AudioSource.Output">Lautsprecher und andere Audio-Ausgabequellen&#10;die aufgenommen werden</s:String>
+    <s:String x:Key="S.ScreenRecorder.Cache.Clearing">Cache wird geleert...</s:String>
+    <s:String x:Key="S.ScreenRecorder.Cache.Recovered">Wiederhergestellt {0}</s:String>
+    <s:String x:Key="S.ScreenRecorder.Cache.NothingRecovered">Kein Speicherplatz wiederhergestellt</s:String>
 
     <s:String x:Key="S.ScreenRecorder.Splash.Title">Drücke {0}, um die Aufnahme zu stoppen</s:String>
     <s:String x:Key="S.ScreenRecorder.Splash.Subtitle">Das Aufnahmefenster wird minimiert.&#10;Stelle es wieder her oder drücke {0}, um die Aufnahme zu pausieren</s:String>
@@ -1101,7 +1127,11 @@
 
     <!--Audio-->
     <s:String x:Key="S.Audio.Toggle.Microphone.Info">Schalte die Audioaufnahme von Mikrofonen um</s:String>
+    <s:String x:Key="S.Audio.Toggle.Microphone.Enabled">Mikrofonaufnahme aktiviert</s:String>
+    <s:String x:Key="S.Audio.Toggle.Microphone.Disabled">Mikrofonaufnahme deaktiviert</s:String>
     <s:String x:Key="S.Audio.Toggle.Speaker.Info">Schalte die Audioaufnahme von Lautsprechern um</s:String>
+    <s:String x:Key="S.Audio.Toggle.Speaker.Enabled">Lautsprecheraufnahme aktiviert</s:String>
+    <s:String x:Key="S.Audio.Toggle.Speaker.Disabled">Lautsprecheraufnahme deaktiviert</s:String>
 
     <!--Remember choices-->
     <s:String x:Key="S.RememberChoice">Meine Auswahl merken</s:String>
@@ -1157,6 +1187,8 @@
     <s:String x:Key="S.State.Loading">Lädt...</s:String>
     <s:String x:Key="S.State.Processing">Verarbeite...</s:String>
     <s:String x:Key="S.State.Saving">Speichere...</s:String>
+    <s:String x:Key="S.State.Discarding">Wird verworfen...</s:String>
+    <s:String x:Key="S.State.Discarded">Verworfen</s:String>
     <s:String x:Key="S.State.Done">Fertig</s:String>
     <s:String x:Key="S.State.Copied">Kopiert</s:String>
     <s:String x:Key="S.State.Cut">Ausgeschnitten</s:String>
@@ -1812,6 +1844,7 @@
     <s:String x:Key="S.Settings.Editor.MediaInsert.MediaDuration">Statische Medien-Dauer</s:String>
     <s:String x:Key="S.Settings.Editor.MediaInsert.Gap">Abstand zwischen Dateien</s:String>
     <s:String x:Key="S.Settings.Editor.Timeline">Zeitachse</s:String>
+    <s:String x:Key="S.Settings.Editor.Timeline.TrackHeight">Spurhöhe</s:String>
     <s:String x:Key="S.Settings.Editor.Timeline.GenerateThumbnails">Thumbnails generieren</s:String>
     <s:String x:Key="S.Settings.Editor.Timeline.ThumbnailPanelMargin">Rand des Thumbnail-Fensters</s:String>
     <s:String x:Key="S.Settings.Editor.Timeline.ThumbnailMargin">Rand der Thumbnails</s:String>
@@ -1846,8 +1879,7 @@
     <s:String x:Key="S.Settings.Storage.Cleanup.Clear.Global.Header">Möchtest du die globalen Einstellungen entfernen?</s:String>
     <s:String x:Key="S.Settings.Storage.Cleanup.Clear.Local.Header">Möchtest du die lokalen Einstellungen entfernen?</s:String>
     <s:String x:Key="S.Settings.Storage.Cleanup.Clear.Description">Du musst die Anwendung neu starten, um die Änderungen zu sehen.</s:String>
-    <s:String x:Key="S.Settings.Storage.Cleanup.Error">Cache kann nicht bereinigt werden</s:String>
-
+    
     <!--Settings • Plugins-->
     <s:String x:Key="S.Settings.Plugin.Path">Pfad</s:String>
     <s:String x:Key="S.Settings.Plugin.SelectFile">Klicke, um eine Datei auszuwählen</s:String>
@@ -1960,11 +1992,13 @@
     <s:String x:Key="S.Preset.Clipboard.Behavior.Link">Link</s:String>
     <s:String x:Key="S.Preset.Clipboard.Behavior.Link.Info">Kopiert den vom Uploaddienst generierten Link in die Zwischenablage.</s:String>
 
+    <!--Windows • Preset Settings > Commands-->
     <s:String x:Key="S.Preset.Commands.Title">Benutzerdefinierte Befehle</s:String>
     <s:String x:Key="S.Preset.Commands.Title.Info">Befehle, die nach dem Export ausgeführt werden</s:String>
     <s:String x:Key="S.Preset.Commands.Commands">Befehle</s:String>
     <s:String x:Key="S.Preset.Commands.Commands.Info">Gib Befehle ein, die nach der Codierung ausgeführt werden.&#10;Um mehrere Befehle auszuführen, gib jeden auf einer eigenen Zeile ein.&#10;Makros:&#10;{p} = Ausgabedateipfad.&#10;{f} = Ausgabeverzeichnis.&#10;{u} = URL der hochgeladenen Datei.</s:String>
 
+    <!--Windows • Preset Settings > Playback-->
     <s:String x:Key="S.Preset.Playback.Title">Wiedergabe</s:String>
     <s:String x:Key="S.Preset.Playback.Title.Info">Wiedergabe- und Bildratenoptionen für die Animation</s:String>
 
@@ -1975,6 +2009,7 @@
     <s:String x:Key="S.Preset.Playback.AnimatedImage.Looped.Count">Wiederholungszahl</s:String>
     <s:String x:Key="S.Preset.Playback.AnimatedImage.Looped.Count.Info">Die Anzahl der Wiederholungen</s:String>
 
+    <!--Windows • Preset Settings > Encoder-->
     <s:String x:Key="S.Preset.Encoder.Title">Encoder-Optionen</s:String>
     <s:String x:Key="S.Preset.Encoder.Title.Info">Optionen speziell für den ausgewählten Encoder und das Dateiformat</s:String>
     <s:String x:Key="S.Preset.Encoder.Version">Version</s:String>
@@ -2148,7 +2183,7 @@
     <s:String x:Key="S.Preset.Encoder.Gif.AllowClippedIgnored">Beschnittene Frames haben keine Auswirkung, da die aktuelle Konfiguration kein Alpha verwendet und "Delta-Frames erlauben" nicht aktiviert ist</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.AllowClippedIgnored.Enable">Delta-Frames aktivieren</s:String>
 
-    <!--Preset • Webp-->
+    <!--Preset • Webm-->
     <s:String x:Key="S.Preset.Encoder.Webm.Preset.None">Keine</s:String>
     <s:String x:Key="S.Preset.Encoder.Webm.Preset.Default">Standard</s:String>
     <s:String x:Key="S.Preset.Encoder.Webm.Preset.Picture">Bild</s:String>

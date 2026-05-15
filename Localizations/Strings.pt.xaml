@@ -3,13 +3,13 @@
                     xmlns:s="clr-namespace:System;assembly=mscorlib"
                     xml:space="preserve">
 
-    <!--To use a new line: &#13; or CarriageReturn + NewLine: &#13;&#10;-->
+    <!--To use a NewLine: &#10; or CarriageReturn + NewLine: &#13;&#10;-->
     <!--You can use the zero-width-divider to suggest where the word should be divided when there's no space &#8203;-->
     <!--Special texts like {0}, are placeholders for dynamic values, such as numbers.-->
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">Nicke Manarin</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-06</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-14</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Aceitar</s:String>
@@ -301,6 +301,8 @@
     <!--Dialogs • Unsaved changes-->
     <s:String x:Key="S.Dialog.UnsavedChanges.Title">Gostaria de salvar suas alterações antes de fechar?</s:String>
     <s:String x:Key="S.Dialog.UnsavedChanges.Details">Você tem alterações não salvas neste projeto.&#10;Gostaria de salvá-lo antes de fechá-lo?</s:String>
+    <s:String x:Key="S.Dialog.UnsavedChanges.KeepInCache">Manter em cache temporário para usar depois</s:String>
+    <s:String x:Key="S.Dialog.UnsavedChanges.KeepInCache.Info">Além de salvar o projeto em um arquivo, mantenha-o no cache para acessá-lo facilmente depois</s:String>
 
     <!--Dialogs • Exiting app-->
     <s:String x:Key="S.Dialog.Exiting.Header">Tem certeza de que deseja sair?</s:String>
@@ -462,9 +464,17 @@
     <s:String x:Key="S.Validation.NoCommand.Header">Nenhum comando a ser executado</s:String>
     <s:String x:Key="S.Validation.NoCommand.Message">Para executar um comando pós-codificação, você precisa digitar algo no campo de texto de comandos</s:String>
 
+    <!--Validation • Shortcut in use-->
+    <s:String x:Key="S.Validation.ShortcutInUse.Header">Já em uso</s:String>
+    <s:String x:Key="S.Validation.ShortcutInUse.Message">Esse atalho já está em uso por outro comando</s:String>
+
     <!--Success • Export feedback-->
     <s:String x:Key="S.Success.ExportFeedback.Header">Sucesso</s:String>
     <s:String x:Key="S.Success.ExportFeedback.Message">Feedback exportado como zip com sucesso</s:String>
+
+    <!--Success • Storage clean up--> 
+    <s:String x:Key="S.Success.StorageCleanup.Header">Sucesso</s:String>
+    <s:String x:Key="S.Success.StorageCleanup.Message">Limpeza do cache finalizada com sucesso</s:String>
 
     <!--Info • Pro feature-->
     <s:String x:Key="S.Info.ProFeature.Header">Apenas para pros</s:String>
@@ -522,6 +532,10 @@
     <!--Warnings • Unsupported files dropped--> 
     <s:String x:Key="S.Warning.Drop.Header">Não suportado ou inválido</s:String>
     <s:String x:Key="S.Warning.Drop.Message">Não foi possível inserir ou abrir o(s) arquivo(s)</s:String>
+
+    <!--Warnings • Low on space-->
+    <s:String x:Key="S.Warning.LowSpace.Header">Pouco espaço disponível</s:String>
+    <s:String x:Key="S.Warning.LowSpace.Message">Libere espaço na unidade de cache para poder gravar</s:String>
 
     <!--Warnings • Graphics engine-->
     <s:String x:Key="S.Warning.Graphics.Title">Alternar Adaptador Gráfico</s:String>
@@ -728,6 +742,10 @@
     <s:String x:Key="S.Errors.WindowsSettings.Header">Configurações do Windows</s:String>
     <s:String x:Key="S.Errors.WindowsSettings.Message">Não foi possível abrir a página de configurações</s:String>
 
+    <!--Error • Storage clean up--> 
+    <s:String x:Key="S.Errors.StorageCleanup.Header">Erro na limpeza</s:String>
+    <s:String x:Key="S.Errors.StorageCleanup.Message">Não foi possível limpar o cache</s:String>
+
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Falha na ativação</s:String>
     <s:String x:Key="S.Errors.Activation.Generic">Não foi possível ativar o aplicativo devido a um problema desconhecido</s:String>
@@ -744,6 +762,7 @@
     <s:String x:Key="S.Welcome.RegionShare">Compartilhar Região</s:String>
     <s:String x:Key="S.Welcome.Editor">Editor</s:String>
     <s:String x:Key="S.Welcome.Feedback">Feedback</s:String>
+    <s:String x:Key="S.Welcome.Upgrade">Atualizar para Pro</s:String>
     <s:String x:Key="S.Welcome.Troubleshoot">Solução de Problemas</s:String>
     <s:String x:Key="S.Welcome.Settings">Configurações</s:String>
     <s:String x:Key="S.Welcome.RecentProjects">Projetos recentes</s:String>
@@ -782,6 +801,13 @@
     <s:String x:Key="S.ScreenRecorder.Screen.Info2">Resolução: {0} x {1}</s:String>
     <s:String x:Key="S.ScreenRecorder.Screen.Info3">Resolução nativa: {0} x {1}</s:String>
     <s:String x:Key="S.ScreenRecorder.Screen.Info4">DPI: {0} ({1:0.##}%)</s:String>
+
+    <s:String x:Key="S.ScreenRecorder.DiskSpace.Info">Porcentagem do disco usada e espaço disponível</s:String>
+    <s:String x:Key="S.ScreenRecorder.AudioSource.Input">Microfone e outras fontes de entrada de áudio&#10;que estão sendo capturadas</s:String>
+    <s:String x:Key="S.ScreenRecorder.AudioSource.Output">Alto‑falantes e outras fontes de saída de áudio&#10;que estão sendo capturadas</s:String>
+    <s:String x:Key="S.ScreenRecorder.Cache.Clearing">Limpando cache...</s:String>
+    <s:String x:Key="S.ScreenRecorder.Cache.Recovered">Recuperado {0}</s:String>
+    <s:String x:Key="S.ScreenRecorder.Cache.NothingRecovered">Nenhum espaço recuperado</s:String>
 
     <s:String x:Key="S.ScreenRecorder.Splash.Title">Pressione {0} para parar a gravação</s:String>
     <s:String x:Key="S.ScreenRecorder.Splash.Subtitle">A janela do gravador será minimizada,&#10;restaure-a ou pressione {0} para pausar a captura</s:String>
@@ -1101,7 +1127,11 @@
 
     <!--Audio-->
     <s:String x:Key="S.Audio.Toggle.Microphone.Info">Alternar captura de áudio dos microfones</s:String>
+    <s:String x:Key="S.Audio.Toggle.Microphone.Enabled">Captura do microfone ativada</s:String>
+    <s:String x:Key="S.Audio.Toggle.Microphone.Disabled">Captura do microfone desativada</s:String>
     <s:String x:Key="S.Audio.Toggle.Speaker.Info">Alternar captura de áudio dos alto-falantes</s:String>
+    <s:String x:Key="S.Audio.Toggle.Speaker.Enabled">Captura dos alto-falantes ativada</s:String>
+    <s:String x:Key="S.Audio.Toggle.Speaker.Disabled">Captura dos alto-falantes desativada</s:String>
 
     <!--Remember choices-->
     <s:String x:Key="S.RememberChoice">Lembrar minha escolha</s:String>
@@ -1157,6 +1187,8 @@
     <s:String x:Key="S.State.Loading">Carregando...</s:String>
     <s:String x:Key="S.State.Processing">Processando...</s:String>
     <s:String x:Key="S.State.Saving">Salvando...</s:String>
+    <s:String x:Key="S.State.Discarding">Descartando...</s:String>
+    <s:String x:Key="S.State.Discarded">Descartado</s:String>
     <s:String x:Key="S.State.Done">Pronto</s:String>
     <s:String x:Key="S.State.Copied">Copiado</s:String>
     <s:String x:Key="S.State.Cut">Recortado</s:String>
@@ -1749,9 +1781,9 @@
     <s:String x:Key="S.Settings.Styles.LineCap.Flat">Plano</s:String>
     <s:String x:Key="S.Settings.Styles.LineCap.Square">Quadrado</s:String>
     <s:String x:Key="S.Settings.Styles.LineCap.Round">Arredondado</s:String>
+    <s:String x:Key="S.Settings.Styles.LineCap.Triangle">Triângulo</s:String>
 
     <!--Settings • Styles > LineJoin-->
-    <s:String x:Key="S.Settings.Styles.LineCap.Triangle">Triângulo</s:String>
     <s:String x:Key="S.Settings.Styles.LineJoin">Junção de Linha</s:String>
     <s:String x:Key="S.Settings.Styles.LineJoin.Bevel">Plano (Bevel)</s:String>
     <s:String x:Key="S.Settings.Styles.LineJoin.Miter">Quadrado (Miter)</s:String>
@@ -1812,6 +1844,7 @@
     <s:String x:Key="S.Settings.Editor.MediaInsert.MediaDuration">Duração da mídia estática</s:String>
     <s:String x:Key="S.Settings.Editor.MediaInsert.Gap">Intervalo entre arquivos</s:String>
     <s:String x:Key="S.Settings.Editor.Timeline">Linha do tempo</s:String>
+    <s:String x:Key="S.Settings.Editor.Timeline.TrackHeight">Altura da faixa</s:String>
     <s:String x:Key="S.Settings.Editor.Timeline.GenerateThumbnails">Gerar miniaturas</s:String>
     <s:String x:Key="S.Settings.Editor.Timeline.ThumbnailPanelMargin">Margem do painel de miniaturas</s:String>
     <s:String x:Key="S.Settings.Editor.Timeline.ThumbnailMargin">Margem da miniatura</s:String>
@@ -1846,8 +1879,7 @@
     <s:String x:Key="S.Settings.Storage.Cleanup.Clear.Global.Header">Gostaria de remover as configurações globais?</s:String>
     <s:String x:Key="S.Settings.Storage.Cleanup.Clear.Local.Header">Gostaria de remover as configurações locais?</s:String>
     <s:String x:Key="S.Settings.Storage.Cleanup.Clear.Description">Você precisará reiniciar o aplicativo para ver as alterações.</s:String>
-    <s:String x:Key="S.Settings.Storage.Cleanup.Error">Impossível limpar o cache</s:String>
-
+    
     <!--Settings • Plugins-->
     <s:String x:Key="S.Settings.Plugin.Path">Caminho</s:String>
     <s:String x:Key="S.Settings.Plugin.SelectFile">Clique para selecionar o arquivo</s:String>
@@ -1960,11 +1992,13 @@
     <s:String x:Key="S.Preset.Clipboard.Behavior.Link">Link</s:String>
     <s:String x:Key="S.Preset.Clipboard.Behavior.Link.Info">Copia o link gerado pelo serviço de upload para a área de transferência.</s:String>
 
+    <!--Windows • Preset Settings > Commands-->
     <s:String x:Key="S.Preset.Commands.Title">Comandos Personalizados</s:String>
     <s:String x:Key="S.Preset.Commands.Title.Info">Comandos a serem executados após a exportação</s:String>
     <s:String x:Key="S.Preset.Commands.Commands">Comandos</s:String>
     <s:String x:Key="S.Preset.Commands.Commands.Info">Digite os comandos a serem executados após a codificação.&#13;Para executar vários comandos, digite cada um em uma linha separada.&#13;Macros:&#13;{p} = Caminho do arquivo de saída.&#13;{f} = Caminho da pasta de saída.&#13;{u} = URL do arquivo carregado.</s:String>
 
+    <!--Windows • Preset Settings > Playback-->
     <s:String x:Key="S.Preset.Playback.Title">Reprodução</s:String>
     <s:String x:Key="S.Preset.Playback.Title.Info">Opções de reprodução e framerate para a animação</s:String>
 
@@ -1975,6 +2009,7 @@
     <s:String x:Key="S.Preset.Playback.AnimatedImage.Looped.Count">Contagem de repetições</s:String>
     <s:String x:Key="S.Preset.Playback.AnimatedImage.Looped.Count.Info">O número de vezes que a animação deve se repetir</s:String>
 
+    <!--Windows • Preset Settings > Encoder-->
     <s:String x:Key="S.Preset.Encoder.Title">Opções do codificador</s:String>
     <s:String x:Key="S.Preset.Encoder.Title.Info">Opções específicas para o codificador e formato de arquivo selecionados</s:String>
     <s:String x:Key="S.Preset.Encoder.Version">Versão</s:String>
@@ -2148,7 +2183,7 @@
     <s:String x:Key="S.Preset.Encoder.Gif.AllowClippedIgnored">Permitir quadros recortados não tem efeito porque a configuração atual não usa alfa e Permitir quadros delta está desmarcado</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.AllowClippedIgnored.Enable">Ativar quadros delta</s:String>
 
-    <!--Preset • Webp-->
+    <!--Preset • Webm-->
     <s:String x:Key="S.Preset.Encoder.Webm.Preset.None">Nenhum</s:String>
     <s:String x:Key="S.Preset.Encoder.Webm.Preset.Default">Padrão</s:String>
     <s:String x:Key="S.Preset.Encoder.Webm.Preset.Picture">Imagem (Picture)</s:String>

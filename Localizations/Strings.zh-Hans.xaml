@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">Anlv</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-06</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-14</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">接受</s:String>
@@ -301,6 +301,8 @@
     <!--Dialogs • Unsaved changes-->
     <s:String x:Key="S.Dialog.UnsavedChanges.Title">是否要在关闭前保存更改？</s:String>
     <s:String x:Key="S.Dialog.UnsavedChanges.Details">你有未保存的项目更改。&#10;是否要在关闭前保存它？</s:String>
+    <s:String x:Key="S.Dialog.UnsavedChanges.KeepInCache">暂时保存在缓存中以便稍后使用</s:String>
+    <s:String x:Key="S.Dialog.UnsavedChanges.KeepInCache.Info">除了将项目保存为文件外，也保存在缓存中以便之后轻松访问</s:String>
 
     <!--Dialogs • Exiting app-->
     <s:String x:Key="S.Dialog.Exiting.Header">你确定要退出吗？</s:String>
@@ -462,9 +464,17 @@
     <s:String x:Key="S.Validation.NoCommand.Header">无命令执行</s:String>
     <s:String x:Key="S.Validation.NoCommand.Message">要执行编码后命令，需要在命令文本字段中输入内容</s:String>
 
+    <!--Validation • Shortcut in use-->
+    <s:String x:Key="S.Validation.ShortcutInUse.Header">已被使用</s:String>
+    <s:String x:Key="S.Validation.ShortcutInUse.Message">该快捷键已被另一个命令使用</s:String>
+
     <!--Success • Export feedback-->
     <s:String x:Key="S.Success.ExportFeedback.Header">成功</s:String>
     <s:String x:Key="S.Success.ExportFeedback.Message">已成功将反馈导出为 zip</s:String>
+
+    <!--Success • Storage clean up--> 
+    <s:String x:Key="S.Success.StorageCleanup.Header">成功</s:String>
+    <s:String x:Key="S.Success.StorageCleanup.Message">缓存清理成功</s:String>
 
     <!--Info • Pro feature-->
     <s:String x:Key="S.Info.ProFeature.Header">仅供 Pro 版使用</s:String>
@@ -522,6 +532,10 @@
     <!--Warnings • Unsupported files dropped--> 
     <s:String x:Key="S.Warning.Drop.Header">不支持或无效</s:String>
     <s:String x:Key="S.Warning.Drop.Message">不能插入或打开文件</s:String>
+
+    <!--Warnings • Low on space-->
+    <s:String x:Key="S.Warning.LowSpace.Header">空间不足</s:String>
+    <s:String x:Key="S.Warning.LowSpace.Message">请清理缓存驱动器上的空间以便进行录制</s:String>
 
     <!--Warnings • Graphics engine-->
     <s:String x:Key="S.Warning.Graphics.Title">切换图形适配器</s:String>
@@ -712,7 +726,7 @@
     <s:String x:Key="S.Errors.Redo.Header">重做操作时出错</s:String>
     <s:String x:Key="S.Errors.Redo.Message">无法重做上一步操作</s:String>
 
-    <!--Error • Redo--> 
+    <!--Error • Undo--> 
     <s:String x:Key="S.Errors.Undo.Header">撤销操作时出错</s:String>
     <s:String x:Key="S.Errors.Undo.Message">无法撤销上一步操作</s:String>
 
@@ -727,6 +741,10 @@
     <!--Error • Open windows settings--> 
     <s:String x:Key="S.Errors.WindowsSettings.Header">Windows 设置</s:String>
     <s:String x:Key="S.Errors.WindowsSettings.Message">无法打开设置页面</s:String>
+
+    <!--Error • Storage clean up--> 
+    <s:String x:Key="S.Errors.StorageCleanup.Header">清理时出错</s:String>
+    <s:String x:Key="S.Errors.StorageCleanup.Message">无法清理缓存</s:String>
 
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">激活失败</s:String>
@@ -744,6 +762,7 @@
     <s:String x:Key="S.Welcome.RegionShare">区域共享</s:String>
     <s:String x:Key="S.Welcome.Editor">编辑器</s:String>
     <s:String x:Key="S.Welcome.Feedback">反馈</s:String>
+    <s:String x:Key="S.Welcome.Upgrade">升级到专业版</s:String>
     <s:String x:Key="S.Welcome.Troubleshoot">故障排查</s:String>
     <s:String x:Key="S.Welcome.Settings">设置</s:String>
     <s:String x:Key="S.Welcome.RecentProjects">最近的项目</s:String>
@@ -782,6 +801,13 @@
     <s:String x:Key="S.ScreenRecorder.Screen.Info2">分辨率：{0} x {1}</s:String>
     <s:String x:Key="S.ScreenRecorder.Screen.Info3">原生分辨率：{0} x {1}</s:String>
     <s:String x:Key="S.ScreenRecorder.Screen.Info4">DPI：{0}（{1:0.##}%）</s:String>
+
+    <s:String x:Key="S.ScreenRecorder.DiskSpace.Info">磁盘使用百分比和可用空间</s:String>
+    <s:String x:Key="S.ScreenRecorder.AudioSource.Input">正在捕获的麦克风及其他音频输入来源</s:String>
+    <s:String x:Key="S.ScreenRecorder.AudioSource.Output">正在捕获的扬声器及其他音频输出来源</s:String>
+    <s:String x:Key="S.ScreenRecorder.Cache.Clearing">正在清除缓存...</s:String>
+    <s:String x:Key="S.ScreenRecorder.Cache.Recovered">已回收 {0}</s:String>
+    <s:String x:Key="S.ScreenRecorder.Cache.NothingRecovered">未回收空间</s:String>
 
     <s:String x:Key="S.ScreenRecorder.Splash.Title">按 {0} 停止录制</s:String>
     <s:String x:Key="S.ScreenRecorder.Splash.Subtitle">录制器窗口将被最小化，&#10;恢复或按 {0} 暂停捕获</s:String>
@@ -1101,7 +1127,11 @@
 
     <!--Audio-->
     <s:String x:Key="S.Audio.Toggle.Microphone.Info">切换麦克风音频捕获</s:String>
+    <s:String x:Key="S.Audio.Toggle.Microphone.Enabled">麦克风捕获已启用</s:String>
+    <s:String x:Key="S.Audio.Toggle.Microphone.Disabled">麦克风捕获已禁用</s:String>
     <s:String x:Key="S.Audio.Toggle.Speaker.Info">切换扬声器音频捕获</s:String>
+    <s:String x:Key="S.Audio.Toggle.Speaker.Enabled">扬声器捕获已启用</s:String>
+    <s:String x:Key="S.Audio.Toggle.Speaker.Disabled">扬声器捕获已禁用</s:String>
 
     <!--Remember choices-->
     <s:String x:Key="S.RememberChoice">记住选择</s:String>
@@ -1157,6 +1187,8 @@
     <s:String x:Key="S.State.Loading">加载中...</s:String>
     <s:String x:Key="S.State.Processing">处理中...</s:String>
     <s:String x:Key="S.State.Saving">保存中...</s:String>
+    <s:String x:Key="S.State.Discarding">正在丢弃...</s:String>
+    <s:String x:Key="S.State.Discarded">已丢弃</s:String>
     <s:String x:Key="S.State.Done">完成</s:String>
     <s:String x:Key="S.State.Copied">已复制</s:String>
     <s:String x:Key="S.State.Cut">已剪切</s:String>
@@ -1812,6 +1844,7 @@
     <s:String x:Key="S.Settings.Editor.MediaInsert.MediaDuration">静态媒体持续时间</s:String>
     <s:String x:Key="S.Settings.Editor.MediaInsert.Gap">文件之间的间隙</s:String>
     <s:String x:Key="S.Settings.Editor.Timeline">时间线</s:String>
+    <s:String x:Key="S.Settings.Editor.Timeline.TrackHeight">轨道高度</s:String>
     <s:String x:Key="S.Settings.Editor.Timeline.GenerateThumbnails">生成缩略图</s:String>
     <s:String x:Key="S.Settings.Editor.Timeline.ThumbnailPanelMargin">缩略图面板边距</s:String>
     <s:String x:Key="S.Settings.Editor.Timeline.ThumbnailMargin">缩略图边距</s:String>
@@ -1846,7 +1879,6 @@
     <s:String x:Key="S.Settings.Storage.Cleanup.Clear.Global.Header">是否要移除全局设置？</s:String>
     <s:String x:Key="S.Settings.Storage.Cleanup.Clear.Local.Header">是否要移除本地设置？</s:String>
     <s:String x:Key="S.Settings.Storage.Cleanup.Clear.Description">你需要重新启动应用程序以查看更改。</s:String>
-    <s:String x:Key="S.Settings.Storage.Cleanup.Error">无法清理缓存</s:String>
 
     <!--Settings • Plugins-->
     <s:String x:Key="S.Settings.Plugin.Path">路径</s:String>
@@ -1960,11 +1992,13 @@
     <s:String x:Key="S.Preset.Clipboard.Behavior.Link">链接</s:String>
     <s:String x:Key="S.Preset.Clipboard.Behavior.Link.Info">将上传服务生成的链接复制到剪贴板。</s:String>
 
+    <!--Windows • Preset Settings > Commands-->
     <s:String x:Key="S.Preset.Commands.Title">自定义命令</s:String>
     <s:String x:Key="S.Preset.Commands.Title.Info">导出后要执行的命令</s:String>
     <s:String x:Key="S.Preset.Commands.Commands">命令</s:String>
     <s:String x:Key="S.Preset.Commands.Commands.Info">输入编码后要执行的命令。&#10;要执行多个命令，请在单独的行上输入每个命令。&#10;宏：&#10;{p} = 输出文件路径。&#10;{f} = 输出文件夹路径。&#10;{u} = 已上传文件的 URL。</s:String>
 
+    <!--Windows • Preset Settings > Playback-->
     <s:String x:Key="S.Preset.Playback.Title">播放</s:String>
     <s:String x:Key="S.Preset.Playback.Title.Info">动画的播放和帧率选项</s:String>
 
@@ -1975,6 +2009,7 @@
     <s:String x:Key="S.Preset.Playback.AnimatedImage.Looped.Count">重复次数</s:String>
     <s:String x:Key="S.Preset.Playback.AnimatedImage.Looped.Count.Info">动画应重复的次数</s:String>
 
+    <!--Windows • Preset Settings > Encoder-->
     <s:String x:Key="S.Preset.Encoder.Title">编码器选项</s:String>
     <s:String x:Key="S.Preset.Encoder.Title.Info">特定于所选编码器和文件格式的选项</s:String>
     <s:String x:Key="S.Preset.Encoder.Version">版本</s:String>
@@ -2148,7 +2183,7 @@
     <s:String x:Key="S.Preset.Encoder.Gif.AllowClippedIgnored">由于当前配置不使用 Alpha 且“允许增量帧”未选中，允许裁剪帧已无效</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.AllowClippedIgnored.Enable">启用增量帧</s:String>
 
-    <!--Preset • Webp-->
+    <!--Preset • Webm-->
     <s:String x:Key="S.Preset.Encoder.Webm.Preset.None">无</s:String>
     <s:String x:Key="S.Preset.Encoder.Webm.Preset.Default">默认</s:String>
     <s:String x:Key="S.Preset.Encoder.Webm.Preset.Picture">图片</s:String>
