@@ -1,7 +1,7 @@
 {
   "info": {
     "authors": "Machine Translated",
-    "last-update": "2026-04-11"
+    "last-update": "2026-05-17"
   },
 
   "common": {
@@ -295,7 +295,31 @@
           "action": "Ver resultados en VirusTotal"
         }
       },
-      "more": "¿Quieres ver más?"
+      "download-alternative": "Otras opciones de descarga y versiones anteriores",
+      "more": "¿Quieres ver más?",
+      "feature-cards": {
+        "title": "Funciones",
+        "screen-recorder": {
+          "title": "Grabador de pantalla",
+          "description": "Graba tu pantalla, audio del micrófono o del sistema, eventos del cursor y pulsaciones de teclas"
+        },
+        "sound-recorder": {
+          "title": "Grabador de sonido",
+          "description": "Captura audio de múltiples micrófonos y altavoces al mismo tiempo"
+        },
+        "exporter": {
+          "title": "Exportador",
+          "description": "Haz ediciones rápidas (activar pistas, recortar, cambiar tamaño, recortar, cambiar velocidad o fotogramas), elige formato y preset y exporta tu proyecto"
+        },
+        "region-share": {
+          "title": "Compartir región",
+          "description": "Selecciona una región de pantalla y compártela en vivo con cursor, clics, teclas y seguimiento del cursor en Meet, Zoom o Teams"
+        },
+        "editor": {
+          "title": "Editor",
+          "description": "Crea proyectos desde cero o edita grabaciones con importación de video/audio, texto, formas, dibujo, efectos de pixelado e indicadores de progreso"
+        }
+      }
     },
 
     "downloads": {

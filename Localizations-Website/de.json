@@ -1,7 +1,7 @@
 {
   "info": {
     "authors": "Machine Translated",
-    "last-update": "2026-04-11"
+    "last-update": "2026-05-17"
   },
 
   "common": {
@@ -295,7 +295,31 @@
           "action": "VirusTotal-Ergebnisse anzeigen"
         }
       },
-      "more": "Möchtest du mehr sehen?"
+      "download-alternative": "Andere Download-Optionen und frühere Versionen",
+      "more": "Möchtest du mehr sehen?",
+      "feature-cards": {
+        "title": "Funktionen",
+        "screen-recorder": {
+          "title": "Bildschirmrekorder",
+          "description": "Zeichne deinen Bildschirm, Mikrofon- oder Systemaudio, Cursorbewegungen und Tastendrücke auf"
+        },
+        "sound-recorder": {
+          "title": "Soundrekorder",
+          "description": "Nimm Audio von mehreren Mikrofonen und Lautsprechern gleichzeitig auf"
+        },
+        "exporter": {
+          "title": "Exporter",
+          "description": "Führe schnelle Anpassungen durch (Spuren umschalten, trimmen, skalieren, zuschneiden, Geschwindigkeit oder Bildrate ändern), wähle Format und Preset und exportiere dein Projekt"
+        },
+        "region-share": {
+          "title": "Bereich teilen",
+          "description": "Wähle einen Bildschirmbereich und teile ihn live mit Cursor, Klicks, Tastenanschlägen und Cursorverfolgung in Meet, Zoom oder Teams"
+        },
+        "editor": {
+          "title": "Editor",
+          "description": "Erstelle Projekte von Grund auf oder bearbeite Aufnahmen mit Video-/Audioimport, Text, Formen, Zeichnen, Pixeleffekten und Fortschrittsanzeigen"
+        }
+      }
     },
 
     "downloads": {

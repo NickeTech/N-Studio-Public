@@ -1,0 +1,544 @@
+{
+  "info": {
+    "authors": "Machine translated",
+    "last-update": "2026-05-17"
+  },
+
+  "common": {
+    "download": "Ladda ner",
+    "get-pro": "Skaffa Pro",
+    "log-in": "Logga in",
+    "retry": "Försök igen",
+    "dismiss": "Avvisa",
+    "ok": "OK",
+    "select": "Välj",
+    "accept": "Acceptera",
+    "decline": "Avvisa",
+    "success": "Framgång",
+    "cancel": "Avbryt",
+    "remove": "Ta bort",
+    "go-back": "Gå tillbaka",
+    "show-more": "Visa mer",
+    "expand": "Expandera",
+    "collapse": "Komprimera",
+    "hide": "Dölj",
+    "previous": "Föregående",
+    "next": "Nästa"
+  },
+
+  "validations": {
+    "required": "Fältet är obligatoriskt"
+  },
+
+  "modals": {
+    "currency-selector": {
+      "title": "Donera med PayPal",
+      "subtitle": "Välj valuta innan du fortsätter",
+      "currency": "Valuta"
+    },
+
+    "donate-crypto": {
+      "title-bitcoin": "Donera med Bitcoin",
+      "title-bitcoin-cash": "Donera med BitcoinCash",
+      "title-ethereum": "Donera med Ethereum",
+      "subtitle": "Skanna QR-koden eller kopiera adressen"
+    }
+  },
+
+  "n-tech": {
+    "about": "Om",
+    "change-language": "Byt språk",
+    "moto": "Detta är ett enmansprojekt",
+    "toggle-theme": "Byt tema",
+    "switch-to-light": "Byt till ljust tema",
+    "switch-to-dark": "Byt till mörkt tema",
+    "sign-in-up": "Logga in eller registrera",
+
+    "cookies-consent": {
+      "title": "Analyscookies",
+      "message": "Vi använder analyscookies för att förbättra webbplatsen. Accepterar du analyscookies?"
+    },
+
+    "sign-in": {
+      "title": "Logga in",
+      "email": "E-post",
+      "email-placeholder": "Ange din e-post",
+      "password": "Lösenord",
+      "password-placeholder": "Ange ditt lösenord",
+      "remember": "Kom ihåg mig",
+      "forgot": "Glömde du ditt lösenord?",
+      "action": "Logga in",
+      "new-here": "Ny här? Registrera dig då"
+    },
+
+    "sign-up": {
+      "title": "Skapa konto",
+      "type": "Kontotyp",
+      "type-individual": "Individuell",
+      "type-company": "Företag/Team",
+      "name": "Namn",
+      "name-placeholder": "Ange ditt namn",
+      "company-name": "Företagsnamn",
+      "company-name-placeholder": "Ange företagets namn",
+      "contact-name": "Kontaktpersons namn",
+      "contact-name-placeholder": "Ange kontaktpersonens namn för företaget",
+      "confirm-password": "Bekräfta lösenord",
+      "confirm-password-placeholder": "Ange ditt lösenord igen",
+      "action": "Registrera",
+      "already-has": "Har du redan ett konto? Logga in då"
+    },
+
+    "forgot": {
+      "title": "Glömde du ditt lösenord?",
+      "action": "Begär återställning av lösenord",
+
+      "sent": {
+        "title": "Återställningsförfrågan skickad",
+        "message": "Om ett konto med den angivna e-posten finns kommer du snart att få ett meddelande för att återställa ditt lösenord."
+      }
+    },
+
+    "reset": {
+      "title": "Återställ lösenord",
+      "action": "Återställ lösenord"
+    },
+
+    "verify-email": {
+      "title": "Verifierar e-post",
+      "message": "Vänta medan vi bekräftar din e-postadress.",
+      "error-title": "Vi kunde inte verifiera din e-post",
+      "error-message": "Sannolikt har verifieringslänken gått ut eller redan använts.",
+      "success-title": "E-post verifierad",
+      "success-message": "Din e-postadress verifierades framgångsrikt.",
+      "open-account": "Öppna kontosida",
+      "invalid-link": "Verifieringslänken för e-post är ogiltig eller ofullständig.",
+      "validation-error": "Det gick inte att verifiera din e-postadress."
+    },
+
+    "home": {
+      "new-experience": "En ny upplevelse",
+      "familiar-face": "Ett bekant ansikte",
+      "custom-solution": "Letar du efter en speciallösning?",
+      "talk": "Låt oss prata :)"
+    },
+
+    "account": {
+      "title": "Konto",
+
+      "actions": {
+        "sign-out": "Logga ut",
+        "edit": "Redigera info",
+        "change-email": "Byt e-post",
+        "change-password": "Byt lösenord"
+      },
+
+      "edit": {
+        "title": "Redigera konto"
+      },
+
+      "change-email": {
+        "title": "Byt e-postadress",
+        "new-address": "Ny adress",
+        "success": "Verifieringsmail skickat"
+      },
+
+      "change-password": {
+        "title": "Byt lösenord",
+        "current-password": "Nuvarande lösenord",
+        "current-password-placeholder": "Ange ditt nuvarande lösenord",
+        "new-password": "Nytt lösenord",
+        "new-password-placeholder": "Ange ditt nya och starka lösenord",
+        "confirm-password-placeholder": "Ange ditt nya lösenord igen",
+        "success": "Lösenordet ändrades framgångsrikt"
+      },
+
+      "not-verified": {
+        "title": "E-postadress inte verifierad",
+        "message": "Kontrollera din e-post för verifieringsmeddelandet",
+        "resend": "Skicka igen"
+      },
+
+      "subscriptions": {
+        "title": "Planer eller prenumerationer",
+        "empty": "Inga planer/prenumerationer än",
+        "get-n-studio": "Skaffa N-Studio",
+        "go-to-product": "Gå till produktsidan",
+        "status": "=0 {Inte slutförd eller betalning misslyckades} =1 {Föreslagen} =2 {Aktiv} =3 {Utgången} =4 {Avbruten}",
+        "seats": "<0 {obegränsade platser} =1 {1 plats} >1 {{{count}} platser}",
+        "type": {
+          "month": "månad",
+          "year": "år",
+          "per-version": "per version"
+        },
+        "dismiss-info": "Avvisa plan/prenumeration",
+        "download-info": "Gå till nedladdningssidan för produkten",
+        "manage": "Hantera",
+        "manage-info": "Hantera plan/prenumeration",
+        "restore": "Återställ",
+        "restore-info": "Återställ din tidigare betalning",
+        "proceed": "Fortsätt",
+        "proceed-info": "Fortsätt med betalningen"
+      },
+
+      "subscription": {
+        "title": "Plan/Prenumeration",
+        "manage": "Hantera prenumeration/betalning",
+        "manage-info": "Hantera prenumeration eller betalning via Stripe",
+        "users-domains": "Användare/Domäner",
+        "user": "Användare",
+        "domain": "Domän",
+        "error-loading": "Fel vid laddning av plan/prenumeration...",
+        "none": "Inga användare/domäner än",
+        "documentation": "Lär dig hur du hanterar användare och delar åtkomst till appen",
+
+        "actions": {
+          "import": "Importera flera användare...",
+          "add": "Lägg till...",
+          "add-info": "Lägg till en användare eller domän",
+          "copy-serial": "Kopiera serial",
+          "send-email": "Skicka aktiveringsmail",
+          "freeze": "Frys",
+          "unfreeze": "Avfrys",
+          "remove": "Ta bort",
+          "more": "Fler åtgärder",
+          "export-all": "Exportera allt...",
+          "export": "Exportera..."
+        },
+
+        "add": {
+          "title": "Lägg till användare/domän",
+          "type": "Typ",
+          "domain": "Domän (wildcard)",
+          "send-email": "Skicka registreringsmail",
+          "explanation": "Alla adresser under den här domänen kommer att kunna ansluta.",
+          "action": "Lägg till"
+        },
+
+        "remove": {
+          "title": "Vill du ta bort den här användaren?",
+          "title-domain": "Vill du ta bort den här domänen?",
+          "message": "Användaren kommer att förlora åtkomst till appen.<br>Om du vill ge dem åtkomst igen, lägg till användaren och dela den nya serialen.",
+          "message-domain": "Användare på den här domänen kommer inte längre att kunna ansluta automatiskt."
+        },
+
+        "import": {
+          "title": "Importera användare",
+          "emails": "E-postadresser (separerade med semikolon, kommatecken eller nya rader)",
+          "send-to-all": "Skicka registreringsmail till alla",
+          "action": "Importera"
+        },
+
+        "export": {
+          "title": "=1 {Exportera användare} >1 {Exportera användare}",
+          "content": "Innehåll som JSON",
+          "documentation": "Se hur du påskyndar aktiveringen för användare",
+          "action": "Exportera som JSON"
+        }
+      },
+
+      "support": {
+        "title": "Support",
+        "message": "Om du har några frågor eller problem, vänligen kontakta oss via denna e-post"
+      }
+    },
+
+    "checkout": {
+      "title": "Kassa",
+      "how-many": "Hur många användare kommer att använda appen?",
+      "get-discount": "Vill du få 2 månader gratis genom att fakturera årligen?",
+      "yes-for-discount": "Ja, fakturera årligen",
+      "two-installations": "Du kan ha upp till två samtidiga installationer",
+      "manage-installations": "Du kan kontrollera åtkomsten via kontosidan",
+      "agree-prefix": "Genom att gå vidare accepterar du",
+      "agree-middle": "och",
+      "action": "Betala med Stripe",
+      "wait": "Vänta på kassan..."
+    },
+
+    "success": {
+      "title": "Betalning lyckades",
+      "message-company": "Din betalning godkändes, du kan nu ladda ner appen eller hantera dina användare.",
+      "message-individual": "Din betalning godkändes, du kan nu ladda ner appen."
+    },
+
+    "contact": {
+      "title": "Kontakt",
+      "subtitle": "Ställ frågor, rapportera buggar osv.",
+      "email": "E-post",
+      "email-info": "Rapportera buggar, fråga eller ge feedback",
+      "discord-info": "Chatta med communityt"
+    },
+
+    "terms-of-service": {
+      "title": "Användarvillkor"
+    },
+
+    "privacy-policy": {
+      "title": "Integritetspolicy"
+    }
+  },
+
+  "n-studio": {
+    "home": {
+      "header": "En ny era för skärminspelning",
+      "subtitle": "Ladda ner gratisversionen nu eller gå pro!",
+      "info": "För Windows 10/11",
+      "banners": {
+        "migrated": {
+          "title": "En ny app",
+          "message": "Detta är efterföljaren till <em>ScreenToGif</em>, gjort av samma utvecklare :)",
+          "action": "Skaffa ScreenToGif istället"
+        },
+        "false-positive": {
+          "title": "Falskt positivt",
+          "message": "Om Windows Defender markerar appen som ett virus, uppdatera Defender-säkerhetsdefinitionen till 1.449.348.0",
+          "action": "Visa resultat på VirusTotal"
+        }
+      },
+      "download-alternative": "Andra nedladdningsalternativ och tidigare versioner",
+      "more": "Vill du se fler skärmbilder?",
+      "feature-cards": {
+        "title": "Funktioner",
+        "screen-recorder": {
+          "title": "Skärminspelare",
+          "description": "Spela in din skärm, mikrofon- eller systemljud, markörhändelser och tangenttryckningar"
+        },
+        "sound-recorder": {
+          "title": "Ljudinspelare",
+          "description": "Spela in ljud från flera mikrofoner och högtalare samtidigt"
+        },
+        "exporter": {
+          "title": "Exportör",
+          "description": "Gör snabba ändringar (växla spår, trimma, ändra storlek, beskära, ändra hastighet eller bildfrekvens), välj format och preset och exportera ditt projekt"
+        },
+        "region-share": {
+          "title": "Regiondelning",
+          "description": "Välj ett skärmområde och dela det live med markören, klick, tangenter och följ markören i Meet, Zoom eller Teams"
+        },
+        "editor": {
+          "title": "Redigerare",
+          "description": "Skapa projekt från början eller redigera inspelningar med import av video/audio, text, former, ritning, pixeleffekter och framstegsindikatorer"
+        }
+      }
+    },
+
+    "downloads": {
+      "title": "Nedladdningar",
+      "license": {
+        "title": "Vad sägs om Pro?",
+        "message": "Du kan ladda ner den <em>gratis</em> versionen av appen. Vill du istället få Pro?",
+        "message-extra": "<br>Logga in om du redan har Pro."
+      },
+      "latest": {
+        "title": "Senaste versionen",
+        "latest-tag": "Senaste",
+        "description": "Beskrivning",
+        "error": "Fel vid laddning av senaste version..."
+      },
+      "past": {
+        "title": "Tidigare versioner",
+        "error": "Fel vid laddning av tidigare versioner..."
+      },
+      "assets": {
+        "title": "Filer",
+        "which-arch": "Vilken ska du välja?",
+        "which-arch.info": "Öppna Windows-inställningar för att kontrollera systemets arkitektur",
+        "list": "Lista",
+        "details": "Detaljer",
+        "get-installer": "Ladda ner installeraren",
+        "get-portable": "Ladda ner portabel",
+        "downloads": "=0 {Inga nedladdningar} =1 {1 nedladdning} >1 {{{count}} nedladdningar}}",
+        "portable": "portabel",
+        "light": "lätt",
+        "none": "Inga filer hittades..."
+      },
+      "previous": "Letar du efter tidigare versioner istället?",
+      "previous-versions": {
+        "title": "Tidigare versioner",
+        "empty": "Inga tidigare versioner hittades.",
+        "column": {
+          "version": "Version",
+          "title": "Titel",
+          "date": "Utgivningsdatum",
+          "downloads": "Nedladdningar"
+        }
+      }
+    },
+
+    "pricing": {
+      "title": "Prissättning",
+      "plans": "Prismodeller",
+      "individuals": "Personlig användning",
+      "companies": "Företag/Team",
+
+      "log-in-first": {
+        "title": "Logga in först",
+        "message": "Du måste vara inloggad för att fortsätta"
+      },
+
+      "starter": "Starter",
+      "professional": "Professional",
+      "business": "Business",
+      "enterprise": "Enterprise",
+      "free": "Gratis",
+      "one-time": "Engångsbetalning",
+      "subscription": "Prenumeration",
+      "flexible": "Flexibel investering",
+      "download-now": "Ladda ner nu",
+      "get-professional": "Skaffa Professional",
+      "contact-us": "Kontakta oss",
+      "month": "månad",
+      "month-user": "månad/användare",
+
+      "capture-screen": "Spela in din skärm fritt",
+      "capture-screen-framerate": "Kontrollera bildfrekvensen",
+      "framerate-regular": "Regelbunden (1 till 60 fps)",
+      "framerate-manual": "Manuell inspelning (via knapp eller genväg)",
+      "framerate-user-interaction": "Användarinteraktion (mus- eller tangentbordshändelser)",
+      "select-area": "Välj skärmområde, fönster eller skärm",
+      "capture-cursor-clicks": "Spela in markören och klick",
+      "capture-keystrokes": "Spela in tangentryck",
+      "capture-audio": "Spela in ljud från din mikrofon eller system",
+      "quick-adjustments": "Gör snabba justeringar innan export",
+      "trim": "Trimma",
+      "crop": "Beskära",
+      "resize": "Ändra storlek",
+      "toggle-layers": "Växla lager",
+      "export-multiple-formats": "Exportera till flera format",
+      "no-limits": "Inga begränsningar",
+      "no-watermark": "Inget vattenmärke",
+      "no-ads": "Inga annonser",
+
+      "starter-has": "Allt som Starter har",
+      "extra-frequencies": "Extra inspelningsfrekvenser",
+      "timelapse": "Timelapse (1–60 bilder per minut)",
+      "long-timelapse": "Lång timelapse (1–60 bilder per timme)",
+      "extra-adjustments": "Extra justeringar innan export",
+      "change-framerate": "Ändra animationens bildfrekvens",
+      "change-speed": "Ändra uppspelningshastighet",
+      "full-editor": "Fullfjädrad redigerare med tidslinje",
+      "insert-layers": "Infoga lager",
+      "recordings": "Inspelningar (skärm eller ljud)",
+      "media": "Media (video, bild, ljud)",
+      "texts": "Texter",
+      "images": "Bilder",
+      "shapes": "Former",
+      "drawings": "Teckningar",
+      "progress-indicator": "Förloppsindikator",
+      "pixelation": "Pixelering",
+      "brightness": "Ljusstyrka",
+      "add-effects": "Lägg till effekter",
+      "split-segments": "Dela upp segment",
+      "free-upgrades": "Med gratis uppgraderingar till mindre versioner (v1.X)",
+
+      "same-as-one-time": "Samma funktioner som engångsbetalningsalternativet",
+      "free-upgrades-major": "Med gratis uppgraderingar till huvudversioner",
+      "annual-billing": "Få två månader gratis vid årlig fakturering",
+      "admin-dashboard": "Med admin-panel för att kontrollera användaråtkomst",
+      "add-user": "Lägg till/ta bort användare",
+      "user-access": "Åtkomst per e-post eller per domän",
+
+      "same-as-business": "Samma funktioner som business-alternativet",
+      "large-corpo": "För stora företag",
+      "custom-billing": "Anpassad faktureringsplan efter ditt företags behov"
+    },
+
+    "screenshots": {
+      "title": "Skärmbilder",
+      "welcome": "Till en början kan du mötas av välkomstfönstret",
+      "welcome-info": "Detta är frivilligt, eftersom du kan ställa in att spelaren eller redigeraren öppnas vid start",
+      "record": "Du kan spela in din skärm tillsammans med din markör och tangenttryckningar",
+      "record-info": "Du kan välja vilken del av skärmen du vill spela in och styra FPS (du kan till och med fånga timelapse!)",
+      "export": "Sedan kan du exportera din inspelning",
+      "export-info": "Du kan göra några sista ändringar, som att dölja markören, beskära, trimma osv.",
+      "edit": "Men om du vill ha en kraftfullare redigeringsupplevelse finns det en passande lösning",
+      "edit-info": "Här kan du lägga till andra lager (bilder, text etc), lägga till effekter, kontrollera tidslinjen och mycket mer"
+    },
+
+    "documentation": {
+      "title": "Dokumentation",
+      "pages": {
+        "getting-started": "Kom igång",
+        "how-to-record": "Hur man spelar in",
+        "how-to-edit": "Hur man redigerar",
+        "how-to-export": "Hur man exporterar",
+        "how-to-import": "Hur man importerar"
+      }
+    }
+  },
+
+  "screentogif": {
+    "home": {
+      "subtitle": "Skärm-, webcam- och skissboardsinspelare med integrerad redigerare",
+      "info": "För Windows 10 eller senare",
+      "donate": "Donera",
+      "more": "Vill du se mer?",
+
+      "special-thanks": {
+        "header": "Speciellt tack",
+        "subtitle": "Här är några av företagen och personerna som hjälpte det här projektet",
+        "action": "Hjälp projektet"
+      }
+    },
+
+    "downloads": {
+      "get-new": {
+        "title": "Det finns en förbättrad version",
+        "message": "Detta är den <em>gamla</em> versionen av appen. Vill du få den nya?",
+        "action": "Få N-Studio"
+      },
+
+      "assets": {
+        "get-package": "Hämta paket"
+      }
+    },
+
+    "donation": {
+      "title": "Donation",
+      "why": {
+        "title": "Varför hjälpa?",
+        "subtitle": "Projektet skulle dra nytta av ditt stöd",
+        "free": "Gratis",
+        "free-info": "Öppen källkod på GitHub",
+        "no-ads": "Inga annonser",
+        "no-ads-info": "Inte ens i installationsprogrammet",
+        "commitment": "Förpliktelse",
+        "commitment-info": "Gjord med kärlek av en engagerad utvecklare",
+        "for-you": "Gjord för dig",
+        "for-you-info": "Feedbackdriven utveckling"
+      },
+      "how": {
+        "title": "Hur kan jag hjälpa?",
+        "subtitle": "Om du vill hjälpa projektet, här är hur",
+        "feedback": "Feedback",
+        "feedback-info": "Rapportera buggar eller ge feedback om din upplevelse",
+        "share": "Dela",
+        "share-info": "Dela med dina vänner",
+        "localize": "Lokalisera",
+        "localize-info": "Hjälp till att hålla översättningarna uppdaterade",
+        "donate": "Donera",
+        "donate-info": "Donationer är också välkomna ☺️"
+      },
+      "donate": {
+        "title": "Hur kan jag donera?",
+        "subtitle": "Här är några sätt att donera",
+        "single-info": "Engångsdonation",
+        "subscribe-info": "Prenumerera för att donera månadsvis",
+        "both-info": "Engångs- eller månatliga donationer",
+        "games-info": "Donera spel",
+        "parts-info": "Hjälp mig köpa nya delar till min dator",
+        "address-info": "Klicka för att se adressen"
+      }
+    },
+
+    "screenshots": {
+      "title": "Skärmbilder",
+      "welcome": "Till en början kan du mötas av välkomstfönstret",
+      "welcome-info": "Detta är frivilligt, eftersom du kan ställa in att spelaren eller redigeraren öppnas vid start",
+      "record": "Du kan spela in din skärm tillsammans med din markör och tangenttryckningar",
+      "record-info": "Du kan välja vilken del av skärmen du vill spela in och kontrollera FPS (du kan till och med fånga timelapse!)",
+      "edit": "Efter inspelningen får du tillgång till en kraftfull redigerare",
+      "edit-info": "Här kan du lägga till andra lager (bilder, text, teckningar etc.), ta bort rutor och mycket mer"
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "info": {
     "authors": "Machine Translated",
-    "last-update": "2026-04-11"
+    "last-update": "2026-05-17"
   },
 
   "common": {
@@ -295,7 +295,31 @@
           "action": "查看 VirusTotal 結果"
         }
       },
-      "more": "想查看更多嗎？"
+      "download-alternative": "其他下載選項和以前的版本",
+      "more": "想查看更多嗎？",
+      "feature-cards": {
+        "title": "功能",
+        "screen-recorder": {
+          "title": "螢幕錄製",
+          "description": "錄製螢幕、麥克風或系統音訊、游標操作和鍵盤輸入"
+        },
+        "sound-recorder": {
+          "title": "音訊錄製",
+          "description": "同時捕捉多個麥克風和喇叭的音訊"
+        },
+        "exporter": {
+          "title": "匯出",
+          "description": "進行快速編輯（切換軌道、修剪、調整大小、裁剪、改變速度或幀率），選擇格式和預設並導出項目"
+        },
+        "region-share": {
+          "title": "區域共享",
+          "description": "選擇螢幕區域並在 Meet、Zoom 或 Teams 中即時共享，支援游標、點擊、按鍵和游標追蹤"
+        },
+        "editor": {
+          "title": "編輯器",
+          "description": "從頭建立專案或匯入視頻/音訊進行編輯，新增文字、圖形、繪製、像素化效果和進度指示器"
+        }
+      }
     },
 
     "downloads": {

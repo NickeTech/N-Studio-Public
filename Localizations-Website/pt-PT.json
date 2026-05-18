@@ -1,0 +1,543 @@
+{
+  "info": {
+    "authors": "Nicke Manarin",
+    "last-update": "2026-05-17"
+  },
+  
+  "common": {
+    "download": "Transferir",
+    "get-pro": "Obter Pro",
+    "log-in": "Entrar",
+    "retry": "Tentar novamente",
+    "dismiss": "Dispensar",
+    "ok": "OK",
+    "select": "Selecionar",
+    "accept": "Aceitar",
+    "decline": "Recusar",
+    "success": "Sucesso",
+    "cancel": "Cancelar",
+    "remove": "Remover",
+    "go-back": "Voltar",
+    "show-more": "Mostrar mais",
+    "expand": "Expandir",
+    "collapse": "Recolher",
+    "hide": "Ocultar",
+    "previous": "Anterior",
+    "next": "Seguinte"
+  },
+
+  "validations": {
+    "required": "O campo é obrigatório"
+  },
+
+  "modals": {
+    "currency-selector": {
+      "title": "Doe via PayPal",
+      "subtitle": "Selecione a moeda antes de continuar",
+      "currency": "Moeda"
+    },
+
+    "donate-crypto": {
+      "title-bitcoin": "Doe via Bitcoin",
+      "title-bitcoin-cash": "Doe via BitcoinCash",
+      "title-ethereum": "Doe via Ethereum",
+      "subtitle": "Digitalize o código QR ou copie o endereço"
+    }
+  },
+
+  "n-tech": {
+    "about": "Sobre",
+    "change-language": "Alterar idioma",
+    "moto": "Isto é o trabalho de um único programador",
+    "toggle-theme": "Alterar tema",
+    "switch-to-light": "Mudar para o tema claro",
+    "switch-to-dark": "Mudar para o tema escuro",
+    "sign-in-up": "Entrar ou criar conta",
+
+    "cookies-consent": {
+      "title": "Cookies analíticos",
+      "message": "Utilizamos cookies de análise para melhorar o site. Aceita cookies analíticos?"
+    },
+
+    "sign-in": {
+      "title": "Entrar",
+      "email": "E-mail",
+      "email-placeholder": "Introduza o seu e-mail",
+      "password": "Palavra-passe",
+      "password-placeholder": "Introduza a sua palavra-passe",
+      "remember": "Lembrar credenciais",
+      "forgot": "Esqueceu-se da palavra-passe?",
+      "action": "Entrar",
+      "new-here": "Novo por aqui? Então crie a sua conta"
+    },
+
+    "sign-up": {
+      "title": "Criar conta",
+      "type": "Tipo de conta",
+      "type-individual": "Pessoal",
+      "type-company": "Empresa/Equipa",
+      "name": "Nome",
+      "name-placeholder": "Introduza o seu nome",
+      "company-name": "Nome da empresa",
+      "company-name-placeholder": "Introduza o nome da empresa",
+      "contact-name": "Nome do contacto",
+      "contact-name-placeholder": "Introduza o nome do contacto para a empresa",
+      "confirm-password": "Repita a palavra-passe",
+      "confirm-password-placeholder": "Introduza novamente a sua palavra-passe",
+      "action": "Criar conta",
+      "already-has": "Já tem uma conta? Entre com ela então"
+    },
+
+    "forgot": {
+      "title": "Esqueceu-se da palavra-passe?",
+      "action": "Solicitar nova palavra-passe",
+
+      "sent": {
+        "title": "Pedido de redefinição enviado",
+        "message": "Se existir uma conta com o e-mail informado, deverá receber uma mensagem de redefinição em breve."
+      }
+    },
+
+    "reset": {
+      "title": "Redefinição de palavra-passe",
+      "action": "Redefinir palavra-passe"
+    },
+
+    "verify-email": {
+      "title": "A validar e-mail",
+      "message": "Aguarde enquanto confirmamos o seu endereço de e-mail.",
+      "error-title": "Não foi possível validar o seu e-mail",
+      "error-message": "É provável que o link de verificação tenha expirado ou já tenha sido usado.",
+      "success-title": "E-mail validado",
+      "success-message": "O seu endereço de e-mail foi verificado com sucesso.",
+      "open-account": "Abrir página da conta",
+      "invalid-link": "O link de verificação de e-mail é inválido ou está incompleto.",
+      "validation-error": "Não foi possível validar o seu endereço de e-mail."
+    },
+
+    "home": {
+      "new-experience": "Uma nova experiência",
+      "familiar-face": "Um rosto familiar",
+      "custom-solution": "À procura de uma solução personalizada?",
+      "talk": "Vamos conversar :)"
+    },
+
+    "account": {
+      "title": "Conta",
+
+      "actions": {
+        "sign-out": "Sair",
+        "edit": "Editar info",
+        "change-email": "Alterar e-mail",
+        "change-password": "Alterar palavra-passe"
+      },
+
+      "edit": {
+        "title": "Editar conta"
+      },
+
+      "change-email": {
+        "title": "Alterar endereço de e-mail",
+        "new-address": "Novo endereço",
+        "success": "E-mail de verificação enviado"
+      },
+
+      "change-password": {
+        "title": "Alterar palavra-passe",
+        "current-password": "Palavra-passe atual",
+        "current-password-placeholder": "Introduza a sua palavra-passe atual",
+        "new-password": "Nova palavra-passe",
+        "new-password-placeholder": "Introduza a sua nova (e forte) palavra-passe",
+        "confirm-password-placeholder": "Introduza novamente a sua nova palavra-passe",
+        "success": "Palavra-passe alterada com sucesso"
+      },
+
+      "not-verified": {
+        "title": "Endereço de e-mail não verificado",
+        "message": "Por favor, abra o seu e-mail para ver a mensagem de verificação",
+        "resend": "Reenviar"
+      },
+
+      "subscriptions": {
+        "title": "Planos ou assinaturas",
+        "empty": "Ainda não há nenhum plano ou assinatura",
+        "get-n-studio": "Obter N-Studio",
+        "go-to-product": "Navegar para a página do produto",
+        "status": "=0 {Não concluído ou falha no pagamento} =1 {Proposto} =2 {Ativo} =3 {Expirado} =4 {Cancelado}",
+        "seats": "<0 {vagas sem limites} =1 {1 vaga} >1 {{{count}} vagas}",
+        "type": {
+          "month": "mês",
+          "year": "ano",
+          "per-version": "por versão"
+        },
+        "dismiss-info": "Dispensar plano/assinatura",
+        "download-info": "Navegar para a página de transferência do produto",
+        "manage": "Gerir",
+        "manage-info": "Gerir plano/assinatura",
+        "proceed": "Continuar",
+        "proceed-info": "Continuar com o pagamento"
+      },
+
+      "subscription": {
+        "title": "Plano/assinatura",
+        "manage": "Gerir assinatura/pagamento",
+        "manage-info": "Gerir assinatura/pagamento via Stripe",
+        "users-domains": "Utilizadores/Domínios",
+        "user": "Utilizador",
+        "domain": "Domínio",
+        "error-loading": "Erro ao carregar plano/assinatura...",
+        "none": "Ainda não há nenhum utilizador/domínio",
+        "documentation": "Saiba como gerir utilizadores e partilhar acesso à aplicação",
+
+        "actions": {
+          "import": "Importar vários utilizadores...",
+          "add": "Adicionar...",
+          "add-info": "Adicionar um utilizador ou domínio",
+          "copy-serial": "Copiar serial",
+          "send-email": "Enviar e-mail de ativação",
+          "freeze": "Congelar",
+          "unfreeze": "Descongelar",
+          "remove": "Remover",
+          "more": "Mais ações",
+          "export-all": "Exportar tudo...",
+          "export": "Exportar..."
+        },
+
+        "add": {
+          "title": "Adicionar utilizador/domínio",
+          "type": "Tipo",
+          "domain": "Domínio (regra geral)",
+          "send-email": "Enviar e-mail de registo",
+          "explanation": "Todos os endereços dentro deste domínio poderão entrar.",
+          "Adicionar": "Adicionar"
+        },
+
+        "remove": {
+          "title": "Deseja remover o utilizador?",
+          "title-domain": "Deseja remover o domínio?",
+          "message": "O utilizador vai perder acesso à aplicação.<br>Se quiser voltar a dar acesso, adicione o utilizador e partilhe o novo serial.",
+          "message-domain": "Os utilizadores nesse domínio já não vão conseguir entrar automaticamente."
+        },
+
+        "import": {
+          "title": "Importar utilizadores",
+          "emails": "Endereços de e-mail (separados por ponto e vírgula, vírgula ou novas linhas)",
+          "send-to-all": "Enviar e-mail de registo para todos",
+          "action": "Importar"
+        },
+
+        "export": {
+          "title": "=1 {Exportar utilizador} >1 {Exportar utilizadores}",
+          "content": "Conteúdo como JSON",
+          "documentation": "Veja como acelerar a ativação para os utilizadores",
+          "action": "Exportar como JSON"
+        }
+      },
+
+      "support": {
+        "title": "Suporte",
+        "message": "Se tiver alguma dúvida ou problema, por favor contacte-nos através deste e-mail"
+      }
+    },
+
+    "checkout": {
+      "title": "Finalizar pagamento",
+      "how-many": "Quantos utilizadores vão usar a aplicação?",
+      "get-discount": "Quer ganhar 2 meses grátis pagando anualmente?",
+      "yes-for-discount": "Sim, paga anualmente",
+      "two-installations": "Pode ter até duas instalações simultâneas",
+      "manage-installations": "Pode controlar o acesso através da página da conta",
+      "agree-prefix": "Ao prosseguir, concorda com os",
+      "agree-middle": "e",
+      "action": "Pague com Stripe",
+      "wait": "Aguarde pelo pagamento..."
+    },
+
+    "success": {
+      "title": "Pagamento concluído com sucesso",
+      "message-company": "O seu pagamento foi aprovado, agora pode transferir a aplicação ou gerir os seus utilizadores.",
+      "message-individual": "O seu pagamento foi aprovado, agora pode transferir a aplicação."
+    },
+
+    "contact": {
+      "title": "Contacto",
+      "subtitle": "Pergunte, reporte bugs, etc.",
+      "email": "E-mail",
+      "email-info": "Reporte bugs, pergunte ou deixe comentários",
+      "discord-info": "Converse com a comunidade"
+    },
+
+    "terms-of-service": {
+      "title": "Termos de serviço"
+    },
+
+    "privacy-policy": {
+      "title": "Política de privacidade"
+    }
+  },
+
+  "n-studio": {
+    "home": {
+      "header": "Uma nova era para a gravação de ecrã",
+      "subtitle": "Transfira agora a versão gratuita ou vá para o Pro!",
+      "info": "Para Windows 10/11",
+      "banners": {
+        "migrated": {
+          "title": "Uma nova aplicação",
+          "message": "Este é o sucessor do <em>ScreenToGif</em>, feito pelo mesmo programador :)",
+          "action": "Obter ScreenToGif"
+        },
+        "false-positive": {
+          "title": "Falso positivo",
+          "message": "Se o Windows Defender marcar a app como vírus, atualize a definição de segurança do Defender para 1.449.348.0",
+          "action": "Ver resultados no VirusTotal"
+        }
+      },
+      "download-alternative": "Outras opções de transferência e versões anteriores",
+      "more": "Quer ver mais imagens?",
+      "feature-cards": {
+        "title": "Recursos",
+        "screen-recorder": {
+          "title": "Gravador de ecrã",
+          "description": "Grave o ecrã, áudio do microfone ou do sistema, movimentos do cursor e teclas"
+        },
+        "sound-recorder": {
+          "title": "Gravador de som",
+          "description": "Capte áudio de vários microfones e altifalantes ao mesmo tempo"
+        },
+        "exporter": {
+          "title": "Exportador",
+          "description": "Faça edições rápidas (alternar faixas, aparar, redimensionar, cortar, alterar velocidade ou taxa de frames), escolha formato e preset e exporte o seu projeto"
+        },
+        "region-share": {
+          "title": "Partilha de região",
+          "description": "Selecione uma região do ecrã e partilhe-a ao vivo com cursor, cliques, teclas e seguimento do cursor no Meet, Zoom ou Teams"
+        },
+        "editor": {
+          "title": "Editor",
+          "description": "Crie projetos do zero ou edite gravações com importação de vídeo/áudio, texto, formas, desenho, efeitos de pixelização e indicadores de progresso"
+        }
+      }
+    },
+
+    "downloads": {
+      "title": "Transferências",
+      "license": {
+        "title": "E a versão Pro?",
+        "message": "Esta é a versão <em>gratuita</em> da aplicação. Que tal a versão Pro?",
+        "message-extra": "<br>Entre na sua conta se já possui a versão Pro."
+      },
+      "latest": {
+        "title": "Versão mais recente",
+        "latest-tag": "Mais recente",
+        "description": "Descrição",
+        "error": "Erro ao carregar a versão mais recente..."
+      },
+      "past": {
+        "title": "Versões anteriores",
+        "error": "Erro ao carregar versões anteriores..."
+      },
+      "assets": {
+        "title": "Ficheiros",
+        "which-arch": "Qual escolher?",
+        "which-arch.info": "Abra as Definições do Windows para verificar a arquitetura do seu sistema",
+        "list": "Lista",
+        "details": "Detalhes",
+        "get-installer": "Transferir instalador",
+        "get-portable": "Transferir portátil",
+        "downloads": "=0 {Nenhuma transferência} =1 {1 transferência} >1 {{{count}} transferências}}",
+        "portable": "portátil",
+        "light": "leve",
+        "none": "Nenhum ficheiro encontrado..."
+      },
+      "previous": "À procura de versões anteriores?",
+      "previous-versions": {
+        "title": "Versões anteriores",
+        "empty": "Nenhuma versão anterior encontrada.",
+        "column": {
+          "version": "Versão",
+          "title": "Título",
+          "date": "Data de lançamento",
+          "downloads": "Transferências"
+        }
+      }
+    },
+
+    "pricing": {
+      "title": "Preços",
+      "plans": "Modelos de preço",
+      "individuals": "Uso pessoal",
+      "companies": "Empresas/Equipas",
+
+      "log-in-first": {
+        "title": "Entre na conta primeiro",
+        "message": "Precisa de entrar na sua conta para continuar"
+      },
+
+      "starter": "Starter",
+      "professional": "Profissional",
+      "business": "Empresarial",
+      "enterprise": "Corporativo",
+      "free": "Gratuita",
+      "one-time": "Pagamento único",
+      "subscription": "Assinatura",
+      "flexible": "Investimento flexível",
+      "download-now": "Transferir agora",
+      "get-professional": "Obter Profissional",
+      "contact-us": "Contacte-nos",
+      "month": "mês",
+      "month-user": "mês/utilizador",
+
+      "capture-screen": "Capture o seu ecrã livremente",
+      "capture-screen-framerate": "Controle a taxa de frames",
+      "framerate-regular": "Regular (1 a 60 fps)",
+      "framerate-manual": "Captura manual (via botão ou atalho)",
+      "framerate-user-interaction": "Interação do utilizador (eventos do rato ou teclado)",
+      "select-area": "Selecione área do ecrã, janela ou ecrã inteiro",
+      "capture-cursor-clicks": "Capture o cursor e cliques",
+      "capture-keystrokes": "Capture pressionamentos de tecla",
+      "capture-audio": "Capture áudio do seu microfone ou do sistema",
+      "quick-adjustments": "Faça ajustes rápidos antes de exportar",
+      "trim": "Aparar",
+      "crop": "Cortar",
+      "resize": "Redimensionar",
+      "toggle-layers": "Alternar camadas",
+      "export-multiple-formats": "Exportar para vários formatos",
+      "no-limits": "Sem limites",
+      "no-watermark": "Sem marca d'água",
+      "no-ads": "Sem anúncios",
+
+      "starter-has": "Tudo o que o Starter oferece",
+      "extra-frequencies": "Frequências de captura adicionais",
+      "timelapse": "Timelapse (1-60 frames por minuto)",
+      "long-timelapse": "Timelapse longo (1-60 frames por hora)",
+      "extra-adjustments": "Ajustes extra antes de exportar",
+      "change-framerate": "Alterar a taxa de frames da animação",
+      "change-speed": "Alterar a velocidade de reprodução",
+      "full-editor": "Editor completo com linha do tempo",
+      "insert-layers": "Inserir camadas",
+      "recordings": "Gravações (ecrã ou som)",
+      "media": "Multimédia (vídeo, imagem, áudio)",
+      "texts": "Textos",
+      "images": "Imagens",
+      "shapes": "Formas",
+      "drawings": "Desenhos",
+      "progress-indicator": "Indicador de progresso",
+      "pixelation": "Pixelização",
+      "brightness": "Brilho",
+      "add-effects": "Adicionar efeitos",
+      "split-segments": "Dividir segmentos",
+      "free-upgrades": "Atualizações gratuitas para versões menores (v1.x)",
+
+      "same-as-one-time": "Mesmo conjunto de funcionalidades da opção de pagamento único",
+      "free-upgrades-major": "Atualizações gratuitas para versões principais",
+      "annual-billing": "Ganhe dois meses grátis ao pagar anualmente",
+
+      "admin-dashboard": "Com painel de administração para controlar o acesso dos utilizadores",
+      "add-user": "Adicionar/remover utilizadores",
+      "user-access": "Acesso por e-mail ou por domínio",
+
+      "same-as-business": "Mesmo conjunto de funcionalidades da opção Business",
+      "large-corpo": "Para grandes corporações",
+      "custom-billing": "Esquema de faturação personalizado às necessidades da sua empresa"
+    },
+
+    "screenshots": {
+      "title": "Imagens",
+      "welcome": "A princípio, pode ser recebido pela janela de boas-vindas",
+      "welcome-info": "Isto é opcional, pois pode configurar para abrir o gravador ou o editor na inicialização",
+      "record": "Pode gravar o seu ecrã, juntamente com o cursor e as teclas pressionadas",
+      "record-info": "Pode escolher que parte do ecrã gravar e controlar os FPS (pode até capturar timelapses!)",
+      "export": "Em seguida, pode exportar a sua gravação",
+      "export-info": "Pode fazer algumas alterações de última hora, como ocultar o cursor, cortar, aparar, etc.",
+      "edit": "Mas se quiser uma experiência de edição mais poderosa, há uma solução adequada",
+      "edit-info": "Aqui pode adicionar outras camadas (imagens, texto, etc.), adicionar efeitos, controlar a linha do tempo e muito mais"
+    },
+
+    "documentation": {
+      "title": "Documentação",
+      "pages": {
+        "getting-started": "Introdução",
+        "how-to-record": "Como gravar",
+        "how-to-edit": "Como editar",
+        "how-to-export": "Como exportar",
+        "how-to-import": "Como importar"
+      }
+    }
+  },
+
+  "screentogif": {
+    "home": {
+      "subtitle": "Gravador de ecrã, webcam e quadro com um editor integrado",
+      "info": "Para Windows 10 ou posterior",
+      "donate": "Doar",
+      "more": "Quer ver mais?",
+
+      "special-thanks": {
+        "header": "Agradecimento especial",
+        "subtitle": "Aqui estão algumas das empresas e pessoas que ajudaram este projeto",
+        "action": "Ajude o projeto"
+      }
+    },
+
+    "downloads": {
+      "get-new": {
+        "title": "Existe uma versão melhor",
+        "message": "Esta é a versão <em>antiga</em> da aplicação. Quer obter a nova versão?",
+        "action": "Obter N-Studio"
+      },
+
+      "assets": {
+        "get-package": "Transferir pacote"
+      }
+    },
+
+    "donation": {
+      "title": "Doações",
+      "why": {
+        "title": "Porque ajudar?",
+        "subtitle": "O projeto beneficiaria com o seu apoio",
+        "free": "Gratuito",
+        "free-info": "Código aberto no GitHub",
+        "no-ads": "Sem anúncios",
+        "no-ads-info": "Nem sequer no instalador",
+        "commitment": "Compromisso",
+        "commitment-info": "Feito com carinho por um programador comprometido",
+        "for-you": "Feito para si",
+        "for-you-info": "Desenvolvimento orientado pelo feedback"
+      },
+      "how": {
+        "title": "Como posso ajudar?",
+        "subtitle": "Se deseja ajudar o projeto, veja como",
+        "feedback": "Feedback",
+        "feedback-info": "Reporte bugs ou forneça feedback sobre a sua experiência",
+        "share": "Partilhar",
+        "share-info": "Partilhe com os seus amigos",
+        "localize": "Localizar",
+        "localize-info": "Ajude a manter as localizações atualizadas",
+        "donate": "Doar",
+        "donate-info": "Doações também são bem-vindas ☺️"
+      },
+      "donate": {
+        "title": "Como posso doar?",
+        "subtitle": "Aqui estão algumas formas de doar",
+        "single-info": "Doação única",
+        "subscribe-info": "Subscreva para doar mensalmente",
+        "both-info": "Doações únicas ou mensais",
+        "games-info": "Doe jogos",
+        "parts-info": "Ajude-me a comprar novas peças para o meu computador",
+        "address-info": "Clique para ver o endereço"
+      }
+    },
+
+    "screenshots": {
+      "title": "Imagens",
+      "welcome": "A princípio, pode ser recebido pela janela de boas-vindas",
+      "welcome-info": "Isto é opcional, pois pode configurar para abrir o gravador ou o editor na inicialização",
+      "record": "Pode gravar o seu ecrã, juntamente com o cursor e as teclas pressionadas",
+      "record-info": "Pode escolher que parte do ecrã gravar e controlar os FPS (pode até capturar timelapses!)",
+      "edit": "Após a gravação, terá à sua disposição um editor poderoso",
+      "edit-info": "Aqui pode adicionar outras camadas (imagens, texto, desenhos, etc.), eliminar frames e muito mais"
+    }
+  }
+}

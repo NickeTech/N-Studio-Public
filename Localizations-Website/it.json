@@ -1,7 +1,7 @@
 {
   "info": {
     "authors": "Machine Translated",
-    "last-update": "2026-04-11"
+    "last-update": "2026-05-17"
   },
 
   "common": {
@@ -295,7 +295,31 @@
           "action": "Visualizza i risultati di VirusTotal"
         }
       },
-      "more": "Vuoi vedere altro?"
+      "download-alternative": "Altre opzioni di download e versioni precedenti",
+      "more": "Vuoi vedere altro?",
+      "feature-cards": {
+        "title": "Funzionalità",
+        "screen-recorder": {
+          "title": "Registratore schermo",
+          "description": "Registra lo schermo, l'audio da microfono o sistema, i movimenti del cursore e le pressioni dei tasti"
+        },
+        "sound-recorder": {
+          "title": "Registratore audio",
+          "description": "Acquisisci audio da più microfoni e altoparlanti contemporaneamente"
+        },
+        "exporter": {
+          "title": "Esportatore",
+          "description": "Esegui modifiche rapide (attiva tracce, taglia, ridimensiona, ritaglia, cambia velocità o frame rate), scegli formato e preset ed esporta il progetto"
+        },
+        "region-share": {
+          "title": "Condivisione area",
+          "description": "Seleziona una regione dello schermo e condividila in diretta con cursore, clic, tasti e tracciamento del cursore in Meet, Zoom o Teams"
+        },
+        "editor": {
+          "title": "Editor",
+          "description": "Crea progetti da zero o modifica registrazioni con importazione video/audio, testo, forme, disegno, effetti di pixelazione e indicatori di progresso"
+        }
+      }
     },
 
     "downloads": {

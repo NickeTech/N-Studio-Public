@@ -1,7 +1,7 @@
 {
   "info": {
     "authors": "Nicke Manarin",
-    "last-update": "2026-05-17"
+    "last-update": "2026-04-11"
   },
 
   "common": {
@@ -246,7 +246,7 @@
       "title": "Checkout",
       "how-many": "How many users will be using the app?",
       "get-discount": "Do you want to get 2 months free by billing annually?",
-      "yes-for-discount": "Yes, bill anually",
+      "yes-for-discount": "Yes, bill annually",
       "two-installations": "You may have up to two simultaneous installations",
       "manage-installations": "You can control access via the account page",
       "agree-prefix": "By proceeding you agree with the",
@@ -434,7 +434,6 @@
       "same-as-one-time": "Same as the one-time payment option feature-wise",
       "free-upgrades-major": "With free upgrades to major versions",
       "annual-billing": "Get two months for free by billing annually",
-      
       "admin-dashboard": "With admin dashboard to control user access",
       "add-user": "Add/remove users",
       "user-access": "Per email or per domain access",
@@ -459,21 +458,11 @@
     "documentation": {
       "title": "Documentation",
       "pages": {
-        "introduction": "Introduction",
-        "screen-recorder": "Screen Recorder",
-        "sound-recorder": "Sound Recorder",
-        "region-share": "Region Share",
-        "exporter": "Exporter",
-        "editor": "Editor",
         "getting-started": "Getting Started",
         "how-to-record": "How To Record",
         "how-to-edit": "How To Edit",
         "how-to-export": "How To Export",
         "how-to-import": "How To Import"
-      },
-      "groups": {
-        "tools": "Tools",
-        "how-to": "How To"
       }
     }
   },

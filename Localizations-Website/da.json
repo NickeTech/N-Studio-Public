@@ -1,0 +1,544 @@
+{
+  "info": {
+    "authors": "Machine translated",
+    "last-update": "2026-05-17"
+  },
+
+  "common": {
+    "download": "Hent",
+    "get-pro": "Få Pro",
+    "log-in": "Log ind",
+    "retry": "Prøv igen",
+    "dismiss": "Afvis",
+    "ok": "OK",
+    "select": "Vælg",
+    "accept": "Accepter",
+    "decline": "Afvis",
+    "success": "Succes",
+    "cancel": "Annuller",
+    "remove": "Fjern",
+    "go-back": "Gå tilbage",
+    "show-more": "Vis mere",
+    "expand": "Udvid",
+    "collapse": "Skjul",
+    "hide": "Skjul",
+    "previous": "Forrige",
+    "next": "Næste"
+  },
+
+  "validations": {
+    "required": "Feltet er påkrævet"
+  },
+
+  "modals": {
+    "currency-selector": {
+      "title": "Doner med PayPal",
+      "subtitle": "Vælg din valuta, før du fortsætter",
+      "currency": "Valuta"
+    },
+
+    "donate-crypto": {
+      "title-bitcoin": "Doner med Bitcoin",
+      "title-bitcoin-cash": "Doner med BitcoinCash",
+      "title-ethereum": "Doner med Ethereum",
+      "subtitle": "Scan QR-koden eller kopier adressen"
+    }
+  },
+
+  "n-tech": {
+    "about": "Om",
+    "change-language": "Skift sprog",
+    "moto": "Dette er et projekt lavet af en enkelt udvikler",
+    "toggle-theme": "Skift tema",
+    "switch-to-light": "Skift til lyst tema",
+    "switch-to-dark": "Skift til mørkt tema",
+    "sign-in-up": "Log ind eller opret konto",
+
+    "cookies-consent": {
+      "title": "Analysecookies",
+      "message": "Vi bruger analysecookies til at forbedre webstedet. Accepter analysecookies?"
+    },
+
+    "sign-in": {
+      "title": "Log ind",
+      "email": "E-mail",
+      "email-placeholder": "Indtast din e-mail",
+      "password": "Adgangskode",
+      "password-placeholder": "Indtast din adgangskode",
+      "remember": "Husk mig",
+      "forgot": "Glemt din adgangskode?",
+      "action": "Log ind",
+      "new-here": "Ny her? Opret en konto"
+    },
+
+    "sign-up": {
+      "title": "Opret konto",
+      "type": "Kontotype",
+      "type-individual": "Privat",
+      "type-company": "Virksomhed/Team",
+      "name": "Navn",
+      "name-placeholder": "Indtast dit navn",
+      "company-name": "Virksomhedsnavn",
+      "company-name-placeholder": "Indtast virksomhedens navn",
+      "contact-name": "Kontaktpersons navn",
+      "contact-name-placeholder": "Indtast kontaktpersonens navn for virksomheden",
+      "confirm-password": "Bekræft adgangskode",
+      "confirm-password-placeholder": "Indtast din adgangskode igen",
+      "action": "Tilmeld",
+      "already-has": "Har du allerede en konto? Log ind så"
+    },
+
+    "forgot": {
+      "title": "Glemt adgangskode?",
+      "action": "Anmod om nulstilling",
+
+      "sent": {
+        "title": "Nulstilling anmodet",
+        "message": "Hvis en konto med den angivne e-mail findes, modtager du snart en e-mail med instruktioner."
+      }
+    },
+
+    "reset": {
+      "title": "Adgangskode nulstilling",
+      "action": "Nulstil adgangskode"
+    },
+
+    "verify-email": {
+      "title": "Validerer e-mail",
+      "message": "Vent mens vi bekræfter din e-mailadresse.",
+      "error-title": "Vi kunne ikke validere din e-mail",
+      "error-message": "Linket er muligvis udløbet, eller det er allerede blevet brugt.",
+      "success-title": "E-mail bekræftet",
+      "success-message": "Din e-mailadresse blev bekræftet med succes.",
+      "open-account": "Åbn kontoside",
+      "invalid-link": "E-mailbekræftelseslinket er ugyldigt eller ufuldstændigt.",
+      "validation-error": "Det var ikke muligt at bekræfte din e-mailadresse."
+    },
+
+    "home": {
+      "new-experience": "En ny oplevelse",
+      "familiar-face": "Et velkendt ansigt",
+      "custom-solution": "Leder du efter en skræddersyet løsning?",
+      "talk": "Lad os tale :)"
+    },
+
+    "account": {
+      "title": "Konto",
+
+      "actions": {
+        "sign-out": "Log ud",
+        "edit": "Rediger info",
+        "change-email": "Skift e-mail",
+        "change-password": "Skift adgangskode"
+      },
+
+      "edit": {
+        "title": "Rediger konto"
+      },
+
+      "change-email": {
+        "title": "Skift e-mailadresse",
+        "new-address": "Ny adresse",
+        "success": "Bekræftelses-e-mail sendt"
+      },
+
+      "change-password": {
+        "title": "Skift adgangskode",
+        "current-password": "Nuværende adgangskode",
+        "current-password-placeholder": "Indtast din nuværende adgangskode",
+        "new-password": "Ny adgangskode",
+        "new-password-placeholder": "Indtast din nye og stærke adgangskode",
+        "confirm-password-placeholder": "Indtast din nye adgangskode igen",
+        "success": "Adgangskoden blev ændret succesfuldt"
+      },
+
+      "not-verified": {
+        "title": "E-mailadresse ikke bekræftet",
+        "message": "Tjek venligst din e-mail for bekræftelsesbeskeden",
+        "resend": "Send igen"
+      },
+
+      "subscriptions": {
+        "title": "Planer eller abonnementer",
+        "empty": "Ingen planer/abonnementer endnu",
+        "get-n-studio": "Få N-Studio",
+        "go-to-product": "Gå til produktsiden",
+        "status": "=0 {Ikke færdiggjort eller betaling mislykkedes} =1 {Foreslået} =2 {Aktiv} =3 {Udløbet} =4 {Annulleret}",
+        "seats": "<0 {ubegrænsede pladser} =1 {1 plads} >1 {{{count}} pladser}",
+        "type": {
+          "month": "måned",
+          "year": "år",
+          "per-version": "pr. version"
+        },
+        "dismiss-info": "Afvis plan/abonnement",
+        "download-info": "Gå til download-siden for produktet",
+        "manage": "Administrer",
+        "manage-info": "Administrer plan/abonnement",
+        "restore": "Gendan",
+        "restore-info": "Gendan din tidligere betaling",
+        "proceed": "Fortsæt",
+        "proceed-info": "Fortsæt med betalingen"
+      },
+
+      "subscription": {
+        "title": "Plan/abonnement",
+        "manage": "Administrer abonnement/betaling",
+        "manage-info": "Administrer abonnement eller betaling via Stripe",
+        "users-domains": "Brugere/Domæner",
+        "user": "Bruger",
+        "domain": "Domæne",
+        "error-loading": "Fejl ved indlæsning af plan/abonnement...",
+        "none": "Ingen brugere/domæner endnu",
+        "documentation": "Lær hvordan du administrerer brugere og deler adgang til appen",
+
+        "actions": {
+          "import": "Importer flere brugere...",
+          "add": "Tilføj...",
+          "add-info": "Tilføj en bruger eller domæne",
+          "copy-serial": "Kopiér serial",
+          "send-email": "Send aktiverings-e-mail",
+          "freeze": "Frys",
+          "unfreeze": "Ophæv frysning",
+          "remove": "Fjern",
+          "more": "Flere handlinger",
+          "export-all": "Eksportér alle...",
+          "export": "Eksportér..."
+        },
+
+        "add": {
+          "title": "Tilføj bruger/domæne",
+          "type": "Type",
+          "domain": "Domæne (wildcard)",
+          "send-email": "Send registrerings-e-mail",
+          "explanation": "Alle adresser under dette domæne vil kunne tilslutte.",
+          "action": "Tilføj"
+        },
+
+        "remove": {
+          "title": "Vil du fjerne denne bruger?",
+          "title-domain": "Vil du fjerne dette domæne?",
+          "message": "Brugeren mister adgangen til appen.<br>Hvis du vil give dem adgang igen, skal du tilføje brugeren og dele den nye serial.",
+          "message-domain": "Brugere på dette domæne vil ikke længere kunne tilslutte automatisk."
+        },
+
+        "import": {
+          "title": "Importer brugere",
+          "emails": "E-mailadresser (adskilt med semikolon, komma eller nye linjer)",
+          "send-to-all": "Send registrerings-e-mail til alle",
+          "action": "Importer"
+        },
+
+        "export": {
+          "title": "=1 {Eksportér bruger} >1 {Eksportér brugere}",
+          "content": "Indhold som JSON",
+          "documentation": "Se, hvordan du fremskynder aktivering for brugere",
+          "action": "Eksportér som JSON"
+        }
+      },
+
+      "support": {
+        "title": "Support",
+        "message": "Hvis du har spørgsmål eller problemer, kontakt os venligst på denne e-mail"
+      }
+    },
+
+    "checkout": {
+      "title": "Betaling",
+      "how-many": "Hvor mange brugere vil bruge appen?",
+      "get-discount": "Vil du have 2 måneder gratis ved årlig fakturering?",
+      "yes-for-discount": "Ja, fakturer årligt",
+      "two-installations": "Du kan have op til to samtidige installationer",
+      "manage-installations": "Du kan styre adgangen via kontosiden",
+      "agree-prefix": "Ved at fortsætte accepterer du",
+      "agree-middle": "og",
+      "action": "Betal med Stripe",
+      "wait": "Vent på betalingen..."
+    },
+
+    "success": {
+      "title": "Betaling gennemført",
+      "message-company": "Din betaling blev godkendt, og du kan nu downloade appen eller administrere dine brugere.",
+      "message-individual": "Din betaling blev godkendt, og du kan nu downloade appen."
+    },
+
+    "contact": {
+      "title": "Kontakt",
+      "subtitle": "Stil spørgsmål, rapporter fejl osv.",
+      "email": "E-mail",
+      "email-info": "Rapportér fejl, spørg eller giv feedback",
+      "discord-info": "Chat med fællesskabet"
+    },
+
+    "terms-of-service": {
+      "title": "Servicevilkår"
+    },
+
+    "privacy-policy": {
+      "title": "Fortrolighedspolitik"
+    }
+  },
+
+  "n-studio": {
+    "home": {
+      "header": "En ny æra for skærmoptagelse",
+      "subtitle": "Hent nu gratisversionen eller gå pro!",
+      "info": "Til Windows 10/11",
+      "banners": {
+        "migrated": {
+          "title": "En ny app",
+          "message": "Dette er efterfølgeren til <em>ScreenToGif</em>, lavet af samme udvikler :)",
+          "action": "Få ScreenToGif i stedet"
+        },
+        "false-positive": {
+          "title": "Falsk positiv",
+          "message": "Hvis Windows Defender markerer appen som virus, opdater Defender-sikkerhedsdefinitionen til 1.449.348.0",
+          "action": "Se VirusTotal-resultater"
+        }
+      },
+      "download-alternative": "Andre downloadmuligheder og tidligere versioner",
+      "more": "Vil du se mere?",
+      "feature-cards": {
+        "title": "Funktioner",
+        "screen-recorder": {
+          "title": "Skærmoptager",
+          "description": "Optag din skærm, mikrofon- eller systemlyd, cursorbevægelser og tastetryk"
+        },
+        "sound-recorder": {
+          "title": "Lydoptager",
+          "description": "Optag lyd fra flere mikrofoner og højttalere samtidig"
+        },
+        "exporter": {
+          "title": "Eksportør",
+          "description": "Foretag hurtige ændringer (skift spor, trim, ændre størrelse, beskær, skift hastighed eller billedfrekvens), vælg format og preset og eksporter dit projekt"
+        },
+        "region-share": {
+          "title": "Regionsdeling",
+          "description": "Vælg et skærmområde og del det live med cursor, klik, taster og cursorfølgning i Meet, Zoom eller Teams"
+        },
+        "editor": {
+          "title": "Editor",
+          "description": "Opret projekter fra bunden eller rediger optagelser med video-/audioimport, tekst, figurer, tegning, pixeleffekter og fremdriftsindikatorer"
+        }
+      }
+    },
+
+    "downloads": {
+      "title": "Downloads",
+      "license": {
+        "title": "Hvad med Pro?",
+        "message": "Du kan hente den <em>gratis</em> version af appen. Vil du i stedet have Pro?",
+        "message-extra": "<br>Log ind, hvis du allerede har Pro."
+      },
+      "latest": {
+        "title": "Seneste version",
+        "latest-tag": "Seneste",
+        "description": "Beskrivelse",
+        "error": "Fejl ved indlæsning af seneste version..."
+      },
+      "past": {
+        "title": "Tidligere versioner",
+        "error": "Fejl ved indlæsning af tidligere versioner..."
+      },
+      "assets": {
+        "title": "Filer",
+        "which-arch": "Hvilken skal du vælge?",
+        "which-arch.info": "Åbn Windows-indstillinger for at tjekke systemarkitekturen",
+        "list": "Liste",
+        "details": "Detaljer",
+        "get-installer": "Hent installationsprogram",
+        "get-portable": "Hent bærbar",
+        "downloads": "=0 {Ingen downloads} =1 {1 download} >1 {{{count}} downloads}}",
+        "portable": "bærbar",
+        "light": "let",
+        "none": "Ingen filer fundet..."
+      },
+      "previous": "Leder du efter tidligere versioner i stedet?",
+      "previous-versions": {
+        "title": "Tidligere versioner",
+        "empty": "Ingen tidligere versioner blev fundet.",
+        "column": {
+          "version": "Version",
+          "title": "Titel",
+          "date": "Udgivelsesdato",
+          "downloads": "Downloads"
+        }
+      }
+    },
+
+    "pricing": {
+      "title": "Priser",
+      "plans": "Prisplaner",
+      "individuals": "Personlig brug",
+      "companies": "Virksomheder/Teams",
+
+      "log-in-first": {
+        "title": "Log ind først",
+        "message": "Du skal være logget ind for at fortsætte"
+      },
+
+      "starter": "Starter",
+      "professional": "Professionel",
+      "business": "Business",
+      "enterprise": "Enterprise",
+      "free": "Gratis",
+      "one-time": "Engangsbetaling",
+      "subscription": "Abonnement",
+      "flexible": "Fleksibel investering",
+      "download-now": "Hent nu",
+      "get-professional": "Få Professionel",
+      "contact-us": "Kontakt os",
+      "month": "måned",
+      "month-user": "måned/bruger",
+
+      "capture-screen": "Optag din skærm frit",
+      "capture-screen-framerate": "Kontroller billedhastigheden",
+      "framerate-regular": "Normal (1 til 60 fps)",
+      "framerate-manual": "Manuel optagelse (via knap eller genvej)",
+      "framerate-user-interaction": "Brugerinteraktion (mus- eller tastaturhændelser)",
+      "select-area": "Vælg skærmområde, vindue eller skærm",
+      "capture-cursor-clicks": "Optag markør og klik",
+      "capture-keystrokes": "Optag tastetryk",
+      "capture-audio": "Optag lyd fra din mikrofon eller system",
+      "quick-adjustments": "Foretag hurtige justeringer før eksport",
+      "trim": "Trim",
+      "crop": "Beskær",
+      "resize": "Skaler",
+      "toggle-layers": "Skift lag",
+      "export-multiple-formats": "Eksportér til flere formater",
+      "no-limits": "Ingen grænser",
+      "no-watermark": "Intet vandmærke",
+      "no-ads": "Ingen annoncer",
+
+      "starter-has": "Alt hvad Starter har",
+      "extra-frequencies": "Ekstra optagelsesfrekvenser",
+      "timelapse": "Timelapse (1-60 billeder pr. minut)",
+      "long-timelapse": "Lang timelapse (1-60 billeder i timen)",
+      "extra-adjustments": "Ekstra justeringer før eksport",
+      "change-framerate": "Skift animationens billedhastighed",
+      "change-speed": "Skift afspilningshastighed",
+      "full-editor": "Fuldgyldigt redigeringsprogram med tidslinje",
+      "insert-layers": "Indsæt lag",
+      "recordings": "Optagelser (skærm eller lyd)",
+      "media": "Medier (video, billede, lyd)",
+      "texts": "Tekster",
+      "images": "Billeder",
+      "shapes": "Former",
+      "drawings": "Tegninger",
+      "progress-indicator": "Fremdriftsindikator",
+      "pixelation": "Pixellering",
+      "brightness": "Lysstyrke",
+      "add-effects": "Tilføj effekter",
+      "split-segments": "Opdel segmenter",
+      "free-upgrades": "Med gratis opgraderinger til mindre versioner (v1.X)",
+
+      "same-as-one-time": "Samme som engangsbetalingsmuligheden funktionsmæssigt",
+      "free-upgrades-major": "Med gratis opgraderinger til hovedversioner",
+      "annual-billing": "Få to måneder gratis ved årlig fakturering",
+      "admin-dashboard": "Med admin-instrumentbræt til kontrol af brugeradgang",
+      "add-user": "Tilføj/fjern brugere",
+      "user-access": "Adgang per e-mail eller per domæne",
+
+      "same-as-business": "Samme som business-muligheden funktionsmæssigt",
+      "large-corpo": "Til store virksomheder",
+      "custom-billing": "Tilpasset faktureringsordning baseret på din virksomheds behov"
+    },
+
+    "screenshots": {
+      "title": "Skærmbilleder",
+      "welcome": "I starten kan du blive mødt af velkomstvinduet",
+      "welcome-info": "Det er valgfrit, da du kan indstille, at optageren eller editoren åbnes ved opstart",
+      "record": "Du kan optage din skærm sammen med markøren og tastetryk",
+      "record-info": "Du kan vælge, hvilken del af skærmen du vil optage, og kontrollere FPS (du kan endda optage timelapse!)",
+      "export": "Derefter kan du eksportere din optagelse",
+      "export-info": "Du kan lave nogle sidste øjebliksændringer, som at skjule markøren, beskære, trimme osv.",
+      "edit": "Men hvis du ønsker en mere kraftfuld redigeringsoplevelse, er der en passende løsning til det",
+      "edit-info": "Her kan du tilføje andre lag (billeder, tekst osv.), tilføje effekter, kontrollere tidslinjen og meget mere"
+    },
+
+    "documentation": {
+      "title": "Dokumentation",
+      "pages": {
+        "getting-started": "Kom godt i gang",
+        "how-to-record": "Sådan optager du",
+        "how-to-edit": "Sådan redigerer du",
+        "how-to-export": "Sådan eksporterer du",
+        "how-to-import": "Sådan importerer du"
+      }
+    }
+  },
+
+  "screentogif": {
+    "home": {
+      "subtitle": "Skærm-, webcam- og skitsebordoptager med en integreret editor",
+      "info": "Til Windows 10 eller nyere",
+      "donate": "Donér",
+      "more": "Vil du se mere?",
+
+      "special-thanks": {
+        "header": "Særlige tak",
+        "subtitle": "Her er nogle af projektets støtter",
+        "action": "Bliv sponsor"
+      }
+    },
+
+    "downloads": {
+      "get-new": {
+        "title": "Der er en forbedret version",
+        "message": "Dette er den <em>gamle</em> version af appen. Vil du have den nye?",
+        "action": "Få N-Studio"
+      },
+
+      "assets": {
+        "get-package": "Hent pakke"
+      }
+    },
+
+    "donation": {
+      "title": "Donation",
+      "why": {
+        "title": "Hvorfor hjælpe?",
+        "subtitle": "Projektet ville have gavn af din støtte",
+        "free": "Gratis",
+        "free-info": "Open source på GitHub",
+        "no-ads": "Ingen annoncer",
+        "no-ads-info": "Heller ikke i installationsprogrammet",
+        "commitment": "Forpligtelse",
+        "commitment-info": "Lavet med kærlighed af en engageret udvikler",
+        "for-you": "Lavet til dig",
+        "for-you-info": "Feedbackdrevet udvikling"
+      },
+      "how": {
+        "title": "Hvordan kan jeg hjælpe?",
+        "subtitle": "Hvis du ønsker at hjælpe projektet, er her hvordan",
+        "feedback": "Feedback",
+        "feedback-info": "Rapportér fejl eller giv feedback om din oplevelse",
+        "share": "Del",
+        "share-info": "Del med dine venner",
+        "localize": "Oversæt",
+        "localize-info": "Hjælp med at holde oversættelserne opdaterede",
+        "donate": "Donér",
+        "donate-info": "Donationer er også velkomne ☺️"
+      },
+      "donate": {
+        "title": "Hvordan kan jeg donere?",
+        "subtitle": "Her er nogle måder at donere på",
+        "single-info": "Engangsdonation",
+        "subscribe-info": "Abonner for at donere månedligt",
+        "both-info": "Engangsdonationer eller månedlige donationer",
+        "games-info": "Donér spil",
+        "parts-info": "Hjælp mig med at få nye dele til min computer",
+        "address-info": "Klik for at se adressen"
+      }
+    },
+
+    "screenshots": {
+      "title": "Skærmbilleder",
+      "welcome": "I starten kan du blive mødt af velkomstvinduet",
+      "welcome-info": "Det er valgfrit, da du kan indstille, at optageren eller editoren åbnes ved opstart",
+      "record": "Du kan optage din skærm sammen med markøren og tastetryk",
+      "record-info": "Du kan vælge, hvilken del af skærmen du vil optage, og kontrollere FPS (du kan endda optage timelapse!)",
+      "edit": "Efter optagelsen præsenteres du for en kraftfuld editor",
+      "edit-info": "Her kan du tilføje andre lag (billeder, tekst, tegninger osv.), slette frames og meget mere"
+    }
+  }
+}

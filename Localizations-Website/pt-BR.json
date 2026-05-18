@@ -1,7 +1,7 @@
 {
   "info": {
     "authors": "Nicke Manarin",
-    "last-update": "2026-04-11"
+    "last-update": "2026-05-17"
   },
   
   "common": {
@@ -293,7 +293,31 @@
           "action": "Ver resultados no VirusTotal"
         }
       },
-      "more": "Quer ver mais imagens?"
+      "download-alternative": "Outras opções de download e versões anteriores",
+      "more": "Quer ver mais imagens?",
+      "feature-cards": {
+        "title": "Recursos",
+        "screen-recorder": {
+          "title": "Gravador de tela",
+          "description": "Grave sua tela, áudio do microfone ou do sistema, movimentos do cursor e teclas"
+        },
+        "sound-recorder": {
+          "title": "Gravador de som",
+          "description": "Capture áudio de múltiplos microfones e alto-falantes ao mesmo tempo"
+        },
+        "exporter": {
+          "title": "Exportador",
+          "description": "Faça edições rápidas (alternar faixas, aparar, redimensionar, cortar, alterar velocidade ou taxa de quadros), escolha formato e preset e exporte seu projeto"
+        },
+        "region-share": {
+          "title": "Compartilhamento de região",
+          "description": "Selecione uma região da tela e compartilhe ao vivo com cursor, cliques, teclas e rastreamento do cursor no Meet, Zoom ou Teams"
+        },
+        "editor": {
+          "title": "Editor",
+          "description": "Crie projetos do zero ou edite gravações com importação de vídeo/áudio, texto, formas, desenho, efeitos de pixelização e indicadores de progresso"
+        }
+      }
     },
 
     "downloads": {

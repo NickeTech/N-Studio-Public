@@ -1,7 +1,7 @@
 {
   "info": {
     "authors": "Machine Translated",
-    "last-update": "2026-04-11"
+    "last-update": "2026-05-17"
   },
 
   "common": {
@@ -295,7 +295,31 @@
           "action": "VirusTotal の結果を見る"
         }
       },
-      "more": "もっと見たいですか？"
+      "download-alternative": "その他のダウンロードオプションと以前のバージョン",
+      "more": "もっと見たいですか？",
+      "feature-cards": {
+        "title": "機能",
+        "screen-recorder": {
+          "title": "画面録画",
+          "description": "画面、マイクまたはシステムの音声、カーソル操作、キー入力を録画します"
+        },
+        "sound-recorder": {
+          "title": "音声録音",
+          "description": "複数のマイクとスピーカーから同時に音声をキャプチャします"
+        },
+        "exporter": {
+          "title": "エクスポーター",
+          "description": "すばやく編集（トラック切り替え、トリミング、リサイズ、クロップ、速度やフレームレート変更）、形式とプリセットを選択してプロジェクトをエクスポートします"
+        },
+        "region-share": {
+          "title": "リージョン共有",
+          "description": "画面の一部を選択して、Meet、Zoom、Teamsでカーソル、クリック、キー操作、フォローカーソル追跡付きでライブ共有します"
+        },
+        "editor": {
+          "title": "エディター",
+          "description": "ゼロからプロジェクトを作成するか、ビデオ/オーディオのインポート、テキスト、図形、描画、ピクセル化エフェクト、進行状況インジケーターを使って録画を編集します"
+        }
+      }
     },
 
     "downloads": {

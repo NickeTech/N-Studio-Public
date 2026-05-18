@@ -1,7 +1,7 @@
 {
   "info": {
     "authors": "Machine Translated",
-    "last-update": "2026-04-11"
+    "last-update": "2026-05-17"
   },
 
   "common": {
@@ -295,7 +295,31 @@
           "action": "Bekijk VirusTotal-resultaten"
         }
       },
-      "more": "Wil je meer zien?"
+      "download-alternative": "Andere downloadopties en vorige versies",
+      "more": "Wil je meer zien?",
+      "feature-cards": {
+        "title": "Functies",
+        "screen-recorder": {
+          "title": "Schermrecorder",
+          "description": "Leg je scherm, microfoon- of systeemgeluid, cursorgebeurtenissen en toetsaanslagen vast"
+        },
+        "sound-recorder": {
+          "title": "Geluidsrecorder",
+          "description": "Leg audio van meerdere microfoons en luidsprekers tegelijk vast"
+        },
+        "exporter": {
+          "title": "Exporter",
+          "description": "Maak snelle bewerkingen (sporen aan/uit, trimmen, formaat wijzigen, bijsnijden, snelheid of framerate aanpassen), kies een formaat en preset en exporteer je project"
+        },
+        "region-share": {
+          "title": "Regio delen",
+          "description": "Selecteer een schermgebied en deel het live met cursor, klikken, toetsaanslagen en cursorvolgen in Meet, Zoom of Teams"
+        },
+        "editor": {
+          "title": "Editor",
+          "description": "Maak projecten vanaf nul of bewerk opnamen met video-/audio-import, tekst, vormen, tekenen, pixelatie-effecten en voortgangsindicatoren"
+        }
+      }
     },
 
     "downloads": {
