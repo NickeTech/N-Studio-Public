@@ -67,6 +67,8 @@
     <s:String x:Key="S.Imperative.OpenDrive">Åbn drev</s:String>
     <s:String x:Key="S.Imperative.AddEmail">Tilføj e-mail</s:String>
     <s:String x:Key="S.Imperative.SendWithout">Send uden</s:String>
+    <s:String x:Key="S.Imperative.Trim">Trim</s:String>
+    <s:String x:Key="S.Imperative.Resize">Ændr størrelse</s:String>
 
     <!--Time • Referential-->
     <s:String x:Key="S.Time.Ago.Seconds">få sekunder siden</s:String>
@@ -393,6 +395,15 @@
     <s:String x:Key="S.Dialogs.Cache.Message">Når du opretter en optagelse eller åbner noget for at redigere, oprettes og gemmes et projekt i cachemappen.</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent">Behold nylige projekter</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent.Info">Kun projekter, der er ældre end det, der er konfigureret i Indstillinger > Lager, vil blive slettet.</s:String>
+    
+    <!--Dialogs • Resize canvas-->
+    <s:String x:Key="S.Dialogs.ResizeCanvas.Header">Ændr lærredsstørrelse</s:String>
+    <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent">Skaler eksisterende indhold til den nye lærredsstørrelse</s:String>
+    <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent.Info">Når den er aktiveret, skaleres og genplaceres eksisterende indhold, så det passer til de nye lærredsdimensioner.&#10;Når den er deaktiveret, ændres kun lærredets størrelse.</s:String>
+    
+    <!--Dialogs • Trim canvas-->
+    <s:String x:Key="S.Dialogs.TrimCanvas.Header">Beskær lærred</s:String>
+    <s:String x:Key="S.Dialogs.TrimCanvas.Direction">Beskæringsretninger</s:String>
 
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">Nødvendige felter</s:String>
@@ -957,6 +968,10 @@
     <s:String x:Key="S.Editor.Edit.Remove">Fjern</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Text">Rediger tekst</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Drawing">Rediger tegning</s:String>
+    <s:String x:Key="S.Editor.Canvas">Lærred</s:String>
+    <s:String x:Key="S.Editor.Canvas.Resize">Ændr størrelse...</s:String>
+    <s:String x:Key="S.Editor.Canvas.Crop">Beskær...</s:String>
+    <s:String x:Key="S.Editor.Canvas.Trim">Trim...</s:String>
     <s:String x:Key="S.Editor.Insert">Indsæt</s:String>
     <s:String x:Key="S.Editor.Insert.Screen">Skærmoptagelse</s:String>
     <s:String x:Key="S.Editor.Insert.Sound">Lydoptagelse</s:String>
@@ -1169,6 +1184,8 @@
     <s:String x:Key="S.Positioning.BottomRight">Nederste højre hjørne</s:String>
     <s:String x:Key="S.Positioning.Width">Bredde</s:String>
     <s:String x:Key="S.Positioning.Height">Højde</s:String>
+    <s:String x:Key="S.Positioning.MinWidth">Minimumsbredde</s:String>
+    <s:String x:Key="S.Positioning.MinHeight">Minimumshøjde</s:String>
     <s:String x:Key="S.Positioning.Angle">Vinkel</s:String>
 
     <!--Timing-->
@@ -1569,6 +1586,12 @@
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.PreventBlack">Forhindrer optagelse af helt sorte billeder</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.PreventBlack.Info">Forhindrer fejlagtig optagelse af billeder med alle pixels sort</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.RemoteImprovement">Deaktiver lagdelt vinduesoptagelse, hvilket forbedrer ydeevnen ved fjernskrivebord</s:String>
+    
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.GammaCorrection">Anvend gamma-korrektion til 10-bit SDR-optagelse</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.GammaCorrection.Info">Skift lineær til sRGB-konvertering for 10-bit SDR-optagelse.&#10;Hvis farverne ser forkerte ud, prøv at skifte denne.</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation">Lysstyrkekompensation</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation.Auto">Auto</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation.Fixed">Fast</s:String>
 
     <!--Settings • Screen Recorder > Capture Frequency-->
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency">Optagefrekvens</s:String>

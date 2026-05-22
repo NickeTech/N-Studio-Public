@@ -67,6 +67,8 @@
     <s:String x:Key="S.Imperative.OpenDrive">ドライブを開く</s:String>
     <s:String x:Key="S.Imperative.AddEmail">メールを追加</s:String>
     <s:String x:Key="S.Imperative.SendWithout">なしで送信</s:String>
+    <s:String x:Key="S.Imperative.Trim">トリム</s:String>
+    <s:String x:Key="S.Imperative.Resize">リサイズ</s:String>
 
     <!--Time • Referential-->
     <s:String x:Key="S.Time.Ago.Seconds">数秒前</s:String>
@@ -393,6 +395,15 @@
     <s:String x:Key="S.Dialogs.Cache.Message">録画を作成したり編集するために何かを開いたりすると、プロジェクトが作成されキャッシュフォルダーに保存されます。</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent">最近のプロジェクトを保持</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent.Info">設定 > ストレージで構成された期間より古いプロジェクトのみが削除されます</s:String>
+    
+    <!--Dialogs • Resize canvas-->
+    <s:String x:Key="S.Dialogs.ResizeCanvas.Header">キャンバスのリサイズ</s:String>
+    <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent">既存のコンテンツを新しいキャンバスサイズに合わせてスケールします</s:String>
+    <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent.Info">有効にすると、既存のコンテンツは新しいキャンバスの寸法に合わせてリサイズおよび再配置されます。&#10;無効にすると、キャンバスのサイズのみが変更されます。</s:String>
+    
+    <!--Dialogs • Trim canvas-->
+    <s:String x:Key="S.Dialogs.TrimCanvas.Header">キャンバスをトリム</s:String>
+    <s:String x:Key="S.Dialogs.TrimCanvas.Direction">トリム方向</s:String>
 
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">必須フィールド</s:String>
@@ -957,6 +968,10 @@
     <s:String x:Key="S.Editor.Edit.Remove">削除</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Text">テキストを編集</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Drawing">描画を編集</s:String>
+    <s:String x:Key="S.Editor.Canvas">キャンバス</s:String>
+    <s:String x:Key="S.Editor.Canvas.Resize">リサイズ...</s:String>
+    <s:String x:Key="S.Editor.Canvas.Crop">トリミング...</s:String>
+    <s:String x:Key="S.Editor.Canvas.Trim">トリム...</s:String>
     <s:String x:Key="S.Editor.Insert">挿入</s:String>
     <s:String x:Key="S.Editor.Insert.Screen">画面録画</s:String>
     <s:String x:Key="S.Editor.Insert.Sound">音声録音</s:String>
@@ -1169,6 +1184,8 @@
     <s:String x:Key="S.Positioning.BottomRight">右下</s:String>
     <s:String x:Key="S.Positioning.Width">幅</s:String>
     <s:String x:Key="S.Positioning.Height">高さ</s:String>
+    <s:String x:Key="S.Positioning.MinWidth">最小幅</s:String>
+    <s:String x:Key="S.Positioning.MinHeight">最小高さ</s:String>
     <s:String x:Key="S.Positioning.Angle">角度</s:String>
 
     <!--Timing-->
@@ -1569,6 +1586,12 @@
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.PreventBlack">真っ黒なフレームのキャプチャを防止</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.PreventBlack.Info">すべてのピクセルが黒いフレームの誤ったキャプチャを防ぎます</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.RemoteImprovement">リモートデスクトップ接続時のパフォーマンスを改善するためにレイヤードウィンドウキャプチャを無効にします</s:String>
+    
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.GammaCorrection">10ビット SDR キャプチャにガンマ補正を適用</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.GammaCorrection.Info">10ビット SDR キャプチャのために線形から sRGB への変換を切り替えます。&#10;色がおかしく見える場合はこれを切り替えてみてください。</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation">明るさ補正</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation.Auto">自動</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation.Fixed">固定</s:String>
 
     <!--Settings • Screen Recorder > Capture Frequency-->
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency">キャプチャ頻度</s:String>

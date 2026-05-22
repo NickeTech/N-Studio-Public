@@ -67,6 +67,8 @@
     <s:String x:Key="S.Imperative.OpenDrive">開啟磁碟</s:String>
     <s:String x:Key="S.Imperative.AddEmail">新增電子郵件</s:String>
     <s:String x:Key="S.Imperative.SendWithout">不帶...發送</s:String>
+    <s:String x:Key="S.Imperative.Trim">修剪</s:String>
+    <s:String x:Key="S.Imperative.Resize">調整大小</s:String>
 
     <!--Time • Referential-->
     <s:String x:Key="S.Time.Ago.Seconds">幾秒前</s:String>
@@ -393,6 +395,15 @@
     <s:String x:Key="S.Dialogs.Cache.Message">當你建立錄製或打開要編輯的內容時，將建立一個專案並將其儲存在暫存資料夾中。</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent">保留最近的專案</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent.Info">只有早於「設定」>「存儲空間」中配置的專案才會被刪除</s:String>
+    
+    <!--Dialogs • Resize canvas-->
+    <s:String x:Key="S.Dialogs.ResizeCanvas.Header">調整畫布大小</s:String>
+    <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent">將現有內容縮放到新的畫布尺寸</s:String>
+    <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent.Info">啟用時，現有內容會重新縮放並重新定位，以符合新的畫布尺寸。&#10;停用時，僅更改畫布大小。</s:String>
+    
+    <!--Dialogs • Trim canvas-->
+    <s:String x:Key="S.Dialogs.TrimCanvas.Header">修剪畫布</s:String>
+    <s:String x:Key="S.Dialogs.TrimCanvas.Direction">修剪方向</s:String>
 
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">必填欄位</s:String>
@@ -957,6 +968,10 @@
     <s:String x:Key="S.Editor.Edit.Remove">移除</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Text">編輯文字</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Drawing">編輯繪圖</s:String>
+    <s:String x:Key="S.Editor.Canvas">畫布</s:String>
+    <s:String x:Key="S.Editor.Canvas.Resize">調整大小...</s:String>
+    <s:String x:Key="S.Editor.Canvas.Crop">裁剪...</s:String>
+    <s:String x:Key="S.Editor.Canvas.Trim">修剪...</s:String>
     <s:String x:Key="S.Editor.Insert">插入</s:String>
     <s:String x:Key="S.Editor.Insert.Screen">螢幕錄製</s:String>
     <s:String x:Key="S.Editor.Insert.Sound">聲音錄製</s:String>
@@ -1169,6 +1184,8 @@
     <s:String x:Key="S.Positioning.BottomRight">右下角</s:String>
     <s:String x:Key="S.Positioning.Width">寬度</s:String>
     <s:String x:Key="S.Positioning.Height">高度</s:String>
+    <s:String x:Key="S.Positioning.MinWidth">最小寬度</s:String>
+    <s:String x:Key="S.Positioning.MinHeight">最小高度</s:String>
     <s:String x:Key="S.Positioning.Angle">角度</s:String>
 
     <!--Timing-->
@@ -1569,6 +1586,12 @@
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.PreventBlack">防止擷取純黑影格</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.PreventBlack.Info">防止錯誤地擷取所有像素均為黑色的影格</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.RemoteImprovement">停用分層視窗擷取，在遠端桌面連線上提升效能</s:String>
+    
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.GammaCorrection">為 10 位 SDR 捕捉套用伽瑪校正</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.GammaCorrection.Info">切換 10 位 SDR 捕捉的線性到 sRGB 轉換。&#10;如果顏色看起來不正確，請嘗試切換此項。</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation">亮度補償</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation.Auto">自動</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation.Fixed">固定</s:String>
 
     <!--Settings • Screen Recorder > Capture Frequency-->
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency">擷取頻率</s:String>

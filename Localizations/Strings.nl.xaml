@@ -67,6 +67,8 @@
     <s:String x:Key="S.Imperative.OpenDrive">Station openen</s:String>
     <s:String x:Key="S.Imperative.AddEmail">E-mail toevoegen</s:String>
     <s:String x:Key="S.Imperative.SendWithout">Verzenden zonder</s:String>
+    <s:String x:Key="S.Imperative.Trim">Trim</s:String>
+    <s:String x:Key="S.Imperative.Resize">Formaat wijzigen</s:String>
 
     <!--Time • Referential-->
     <s:String x:Key="S.Time.Ago.Seconds">een paar seconden geleden</s:String>
@@ -393,6 +395,15 @@
     <s:String x:Key="S.Dialogs.Cache.Message">Wanneer je een opname maakt of iets opent om te bewerken, wordt er een project aangemaakt en opgeslagen in de cachemap.</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent">Bewaar recente projecten</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent.Info">Alleen projecten ouder dan wat is geconfigureerd in Instellingen > Opslag worden verwijderd</s:String>
+    
+    <!--Dialogs • Resize canvas-->
+    <s:String x:Key="S.Dialogs.ResizeCanvas.Header">Canvasformaat wijzigen</s:String>
+    <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent">Schaal bestaande inhoud naar de nieuwe canvasgrootte</s:String>
+    <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent.Info">Wanneer ingeschakeld, wordt bestaande inhoud geschaald en opnieuw gepositioneerd om bij de nieuwe canvasafmetingen te passen.&#10;Wanneer uitgeschakeld, verandert alleen de canvasgrootte.</s:String>
+    
+    <!--Dialogs • Trim canvas-->
+    <s:String x:Key="S.Dialogs.TrimCanvas.Header">Canvas bijsnijden</s:String>
+    <s:String x:Key="S.Dialogs.TrimCanvas.Direction">Trimrichtingen</s:String>
 
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">Verplichte velden</s:String>
@@ -957,6 +968,10 @@
     <s:String x:Key="S.Editor.Edit.Remove">Verwijderen</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Text">Tekst bewerken</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Drawing">Tekening bewerken</s:String>
+    <s:String x:Key="S.Editor.Canvas">Canvas</s:String>
+    <s:String x:Key="S.Editor.Canvas.Resize">Formaat wijzigen...</s:String>
+    <s:String x:Key="S.Editor.Canvas.Crop">Bijsnijden...</s:String>
+    <s:String x:Key="S.Editor.Canvas.Trim">Trim...</s:String>
     <s:String x:Key="S.Editor.Insert">Invoegen</s:String>
     <s:String x:Key="S.Editor.Insert.Screen">Schermopname</s:String>
     <s:String x:Key="S.Editor.Insert.Sound">Geluidsopname</s:String>
@@ -1169,6 +1184,8 @@
     <s:String x:Key="S.Positioning.BottomRight">Rechteronderhoek</s:String>
     <s:String x:Key="S.Positioning.Width">Breedte</s:String>
     <s:String x:Key="S.Positioning.Height">Hoogte</s:String>
+    <s:String x:Key="S.Positioning.MinWidth">Minimale breedte</s:String>
+    <s:String x:Key="S.Positioning.MinHeight">Minimale hoogte</s:String>
     <s:String x:Key="S.Positioning.Angle">Hoek</s:String>
 
     <!--Timing-->
@@ -1569,6 +1586,12 @@
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.PreventBlack">Voorkom dat volledig zwarte frames worden opgenomen</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.PreventBlack.Info">Voorkomt dat frames met alle pixels zwart ten onrechte worden vastgelegd</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.RemoteImprovement">Schakel gelaagde vensteropname uit voor betere prestaties op een externe desktopverbinding</s:String>
+    
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.GammaCorrection">Gamma-correctie toepassen voor 10-bits SDR-opname</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.GammaCorrection.Info">Schakel lineaire naar sRGB-conversie voor 10-bits SDR-opname in/uit.&#10;Als kleuren er onjuist uitzien, probeer dit te wijzigen.</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation">Helderheidscompensatie</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation.Auto">Auto</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation.Fixed">Vast</s:String>
 
     <!--Settings • Screen Recorder > Capture Frequency-->
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency">Opnamefrequentie</s:String>

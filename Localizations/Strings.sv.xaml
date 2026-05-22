@@ -67,6 +67,8 @@
     <s:String x:Key="S.Imperative.OpenDrive">Öppna enhet</s:String>
     <s:String x:Key="S.Imperative.AddEmail">Lägg till e-post</s:String>
     <s:String x:Key="S.Imperative.SendWithout">Skicka utan</s:String>
+    <s:String x:Key="S.Imperative.Trim">Trimma</s:String>
+    <s:String x:Key="S.Imperative.Resize">Ändra storlek</s:String>
 
     <!--Time • Referential-->
     <s:String x:Key="S.Time.Ago.Seconds">för några sekunder sedan</s:String>
@@ -393,6 +395,15 @@
     <s:String x:Key="S.Dialogs.Cache.Message">När du skapar en inspelning eller öppnar något för att redigera skapas ett projekt och lagras i cachemappen.</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent">Behåll senaste projekten</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent.Info">Endast projekt äldre än vad som är konfigurerat i Inställningar > Lagring kommer att raderas</s:String>
+    
+    <!--Dialogs • Resize canvas-->
+    <s:String x:Key="S.Dialogs.ResizeCanvas.Header">Ändra kanvasstorlek</s:String>
+    <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent">Skala befintligt innehåll till den nya kanvasstorleken</s:String>
+    <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent.Info">När den är aktiverad skalas och ompositioneras befintligt innehåll för att matcha de nya kanvasdimensionerna.&#10;När den är inaktiverad ändras endast kanvasstorleken.</s:String>
+    
+    <!--Dialogs • Trim canvas-->
+    <s:String x:Key="S.Dialogs.TrimCanvas.Header">Trimma kanvas</s:String>
+    <s:String x:Key="S.Dialogs.TrimCanvas.Direction">Trimriktningar</s:String>
 
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">Obligatoriska fält</s:String>
@@ -957,6 +968,10 @@
     <s:String x:Key="S.Editor.Edit.Remove">Ta bort</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Text">Redigera text</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Drawing">Redigera ritning</s:String>
+    <s:String x:Key="S.Editor.Canvas">Canvas</s:String>
+    <s:String x:Key="S.Editor.Canvas.Resize">Ändra storlek...</s:String>
+    <s:String x:Key="S.Editor.Canvas.Crop">Beskära...</s:String>
+    <s:String x:Key="S.Editor.Canvas.Trim">Trimma...</s:String>
     <s:String x:Key="S.Editor.Insert">Infoga</s:String>
     <s:String x:Key="S.Editor.Insert.Screen">Skärminspelning</s:String>
     <s:String x:Key="S.Editor.Insert.Sound">Ljudinspelning</s:String>
@@ -1169,6 +1184,8 @@
     <s:String x:Key="S.Positioning.BottomRight">Nedre högra hörnet</s:String>
     <s:String x:Key="S.Positioning.Width">Bredd</s:String>
     <s:String x:Key="S.Positioning.Height">Höjd</s:String>
+    <s:String x:Key="S.Positioning.MinWidth">Minsta bredd</s:String>
+    <s:String x:Key="S.Positioning.MinHeight">Minsta höjd</s:String>
     <s:String x:Key="S.Positioning.Angle">Vinkel</s:String>
 
     <!--Timing-->
@@ -1569,6 +1586,12 @@
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.PreventBlack">Förhindra inspelning av helsvarta bilder</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.PreventBlack.Info">Förhindrar att felaktigt fånga bilder med alla pixlar svarta</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.RemoteImprovement">Inaktivera fångst av lagerfönster, vilket förbättrar prestandan vid fjärrskrivbord</s:String>
+    
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.GammaCorrection">Använd gamma-korrigering för 10-bitars SDR-inspelning</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.GammaCorrection.Info">Växla linjär till sRGB-omvandling för 10-bitars SDR-inspelning.&#10;Om färgerna ser fel ut, försök byta detta.</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation">Ljusstyrkekompensation</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation.Auto">Auto</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation.Fixed">Fast</s:String>
 
     <!--Settings • Screen Recorder > Capture Frequency-->
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency">Frekvens för inspelning</s:String>

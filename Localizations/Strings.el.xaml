@@ -67,6 +67,8 @@
     <s:String x:Key="S.Imperative.OpenDrive">Άνοιγμα δίσκου</s:String>
     <s:String x:Key="S.Imperative.AddEmail">Προσθήκη email</s:String>
     <s:String x:Key="S.Imperative.SendWithout">Αποστολή χωρίς</s:String>
+    <s:String x:Key="S.Imperative.Trim">Περικοπή</s:String>
+    <s:String x:Key="S.Imperative.Resize">Αλλαγή μεγέθους</s:String>
 
     <!--Time • Referential-->
     <s:String x:Key="S.Time.Ago.Seconds">πριν λίγα δευτερόλεπτα</s:String>
@@ -393,6 +395,15 @@
     <s:String x:Key="S.Dialogs.Cache.Message">Όταν δημιουργείτε μια εγγραφή ή ανοίγετε κάτι για επεξεργασία, δημιουργείται ένα έργο και αποθηκεύεται στον φάκελο προσωρινής μνήμης.</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent">Διατήρηση πρόσφατων έργων</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent.Info">Θα διαγραφούν μόνο έργα παλαιότερα από αυτά που έχουν ρυθμιστεί στις Ρυθμίσεις > Αποθήκευση</s:String>
+    
+    <!--Dialogs • Resize canvas-->
+    <s:String x:Key="S.Dialogs.ResizeCanvas.Header">Αλλαγή μεγέθους καμβά</s:String>
+    <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent">Κλίμακα του υπάρχοντος περιεχομένου στο νέο μέγεθος καμβά</s:String>
+    <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent.Info">Όταν είναι ενεργοποιημένο, το υπάρχον περιεχόμενο αλλάζει μέγεθος και επανατοποθετείται για να ταιριάζει στις νέες διαστάσεις καμβά.&#10;Όταν είναι απενεργοποιημένο, αλλάζει μόνο το μέγεθος του καμβά.</s:String>
+    
+    <!--Dialogs • Trim canvas-->
+    <s:String x:Key="S.Dialogs.TrimCanvas.Header">Περικοπή καμβά</s:String>
+    <s:String x:Key="S.Dialogs.TrimCanvas.Direction">Κατευθύνσεις περικοπής</s:String>
 
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">Απαιτούμενα πεδία</s:String>
@@ -957,6 +968,10 @@
     <s:String x:Key="S.Editor.Edit.Remove">Αφαίρεση</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Text">Επεξεργασία κειμένου</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Drawing">Επεξεργασία σχεδίου</s:String>
+    <s:String x:Key="S.Editor.Canvas">Καμβάς</s:String>
+    <s:String x:Key="S.Editor.Canvas.Resize">Αλλαγή μεγέθους...</s:String>
+    <s:String x:Key="S.Editor.Canvas.Crop">Περικοπή...</s:String>
+    <s:String x:Key="S.Editor.Canvas.Trim">Περικοπή...</s:String>
     <s:String x:Key="S.Editor.Insert">Εισαγωγή</s:String>
     <s:String x:Key="S.Editor.Insert.Screen">Εγγραφή οθόνης</s:String>
     <s:String x:Key="S.Editor.Insert.Sound">Εγγραφή ήχου</s:String>
@@ -1169,6 +1184,8 @@
     <s:String x:Key="S.Positioning.BottomRight">Κάτω δεξιά γωνία</s:String>
     <s:String x:Key="S.Positioning.Width">Πλάτος</s:String>
     <s:String x:Key="S.Positioning.Height">Ύψος</s:String>
+    <s:String x:Key="S.Positioning.MinWidth">Ελάχιστο πλάτος</s:String>
+    <s:String x:Key="S.Positioning.MinHeight">Ελάχιστο ύψος</s:String>
     <s:String x:Key="S.Positioning.Angle">Γωνία</s:String>
 
     <!--Timing-->
@@ -1569,6 +1586,12 @@
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.PreventBlack">Αποτροπή καταγραφής πλήρως μαύρων καρέ</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.PreventBlack.Info">Αποτρέπει τη λανθασμένη καταγραφή καρέ με όλα τα εικονοστοιχεία μαύρα</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.RemoteImprovement">Απενεργοποίηση καταγραφής παραθύρων στρώσης, βελτιώνοντας την απόδοση σε απομακρυσμένη σύνδεση επιφάνειας εργασίας</s:String>
+    
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.GammaCorrection">Εφαρμογή διόρθωσης γάμμα για καταγραφή SDR 10-bit</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.GammaCorrection.Info">Εναλλαγή της γραμμικής σε sRGB μετατροπής για καταγραφή SDR 10-bit.&#10;Εάν τα χρώματα φαίνονται λανθασμένα, δοκιμάστε να αλλάξετε αυτή την ρύθμιση.</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation">Αντιστάθμιση φωτεινότητας</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation.Auto">Αυτόματο</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation.Fixed">Σταθερό</s:String>
 
     <!--Settings • Screen Recorder > Capture Frequency-->
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency">Συχνότητα καταγραφής</s:String>

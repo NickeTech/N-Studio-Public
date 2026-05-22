@@ -67,6 +67,8 @@
     <s:String x:Key="S.Imperative.OpenDrive">Открыть диск</s:String>
     <s:String x:Key="S.Imperative.AddEmail">Добавить email</s:String>
     <s:String x:Key="S.Imperative.SendWithout">Отправить без</s:String>
+    <s:String x:Key="S.Imperative.Trim">Обрезать</s:String>
+    <s:String x:Key="S.Imperative.Resize">Изменить размер</s:String>
 
     <!--Time • Referential-->
     <s:String x:Key="S.Time.Ago.Seconds">несколько секунд назад</s:String>
@@ -393,6 +395,15 @@
     <s:String x:Key="S.Dialogs.Cache.Message">Когда вы создаёте запись или открываете что-то для редактирования, проект создаётся и сохраняется в папке кэша.</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent">Сохранить недавние проекты</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent.Info">Будут удалены только проекты старше срока, указанного в Настройки > Хранилище</s:String>
+    
+    <!--Dialogs • Resize canvas-->
+    <s:String x:Key="S.Dialogs.ResizeCanvas.Header">Изменить размер холста</s:String>
+    <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent">Масштабировать существующее содержимое до нового размера холста</s:String>
+    <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent.Info">При включении существующее содержимое масштабируется и перемещается так, чтобы соответствовать новым размерам холста.&#10;При отключении изменяется только размер холста.</s:String>
+    
+    <!--Dialogs • Trim canvas-->
+    <s:String x:Key="S.Dialogs.TrimCanvas.Header">Обрезать холст</s:String>
+    <s:String x:Key="S.Dialogs.TrimCanvas.Direction">Направления обрезки</s:String>
 
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">Обязательные поля</s:String>
@@ -957,6 +968,10 @@
     <s:String x:Key="S.Editor.Edit.Remove">Удалить</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Text">Редактировать текст</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Drawing">Редактировать рисунок</s:String>
+    <s:String x:Key="S.Editor.Canvas">Холст</s:String>
+    <s:String x:Key="S.Editor.Canvas.Resize">Изменить размер...</s:String>
+    <s:String x:Key="S.Editor.Canvas.Crop">Обрезать...</s:String>
+    <s:String x:Key="S.Editor.Canvas.Trim">Обрезать...</s:String>
     <s:String x:Key="S.Editor.Insert">Вставить</s:String>
     <s:String x:Key="S.Editor.Insert.Screen">Запись экрана</s:String>
     <s:String x:Key="S.Editor.Insert.Sound">Запись звука</s:String>
@@ -1169,6 +1184,8 @@
     <s:String x:Key="S.Positioning.BottomRight">Нижний правый угол</s:String>
     <s:String x:Key="S.Positioning.Width">Ширина</s:String>
     <s:String x:Key="S.Positioning.Height">Высота</s:String>
+    <s:String x:Key="S.Positioning.MinWidth">Минимальная ширина</s:String>
+    <s:String x:Key="S.Positioning.MinHeight">Минимальная высота</s:String>
     <s:String x:Key="S.Positioning.Angle">Угол</s:String>
 
     <!--Timing-->
@@ -1569,6 +1586,12 @@
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.PreventBlack">Предотвратить захват полностью чёрных кадров</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.PreventBlack.Info">Предотвращает ошибочный захват кадров, где все пиксели чёрные</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.RemoteImprovement">Отключает захват слоя окна, улучшая производительность при удалённом рабочем столе</s:String>
+    
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.GammaCorrection">Применить гамма-коррекцию для захвата SDR 10 бит</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.GammaCorrection.Info">Переключает преобразование из линейного в sRGB для захвата SDR 10 бит.&#10;Если цвета выглядят неправильно, попробуйте изменить это.</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation">Компенсация яркости</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation.Auto">Авто</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation.Fixed">Фиксированное</s:String>
 
     <!--Settings • Screen Recorder > Capture Frequency-->
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency">Частота захвата</s:String>

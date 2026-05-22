@@ -67,6 +67,8 @@
     <s:String x:Key="S.Imperative.OpenDrive">Open drive</s:String>
     <s:String x:Key="S.Imperative.AddEmail">Add email</s:String>
     <s:String x:Key="S.Imperative.SendWithout">Send without</s:String>
+    <s:String x:Key="S.Imperative.Trim">Trim</s:String>
+    <s:String x:Key="S.Imperative.Resize">Resize</s:String>
 
     <!--Time • Referential-->
     <s:String x:Key="S.Time.Ago.Seconds">few seconds ago</s:String>
@@ -393,6 +395,15 @@
     <s:String x:Key="S.Dialogs.Cache.Message">When you create a recording or open something to edit, a project is created and stored inside the cache folder.</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent">Keep recent projects</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent.Info">Only projects older than what's configured in Settings > Storage will be deleted</s:String>
+
+    <!--Dialogs • Resize canvas-->
+    <s:String x:Key="S.Dialogs.ResizeCanvas.Header">Resize canvas</s:String>
+    <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent">Scale existing content to the new canvas size</s:String>
+    <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent.Info">When enabled, existing content is resized and repositioned to match the new canvas dimensions.&#10;When disabled, only the canvas size changes.</s:String>
+
+    <!--Dialogs • Trim canvas-->
+    <s:String x:Key="S.Dialogs.TrimCanvas.Header">Trim canvas</s:String>
+    <s:String x:Key="S.Dialogs.TrimCanvas.Direction">Trim directions</s:String>
 
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">Required fields</s:String>
@@ -957,6 +968,10 @@
     <s:String x:Key="S.Editor.Edit.Remove">Remove</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Text">Edit text</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Drawing">Edit drawing</s:String>
+    <s:String x:Key="S.Editor.Canvas">Canvas</s:String>
+    <s:String x:Key="S.Editor.Canvas.Resize">Resize...</s:String>
+    <s:String x:Key="S.Editor.Canvas.Crop">Crop...</s:String>
+    <s:String x:Key="S.Editor.Canvas.Trim">Trim...</s:String>
     <s:String x:Key="S.Editor.Insert">Insert</s:String>
     <s:String x:Key="S.Editor.Insert.Screen">Screen Recording</s:String>
     <s:String x:Key="S.Editor.Insert.Sound">Sound Recording</s:String>
@@ -1169,6 +1184,8 @@
     <s:String x:Key="S.Positioning.BottomRight">Bottom right corner</s:String>
     <s:String x:Key="S.Positioning.Width">Width</s:String>
     <s:String x:Key="S.Positioning.Height">Height</s:String>
+    <s:String x:Key="S.Positioning.MinWidth">Minimum width</s:String>
+    <s:String x:Key="S.Positioning.MinHeight">Minimum height</s:String>
     <s:String x:Key="S.Positioning.Angle">Angle</s:String>
 
     <!--Timing-->
@@ -1569,6 +1586,12 @@
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.PreventBlack">Prevent capture of full black frames</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.PreventBlack.Info">Prevents wrongfully capturing frames with all pixels as black</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.RemoteImprovement">Disable layered window capture, improving performance on a remote desktop connection</s:String>
+
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.GammaCorrection">Apply gamma correction for 10-bit SDR capture</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.GammaCorrection.Info">Toggle linear to sRGB conversion for 10-bit SDR capture.&#10;If colors look incorrect, try switching this</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation">Brightness compensation</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation.Auto">Auto</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation.Fixed">Fixed</s:String>
 
     <!--Settings • Screen Recorder > Capture Frequency-->
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency">Capture frequency</s:String>

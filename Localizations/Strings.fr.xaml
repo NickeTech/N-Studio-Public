@@ -67,6 +67,8 @@
     <s:String x:Key="S.Imperative.OpenDrive">Ouvrir le lecteur</s:String>
     <s:String x:Key="S.Imperative.AddEmail">Ajouter un e-mail</s:String>
     <s:String x:Key="S.Imperative.SendWithout">Envoyer sans</s:String>
+    <s:String x:Key="S.Imperative.Trim">Rogner</s:String>
+    <s:String x:Key="S.Imperative.Resize">Redimensionner</s:String>
 
     <!--Time • Referential-->
     <s:String x:Key="S.Time.Ago.Seconds">il y a quelques secondes</s:String>
@@ -393,6 +395,15 @@
     <s:String x:Key="S.Dialogs.Cache.Message">Lorsque vous créez un enregistrement ou ouvrez quelque chose à modifier, un projet est créé et stocké dans le dossier de cache.</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent">Conserver les projets récents</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent.Info">Seuls les projets plus anciens que ce qui est configuré dans Paramètres > Stockage seront supprimés</s:String>
+    
+    <!--Dialogs • Resize canvas-->
+    <s:String x:Key="S.Dialogs.ResizeCanvas.Header">Redimensionner le canevas</s:String>
+    <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent">Redimensionner le contenu existant à la nouvelle taille du canevas</s:String>
+    <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent.Info">Lorsque activé, le contenu existant est redimensionné et repositionné pour correspondre aux nouvelles dimensions du canevas.&#10;Lorsque désactivé, seule la taille du canevas change.</s:String>
+    
+    <!--Dialogs • Trim canvas-->
+    <s:String x:Key="S.Dialogs.TrimCanvas.Header">Rogner le canevas</s:String>
+    <s:String x:Key="S.Dialogs.TrimCanvas.Direction">Directions de rognage</s:String>
 
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">Champs obligatoires</s:String>
@@ -957,6 +968,10 @@
     <s:String x:Key="S.Editor.Edit.Remove">Supprimer</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Text">Modifier le texte</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Drawing">Modifier le dessin</s:String>
+    <s:String x:Key="S.Editor.Canvas">Canevas</s:String>
+    <s:String x:Key="S.Editor.Canvas.Resize">Redimensionner...</s:String>
+    <s:String x:Key="S.Editor.Canvas.Crop">Rogner...</s:String>
+    <s:String x:Key="S.Editor.Canvas.Trim">Rogner...</s:String>
     <s:String x:Key="S.Editor.Insert">Insérer</s:String>
     <s:String x:Key="S.Editor.Insert.Screen">Enregistrement d'écran</s:String>
     <s:String x:Key="S.Editor.Insert.Sound">Enregistrement audio</s:String>
@@ -1169,6 +1184,8 @@
     <s:String x:Key="S.Positioning.BottomRight">Coin inférieur droit</s:String>
     <s:String x:Key="S.Positioning.Width">Largeur</s:String>
     <s:String x:Key="S.Positioning.Height">Hauteur</s:String>
+    <s:String x:Key="S.Positioning.MinWidth">Largeur minimale</s:String>
+    <s:String x:Key="S.Positioning.MinHeight">Hauteur minimale</s:String>
     <s:String x:Key="S.Positioning.Angle">Angle</s:String>
 
     <!--Timing-->
@@ -1569,6 +1586,12 @@
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.PreventBlack">Empêcher la capture de frames entièrement noirs</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.PreventBlack.Info">Empêche la capture erronée de frames avec tous les pixels en noir</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.RemoteImprovement">Désactiver la capture de fenêtres en couches, améliorant les performances sur une connexion bureau à distance</s:String>
+    
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.GammaCorrection">Appliquer la correction gamma pour la capture SDR 10 bits</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.GammaCorrection.Info">Activez la conversion linéaire vers sRGB pour la capture SDR 10 bits.&#10;Si les couleurs semblent incorrectes, essayez de changer ceci.</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation">Compensation de luminosité</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation.Auto">Auto</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation.Fixed">Fixe</s:String>
 
     <!--Settings • Screen Recorder > Capture Frequency-->
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency">Fréquence de capture</s:String>
