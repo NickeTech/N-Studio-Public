@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Μεταφρασμένο μηχανικά (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-14</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-27</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Αποδοχή</s:String>
@@ -38,7 +38,7 @@
     <s:String x:Key="S.Imperative.Upgrade">Αναβάθμιση</s:String>
     <s:String x:Key="S.Imperative.Save">Αποθήκευση</s:String>
     <s:String x:Key="S.Imperative.Create">Δημιουργία</s:String>
-    <s:String x:Key="S.Imperative.Ok">Ok</s:String>
+    <!--<s:String x:Key="S.Imperative.Ok">Ok</s:String>-->
     <s:String x:Key="S.Imperative.Cancel">Ακύρωση</s:String>
     <s:String x:Key="S.Imperative.Close">Κλείσιμο</s:String>
     <s:String x:Key="S.Imperative.Continue">Συνέχεια</s:String>
@@ -69,6 +69,7 @@
     <s:String x:Key="S.Imperative.SendWithout">Αποστολή χωρίς</s:String>
     <s:String x:Key="S.Imperative.Trim">Περικοπή</s:String>
     <s:String x:Key="S.Imperative.Resize">Αλλαγή μεγέθους</s:String>
+    <s:String x:Key="S.Imperative.Search">Αναζήτηση</s:String>
 
     <!--Time • Referential-->
     <s:String x:Key="S.Time.Ago.Seconds">πριν λίγα δευτερόλεπτα</s:String>
@@ -88,32 +89,32 @@
     <s:String x:Key="S.Time.Static.Milliseconds">χιλιοστά του δευτερολέπτου</s:String>
     <s:String x:Key="S.Time.Static.Milliseconds.2">χιλιοστά του δευτερολέπτου</s:String>
     <s:String x:Key="S.Time.Static.Milliseconds.3-4">χιλιοστά του δευτερολέπτου</s:String>
-    <s:String x:Key="S.Time.Static.Short.Milliseconds">ms</s:String>
+    <!--<s:String x:Key="S.Time.Static.Short.Milliseconds">ms</s:String>-->
     <s:String x:Key="S.Time.Static.Second">δευτερόλεπτο</s:String>
     <s:String x:Key="S.Time.Static.Seconds">δευτερόλεπτα</s:String>
     <s:String x:Key="S.Time.Static.Seconds.2">δευτερόλεπτα</s:String>
     <s:String x:Key="S.Time.Static.Seconds.3-4">δευτερόλεπτα</s:String>
     <s:String x:Key="S.Time.Static.Short.Second">δλ</s:String>
     <s:String x:Key="S.Time.Static.Short.Seconds">δλ</s:String>
-    <s:String x:Key="S.Time.Static.Single.Second">s</s:String>
+    <!--<s:String x:Key="S.Time.Static.Single.Second">s</s:String>-->
     <s:String x:Key="S.Time.Static.Minute">λεπτό</s:String>
     <s:String x:Key="S.Time.Static.Minutes">λεπτά</s:String>
     <s:String x:Key="S.Time.Static.Minutes.2">λεπτά</s:String>
     <s:String x:Key="S.Time.Static.Minutes.3-4">λεπτά</s:String>
     <s:String x:Key="S.Time.Static.Short.Minute">λεπ</s:String>
-    <s:String x:Key="S.Time.Static.Single.Minute">m</s:String>
+    <!--<s:String x:Key="S.Time.Static.Single.Minute">m</s:String>-->
     <s:String x:Key="S.Time.Static.Hour">ώρα</s:String>
     <s:String x:Key="S.Time.Static.Hours">ώρες</s:String>
     <s:String x:Key="S.Time.Static.Hours.2">ώρες</s:String>
     <s:String x:Key="S.Time.Static.Hours.3-4">ώρες</s:String>
     <s:String x:Key="S.Time.Static.Short.Hour">ώρ</s:String>
     <s:String x:Key="S.Time.Static.Short.Hours">ώρ</s:String>
-    <s:String x:Key="S.Time.Static.Single.Hour">h</s:String>
+    <!--<s:String x:Key="S.Time.Static.Single.Hour">h</s:String>-->
     <s:String x:Key="S.Time.Static.Day">ημέρα</s:String>
     <s:String x:Key="S.Time.Static.Days">ημέρες</s:String>
     <s:String x:Key="S.Time.Static.Days.2">ημέρες</s:String>
     <s:String x:Key="S.Time.Static.Days.3-4">ημέρες</s:String>
-    <s:String x:Key="S.Time.Static.Single.Day">d</s:String>
+    <!--<s:String x:Key="S.Time.Static.Single.Day">d</s:String>-->
 
     <!--Dialogs • Error-->
     <s:String x:Key="S.Dialog.Error.Header">Ωχ. Κάτι απροσδόκητο συνέβη...</s:String>
@@ -132,7 +133,7 @@
     <s:String x:Key="S.Dialog.FirstTime.Account">Προβολή συνδρομής</s:String>
     <s:String x:Key="S.Dialog.FirstTime.AlmostDone.Title">Σχεδόν έτοιμο</s:String>
     <s:String x:Key="S.Dialog.FirstTime.AlmostDone.Message">Τα διαπιστευτήρια ενεργοποίησης παρέχονται από τον διαχειριστή του συστήματος</s:String>
-    <s:String x:Key="S.Dialog.FirstTime.Email">Email</s:String>
+    <!--<s:String x:Key="S.Dialog.FirstTime.Email">Email</s:String>-->
     <s:String x:Key="S.Dialog.FirstTime.Password">Κωδικός πρόσβασης</s:String>
     <s:String x:Key="S.Dialog.FirstTime.Serial">Σειριακό</s:String>
     <s:String x:Key="S.Dialog.FirstTime.OnStart">Κατά την εκκίνηση, άνοιγμα...</s:String>
@@ -148,7 +149,7 @@
     <s:String x:Key="S.Dialog.NewProject.Header">Νέο έργο</s:String>
     <s:String x:Key="S.Dialog.NewProject.Name">Όνομα</s:String>
     <s:String x:Key="S.Dialog.NewProject.Background">Φόντο</s:String>
-    <s:String x:Key="S.Dialog.NewProject.Dpi">DPI</s:String>
+    <!--<s:String x:Key="S.Dialog.NewProject.Dpi">DPI</s:String>-->
 
     <!--Dialogs • Update-->
     <s:String x:Key="S.Dialog.Update.Header">Διαθέσιμη ενημέρωση</s:String>
@@ -395,15 +396,28 @@
     <s:String x:Key="S.Dialogs.Cache.Message">Όταν δημιουργείτε μια εγγραφή ή ανοίγετε κάτι για επεξεργασία, δημιουργείται ένα έργο και αποθηκεύεται στον φάκελο προσωρινής μνήμης.</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent">Διατήρηση πρόσφατων έργων</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent.Info">Θα διαγραφούν μόνο έργα παλαιότερα από αυτά που έχουν ρυθμιστεί στις Ρυθμίσεις > Αποθήκευση</s:String>
-    
+
     <!--Dialogs • Resize canvas-->
     <s:String x:Key="S.Dialogs.ResizeCanvas.Header">Αλλαγή μεγέθους καμβά</s:String>
     <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent">Κλίμακα του υπάρχοντος περιεχομένου στο νέο μέγεθος καμβά</s:String>
     <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent.Info">Όταν είναι ενεργοποιημένο, το υπάρχον περιεχόμενο αλλάζει μέγεθος και επανατοποθετείται για να ταιριάζει στις νέες διαστάσεις καμβά.&#10;Όταν είναι απενεργοποιημένο, αλλάζει μόνο το μέγεθος του καμβά.</s:String>
-    
+
     <!--Dialogs • Trim canvas-->
     <s:String x:Key="S.Dialogs.TrimCanvas.Header">Περικοπή καμβά</s:String>
     <s:String x:Key="S.Dialogs.TrimCanvas.Direction">Κατευθύνσεις περικοπής</s:String>
+
+    <!--Dialogs • Trim canvas-->
+    <s:String x:Key="S.Dialogs.SmoothLoop.Header">Αναζήτηση για ομαλό βρόχο</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.Similarity">Ομοιότητα</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.TrimDirection">Κατεύθυνση περικοπής</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.TrimDirection.End">Περικοπή τέλους για αντιστοίχιση του πρώτου καρέ</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.TrimDirection.Start">Περικοπή αρχής για αντιστοίχιση του τελευταίου καρέ</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.MinimumLength">Ελάχιστο μήκος</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm">Αλγόριθμος σύγκρισης</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Pixel">Διαφορά pixel (γρήγορο)</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Perceptual">Perceptual hash (ισορροπημένο)</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Structural">Δομική ομοιότητα (ακριβές)</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.TracksToInclude">Κομμάτια προς συμπερίληψη στην αναζήτηση</s:String>
 
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">Απαιτούμενα πεδία</s:String>
@@ -487,6 +501,10 @@
     <s:String x:Key="S.Success.StorageCleanup.Header">Επιτυχία</s:String>
     <s:String x:Key="S.Success.StorageCleanup.Message">Ο καθαρισμός της προσωρινής μνήμης ολοκληρώθηκε με επιτυχία</s:String>
 
+    <!--Success • Smooth loop--> 
+    <s:String x:Key="S.Success.SmoothLoop.Header">Βρέθηκε ομαλός βρόχος</s:String>
+    <s:String x:Key="S.Success.SmoothLoop.Message">Βρέθηκε βρόχος με ομοιότητα {0:0.##}%</s:String>
+
     <!--Info • Pro feature-->
     <s:String x:Key="S.Info.ProFeature.Header">Μόνο για Pro</s:String>
     <s:String x:Key="S.Info.ProFeature.Message">Αναβαθμίστε για να ξεκλειδώσετε αυτή τη λειτουργία</s:String>
@@ -514,11 +532,19 @@
     <s:String x:Key="S.Info.FeedbackSent.Header">Ευχαριστούμε για τα σχόλιά σας</s:String>
     <s:String x:Key="S.Info.FeedbackSent.Message">Το μήνυμά σας εστάλη. Εκτιμούμε που αφιερώσατε χρόνο να το μοιραστείτε μαζί μας</s:String>
 
+    <!--Info • Smooth loop partial-->
+    <s:String x:Key="S.Info.SmoothLoopPartial.Header">Βρέθηκε μερική αντιστοίχιση</s:String>
+    <s:String x:Key="S.Info.SmoothLoopPartial.Message">Η πιο κοντινή αντιστοίχιση είχε ομοιότητα {0:0.##}%. Πατήστε 'Χρήση αυτής της αντιστοίχισης' για να εφαρμοστεί ούτως ή άλλως</s:String>
+
+    <!--Info • Smooth loop cancelled-->
+    <s:String x:Key="S.Info.SmoothLoopCancelled.Header">Η αναζήτηση ακυρώθηκε</s:String>
+    <s:String x:Key="S.Info.SmoothLoopCancelled.Message">Η αναζήτηση βρόχου ακυρώθηκε</s:String>
+
     <!--Warnings • Single instance-->
     <s:String x:Key="S.Warning.Single.Header">Η εφαρμογή ήδη τρέχει</s:String>
     <s:String x:Key="S.Warning.Single.Message">Το N-Studio ήδη τρέχει, αλλά προφανώς δεν υπάρχει ανοιχτό παράθυρο. Ελέγξτε τη γραμμή ειδοποιήσεων σας, το εικονίδιο του N-Studio πρέπει να είναι εκεί</s:String>
 
-    <!--Warnings • Audio device detection--> 
+    <!--Warnings • Audio device detection-->
     <s:String x:Key="S.Warning.DeviceDetection.Title">Προβλήματα ανίχνευσης συσκευής</s:String>
     <s:String x:Key="S.Warning.DeviceDetection.Description">Δεν ήταν δυνατή η ανίχνευση συσκευών ήχου</s:String>
 
@@ -544,9 +570,13 @@
     <s:String x:Key="S.Warning.Drop.Header">Μη υποστηριζόμενο ή μη έγκυρο</s:String>
     <s:String x:Key="S.Warning.Drop.Message">Δεν ήταν δυνατή η εισαγωγή ή το άνοιγμα του/των αρχείου/ων</s:String>
 
-    <!--Warnings • Low on space--> 
+    <!--Warnings • Low on space-->
     <s:String x:Key="S.Warning.LowSpace.Header">Χαμηλό διαθέσιμο χώρο</s:String>
     <s:String x:Key="S.Warning.LowSpace.Message">Ελευθερώστε χώρο στη μονάδα cache για να μπορέσετε να καταγράψετε</s:String>
+
+    <!--Warnings • No smooth loop found-->
+    <s:String x:Key="S.Warning.SmoothLoopNotFound.Header">Δεν βρέθηκε αντιστοίχιση</s:String>
+    <s:String x:Key="S.Warning.SmoothLoopNotFound.Message">Δεν βρέθηκε κατάλληλο σημείο βρόχου. Δοκιμάστε να προσαρμόσετε το όριο ομοιότητας ή το ελάχιστο μήκος.</s:String>
 
     <!--Warnings • Graphics engine-->
     <s:String x:Key="S.Warning.Graphics.Title">Αλλαγή προσαρμογέα γραφικών</s:String>
@@ -757,6 +787,10 @@
     <s:String x:Key="S.Errors.StorageCleanup.Header">Σφάλμα κατά τον καθαρισμό</s:String>
     <s:String x:Key="S.Errors.StorageCleanup.Message">Δεν ήταν δυνατό να καθαριστεί η προσωρινή μνήμη</s:String>
 
+    <!--Error • Smooth loop search--> 
+    <s:String x:Key="S.Errors.SmoothLoop.Header">Η αναζήτηση απέτυχε</s:String>
+    <s:String x:Key="S.Errors.SmoothLoop.Message">Παρουσιάστηκε σφάλμα κατά την αναζήτηση βρόχου</s:String>
+
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Η ενεργοποίηση απέτυχε</s:String>
     <s:String x:Key="S.Errors.Activation.Generic">Δεν ήταν δυνατή η ενεργοποίηση της εφαρμογής λόγω άγνωστου προβλήματος</s:String>
@@ -786,11 +820,11 @@
     <!--Windows • Screen Recorder-->
     <s:String x:Key="S.ScreenRecorder.Frequency.Switch">Κάντε κλικ για εναλλαγή μεταξύ λειτουργιών συχνότητας λήψης</s:String>
     <s:String x:Key="S.ScreenRecorder.Frequency.Fps">Μέγιστος αριθμός καρέ ανά δευτερόλεπτο.&#10;Κυμαίνεται από 1 έως 60 fps, με υψηλότερες τιμές να σημαίνουν περισσότερα καρέ που θα καταγραφούν.&#10;Κάθε αύξηση αντιστοιχεί σε διαφορά 16 χιλιοστών του δευτερολέπτου.</s:String>
-    <s:String x:Key="S.ScreenRecorder.Frequency.Fps.Short">fps</s:String>
+    <!--<s:String x:Key="S.ScreenRecorder.Frequency.Fps.Short">fps</s:String>-->
     <s:String x:Key="S.ScreenRecorder.Frequency.Fpm">Μέγιστος αριθμός καρέ ανά λεπτό.&#10;Κυμαίνεται από 1 έως 60 fpm, με υψηλότερες τιμές να σημαίνουν περισσότερα καρέ που θα καταγραφούν.&#10;Κάθε αύξηση αντιστοιχεί σε διαφορά 1 δευτερολέπτου.</s:String>
-    <s:String x:Key="S.ScreenRecorder.Frequency.Fpm.Short">fpm</s:String>
+    <!--<s:String x:Key="S.ScreenRecorder.Frequency.Fpm.Short">fpm</s:String>-->
     <s:String x:Key="S.ScreenRecorder.Frequency.Fph">Μέγιστος αριθμός καρέ ανά ώρα&#10;Κυμαίνεται από 1 έως 60 fph, με υψηλότερες τιμές να σημαίνουν περισσότερα καρέ που θα καταγραφούν.&#10;Κάθε αύξηση αντιστοιχεί σε διαφορά 1 λεπτού.</s:String>
-    <s:String x:Key="S.ScreenRecorder.Frequency.Fph.Short">fph</s:String>
+    <!--<s:String x:Key="S.ScreenRecorder.Frequency.Fph.Short">fph</s:String>-->
     <s:String x:Key="S.ScreenRecorder.ClickOrPress">Κάντε κλικ ή πατήστε πλήκτρα για να καταγράψετε</s:String>
 
     <s:String x:Key="S.ScreenRecorder.Select">Επιλογή</s:String>
@@ -811,7 +845,7 @@
     <s:String x:Key="S.ScreenRecorder.Screen.Info1">Προσαρμογέας γραφικών: {0}</s:String>
     <s:String x:Key="S.ScreenRecorder.Screen.Info2">Ανάλυση: {0} x {1}</s:String>
     <s:String x:Key="S.ScreenRecorder.Screen.Info3">Πρωτότυπη ανάλυση: {0} x {1}</s:String>
-    <s:String x:Key="S.ScreenRecorder.Screen.Info4">DPI: {0} ({1:0.##}%)</s:String>
+    <!--<s:String x:Key="S.ScreenRecorder.Screen.Info4">DPI: {0} ({1:0.##}%)</s:String>-->
 
     <s:String x:Key="S.ScreenRecorder.DiskSpace.Info">Ποσοστό χρησιμοποιημένου και διαθέσιμου χώρου δίσκου</s:String>
     <s:String x:Key="S.ScreenRecorder.AudioSource.Input">Μικρόφωνο και άλλες πηγές ήχου εισόδου&#10;που καταγράφονται</s:String>
@@ -894,7 +928,11 @@
     <s:String x:Key="S.Exporter.Resize.MaintainRatio.Info">Η αναλογία θα διατηρηθεί όσο το δυνατόν πιο κοντά,&#10;ενώ προσπαθεί να προκύψει πλάτος και ύψος με ακέραιους αριθμούς</s:String>
 
     <!--Windows • Exporter > Trim-->
-    <s:String x:Key="S.Exporter.Trim.NewTarget">Νέος χρόνος στόχος</s:String>
+    <s:String x:Key="S.Exporter.Trim.Original">Αρχική διάρκεια</s:String>
+    <s:String x:Key="S.Exporter.Trim.Trimmed">Περικομμένη διάρκεια</s:String>
+    <s:String x:Key="S.Exporter.Trim.FindLoop">Αναζήτηση για ομαλό βρόχο...</s:String>
+    <s:String x:Key="S.Exporter.Trim.FindLoop.Searching">Αναζήτηση για ομαλό βρόχο...</s:String>
+    <s:String x:Key="S.Exporter.Trim.FindLoop.Cancel">Ακύρωση αναζήτησης</s:String>
 
     <!--Windows • Exporter > Framerate-->
     <s:String x:Key="S.Exporter.Framerate.Mode.Info">Τρόπος ρυθμού καρέ</s:String>
@@ -940,6 +978,7 @@
     <s:String x:Key="S.Exporter.Encoding.Actions.More">Περισσότερες ενέργειες</s:String>
     <s:String x:Key="S.Exporter.Encoding.Actions.OpenFolder">Άνοιγμα φακέλου</s:String>
     <s:String x:Key="S.Exporter.Encoding.Actions.CopyFile">Αντιγραφή αρχείου</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Actions.CopyFolderPath">Αντιγραφή διαδρομής φακέλου</s:String>
     <s:String x:Key="S.Exporter.Encoding.Actions.CopyPath">Αντιγραφή διαδρομής</s:String>
     <s:String x:Key="S.Exporter.Encoding.Actions.DeleteFile">Διαγραφή αρχείου</s:String>
 
@@ -1049,7 +1088,7 @@
     <s:String x:Key="S.Feedback.Type.Other">Άλλο</s:String>
     <s:String x:Key="S.Feedback.Description">Περιγραφή</s:String>
     <s:String x:Key="S.Feedback.Description.Info">Περιγράψτε με περισσότερες λεπτομέρειες...</s:String>
-    <s:String x:Key="S.Feedback.Email">Email</s:String>
+    <!--<s:String x:Key="S.Feedback.Email">Email</s:String>-->
     <s:String x:Key="S.Feedback.Email.Info">Email για επικοινωνία (προαιρετικό)</s:String>
     <s:String x:Key="S.Feedback.Extra">Επιπλέον λεπτομέρειες</s:String>
     <s:String x:Key="S.Feedback.Extra.System.Info">Έκδοση λειτουργικού συστήματος και εγκατεστημένα patch</s:String>
@@ -1252,52 +1291,52 @@
     <s:String x:Key="S.DragDrop.Ignored">Ορισμένα μη υποστηριζόμενα αρχεία θα αγνοηθούν</s:String>
 
     <!--Keys-->
-    <s:String x:Key="S.Keys.Backspace">Backspace</s:String>
-    <s:String x:Key="S.Keys.Tab">Tab</s:String>
-    <s:String x:Key="S.Keys.Return">Enter</s:String>
-    <s:String x:Key="S.Keys.PauseBreak">Pause/Break</s:String>
-    <s:String x:Key="S.Keys.CapsLock">Caps Lock</s:String>
-    <s:String x:Key="S.Keys.Escape">Esc</s:String>
+    <!--<s:String x:Key="S.Keys.Backspace">Backspace</s:String>-->
+    <!--<s:String x:Key="S.Keys.Tab">Tab</s:String>-->
+    <!--<s:String x:Key="S.Keys.Return">Enter</s:String>-->
+    <!--<s:String x:Key="S.Keys.PauseBreak">Pause/Break</s:String>-->
+    <!--<s:String x:Key="S.Keys.CapsLock">Caps Lock</s:String>-->
+    <!--<s:String x:Key="S.Keys.Escape">Esc</s:String>-->
     <s:String x:Key="S.Keys.Space">Διάστημα</s:String>
-    <s:String x:Key="S.Keys.PageUp">Page Up</s:String>
-    <s:String x:Key="S.Keys.PageDown">Page Down</s:String>
-    <s:String x:Key="S.Keys.Home">Home</s:String>
-    <s:String x:Key="S.Keys.End">End</s:String>
+    <!--<s:String x:Key="S.Keys.PageUp">Page Up</s:String>-->
+    <!--<s:String x:Key="S.Keys.PageDown">Page Down</s:String>-->
+    <!--<s:String x:Key="S.Keys.Home">Home</s:String>-->
+    <!--<s:String x:Key="S.Keys.End">End</s:String>-->
     <s:String x:Key="S.Keys.Left">Βέλος αριστερά</s:String>
     <s:String x:Key="S.Keys.Up">Βέλος πάνω</s:String>
     <s:String x:Key="S.Keys.Right">Βέλος δεξιά</s:String>
     <s:String x:Key="S.Keys.Down">Βέλος κάτω</s:String>
-    <s:String x:Key="S.Keys.PrintScreen">Print Screen</s:String>
-    <s:String x:Key="S.Keys.Insert">Insert</s:String>
-    <s:String x:Key="S.Keys.Delete">Delete</s:String>
-    <s:String x:Key="S.Keys.NumLock">Num Lock</s:String>
-    <s:String x:Key="S.Keys.ScrollLock">Scroll Lock</s:String>
-    <s:String x:Key="S.Keys.Shift">Shift</s:String>
+    <!--<s:String x:Key="S.Keys.PrintScreen">Print Screen</s:String>-->
+    <!--<s:String x:Key="S.Keys.Insert">Insert</s:String>-->
+    <!--<s:String x:Key="S.Keys.Delete">Delete</s:String>-->
+    <!--<s:String x:Key="S.Keys.NumLock">Num Lock</s:String>-->
+    <!--<s:String x:Key="S.Keys.ScrollLock">Scroll Lock</s:String>-->
+    <!--<s:String x:Key="S.Keys.Shift">Shift</s:String>-->
     <s:String x:Key="S.Keys.LeftShift">Αριστερό Shift</s:String>
     <s:String x:Key="S.Keys.RightShift">Δεξί Shift</s:String>
-    <s:String x:Key="S.Keys.Alt">Alt</s:String>
+    <!--<s:String x:Key="S.Keys.Alt">Alt</s:String>-->
     <s:String x:Key="S.Keys.LeftAlt">Αριστερό Alt</s:String>
     <s:String x:Key="S.Keys.RightAlt">Δεξί Alt</s:String>
-    <s:String x:Key="S.Keys.Ctrl">Control</s:String>
+    <!--<s:String x:Key="S.Keys.Ctrl">Control</s:String>-->
     <s:String x:Key="S.Keys.LeftCtrl">Αριστερό Ctrl</s:String>
     <s:String x:Key="S.Keys.RightCtrl">Δεξί Ctrl</s:String>
-    <s:String x:Key="S.Keys.Windows">Windows</s:String>
+    <!--<s:String x:Key="S.Keys.Windows">Windows</s:String>-->
     <s:String x:Key="S.Keys.LeftWindows">Αριστερό Windows</s:String>
     <s:String x:Key="S.Keys.RightWindows">Δεξί Windows</s:String>
     <s:String x:Key="S.Keys.NextTrack">Επόμενο κομμάτι</s:String>
     <s:String x:Key="S.Keys.PreviousTrack">Προηγούμενο κομμάτι</s:String>
-    <s:String x:Key="S.Keys.PlayPause">Play/Pause</s:String>
-    <s:String x:Key="S.Keys.Stop">Stop</s:String>
+    <!--<s:String x:Key="S.Keys.PlayPause">Play/Pause</s:String>-->
+    <!--<s:String x:Key="S.Keys.Stop">Stop</s:String>-->
 
     <!--Mouse buttons-->
     <s:String x:Key="S.Mouse.Right">Δεξί-κλικ</s:String>
 
     <!--Units-->
-    <s:String x:Key="S.Units.Points.Short">pt</s:String>
-    <s:String x:Key="S.Units.Second.Short">s</s:String>
-    <s:String x:Key="S.Units.Millisecond.Short">ms</s:String>
-    <s:String x:Key="S.Units.Pixels.Short">px</s:String>
-    <s:String x:Key="S.Units.FramesPerSecond.Short">fps</s:String>
+    <!--<s:String x:Key="S.Units.Points.Short">pt</s:String>-->
+    <!--<s:String x:Key="S.Units.Second.Short">s</s:String>-->
+    <!--<s:String x:Key="S.Units.Millisecond.Short">ms</s:String>-->
+    <!--<s:String x:Key="S.Units.Pixels.Short">px</s:String>-->
+    <!--<s:String x:Key="S.Units.FramesPerSecond.Short">fps</s:String>-->
 
     <!--Formats-->
     <s:String x:Key="S.Formats.Type.Animated">Κινούμενη εικόνα</s:String>
@@ -1307,64 +1346,64 @@
     <s:String x:Key="S.Formats.Type.Other">Άλλο</s:String>
     <s:String x:Key="S.Formats.Type.All">Όλα τα αρχεία</s:String>
 
-    <s:String x:Key="S.Formats.Apng">Apng</s:String>
+    <!--<s:String x:Key="S.Formats.Apng">Apng</s:String>-->
     <s:String x:Key="S.Formats.Apng.Info">Κινούμενα Portable Network Graphics</s:String>
-    <s:String x:Key="S.Formats.Gif">Gif</s:String>
-    <s:String x:Key="S.Formats.Gif.Info">Graphics Interchange Format</s:String>
-    <s:String x:Key="S.Formats.Webp">Webp</s:String>
-    <s:String x:Key="S.Formats.Webp.Info">Web Picture</s:String>
+    <!--<s:String x:Key="S.Formats.Gif">Gif</s:String>-->
+    <!--<s:String x:Key="S.Formats.Gif.Info">Graphics Interchange Format</s:String>-->
+    <!--<s:String x:Key="S.Formats.Webp">Webp</s:String>-->
+    <!--<s:String x:Key="S.Formats.Webp.Info">Web Picture</s:String>-->
 
-    <s:String x:Key="S.Formats.Avi">Avi</s:String>
-    <s:String x:Key="S.Formats.Avi.Info">Audio Video Interleave</s:String>
-    <s:String x:Key="S.Formats.Mkv">Mkv</s:String>
-    <s:String x:Key="S.Formats.Mkv.Info">Matroska</s:String>
-    <s:String x:Key="S.Formats.Mov">Mov</s:String>
-    <s:String x:Key="S.Formats.Mov.Info">QuickTime File Format</s:String>
-    <s:String x:Key="S.Formats.Mp4">Mp4</s:String>
-    <s:String x:Key="S.Formats.Mp4.Info">Mpeg-4</s:String>
-    <s:String x:Key="S.Formats.Webm">Webm</s:String>
-    <s:String x:Key="S.Formats.Webm.Info">Web Movie</s:String>
+    <!--<s:String x:Key="S.Formats.Avi">Avi</s:String>-->
+    <!--<s:String x:Key="S.Formats.Avi.Info">Audio Video Interleave</s:String>-->
+    <!--<s:String x:Key="S.Formats.Mkv">Mkv</s:String>-->
+    <!--<s:String x:Key="S.Formats.Mkv.Info">Matroska</s:String>-->
+    <!--<s:String x:Key="S.Formats.Mov">Mov</s:String>-->
+    <!--<s:String x:Key="S.Formats.Mov.Info">QuickTime File Format</s:String>-->
+    <!--<s:String x:Key="S.Formats.Mp4">Mp4</s:String>-->
+    <!--<s:String x:Key="S.Formats.Mp4.Info">Mpeg-4</s:String>-->
+    <!--<s:String x:Key="S.Formats.Webm">Webm</s:String>-->
+    <!--<s:String x:Key="S.Formats.Webm.Info">Web Movie</s:String>-->
 
-    <s:String x:Key="S.Formats.Aac">Aac</s:String>
-    <s:String x:Key="S.Formats.Aac.Info">Advanced Audio Coding</s:String>
-    <s:String x:Key="S.Formats.Ac3">Ac3</s:String>
-    <s:String x:Key="S.Formats.Ac3.Info">Audio Codec 3</s:String>
-    <s:String x:Key="S.Formats.Aiff">Aiff</s:String>
-    <s:String x:Key="S.Formats.Aiff.Info">Audio Interchange File Format</s:String>
-    <s:String x:Key="S.Formats.Alac">Alac</s:String>
-    <s:String x:Key="S.Formats.Alac.Info">Apple Lossless Audio Codec</s:String>
-    <s:String x:Key="S.Formats.Amr">Amr</s:String>
-    <s:String x:Key="S.Formats.Amr.Info">Adaptive Multi-Rate</s:String>
-    <s:String x:Key="S.Formats.Flac">Flac</s:String>
-    <s:String x:Key="S.Formats.Flac.Info">Free Lossless Audio Codec</s:String>
-    <s:String x:Key="S.Formats.Mp3">Mp3</s:String>
-    <s:String x:Key="S.Formats.Mp3.Info">MPEG-1/2 Audio Layer III</s:String>
-    <s:String x:Key="S.Formats.Ogg">Ogg</s:String>
-    <s:String x:Key="S.Formats.Ogg.Info">Ogg Vorbis Container</s:String>
-    <s:String x:Key="S.Formats.Opus">Opus</s:String>
-    <s:String x:Key="S.Formats.Opus.Info">Opus</s:String>
-    <s:String x:Key="S.Formats.Wav">Wav</s:String>
-    <s:String x:Key="S.Formats.Wav.Info">Waveform Audio File Format</s:String>
-    <s:String x:Key="S.Formats.Wma">Wma</s:String>
-    <s:String x:Key="S.Formats.Wma.Info">Windows Media Audio</s:String>
+    <!--<s:String x:Key="S.Formats.Aac">Aac</s:String>-->
+    <!--<s:String x:Key="S.Formats.Aac.Info">Advanced Audio Coding</s:String>-->
+    <!--<s:String x:Key="S.Formats.Ac3">Ac3</s:String>-->
+    <!--<s:String x:Key="S.Formats.Ac3.Info">Audio Codec 3</s:String>-->
+    <!--<s:String x:Key="S.Formats.Aiff">Aiff</s:String>-->
+    <!--<s:String x:Key="S.Formats.Aiff.Info">Audio Interchange File Format</s:String>-->
+    <!--<s:String x:Key="S.Formats.Alac">Alac</s:String>-->
+    <!--<s:String x:Key="S.Formats.Alac.Info">Apple Lossless Audio Codec</s:String>-->
+    <!--<s:String x:Key="S.Formats.Amr">Amr</s:String>-->
+    <!--<s:String x:Key="S.Formats.Amr.Info">Adaptive Multi-Rate</s:String>-->
+    <!--<s:String x:Key="S.Formats.Flac">Flac</s:String>-->
+    <!--<s:String x:Key="S.Formats.Flac.Info">Free Lossless Audio Codec</s:String>-->
+    <!--<s:String x:Key="S.Formats.Mp3">Mp3</s:String>-->
+    <!--<s:String x:Key="S.Formats.Mp3.Info">MPEG-1/2 Audio Layer III</s:String>-->
+    <!--<s:String x:Key="S.Formats.Ogg">Ogg</s:String>-->
+    <!--<s:String x:Key="S.Formats.Ogg.Info">Ogg Vorbis Container</s:String>-->
+    <!--<s:String x:Key="S.Formats.Opus">Opus</s:String>-->
+    <!--<s:String x:Key="S.Formats.Opus.Info">Opus</s:String>-->
+    <!--<s:String x:Key="S.Formats.Wav">Wav</s:String>-->
+    <!--<s:String x:Key="S.Formats.Wav.Info">Waveform Audio File Format</s:String>-->
+    <!--<s:String x:Key="S.Formats.Wma">Wma</s:String>-->
+    <!--<s:String x:Key="S.Formats.Wma.Info">Windows Media Audio</s:String>-->
 
-    <s:String x:Key="S.Formats.Avif">AVIF</s:String>
-    <s:String x:Key="S.Formats.Avif.Info">AV1‑Compressed Image (HEIF/AV1)</s:String>
-    <s:String x:Key="S.Formats.Bmp">Bmp</s:String>
-    <s:String x:Key="S.Formats.Bmp.Info">Bitmap</s:String>
-    <s:String x:Key="S.Formats.Heic">HEIC</s:String>
-    <s:String x:Key="S.Formats.Heic.Info">High‑Efficiency Image (HEIF/HEVC)</s:String>
-    <s:String x:Key="S.Formats.Jpeg">Jpeg</s:String>
-    <s:String x:Key="S.Formats.Jpeg.Info">Joint Photographic Experts Group</s:String>
-    <s:String x:Key="S.Formats.Png">Png</s:String>
-    <s:String x:Key="S.Formats.Png.Info">Portable Network Graphics</s:String>
+    <!--<s:String x:Key="S.Formats.Avif">AVIF</s:String>-->
+    <!--<s:String x:Key="S.Formats.Avif.Info">AV1‑Compressed Image (HEIF/AV1)</s:String>-->
+    <!--<s:String x:Key="S.Formats.Bmp">Bmp</s:String>-->
+    <!--<s:String x:Key="S.Formats.Bmp.Info">Bitmap</s:String>-->
+    <!--<s:String x:Key="S.Formats.Heic">HEIC</s:String>-->
+    <!--<s:String x:Key="S.Formats.Heic.Info">High‑Efficiency Image (HEIF/HEVC)</s:String>-->
+    <!--<s:String x:Key="S.Formats.Jpeg">Jpeg</s:String>-->
+    <!--<s:String x:Key="S.Formats.Jpeg.Info">Joint Photographic Experts Group</s:String>-->
+    <!--<s:String x:Key="S.Formats.Png">Png</s:String>-->
+    <!--<s:String x:Key="S.Formats.Png.Info">Portable Network Graphics</s:String>-->
     <s:String x:Key="S.Formats.Images.Zip">Συσκευασμένες εικόνες</s:String>
 
     <s:String x:Key="S.Formats.Project">Έργο</s:String>
     <s:String x:Key="S.Formats.Project.Info">Έργο N-Studio</s:String>
     <s:String x:Key="S.Formats.LegacyProject">Έργο ScreenToGif</s:String>
     <s:String x:Key="S.Formats.LegacyProject.Info">Αρχείο έργου που χρησιμοποιείται από το ScreenToGif</s:String>
-    <s:String x:Key="S.Formats.Psd">Psd</s:String>
+    <!--<s:String x:Key="S.Formats.Psd">Psd</s:String>-->
     <s:String x:Key="S.Formats.Psd.Info">Αρχείο Photoshop</s:String>
 
     <!--Objects-->
@@ -1586,7 +1625,7 @@
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.PreventBlack">Αποτροπή καταγραφής πλήρως μαύρων καρέ</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.PreventBlack.Info">Αποτρέπει τη λανθασμένη καταγραφή καρέ με όλα τα εικονοστοιχεία μαύρα</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.RemoteImprovement">Απενεργοποίηση καταγραφής παραθύρων στρώσης, βελτιώνοντας την απόδοση σε απομακρυσμένη σύνδεση επιφάνειας εργασίας</s:String>
-    
+
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.GammaCorrection">Εφαρμογή διόρθωσης γάμμα για καταγραφή SDR 10-bit</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.GammaCorrection.Info">Εναλλαγή της γραμμικής σε sRGB μετατροπής για καταγραφή SDR 10-bit.&#10;Εάν τα χρώματα φαίνονται λανθασμένα, δοκιμάστε να αλλάξετε αυτή την ρύθμιση.</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation">Αντιστάθμιση φωτεινότητας</s:String>
@@ -1877,7 +1916,7 @@
     <s:String x:Key="S.Settings.Exporter.UncommonFormat.Info">Παλιές ή ασυνήθιστες μορφές όπως AVI, AC3, κ.λπ. θα είναι διαθέσιμες</s:String>
 
     <!--Settings • Storage-->
-    <s:String x:Key="S.Settings.Storage.Cache">Cache</s:String>
+    <!--<s:String x:Key="S.Settings.Storage.Cache">Cache</s:String>-->
     <s:String x:Key="S.Settings.Storage.Cache.Path">Διαδρομή cache</s:String>
     <s:String x:Key="S.Settings.Storage.Cache.Logs">Διαδρομή αρχείων καταγραφής</s:String>
     <s:String x:Key="S.Settings.Storage.SelectPath">Κάντε κλικ για να επιλέξετε μια διαδρομή</s:String>
@@ -2003,17 +2042,17 @@
     <s:String x:Key="S.Preset.Upload.Preset">Προεπιλογή</s:String>
 
     <!--Windows • Preset Settings > Clipboard-->
-    <s:String x:Key="S.Preset.Clipboard.Title">Clipboard</s:String>
-    <s:String x:Key="S.Preset.Clipboard.Title.Info">Copy the path or link after export</s:String>
-    <s:String x:Key="S.Preset.Clipboard.Behavior">Copy behavior</s:String>
-    <s:String x:Key="S.Preset.Clipboard.Behavior.File">File</s:String>
-    <s:String x:Key="S.Preset.Clipboard.Behavior.File.Info">Copies the output file into the clipboard.</s:String>
-    <s:String x:Key="S.Preset.Clipboard.Behavior.FolderPath">Folder path</s:String>
-    <s:String x:Key="S.Preset.Clipboard.Behavior.FolderPath.Info">Copies the folder path of the output file into the clipboard.</s:String>
-    <s:String x:Key="S.Preset.Clipboard.Behavior.FilePath">File path</s:String>
-    <s:String x:Key="S.Preset.Clipboard.Behavior.FilePath.Info">Copies the path of the output file into the clipboard.</s:String>
-    <s:String x:Key="S.Preset.Clipboard.Behavior.Link">Link</s:String>
-    <s:String x:Key="S.Preset.Clipboard.Behavior.Link.Info">Copies the link generated by the upload service into the clipboard.</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Title">Πρόχειρο</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Title.Info">Αντιγραφή διαδρομής ή συνδέσμου μετά την εξαγωγή</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior">Συμπεριφορά αντιγραφής</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior.File">Αρχείο</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior.File.Info">Αντιγράφει το αρχείο εξόδου στο πρόχειρο.</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior.FolderPath">Διαδρομή φακέλου</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior.FolderPath.Info">Αντιγράφει τη διαδρομή φακέλου του αρχείου εξόδου στο πρόχειρο.</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior.FilePath">Διαδρομή αρχείου</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior.FilePath.Info">Αντιγράφει τη διαδρομή του αρχείου εξόδου στο πρόχειρο.</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior.Link">Σύνδεσμος</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior.Link.Info">Αντιγράφει τον σύνδεσμο που δημιουργήθηκε από την υπηρεσία μεταφόρτωσης στο πρόχειρο.</s:String>
 
     <!--Windows • Preset Settings > Commands-->
     <s:String x:Key="S.Preset.Commands.Title">Προσαρμοσμένες εντολές</s:String>
@@ -2066,10 +2105,10 @@
     <s:String x:Key="S.Preset.Encoder.Apng.PaintTransparent.Info">Αντικαθιστά τα εικονοστοιχεία που δεν άλλαξαν μεταξύ των καρέ με διαφανές χρώμα</s:String>
     <s:String x:Key="S.Preset.Encoder.Apng.Prediction">Πρόβλεψη</s:String>
     <s:String x:Key="S.Preset.Encoder.Apng.Prediction.None">Κανένα</s:String>
-    <s:String x:Key="S.Preset.Encoder.Apng.Prediction.Sub">Sub</s:String>
-    <s:String x:Key="S.Preset.Encoder.Apng.Prediction.Up">Up</s:String>
-    <s:String x:Key="S.Preset.Encoder.Apng.Prediction.Average">Average</s:String>
-    <s:String x:Key="S.Preset.Encoder.Apng.Prediction.Mixed">Mixed</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Apng.Prediction.Sub">Sub</s:String>-->
+    <!--<s:String x:Key="S.Preset.Encoder.Apng.Prediction.Up">Up</s:String>-->
+    <!--<s:String x:Key="S.Preset.Encoder.Apng.Prediction.Average">Average</s:String>-->
+    <!--<s:String x:Key="S.Preset.Encoder.Apng.Prediction.Mixed">Mixed</s:String>-->
 
     <!--Preset • Gif-->
     <s:String x:Key="S.Preset.Encoder.Gif.GlobalColorTable">Χρήση παγκόσμιας παλέτας χρωμάτων</s:String>
@@ -2078,11 +2117,11 @@
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Info">Αλγόριθμος μείωσης χρωμάτων (ποσοτικοποίηση)</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Neural">Νευρωνικό δίκτυο</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Neural.Info">Ποσοτικοποίηση υψηλής πιστότητας. Πιο αργή, αλλά καλή για μεγαλύτερη ποσότητα χρωμάτων</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Octree">Octree</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Octree">Octree</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Octree.Info">Καλή για κινούμενες εικόνες με λιγότερα χρώματα. Πιο γρήγορη, αλλά μπορεί να παράγει ζώνες χρώματος</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.MedianCut">Median cut</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Quantizer.MedianCut">Median cut</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.MedianCut.Info">Λιγότερο καλή από την Octree και πιο αργή</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Grayscale">Grayscale</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Grayscale">Grayscale</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Grayscale.Info">Χρησιμοποιεί σταθερή παλέτα grayscale, οπότε είναι πολύ πιο γρήγορη</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.MostUsed">Πιο συχνά χρησιμοποιημένα χρώματα</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.MostUsed.Info">Απλά παίρνει τα πιο συχνά χρησιμοποιημένα χρώματα στα καρέ</s:String>
@@ -2115,7 +2154,7 @@
     <!--Preset • KGy SOFT-->
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.BackColor">Χρώμα φόντου</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.BackColor.Info">Τα εικονοστοιχεία με alpha (διαφάνεια) που θεωρούνται αδιαφανή από τον επιλεγμένο ποσοτικοποιητή θα συγχωνευτούν με αυτό το χρώμα πριν προκύψει το ποσοτικοποιημένο χρώμα</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.AlphaThreshold">Alpha threshold</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Quantizer.AlphaThreshold">Alpha threshold</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.AlphaThreshold.Info">Καθορίζει την τιμή alpha εισόδου κάτω από την οποία το ποσοτικοποιημένο χρώμα θα είναι διαφανές.&#10;Εάν είναι 0, τότε το αποτέλεσμα δεν θα έχει ποτέ διαφάνεια.&#10;Εάν είναι 255, τότε μόνο τα πλήρως διαφανή εικονοστοιχεία θεωρούνται διαφανή</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.WhiteThreshold">Κατώφλι λευκού</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.WhiteThreshold.Info">Καθορίζει τη χαμηλότερη φωτεινότητα εισόδου που θα θεωρηθεί λευκό το αποτέλεσμα.&#10;Επηρεάζει τη φωτεινότητα του αποτελέσματος. Μια διάσπαση σφάλματος μπορεί να αντισταθμίσει αυτή την παράμετρο</s:String>
@@ -2157,35 +2196,35 @@
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.None.Info">Τα καρέ ποσοτικοποιούνται χωρίς διάσπαση σφάλματος.</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.SerpentineProcessing">Επεξεργασία ελικοειδούς κατεύθυνσης</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.SerpentineProcessing.Info">Όταν επιλεγεί, η κατεύθυνση διάδοσης σφάλματος αλλάζει γραμμή προς γραμμή.&#10;Αυτό βοηθά στη μείωση του φαινομένου ρυτίδωσης της διάχυσης σφάλματος</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer2X2">Bayer 2x2 (Ordered)</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer2X2">Bayer 2x2 (Ordered)</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer2X2.Info">Το μοτίβο μήτρας Bayer 2x2</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer3X3">Bayer 3x3 (Ordered)</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer3X3">Bayer 3x3 (Ordered)</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer3X3.Info">Το μοτίβο μήτρας Bayer 3x3</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer4X4">Bayer 4x4 (Ordered)</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer4X4">Bayer 4x4 (Ordered)</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer4X4.Info">Το μοτίβο μήτρας Bayer 4x4</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer8X8">Bayer 8x8 (Ordered)</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer8X8">Bayer 8x8 (Ordered)</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer8X8.Info">Το μοτίβο μήτρας Bayer 8x8</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.DottedHalftone">Dotted Halftone (Ordered)</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.DottedHalftone">Dotted Halftone (Ordered)</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.DottedHalftone.Info">Μήτρα 8x8 με μοτίβο κουκκίδων ημίτονου</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.BlueNoise">Blue Noise (Ordered)</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.BlueNoise">Blue Noise (Ordered)</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.BlueNoise.Info">Μήτρα 64x64 με μοτίβο μπλε θορύβου</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Atkinson">Atkinson (Error Diffusion)</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Atkinson">Atkinson (Error Diffusion)</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Atkinson.Info">Η μήτρα 4x3 του Bill Atkinson με 6 ενεργές τιμές</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Burkes">Burkes (Error Diffusion)</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Burkes">Burkes (Error Diffusion)</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Burkes.Info">Η μήτρα 5x2 του D. Burkes</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.FloydSteinberg">Floyd-Steinberg (Error Diffusion)</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.FloydSteinberg">Floyd-Steinberg (Error Diffusion)</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.FloydSteinberg.Info">Η αρχική μήτρα 3x2 των Floyd και Steinberg</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.JarvisJudiceNinke">Jarvis-Judice-Ninke (Error Diffusion)</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.JarvisJudiceNinke">Jarvis-Judice-Ninke (Error Diffusion)</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.JarvisJudiceNinke.Info">Μήτρα 5x3 των Jarvis, Judice και Ninke</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Sierra3">Sierra 3 (Error Diffusion)</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Sierra3">Sierra 3 (Error Diffusion)</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Sierra3.Info">Η μήτρα 5x3 του Frankie Sierra</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Sierra2">Sierra 2 (Error Diffusion)</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Sierra2">Sierra 2 (Error Diffusion)</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Sierra2.Info">Η μήτρα 5x2 του Frankie Sierra</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.SierraLite">Sierra Lite (Error Diffusion)</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.SierraLite">Sierra Lite (Error Diffusion)</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.SierraLite.Info">Η μήτρα 3x2 του Frankie Sierra</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.StevensonArce">Stevenson-Arce (Error Diffusion)</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.StevensonArce">Stevenson-Arce (Error Diffusion)</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.StevensonArce.Info">Μήτρα 7x4 εξαγωνικού σχήματος των Stevenson και Arce</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Stucki">Stucki (Error Diffusion)</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Stucki">Stucki (Error Diffusion)</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Stucki.Info">Η μήτρα 5x3 του Stucki</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.RandomNoise">Τυχαίος θόρυβος</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.RandomNoise.Info">Τυχαίος λευκός θόρυβος</s:String>
@@ -2326,9 +2365,9 @@
     <s:String x:Key="S.Presets.Default.Description">Προεπιλογή για τον κωδικοποιητή</s:String>
     <s:String x:Key="S.Presets.Twitter.Title">Για X/Twitter ({0})</s:String>
     <s:String x:Key="S.Presets.Twitter.Description">Σεβασμός ορίων μεταφόρτωσης X/Twitter (εκτός από μέγεθος και ανάλυση)</s:String>
-    <s:String x:Key="S.Presets.Hevc.Title">HEVC ({0})</s:String>
+    <!--<s:String x:Key="S.Presets.Hevc.Title">HEVC ({0})</s:String>-->
     <s:String x:Key="S.Presets.Hevc.Description">Κωδικοποίηση βίντεο υψηλής απόδοσης</s:String>
-    <s:String x:Key="S.Presets.Vp8.Title">VP8 ({0})</s:String>
+    <!--<s:String x:Key="S.Presets.Vp8.Title">VP8 ({0})</s:String>-->
     <s:String x:Key="S.Presets.Vp8.Description">Παλαιότερος και πιο γνωστός κωδικοποιητής</s:String>
     <s:String x:Key="S.Presets.Filename.Animation">Κινούμενη εικόνα</s:String>
     <s:String x:Key="S.Presets.Filename.Video">Βίντεο</s:String>
@@ -2372,7 +2411,7 @@
     <s:String x:Key="S.Presets.Audio.Medium.Description">Ισορροπημένη πιστότητα για καθημερινό ήχο· 192 kbps • 44.1 kHz</s:String>
     <s:String x:Key="S.Presets.Audio.High.Title">Υψηλό</s:String>
     <s:String x:Key="S.Presets.Audio.High.Description">Πλούσιος ήχος για μουσική και αναπαραγωγή βίντεο· 320 kbps • 48 kHz</s:String>
-    <s:String x:Key="S.Presets.Audio.Studio.Title">Studio</s:String>
+    <!--<s:String x:Key="S.Presets.Audio.Studio.Title">Studio</s:String>-->
     <s:String x:Key="S.Presets.Audio.Studio.Description">Μέγιστη λεπτομέρεια για επαγγελματικό mastering· 320 kbps • 96 kHz</s:String>
 
     <!--Font Styles-->

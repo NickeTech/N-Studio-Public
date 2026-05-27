@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Машинный перевод (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-14</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-27</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Принять</s:String>
@@ -69,6 +69,7 @@
     <s:String x:Key="S.Imperative.SendWithout">Отправить без</s:String>
     <s:String x:Key="S.Imperative.Trim">Обрезать</s:String>
     <s:String x:Key="S.Imperative.Resize">Изменить размер</s:String>
+    <s:String x:Key="S.Imperative.Search">Поиск</s:String>
 
     <!--Time • Referential-->
     <s:String x:Key="S.Time.Ago.Seconds">несколько секунд назад</s:String>
@@ -132,7 +133,7 @@
     <s:String x:Key="S.Dialog.FirstTime.Account">Просмотреть подписку</s:String>
     <s:String x:Key="S.Dialog.FirstTime.AlmostDone.Title">Почти готово</s:String>
     <s:String x:Key="S.Dialog.FirstTime.AlmostDone.Message">Активизационные данные были предоставлены вашим системным администратором</s:String>
-    <s:String x:Key="S.Dialog.FirstTime.Email">Email</s:String>
+    <!--<s:String x:Key="S.Dialog.FirstTime.Email">Email</s:String>-->
     <s:String x:Key="S.Dialog.FirstTime.Password">Пароль</s:String>
     <s:String x:Key="S.Dialog.FirstTime.Serial">Серийный номер</s:String>
     <s:String x:Key="S.Dialog.FirstTime.OnStart">При запуске открыть...</s:String>
@@ -148,7 +149,7 @@
     <s:String x:Key="S.Dialog.NewProject.Header">Новый проект</s:String>
     <s:String x:Key="S.Dialog.NewProject.Name">Имя</s:String>
     <s:String x:Key="S.Dialog.NewProject.Background">Фон</s:String>
-    <s:String x:Key="S.Dialog.NewProject.Dpi">DPI</s:String>
+    <!--<s:String x:Key="S.Dialog.NewProject.Dpi">DPI</s:String>-->
 
     <!--Dialogs • Update-->
     <s:String x:Key="S.Dialog.Update.Header">Доступно обновление</s:String>
@@ -160,7 +161,7 @@
     <s:String x:Key="S.Dialog.ColorSelector.Green">Зелёный</s:String>
     <s:String x:Key="S.Dialog.ColorSelector.Blue">Синий</s:String>
     <s:String x:Key="S.Dialog.ColorSelector.Alpha">Прозрачность</s:String>
-    <s:String x:Key="S.Dialog.ColorSelector.Hexadecimal">Hex</s:String>
+    <!--<s:String x:Key="S.Dialog.ColorSelector.Hexadecimal">Hex</s:String>-->
     <s:String x:Key="S.Dialog.ColorSelector.Initial">Исходный цвет</s:String>
     <s:String x:Key="S.Dialog.ColorSelector.Current">Текущий цвет</s:String>
     <s:String x:Key="S.Dialog.ColorSelector.Latest">Последний цвет</s:String>
@@ -395,15 +396,28 @@
     <s:String x:Key="S.Dialogs.Cache.Message">Когда вы создаёте запись или открываете что-то для редактирования, проект создаётся и сохраняется в папке кэша.</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent">Сохранить недавние проекты</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent.Info">Будут удалены только проекты старше срока, указанного в Настройки > Хранилище</s:String>
-    
+
     <!--Dialogs • Resize canvas-->
     <s:String x:Key="S.Dialogs.ResizeCanvas.Header">Изменить размер холста</s:String>
     <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent">Масштабировать существующее содержимое до нового размера холста</s:String>
     <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent.Info">При включении существующее содержимое масштабируется и перемещается так, чтобы соответствовать новым размерам холста.&#10;При отключении изменяется только размер холста.</s:String>
-    
+
     <!--Dialogs • Trim canvas-->
     <s:String x:Key="S.Dialogs.TrimCanvas.Header">Обрезать холст</s:String>
     <s:String x:Key="S.Dialogs.TrimCanvas.Direction">Направления обрезки</s:String>
+
+    <!--Dialogs • Trim canvas-->
+    <s:String x:Key="S.Dialogs.SmoothLoop.Header">Поиск плавного цикла</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.Similarity">Сходство</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.TrimDirection">Направление обрезки</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.TrimDirection.End">Обрезать конец, чтобы совпадал с первым кадром</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.TrimDirection.Start">Обрезать начало, чтобы совпадало с последним кадром</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.MinimumLength">Минимальная длина</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm">Алгоритм сравнения</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Pixel">Разница пикселей (быстро)</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Perceptual">Перцептивный хэш (сбалансировано)</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Structural">Структурное сходство (точно)</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.TracksToInclude">Дорожки для включения в поиск</s:String>
 
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">Обязательные поля</s:String>
@@ -487,6 +501,10 @@
     <s:String x:Key="S.Success.StorageCleanup.Header">Успех</s:String>
     <s:String x:Key="S.Success.StorageCleanup.Message">Очистка кеша выполнена успешно</s:String>
 
+    <!--Success • Smooth loop--> 
+    <s:String x:Key="S.Success.SmoothLoop.Header">Плавный цикл найден</s:String>
+    <s:String x:Key="S.Success.SmoothLoop.Message">Найден цикл с похожестью {0:0.##}%</s:String>
+
     <!--Info • Pro feature-->
     <s:String x:Key="S.Info.ProFeature.Header">Только для Pro</s:String>
     <s:String x:Key="S.Info.ProFeature.Message">Обновите, чтобы разблокировать эту функцию</s:String>
@@ -514,11 +532,19 @@
     <s:String x:Key="S.Info.FeedbackSent.Header">Спасибо за ваш отзыв</s:String>
     <s:String x:Key="S.Info.FeedbackSent.Message">Ваше сообщение отправлено. Спасибо, что нашли время поделиться им с нами</s:String>
 
+    <!--Info • Smooth loop partial-->
+    <s:String x:Key="S.Info.SmoothLoopPartial.Header">Найдена частичная совпадение</s:String>
+    <s:String x:Key="S.Info.SmoothLoopPartial.Message">Ближайшее совпадение имеет похожесть {0:0.##}%. Нажмите «Использовать это совпадение», чтобы применить его</s:String>
+
+    <!--Info • Smooth loop cancelled-->
+    <s:String x:Key="S.Info.SmoothLoopCancelled.Header">Поиск отменён</s:String>
+    <s:String x:Key="S.Info.SmoothLoopCancelled.Message">Поиск цикла был отменён</s:String>
+
     <!--Warnings • Single instance-->
     <s:String x:Key="S.Warning.Single.Header">Приложение уже запущено</s:String>
     <s:String x:Key="S.Warning.Single.Message">N-Studio уже запущен, но, видимо, окно не открыто. Проверьте системный трей, там должен быть значок N-Studio.</s:String>
 
-    <!--Warnings • Audio device detection--> 
+    <!--Warnings • Audio device detection-->
     <s:String x:Key="S.Warning.DeviceDetection.Title">Проблемы с обнаружением устройства</s:String>
     <s:String x:Key="S.Warning.DeviceDetection.Description">Не удалось обнаружить аудиоустройства</s:String>
 
@@ -547,6 +573,10 @@
     <!--Warnings • Low on space-->
     <s:String x:Key="S.Warning.LowSpace.Header">Мало свободного места</s:String>
     <s:String x:Key="S.Warning.LowSpace.Message">Освободите место на диске кэша, чтобы можно было выполнять запись</s:String>
+
+    <!--Warnings • No smooth loop found-->
+    <s:String x:Key="S.Warning.SmoothLoopNotFound.Header">Совпадений не найдено</s:String>
+    <s:String x:Key="S.Warning.SmoothLoopNotFound.Message">Не удалось найти подходящую точку цикла. Попробуйте изменить порог сходства или минимальную длину.</s:String>
 
     <!--Warnings • Graphics engine-->
     <s:String x:Key="S.Warning.Graphics.Title">Переключить графический адаптер</s:String>
@@ -757,6 +787,10 @@
     <s:String x:Key="S.Errors.StorageCleanup.Header">Ошибка при очистке</s:String>
     <s:String x:Key="S.Errors.StorageCleanup.Message">Невозможно очистить кэш</s:String>
 
+    <!--Error • Smooth loop search--> 
+    <s:String x:Key="S.Errors.SmoothLoop.Header">Ошибка поиска</s:String>
+    <s:String x:Key="S.Errors.SmoothLoop.Message">Во время поиска цикла произошла ошибка</s:String>
+
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Ошибка активации</s:String>
     <s:String x:Key="S.Errors.Activation.Generic">Не удалось активировать приложение из-за неизвестной проблемы</s:String>
@@ -786,11 +820,11 @@
     <!--Windows • Screen Recorder-->
     <s:String x:Key="S.ScreenRecorder.Frequency.Switch">Нажмите, чтобы переключаться между режимами частоты захвата</s:String>
     <s:String x:Key="S.ScreenRecorder.Frequency.Fps">Максимальное количество кадров в секунду.&#10;Диапазон от 1 до 60 fps, с более высокими значениями будет захвачено больше кадров.&#10;Каждое приращение соответствует разнице в 16 миллисекунд.</s:String>
-    <s:String x:Key="S.ScreenRecorder.Frequency.Fps.Short">fps</s:String>
+    <!--<s:String x:Key="S.ScreenRecorder.Frequency.Fps.Short">fps</s:String>-->
     <s:String x:Key="S.ScreenRecorder.Frequency.Fpm">Максимальное количество кадров в минуту.&#10;Диапазон от 1 до 60 fpm, с более высокими значениями будет захвачено больше кадров.&#10;Каждое приращение соответствует разнице в 1 секунду.</s:String>
-    <s:String x:Key="S.ScreenRecorder.Frequency.Fpm.Short">fpm</s:String>
+    <!--<s:String x:Key="S.ScreenRecorder.Frequency.Fpm.Short">fpm</s:String>-->
     <s:String x:Key="S.ScreenRecorder.Frequency.Fph">Максимальное количество кадров в час&#10;Диапазон от 1 до 60 fph, с более высокими значениями будет захвачено больше кадров.&#10;Каждое приращение соответствует разнице в 1 минуту.</s:String>
-    <s:String x:Key="S.ScreenRecorder.Frequency.Fph.Short">fph</s:String>
+    <!--<s:String x:Key="S.ScreenRecorder.Frequency.Fph.Short">fph</s:String>-->
     <s:String x:Key="S.ScreenRecorder.ClickOrPress">Кликните или нажмите клавиши, чтобы захватить</s:String>
 
     <s:String x:Key="S.ScreenRecorder.Select">Выбрать</s:String>
@@ -811,7 +845,7 @@
     <s:String x:Key="S.ScreenRecorder.Screen.Info1">Графический адаптер: {0}</s:String>
     <s:String x:Key="S.ScreenRecorder.Screen.Info2">Разрешение: {0} x {1}</s:String>
     <s:String x:Key="S.ScreenRecorder.Screen.Info3">Родное разрешение: {0} x {1}</s:String>
-    <s:String x:Key="S.ScreenRecorder.Screen.Info4">DPI: {0} ({1:0.##}%)</s:String>
+    <!--<s:String x:Key="S.ScreenRecorder.Screen.Info4">DPI: {0} ({1:0.##}%)</s:String>-->
 
     <s:String x:Key="S.ScreenRecorder.DiskSpace.Info">Процент использованного диска и доступное пространство</s:String>
     <s:String x:Key="S.ScreenRecorder.AudioSource.Input">Микрофон и другие источники аудиовхода,&#10;которые захватываются</s:String>
@@ -894,7 +928,11 @@
     <s:String x:Key="S.Exporter.Resize.MaintainRatio.Info">Соотношение будет поддерживаться максимально близко,&#10;пытаясь получить ширину и высоту целыми числами</s:String>
 
     <!--Windows • Exporter > Trim-->
-    <s:String x:Key="S.Exporter.Trim.NewTarget">Новая целевая метка времени</s:String>
+    <s:String x:Key="S.Exporter.Trim.Original">Исходная длительность</s:String>
+    <s:String x:Key="S.Exporter.Trim.Trimmed">Обрезанная длительность</s:String>
+    <s:String x:Key="S.Exporter.Trim.FindLoop">Поиск плавного цикла...</s:String>
+    <s:String x:Key="S.Exporter.Trim.FindLoop.Searching">Поиск плавного цикла...</s:String>
+    <s:String x:Key="S.Exporter.Trim.FindLoop.Cancel">Отменить поиск</s:String>
 
     <!--Windows • Exporter > Framerate-->
     <s:String x:Key="S.Exporter.Framerate.Mode.Info">Режим частоты кадров</s:String>
@@ -940,6 +978,7 @@
     <s:String x:Key="S.Exporter.Encoding.Actions.More">Другие действия</s:String>
     <s:String x:Key="S.Exporter.Encoding.Actions.OpenFolder">Открыть папку</s:String>
     <s:String x:Key="S.Exporter.Encoding.Actions.CopyFile">Копировать файл</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Actions.CopyFolderPath">Копировать путь к папке</s:String>
     <s:String x:Key="S.Exporter.Encoding.Actions.CopyPath">Копировать путь</s:String>
     <s:String x:Key="S.Exporter.Encoding.Actions.DeleteFile">Удалить файл</s:String>
 
@@ -1049,7 +1088,7 @@
     <s:String x:Key="S.Feedback.Type.Other">Другое</s:String>
     <s:String x:Key="S.Feedback.Description">Описание</s:String>
     <s:String x:Key="S.Feedback.Description.Info">Опишите подробнее...</s:String>
-    <s:String x:Key="S.Feedback.Email">Email</s:String>
+    <!--<s:String x:Key="S.Feedback.Email">Email</s:String>-->
     <s:String x:Key="S.Feedback.Email.Info">Email для связи (необязательно)</s:String>
     <s:String x:Key="S.Feedback.Extra">Дополнительные сведения</s:String>
     <s:String x:Key="S.Feedback.Extra.System.Info">Версия ОС и установленные патчи</s:String>
@@ -1252,38 +1291,38 @@
     <s:String x:Key="S.DragDrop.Ignored">Некоторые неподдерживаемые файлы будут проигнорированы</s:String>
 
     <!--Keys-->
-    <s:String x:Key="S.Keys.Backspace">Backspace</s:String>
-    <s:String x:Key="S.Keys.Tab">Tab</s:String>
-    <s:String x:Key="S.Keys.Return">Enter</s:String>
-    <s:String x:Key="S.Keys.PauseBreak">Pause/Break</s:String>
-    <s:String x:Key="S.Keys.CapsLock">Caps Lock</s:String>
-    <s:String x:Key="S.Keys.Escape">Esc</s:String>
-    <s:String x:Key="S.Keys.Space">Space</s:String>
-    <s:String x:Key="S.Keys.PageUp">Page Up</s:String>
-    <s:String x:Key="S.Keys.PageDown">Page Down</s:String>
-    <s:String x:Key="S.Keys.Home">Home</s:String>
-    <s:String x:Key="S.Keys.End">End</s:String>
+    <!--<s:String x:Key="S.Keys.Backspace">Backspace</s:String>-->
+    <!--<s:String x:Key="S.Keys.Tab">Tab</s:String>-->
+    <!--<s:String x:Key="S.Keys.Return">Enter</s:String>-->
+    <!--<s:String x:Key="S.Keys.PauseBreak">Pause/Break</s:String>-->
+    <!--<s:String x:Key="S.Keys.CapsLock">Caps Lock</s:String>-->
+    <!--<s:String x:Key="S.Keys.Escape">Esc</s:String>-->
+    <s:String x:Key="S.Keys.Space">Пробел</s:String>
+    <!--<s:String x:Key="S.Keys.PageUp">Page Up</s:String>-->
+    <!--<s:String x:Key="S.Keys.PageDown">Page Down</s:String>-->
+    <!--<s:String x:Key="S.Keys.Home">Home</s:String>-->
+    <!--<s:String x:Key="S.Keys.End">End</s:String>-->
     <s:String x:Key="S.Keys.Left">Стрелка влево</s:String>
     <s:String x:Key="S.Keys.Up">Стрелка вверх</s:String>
     <s:String x:Key="S.Keys.Right">Стрелка вправо</s:String>
     <s:String x:Key="S.Keys.Down">Стрелка вниз</s:String>
-    <s:String x:Key="S.Keys.PrintScreen">Print Screen</s:String>
-    <s:String x:Key="S.Keys.Insert">Insert</s:String>
-    <s:String x:Key="S.Keys.Delete">Delete</s:String>
-    <s:String x:Key="S.Keys.NumLock">Num Lock</s:String>
-    <s:String x:Key="S.Keys.ScrollLock">Scroll Lock</s:String>
-    <s:String x:Key="S.Keys.Shift">Shift</s:String>
-    <s:String x:Key="S.Keys.LeftShift">Left Shift</s:String>
-    <s:String x:Key="S.Keys.RightShift">Right Shift</s:String>
-    <s:String x:Key="S.Keys.Alt">Alt</s:String>
-    <s:String x:Key="S.Keys.LeftAlt">Left Alt</s:String>
-    <s:String x:Key="S.Keys.RightAlt">Right Alt</s:String>
-    <s:String x:Key="S.Keys.Ctrl">Control</s:String>
-    <s:String x:Key="S.Keys.LeftCtrl">Left Ctrl</s:String>
-    <s:String x:Key="S.Keys.RightCtrl">Right Ctrl</s:String>
-    <s:String x:Key="S.Keys.Windows">Windows</s:String>
-    <s:String x:Key="S.Keys.LeftWindows">Left Windows</s:String>
-    <s:String x:Key="S.Keys.RightWindows">Right Windows</s:String>
+    <!--<s:String x:Key="S.Keys.PrintScreen">Print Screen</s:String>-->
+    <!--<s:String x:Key="S.Keys.Insert">Insert</s:String>-->
+    <!--<s:String x:Key="S.Keys.Delete">Delete</s:String>-->
+    <!--<s:String x:Key="S.Keys.NumLock">Num Lock</s:String>-->
+    <!--<s:String x:Key="S.Keys.ScrollLock">Scroll Lock</s:String>-->
+    <!--<s:String x:Key="S.Keys.Shift">Shift</s:String>-->
+    <s:String x:Key="S.Keys.LeftShift">Левый Shift</s:String>
+    <s:String x:Key="S.Keys.RightShift">Правый Shift</s:String>
+    <!--<s:String x:Key="S.Keys.Alt">Alt</s:String>-->
+    <s:String x:Key="S.Keys.LeftAlt">Левый Alt</s:String>
+    <s:String x:Key="S.Keys.RightAlt">Правый Alt</s:String>
+    <!--<s:String x:Key="S.Keys.Ctrl">Control</s:String>-->
+    <s:String x:Key="S.Keys.LeftCtrl">Левый Ctrl</s:String>
+    <s:String x:Key="S.Keys.RightCtrl">Правый Ctrl</s:String>
+    <!--<s:String x:Key="S.Keys.Windows">Windows</s:String>-->
+    <s:String x:Key="S.Keys.LeftWindows">Левый Windows</s:String>
+    <s:String x:Key="S.Keys.RightWindows">Правый Windows</s:String>
     <s:String x:Key="S.Keys.NextTrack">Следующий трек</s:String>
     <s:String x:Key="S.Keys.PreviousTrack">Предыдущий трек</s:String>
     <s:String x:Key="S.Keys.PlayPause">Воспроизвести/Пауза</s:String>
@@ -1293,11 +1332,11 @@
     <s:String x:Key="S.Mouse.Right">Правый клик</s:String>
 
     <!--Units-->
-    <s:String x:Key="S.Units.Points.Short">pt</s:String>
-    <s:String x:Key="S.Units.Second.Short">s</s:String>
-    <s:String x:Key="S.Units.Millisecond.Short">ms</s:String>
-    <s:String x:Key="S.Units.Pixels.Short">px</s:String>
-    <s:String x:Key="S.Units.FramesPerSecond.Short">fps</s:String>
+    <!--<s:String x:Key="S.Units.Points.Short">pt</s:String>-->
+    <!--<s:String x:Key="S.Units.Second.Short">s</s:String>-->
+    <!--<s:String x:Key="S.Units.Millisecond.Short">ms</s:String>-->
+    <!--<s:String x:Key="S.Units.Pixels.Short">px</s:String>-->
+    <!--<s:String x:Key="S.Units.FramesPerSecond.Short">fps</s:String>-->
 
     <!--Formats-->
     <s:String x:Key="S.Formats.Type.Animated">Анимированное изображение</s:String>
@@ -1307,64 +1346,64 @@
     <s:String x:Key="S.Formats.Type.Other">Другое</s:String>
     <s:String x:Key="S.Formats.Type.All">Все файлы</s:String>
 
-    <s:String x:Key="S.Formats.Apng">Apng</s:String>
+    <!--<s:String x:Key="S.Formats.Apng">Apng</s:String>-->
     <s:String x:Key="S.Formats.Apng.Info">Анимированный Portable Network Graphics</s:String>
-    <s:String x:Key="S.Formats.Gif">Gif</s:String>
+    <!--<s:String x:Key="S.Formats.Gif">Gif</s:String>-->
     <s:String x:Key="S.Formats.Gif.Info">Формат обмена графикой</s:String>
-    <s:String x:Key="S.Formats.Webp">Webp</s:String>
-    <s:String x:Key="S.Formats.Webp.Info">Web Picture</s:String>
+    <!--<s:String x:Key="S.Formats.Webp">Webp</s:String>-->
+    <!--<s:String x:Key="S.Formats.Webp.Info">Web Picture</s:String>-->
 
-    <s:String x:Key="S.Formats.Avi">Avi</s:String>
-    <s:String x:Key="S.Formats.Avi.Info">Audio Video Interleave</s:String>
-    <s:String x:Key="S.Formats.Mkv">Mkv</s:String>
-    <s:String x:Key="S.Formats.Mkv.Info">Matroska</s:String>
-    <s:String x:Key="S.Formats.Mov">Mov</s:String>
+    <!--<s:String x:Key="S.Formats.Avi">Avi</s:String>-->
+    <!--<s:String x:Key="S.Formats.Avi.Info">Audio Video Interleave</s:String>-->
+    <!--<s:String x:Key="S.Formats.Mkv">Mkv</s:String>-->
+    <!--<s:String x:Key="S.Formats.Mkv.Info">Matroska</s:String>-->
+    <!--<s:String x:Key="S.Formats.Mov">Mov</s:String>-->
     <s:String x:Key="S.Formats.Mov.Info">Формат файла QuickTime</s:String>
-    <s:String x:Key="S.Formats.Mp4">Mp4</s:String>
-    <s:String x:Key="S.Formats.Mp4.Info">Mpeg-4</s:String>
-    <s:String x:Key="S.Formats.Webm">Webm</s:String>
-    <s:String x:Key="S.Formats.Webm.Info">Web Movie</s:String>
+    <!--<s:String x:Key="S.Formats.Mp4">Mp4</s:String>-->
+    <!--<s:String x:Key="S.Formats.Mp4.Info">Mpeg-4</s:String>-->
+    <!--<s:String x:Key="S.Formats.Webm">Webm</s:String>-->
+    <!--<s:String x:Key="S.Formats.Webm.Info">Web Movie</s:String>-->
 
-    <s:String x:Key="S.Formats.Aac">Aac</s:String>
-    <s:String x:Key="S.Formats.Aac.Info">Advanced Audio Coding</s:String>
-    <s:String x:Key="S.Formats.Ac3">Ac3</s:String>
-    <s:String x:Key="S.Formats.Ac3.Info">Audio Codec 3</s:String>
-    <s:String x:Key="S.Formats.Aiff">Aiff</s:String>
-    <s:String x:Key="S.Formats.Aiff.Info">Audio Interchange File Format</s:String>
-    <s:String x:Key="S.Formats.Alac">Alac</s:String>
-    <s:String x:Key="S.Formats.Alac.Info">Apple Lossless Audio Codec</s:String>
-    <s:String x:Key="S.Formats.Amr">Amr</s:String>
-    <s:String x:Key="S.Formats.Amr.Info">Adaptive Multi-Rate</s:String>
-    <s:String x:Key="S.Formats.Flac">Flac</s:String>
-    <s:String x:Key="S.Formats.Flac.Info">Free Lossless Audio Codec</s:String>
-    <s:String x:Key="S.Formats.Mp3">Mp3</s:String>
-    <s:String x:Key="S.Formats.Mp3.Info">MPEG-1/2 Audio Layer III</s:String>
-    <s:String x:Key="S.Formats.Ogg">Ogg</s:String>
-    <s:String x:Key="S.Formats.Ogg.Info">Ogg Vorbis Container</s:String>
-    <s:String x:Key="S.Formats.Opus">Opus</s:String>
-    <s:String x:Key="S.Formats.Opus.Info">Opus</s:String>
-    <s:String x:Key="S.Formats.Wav">Wav</s:String>
-    <s:String x:Key="S.Formats.Wav.Info">Waveform Audio File Format</s:String>
-    <s:String x:Key="S.Formats.Wma">Wma</s:String>
-    <s:String x:Key="S.Formats.Wma.Info">Windows Media Audio</s:String>
+    <!--<s:String x:Key="S.Formats.Aac">Aac</s:String>-->
+    <!--<s:String x:Key="S.Formats.Aac.Info">Advanced Audio Coding</s:String>-->
+    <!--<s:String x:Key="S.Formats.Ac3">Ac3</s:String>-->
+    <!--<s:String x:Key="S.Formats.Ac3.Info">Audio Codec 3</s:String>-->
+    <!--<s:String x:Key="S.Formats.Aiff">Aiff</s:String>-->
+    <!--<s:String x:Key="S.Formats.Aiff.Info">Audio Interchange File Format</s:String>-->
+    <!--<s:String x:Key="S.Formats.Alac">Alac</s:String>-->
+    <!--<s:String x:Key="S.Formats.Alac.Info">Apple Lossless Audio Codec</s:String>-->
+    <!--<s:String x:Key="S.Formats.Amr">Amr</s:String>-->
+    <!--<s:String x:Key="S.Formats.Amr.Info">Adaptive Multi-Rate</s:String>-->
+    <!--<s:String x:Key="S.Formats.Flac">Flac</s:String>-->
+    <!--<s:String x:Key="S.Formats.Flac.Info">Free Lossless Audio Codec</s:String>-->
+    <!--<s:String x:Key="S.Formats.Mp3">Mp3</s:String>-->
+    <!--<s:String x:Key="S.Formats.Mp3.Info">MPEG-1/2 Audio Layer III</s:String>-->
+    <!--<s:String x:Key="S.Formats.Ogg">Ogg</s:String>-->
+    <!--<s:String x:Key="S.Formats.Ogg.Info">Ogg Vorbis Container</s:String>-->
+    <!--<s:String x:Key="S.Formats.Opus">Opus</s:String>-->
+    <!--<s:String x:Key="S.Formats.Opus.Info">Opus</s:String>-->
+    <!--<s:String x:Key="S.Formats.Wav">Wav</s:String>-->
+    <!--<s:String x:Key="S.Formats.Wav.Info">Waveform Audio File Format</s:String>-->
+    <!--<s:String x:Key="S.Formats.Wma">Wma</s:String>-->
+    <!--<s:String x:Key="S.Formats.Wma.Info">Windows Media Audio</s:String>-->
 
-    <s:String x:Key="S.Formats.Avif">AVIF</s:String>
+    <!--<s:String x:Key="S.Formats.Avif">AVIF</s:String>-->
     <s:String x:Key="S.Formats.Avif.Info">Изображение, сжатое AV1 (HEIF/AV1)</s:String>
-    <s:String x:Key="S.Formats.Bmp">Bmp</s:String>
-    <s:String x:Key="S.Formats.Bmp.Info">Bitmap</s:String>
-    <s:String x:Key="S.Formats.Heic">HEIC</s:String>
+    <!--<s:String x:Key="S.Formats.Bmp">Bmp</s:String>-->
+    <!--<s:String x:Key="S.Formats.Bmp.Info">Bitmap</s:String>-->
+    <!--<s:String x:Key="S.Formats.Heic">HEIC</s:String>-->
     <s:String x:Key="S.Formats.Heic.Info">Высокоэффективное изображение (HEIF/HEVC)</s:String>
-    <s:String x:Key="S.Formats.Jpeg">Jpeg</s:String>
-    <s:String x:Key="S.Formats.Jpeg.Info">Joint Photographic Experts Group</s:String>
-    <s:String x:Key="S.Formats.Png">Png</s:String>
-    <s:String x:Key="S.Formats.Png.Info">Portable Network Graphics</s:String>
+    <!--<s:String x:Key="S.Formats.Jpeg">Jpeg</s:String>-->
+    <!--<s:String x:Key="S.Formats.Jpeg.Info">Joint Photographic Experts Group</s:String>-->
+    <!--<s:String x:Key="S.Formats.Png">Png</s:String>-->
+    <!--<s:String x:Key="S.Formats.Png.Info">Portable Network Graphics</s:String>-->
     <s:String x:Key="S.Formats.Images.Zip">Упакованные изображения</s:String>
 
     <s:String x:Key="S.Formats.Project">Проект</s:String>
     <s:String x:Key="S.Formats.Project.Info">Проект N-Studio</s:String>
     <s:String x:Key="S.Formats.LegacyProject">Запись (старый)</s:String>
     <s:String x:Key="S.Formats.LegacyProject.Info">Файл проекта, используемый ScreenToGif</s:String>
-    <s:String x:Key="S.Formats.Psd">Psd</s:String>
+    <!--<s:String x:Key="S.Formats.Psd">Psd</s:String>-->
     <s:String x:Key="S.Formats.Psd.Info">Файл Photoshop</s:String>
 
     <!--Objects-->
@@ -1586,7 +1625,7 @@
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.PreventBlack">Предотвратить захват полностью чёрных кадров</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.PreventBlack.Info">Предотвращает ошибочный захват кадров, где все пиксели чёрные</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.RemoteImprovement">Отключает захват слоя окна, улучшая производительность при удалённом рабочем столе</s:String>
-    
+
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.GammaCorrection">Применить гамма-коррекцию для захвата SDR 10 бит</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.GammaCorrection.Info">Переключает преобразование из линейного в sRGB для захвата SDR 10 бит.&#10;Если цвета выглядят неправильно, попробуйте изменить это.</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation">Компенсация яркости</s:String>
@@ -1758,7 +1797,7 @@
     <s:String x:Key="S.Settings.Styles.Orientation">Ориентация</s:String>
     <s:String x:Key="S.Settings.Styles.Orientation.Horizontal">Горизонтально</s:String>
     <s:String x:Key="S.Settings.Styles.Orientation.Vertical">Вертикально</s:String>
-
+    
     <!--Settings • Styles > Shape-->
     <s:String x:Key="S.Settings.Styles.Shape">Фигура</s:String>
     <s:String x:Key="S.Settings.Styles.Shape.LineArrow">Стрелка</s:String>
@@ -1916,7 +1955,7 @@
     <s:String x:Key="S.Settings.Plugin.PackedDownload">Упакованная загрузка</s:String>
     <s:String x:Key="S.Settings.Plugin.StoreLimitations">Ограничения магазина</s:String>
     <s:String x:Key="S.Settings.Plugin.StoreLimitations.Info">Из-за политик Microsoft Store вам придётся загружать плагины вручную</s:String>
-
+    
     <!--Settings • Update-->
     <s:String x:Key="S.Settings.Update.UpToDate">Вы в курсе всех обновлений</s:String>
     <s:String x:Key="S.Settings.Update.LastChecked">Последняя проверка:</s:String>
@@ -2066,10 +2105,10 @@
     <s:String x:Key="S.Preset.Encoder.Apng.PaintTransparent.Info">Заменяет пиксели, которые не изменились между кадрами, прозрачным цветом</s:String>
     <s:String x:Key="S.Preset.Encoder.Apng.Prediction">Предсказание</s:String>
     <s:String x:Key="S.Preset.Encoder.Apng.Prediction.None">Нет</s:String>
-    <s:String x:Key="S.Preset.Encoder.Apng.Prediction.Sub">Sub</s:String>
-    <s:String x:Key="S.Preset.Encoder.Apng.Prediction.Up">Up</s:String>
-    <s:String x:Key="S.Preset.Encoder.Apng.Prediction.Average">Average</s:String>
-    <s:String x:Key="S.Preset.Encoder.Apng.Prediction.Mixed">Mixed</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Apng.Prediction.Sub">Sub</s:String>-->
+    <!--<s:String x:Key="S.Preset.Encoder.Apng.Prediction.Up">Up</s:String>-->
+    <!--<s:String x:Key="S.Preset.Encoder.Apng.Prediction.Average">Average</s:String>-->
+    <!--<s:String x:Key="S.Preset.Encoder.Apng.Prediction.Mixed">Mixed</s:String>-->
 
     <!--Preset • Gif-->
     <s:String x:Key="S.Preset.Encoder.Gif.GlobalColorTable">Использовать глобальную цветовую таблицу</s:String>
@@ -2078,15 +2117,15 @@
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Info">Алгоритм снижения количества цветов (квантование)</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Neural">Нейронная сеть</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Neural.Info">Квантование высокого качества. Медленнее, но подходит для большего количества цветов</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Octree">Octree</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Octree">Octree</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Octree.Info">Хорошо для анимаций с меньшим количеством цветов. Быстрее, но может давать полосы</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.MedianCut">Median cut</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Quantizer.MedianCut">Median cut</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.MedianCut.Info">Менее качественно, чем Octree, и медленнее</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Grayscale">Grayscale</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Grayscale">Grayscale</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Grayscale.Info">Использует фиксированную палитру оттенков серого, поэтому это гораздо быстрее</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.MostUsed">Most used colors</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Quantizer.MostUsed">Most used colors</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.MostUsed.Info">Просто берёт наиболее используемые цвета в кадрах</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Sampling">Sampling</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Sampling">Sampling</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Sampling.Info">Фактор выборки:&#10;Значение 1 даст более качественный gif, но рендер будет медленнее</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Sampling.Best">Лучше</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Sampling.Fastest">Самый быстрый</s:String>
@@ -2157,35 +2196,35 @@
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.None.Info">Кадры квантизируются без дизеринга.</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.SerpentineProcessing">Обработка змейкой</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.SerpentineProcessing.Info">Когда включено, направление распространения ошибки меняется от строки к строке.&#10;Это помогает уменьшить эффект рябь от диффузионного дизеринга</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer2X2">Bayer 2x2 (Ordered)</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer2X2">Bayer 2x2 (Ordered)</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer2X2.Info">Шаблон матрицы Байера 2x2</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer3X3">Bayer 3x3 (Ordered)</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer3X3">Bayer 3x3 (Ordered)</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer3X3.Info">Шаблон матрицы Байера 3x3</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer4X4">Bayer 4x4 (Ordered)</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer4X4">Bayer 4x4 (Ordered)</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer4X4.Info">Шаблон матрицы Байера 4x4</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer8X8">Bayer 8x8 (Ordered)</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer8X8">Bayer 8x8 (Ordered)</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer8X8.Info">Шаблон матрицы Байера 8x8</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.DottedHalftone">Точечная полутонная (Ordered)</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.DottedHalftone.Info">Матрица 8x8 с точечным полутоновым паттерном</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.BlueNoise">Синий шум (Ordered)</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.BlueNoise.Info">Матрица 64x64 с паттерном синего шума</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Atkinson">Atkinson (Error Diffusion)</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Atkinson">Atkinson (Error Diffusion)</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Atkinson.Info">Матрица 4x3 Билла Аткинсона с 6 эффективными значениями</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Burkes">Burkes (Error Diffusion)</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Burkes">Burkes (Error Diffusion)</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Burkes.Info">Матрица 5x2 Д. Бёркса</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.FloydSteinberg">Floyd-Steinberg (Error Diffusion)</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.FloydSteinberg">Floyd-Steinberg (Error Diffusion)</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.FloydSteinberg.Info">Оригинальная матрица 3x2 Флойда и Штейнберга</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.JarvisJudiceNinke">Jarvis-Judice-Ninke (Error Diffusion)</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.JarvisJudiceNinke">Jarvis-Judice-Ninke (Error Diffusion)</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.JarvisJudiceNinke.Info">Матрица 5x3 Джарвиса, Джудиса и Нинке</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Sierra3">Sierra 3 (Error Diffusion)</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Sierra3">Sierra 3 (Error Diffusion)</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Sierra3.Info">Матрица 5x3 Фрэнки Сьерра</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Sierra2">Sierra 2 (Error Diffusion)</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Sierra2">Sierra 2 (Error Diffusion)</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Sierra2.Info">Матрица 5x2 Фрэнки Сьерра</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.SierraLite">Sierra Lite (Error Diffusion)</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.SierraLite">Sierra Lite (Error Diffusion)</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.SierraLite.Info">Матрица 3x2 Фрэнки Сьерра</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.StevensonArce">Stevenson-Arce (Error Diffusion)</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.StevensonArce">Stevenson-Arce (Error Diffusion)</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.StevensonArce.Info">Шестиугольная матрица 7x4 Стивенсона и Арсе</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Stucki">Stucki (Error Diffusion)</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Stucki">Stucki (Error Diffusion)</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Stucki.Info">Матрица 5x3 Стакки</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.RandomNoise">Случайный шум</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.RandomNoise.Info">Случайный белый шум</s:String>
@@ -2216,7 +2255,7 @@
     <s:String x:Key="S.Preset.Encoder.Webm.Preset.Text">Текст</s:String>
     <s:String x:Key="S.Preset.Encoder.Webm.Lossless">Использовать без потерь</s:String>
     <s:String x:Key="S.Preset.Encoder.Webm.Lossless.Info">Максимальное качество без потери цвета</s:String>
-
+    
     <!--Preset • Video-->
     <s:String x:Key="S.Preset.Encoder.Video.Codec">Кодек</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.Codec.Info">Видео кодировщик, отвечающий за&#10;преобразование необработанных пикселей в выходной файл</s:String>
@@ -2239,7 +2278,7 @@
     <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.LosslessHp">Без потерь (высокая производительность)</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Hp">Высокая производительность</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Hq">Высокое качество</s:String>
-    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Bd">Blu-ray Disk</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Bd">Blu-ray Disk</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.LowLatency">Низкая задержка</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.LowLatencyHp">Низкая задержка (высокая производительность)</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.LowLatencyHq">Низкая задержка (высокое качество)</s:String>
@@ -2326,9 +2365,9 @@
     <s:String x:Key="S.Presets.Default.Description">Пресет по умолчанию для кодировщика</s:String>
     <s:String x:Key="S.Presets.Twitter.Title">Для X/Twitter ({0})</s:String>
     <s:String x:Key="S.Presets.Twitter.Description">Учитывает ограничения X/Twitter (кроме размера и разрешения)</s:String>
-    <s:String x:Key="S.Presets.Hevc.Title">HEVC ({0})</s:String>
+    <!--<s:String x:Key="S.Presets.Hevc.Title">HEVC ({0})</s:String>-->
     <s:String x:Key="S.Presets.Hevc.Description">Кодирование с высокой эффективностью</s:String>
-    <s:String x:Key="S.Presets.Vp8.Title">VP8 ({0})</s:String>
+    <!--<s:String x:Key="S.Presets.Vp8.Title">VP8 ({0})</s:String>-->
     <s:String x:Key="S.Presets.Vp8.Description">Старый и более известный кодек</s:String>
     <s:String x:Key="S.Presets.Filename.Animation">Анимация</s:String>
     <s:String x:Key="S.Presets.Filename.Video">Видео</s:String>

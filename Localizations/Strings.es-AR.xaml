@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Traducido por máquina (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-14</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-27</s:DateTime>
 
     <!--Imperative-->
     <!--<s:String x:Key="S.Imperative.Accept">Aceptar</s:String>-->
@@ -67,8 +67,9 @@
     <!--<s:String x:Key="S.Imperative.OpenDrive">Abrir unidad</s:String>-->
     <s:String x:Key="S.Imperative.AddEmail">Agregar correo electrónico</s:String>
     <!--<s:String x:Key="S.Imperative.SendWithout">Enviar sin</s:String>-->
-    <!-- <s:String x:Key="S.Imperative.Trim">Recortar</s:String> -->
-    <!-- <s:String x:Key="S.Imperative.Resize">Cambiar tamaño</s:String> -->
+    <!--<s:String x:Key="S.Imperative.Trim">Recortar</s:String>-->
+    <!--<s:String x:Key="S.Imperative.Resize">Cambiar tamaño</s:String>-->
+    <!--<s:String x:Key="S.Imperative.Search">Buscar</s:String>-->
 
     <!--Time • Referential-->
     <!--<s:String x:Key="S.Time.Ago.Seconds">hace unos segundos</s:String>-->
@@ -395,15 +396,28 @@
     <!--<s:String x:Key="S.Dialogs.Cache.Message">Cuando creas una grabación o abres algo para editar, se crea un proyecto y se almacena dentro de la carpeta de caché.</s:String>-->
     <!--<s:String x:Key="S.Dialogs.Cache.KeepRecent">Mantener proyectos recientes</s:String>-->
     <s:String x:Key="S.Dialogs.Cache.KeepRecent.Info">Solo se eliminarán los proyectos más antiguos que lo configurado en Configuración > Almacenamiento</s:String>
-    
+
     <!--Dialogs • Resize canvas-->
-    <!-- <s:String x:Key="S.Dialogs.ResizeCanvas.Header">Cambiar tamaño del lienzo</s:String> -->
-    <!-- <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent">Escalar el contenido existente al nuevo tamaño del lienzo</s:String> -->
-    <!-- <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent.Info">Cuando está activado, el contenido existente se redimensiona y reposiciona para ajustarse a las nuevas dimensiones del lienzo.&#10;Cuando está desactivado, solo cambia el tamaño del lienzo.</s:String> -->
-    
+    <!--<s:String x:Key="S.Dialogs.ResizeCanvas.Header">Cambiar tamaño del lienzo</s:String>-->
+    <!--<s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent">Escalar el contenido existente al nuevo tamaño del lienzo</s:String>-->
+    <!--<s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent.Info">Cuando está activado, el contenido existente se redimensiona y reposiciona para ajustarse a las nuevas dimensiones del lienzo.&#10;Cuando está desactivado, solo cambia el tamaño del lienzo.</s:String>-->
+
     <!--Dialogs • Trim canvas-->
-    <!-- <s:String x:Key="S.Dialogs.TrimCanvas.Header">Recortar lienzo</s:String> -->
-    <!-- <s:String x:Key="S.Dialogs.TrimCanvas.Direction">Direcciones de recorte</s:String> -->
+    <!--<s:String x:Key="S.Dialogs.TrimCanvas.Header">Recortar lienzo</s:String>-->
+    <!--<s:String x:Key="S.Dialogs.TrimCanvas.Direction">Direcciones de recorte</s:String>-->
+
+    <!--Dialogs • Trim canvas-->
+    <!--<s:String x:Key="S.Dialogs.SmoothLoop.Header">Buscar un bucle suave</s:String>-->
+    <!--<s:String x:Key="S.Dialogs.SmoothLoop.Similarity">Similitud</s:String>-->
+    <!--<s:String x:Key="S.Dialogs.SmoothLoop.TrimDirection">Dirección de recorte</s:String>-->
+    <!--<s:String x:Key="S.Dialogs.SmoothLoop.TrimDirection.End">Recortar final para coincidir con el primer fotograma</s:String>-->
+    <!--<s:String x:Key="S.Dialogs.SmoothLoop.TrimDirection.Start">Recortar inicio para coincidir con el último fotograma</s:String>-->
+    <!--<s:String x:Key="S.Dialogs.SmoothLoop.MinimumLength">Longitud mínima</s:String>-->
+    <!--<s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm">Algoritmo de comparación</s:String>-->
+    <!--<s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Pixel">Diferencia de píxeles (rápido)</s:String>-->
+    <!--<s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Perceptual">Hash perceptual (equilibrado)</s:String>-->
+    <!--<s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Structural">Similitud estructural (preciso)</s:String>-->
+    <!--<s:String x:Key="S.Dialogs.SmoothLoop.TracksToInclude">Pistas a incluir en la búsqueda</s:String>-->
 
     <!--Validation • Field Validations-->
     <!--<s:String x:Key="S.Validation.Required.Header">Campos obligatorios</s:String>-->
@@ -487,6 +501,10 @@
     <!--<s:String x:Key="S.Success.StorageCleanup.Header">Éxito</s:String>-->
     <!--<s:String x:Key="S.Success.StorageCleanup.Message">Limpieza de caché completada con éxito</s:String>-->
 
+    <!--Success • Smooth loop--> 
+    <!--<s:String x:Key="S.Success.SmoothLoop.Header">Bucle suave encontrado</s:String>-->
+    <!--<s:String x:Key="S.Success.SmoothLoop.Message">Se encontró un bucle con {0:0.##}% de similitud</s:String>-->
+
     <!--Info • Pro feature-->
     <!--<s:String x:Key="S.Info.ProFeature.Header">Solo para pros</s:String>-->
     <!--<s:String x:Key="S.Info.ProFeature.Message">Desbloquea esta función con la versión Pro.</s:String>-->
@@ -514,6 +532,14 @@
     <!--<s:String x:Key="S.Info.FeedbackSent.Header">Gracias por sus comentarios</s:String>-->
     <!--<s:String x:Key="S.Info.FeedbackSent.Message">Tu mensaje ha sido enviado. Agradecemos que te hayas tomado el tiempo para compartirlo con nosotros</s:String>-->
 
+    <!--Info • Smooth loop partial-->
+    <!--<s:String x:Key="S.Info.SmoothLoopPartial.Header">Coincidencia parcial encontrada</s:String>-->
+    <!--<s:String x:Key="S.Info.SmoothLoopPartial.Message">La coincidencia más cercana tuvo {0:0.##}% de similitud. Haz clic en 'Usar esta coincidencia' para aplicarla igualmente</s:String>-->
+
+    <!--Info • Smooth loop cancelled-->
+    <!--<s:String x:Key="S.Info.SmoothLoopCancelled.Header">Búsqueda cancelada</s:String>-->
+    <!--<s:String x:Key="S.Info.SmoothLoopCancelled.Message">La búsqueda de bucle fue cancelada</s:String>-->
+
     <!--Warnings • Single instance-->
     <!--<s:String x:Key="S.Warning.Single.Header">La aplicación ya está en ejecución</s:String>-->
     <!--<s:String x:Key="S.Warning.Single.Message">N-Studio ya está en ejecución, pero aparentemente no hay ninguna ventana abierta. Comprueba la bandeja del sistema, debe haber un icono de N-Studio allí.</s:String>-->
@@ -522,31 +548,35 @@
     <!--<s:String x:Key="S.Warning.DeviceDetection.Title">Problemas de detección de dispositivos</s:String>-->
     <!--<s:String x:Key="S.Warning.DeviceDetection.Description">No fue posible detectar dispositivos de audio</s:String>-->
 
-    <!--Warnings • Invalid file name-->
+    <!--Warnings • Invalid file name--> 
     <!--<s:String x:Key="S.Warning.InvalidFileName.Header">Nombre de archivo no válido</s:String>-->
     <!--<s:String x:Key="S.Warning.InvalidFileName.Message">El nombre del archivo contiene caracteres no válidos</s:String>-->
     <!--<s:String x:Key="S.Warning.InvalidFileName.Fix">Corregir</s:String>-->
     <!--<s:String x:Key="S.Warning.InvalidFileName.Fix.Info">Eliminar caracteres no válidos del nombre del archivo</s:String>-->
 
-    <!--Warnings • File already exists-->
+    <!--Warnings • File already exists--> 
     <!--<s:String x:Key="S.Warning.FileAlreadyExists.Header">El archivo ya existe</s:String>-->
     <!--<s:String x:Key="S.Warning.FileAlreadyExists.Message">El nombre del archivo contiene caracteres no válidos</s:String>-->
 
-    <!--Warnings • Failed to authenticate token-->
+    <!--Warnings • Failed to authenticate token--> 
     <!--<s:String x:Key="S.Warning.FailedToken.Header">No se pudo obtener respuesta</s:String>-->
     <!--<s:String x:Key="S.Warning.FailedToken.Message">Pega aquí la URL completa para autenticar</s:String>-->
 
-    <!--Warnings • Authorization missing-->
+    <!--Warnings • Authorization missing--> 
     <!--<s:String x:Key="S.Warning.AuthorizationMissing.Header">Falta autorización</s:String>-->
     <!--<s:String x:Key="S.Warning.AuthorizationMissing.Message">No puedes subir al servicio seleccionado porque no has iniciado sesión</s:String>-->
 
-    <!--Warnings • Unsupported files dropped-->
+    <!--Warnings • Unsupported files dropped--> 
     <!--<s:String x:Key="S.Warning.Drop.Header">No compatible o no válido</s:String>-->
     <!--<s:String x:Key="S.Warning.Drop.Message">No fue posible insertar o abrir el/los archivo(s)</s:String>-->
 
     <!--Warnings • Low on space-->
     <s:String x:Key="S.Warning.LowSpace.Header">Poco espacio disponible</s:String>
     <s:String x:Key="S.Warning.LowSpace.Message">Liberá espacio en tu unidad de caché para poder grabar</s:String>
+
+    <!--Warnings • No smooth loop found-->
+    <!--<s:String x:Key="S.Warning.SmoothLoopNotFound.Header">No se encontró coincidencia</s:String>-->
+    <!--<s:String x:Key="S.Warning.SmoothLoopNotFound.Message">No se pudo encontrar un punto de bucle adecuado. Intenta ajustar el umbral de similitud o la longitud mínima.</s:String>-->
 
     <!--Warnings • Graphics engine-->
     <!--<s:String x:Key="S.Warning.Graphics.Title">Cambiar adaptador gráfico</s:String>-->
@@ -565,67 +595,67 @@
     <!--<s:String x:Key="S.Error.UpdateUnsupported.Header">No compatible</s:String>-->
     <!--<s:String x:Key="S.Error.UpdateUnsupported.Message">Parece que tu sistema ya no es compatible o algo ha cambiado en el sistema de actualización. Intenta descargarla manualmente desde la página web.</s:String>-->
 
-    <!--Error • Update Failed-->
+    <!--Error • Update Failed--> 
     <!--<s:String x:Key="S.Error.UpdateFailed.Header">La actualización ha fallado</s:String>-->
     <!--<s:String x:Key="S.Error.UpdateFailed.Message">No fue posible descargar la actualización.</s:String>-->
 
-    <!--Error • Login failed-->
+    <!--Error • Login failed--> 
     <!--<s:String x:Key="S.Error.Login.Header">Error al iniciar sesión</s:String>-->
     <!--<s:String x:Key="S.Error.Login.Message">La autenticación en el navegador ha fallado, inténtalo de nuevo</s:String>-->
 
-    <!--Error • Authentication-->
+    <!--Error • Authentication--> 
     <!--<s:String x:Key="S.Error.Authentication.Header">Error de autenticación</s:String>-->
     <!--<s:String x:Key="S.Error.Authentication.Message">No fue posible autenticar con el servicio</s:String>-->
 
-    <!--Error • Delete file-->
+    <!--Error • Delete file--> 
     <!--<s:String x:Key="S.Error.DeleteFile.Header">Error al eliminar el archivo</s:String>-->
     <!--<s:String x:Key="S.Error.DeleteFile.Message">No fue posible eliminar el archivo.</s:String>-->
 
-    <!--Error • Encoding-->
+    <!--Error • Encoding--> 
     <!--<s:String x:Key="S.Error.Encoding.Header">Error de codificación</s:String>-->
     <!--<s:String x:Key="S.Error.Encoding.Message">La codificación falló y no pudo finalizar.</s:String>-->
 
-    <!--Error • Recording-->
+    <!--Error • Recording--> 
     <!--<s:String x:Key="S.Error.Recording.Header">Error al iniciar la grabación</s:String>-->
     <!--<s:String x:Key="S.Error.Recording.Message">Algo salió mal con la captura, no fue posible iniciarla correctamente.</s:String>-->
 
-    <!--Error • Pausing-->
+    <!--Error • Pausing--> 
     <!--<s:String x:Key="S.Error.Pausing.Header">Error al pausar</s:String>-->
     <!--<s:String x:Key="S.Error.Pausing.Message">Algo salió mal con la captura, no fue posible pausarla correctamente.</s:String>-->
 
-    <!--Error • Stopping-->
+    <!--Error • Stopping--> 
     <!--<s:String x:Key="S.Error.Stopping.Header">Error al detener</s:String>-->
     <!--<s:String x:Key="S.Error.Stopping.Message">Algo salió mal con la captura, no fue posible finalizarla correctamente.</s:String>-->
 
-    <!--Error • Capture-->
+    <!--Error • Capture--> 
     <!--<s:String x:Key="S.Error.Capture.Header">No fue posible capturar la pantalla</s:String>-->
     <!--<s:String x:Key="S.Error.Capture.Message">La captura falló y está en un estado dañado.</s:String>-->
 
-    <!--Error • Export feedback-->
+    <!--Error • Export feedback--> 
     <!--<s:String x:Key="S.Error.ExportFeedback.Header">Error de exportación</s:String>-->
     <!--<s:String x:Key="S.Error.ExportFeedback.Message">No fue posible exportar los comentarios</s:String>-->
 
-    <!--Error • Unsupported files dropped-->
+    <!--Error • Unsupported files dropped--> 
     <!--<s:String x:Key="S.Error.Drop.Header">Error al importar</s:String>-->
     <!--<s:String x:Key="S.Error.Drop.Message">No fue posible insertar o abrir el/los archivo(s)</s:String>-->
 
-    <!--Error • Unrecognized plugin-->
+    <!--Error • Unrecognized plugin--> 
     <!--<s:String x:Key="S.Error.UnrecognizedPlugin.Header">Archivo no reconocido</s:String>-->
     <!--<s:String x:Key="S.Error.UnrecognizedPlugin.Message">El archivo seleccionado no fue reconocido</s:String>-->
 
-    <!--Error • Impossible to update-->
+    <!--Error • Impossible to update--> 
     <!--<s:String x:Key="S.Error.UpdatedFailed.Header">Error al instalar la actualización</s:String>-->
     <!--<s:String x:Key="S.Error.UpdatedFailed.Message">Instala la actualización manualmente</s:String>-->
 
-    <!--Error • Error loading-->
+    <!--Error • Error loading--> 
     <!--<s:String x:Key="S.Errors.Load.Header">Error al cargar</s:String>-->
     <!--<s:String x:Key="S.Errors.Load.Message">No fue posible cargar el proyecto</s:String>-->
 
-    <!--Error • Error with renderer-->
+    <!--Error • Error with renderer--> 
     <!--<s:String x:Key="S.Errors.Renderer.Header">Error del renderizador</s:String>-->
     <!--<s:String x:Key="S.Errors.Renderer.Message">La canalización de renderizado falló</s:String>-->
 
-    <!--Error • Error initializing-->
+    <!--Error • Error initializing--> 
     <!--<s:String x:Key="S.Errors.InitializePreviewer.Header">Error del previsualizador</s:String>-->
     <!--<s:String x:Key="S.Errors.InitializePreviewer.Message">No fue posible inicializar el previsualizador</s:String>-->
 
@@ -649,95 +679,95 @@
     <!--<s:String x:Key="S.Errors.Copy.Header">Error al copiar</s:String>-->
     <!--<s:String x:Key="S.Errors.Copy.Message">No se pudo copiar el elemento seleccionado</s:String>-->
 
-    <!--Error • Cut-->
+    <!--Error • Cut--> 
     <!--<s:String x:Key="S.Errors.Cut.Header">Error al cortar</s:String>-->
     <!--<s:String x:Key="S.Errors.Cut.Message">No se pudo cortar los elementos seleccionados</s:String>-->
 
-    <!--Error • Paste-->
+    <!--Error • Paste--> 
     <!--<s:String x:Key="S.Errors.Paste.Header">Error al pegar</s:String>-->
     <!--<s:String x:Key="S.Errors.Paste.Message">No se pudo pegar los elementos</s:String>-->
 
-    <!--Error • Inserting recording-->
+    <!--Error • Inserting recording--> 
     <!--<s:String x:Key="S.Errors.InsertingRecording.Header">Error al insertar la grabación</s:String>-->
     <!--<s:String x:Key="S.Errors.InsertingRecording.Message">No se pudo insertar la grabación capturada en el proyecto</s:String>-->
 
-    <!--Error • Inserting media-->
+    <!--Error • Inserting media--> 
     <!--<s:String x:Key="S.Errors.InsertingMedia.Header">Error al insertar el medio</s:String>-->
     <!--<s:String x:Key="S.Errors.InsertingMedia.Message">No se pudo insertar el medio seleccionado en el proyecto</s:String>-->
 
-    <!--Error • Inserting text-->
+    <!--Error • Inserting text--> 
     <!--<s:String x:Key="S.Errors.InsertingText.Header">Error al insertar texto</s:String>-->
     <!--<s:String x:Key="S.Errors.InsertingText.Message">No se pudo insertar el elemento de texto en el proyecto</s:String>-->
 
-    <!--Error • Inserting progress-->
+    <!--Error • Inserting progress--> 
     <!--<s:String x:Key="S.Errors.InsertingProgress.Header">Error al insertar progreso</s:String>-->
     <!--<s:String x:Key="S.Errors.InsertingProgress.Message">No se pudo insertar el elemento de progreso en el proyecto</s:String>-->
 
-    <!--Error • Inserting drawing-->
+    <!--Error • Inserting drawing--> 
     <!--<s:String x:Key="S.Errors.InsertingDrawing.Header">Error al insertar dibujo</s:String>-->
     <!--<s:String x:Key="S.Errors.InsertingDrawing.Message">No se pudo insertar el elemento de dibujo en el proyecto</s:String>-->
 
-    <!--Error • Editing drawing-->
+    <!--Error • Editing drawing--> 
     <!--<s:String x:Key="S.Errors.EditingDrawing.Header">Error al editar dibujo</s:String>-->
     <!--<s:String x:Key="S.Errors.EditingDrawing.Message">No se pudo editar el dibujo seleccionado</s:String>-->
 
-    <!--Error • Inserting segment (generic)-->
+    <!--Error • Inserting segment (generic)--> 
     <!--<s:String x:Key="S.Errors.InsertingSegment.Header">Error al insertar segmento</s:String>-->
     <!--<s:String x:Key="S.Errors.InsertingSegment.Message">No se pudo insertar el segmento en el proyecto</s:String>-->
 
-    <!--Error • Inserting track (empty)-->
+    <!--Error • Inserting track (empty)--> 
     <!--<s:String x:Key="S.Errors.InsertingEmptyTrack.Header">Error al insertar pista</s:String>-->
     <!--<s:String x:Key="S.Errors.InsertingEmptyTrack.Message">No se pudo insertar la pista vacía en el proyecto</s:String>-->
 
-    <!--Error • Reorder tracks-->
+    <!--Error • Reorder tracks--> 
     <!--<s:String x:Key="S.Errors.ReorderingTracks.Header">Error al reordenar pistas</s:String>-->
     <!--<s:String x:Key="S.Errors.ReorderingTracks.Message">No se pudieron reordenar las pistas seleccionadas</s:String>-->
 
-    <!--Error • Remove tracks-->
+    <!--Error • Remove tracks--> 
     <!--<s:String x:Key="S.Errors.RemoveTracks.Header">Error al eliminar pistas</s:String>-->
     <!--<s:String x:Key="S.Errors.RemoveTracks.Message">No se pudieron eliminar las pistas seleccionadas</s:String>-->
 
-    <!--Error • Move segments-->
+    <!--Error • Move segments--> 
     <!--<s:String x:Key="S.Errors.MoveSegments.Header">Error al mover segmentos</s:String>-->
     <!--<s:String x:Key="S.Errors.MoveSegments.Message">No se pudieron mover los segmentos seleccionados</s:String>-->
 
-    <!--Error • Remove segments-->
+    <!--Error • Remove segments--> 
     <!--<s:String x:Key="S.Errors.RemoveSegments.Header">Error al eliminar segmentos</s:String>-->
     <!--<s:String x:Key="S.Errors.RemoveSegments.Message">No se pudieron eliminar los segmentos seleccionados</s:String>-->
 
-    <!--Error • Split segment-->
+    <!--Error • Split segment--> 
     <!--<s:String x:Key="S.Errors.SplitSegment.Header">Error al dividir segmento</s:String>-->
     <!--<s:String x:Key="S.Errors.SplitSegment.Message">No se pudo dividir el segmento seleccionado</s:String>-->
 
-    <!--Error • Trim segment-->
+    <!--Error • Trim segment--> 
     <!--<s:String x:Key="S.Errors.TrimSegment.Header">Error al recortar segmento</s:String>-->
     <!--<s:String x:Key="S.Errors.TrimSegment.Message">No se pudo recortar el segmento seleccionado</s:String>-->
 
-    <!--Error • Edit key aliases-->
+    <!--Error • Edit key aliases--> 
     <!--<s:String x:Key="S.Errors.EditAliases.Header">Error al editar alias de teclas</s:String>-->
     <!--<s:String x:Key="S.Errors.EditAliases.Message">No se pudieron editar los alias de teclas</s:String>-->
 
-    <!--Error • Edit key translations-->
+    <!--Error • Edit key translations--> 
     <!--<s:String x:Key="S.Errors.EditTranslations.Header">Error al editar traducciones de teclas</s:String>-->
     <!--<s:String x:Key="S.Errors.EditTranslations.Message">No se pudieron editar las traducciones de teclas</s:String>-->
 
-    <!--Error • Add effect-->
+    <!--Error • Add effect--> 
     <!--<s:String x:Key="S.Errors.AddEffect.Header">Error al agregar efecto</s:String>-->
     <!--<s:String x:Key="S.Errors.AddEffect.Message">No se pudo agregar el efecto</s:String>-->
 
-    <!--Error • Edit effect-->
+    <!--Error • Edit effect--> 
     <!--<s:String x:Key="S.Errors.EditEffect.Header">Error al editar efecto</s:String>-->
     <!--<s:String x:Key="S.Errors.EditEffect.Message">No se pudo editar el efecto</s:String>-->
 
-    <!--Error • Remove effect-->
+    <!--Error • Remove effect--> 
     <!--<s:String x:Key="S.Errors.RemoveEffect.Header">Error al eliminar efecto</s:String>-->
     <!--<s:String x:Key="S.Errors.RemoveEffect.Message">No se pudo eliminar el efecto</s:String>-->
 
-    <!--Error • Redo-->
+    <!--Error • Redo--> 
     <!--<s:String x:Key="S.Errors.Redo.Header">Error al rehacer acción</s:String>-->
     <!--<s:String x:Key="S.Errors.Redo.Message">No se pudo rehacer la acción anterior</s:String>-->
 
-    <!--Error • Undo-->
+    <!--Error • Undo--> 
     <!--<s:String x:Key="S.Errors.Undo.Header">Error al deshacer acción</s:String>-->
     <!--<s:String x:Key="S.Errors.Undo.Message">No se pudo deshacer la acción anterior</s:String>-->
 
@@ -749,7 +779,7 @@
     <!--<s:String x:Key="S.Errors.Plugin.Header">Error al descargar el complemento</s:String>-->
     <!--<s:String x:Key="S.Errors.Plugin.Message">Error al descargar y extraer el complemento</s:String>-->
 
-    <!--Error • Open windows settings-->
+    <!--Error • Open windows settings--> 
     <!--<s:String x:Key="S.Errors.WindowsSettings.Header">Configuración de Windows</s:String>-->
     <!--<s:String x:Key="S.Errors.WindowsSettings.Message">No se pudo abrir la página de configuración</s:String>-->
 
@@ -757,7 +787,11 @@
     <!--<s:String x:Key="S.Errors.StorageCleanup.Header">Error al limpiar</s:String>-->
     <!--<s:String x:Key="S.Errors.StorageCleanup.Message">No fue posible limpiar la caché</s:String>-->
 
-    <!--Error • Others-->
+    <!--Error • Smooth loop search--> 
+    <!--<s:String x:Key="S.Errors.SmoothLoop.Header">La búsqueda falló</s:String>-->
+    <!--<s:String x:Key="S.Errors.SmoothLoop.Message">Ocurrió un error durante la búsqueda del bucle</s:String>-->
+
+    <!--Error • Others--> 
     <!--<s:String x:Key="S.Errors.Activation.Title">La activación ha fallado</s:String>-->
     <!--<s:String x:Key="S.Errors.Activation.Generic">No fue posible activar la aplicación debido a un problema desconocido</s:String>-->
     <!--<s:String x:Key="S.Errors.Activation.EmailOrPasswordWrong">El intento de activación falló debido a un correo o contraseña incorrectos</s:String>-->
@@ -894,7 +928,11 @@
     <!--<s:String x:Key="S.Exporter.Resize.MaintainRatio.Info">La proporción se mantendrá lo más cercana posible,&#10;intentando obtener un ancho y alto con números enteros</s:String>-->
 
     <!--Windows • Exporter > Trim-->
-    <!--<s:String x:Key="S.Exporter.Trim.NewTarget">Nuevo tiempo objetivo</s:String>-->
+    <!--<s:String x:Key="S.Exporter.Trim.Original">Duración original</s:String>-->
+    <!--<s:String x:Key="S.Exporter.Trim.Trimmed">Duración recortada</s:String>-->
+    <!--<s:String x:Key="S.Exporter.Trim.FindLoop">Busca un bucle suave...</s:String>-->
+    <!--<s:String x:Key="S.Exporter.Trim.FindLoop.Searching">Buscando un bucle suave...</s:String>-->
+    <!--<s:String x:Key="S.Exporter.Trim.FindLoop.Cancel">Cancelar búsqueda</s:String>-->
 
     <!--Windows • Exporter > Framerate-->
     <!--<s:String x:Key="S.Exporter.Framerate.Mode.Info">Modo de tasa de fotogramas</s:String>-->
@@ -940,6 +978,7 @@
     <!--<s:String x:Key="S.Exporter.Encoding.Actions.More">Más acciones</s:String>-->
     <!--<s:String x:Key="S.Exporter.Encoding.Actions.OpenFolder">Abrir carpeta</s:String>-->
     <!--<s:String x:Key="S.Exporter.Encoding.Actions.CopyFile">Copiar archivo</s:String>-->
+    <!--<s:String x:Key="S.Exporter.Encoding.Actions.CopyFolderPath">Copiar ruta de carpeta</s:String>-->
     <!--<s:String x:Key="S.Exporter.Encoding.Actions.CopyPath">Copiar ruta</s:String>-->
     <!--<s:String x:Key="S.Exporter.Encoding.Actions.DeleteFile">Eliminar archivo</s:String>-->
 
@@ -968,10 +1007,10 @@
     <!--<s:String x:Key="S.Editor.Edit.Remove">Eliminar</s:String>-->
     <!--<s:String x:Key="S.Editor.Edit.Content.Text">Editar texto</s:String>-->
     <!--<s:String x:Key="S.Editor.Edit.Content.Drawing">Editar dibujo</s:String>-->
-    <!--<s:String x:Key="S.Editor.Canvas">Lienzo</s:String> -->
-    <!--<s:String x:Key="S.Editor.Canvas.Resize">Cambiar tamaño...</s:String> -->
-    <!--<s:String x:Key="S.Editor.Canvas.Crop">Recortar...</s:String> -->
-    <!--<s:String x:Key="S.Editor.Canvas.Trim">Ajustar...</s:String> -->
+    <!--<s:String x:Key="S.Editor.Canvas">Lienzo</s:String>-->
+    <!--<s:String x:Key="S.Editor.Canvas.Resize">Cambiar tamaño...</s:String>-->
+    <!--<s:String x:Key="S.Editor.Canvas.Crop">Recortar...</s:String>-->
+    <!--<s:String x:Key="S.Editor.Canvas.Trim">Ajustar...</s:String>-->
     <!--<s:String x:Key="S.Editor.Insert">Insertar</s:String>-->
     <!--<s:String x:Key="S.Editor.Insert.Screen">Grabación de pantalla</s:String>-->
     <!--<s:String x:Key="S.Editor.Insert.Sound">Grabación de sonido</s:String>-->
@@ -1184,8 +1223,8 @@
     <!--<s:String x:Key="S.Positioning.BottomRight">Esquina inferior derecha</s:String>-->
     <!--<s:String x:Key="S.Positioning.Width">Ancho</s:String>-->
     <!--<s:String x:Key="S.Positioning.Height">Alto</s:String>-->
-    <!-- <s:String x:Key="S.Positioning.MinWidth">Ancho mínimo</s:String> -->
-    <!-- <s:String x:Key="S.Positioning.MinHeight">Alto mínimo</s:String> -->
+    <!--<s:String x:Key="S.Positioning.MinWidth">Ancho mínimo</s:String>-->
+    <!--<s:String x:Key="S.Positioning.MinHeight">Alto mínimo</s:String>-->
     <!--<s:String x:Key="S.Positioning.Angle">Ángulo</s:String>-->
 
     <!--Timing-->
@@ -1586,12 +1625,12 @@
     <!--<s:String x:Key="S.Settings.ScreenRecorder.Capture.PreventBlack">Evitar captura de fotogramas completamente negros</s:String>-->
     <!--<s:String x:Key="S.Settings.ScreenRecorder.Capture.PreventBlack.Info">Evita capturar incorrectamente fotogramas donde todos los píxeles son negros</s:String>-->
     <!--<s:String x:Key="S.Settings.ScreenRecorder.Capture.RemoteImprovement">Desactivar captura de ventanas en capas, mejorando el rendimiento en conexiones de escritorio remoto</s:String>-->
-    
-    <!-- <s:String x:Key="S.Settings.ScreenRecorder.Capture.GammaCorrection">Aplicar corrección de gamma para captura SDR de 10 bits</s:String> -->
-    <!-- <s:String x:Key="S.Settings.ScreenRecorder.Capture.GammaCorrection.Info">Activa la conversión lineal a sRGB para captura SDR de 10 bits.&#10;Si los colores se ven incorrectos, prueba a cambiar esto.</s:String> -->
-    <!-- <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation">Compensación de brillo</s:String> -->
-    <!-- <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation.Auto">Auto</s:String> -->
-    <!-- <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation.Fixed">Fijo</s:String> -->
+
+    <!--<s:String x:Key="S.Settings.ScreenRecorder.Capture.GammaCorrection">Aplicar corrección de gamma para captura SDR de 10 bits</s:String>-->
+    <!--<s:String x:Key="S.Settings.ScreenRecorder.Capture.GammaCorrection.Info">Activa la conversión lineal a sRGB para captura SDR de 10 bits.&#10;Si los colores se ven incorrectos, prueba a cambiar esto.</s:String>-->
+    <!--<s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation">Compensación de brillo</s:String>-->
+    <!--<s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation.Auto">Auto</s:String>-->
+    <!--<s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation.Fixed">Fijo</s:String>-->
 
     <!--Settings • Screen Recorder > Capture Frequency-->
     <!--<s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency">Frecuencia de captura</s:String>-->
@@ -1758,7 +1797,7 @@
     <!--<s:String x:Key="S.Settings.Styles.Orientation">Orientación</s:String>-->
     <!--<s:String x:Key="S.Settings.Styles.Orientation.Horizontal">Horizontal</s:String>-->
     <!--<s:String x:Key="S.Settings.Styles.Orientation.Vertical">Vertical</s:String>-->
-
+    
     <!--Settings • Styles > Shape-->
     <!--<s:String x:Key="S.Settings.Styles.Shape">Forma</s:String>-->
     <!--<s:String x:Key="S.Settings.Styles.Shape.LineArrow">Flecha lineal</s:String>-->
@@ -1902,7 +1941,7 @@
     <s:String x:Key="S.Settings.Storage.Cleanup.Clear.Global.Header">¿Deseas eliminar la configuración global?</s:String>
     <s:String x:Key="S.Settings.Storage.Cleanup.Clear.Local.Header">¿Deseas eliminar la configuración local?</s:String>
     <!--<s:String x:Key="S.Settings.Storage.Cleanup.Clear.Description">Necesitarás reiniciar la aplicación para ver los cambios.</s:String>-->
-    
+
     <!--Settings • Plugins-->
     <!--<s:String x:Key="S.Settings.Plugin.Path">Ruta</s:String>-->
     <!--<s:String x:Key="S.Settings.Plugin.SelectFile">Haz clic para seleccionar archivo</s:String>-->
@@ -1916,7 +1955,7 @@
     <!--<s:String x:Key="S.Settings.Plugin.PackedDownload">Descarga empaquetada</s:String>-->
     <!--<s:String x:Key="S.Settings.Plugin.StoreLimitations">Limitaciones de la tienda</s:String>-->
     <!--<s:String x:Key="S.Settings.Plugin.StoreLimitations.Info">Debido a las políticas de Microsoft Store, tendrás que descargar los plugins manualmente</s:String>-->
-
+    
     <!--Settings • Update-->
     <!--<s:String x:Key="S.Settings.Update.UpToDate">Estás al día</s:String>-->
     <!--<s:String x:Key="S.Settings.Update.LastChecked">Última comprobación:</s:String>-->
@@ -1946,7 +1985,7 @@
 
     <!--Windows • Preset Settings-->
     <s:String x:Key="S.PresetSettings.Title">NStudio • Configuración de presets</s:String>
-    <!--<s:String x:Key="S.PresetSettings.Presets">Presets</s:String>-->
+    <!--<s:String x:Key="S.PresetSettings.Presets">Ajustes preestablecidos</s:String>-->
     <!--<s:String x:Key="S.PresetSettings.Add.Info">Agregar nuevo preset</s:String>-->
     <!--<s:String x:Key="S.PresetSettings.Duplicate">Duplicar</s:String>-->
     <!--<s:String x:Key="S.PresetSettings.Duplicate.Info">Duplicar preset seleccionado</s:String>-->
@@ -2000,7 +2039,7 @@
     <!--<s:String x:Key="S.Preset.Upload.Title.Info">Preset de subida predeterminado</s:String>-->
     <!--<s:String x:Key="S.Preset.Upload.Title2">Opciones de subida</s:String>-->
     <!--<s:String x:Key="S.Preset.Upload.Title2.Info">Opciones específicas del servicio de subida y formato de archivo seleccionados</s:String>-->
-    <!--<s:String x:Key="S.Preset.Upload.Preset">Preset</s:String>-->
+    <!--<s:String x:Key="S.Preset.Upload.Preset">Preajuste</s:String>-->
 
     <!--Windows • Preset Settings > Clipboard-->
     <!--<s:String x:Key="S.Preset.Clipboard.Title">Portapapeles</s:String>-->
@@ -2216,7 +2255,7 @@
     <!--<s:String x:Key="S.Preset.Encoder.Webm.Preset.Text">Texto</s:String>-->
     <!--<s:String x:Key="S.Preset.Encoder.Webm.Lossless">Usar modo sin pérdidas</s:String>-->
     <!--<s:String x:Key="S.Preset.Encoder.Webm.Lossless.Info">Calidad máxima, sin degradación de color</s:String>-->
-
+    
     <!--Preset • Video-->
     <!--<s:String x:Key="S.Preset.Encoder.Video.Codec">Códec</s:String>-->
     <!--<s:String x:Key="S.Preset.Encoder.Video.Codec.Info">El codificador de vídeo, responsable de&#10;convertir los píxeles sin procesar en el archivo de salida</s:String>-->

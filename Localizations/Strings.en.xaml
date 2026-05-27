@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">Nicke Manarin</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-14</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-27</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Accept</s:String>
@@ -69,6 +69,7 @@
     <s:String x:Key="S.Imperative.SendWithout">Send without</s:String>
     <s:String x:Key="S.Imperative.Trim">Trim</s:String>
     <s:String x:Key="S.Imperative.Resize">Resize</s:String>
+    <s:String x:Key="S.Imperative.Search">Search</s:String>
 
     <!--Time • Referential-->
     <s:String x:Key="S.Time.Ago.Seconds">few seconds ago</s:String>
@@ -405,6 +406,19 @@
     <s:String x:Key="S.Dialogs.TrimCanvas.Header">Trim canvas</s:String>
     <s:String x:Key="S.Dialogs.TrimCanvas.Direction">Trim directions</s:String>
 
+    <!--Dialogs • Trim canvas-->
+    <s:String x:Key="S.Dialogs.SmoothLoop.Header">Search for a smooth loop</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.Similarity">Similarity</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.TrimDirection">Trim direction</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.TrimDirection.End">Trim end, to match first frame</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.TrimDirection.Start">Trim start, to match last frame</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.MinimumLength">Minimum length</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm">Comparison algorithm</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Pixel">Pixel difference (fast)</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Perceptual">Perceptual hash (balanced)</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Structural">Structural similarity (accurate)</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.TracksToInclude">Tracks to include in search</s:String>
+
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">Required fields</s:String>
     <s:String x:Key="S.Validation.Required.Description">Some required fields are empty or have invalid data</s:String>
@@ -487,6 +501,10 @@
     <s:String x:Key="S.Success.StorageCleanup.Header">Success</s:String>
     <s:String x:Key="S.Success.StorageCleanup.Message">Cache clean up successful</s:String>
 
+    <!--Success • Smooth loop--> 
+    <s:String x:Key="S.Success.SmoothLoop.Header">Smooth loop found</s:String>
+    <s:String x:Key="S.Success.SmoothLoop.Message">Found a loop with {0:0.##}% similarity</s:String>
+
     <!--Info • Pro feature-->
     <s:String x:Key="S.Info.ProFeature.Header">Only for Pro</s:String>
     <s:String x:Key="S.Info.ProFeature.Message">Upgrade to unlock this feature</s:String>
@@ -513,6 +531,14 @@
     <!--Info • Feedback sent-->
     <s:String x:Key="S.Info.FeedbackSent.Header">Thanks for your feedback</s:String>
     <s:String x:Key="S.Info.FeedbackSent.Message">Your message has been sent. We appreciate you taking the time to share it with us</s:String>
+
+    <!--Info • Smooth loop partial-->
+    <s:String x:Key="S.Info.SmoothLoopPartial.Header">Partial match found</s:String>
+    <s:String x:Key="S.Info.SmoothLoopPartial.Message">Closest match found was with {0:0.##}% similarity. Click 'Use this match' to apply it anyway</s:String>
+
+    <!--Info • Smooth loop cancelled-->
+    <s:String x:Key="S.Info.SmoothLoopCancelled.Header">Search cancelled</s:String>
+    <s:String x:Key="S.Info.SmoothLoopCancelled.Message">The loop search was cancelled</s:String>
 
     <!--Warnings • Single instance-->
     <s:String x:Key="S.Warning.Single.Header">The app is already running</s:String>
@@ -544,9 +570,13 @@
     <s:String x:Key="S.Warning.Drop.Header">Unsupported or invalid</s:String>
     <s:String x:Key="S.Warning.Drop.Message">It was not possible to insert or open the file(s)</s:String>
 
-    <!--Warnings • Low on space--> 
+    <!--Warnings • Low on space-->
     <s:String x:Key="S.Warning.LowSpace.Header">Low on space</s:String>
     <s:String x:Key="S.Warning.LowSpace.Message">Clear space on your cache drive to be able to record</s:String>
+
+    <!--Warnings • No smooth loop found-->
+    <s:String x:Key="S.Warning.SmoothLoopNotFound.Header">No match found</s:String>
+    <s:String x:Key="S.Warning.SmoothLoopNotFound.Message">Could not find a suitable loop point. Try adjusting the similarity threshold or minimum length.</s:String>
 
     <!--Warnings • Graphics engine-->
     <s:String x:Key="S.Warning.Graphics.Title">Switch Graphics Adapter</s:String>
@@ -757,6 +787,10 @@
     <s:String x:Key="S.Errors.StorageCleanup.Header">Error in clean up</s:String>
     <s:String x:Key="S.Errors.StorageCleanup.Message">It was not possible to clean the cache</s:String>
 
+    <!--Error • Smooth loop search--> 
+    <s:String x:Key="S.Errors.SmoothLoop.Header">Search failed</s:String>
+    <s:String x:Key="S.Errors.SmoothLoop.Message">An error occurred during the loop search</s:String>
+
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Activation failed</s:String>
     <s:String x:Key="S.Errors.Activation.Generic">It was not possible to activate the app due to an unknown problem</s:String>
@@ -894,7 +928,11 @@
     <s:String x:Key="S.Exporter.Resize.MaintainRatio.Info">The ratio will be maintained as close as possible,&#10;while trying to result in a width and height with whole numbers</s:String>
 
     <!--Windows • Exporter > Trim-->
-    <s:String x:Key="S.Exporter.Trim.NewTarget">New target time</s:String>
+    <s:String x:Key="S.Exporter.Trim.Original">Original duration</s:String>
+    <s:String x:Key="S.Exporter.Trim.Trimmed">Trimmed duration</s:String>
+    <s:String x:Key="S.Exporter.Trim.FindLoop">Search for a smooth loop...</s:String>
+    <s:String x:Key="S.Exporter.Trim.FindLoop.Searching">Searching for a smooth loop...</s:String>
+    <s:String x:Key="S.Exporter.Trim.FindLoop.Cancel">Cancel search</s:String>
 
     <!--Windows • Exporter > Framerate-->
     <s:String x:Key="S.Exporter.Framerate.Mode.Info">Framerate mode</s:String>
@@ -940,6 +978,7 @@
     <s:String x:Key="S.Exporter.Encoding.Actions.More">More actions</s:String>
     <s:String x:Key="S.Exporter.Encoding.Actions.OpenFolder">Open folder</s:String>
     <s:String x:Key="S.Exporter.Encoding.Actions.CopyFile">Copy file</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Actions.CopyFolderPath">Copy folder path</s:String>
     <s:String x:Key="S.Exporter.Encoding.Actions.CopyPath">Copy path</s:String>
     <s:String x:Key="S.Exporter.Encoding.Actions.DeleteFile">Delete file</s:String>
 

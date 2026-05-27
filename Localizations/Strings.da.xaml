@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Maskinoversat (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-14</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-27</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Accepter</s:String>
@@ -32,13 +32,13 @@
     <s:String x:Key="S.Imperative.Import">Importer</s:String>
     <s:String x:Key="S.Imperative.Keep">Behold</s:String>
     <s:String x:Key="S.Imperative.KeepAll">Behold alle</s:String>
-    <s:String x:Key="S.Imperative.Download">Download</s:String>
+    <!--<s:String x:Key="S.Imperative.Download">Download</s:String>-->
     <s:String x:Key="S.Imperative.LeaveAsIs">Behold som det er</s:String>
     <s:String x:Key="S.Imperative.Dismiss">Luk</s:String>
     <s:String x:Key="S.Imperative.Upgrade">Opgrader</s:String>
     <s:String x:Key="S.Imperative.Save">Gem</s:String>
     <s:String x:Key="S.Imperative.Create">Opret</s:String>
-    <s:String x:Key="S.Imperative.Ok">Ok</s:String>
+    <!--<s:String x:Key="S.Imperative.Ok">Ok</s:String>-->
     <s:String x:Key="S.Imperative.Cancel">Annuller</s:String>
     <s:String x:Key="S.Imperative.Close">Luk</s:String>
     <s:String x:Key="S.Imperative.Continue">Fortsæt</s:String>
@@ -62,13 +62,14 @@
     <s:String x:Key="S.Imperative.Abort">Afbryd</s:String>
     <s:String x:Key="S.Imperative.TryAgain">Prøv igen</s:String>
     <s:String x:Key="S.Imperative.Overwrite">Overskriv</s:String>
-    <s:String x:Key="S.Imperative.SendFeedback">Send feedback</s:String>
+    <!--<s:String x:Key="S.Imperative.SendFeedback">Send feedback</s:String>-->
     <s:String x:Key="S.Imperative.OpenFolder">Åbn mappe</s:String>
     <s:String x:Key="S.Imperative.OpenDrive">Åbn drev</s:String>
     <s:String x:Key="S.Imperative.AddEmail">Tilføj e-mail</s:String>
     <s:String x:Key="S.Imperative.SendWithout">Send uden</s:String>
-    <s:String x:Key="S.Imperative.Trim">Trim</s:String>
+    <!--<s:String x:Key="S.Imperative.Trim">Trim</s:String>-->
     <s:String x:Key="S.Imperative.Resize">Ændr størrelse</s:String>
+    <s:String x:Key="S.Imperative.Search">Søg</s:String>
 
     <!--Time • Referential-->
     <s:String x:Key="S.Time.Ago.Seconds">få sekunder siden</s:String>
@@ -88,20 +89,20 @@
     <s:String x:Key="S.Time.Static.Milliseconds">millisekunder</s:String>
     <s:String x:Key="S.Time.Static.Milliseconds.2">millisekunder</s:String>
     <s:String x:Key="S.Time.Static.Milliseconds.3-4">millisekunder</s:String>
-    <s:String x:Key="S.Time.Static.Short.Milliseconds">ms</s:String>
+    <!--<s:String x:Key="S.Time.Static.Short.Milliseconds">ms</s:String>-->
     <s:String x:Key="S.Time.Static.Second">sekund</s:String>
     <s:String x:Key="S.Time.Static.Seconds">sekunder</s:String>
     <s:String x:Key="S.Time.Static.Seconds.2">sekunder</s:String>
     <s:String x:Key="S.Time.Static.Seconds.3-4">sekunder</s:String>
     <s:String x:Key="S.Time.Static.Short.Second">sek</s:String>
     <s:String x:Key="S.Time.Static.Short.Seconds">sek</s:String>
-    <s:String x:Key="S.Time.Static.Single.Second">s</s:String>
+    <!--<s:String x:Key="S.Time.Static.Single.Second">s</s:String>-->
     <s:String x:Key="S.Time.Static.Minute">minut</s:String>
     <s:String x:Key="S.Time.Static.Minutes">minutter</s:String>
     <s:String x:Key="S.Time.Static.Minutes.2">minutter</s:String>
     <s:String x:Key="S.Time.Static.Minutes.3-4">minutter</s:String>
-    <s:String x:Key="S.Time.Static.Short.Minute">min</s:String>
-    <s:String x:Key="S.Time.Static.Single.Minute">m</s:String>
+    <!--<s:String x:Key="S.Time.Static.Short.Minute">min</s:String>-->
+    <!--<s:String x:Key="S.Time.Static.Single.Minute">m</s:String>-->
     <s:String x:Key="S.Time.Static.Hour">time</s:String>
     <s:String x:Key="S.Time.Static.Hours">timer</s:String>
     <s:String x:Key="S.Time.Static.Hours.2">timer</s:String>
@@ -113,7 +114,7 @@
     <s:String x:Key="S.Time.Static.Days">dage</s:String>
     <s:String x:Key="S.Time.Static.Days.2">dage</s:String>
     <s:String x:Key="S.Time.Static.Days.3-4">dage</s:String>
-    <s:String x:Key="S.Time.Static.Single.Day">d</s:String>
+    <!--<s:String x:Key="S.Time.Static.Single.Day">d</s:String>-->
 
     <!--Dialogs • Error-->
     <s:String x:Key="S.Dialog.Error.Header">Ups. Noget uventet skete...</s:String>
@@ -148,7 +149,7 @@
     <s:String x:Key="S.Dialog.NewProject.Header">Nyt projekt</s:String>
     <s:String x:Key="S.Dialog.NewProject.Name">Navn</s:String>
     <s:String x:Key="S.Dialog.NewProject.Background">Baggrund</s:String>
-    <s:String x:Key="S.Dialog.NewProject.Dpi">DPI</s:String>
+    <!--<s:String x:Key="S.Dialog.NewProject.Dpi">DPI</s:String>-->
 
     <!--Dialogs • Update-->
     <s:String x:Key="S.Dialog.Update.Header">Opdatering tilgængelig</s:String>
@@ -160,7 +161,7 @@
     <s:String x:Key="S.Dialog.ColorSelector.Green">Grøn</s:String>
     <s:String x:Key="S.Dialog.ColorSelector.Blue">Blå</s:String>
     <s:String x:Key="S.Dialog.ColorSelector.Alpha">Alfa</s:String>
-    <s:String x:Key="S.Dialog.ColorSelector.Hexadecimal">Hex</s:String>
+    <!--<s:String x:Key="S.Dialog.ColorSelector.Hexadecimal">Hex</s:String>-->
     <s:String x:Key="S.Dialog.ColorSelector.Initial">Startfarve</s:String>
     <s:String x:Key="S.Dialog.ColorSelector.Current">Aktuel farve</s:String>
     <s:String x:Key="S.Dialog.ColorSelector.Latest">Nyeste farve</s:String>
@@ -175,7 +176,7 @@
     <!--Dialogs • File Name Automation-->
     <s:String x:Key="S.Dialog.NameAutomation.Title">Filnavn-automatisering</s:String>
     <s:String x:Key="S.Dialog.NameAutomation.Preview">Forhåndsvisning</s:String>
-    <s:String x:Key="S.Dialog.NameAutomation.Format">Format</s:String>
+    <!--<s:String x:Key="S.Dialog.NameAutomation.Format">Format</s:String>-->
     <s:String x:Key="S.Dialog.NameAutomation.Types.Number">Automatisk filnummer</s:String>
     <s:String x:Key="S.Dialog.NameAutomation.Types.Date">Dato og tid</s:String>
     <s:String x:Key="S.Dialog.NameAutomation.Insert.Info">Indsætter den valgte automatiseringssektion ved indsætningspunktet i formatfeltet</s:String>
@@ -225,7 +226,7 @@
     <s:String x:Key="S.Dialog.Effects.Target">Målsegment</s:String>
     <s:String x:Key="S.Dialog.Effects.Type">Effekttype</s:String>
     <s:String x:Key="S.Dialog.Effects.Type.ColorInversion">Farveinversion</s:String>
-    <s:String x:Key="S.Dialog.Effects.Type.Fade">Fade</s:String>
+    <!--<s:String x:Key="S.Dialog.Effects.Type.Fade">Fade</s:String>-->
     <s:String x:Key="S.Dialog.Effects.Type.Move">Flyt/forskyd</s:String>
     <s:String x:Key="S.Dialog.Effects.Type.Overlay">Overlejring</s:String>
     <s:String x:Key="S.Dialog.Effects.Type.Scale">Skaler</s:String>
@@ -256,40 +257,40 @@
     <s:String x:Key="S.Dialog.Effects.Effect.VerticalScale">Vertikal skala</s:String>
     <s:String x:Key="S.Dialog.Effects.Effect.HorizontalCenter">Horisontal centreret</s:String>
     <s:String x:Key="S.Dialog.Effects.Effect.VerticalCenter">Vertikal centreret</s:String>
-    <s:String x:Key="S.Dialog.Effects.Easing">Easing</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing">Udjævning</s:String>
     <s:String x:Key="S.Dialog.Effects.Easing.Type">Easing-type</s:String>
     <s:String x:Key="S.Dialog.Effects.Easing.Type.None">Ingen</s:String>
-    <s:String x:Key="S.Dialog.Effects.Easing.Type.Back">Back</s:String>
-    <s:String x:Key="S.Dialog.Effects.Easing.Type.Bounce">Bounce</s:String>
-    <s:String x:Key="S.Dialog.Effects.Easing.Type.Circle">Circle</s:String>
-    <s:String x:Key="S.Dialog.Effects.Easing.Type.Cubic">Cubic</s:String>
-    <s:String x:Key="S.Dialog.Effects.Easing.Type.Elastic">Elastic</s:String>
-    <s:String x:Key="S.Dialog.Effects.Easing.Type.Exponential">Exponential</s:String>
-    <s:String x:Key="S.Dialog.Effects.Easing.Type.Power">Power</s:String>
-    <s:String x:Key="S.Dialog.Effects.Easing.Type.Quadratic">Quadratic</s:String>
-    <s:String x:Key="S.Dialog.Effects.Easing.Type.Quartic">Quartic</s:String>
-    <s:String x:Key="S.Dialog.Effects.Easing.Type.Quintic">Quintic</s:String>
-    <s:String x:Key="S.Dialog.Effects.Easing.Type.Sine">Sine</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Back">Tilbage</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Bounce">Hop</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Circle">Cirkel</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Cubic">Kubisk</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Elastic">Elastisk</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Exponential">Eksponentiel</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Power">Potens</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Quadratic">Kvadratisk</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Quartic">Kvartisk</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Quintic">Kvintisk</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Sine">Sinus</s:String>
     <s:String x:Key="S.Dialog.Effects.Easing.Type.KeyFrames">Nøgleframes</s:String>
     <s:String x:Key="S.Dialog.Effects.Easing.Mode">Easing-tilstand</s:String>
-    <s:String x:Key="S.Dialog.Effects.Easing.Mode.In">Ease in</s:String>
-    <s:String x:Key="S.Dialog.Effects.Easing.Mode.Out">Ease out</s:String>
-    <s:String x:Key="S.Dialog.Effects.Easing.Mode.InOut">Ease in + out</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Mode.In">Let ind</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Mode.Out">Let ud</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Mode.InOut">Let ind + ud</s:String>
     <s:String x:Key="S.Dialog.Effects.Easing.Direction">Easing-retning</s:String>
     <s:String x:Key="S.Dialog.Effects.Easing.Direction.Forward">Fremad</s:String>
     <s:String x:Key="S.Dialog.Effects.Easing.Direction.Backward">Bagud</s:String>
     <s:String x:Key="S.Dialog.Effects.Easing.Direction.ForwardBackward">Fremad → bagud</s:String>
     <s:String x:Key="S.Dialog.Effects.Easing.Direction.BackwardForward">Bagud → fremad</s:String>
-    <s:String x:Key="S.Dialog.Effects.Easing.Amplitude">Amplitude</s:String>
-    <s:String x:Key="S.Dialog.Effects.Easing.Bounces">Bounces</s:String>
-    <s:String x:Key="S.Dialog.Effects.Easing.Bounciness">Bounciness</s:String>
+    <!--<s:String x:Key="S.Dialog.Effects.Easing.Amplitude">Amplitude</s:String>-->
+    <s:String x:Key="S.Dialog.Effects.Easing.Bounces">Hop</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Bounciness">Hoppeevne</s:String>
     <s:String x:Key="S.Dialog.Effects.Easing.Oscillations">Oscillationer</s:String>
-    <s:String x:Key="S.Dialog.Effects.Easing.Springiness">Springiness</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Springiness">Fjederevne</s:String>
     <s:String x:Key="S.Dialog.Effects.Easing.Exponent">Eksponent</s:String>
-    <s:String x:Key="S.Dialog.Effects.Easing.Power">Power</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Power">Styrke</s:String>
     <s:String x:Key="S.Dialog.Effects.Easing.KeyFrames">Nøgleframes</s:String>
     <s:String x:Key="S.Dialog.Effects.Easing.KeyFrames.SmoothTransition">Glidende overgang</s:String>
-    <s:String x:Key="S.Dialog.Effects.Easing.KeyFrames.Position">Position</s:String>
+    <!--<s:String x:Key="S.Dialog.Effects.Easing.KeyFrames.Position">Position</s:String>-->
     <s:String x:Key="S.Dialog.Effects.Easing.KeyFrames.Value">Værdi</s:String>
     <s:String x:Key="S.Dialog.Effects.Easing.NoSettings">Ingen andre indstillinger for denne easing-funktion</s:String>
 
@@ -395,15 +396,28 @@
     <s:String x:Key="S.Dialogs.Cache.Message">Når du opretter en optagelse eller åbner noget for at redigere, oprettes og gemmes et projekt i cachemappen.</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent">Behold nylige projekter</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent.Info">Kun projekter, der er ældre end det, der er konfigureret i Indstillinger > Lager, vil blive slettet.</s:String>
-    
+
     <!--Dialogs • Resize canvas-->
     <s:String x:Key="S.Dialogs.ResizeCanvas.Header">Ændr lærredsstørrelse</s:String>
     <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent">Skaler eksisterende indhold til den nye lærredsstørrelse</s:String>
     <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent.Info">Når den er aktiveret, skaleres og genplaceres eksisterende indhold, så det passer til de nye lærredsdimensioner.&#10;Når den er deaktiveret, ændres kun lærredets størrelse.</s:String>
-    
+
     <!--Dialogs • Trim canvas-->
     <s:String x:Key="S.Dialogs.TrimCanvas.Header">Beskær lærred</s:String>
     <s:String x:Key="S.Dialogs.TrimCanvas.Direction">Beskæringsretninger</s:String>
+
+    <!--Dialogs • Trim canvas-->
+    <s:String x:Key="S.Dialogs.SmoothLoop.Header">Søg efter en glat sløjfe</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.Similarity">Lighed</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.TrimDirection">Trimretning</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.TrimDirection.End">Trim slutning for at matche første billede</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.TrimDirection.Start">Trim start for at matche sidste billede</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.MinimumLength">Minimumslængde</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm">Sammenligningsalgoritme</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Pixel">Pixelforskel (hurtig)</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Perceptual">Perceptuel hash (balanceret)</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Structural">Strukturel lighed (præcis)</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.TracksToInclude">Spor der skal medtages i søgning</s:String>
 
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">Nødvendige felter</s:String>
@@ -487,6 +501,10 @@
     <s:String x:Key="S.Success.StorageCleanup.Header">Succes</s:String>
     <s:String x:Key="S.Success.StorageCleanup.Message">Cache-oprydning lykkedes</s:String>
 
+    <!--Success • Smooth loop--> 
+    <s:String x:Key="S.Success.SmoothLoop.Header">Glat sløjfe fundet</s:String>
+    <s:String x:Key="S.Success.SmoothLoop.Message">Fandt en sløjfe med {0:0.##}% lighed</s:String>
+
     <!--Info • Pro feature-->
     <s:String x:Key="S.Info.ProFeature.Header">Kun for Pro</s:String>
     <s:String x:Key="S.Info.ProFeature.Message">Opgrader for at låse op for denne funktion</s:String>
@@ -514,11 +532,19 @@
     <s:String x:Key="S.Info.FeedbackSent.Header">Tak for din feedback</s:String>
     <s:String x:Key="S.Info.FeedbackSent.Message">Din besked er sendt. Vi værdsætter, at du tog dig tid til at dele det med os</s:String>
 
+    <!--Info • Smooth loop partial-->
+    <s:String x:Key="S.Info.SmoothLoopPartial.Header">Delvist match fundet</s:String>
+    <s:String x:Key="S.Info.SmoothLoopPartial.Message">Tætteste match havde {0:0.##}% lighed. Klik 'Brug dette match' for at anvende det alligevel</s:String>
+
+    <!--Info • Smooth loop cancelled-->
+    <s:String x:Key="S.Info.SmoothLoopCancelled.Header">Søgning annulleret</s:String>
+    <s:String x:Key="S.Info.SmoothLoopCancelled.Message">Sløjfesøgningen blev annulleret</s:String>
+
     <!--Warnings • Single instance-->
     <s:String x:Key="S.Warning.Single.Header">Appen kører allerede</s:String>
     <s:String x:Key="S.Warning.Single.Message">N-Studio kører allerede, men der er tilsyneladende ingen åbent vindue. Tjek din systembakke, N-Studio-ikonet skal være der</s:String>
 
-    <!--Warnings • Audio device detection--> 
+    <!--Warnings • Audio device detection-->
     <s:String x:Key="S.Warning.DeviceDetection.Title">Enhedsdetekteringsproblemer</s:String>
     <s:String x:Key="S.Warning.DeviceDetection.Description">Det var ikke muligt at opdage lyd-enheder</s:String>
 
@@ -544,9 +570,13 @@
     <s:String x:Key="S.Warning.Drop.Header">Ikke understøttet eller ugyldig</s:String>
     <s:String x:Key="S.Warning.Drop.Message">Det var ikke muligt at indsætte eller åbne filen/filene</s:String>
 
-    <!--Warnings • Low on space--> 
+    <!--Warnings • Low on space-->
     <s:String x:Key="S.Warning.LowSpace.Header">Lav på plads</s:String>
     <s:String x:Key="S.Warning.LowSpace.Message">Frigør plads på dit cache-drev for at kunne optage</s:String>
+
+    <!--Warnings • No smooth loop found-->
+    <s:String x:Key="S.Warning.SmoothLoopNotFound.Header">Intet match fundet</s:String>
+    <s:String x:Key="S.Warning.SmoothLoopNotFound.Message">Kunne ikke finde et passende sløjfepunkt. Prøv at justere lighedstærsklen eller minimumslængden.</s:String>
 
     <!--Warnings • Graphics engine-->
     <s:String x:Key="S.Warning.Graphics.Title">Skift grafikadapter</s:String>
@@ -757,6 +787,10 @@
     <s:String x:Key="S.Errors.StorageCleanup.Header">Fejl ved oprydning</s:String>
     <s:String x:Key="S.Errors.StorageCleanup.Message">Det var ikke muligt at rydde cachen</s:String>
 
+    <!--Error • Smooth loop search--> 
+    <s:String x:Key="S.Errors.SmoothLoop.Header">Søgning mislykkedes</s:String>
+    <s:String x:Key="S.Errors.SmoothLoop.Message">Der opstod en fejl under sløjfesøgningen</s:String>
+
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Aktivering mislykkedes</s:String>
     <s:String x:Key="S.Errors.Activation.Generic">Det var ikke muligt at aktivere appen på grund af et ukendt problem</s:String>
@@ -771,8 +805,8 @@
     <s:String x:Key="S.Welcome.ScreenRecorder">Skærmoptager</s:String>
     <s:String x:Key="S.Welcome.SoundRecorder">Lydoptager</s:String>
     <s:String x:Key="S.Welcome.RegionShare">Regionsdeling</s:String>
-    <s:String x:Key="S.Welcome.Editor">Editor</s:String>
-    <s:String x:Key="S.Welcome.Feedback">Feedback</s:String>
+    <!--<s:String x:Key="S.Welcome.Editor">Editor</s:String>-->
+    <!--<s:String x:Key="S.Welcome.Feedback">Feedback</s:String>-->
     <s:String x:Key="S.Welcome.Upgrade">Opgrader til Pro</s:String>
     <s:String x:Key="S.Welcome.Troubleshoot">Fejlfinding</s:String>
     <s:String x:Key="S.Welcome.Settings">Indstillinger</s:String>
@@ -786,11 +820,11 @@
     <!--Windows • Screen Recorder-->
     <s:String x:Key="S.ScreenRecorder.Frequency.Switch">Klik for at skifte mellem optagefrekvensmodi</s:String>
     <s:String x:Key="S.ScreenRecorder.Frequency.Fps">Maksimale billeder per sekund.&#10;Går fra 1 til 60 fps, hvor højere værdier betyder flere billeder fanget.&#10;Hvert trin repræsenterer 16 millisekunders forskel.</s:String>
-    <s:String x:Key="S.ScreenRecorder.Frequency.Fps.Short">fps</s:String>
+    <!--<s:String x:Key="S.ScreenRecorder.Frequency.Fps.Short">fps</s:String>-->
     <s:String x:Key="S.ScreenRecorder.Frequency.Fpm">Maksimale billeder per minut.&#10;Går fra 1 til 60 fpm, hvor højere værdier betyder flere billeder fanget.&#10;Hvert trin repræsenterer 1 sekunds forskel.</s:String>
-    <s:String x:Key="S.ScreenRecorder.Frequency.Fpm.Short">fpm</s:String>
+    <!--<s:String x:Key="S.ScreenRecorder.Frequency.Fpm.Short">fpm</s:String>-->
     <s:String x:Key="S.ScreenRecorder.Frequency.Fph">Maksimale billeder per time&#10;Går fra 1 til 60 fph, hvor højere værdier betyder flere billeder fanget.&#10;Hvert trin repræsenterer 1 minuts forskel.</s:String>
-    <s:String x:Key="S.ScreenRecorder.Frequency.Fph.Short">fph</s:String>
+    <!--<s:String x:Key="S.ScreenRecorder.Frequency.Fph.Short">fph</s:String>-->
     <s:String x:Key="S.ScreenRecorder.ClickOrPress">Klik eller tryk på taster for at optage</s:String>
 
     <s:String x:Key="S.ScreenRecorder.Select">Vælg</s:String>
@@ -811,7 +845,7 @@
     <s:String x:Key="S.ScreenRecorder.Screen.Info1">Grafisk adapter: {0}</s:String>
     <s:String x:Key="S.ScreenRecorder.Screen.Info2">Opløsning: {0} x {1}</s:String>
     <s:String x:Key="S.ScreenRecorder.Screen.Info3">Native opløsning: {0} x {1}</s:String>
-    <s:String x:Key="S.ScreenRecorder.Screen.Info4">DPI: {0} ({1:0.##}%)</s:String>
+    <!--<s:String x:Key="S.ScreenRecorder.Screen.Info4">DPI: {0} ({1:0.##}%)</s:String>-->
 
     <s:String x:Key="S.ScreenRecorder.DiskSpace.Info">Procent af disk brugt og tilgængelig plads</s:String>
     <s:String x:Key="S.ScreenRecorder.AudioSource.Input">Mikrofon og andre audio input&#10;kilder der optages</s:String>
@@ -853,7 +887,7 @@
     <s:String x:Key="S.Exporter.Crop.Info">Administrer beskæring af lærredet</s:String>
     <s:String x:Key="S.Exporter.Resize">Ændr størrelse</s:String>
     <s:String x:Key="S.Exporter.Resize.Info">Administrer lærredets størrelse</s:String>
-    <s:String x:Key="S.Exporter.Trim">Trim</s:String>
+    <!--<s:String x:Key="S.Exporter.Trim">Trim</s:String>-->
     <s:String x:Key="S.Exporter.Trim.Info">Administrer animationens trim</s:String>
     <s:String x:Key="S.Exporter.Framerate">Billedhastighed</s:String>
     <s:String x:Key="S.Exporter.Framerate.Info">Kontroller animationens billedhastighed</s:String>
@@ -870,7 +904,7 @@
     <s:String x:Key="S.Exporter.Type.Preset.Info">Forudindstillingen for eksportindstillingerne</s:String>
 
     <!--Windows • Exporter > Upload-->
-    <s:String x:Key="S.Exporter.Upload">Upload</s:String>
+    <!--<s:String x:Key="S.Exporter.Upload">Upload</s:String>-->
     <s:String x:Key="S.Exporter.Upload.Info">Vælg upload-forudindstillingen, som har oplysninger om den tjeneste, der bruges til upload.</s:String>
     <s:String x:Key="S.Exporter.Upload.Select.Title">Vælg en upload-forudindstilling</s:String>
     <s:String x:Key="S.Exporter.Upload.Select.Message">Efterlad uvalgt for at springe upload over</s:String>
@@ -894,7 +928,11 @@
     <s:String x:Key="S.Exporter.Resize.MaintainRatio.Info">Forholdet vil blive bevaret så tæt som muligt,&#10;samtidig med at der forsøges at få en bredde og højde i hele tal</s:String>
 
     <!--Windows • Exporter > Trim-->
-    <s:String x:Key="S.Exporter.Trim.NewTarget">Nyt måltidspunkt</s:String>
+    <s:String x:Key="S.Exporter.Trim.Original">Original varighed</s:String>
+    <s:String x:Key="S.Exporter.Trim.Trimmed">Trimmet varighed</s:String>
+    <s:String x:Key="S.Exporter.Trim.FindLoop">Søg efter en glat sløjfe...</s:String>
+    <s:String x:Key="S.Exporter.Trim.FindLoop.Searching">Søger efter en glat sløjfe...</s:String>
+    <s:String x:Key="S.Exporter.Trim.FindLoop.Cancel">Annuller søgning</s:String>
 
     <!--Windows • Exporter > Framerate-->
     <s:String x:Key="S.Exporter.Framerate.Mode.Info">Billedhastighedstilstand</s:String>
@@ -902,7 +940,7 @@
     <s:String x:Key="S.Exporter.Framerate.Mode.Automatic.Info">Følger billedhastigheden baseret på hændelser fra topniveau-spor</s:String>
     <s:String x:Key="S.Exporter.Framerate.Mode.Custom">Brugerdefineret</s:String>
     <s:String x:Key="S.Exporter.Framerate.Mode.Custom.Info">Brugerdefineret billedhastighed</s:String>
-    <s:String x:Key="S.Exporter.Framerate.Mode.Film">Film</s:String>
+    <!--<s:String x:Key="S.Exporter.Framerate.Mode.Film">Film</s:String>-->
     <s:String x:Key="S.Exporter.Framerate.Mode.HighFramerate">Høj billedhastighed</s:String>
 
     <!--Windows • Exporter > Speed-->
@@ -940,11 +978,12 @@
     <s:String x:Key="S.Exporter.Encoding.Actions.More">Flere handlinger</s:String>
     <s:String x:Key="S.Exporter.Encoding.Actions.OpenFolder">Åbn mappe</s:String>
     <s:String x:Key="S.Exporter.Encoding.Actions.CopyFile">Kopiér fil</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Actions.CopyFolderPath">Kopiér mappe sti</s:String>
     <s:String x:Key="S.Exporter.Encoding.Actions.CopyPath">Kopiér sti</s:String>
     <s:String x:Key="S.Exporter.Encoding.Actions.DeleteFile">Slet fil</s:String>
 
     <!--Windows • Editor-->
-    <s:String x:Key="S.Editor.Title">N-Studio • Editor</s:String>
+    <!--<s:String x:Key="S.Editor.Title">N-Studio • Editor</s:String>-->
     <s:String x:Key="S.Editor.Project">Projekt</s:String>
     <s:String x:Key="S.Editor.Project.New">Ny</s:String>
     <s:String x:Key="S.Editor.Project.New.Screen">Fra skærmoptagelse</s:String>
@@ -971,7 +1010,7 @@
     <s:String x:Key="S.Editor.Canvas">Lærred</s:String>
     <s:String x:Key="S.Editor.Canvas.Resize">Ændr størrelse...</s:String>
     <s:String x:Key="S.Editor.Canvas.Crop">Beskær...</s:String>
-    <s:String x:Key="S.Editor.Canvas.Trim">Trim...</s:String>
+    <!--<s:String x:Key="S.Editor.Canvas.Trim">Trim...</s:String>-->
     <s:String x:Key="S.Editor.Insert">Indsæt</s:String>
     <s:String x:Key="S.Editor.Insert.Screen">Skærmoptagelse</s:String>
     <s:String x:Key="S.Editor.Insert.Sound">Lydoptagelse</s:String>
@@ -983,7 +1022,7 @@
     <s:String x:Key="S.Editor.Insert.Pixelation">Pixelering</s:String>
     <s:String x:Key="S.Editor.Insert.Brightness">Lysstyrke</s:String>
     <s:String x:Key="S.Editor.Insert.Blur">Sløring</s:String>
-    <s:String x:Key="S.Editor.Insert.Zoom">Zoom</s:String>
+    <!--<s:String x:Key="S.Editor.Insert.Zoom">Zoom</s:String>-->
     <s:String x:Key="S.Editor.Insert.EmptyTrack">Tomt spor</s:String>
 
     <s:String x:Key="S.Editor.Segment.TrimStart">Beskær segmentets start</s:String>
@@ -993,12 +1032,12 @@
 
     <s:String x:Key="S.Editor.More">Mere</s:String>
     <s:String x:Key="S.Editor.More.Help">Hjælp</s:String>
-    <s:String x:Key="S.Editor.More.Feedback">Feedback</s:String>
+    <!--<s:String x:Key="S.Editor.More.Feedback">Feedback</s:String>-->
     <s:String x:Key="S.Editor.More.Settings">Indstillinger</s:String>
 
     <!--Windows • Editor > Sections-->
-    <s:String x:Key="S.Editor.Sections.Timing">Timing</s:String>
-    <s:String x:Key="S.Editor.Sections.Timing.Start">Start</s:String>
+    <!--<s:String x:Key="S.Editor.Sections.Timing">Timing</s:String>-->
+    <!--<s:String x:Key="S.Editor.Sections.Timing.Start">Start</s:String>-->
     <s:String x:Key="S.Editor.Sections.Timing.StartOffset">Startforskel</s:String>
     <s:String x:Key="S.Editor.Sections.Timing.End">Slut</s:String>
     <s:String x:Key="S.Editor.Sections.Timing.EndOffset">Slutforskel</s:String>
@@ -1033,7 +1072,7 @@
     <s:String x:Key="S.Editor.Timeline.DragEnd">Træk for at ændre hastighed eller beskære slut (hold Shift)</s:String>
 
     <!--Windows • Feedback-->
-    <s:String x:Key="S.Feedback.Header">Feedback</s:String>
+    <!--<s:String x:Key="S.Feedback.Header">Feedback</s:String>-->
     <s:String x:Key="S.Feedback.WhatsSent">Hvad vil blive sendt?</s:String>
     <s:String x:Key="S.Feedback.ExportZip">Eksporter som zip</s:String>
     <s:String x:Key="S.Feedback.ExportZip.Info">Eksporter feedback som Zip</s:String>
@@ -1054,7 +1093,7 @@
     <s:String x:Key="S.Feedback.Extra">Ekstra oplysninger</s:String>
     <s:String x:Key="S.Feedback.Extra.System.Info">Operativsystemversion og installerede opdateringer</s:String>
     <s:String x:Key="S.Feedback.Extra.Application.Info">Applikationsversion</s:String>
-    <s:String x:Key="S.Feedback.Extra.Hardware">Hardware</s:String>
+    <!--<s:String x:Key="S.Feedback.Extra.Hardware">Hardware</s:String>-->
     <s:String x:Key="S.Feedback.Extra.Hardware.Info">Processor-, hukommelses- og grafikkortoplysninger</s:String>
     <s:String x:Key="S.Feedback.Extra.Screen.Info">Skærmoplysninger såsom opløsning og skala</s:String>
     <s:String x:Key="S.Feedback.Extra.Sound">Lydenheder</s:String>
@@ -1074,31 +1113,31 @@
     <s:String x:Key="S.Feedback.Attachments.Remove">Fjern vedhæftning</s:String>
 
     <!--Windows • Feedback preview-->
-    <s:String x:Key="S.FeedbackPreview.Header">Feedback preview</s:String>
-    <s:String x:Key="S.FeedbackPreview.System">System</s:String>
+    <s:String x:Key="S.FeedbackPreview.Header">Feedback forhåndsvisning</s:String>
+    <!--<s:String x:Key="S.FeedbackPreview.System">System</s:String>-->
     <s:String x:Key="S.FeedbackPreview.System.Name">Navn</s:String>
-    <s:String x:Key="S.FeedbackPreview.System.Build">Build</s:String>
+    <!--<s:String x:Key="S.FeedbackPreview.System.Build">Build</s:String>-->
     <s:String x:Key="S.FeedbackPreview.System.Architecture">Arkitektur</s:String>
     <s:String x:Key="S.FeedbackPreview.System.UserName">Brugernavn</s:String>
     <s:String x:Key="S.FeedbackPreview.System.MachineName">Computernavn</s:String>
     <s:String x:Key="S.FeedbackPreview.Application">Applikation</s:String>
-    <s:String x:Key="S.FeedbackPreview.Application.Version">Version</s:String>
-    <s:String x:Key="S.FeedbackPreview.Application.Variant">Variant</s:String>
+    <!--<s:String x:Key="S.FeedbackPreview.Application.Version">Version</s:String>-->
+    <!--<s:String x:Key="S.FeedbackPreview.Application.Variant">Variant</s:String>-->
     <s:String x:Key="S.FeedbackPreview.Application.Startup">Startet i</s:String>
     <s:String x:Key="S.FeedbackPreview.Application.Date">Dato</s:String>
     <s:String x:Key="S.FeedbackPreview.Application.Running">Kører i</s:String>
-    <s:String x:Key="S.FeedbackPreview.Processor">Processor</s:String>
-    <s:String x:Key="S.FeedbackPreview.Processor.Model">Model</s:String>
+    <!--<s:String x:Key="S.FeedbackPreview.Processor">Processor</s:String>-->
+    <!--<s:String x:Key="S.FeedbackPreview.Processor.Model">Model</s:String>-->
     <s:String x:Key="S.FeedbackPreview.Processor.Frequency">Frekvens</s:String>
     <s:String x:Key="S.FeedbackPreview.Processor.CoresThreads">Kerner/tråde</s:String>
     <s:String x:Key="S.FeedbackPreview.Processor.Architecture">Arkitektur</s:String>
     <s:String x:Key="S.FeedbackPreview.Memory">Hukommelse</s:String>
-    <s:String x:Key="S.FeedbackPreview.Memory.Total">Total</s:String>
+    <!--<s:String x:Key="S.FeedbackPreview.Memory.Total">Total</s:String>-->
     <s:String x:Key="S.FeedbackPreview.Memory.Available">Tilgængelig</s:String>
     <s:String x:Key="S.FeedbackPreview.Memory.Used">Brug</s:String>
     <s:String x:Key="S.FeedbackPreview.Graphics">Grafikkort</s:String>
     <s:String x:Key="S.FeedbackPreview.Graphics.Refresh">Opdateringshastighed</s:String>
-    <s:String x:Key="S.FeedbackPreview.Graphics.Driver">Driver version</s:String>
+    <!--<s:String x:Key="S.FeedbackPreview.Graphics.Driver">Driver version</s:String>-->
     <s:String x:Key="S.FeedbackPreview.Screens">Skærme</s:String>
     <s:String x:Key="S.FeedbackPreview.Screens.Name">Venligt navn</s:String>
     <s:String x:Key="S.FeedbackPreview.Screens.Bounds">Grænser</s:String>
@@ -1113,10 +1152,10 @@
     <s:String x:Key="S.FeedbackPreview.Sound.SampleRate">Prøvefrekvens</s:String>
     <s:String x:Key="S.FeedbackPreview.Disks">Diske</s:String>
     <s:String x:Key="S.FeedbackPreview.Disks.Root">Rod</s:String>
-    <s:String x:Key="S.FeedbackPreview.Disks.Total">Total</s:String>
+    <!--<s:String x:Key="S.FeedbackPreview.Disks.Total">Total</s:String>-->
     <s:String x:Key="S.FeedbackPreview.Disks.Free">Ledig</s:String>
-    <s:String x:Key="S.FeedbackPreview.Disks.Format">Format</s:String>
-    <s:String x:Key="S.FeedbackPreview.Disks.Type">Type</s:String>
+    <!--<s:String x:Key="S.FeedbackPreview.Disks.Format">Format</s:String>-->
+    <!--<s:String x:Key="S.FeedbackPreview.Disks.Type">Type</s:String>-->
     <s:String x:Key="S.FeedbackPreview.Disks.Ready">Klar?</s:String>
 
     <!--Project Types -->
@@ -1126,10 +1165,10 @@
 
     <!--Capture-->
     <s:String x:Key="S.Capture.Record">Optag</s:String>
-    <s:String x:Key="S.Capture.Snap">Snap</s:String>
-    <s:String x:Key="S.Capture.Pause">Pause</s:String>
+    <!--<s:String x:Key="S.Capture.Snap">Snap</s:String>-->
+    <!--<s:String x:Key="S.Capture.Pause">Pause</s:String>-->
     <s:String x:Key="S.Capture.Continue">Fortsæt</s:String>
-    <s:String x:Key="S.Capture.Stop">Stop</s:String>
+    <!--<s:String x:Key="S.Capture.Stop">Stop</s:String>-->
     <s:String x:Key="S.Capture.Discard">Kassér</s:String>
     <s:String x:Key="S.Capture.Time">Optagelsestid</s:String>
 
@@ -1154,7 +1193,7 @@
 
     <!--Playback-->
     <s:String x:Key="S.Playback.Play">Afspil</s:String>
-    <s:String x:Key="S.Playback.Pause">Pause</s:String>
+    <!--<s:String x:Key="S.Playback.Pause">Pause</s:String>-->
     <s:String x:Key="S.Playback.Paused">Pauset</s:String>
     <s:String x:Key="S.Playback.SkipBackward">Spring tilbage</s:String>
     <s:String x:Key="S.Playback.SkipFrameBackward">Spring et billede tilbage</s:String>
@@ -1170,7 +1209,7 @@
 
     <!--Positioning-->
     <s:String x:Key="S.Positioning.Left">Venstre</s:String>
-    <s:String x:Key="S.Positioning.Top">Top</s:String>
+    <!--<s:String x:Key="S.Positioning.Top">Top</s:String>-->
     <s:String x:Key="S.Positioning.Right">Højre</s:String>
     <s:String x:Key="S.Positioning.Bottom">Bund</s:String>
     <s:String x:Key="S.Positioning.TopLeft">Øverste venstre hjørne</s:String>
@@ -1189,14 +1228,14 @@
     <s:String x:Key="S.Positioning.Angle">Vinkel</s:String>
 
     <!--Timing-->
-    <s:String x:Key="S.Timing.Start">Start</s:String>
+    <!--<s:String x:Key="S.Timing.Start">Start</s:String>-->
     <s:String x:Key="S.Timing.End">Slut</s:String>
 
     <!--States-->
     <s:String x:Key="S.Field.Empty">(tomme)</s:String>
     <s:String x:Key="S.Field.Space">(mellemrum)</s:String>
     <s:String x:Key="S.Field.Optional">(valgfrit)</s:String>
-    <s:String x:Key="S.Field.Minimum">(min)</s:String>
+    <!--<s:String x:Key="S.Field.Minimum">(min)</s:String>-->
     <s:String x:Key="S.Field.Key">Klik for at sætte tastaturfokus, og tryk derefter på de ønskede taster og modificeringer.&#10;Nogle tastekombinationer er ikke tilladt.</s:String>
     <s:String x:Key="S.Field.Key.Remove">Fjern tastaturkombination</s:String>
 
@@ -1252,125 +1291,125 @@
     <s:String x:Key="S.DragDrop.Ignored">Nogle ikke-understøttede filer vil blive ignoreret</s:String>
 
     <!--Keys-->
-    <s:String x:Key="S.Keys.Backspace">Backspace</s:String>
-    <s:String x:Key="S.Keys.Tab">Tab</s:String>
-    <s:String x:Key="S.Keys.Return">Enter</s:String>
-    <s:String x:Key="S.Keys.PauseBreak">Pause/Break</s:String>
-    <s:String x:Key="S.Keys.CapsLock">Caps Lock</s:String>
-    <s:String x:Key="S.Keys.Escape">Esc</s:String>
+    <!--<s:String x:Key="S.Keys.Backspace">Backspace</s:String>-->
+    <!--<s:String x:Key="S.Keys.Tab">Tab</s:String>-->
+    <!--<s:String x:Key="S.Keys.Return">Enter</s:String>-->
+    <!--<s:String x:Key="S.Keys.PauseBreak">Pause/Break</s:String>-->
+    <!--<s:String x:Key="S.Keys.CapsLock">Caps Lock</s:String>-->
+    <!--<s:String x:Key="S.Keys.Escape">Esc</s:String>-->
     <s:String x:Key="S.Keys.Space">Mellemrum</s:String>
-    <s:String x:Key="S.Keys.PageUp">Page Up</s:String>
-    <s:String x:Key="S.Keys.PageDown">Page Down</s:String>
-    <s:String x:Key="S.Keys.Home">Home</s:String>
-    <s:String x:Key="S.Keys.End">End</s:String>
+    <!--<s:String x:Key="S.Keys.PageUp">Page Up</s:String>-->
+    <!--<s:String x:Key="S.Keys.PageDown">Page Down</s:String>-->
+    <!--<s:String x:Key="S.Keys.Home">Home</s:String>-->
+    <!--<s:String x:Key="S.Keys.End">End</s:String>-->
     <s:String x:Key="S.Keys.Left">Pil venstre</s:String>
     <s:String x:Key="S.Keys.Up">Pil op</s:String>
     <s:String x:Key="S.Keys.Right">Pil højre</s:String>
     <s:String x:Key="S.Keys.Down">Pil ned</s:String>
-    <s:String x:Key="S.Keys.PrintScreen">Print Screen</s:String>
-    <s:String x:Key="S.Keys.Insert">Insert</s:String>
-    <s:String x:Key="S.Keys.Delete">Delete</s:String>
-    <s:String x:Key="S.Keys.NumLock">Num Lock</s:String>
-    <s:String x:Key="S.Keys.ScrollLock">Scroll Lock</s:String>
-    <s:String x:Key="S.Keys.Shift">Shift</s:String>
+    <!--<s:String x:Key="S.Keys.PrintScreen">Print Screen</s:String>-->
+    <!--<s:String x:Key="S.Keys.Insert">Insert</s:String>-->
+    <!--<s:String x:Key="S.Keys.Delete">Delete</s:String>-->
+    <!--<s:String x:Key="S.Keys.NumLock">Num Lock</s:String>-->
+    <!--<s:String x:Key="S.Keys.ScrollLock">Scroll Lock</s:String>-->
+    <!--<s:String x:Key="S.Keys.Shift">Shift</s:String>-->
     <s:String x:Key="S.Keys.LeftShift">Venstre Shift</s:String>
     <s:String x:Key="S.Keys.RightShift">Højre Shift</s:String>
-    <s:String x:Key="S.Keys.Alt">Alt</s:String>
+    <!--<s:String x:Key="S.Keys.Alt">Alt</s:String>-->
     <s:String x:Key="S.Keys.LeftAlt">Venstre Alt</s:String>
     <s:String x:Key="S.Keys.RightAlt">Højre Alt</s:String>
-    <s:String x:Key="S.Keys.Ctrl">Control</s:String>
+    <!--<s:String x:Key="S.Keys.Ctrl">Control</s:String>-->
     <s:String x:Key="S.Keys.LeftCtrl">Venstre Ctrl</s:String>
     <s:String x:Key="S.Keys.RightCtrl">Højre Ctrl</s:String>
-    <s:String x:Key="S.Keys.Windows">Windows</s:String>
+    <!--<s:String x:Key="S.Keys.Windows">Windows</s:String>-->
     <s:String x:Key="S.Keys.LeftWindows">Venstre Windows</s:String>
     <s:String x:Key="S.Keys.RightWindows">Højre Windows</s:String>
     <s:String x:Key="S.Keys.NextTrack">Næste spor</s:String>
     <s:String x:Key="S.Keys.PreviousTrack">Forrige spor</s:String>
     <s:String x:Key="S.Keys.PlayPause">Afspil/pause</s:String>
-    <s:String x:Key="S.Keys.Stop">Stop</s:String>
+    <!--<s:String x:Key="S.Keys.Stop">Stop</s:String>-->
 
     <!--Mouse buttons-->
     <s:String x:Key="S.Mouse.Right">Højreklik</s:String>
 
     <!--Units-->
-    <s:String x:Key="S.Units.Points.Short">pt</s:String>
-    <s:String x:Key="S.Units.Second.Short">s</s:String>
-    <s:String x:Key="S.Units.Millisecond.Short">ms</s:String>
-    <s:String x:Key="S.Units.Pixels.Short">px</s:String>
-    <s:String x:Key="S.Units.FramesPerSecond.Short">fps</s:String>
+    <!--<s:String x:Key="S.Units.Points.Short">pt</s:String>-->
+    <!--<s:String x:Key="S.Units.Second.Short">s</s:String>-->
+    <!--<s:String x:Key="S.Units.Millisecond.Short">ms</s:String>-->
+    <!--<s:String x:Key="S.Units.Pixels.Short">px</s:String>-->
+    <!--<s:String x:Key="S.Units.FramesPerSecond.Short">fps</s:String>-->
 
     <!--Formats-->
     <s:String x:Key="S.Formats.Type.Animated">Animeret billede</s:String>
-    <s:String x:Key="S.Formats.Type.Video">Video</s:String>
+    <!--<s:String x:Key="S.Formats.Type.Video">Video</s:String>-->
     <s:String x:Key="S.Formats.Type.Audio">Lyd</s:String>
     <s:String x:Key="S.Formats.Type.Frames">Billeder</s:String>
     <s:String x:Key="S.Formats.Type.Other">Andet</s:String>
     <s:String x:Key="S.Formats.Type.All">Alle filer</s:String>
 
-    <s:String x:Key="S.Formats.Apng">Apng</s:String>
+    <!--<s:String x:Key="S.Formats.Apng">Apng</s:String>-->
     <s:String x:Key="S.Formats.Apng.Info">Animeret Portable Network Graphics</s:String>
-    <s:String x:Key="S.Formats.Gif">Gif</s:String>
-    <s:String x:Key="S.Formats.Gif.Info">Graphics Interchange Format</s:String>
-    <s:String x:Key="S.Formats.Webp">Webp</s:String>
+    <!--<s:String x:Key="S.Formats.Gif">Gif</s:String>-->
+    <!--<s:String x:Key="S.Formats.Gif.Info">Graphics Interchange Format</s:String>-->
+    <!--<s:String x:Key="S.Formats.Webp">Webp</s:String>-->
     <s:String x:Key="S.Formats.Webp.Info">Web billede</s:String>
 
-    <s:String x:Key="S.Formats.Avi">Avi</s:String>
-    <s:String x:Key="S.Formats.Avi.Info">Audio Video Interleave</s:String>
-    <s:String x:Key="S.Formats.Mkv">Mkv</s:String>
-    <s:String x:Key="S.Formats.Mkv.Info">Matroska</s:String>
-    <s:String x:Key="S.Formats.Mov">Mov</s:String>
+    <!--<s:String x:Key="S.Formats.Avi">Avi</s:String>-->
+    <!--<s:String x:Key="S.Formats.Avi.Info">Audio Video Interleave</s:String>-->
+    <!--<s:String x:Key="S.Formats.Mkv">Mkv</s:String>-->
+    <!--<s:String x:Key="S.Formats.Mkv.Info">Matroska</s:String>-->
+    <!--<s:String x:Key="S.Formats.Mov">Mov</s:String>-->
     <s:String x:Key="S.Formats.Mov.Info">QuickTime-filformat</s:String>
-    <s:String x:Key="S.Formats.Mp4">Mp4</s:String>
-    <s:String x:Key="S.Formats.Mp4.Info">Mpeg-4</s:String>
-    <s:String x:Key="S.Formats.Webm">Webm</s:String>
+    <!--<s:String x:Key="S.Formats.Mp4">Mp4</s:String>-->
+    <!--<s:String x:Key="S.Formats.Mp4.Info">Mpeg-4</s:String>-->
+    <!--<s:String x:Key="S.Formats.Webm">Webm</s:String>-->
     <s:String x:Key="S.Formats.Webm.Info">Web-film</s:String>
 
-    <s:String x:Key="S.Formats.Aac">Aac</s:String>
-    <s:String x:Key="S.Formats.Aac.Info">Advanced Audio Coding</s:String>
-    <s:String x:Key="S.Formats.Ac3">Ac3</s:String>
-    <s:String x:Key="S.Formats.Ac3.Info">Audio Codec 3</s:String>
-    <s:String x:Key="S.Formats.Aiff">Aiff</s:String>
-    <s:String x:Key="S.Formats.Aiff.Info">Audio Interchange File Format</s:String>
-    <s:String x:Key="S.Formats.Alac">Alac</s:String>
-    <s:String x:Key="S.Formats.Alac.Info">Apple Lossless Audio Codec</s:String>
-    <s:String x:Key="S.Formats.Amr">Amr</s:String>
-    <s:String x:Key="S.Formats.Amr.Info">Adaptive Multi-Rate</s:String>
-    <s:String x:Key="S.Formats.Flac">Flac</s:String>
-    <s:String x:Key="S.Formats.Flac.Info">Free Lossless Audio Codec</s:String>
-    <s:String x:Key="S.Formats.Mp3">Mp3</s:String>
-    <s:String x:Key="S.Formats.Mp3.Info">MPEG-1/2 Audio Layer III</s:String>
-    <s:String x:Key="S.Formats.Ogg">Ogg</s:String>
+    <!--<s:String x:Key="S.Formats.Aac">Aac</s:String>-->
+    <!--<s:String x:Key="S.Formats.Aac.Info">Advanced Audio Coding</s:String>-->
+    <!--<s:String x:Key="S.Formats.Ac3">Ac3</s:String>-->
+    <!--<s:String x:Key="S.Formats.Ac3.Info">Audio Codec 3</s:String>-->
+    <!--<s:String x:Key="S.Formats.Aiff">Aiff</s:String>-->
+    <!--<s:String x:Key="S.Formats.Aiff.Info">Audio Interchange File Format</s:String>-->
+    <!--<s:String x:Key="S.Formats.Alac">Alac</s:String>-->
+    <!--<s:String x:Key="S.Formats.Alac.Info">Apple Lossless Audio Codec</s:String>-->
+    <!--<s:String x:Key="S.Formats.Amr">Amr</s:String>-->
+    <!--<s:String x:Key="S.Formats.Amr.Info">Adaptive Multi-Rate</s:String>-->
+    <!--<s:String x:Key="S.Formats.Flac">Flac</s:String>-->
+    <!--<s:String x:Key="S.Formats.Flac.Info">Free Lossless Audio Codec</s:String>-->
+    <!--<s:String x:Key="S.Formats.Mp3">Mp3</s:String>-->
+    <!--<s:String x:Key="S.Formats.Mp3.Info">MPEG-1/2 Audio Layer III</s:String>-->
+    <!--<s:String x:Key="S.Formats.Ogg">Ogg</s:String>-->
     <s:String x:Key="S.Formats.Ogg.Info">Ogg Vorbis-beholder</s:String>
-    <s:String x:Key="S.Formats.Opus">Opus</s:String>
-    <s:String x:Key="S.Formats.Opus.Info">Opus</s:String>
-    <s:String x:Key="S.Formats.Wav">Wav</s:String>
-    <s:String x:Key="S.Formats.Wav.Info">Waveform Audio File Format</s:String>
-    <s:String x:Key="S.Formats.Wma">Wma</s:String>
-    <s:String x:Key="S.Formats.Wma.Info">Windows Media Audio</s:String>
+    <!--<s:String x:Key="S.Formats.Opus">Opus</s:String>-->
+    <!--<s:String x:Key="S.Formats.Opus.Info">Opus</s:String>-->
+    <!--<s:String x:Key="S.Formats.Wav">Wav</s:String>-->
+    <!--<s:String x:Key="S.Formats.Wav.Info">Waveform Audio File Format</s:String>-->
+    <!--<s:String x:Key="S.Formats.Wma">Wma</s:String>-->
+    <!--<s:String x:Key="S.Formats.Wma.Info">Windows Media Audio</s:String>-->
 
-    <s:String x:Key="S.Formats.Avif">AVIF</s:String>
+    <!--<s:String x:Key="S.Formats.Avif">AVIF</s:String>-->
     <s:String x:Key="S.Formats.Avif.Info">AV1-komprimeret billede (HEIF/AV1)</s:String>
-    <s:String x:Key="S.Formats.Bmp">Bmp</s:String>
-    <s:String x:Key="S.Formats.Bmp.Info">Bitmap</s:String>
-    <s:String x:Key="S.Formats.Heic">HEIC</s:String>
+    <!--<s:String x:Key="S.Formats.Bmp">Bmp</s:String>-->
+    <!--<s:String x:Key="S.Formats.Bmp.Info">Bitmap</s:String>-->
+    <!--<s:String x:Key="S.Formats.Heic">HEIC</s:String>-->
     <s:String x:Key="S.Formats.Heic.Info">High-Efficiency Image (HEIF/HEVC)</s:String>
-    <s:String x:Key="S.Formats.Jpeg">Jpeg</s:String>
-    <s:String x:Key="S.Formats.Jpeg.Info">Joint Photographic Experts Group</s:String>
-    <s:String x:Key="S.Formats.Png">Png</s:String>
-    <s:String x:Key="S.Formats.Png.Info">Portable Network Graphics</s:String>
+    <!--<s:String x:Key="S.Formats.Jpeg">Jpeg</s:String>-->
+    <!--<s:String x:Key="S.Formats.Jpeg.Info">Joint Photographic Experts Group</s:String>-->
+    <!--<s:String x:Key="S.Formats.Png">Png</s:String>-->
+    <!--<s:String x:Key="S.Formats.Png.Info">Portable Network Graphics</s:String>-->
     <s:String x:Key="S.Formats.Images.Zip">Pakkede billeder</s:String>
 
     <s:String x:Key="S.Formats.Project">Projekt</s:String>
     <s:String x:Key="S.Formats.Project.Info">N-Studio-projekt</s:String>
     <s:String x:Key="S.Formats.LegacyProject">ScreenToGif-projekt</s:String>
     <s:String x:Key="S.Formats.LegacyProject.Info">Projektfil brugt af ScreenToGif</s:String>
-    <s:String x:Key="S.Formats.Psd">Psd</s:String>
+    <!--<s:String x:Key="S.Formats.Psd">Psd</s:String>-->
     <s:String x:Key="S.Formats.Psd.Info">Photoshop-fil</s:String>
 
     <!--Objects-->
     <s:String x:Key="S.Project">Projekt</s:String>
     <s:String x:Key="S.Track">Spor</s:String>
-    <s:String x:Key="S.Segment">Segment</s:String>
+    <!--<s:String x:Key="S.Segment">Segment</s:String>-->
 
     <!--Segments-->
     <s:String x:Key="S.Segments.Frames">Billeder</s:String>
@@ -1380,7 +1419,7 @@
     <s:String x:Key="S.Segments.Progress">Fremdrift</s:String>
     <s:String x:Key="S.Segments.Image">Billede</s:String>
     <s:String x:Key="S.Segments.AnimatedImage">Animeret billede</s:String>
-    <s:String x:Key="S.Segments.Video">Video</s:String>
+    <!--<s:String x:Key="S.Segments.Video">Video</s:String>-->
     <s:String x:Key="S.Segments.LinkedVideo">Linket video</s:String>
     <s:String x:Key="S.Segments.Audio">Lyd</s:String>
     <s:String x:Key="S.Segments.MicrophoneAudio">Mikrofonlyd</s:String>
@@ -1392,7 +1431,7 @@
     <s:String x:Key="S.Segments.Blur">Sløring</s:String>
     <s:String x:Key="S.Segments.Brightness">Lysstyrke</s:String>
     <s:String x:Key="S.Segments.Unfocus">Slør</s:String>
-    <s:String x:Key="S.Segments.Zoom">Zoom</s:String>
+    <!--<s:String x:Key="S.Segments.Zoom">Zoom</s:String>-->
     <s:String x:Key="S.Segments.NewTrack">Nyt spor</s:String>
 
     <!--Settings-->
@@ -1403,10 +1442,10 @@
     <s:String x:Key="S.Settings.Pages.RegionShare">Regionsdeling</s:String>
     <s:String x:Key="S.Settings.Pages.DefaultStyles">Standardstile</s:String>
     <s:String x:Key="S.Settings.Pages.DefaultEffects">Standardeffekter</s:String>
-    <s:String x:Key="S.Settings.Pages.Editor">Editor</s:String>
+    <!--<s:String x:Key="S.Settings.Pages.Editor">Editor</s:String>-->
     <s:String x:Key="S.Settings.Pages.Exporter">Eksportør</s:String>
     <s:String x:Key="S.Settings.Pages.Storage">Lager</s:String>
-    <s:String x:Key="S.Settings.Pages.Plugins">Plugins</s:String>
+    <!--<s:String x:Key="S.Settings.Pages.Plugins">Plugins</s:String>-->
     <s:String x:Key="S.Settings.Pages.Update">Opdater</s:String>
     <s:String x:Key="S.Settings.Pages.About">Om</s:String>
 
@@ -1469,7 +1508,7 @@
     <s:String x:Key="S.Settings.Application.Startup.StartWith.Sound.Info">Optag lyd fra mikrofoner eller systemet</s:String>
     <s:String x:Key="S.Settings.Application.Startup.StartWith.RegionShare">Regionsdeling</s:String>
     <s:String x:Key="S.Settings.Application.Startup.StartWith.RegionShare.Info">Vælg et område af din skærm at dele med andre apps</s:String>
-    <s:String x:Key="S.Settings.Application.Startup.StartWith.Editor">Editor</s:String>
+    <!--<s:String x:Key="S.Settings.Application.Startup.StartWith.Editor">Editor</s:String>-->
     <s:String x:Key="S.Settings.Application.Startup.StartWith.Editor.Info">Opret eller rediger indhold</s:String>
     <s:String x:Key="S.Settings.Application.Startup.StartWith.Nothing">Intet</s:String>
     <s:String x:Key="S.Settings.Application.Startup.StartWith.Nothing.Info">Lad appen være i systembakken</s:String>
@@ -1496,14 +1535,14 @@
     <s:String x:Key="S.Settings.ScreenRecorder.AfterRecording">Vindue efter optagelse</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.AfterRecording.Exporter">Eksportør</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.AfterRecording.Exporter.Info">Med simple sidste-øjebliks redigeringsværktøjer som beskær, ændr størrelse, trim osv.</s:String>
-    <s:String x:Key="S.Settings.ScreenRecorder.AfterRecording.Editor">Editor</s:String>
+    <!--<s:String x:Key="S.Settings.ScreenRecorder.AfterRecording.Editor">Editor</s:String>-->
     <s:String x:Key="S.Settings.ScreenRecorder.AfterRecording.Editor.Info">Fuldt udbygget editor, indsæt lag, kontroller tidslinjen osv.</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.StartAfterSelection">Start optagelse efter markering</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.StartAfterSelection.Info">Hurtiggør din arbejdsgang ved automatisk at optage efter at have valgt et skærmområde</s:String>
 
-    <s:String x:Key="S.Settings.ScreenRecorder.Shortcuts.StartPause">Start/pause</s:String>
+    <!--<s:String x:Key="S.Settings.ScreenRecorder.Shortcuts.StartPause">Start/pause</s:String>-->
     <s:String x:Key="S.Settings.ScreenRecorder.Shortcuts.StartPause.Info">Starter eller pauser optagelsen (tager snapshots, hvis manuel tilstand aktiveret)</s:String>
-    <s:String x:Key="S.Settings.ScreenRecorder.Shortcuts.Stop">Stop</s:String>
+    <!--<s:String x:Key="S.Settings.ScreenRecorder.Shortcuts.Stop">Stop</s:String>-->
     <s:String x:Key="S.Settings.ScreenRecorder.Shortcuts.Stop.Info">Stopper optagelsen</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Shortcuts.Discard">Kassér</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Shortcuts.Discard.Info">Kasserer den aktuelle optagelse</s:String>
@@ -1569,7 +1608,7 @@
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.Compression">Kompression</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.Compression.Slowest">Langsommest</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.Compression.Slowest.Info">Mindst mulig, selvom det tager længere tid at behandle</s:String>
-    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Compression.Optimal">Optimal</s:String>
+    <!--<s:String x:Key="S.Settings.ScreenRecorder.Capture.Compression.Optimal">Optimal</s:String>-->
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.Compression.Optimal.Info">Hurtigere, men sandsynligvis mindre optimal kompression</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.Compression.Fastest">Hurtigst</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.Compression.Fastest.Info">Hurtigere, men sandsynligvis mindre optimal kompression</s:String>
@@ -1586,11 +1625,11 @@
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.PreventBlack">Forhindrer optagelse af helt sorte billeder</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.PreventBlack.Info">Forhindrer fejlagtig optagelse af billeder med alle pixels sort</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.RemoteImprovement">Deaktiver lagdelt vinduesoptagelse, hvilket forbedrer ydeevnen ved fjernskrivebord</s:String>
-    
+
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.GammaCorrection">Anvend gamma-korrektion til 10-bit SDR-optagelse</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.GammaCorrection.Info">Skift lineær til sRGB-konvertering for 10-bit SDR-optagelse.&#10;Hvis farverne ser forkerte ud, prøv at skifte denne.</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation">Lysstyrkekompensation</s:String>
-    <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation.Auto">Auto</s:String>
+    <!--<s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation.Auto">Auto</s:String>-->
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation.Fixed">Fast</s:String>
 
     <!--Settings • Screen Recorder > Capture Frequency-->
@@ -1649,7 +1688,7 @@
     <s:String x:Key="S.Settings.Styles.ParagraphAlignment">Afsnitsjustering</s:String>
     <s:String x:Key="S.Settings.Styles.ParagraphAlignment.Near">Nær</s:String>
     <s:String x:Key="S.Settings.Styles.ParagraphAlignment.Far">Fjern</s:String>
-    <s:String x:Key="S.Settings.Styles.ParagraphAlignment.Center">Center</s:String>
+    <!--<s:String x:Key="S.Settings.Styles.ParagraphAlignment.Center">Center</s:String>-->
     <s:String x:Key="S.Settings.Styles.FlowDirection">Tekstretning</s:String>
     <s:String x:Key="S.Settings.Styles.FlowDirection.TopToBottom">Top til bund</s:String>
     <s:String x:Key="S.Settings.Styles.FlowDirection.LeftToRight">Venstre til højre</s:String>
@@ -1666,9 +1705,9 @@
     <s:String x:Key="S.Settings.Styles.LineSpacingMethod">Linjeafstandmetode</s:String>
     <s:String x:Key="S.Settings.Styles.LineSpacingMethod.Default">Standard</s:String>
     <s:String x:Key="S.Settings.Styles.LineSpacingMethod.Uniform">Ensartet</s:String>
-    <s:String x:Key="S.Settings.Styles.LineSpacingMethod.Proportional">Proportional</s:String>
+    <!--<s:String x:Key="S.Settings.Styles.LineSpacingMethod.Proportional">Proportional</s:String>-->
     <s:String x:Key="S.Settings.Styles.LineSpacing">Linjeafstand</s:String>
-    <s:String x:Key="S.Settings.Styles.Baseline">Baseline</s:String>
+    <s:String x:Key="S.Settings.Styles.Baseline">Grundlinje</s:String>
     <s:String x:Key="S.Settings.Styles.TrimmingDelimiter">Afskæringsafgrænser</s:String>
     <s:String x:Key="S.Settings.Styles.DelimiterCount">Antal afgrænsere</s:String>
     <s:String x:Key="S.Settings.Styles.TrimmingGranularity">Afskæringsgranularitet</s:String>
@@ -1683,7 +1722,7 @@
     <s:String x:Key="S.Settings.Styles.Background">Baggrund</s:String>
     <s:String x:Key="S.Settings.Styles.CornerRadius">Hjørneradius</s:String>
     <s:String x:Key="S.Settings.Styles.Padding">Polstring</s:String>
-    <s:String x:Key="S.Settings.Styles.Margin">Margin</s:String>
+    <s:String x:Key="S.Settings.Styles.Margin">Margen</s:String>
     <s:String x:Key="S.Settings.Styles.IgnoreNonModifiersKeys">Ignorer ikke-modificatortaster</s:String>
     <s:String x:Key="S.Settings.Styles.IgnoreJustModifiersKeys">Ignorer kun modificeringstaster</s:String>
     <s:String x:Key="S.Settings.Styles.IgnoreInjectedKeys">Ignorer indsprøjtede taster</s:String>
@@ -1714,7 +1753,7 @@
     <s:String x:Key="S.Settings.Styles.KeyPrefix">Tastpræfiks</s:String>
     <s:String x:Key="S.Settings.Styles.KeySeparator">Tasteseparator</s:String>
     <s:String x:Key="S.Settings.Styles.UseNewLineForSeparator">Brug ny linje ved hver tasteseparator</s:String>
-    <s:String x:Key="S.Settings.Styles.ModifierSeparator">Modifier separator</s:String>
+    <s:String x:Key="S.Settings.Styles.ModifierSeparator">Modifikator-separator</s:String>
     <s:String x:Key="S.Settings.Styles.KeySuffix">Tastefterstykke</s:String>
     <s:String x:Key="S.Settings.Styles.Animate">Animer</s:String>
     <s:String x:Key="S.Settings.Styles.AnimationTiming">Animationstidspunkt</s:String>
@@ -1737,10 +1776,10 @@
     <s:String x:Key="S.Settings.Styles.DisplayMode.Text">Tekst</s:String>
     <s:String x:Key="S.Settings.Styles.DisplayMode.Bar">Bjælke</s:String>
     <s:String x:Key="S.Settings.Styles.BasedOn">Baseret på</s:String>
-    <s:String x:Key="S.Settings.Styles.BasedOn.Segment">Segment</s:String>
+    <!--<s:String x:Key="S.Settings.Styles.BasedOn.Segment">Segment</s:String>-->
     <s:String x:Key="S.Settings.Styles.BasedOn.Timeline">Tidslinje</s:String>
     <s:String x:Key="S.Settings.Styles.BasedOn.Capture">Optagelse</s:String>
-    <s:String x:Key="S.Settings.Styles.Format">Format</s:String>
+    <!--<s:String x:Key="S.Settings.Styles.Format">Format</s:String>-->
     <s:String x:Key="S.Settings.Styles.Format.DateTime">Dato og tid</s:String>
     <s:String x:Key="S.Settings.Styles.Format.Time">Tid</s:String>
     <s:String x:Key="S.Settings.Styles.Format.Percentage">Procent</s:String>
@@ -1751,27 +1790,27 @@
     <s:String x:Key="S.Settings.Styles.Offset">Forskydning</s:String>
     <s:String x:Key="S.Settings.Styles.Offset.ToggleSign">Skift fortegn</s:String>
     <s:String x:Key="S.Settings.Styles.ShowTotal">Vis total</s:String>
-    <s:String x:Key="S.Settings.Styles.Separator">Separator</s:String>
+    <!--<s:String x:Key="S.Settings.Styles.Separator">Separator</s:String>-->
     <s:String x:Key="S.Settings.Styles.Prefix">Præfiks</s:String>
     <s:String x:Key="S.Settings.Styles.Suffix">Suffiks</s:String>
     <s:String x:Key="S.Settings.Styles.Thickness">Tykkelse</s:String>
     <s:String x:Key="S.Settings.Styles.Orientation">Orientering</s:String>
     <s:String x:Key="S.Settings.Styles.Orientation.Horizontal">Vandret</s:String>
     <s:String x:Key="S.Settings.Styles.Orientation.Vertical">Lodret</s:String>
-
+    
     <!--Settings • Styles > Shape-->
     <s:String x:Key="S.Settings.Styles.Shape">Form</s:String>
     <s:String x:Key="S.Settings.Styles.Shape.LineArrow">Linje pil</s:String>
     <s:String x:Key="S.Settings.Styles.Shape.Arrow">Pil</s:String>
     <s:String x:Key="S.Settings.Styles.Shape.Rectangle">Rektangel</s:String>
-    <s:String x:Key="S.Settings.Styles.Shape.Ellipse">Ellipse</s:String>
+    <!--<s:String x:Key="S.Settings.Styles.Shape.Ellipse">Ellipse</s:String>-->
     <s:String x:Key="S.Settings.Styles.Shape.Triangle">Trekant</s:String>
 
     <!--Settings • Styles > Drawing-->
     <s:String x:Key="S.Settings.Styles.DrawingMode">Tegnemåde</s:String>
-    <s:String x:Key="S.Settings.Styles.DrawingMode.Pen">Pen</s:String>
+    <!--<s:String x:Key="S.Settings.Styles.DrawingMode.Pen">Pen</s:String>-->
     <s:String x:Key="S.Settings.Styles.DrawingMode.Highlighter">Marker</s:String>
-    <s:String x:Key="S.Settings.Styles.DrawingMode.Airbrush">Airbrush</s:String>
+    <!--<s:String x:Key="S.Settings.Styles.DrawingMode.Airbrush">Airbrush</s:String>-->
     <s:String x:Key="S.Settings.Styles.DrawingMode.Eraser">Viskelæder</s:String>
     <s:String x:Key="S.Settings.Styles.TipShape">Spidsform</s:String>
     <s:String x:Key="S.Settings.Styles.TipShape.Circle">Cirkel</s:String>
@@ -1811,10 +1850,10 @@
     <s:String x:Key="S.Settings.Styles.LineJoin.Bevel">Flad</s:String>
     <s:String x:Key="S.Settings.Styles.LineJoin.Miter">Kvadratisk</s:String>
     <s:String x:Key="S.Settings.Styles.LineJoin.Round">Rund</s:String>
-    
+
     <!--Settings • Styles > Dash-->
     <s:String x:Key="S.Settings.Styles.Dash">Stregstil</s:String>
-    <s:String x:Key="S.Settings.Styles.Dash.Solid">Solid</s:String>
+    <!--<s:String x:Key="S.Settings.Styles.Dash.Solid">Solid</s:String>-->
     <s:String x:Key="S.Settings.Styles.Dash.Dash">Streg</s:String>
     <s:String x:Key="S.Settings.Styles.Dash.Dot">Punkt</s:String>
     <s:String x:Key="S.Settings.Styles.Dash.DashDot">Streg, Punkt</s:String>
@@ -1877,7 +1916,7 @@
     <s:String x:Key="S.Settings.Exporter.UncommonFormat.Info">Gamle eller usædvanlige formater som AVI, AC3 osv. vil være tilgængelige</s:String>
 
     <!--Settings • Storage-->
-    <s:String x:Key="S.Settings.Storage.Cache">Cache</s:String>
+    <!--<s:String x:Key="S.Settings.Storage.Cache">Cache</s:String>-->
     <s:String x:Key="S.Settings.Storage.Cache.Path">Cache sti</s:String>
     <s:String x:Key="S.Settings.Storage.Cache.Logs">Logsti</s:String>
     <s:String x:Key="S.Settings.Storage.SelectPath">Klik for at vælge en sti</s:String>
@@ -1885,7 +1924,7 @@
     <s:String x:Key="S.Settings.Storage.Info">Cache-mappen bruges til at gemme optagelser/projekter og andre midlertidige filer</s:String>
     <s:String x:Key="S.Settings.Storage.FreeSpace">{0} ledig af {1}</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings">App-indstillinger</s:String>
-    <s:String x:Key="S.Settings.Storage.AppSettings.Global">Global</s:String>
+    <!--<s:String x:Key="S.Settings.Storage.AppSettings.Global">Global</s:String>-->
     <s:String x:Key="S.Settings.Storage.AppSettings.Local">Lokal</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.GlobalSettings">Globale indstillinger</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.GlobalSettings.Info">Indstillinger gemt i %AppData%/NStudio-mappen</s:String>
@@ -1902,11 +1941,11 @@
     <s:String x:Key="S.Settings.Storage.Cleanup.Clear.Global.Header">Vil du fjerne de globale indstillinger?</s:String>
     <s:String x:Key="S.Settings.Storage.Cleanup.Clear.Local.Header">Vil du fjerne de lokale indstillinger?</s:String>
     <s:String x:Key="S.Settings.Storage.Cleanup.Clear.Description">Du skal genstarte applikationen for at se ændringerne.</s:String>
-    
+
     <!--Settings • Plugins-->
     <s:String x:Key="S.Settings.Plugin.Path">Sti</s:String>
     <s:String x:Key="S.Settings.Plugin.SelectFile">Klik for at vælge fil</s:String>
-    <s:String x:Key="S.Settings.Plugin.Version">Version</s:String>
+    <!--<s:String x:Key="S.Settings.Plugin.Version">Version</s:String>-->
     <s:String x:Key="S.Settings.Plugin.Version.Unrecognized">Ugenkendt</s:String>
     <s:String x:Key="S.Settings.Plugin.Files.All">Alle understøttede filer</s:String>
     <s:String x:Key="S.Settings.Plugin.Ffmpeg.Select">Vælg placeringen af FFmpeg-eksekverbar filen</s:String>
@@ -1940,7 +1979,7 @@
 
     <!--Settings • About-->
     <s:String x:Key="S.Settings.About.Contact">Kontakt</s:String>
-    <s:String x:Key="S.Settings.About.Contact.Email">E-mail</s:String>
+    <!--<s:String x:Key="S.Settings.About.Contact.Email">E-mail</s:String>-->
     <s:String x:Key="S.Settings.About.Contact.Email.Copy">Kopiér e-mail</s:String>
     <s:String x:Key="S.Settings.About.Dependencies">Afhængigheder</s:String>
 
@@ -1960,8 +1999,8 @@
     <s:String x:Key="S.Preset.Identification.Info">Titel, beskrivelse og mere</s:String>
     <s:String x:Key="S.Preset.Identification.Title">Titel</s:String>
     <s:String x:Key="S.Preset.Identification.Description">Beskrivelse</s:String>
-    <s:String x:Key="S.Preset.Identification.Service">Service</s:String>
-    <s:String x:Key="S.Preset.Identification.Encoder">Encoder</s:String>
+    <!--<s:String x:Key="S.Preset.Identification.Service">Service</s:String>-->
+    <!--<s:String x:Key="S.Preset.Identification.Encoder">Encoder</s:String>-->
     <s:String x:Key="S.Preset.Identification.Enabled">Aktiveret</s:String>
     <s:String x:Key="S.Preset.Identification.Enabled.Info">Kun aktiverede forudindstillinger kan bruges</s:String>
     <s:String x:Key="S.Preset.Identification.AutoSave">Gem outputvalg automatisk</s:String>
@@ -1980,7 +2019,7 @@
     <s:String x:Key="S.Preset.Export.Commands.Info">Udfør kommandoer efter eksport</s:String>
 
     <!--Windows • Preset Settings > Output-->
-    <s:String x:Key="S.Preset.Output.Title">Output</s:String>
+    <!--<s:String x:Key="S.Preset.Output.Title">Output</s:String>-->
     <s:String x:Key="S.Preset.Output.Title.Info">Standard outputmappe og filnavn</s:String>
     <s:String x:Key="S.Preset.Output.Folder">Mappe</s:String>
     <s:String x:Key="S.Preset.Output.FileName">Filnavn</s:String>
@@ -1996,7 +2035,7 @@
     <s:String x:Key="S.Preset.Output.ExportAsProject.Info">Eksporter også som projekt til samme placering</s:String>
 
     <!--Windows • Preset Settings > Upload-->
-    <s:String x:Key="S.Preset.Upload.Title">Upload</s:String>
+    <!--<s:String x:Key="S.Preset.Upload.Title">Upload</s:String>-->
     <s:String x:Key="S.Preset.Upload.Title.Info">Standard upload-forudindstilling</s:String>
     <s:String x:Key="S.Preset.Upload.Title2">Uploadmuligheder</s:String>
     <s:String x:Key="S.Preset.Upload.Title2.Info">Indstillinger specifikke for den valgte uploadtjeneste og filformat</s:String>
@@ -2012,7 +2051,7 @@
     <s:String x:Key="S.Preset.Clipboard.Behavior.FolderPath.Info">Kopierer mappestien til outputfilen til udklipsholderen.</s:String>
     <s:String x:Key="S.Preset.Clipboard.Behavior.FilePath">Filsti</s:String>
     <s:String x:Key="S.Preset.Clipboard.Behavior.FilePath.Info">Kopierer stien til outputfilen til udklipsholderen.</s:String>
-    <s:String x:Key="S.Preset.Clipboard.Behavior.Link">Link</s:String>
+    <!--<s:String x:Key="S.Preset.Clipboard.Behavior.Link">Link</s:String>-->
     <s:String x:Key="S.Preset.Clipboard.Behavior.Link.Info">Kopierer linket genereret af uploadtjenesten til udklipsholderen.</s:String>
 
     <!--Windows • Preset Settings > Commands-->
@@ -2035,9 +2074,9 @@
     <!--Windows • Preset Settings > Encoder-->
     <s:String x:Key="S.Preset.Encoder.Title">Encoderindstillinger</s:String>
     <s:String x:Key="S.Preset.Encoder.Title.Info">Indstillinger specifikke for den valgte encoder og filformat</s:String>
-    <s:String x:Key="S.Preset.Encoder.Version">Version</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Version">Version</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Quality">Kvalitet</s:String>
-    <s:String x:Key="S.Preset.Encoder.Pass">Pass</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Pass">Pass</s:String>-->
 
     <s:String x:Key="S.Preset.Encoder.FFmpeg.UseCommands">Brug kommandoer</s:String>
     <s:String x:Key="S.Preset.Encoder.FFmpeg.UseCommands.Info">Skriv argumenter til FFmpeg direkte (avanceret tilstand)</s:String>
@@ -2066,7 +2105,7 @@
     <s:String x:Key="S.Preset.Encoder.Apng.PaintTransparent.Info">Erstat pixels, der ikke ændrede sig mellem billeder, med en gennemsigtig farve</s:String>
     <s:String x:Key="S.Preset.Encoder.Apng.Prediction">Forudsigelse</s:String>
     <s:String x:Key="S.Preset.Encoder.Apng.Prediction.None">Ingen</s:String>
-    <s:String x:Key="S.Preset.Encoder.Apng.Prediction.Sub">Sub</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Apng.Prediction.Sub">Sub</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Apng.Prediction.Up">Op</s:String>
     <s:String x:Key="S.Preset.Encoder.Apng.Prediction.Average">Gennemsnit</s:String>
     <s:String x:Key="S.Preset.Encoder.Apng.Prediction.Mixed">Blandet</s:String>
@@ -2078,15 +2117,15 @@
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Info">Farvereduktion algoritme (kvantisering)</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Neural">Neuralt netværk</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Neural.Info">Høj-fideltitets kvantisering. Langsommere, men godt til et større antal farver</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Octree">Octree</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Octree">Octree</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Octree.Info">God til animationer med færre farver. Hurtigere, men kan producere farvebånd</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.MedianCut">Median cut</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Quantizer.MedianCut">Median cut</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.MedianCut.Info">Mindre god end Octree og langsommere</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Grayscale">Gråtoner</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Grayscale.Info">Bruger en fast gråtonepalette, så det er meget hurtigere</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.MostUsed">Mest brugte farver</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.MostUsed.Info">Tager blot de mest brugte farver i billederne</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Sampling">Sampling</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Sampling">Sampling</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Sampling.Info">Samplefaktor:&#10;En værdi på 1 giver et flottere gif, men det vil være langsommere at gengive</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Sampling.Best">Bedst</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Sampling.Fastest">Hurtigst</s:String>
@@ -2102,8 +2141,8 @@
     <s:String x:Key="S.Preset.Encoder.Gif.PaintWithChroma">Erstat disse pixels med en chroma key</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.PaintWithChroma.Info">Gentagne/ uændrede pixels erstattes med denne chroma key,&#10;så der kan bruges færre farver pr. billede</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Color">Farve</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.ChromaKey">Chroma key</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Dither">Dither</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.ChromaKey">Chroma key</s:String>-->
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Dither">Dither</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Dither.Scale">Bayer-skala</s:String>
 
     <!--Preset • Gifski-->
@@ -2148,10 +2187,10 @@
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Palette.Wu">Wu kvantizer</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Palette.Wu.Info">Optimerer paletten for hvert billede med Xiaolin Wu's algoritme</s:String>
 
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer">Ditherer</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer">Ditherer</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Strength">Styrke</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Strength.Info">Ditherstyrken, eller 0 for automatisk kalibrering</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Seed">Seed</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Seed">Seed</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Seed.Info">En heltalsseed, der bruges til at producere et specifikt tilfældigt dithermønster.&#10;Efterlad tom for at bruge en tilfældig seed for hvert billede</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.None">Ingen</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.None.Info">Billeder kvantiseres uden dithering.</s:String>
@@ -2172,7 +2211,7 @@
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Atkinson">Atkinson (fejlfordeling)</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Atkinson.Info">Bill Atkinsons 4x3 matrix med 6 effektive værdier</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Burkes">Burkes (fejlfordeling)</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Burkes.Info">D. Burkes' 5x2 matrix</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Burkes.Info">D. Burkes' 5x2 matrix</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.FloydSteinberg">Floyd-Steinberg (fejlfordeling)</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.FloydSteinberg.Info">Den originale 3x2 matrix af Floyd og Steinberg</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.JarvisJudiceNinke">Jarvis-Judice-Ninke (fejlfordeling)</s:String>
@@ -2194,7 +2233,7 @@
 
     <s:String x:Key="S.Preset.Encoder.Gif.AllowDeltaFrames">Tillad delta-billeder</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.AllowDeltaFrames.Info">Når valgt forsøges det at detektere uændrede pixels under kodning.&#13;&#10;Ved brug med en optimeret kvantizer gør denne mulighed det muligt, at et billede har mere end 256 farver.&#13;&#10;Denne mulighed ignoreres, hvis kvantizeren ikke bruger gennemsigtighed, og Tillad klippede billeder er ikke valgt</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.DeltaTolerance">Delta tolerance</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.DeltaTolerance">Delta tolerance</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.DeltaTolerance.Info">Angiver den maksimale tolerance ved detektion af ændrede pixels.&#13;&#10;Hvis 0, tolereres ingen forskel.&#13;&#10;Hvis 255, kan der være billeder (eller endda alle) der tilføjes uden indhold.&#13;&#10;Fornuftigt område er mellem 0 og 16 for en optimeret kvantizer. De med faste farver kan bruges med noget større værdier med dithering</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.AllowClippedFrames">Tillad klippede billeder</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.AllowClippedFrames.Info">Når valgt må encoder tilføje mindre billeder end den faktiske opløsning.&#13;&#10;Hvis Tillad delta-billeder ikke er valgt, tillades kun klipning af mulige gennemsigtige kanter</s:String>
@@ -2218,14 +2257,14 @@
     <s:String x:Key="S.Preset.Encoder.Webm.Lossless.Info">Maksimal kvalitet, uden farvenedbrydning</s:String>
     
     <!--Preset • Video-->
-    <s:String x:Key="S.Preset.Encoder.Video.Codec">Codec</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Video.Codec">Codec</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Video.Codec.Info">Videocoder, ansvarlig for at konvertere de rå pixels til outputfilen</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.CodecPreset">Codec-forudindstilling</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.None">Ingen</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.VerySlow">Meget langsom</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Slower">Langsommere</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Slow">Langsom</s:String>
-    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Medium">Medium</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Medium">Medium</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Fast">Hurtig</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Faster">Hurtigere</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.VeryFast">Meget hurtig</s:String>
@@ -2239,7 +2278,7 @@
     <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.LosslessHp">Tabsfri (høj ydeevne)</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Hp">Høj ydeevne</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Hq">Høj kvalitet</s:String>
-    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Bd">Blu-ray Disk</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Bd">Blu-ray Disk</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.LowLatency">Lav latenstid</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.LowLatencyHp">Lav latenstid (høj ydeevne)</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.LowLatencyHq">Lav latenstid (høj kvalitet)</s:String>
@@ -2254,7 +2293,7 @@
     <s:String x:Key="S.Preset.Encoder.Video.Crf.Info">Konstant Rate Factor.&#10;Kvalitets- og ratestyringsindstilling.&#10;Efterlad tom, hvis du ikke ønsker at sætte denne egenskab</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.QualityLevel">Kvalitetsniveau</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.QualityLevel.Info">Mindre værdier betyder bedre kvalitet</s:String>
-    <s:String x:Key="S.Preset.Encoder.Video.Bitrate">Bitrate</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Video.Bitrate">Bitrate</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Info">Målvideobitrate</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Mode">Bitratemodus</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Mode.Constant">Konstant</s:String>
@@ -2297,7 +2336,7 @@
     <s:String x:Key="S.UploadPreset.PreferVideo.Info">Det link, der gives, vil være video i stedet for gif</s:String>
     <s:String x:Key="S.UploadPreset.UploadToAlbum">Upload til et album</s:String>
     <s:String x:Key="S.UploadPreset.UploadToAlbum.Info">Filen uploades til et valgfrit album</s:String>
-    <s:String x:Key="S.UploadPreset.Album">Album</s:String>
+    <!--<s:String x:Key="S.UploadPreset.Album">Album</s:String>-->
     <s:String x:Key="S.UploadPreset.Album.AskMe.Title">Spørg mig</s:String>
     <s:String x:Key="S.UploadPreset.Album.Empty.Title">Ingen tilgængelig</s:String>
     <s:String x:Key="S.UploadPreset.Album.Empty.Message">Intet album eller mappe tilgængeligt</s:String>
@@ -2326,12 +2365,12 @@
     <s:String x:Key="S.Presets.Default.Description">Standardforudindstilling for encoderen</s:String>
     <s:String x:Key="S.Presets.Twitter.Title">Til X/Twitter ({0})</s:String>
     <s:String x:Key="S.Presets.Twitter.Description">Respekterer X/Twitter-uploadbegrænsninger (undtagen størrelse og opløsning)</s:String>
-    <s:String x:Key="S.Presets.Hevc.Title">HEVC ({0})</s:String>
-    <s:String x:Key="S.Presets.Hevc.Description">High Efficiency Video Coding</s:String>
-    <s:String x:Key="S.Presets.Vp8.Title">VP8 ({0})</s:String>
+    <!--<s:String x:Key="S.Presets.Hevc.Title">HEVC ({0})</s:String>-->
+    <!--<s:String x:Key="S.Presets.Hevc.Description">High Efficiency Video Coding</s:String>-->
+    <!--<s:String x:Key="S.Presets.Vp8.Title">VP8 ({0})</s:String>-->
     <s:String x:Key="S.Presets.Vp8.Description">Ældre og bedre kendt codec</s:String>
-    <s:String x:Key="S.Presets.Filename.Animation">Animation</s:String>
-    <s:String x:Key="S.Presets.Filename.Video">Video</s:String>
+    <!--<s:String x:Key="S.Presets.Filename.Animation">Animation</s:String>-->
+    <!--<s:String x:Key="S.Presets.Filename.Video">Video</s:String>-->
     <s:String x:Key="S.Presets.Filename.Image">Billede</s:String>
     <s:String x:Key="S.Presets.Filename.Audio">Lyd</s:String>
     <s:String x:Key="S.Presets.Filename.Project">Projekt</s:String>
@@ -2368,16 +2407,16 @@
 
     <s:String x:Key="S.Presets.Audio.Low.Title">Lav</s:String>
     <s:String x:Key="S.Presets.Audio.Low.Description">Til afslappet stemmenarration; 128 kbps • 44.1 kHz</s:String>
-    <s:String x:Key="S.Presets.Audio.Medium.Title">Medium</s:String>
+    <!--<s:String x:Key="S.Presets.Audio.Medium.Title">Medium</s:String>-->
     <s:String x:Key="S.Presets.Audio.Medium.Description">Balanceret lydgengivelse til daglig brug; 192 kbps • 44.1 kHz</s:String>
     <s:String x:Key="S.Presets.Audio.High.Title">Høj</s:String>
     <s:String x:Key="S.Presets.Audio.High.Description">Rig lyd til musik og videoafspilning; 320 kbps • 48 kHz</s:String>
-    <s:String x:Key="S.Presets.Audio.Studio.Title">Studio</s:String>
+    <!--<s:String x:Key="S.Presets.Audio.Studio.Title">Studio</s:String>-->
     <s:String x:Key="S.Presets.Audio.Studio.Description">Maksimal detaljeringsgrad til professionel mastering; 320 kbps • 96 kHz</s:String>
 
     <!--Font Styles-->
     <s:String x:Key="S.FontStyles">Skrifttype</s:String>
-    <s:String x:Key="S.FontStyles.Normal">Normal</s:String>
+    <!--<s:String x:Key="S.FontStyles.Normal">Normal</s:String>-->
     <s:String x:Key="S.FontStyles.Oblique">Skrå</s:String>
     <s:String x:Key="S.FontStyles.Italic">Kursiv</s:String>
 
@@ -2386,8 +2425,8 @@
     <s:String x:Key="S.FontWeights.Thin">Tynd</s:String>
     <s:String x:Key="S.FontWeights.ExtraLight">Ekstra let</s:String>
     <s:String x:Key="S.FontWeights.Light">Let</s:String>
-    <s:String x:Key="S.FontWeights.Normal">Normal</s:String>
-    <s:String x:Key="S.FontWeights.Medium">Medium</s:String>
+    <!--<s:String x:Key="S.FontWeights.Normal">Normal</s:String>-->
+    <!--<s:String x:Key="S.FontWeights.Medium">Medium</s:String>-->
     <s:String x:Key="S.FontWeights.SemiBold">Semi fed</s:String>
     <s:String x:Key="S.FontWeights.Bold">Fed</s:String>
     <s:String x:Key="S.FontWeights.ExtraBold">Ekstra fed</s:String>
@@ -2400,8 +2439,8 @@
     <s:String x:Key="S.FontStretch.ExtraCondensed">Ekstra kondenseret</s:String>
     <s:String x:Key="S.FontStretch.Condensed">Kondenseret</s:String>
     <s:String x:Key="S.FontStretch.SemiCondensed">Semi kondenseret</s:String>
-    <s:String x:Key="S.FontStretch.Medium">Medium</s:String>
-    <s:String x:Key="S.FontStretch.Normal">Normal</s:String>
+    <!--<s:String x:Key="S.FontStretch.Medium">Medium</s:String>-->
+    <!--<s:String x:Key="S.FontStretch.Normal">Normal</s:String>-->
     <s:String x:Key="S.FontStretch.SemiExpanded">Semi udvidet</s:String>
     <s:String x:Key="S.FontStretch.Expanded">Udvidet</s:String>
     <s:String x:Key="S.FontStretch.ExtraExpanded">Ekstra udvidet</s:String>
@@ -2410,9 +2449,9 @@
     <!--Alignment-->
     <s:String x:Key="S.Alignment.Horizontal">Vandret justering</s:String>
     <s:String x:Key="S.Alignment.Vertical">Lodret justering</s:String>
-    <s:String x:Key="S.Alignment.Top">Top</s:String>
+    <!--<s:String x:Key="S.Alignment.Top">Top</s:String>-->
     <s:String x:Key="S.Alignment.Left">Venstre</s:String>
-    <s:String x:Key="S.Alignment.Center">Center</s:String>
+    <!--<s:String x:Key="S.Alignment.Center">Center</s:String>-->
     <s:String x:Key="S.Alignment.Bottom">Bund</s:String>
     <s:String x:Key="S.Alignment.Right">Højre</s:String>
     <s:String x:Key="S.Alignment.Stretch">Stræk</s:String>
@@ -2427,6 +2466,6 @@
     <s:String x:Key="S.TextAlignment">Tekstjustering</s:String>
     <s:String x:Key="S.TextAlignment.Left">Venstre</s:String>
     <s:String x:Key="S.TextAlignment.Right">Højre</s:String>
-    <s:String x:Key="S.TextAlignment.Center">Center</s:String>
+    <!--<s:String x:Key="S.TextAlignment.Center">Center</s:String>-->
     <s:String x:Key="S.TextAlignment.Justify">Justér</s:String>
 </ResourceDictionary>

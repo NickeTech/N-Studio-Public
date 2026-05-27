@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">Anlv</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-14</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-27</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">接受</s:String>
@@ -69,6 +69,7 @@
     <s:String x:Key="S.Imperative.SendWithout">不带...发送</s:String>
     <s:String x:Key="S.Imperative.Trim">修剪</s:String>
     <s:String x:Key="S.Imperative.Resize">调整大小</s:String>
+    <s:String x:Key="S.Imperative.Search">搜索</s:String>
 
     <!--Time • Referential-->
     <s:String x:Key="S.Time.Ago.Seconds">几秒前</s:String>
@@ -88,32 +89,32 @@
     <s:String x:Key="S.Time.Static.Milliseconds">毫秒</s:String>
     <s:String x:Key="S.Time.Static.Milliseconds.2">毫秒</s:String>
     <s:String x:Key="S.Time.Static.Milliseconds.3-4">毫秒</s:String>
-    <s:String x:Key="S.Time.Static.Short.Milliseconds">ms</s:String>
+    <!--<s:String x:Key="S.Time.Static.Short.Milliseconds">ms</s:String>-->
     <s:String x:Key="S.Time.Static.Second">秒</s:String>
     <s:String x:Key="S.Time.Static.Seconds">秒</s:String>
     <s:String x:Key="S.Time.Static.Seconds.2">秒</s:String>
     <s:String x:Key="S.Time.Static.Seconds.3-4">秒</s:String>
     <s:String x:Key="S.Time.Static.Short.Second">秒</s:String>
     <s:String x:Key="S.Time.Static.Short.Seconds">秒</s:String>
-    <s:String x:Key="S.Time.Static.Single.Second">s</s:String>
+    <!--<s:String x:Key="S.Time.Static.Single.Second">s</s:String>-->
     <s:String x:Key="S.Time.Static.Minute">分钟</s:String>
     <s:String x:Key="S.Time.Static.Minutes">分钟</s:String>
     <s:String x:Key="S.Time.Static.Minutes.2">分钟</s:String>
     <s:String x:Key="S.Time.Static.Minutes.3-4">分钟</s:String>
     <s:String x:Key="S.Time.Static.Short.Minute">分</s:String>
-    <s:String x:Key="S.Time.Static.Single.Minute">m</s:String>
+    <!--<s:String x:Key="S.Time.Static.Single.Minute">m</s:String>-->
     <s:String x:Key="S.Time.Static.Hour">小时</s:String>
     <s:String x:Key="S.Time.Static.Hours">小时</s:String>
     <s:String x:Key="S.Time.Static.Hours.2">小时</s:String>
     <s:String x:Key="S.Time.Static.Hours.3-4">小时</s:String>
     <s:String x:Key="S.Time.Static.Short.Hour">h</s:String>
     <s:String x:Key="S.Time.Static.Short.Hours">h</s:String>
-    <s:String x:Key="S.Time.Static.Single.Hour">h</s:String>
+    <!--<s:String x:Key="S.Time.Static.Single.Hour">h</s:String>-->
     <s:String x:Key="S.Time.Static.Day">天</s:String>
     <s:String x:Key="S.Time.Static.Days">天</s:String>
     <s:String x:Key="S.Time.Static.Days.2">天</s:String>
     <s:String x:Key="S.Time.Static.Days.3-4">天</s:String>
-    <s:String x:Key="S.Time.Static.Single.Day">d</s:String>
+    <!--<s:String x:Key="S.Time.Static.Single.Day">d</s:String>-->
 
     <!--Dialogs • Error-->
     <s:String x:Key="S.Dialog.Error.Header">Uh-oh. 发生了意外错误...</s:String>
@@ -148,7 +149,7 @@
     <s:String x:Key="S.Dialog.NewProject.Header">新建项目</s:String>
     <s:String x:Key="S.Dialog.NewProject.Name">名称</s:String>
     <s:String x:Key="S.Dialog.NewProject.Background">背景</s:String>
-    <s:String x:Key="S.Dialog.NewProject.Dpi">DPI</s:String>
+    <!--<s:String x:Key="S.Dialog.NewProject.Dpi">DPI</s:String>-->
 
     <!--Dialogs • Update-->
     <s:String x:Key="S.Dialog.Update.Header">有可用的更新</s:String>
@@ -395,15 +396,28 @@
     <s:String x:Key="S.Dialogs.Cache.Message">创建录制或打开要编辑的内容时，会创建一个项目并将其存储在缓存文件夹中。</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent">保留最近的项目</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent.Info">只有早于"设置">"存储空间"中配置的项目才会被删除</s:String>
-    
+
     <!--Dialogs • Resize canvas-->
     <s:String x:Key="S.Dialogs.ResizeCanvas.Header">调整画布大小</s:String>
     <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent">将现有内容缩放到新的画布尺寸</s:String>
     <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent.Info">启用时，现有内容会重新缩放并重新定位，以匹配新的画布尺寸。&#10;禁用时，仅更改画布大小。</s:String>
-    
+
     <!--Dialogs • Trim canvas-->
     <s:String x:Key="S.Dialogs.TrimCanvas.Header">修剪画布</s:String>
     <s:String x:Key="S.Dialogs.TrimCanvas.Direction">修剪方向</s:String>
+
+    <!--Dialogs • Trim canvas-->
+    <s:String x:Key="S.Dialogs.SmoothLoop.Header">搜索平滑循环</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.Similarity">相似度</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.TrimDirection">裁剪方向</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.TrimDirection.End">裁剪结尾以匹配第一帧</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.TrimDirection.Start">裁剪开头以匹配最后一帧</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.MinimumLength">最小长度</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm">比较算法</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Pixel">像素差异（快速）</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Perceptual">感知哈希（平衡）</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Structural">结构相似度（精确）</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.TracksToInclude">搜索中包含的轨道</s:String>
 
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">必填字段</s:String>
@@ -487,6 +501,10 @@
     <s:String x:Key="S.Success.StorageCleanup.Header">成功</s:String>
     <s:String x:Key="S.Success.StorageCleanup.Message">缓存清理成功</s:String>
 
+    <!--Success • Smooth loop--> 
+    <s:String x:Key="S.Success.SmoothLoop.Header">已找到平滑循环</s:String>
+    <s:String x:Key="S.Success.SmoothLoop.Message">找到一个相似度为 {0:0.##}% 的循环</s:String>
+
     <!--Info • Pro feature-->
     <s:String x:Key="S.Info.ProFeature.Header">仅供 Pro 版使用</s:String>
     <s:String x:Key="S.Info.ProFeature.Message">升级以解锁此功能</s:String>
@@ -514,11 +532,19 @@
     <s:String x:Key="S.Info.FeedbackSent.Header">感谢您的反馈</s:String>
     <s:String x:Key="S.Info.FeedbackSent.Message">您的消息已发送。感谢您抽出时间与我们分享</s:String>
 
+    <!--Info • Smooth loop partial-->
+    <s:String x:Key="S.Info.SmoothLoopPartial.Header">找到部分匹配</s:String>
+    <s:String x:Key="S.Info.SmoothLoopPartial.Message">最接近的匹配相似度为 {0:0.##}%。点击“使用此匹配”仍可应用</s:String>
+
+    <!--Info • Smooth loop cancelled-->
+    <s:String x:Key="S.Info.SmoothLoopCancelled.Header">搜索已取消</s:String>
+    <s:String x:Key="S.Info.SmoothLoopCancelled.Message">循环搜索已取消</s:String>
+
     <!--Warnings • Single instance-->
     <s:String x:Key="S.Warning.Single.Header">应用程序已运行</s:String>
     <s:String x:Key="S.Warning.Single.Message">N-Studio 已经在运行，但似乎没有打开窗口。请检查您的系统托盘，应该有一个 N-Studio 图标在那里。</s:String>
 
-    <!--Warnings • Audio device detection--> 
+    <!--Warnings • Audio device detection-->
     <s:String x:Key="S.Warning.DeviceDetection.Title">设备检测问题</s:String>
     <s:String x:Key="S.Warning.DeviceDetection.Description">无法检测音频设备</s:String>
 
@@ -547,6 +573,10 @@
     <!--Warnings • Low on space-->
     <s:String x:Key="S.Warning.LowSpace.Header">空间不足</s:String>
     <s:String x:Key="S.Warning.LowSpace.Message">请清理缓存驱动器上的空间以便进行录制</s:String>
+
+    <!--Warnings • No smooth loop found-->
+    <s:String x:Key="S.Warning.SmoothLoopNotFound.Header">未找到匹配</s:String>
+    <s:String x:Key="S.Warning.SmoothLoopNotFound.Message">无法找到合适的循环点。请尝试调整相似度阈值或最小长度。</s:String>
 
     <!--Warnings • Graphics engine-->
     <s:String x:Key="S.Warning.Graphics.Title">切换图形适配器</s:String>
@@ -757,6 +787,10 @@
     <s:String x:Key="S.Errors.StorageCleanup.Header">清理时出错</s:String>
     <s:String x:Key="S.Errors.StorageCleanup.Message">无法清理缓存</s:String>
 
+    <!--Error • Smooth loop search--> 
+    <s:String x:Key="S.Errors.SmoothLoop.Header">搜索失败</s:String>
+    <s:String x:Key="S.Errors.SmoothLoop.Message">循环搜索过程中发生错误</s:String>
+
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">激活失败</s:String>
     <s:String x:Key="S.Errors.Activation.Generic">由于未知问题，无法激活应用</s:String>
@@ -786,11 +820,11 @@
     <!--Windows • Screen Recorder-->
     <s:String x:Key="S.ScreenRecorder.Frequency.Switch">点击切换捕获频率模式</s:String>
     <s:String x:Key="S.ScreenRecorder.Frequency.Fps">最大每秒帧数。&#10;范围从 1 到 60 fps，值越高表示捕获的帧越多。&#10;每次增加代表 16 毫秒的差异。</s:String>
-    <s:String x:Key="S.ScreenRecorder.Frequency.Fps.Short">fps</s:String>
+    <!--<s:String x:Key="S.ScreenRecorder.Frequency.Fps.Short">fps</s:String>-->
     <s:String x:Key="S.ScreenRecorder.Frequency.Fpm">最大每分钟帧数。&#10;范围从 1 到 60 fpm，值越高表示捕获的帧越多。&#10;每次增加代表 1 秒的差异。</s:String>
-    <s:String x:Key="S.ScreenRecorder.Frequency.Fpm.Short">fpm</s:String>
+    <!--<s:String x:Key="S.ScreenRecorder.Frequency.Fpm.Short">fpm</s:String>-->
     <s:String x:Key="S.ScreenRecorder.Frequency.Fph">最大每小时帧数&#10;范围从 1 到 60 fph，值越高表示捕获的帧越多。&#10;每次增加代表 1 分钟的差异。</s:String>
-    <s:String x:Key="S.ScreenRecorder.Frequency.Fph.Short">fph</s:String>
+    <!--<s:String x:Key="S.ScreenRecorder.Frequency.Fph.Short">fph</s:String>-->
     <s:String x:Key="S.ScreenRecorder.ClickOrPress">点击或按键捕获</s:String>
 
     <s:String x:Key="S.ScreenRecorder.Select">选择</s:String>
@@ -894,7 +928,11 @@
     <s:String x:Key="S.Exporter.Resize.MaintainRatio.Info">在尽可能保持比例的同时，&#10;尝试将宽度和高度设为整数</s:String>
 
     <!--Windows • Exporter > Trim-->
-    <s:String x:Key="S.Exporter.Trim.NewTarget">新的目标时间</s:String>
+    <s:String x:Key="S.Exporter.Trim.Original">原始时长</s:String>
+    <s:String x:Key="S.Exporter.Trim.Trimmed">裁剪后时长</s:String>
+    <s:String x:Key="S.Exporter.Trim.FindLoop">正在搜索平滑循环...</s:String>
+    <s:String x:Key="S.Exporter.Trim.FindLoop.Searching">正在搜索平滑循环...</s:String>
+    <s:String x:Key="S.Exporter.Trim.FindLoop.Cancel">取消搜索</s:String>
 
     <!--Windows • Exporter > Framerate-->
     <s:String x:Key="S.Exporter.Framerate.Mode.Info">帧率模式</s:String>
@@ -940,6 +978,7 @@
     <s:String x:Key="S.Exporter.Encoding.Actions.More">更多操作</s:String>
     <s:String x:Key="S.Exporter.Encoding.Actions.OpenFolder">打开文件夹</s:String>
     <s:String x:Key="S.Exporter.Encoding.Actions.CopyFile">复制文件</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Actions.CopyFolderPath">复制文件夹路径</s:String>
     <s:String x:Key="S.Exporter.Encoding.Actions.CopyPath">复制路径</s:String>
     <s:String x:Key="S.Exporter.Encoding.Actions.DeleteFile">删除文件</s:String>
 
@@ -1257,12 +1296,12 @@
     <s:String x:Key="S.Keys.Return">回车</s:String>
     <s:String x:Key="S.Keys.PauseBreak">暂停/中断</s:String>
     <s:String x:Key="S.Keys.CapsLock">大写锁定</s:String>
-    <s:String x:Key="S.Keys.Escape">Esc</s:String>
+    <!--<s:String x:Key="S.Keys.Escape">Esc</s:String>-->
     <s:String x:Key="S.Keys.Space">空格</s:String>
     <s:String x:Key="S.Keys.PageUp">上一页</s:String>
     <s:String x:Key="S.Keys.PageDown">下一页</s:String>
-    <s:String x:Key="S.Keys.Home">Home</s:String>
-    <s:String x:Key="S.Keys.End">End</s:String>
+    <!--<s:String x:Key="S.Keys.Home">Home</s:String>-->
+    <!--<s:String x:Key="S.Keys.End">End</s:String>-->
     <s:String x:Key="S.Keys.Left">左箭头</s:String>
     <s:String x:Key="S.Keys.Up">上箭头</s:String>
     <s:String x:Key="S.Keys.Right">右箭头</s:String>
@@ -1272,16 +1311,16 @@
     <s:String x:Key="S.Keys.Delete">删除</s:String>
     <s:String x:Key="S.Keys.NumLock">数字锁定</s:String>
     <s:String x:Key="S.Keys.ScrollLock">滚动锁定</s:String>
-    <s:String x:Key="S.Keys.Shift">Shift</s:String>
+    <!--<s:String x:Key="S.Keys.Shift">Shift</s:String>-->
     <s:String x:Key="S.Keys.LeftShift">左 Shift</s:String>
     <s:String x:Key="S.Keys.RightShift">右 Shift</s:String>
-    <s:String x:Key="S.Keys.Alt">Alt</s:String>
+    <!--<s:String x:Key="S.Keys.Alt">Alt</s:String>-->
     <s:String x:Key="S.Keys.LeftAlt">左 Alt</s:String>
     <s:String x:Key="S.Keys.RightAlt">右 Alt</s:String>
     <s:String x:Key="S.Keys.Ctrl">Ctrl</s:String>
     <s:String x:Key="S.Keys.LeftCtrl">左 Ctrl</s:String>
     <s:String x:Key="S.Keys.RightCtrl">右 Ctrl</s:String>
-    <s:String x:Key="S.Keys.Windows">Windows</s:String>
+    <!--<s:String x:Key="S.Keys.Windows">Windows</s:String>-->
     <s:String x:Key="S.Keys.LeftWindows">左 Windows</s:String>
     <s:String x:Key="S.Keys.RightWindows">右 Windows</s:String>
     <s:String x:Key="S.Keys.NextTrack">下一曲</s:String>
@@ -1293,11 +1332,11 @@
     <s:String x:Key="S.Mouse.Right">右键单击</s:String>
 
     <!--Units-->
-    <s:String x:Key="S.Units.Points.Short">pt</s:String>
-    <s:String x:Key="S.Units.Second.Short">s</s:String>
-    <s:String x:Key="S.Units.Millisecond.Short">ms</s:String>
-    <s:String x:Key="S.Units.Pixels.Short">px</s:String>
-    <s:String x:Key="S.Units.FramesPerSecond.Short">fps</s:String>
+    <!--<s:String x:Key="S.Units.Points.Short">pt</s:String>-->
+    <!--<s:String x:Key="S.Units.Second.Short">s</s:String>-->
+    <!--<s:String x:Key="S.Units.Millisecond.Short">ms</s:String>-->
+    <!--<s:String x:Key="S.Units.Pixels.Short">px</s:String>-->
+    <!--<s:String x:Key="S.Units.FramesPerSecond.Short">fps</s:String>-->
 
     <!--Formats-->
     <s:String x:Key="S.Formats.Type.Animated">动图</s:String>
@@ -1307,64 +1346,64 @@
     <s:String x:Key="S.Formats.Type.Other">其他</s:String>
     <s:String x:Key="S.Formats.Type.All">所有文件</s:String>
 
-    <s:String x:Key="S.Formats.Apng">Apng</s:String>
+    <!--<s:String x:Key="S.Formats.Apng">Apng</s:String>-->
     <s:String x:Key="S.Formats.Apng.Info">动画便携式网络图形</s:String>
-    <s:String x:Key="S.Formats.Gif">Gif</s:String>
+    <!--<s:String x:Key="S.Formats.Gif">Gif</s:String>-->
     <s:String x:Key="S.Formats.Gif.Info">图形交换格式</s:String>
-    <s:String x:Key="S.Formats.Webp">Webp</s:String>
+    <!--<s:String x:Key="S.Formats.Webp">Webp</s:String>-->
     <s:String x:Key="S.Formats.Webp.Info">网络图片</s:String>
 
-    <s:String x:Key="S.Formats.Avi">Avi</s:String>
-    <s:String x:Key="S.Formats.Avi.Info">Audio Video Interleave</s:String>
-    <s:String x:Key="S.Formats.Mkv">Mkv</s:String>
-    <s:String x:Key="S.Formats.Mkv.Info">Matroska</s:String>
-    <s:String x:Key="S.Formats.Mov">Mov</s:String>
+    <!--<s:String x:Key="S.Formats.Avi">Avi</s:String>-->
+    <!--<s:String x:Key="S.Formats.Avi.Info">Audio Video Interleave</s:String>-->
+    <!--<s:String x:Key="S.Formats.Mkv">Mkv</s:String>-->
+    <!--<s:String x:Key="S.Formats.Mkv.Info">Matroska</s:String>-->
+    <!--<s:String x:Key="S.Formats.Mov">Mov</s:String>-->
     <s:String x:Key="S.Formats.Mov.Info">QuickTime 文件格式</s:String>
-    <s:String x:Key="S.Formats.Mp4">Mp4</s:String>
-    <s:String x:Key="S.Formats.Mp4.Info">Mpeg-4</s:String>
-    <s:String x:Key="S.Formats.Webm">Webm</s:String>
-    <s:String x:Key="S.Formats.Webm.Info">Web Movie</s:String>
+    <!--<s:String x:Key="S.Formats.Mp4">Mp4</s:String>-->
+    <!--<s:String x:Key="S.Formats.Mp4.Info">Mpeg-4</s:String>-->
+    <!--<s:String x:Key="S.Formats.Webm">Webm</s:String>-->
+    <!--<s:String x:Key="S.Formats.Webm.Info">Web Movie</s:String>-->
 
-    <s:String x:Key="S.Formats.Aac">Aac</s:String>
-    <s:String x:Key="S.Formats.Aac.Info">Advanced Audio Coding</s:String>
-    <s:String x:Key="S.Formats.Ac3">Ac3</s:String>
-    <s:String x:Key="S.Formats.Ac3.Info">Audio Codec 3</s:String>
-    <s:String x:Key="S.Formats.Aiff">Aiff</s:String>
-    <s:String x:Key="S.Formats.Aiff.Info">Audio Interchange File Format</s:String>
-    <s:String x:Key="S.Formats.Alac">Alac</s:String>
-    <s:String x:Key="S.Formats.Alac.Info">Apple Lossless Audio Codec</s:String>
-    <s:String x:Key="S.Formats.Amr">Amr</s:String>
-    <s:String x:Key="S.Formats.Amr.Info">Adaptive Multi-Rate</s:String>
-    <s:String x:Key="S.Formats.Flac">Flac</s:String>
-    <s:String x:Key="S.Formats.Flac.Info">Free Lossless Audio Codec</s:String>
-    <s:String x:Key="S.Formats.Mp3">Mp3</s:String>
-    <s:String x:Key="S.Formats.Mp3.Info">MPEG-1/2 Audio Layer III</s:String>
-    <s:String x:Key="S.Formats.Ogg">Ogg</s:String>
-    <s:String x:Key="S.Formats.Ogg.Info">Ogg Vorbis Container</s:String>
-    <s:String x:Key="S.Formats.Opus">Opus</s:String>
-    <s:String x:Key="S.Formats.Opus.Info">Opus</s:String>
-    <s:String x:Key="S.Formats.Wav">Wav</s:String>
-    <s:String x:Key="S.Formats.Wav.Info">Waveform Audio File Format</s:String>
-    <s:String x:Key="S.Formats.Wma">Wma</s:String>
-    <s:String x:Key="S.Formats.Wma.Info">Windows Media Audio</s:String>
+    <!--<s:String x:Key="S.Formats.Aac">Aac</s:String>-->
+    <!--<s:String x:Key="S.Formats.Aac.Info">Advanced Audio Coding</s:String>-->
+    <!--<s:String x:Key="S.Formats.Ac3">Ac3</s:String>-->
+    <!--<s:String x:Key="S.Formats.Ac3.Info">Audio Codec 3</s:String>-->
+    <!--<s:String x:Key="S.Formats.Aiff">Aiff</s:String>-->
+    <!--<s:String x:Key="S.Formats.Aiff.Info">Audio Interchange File Format</s:String>-->
+    <!--<s:String x:Key="S.Formats.Alac">Alac</s:String>-->
+    <s:String x:Key="S.Formats.Alac.Info">Apple 无损音频编码</s:String>
+    <!--<s:String x:Key="S.Formats.Amr">Amr</s:String>-->
+    <s:String x:Key="S.Formats.Amr.Info">自适应多速率</s:String>
+    <!--<s:String x:Key="S.Formats.Flac">Flac</s:String>-->
+    <s:String x:Key="S.Formats.Flac.Info">自由无损音频编码</s:String>
+    <!--<s:String x:Key="S.Formats.Mp3">Mp3</s:String>-->
+    <s:String x:Key="S.Formats.Mp3.Info">MPEG‑1/2 音频层 III</s:String>
+    <!--<s:String x:Key="S.Formats.Ogg">Ogg</s:String>-->
+    <s:String x:Key="S.Formats.Ogg.Info">Ogg Vorbis 容器</s:String>
+    <!--<s:String x:Key="S.Formats.Opus">Opus</s:String>-->
+    <!--<s:String x:Key="S.Formats.Opus.Info">Opus</s:String>-->
+    <!--<s:String x:Key="S.Formats.Wav">Wav</s:String>-->
+    <s:String x:Key="S.Formats.Wav.Info">波形音频文件格式</s:String>
+    <!--<s:String x:Key="S.Formats.Wma">Wma</s:String>-->
+    <!--<s:String x:Key="S.Formats.Wma.Info">Windows Media Audio</s:String>-->
 
-    <s:String x:Key="S.Formats.Avif">AVIF</s:String>
+    <!--<s:String x:Key="S.Formats.Avif">AVIF</s:String>-->
     <s:String x:Key="S.Formats.Avif.Info">AV1 压缩图像（HEIF/AV1）</s:String>
-    <s:String x:Key="S.Formats.Bmp">Bmp</s:String>
-    <s:String x:Key="S.Formats.Bmp.Info">Bitmap</s:String>
-    <s:String x:Key="S.Formats.Heic">HEIC</s:String>
+    <!--<s:String x:Key="S.Formats.Bmp">Bmp</s:String>-->
+    <s:String x:Key="S.Formats.Bmp.Info">位图</s:String>
+    <!--<s:String x:Key="S.Formats.Heic">HEIC</s:String>-->
     <s:String x:Key="S.Formats.Heic.Info">高效图像（HEIF/HEVC）</s:String>
-    <s:String x:Key="S.Formats.Jpeg">Jpeg</s:String>
-    <s:String x:Key="S.Formats.Jpeg.Info">Joint Photographic Experts Group</s:String>
-    <s:String x:Key="S.Formats.Png">Png</s:String>
-    <s:String x:Key="S.Formats.Png.Info">Portable Network Graphics</s:String>
+    <!--<s:String x:Key="S.Formats.Jpeg">Jpeg</s:String>-->
+    <s:String x:Key="S.Formats.Jpeg.Info">联合图像专家组</s:String>
+    <!--<s:String x:Key="S.Formats.Png">Png</s:String>-->
+    <s:String x:Key="S.Formats.Png.Info">可移植网络图形</s:String>
     <s:String x:Key="S.Formats.Images.Zip">打包图像</s:String>
 
     <s:String x:Key="S.Formats.Project">项目</s:String>
     <s:String x:Key="S.Formats.Project.Info">N-Studio 项目</s:String>
     <s:String x:Key="S.Formats.LegacyProject">ScreenToGif 项目</s:String>
     <s:String x:Key="S.Formats.LegacyProject.Info">ScreenToGif 使用的项目文件</s:String>
-    <s:String x:Key="S.Formats.Psd">Psd</s:String>
+    <!--<s:String x:Key="S.Formats.Psd">Psd</s:String>-->
     <s:String x:Key="S.Formats.Psd.Info">Photoshop 文件</s:String>
 
     <!--Objects-->
@@ -1586,7 +1625,7 @@
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.PreventBlack">防止捕获纯黑色帧</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.PreventBlack.Info">防止错误地捕获所有像素均为黑色的帧</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.RemoteImprovement">禁用分层窗口捕获，提高远程桌面连接上的性能</s:String>
-    
+
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.GammaCorrection">为 10 位 SDR 捕获应用伽马校正</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.GammaCorrection.Info">切换 10 位 SDR 捕获的线性到 sRGB 转换。&#10;如果颜色看起来不正确，请尝试切换此项。</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation">亮度补偿</s:String>

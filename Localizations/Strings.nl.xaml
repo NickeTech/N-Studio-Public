@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Door machine vertaald (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-14</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-27</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Accepteren</s:String>
@@ -67,8 +67,9 @@
     <s:String x:Key="S.Imperative.OpenDrive">Station openen</s:String>
     <s:String x:Key="S.Imperative.AddEmail">E-mail toevoegen</s:String>
     <s:String x:Key="S.Imperative.SendWithout">Verzenden zonder</s:String>
-    <s:String x:Key="S.Imperative.Trim">Trim</s:String>
+    <s:String x:Key="S.Imperative.Trim">Trimmen</s:String>
     <s:String x:Key="S.Imperative.Resize">Formaat wijzigen</s:String>
+    <s:String x:Key="S.Imperative.Search">Zoeken</s:String>
 
     <!--Time • Referential-->
     <s:String x:Key="S.Time.Ago.Seconds">een paar seconden geleden</s:String>
@@ -88,32 +89,32 @@
     <s:String x:Key="S.Time.Static.Milliseconds">milliseconden</s:String>
     <s:String x:Key="S.Time.Static.Milliseconds.2">milliseconden</s:String>
     <s:String x:Key="S.Time.Static.Milliseconds.3-4">milliseconden</s:String>
-    <s:String x:Key="S.Time.Static.Short.Milliseconds">ms</s:String>
+    <!--<s:String x:Key="S.Time.Static.Short.Milliseconds">ms</s:String>-->
     <s:String x:Key="S.Time.Static.Second">seconde</s:String>
     <s:String x:Key="S.Time.Static.Seconds">seconden</s:String>
     <s:String x:Key="S.Time.Static.Seconds.2">seconden</s:String>
     <s:String x:Key="S.Time.Static.Seconds.3-4">seconden</s:String>
-    <s:String x:Key="S.Time.Static.Short.Second">sec</s:String>
-    <s:String x:Key="S.Time.Static.Short.Seconds">secs</s:String>
-    <s:String x:Key="S.Time.Static.Single.Second">s</s:String>
+    <!--<s:String x:Key="S.Time.Static.Short.Second">sec</s:String>-->
+    <!--<s:String x:Key="S.Time.Static.Short.Seconds">secs</s:String>-->
+    <!--<s:String x:Key="S.Time.Static.Single.Second">s</s:String>-->
     <s:String x:Key="S.Time.Static.Minute">minuut</s:String>
     <s:String x:Key="S.Time.Static.Minutes">minuten</s:String>
     <s:String x:Key="S.Time.Static.Minutes.2">minuten</s:String>
     <s:String x:Key="S.Time.Static.Minutes.3-4">minuten</s:String>
-    <s:String x:Key="S.Time.Static.Short.Minute">min</s:String>
-    <s:String x:Key="S.Time.Static.Single.Minute">m</s:String>
+    <!--<s:String x:Key="S.Time.Static.Short.Minute">min</s:String>-->
+    <!--<s:String x:Key="S.Time.Static.Single.Minute">m</s:String>-->
     <s:String x:Key="S.Time.Static.Hour">uur</s:String>
     <s:String x:Key="S.Time.Static.Hours">uren</s:String>
     <s:String x:Key="S.Time.Static.Hours.2">uren</s:String>
     <s:String x:Key="S.Time.Static.Hours.3-4">uren</s:String>
     <s:String x:Key="S.Time.Static.Short.Hour">u</s:String>
     <s:String x:Key="S.Time.Static.Short.Hours">u</s:String>
-    <s:String x:Key="S.Time.Static.Single.Hour">h</s:String>
+    <!--<s:String x:Key="S.Time.Static.Single.Hour">h</s:String>-->
     <s:String x:Key="S.Time.Static.Day">dag</s:String>
     <s:String x:Key="S.Time.Static.Days">dagen</s:String>
     <s:String x:Key="S.Time.Static.Days.2">dagen</s:String>
     <s:String x:Key="S.Time.Static.Days.3-4">dagen</s:String>
-    <s:String x:Key="S.Time.Static.Single.Day">d</s:String>
+    <!--<s:String x:Key="S.Time.Static.Single.Day">d</s:String>-->
 
     <!--Dialogs • Error-->
     <s:String x:Key="S.Dialog.Error.Header">Oeps. Er is iets onverwachts gebeurd...</s:String>
@@ -148,7 +149,7 @@
     <s:String x:Key="S.Dialog.NewProject.Header">Nieuw project</s:String>
     <s:String x:Key="S.Dialog.NewProject.Name">Naam</s:String>
     <s:String x:Key="S.Dialog.NewProject.Background">Achtergrond</s:String>
-    <s:String x:Key="S.Dialog.NewProject.Dpi">DPI</s:String>
+    <!--<s:String x:Key="S.Dialog.NewProject.Dpi">DPI</s:String>-->
 
     <!--Dialogs • Update-->
     <s:String x:Key="S.Dialog.Update.Header">Update beschikbaar</s:String>
@@ -160,7 +161,7 @@
     <s:String x:Key="S.Dialog.ColorSelector.Green">Groen</s:String>
     <s:String x:Key="S.Dialog.ColorSelector.Blue">Blauw</s:String>
     <s:String x:Key="S.Dialog.ColorSelector.Alpha">Alfa</s:String>
-    <s:String x:Key="S.Dialog.ColorSelector.Hexadecimal">Hex</s:String>
+    <!--<s:String x:Key="S.Dialog.ColorSelector.Hexadecimal">Hex</s:String>-->
     <s:String x:Key="S.Dialog.ColorSelector.Initial">Beginkleur</s:String>
     <s:String x:Key="S.Dialog.ColorSelector.Current">Huidige kleur</s:String>
     <s:String x:Key="S.Dialog.ColorSelector.Latest">Laatste kleur</s:String>
@@ -230,7 +231,7 @@
     <s:String x:Key="S.Dialog.Effects.Type.Overlay">Overlaag</s:String>
     <s:String x:Key="S.Dialog.Effects.Type.Scale">Schaal</s:String>
     <s:String x:Key="S.Dialog.Effects.Type.Shadow">Schaduw</s:String>
-    <s:String x:Key="S.Dialog.Effects.Type.Tint">Tint</s:String>
+    <!--<s:String x:Key="S.Dialog.Effects.Type.Tint">Tint</s:String>-->
     <s:String x:Key="S.Dialog.Effects.Timing.Trigger">Activering</s:String>
     <s:String x:Key="S.Dialog.Effects.Timing.Trigger.SegmentStart">Segmentbegin</s:String>
     <s:String x:Key="S.Dialog.Effects.Timing.Trigger.SegmentEnd">Segment einde</s:String>
@@ -239,12 +240,12 @@
     <s:String x:Key="S.Dialog.Effects.Timing.Trigger.MouseClick.Left">Links</s:String>
     <s:String x:Key="S.Dialog.Effects.Timing.Trigger.MouseClick.Middle">Midden</s:String>
     <s:String x:Key="S.Dialog.Effects.Timing.Trigger.MouseClick.Right">Rechts</s:String>
-    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.MouseClick.Extra1">Extra 1</s:String>
-    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.MouseClick.Extra2">Extra 2</s:String>
+    <!--<s:String x:Key="S.Dialog.Effects.Timing.Trigger.MouseClick.Extra1">Extra 1</s:String>-->
+    <!--<s:String x:Key="S.Dialog.Effects.Timing.Trigger.MouseClick.Extra2">Extra 2</s:String>-->
     <s:String x:Key="S.Dialog.Effects.Timing.Trigger.MouseHover">Muiszweef</s:String>
     <s:String x:Key="S.Dialog.Effects.TimingModifier">Tijdmodificatoren</s:String>
     <s:String x:Key="S.Dialog.Effects.Duration">Duur</s:String>
-    <s:String x:Key="S.Dialog.Effects.Effect">Effect</s:String>
+    <!--<s:String x:Key="S.Dialog.Effects.Effect">Effect</s:String>-->
     <s:String x:Key="S.Dialog.Effects.Effect.Style">Stijl</s:String>
     <s:String x:Key="S.Dialog.Effects.Effect.Fill">Vulling</s:String>
     <s:String x:Key="S.Dialog.Effects.Effect.Stroke">Rand</s:String>
@@ -256,7 +257,7 @@
     <s:String x:Key="S.Dialog.Effects.Effect.VerticalScale">Verticale schaal</s:String>
     <s:String x:Key="S.Dialog.Effects.Effect.HorizontalCenter">Horizontale uitlijning</s:String>
     <s:String x:Key="S.Dialog.Effects.Effect.VerticalCenter">Verticale uitlijning</s:String>
-    <s:String x:Key="S.Dialog.Effects.Easing">Easing</s:String>
+    <!--<s:String x:Key="S.Dialog.Effects.Easing">Easing</s:String>-->
     <s:String x:Key="S.Dialog.Effects.Easing.Type">Easing-type</s:String>
     <s:String x:Key="S.Dialog.Effects.Easing.Type.None">Geen</s:String>
     <s:String x:Key="S.Dialog.Effects.Easing.Type.Back">Terug</s:String>
@@ -280,12 +281,12 @@
     <s:String x:Key="S.Dialog.Effects.Easing.Direction.Backward">Achteruit</s:String>
     <s:String x:Key="S.Dialog.Effects.Easing.Direction.ForwardBackward">Vooruit → achteruit</s:String>
     <s:String x:Key="S.Dialog.Effects.Easing.Direction.BackwardForward">Achteruit → vooruit</s:String>
-    <s:String x:Key="S.Dialog.Effects.Easing.Amplitude">Amplitude</s:String>
+    <!--<s:String x:Key="S.Dialog.Effects.Easing.Amplitude">Amplitude</s:String>-->
     <s:String x:Key="S.Dialog.Effects.Easing.Bounces">Stuiteringen</s:String>
     <s:String x:Key="S.Dialog.Effects.Easing.Bounciness">Stuiterheid</s:String>
     <s:String x:Key="S.Dialog.Effects.Easing.Oscillations">Oscillaties</s:String>
     <s:String x:Key="S.Dialog.Effects.Easing.Springiness">Veerkracht</s:String>
-    <s:String x:Key="S.Dialog.Effects.Easing.Exponent">Exponent</s:String>
+    <!--<s:String x:Key="S.Dialog.Effects.Easing.Exponent">Exponent</s:String>-->
     <s:String x:Key="S.Dialog.Effects.Easing.Power">Macht</s:String>
     <s:String x:Key="S.Dialog.Effects.Easing.KeyFrames">Keyframes</s:String>
     <s:String x:Key="S.Dialog.Effects.Easing.KeyFrames.SmoothTransition">Zachte overgang</s:String>
@@ -395,15 +396,28 @@
     <s:String x:Key="S.Dialogs.Cache.Message">Wanneer je een opname maakt of iets opent om te bewerken, wordt er een project aangemaakt en opgeslagen in de cachemap.</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent">Bewaar recente projecten</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent.Info">Alleen projecten ouder dan wat is geconfigureerd in Instellingen > Opslag worden verwijderd</s:String>
-    
+
     <!--Dialogs • Resize canvas-->
     <s:String x:Key="S.Dialogs.ResizeCanvas.Header">Canvasformaat wijzigen</s:String>
     <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent">Schaal bestaande inhoud naar de nieuwe canvasgrootte</s:String>
     <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent.Info">Wanneer ingeschakeld, wordt bestaande inhoud geschaald en opnieuw gepositioneerd om bij de nieuwe canvasafmetingen te passen.&#10;Wanneer uitgeschakeld, verandert alleen de canvasgrootte.</s:String>
-    
+
     <!--Dialogs • Trim canvas-->
     <s:String x:Key="S.Dialogs.TrimCanvas.Header">Canvas bijsnijden</s:String>
     <s:String x:Key="S.Dialogs.TrimCanvas.Direction">Trimrichtingen</s:String>
+
+    <!--Dialogs • Trim canvas-->
+    <s:String x:Key="S.Dialogs.SmoothLoop.Header">Zoek naar een vloeiende lus</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.Similarity">Similariteit</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.TrimDirection">Trimrichting</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.TrimDirection.End">Trim einde om overeen te komen met het eerste frame</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.TrimDirection.Start">Trim begin om overeen te komen met het laatste frame</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.MinimumLength">Minimale lengte</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm">Vergelijkingsalgoritme</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Pixel">Pixelverschil (snel)</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Perceptual">Perceptuele hash (gebalanceerd)</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Structural">Structurele similariteit (nauwkeurig)</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.TracksToInclude">Tracks om mee te nemen in de zoekopdracht</s:String>
 
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">Verplichte velden</s:String>
@@ -487,6 +501,10 @@
     <s:String x:Key="S.Success.StorageCleanup.Header">Succes</s:String>
     <s:String x:Key="S.Success.StorageCleanup.Message">Cache-schoonmaak geslaagd</s:String>
 
+    <!--Success • Smooth loop--> 
+    <s:String x:Key="S.Success.SmoothLoop.Header">Vloeiende lus gevonden</s:String>
+    <s:String x:Key="S.Success.SmoothLoop.Message">Een lus gevonden met {0:0.##}% similariteit</s:String>
+
     <!--Info • Pro feature-->
     <s:String x:Key="S.Info.ProFeature.Header">Alleen voor Pro</s:String>
     <s:String x:Key="S.Info.ProFeature.Message">Upgrade om deze functie te ontgrendelen</s:String>
@@ -514,11 +532,19 @@
     <s:String x:Key="S.Info.FeedbackSent.Header">Bedankt voor je feedback</s:String>
     <s:String x:Key="S.Info.FeedbackSent.Message">Je bericht is verzonden. We waarderen het dat je de tijd hebt genomen om dit met ons te delen</s:String>
 
+    <!--Info • Smooth loop partial-->
+    <s:String x:Key="S.Info.SmoothLoopPartial.Header">Gedeeltelijke overeenkomst gevonden</s:String>
+    <s:String x:Key="S.Info.SmoothLoopPartial.Message">Dichtstbijzijnde overeenkomst had {0:0.##}% similariteit. Klik op ‘Deze overeenkomst gebruiken’ om deze toch toe te passen</s:String>
+
+    <!--Info • Smooth loop cancelled-->
+    <s:String x:Key="S.Info.SmoothLoopCancelled.Header">Zoekopdracht geannuleerd</s:String>
+    <s:String x:Key="S.Info.SmoothLoopCancelled.Message">De luszoekopdracht is geannuleerd</s:String>
+
     <!--Warnings • Single instance-->
     <s:String x:Key="S.Warning.Single.Header">De app draait al</s:String>
     <s:String x:Key="S.Warning.Single.Message">N-Studio draait al, maar blijkbaar is er geen venster open. Controleer je systeemvak, het N-Studio-pictogram moet daar zijn</s:String>
 
-    <!--Warnings • Audio device detection--> 
+    <!--Warnings • Audio device detection-->
     <s:String x:Key="S.Warning.DeviceDetection.Title">Problemen met apparaatdetectie</s:String>
     <s:String x:Key="S.Warning.DeviceDetection.Description">Het was niet mogelijk om audioapparaten te detecteren</s:String>
 
@@ -547,6 +573,10 @@
     <!--Warnings • Low on space-->
     <s:String x:Key="S.Warning.LowSpace.Header">Weinig opslagruimte</s:String>
     <s:String x:Key="S.Warning.LowSpace.Message">Maak ruimte vrij op je cache-schijf om te kunnen opnemen</s:String>
+
+    <!--Warnings • No smooth loop found-->
+    <s:String x:Key="S.Warning.SmoothLoopNotFound.Header">Geen overeenkomst gevonden</s:String>
+    <s:String x:Key="S.Warning.SmoothLoopNotFound.Message">Kon geen geschikt luspunt vinden. Probeer de similariteitsdrempel of minimale lengte aan te passen.</s:String>
 
     <!--Warnings • Graphics engine-->
     <s:String x:Key="S.Warning.Graphics.Title">Wissel grafische adapter</s:String>
@@ -757,6 +787,10 @@
     <s:String x:Key="S.Errors.StorageCleanup.Header">Fout bij het opschonen</s:String>
     <s:String x:Key="S.Errors.StorageCleanup.Message">Het was niet mogelijk om de cache te legen</s:String>
 
+    <!--Error • Smooth loop search--> 
+    <s:String x:Key="S.Errors.SmoothLoop.Header">Zoekopdracht mislukt</s:String>
+    <s:String x:Key="S.Errors.SmoothLoop.Message">Er is een fout opgetreden tijdens het zoeken naar de lus</s:String>
+
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Activering mislukt</s:String>
     <s:String x:Key="S.Errors.Activation.Generic">Het was niet mogelijk om de app te activeren vanwege een onbekend probleem</s:String>
@@ -771,8 +805,8 @@
     <s:String x:Key="S.Welcome.ScreenRecorder">Schermopname</s:String>
     <s:String x:Key="S.Welcome.SoundRecorder">Geluidsopname</s:String>
     <s:String x:Key="S.Welcome.RegionShare">Regiodeel</s:String>
-    <s:String x:Key="S.Welcome.Editor">Editor</s:String>
-    <s:String x:Key="S.Welcome.Feedback">Feedback</s:String>
+    <!--<s:String x:Key="S.Welcome.Editor">Editor</s:String>-->
+    <!--<s:String x:Key="S.Welcome.Feedback">Feedback</s:String>-->
     <s:String x:Key="S.Welcome.Upgrade">Upgrade naar Pro</s:String>
     <s:String x:Key="S.Welcome.Troubleshoot">Problemen oplossen</s:String>
     <s:String x:Key="S.Welcome.Settings">Instellingen</s:String>
@@ -786,11 +820,11 @@
     <!--Windows • Screen Recorder-->
     <s:String x:Key="S.ScreenRecorder.Frequency.Switch">Klik om te schakelen tussen frequentiemodi</s:String>
     <s:String x:Key="S.ScreenRecorder.Frequency.Fps">Maximaal aantal frames per seconde.&#10;Bereik van 1 tot 60 fps; hogere waarden betekenen meer vastgelegde frames.&#10;Elke stap vertegenwoordigt 16 milliseconden verschil.</s:String>
-    <s:String x:Key="S.ScreenRecorder.Frequency.Fps.Short">fps</s:String>
+    <!--<s:String x:Key="S.ScreenRecorder.Frequency.Fps.Short">fps</s:String>-->
     <s:String x:Key="S.ScreenRecorder.Frequency.Fpm">Maximaal aantal frames per minuut.&#10;Bereik van 1 tot 60 fpm; hogere waarden betekenen meer vastgelegde frames.&#10;Elke stap vertegenwoordigt 1 seconde verschil.</s:String>
-    <s:String x:Key="S.ScreenRecorder.Frequency.Fpm.Short">fpm</s:String>
+    <!--<s:String x:Key="S.ScreenRecorder.Frequency.Fpm.Short">fpm</s:String>-->
     <s:String x:Key="S.ScreenRecorder.Frequency.Fph">Maximaal aantal frames per uur.&#10;Bereik van 1 tot 60 fph; hogere waarden betekenen meer vastgelegde frames.&#10;Elke stap vertegenwoordigt 1 minuut verschil.</s:String>
-    <s:String x:Key="S.ScreenRecorder.Frequency.Fph.Short">fph</s:String>
+    <!--<s:String x:Key="S.ScreenRecorder.Frequency.Fph.Short">fph</s:String>-->
     <s:String x:Key="S.ScreenRecorder.ClickOrPress">Klik of druk op toetsen om vast te leggen</s:String>
 
     <s:String x:Key="S.ScreenRecorder.Select">Selecteren</s:String>
@@ -811,7 +845,7 @@
     <s:String x:Key="S.ScreenRecorder.Screen.Info1">Grafische adapter: {0}</s:String>
     <s:String x:Key="S.ScreenRecorder.Screen.Info2">Resolutie: {0} x {1}</s:String>
     <s:String x:Key="S.ScreenRecorder.Screen.Info3">Native resolutie: {0} x {1}</s:String>
-    <s:String x:Key="S.ScreenRecorder.Screen.Info4">DPI: {0} ({1:0.##}%)</s:String>
+    <!--<s:String x:Key="S.ScreenRecorder.Screen.Info4">DPI: {0} ({1:0.##}%)</s:String>-->
 
     <s:String x:Key="S.ScreenRecorder.DiskSpace.Info">Percentage schijfruimte gebruikt en beschikbare ruimte</s:String>
     <s:String x:Key="S.ScreenRecorder.AudioSource.Input">Microfoon en andere audio-invoerbronnen&#10;worden vastgelegd</s:String>
@@ -894,7 +928,11 @@
     <s:String x:Key="S.Exporter.Resize.MaintainRatio.Info">De verhouding wordt zo dicht mogelijk behouden,&#10;terwijl wordt geprobeerd een breedte en hoogte met gehele getallen te krijgen</s:String>
 
     <!--Windows • Exporter > Trim-->
-    <s:String x:Key="S.Exporter.Trim.NewTarget">Nieuwe doelperiode</s:String>
+    <s:String x:Key="S.Exporter.Trim.Original">Originele duur</s:String>
+    <s:String x:Key="S.Exporter.Trim.Trimmed">Getrimde duur</s:String>
+    <s:String x:Key="S.Exporter.Trim.FindLoop">Zoek naar een vloeiende lus...</s:String>
+    <s:String x:Key="S.Exporter.Trim.FindLoop.Searching">Bezig met zoeken naar een vloeiende lus...</s:String>
+    <s:String x:Key="S.Exporter.Trim.FindLoop.Cancel">Zoekopdracht annuleren</s:String>
 
     <!--Windows • Exporter > Framerate-->
     <s:String x:Key="S.Exporter.Framerate.Mode.Info">Framemode</s:String>
@@ -902,7 +940,7 @@
     <s:String x:Key="S.Exporter.Framerate.Mode.Automatic.Info">Volgt de framerate op basis van gebeurtenissen in top-level tracks</s:String>
     <s:String x:Key="S.Exporter.Framerate.Mode.Custom">Aangepast</s:String>
     <s:String x:Key="S.Exporter.Framerate.Mode.Custom.Info">Aangepaste framerate</s:String>
-    <s:String x:Key="S.Exporter.Framerate.Mode.Film">Film</s:String>
+    <!--<s:String x:Key="S.Exporter.Framerate.Mode.Film">Film</s:String>-->
     <s:String x:Key="S.Exporter.Framerate.Mode.HighFramerate">Hoge framerate</s:String>
 
     <!--Windows • Exporter > Speed-->
@@ -940,12 +978,13 @@
     <s:String x:Key="S.Exporter.Encoding.Actions.More">Meer acties</s:String>
     <s:String x:Key="S.Exporter.Encoding.Actions.OpenFolder">Map openen</s:String>
     <s:String x:Key="S.Exporter.Encoding.Actions.CopyFile">Bestand kopiëren</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Actions.CopyFolderPath">Maplocatie kopiëren</s:String>
     <s:String x:Key="S.Exporter.Encoding.Actions.CopyPath">Pad kopiëren</s:String>
     <s:String x:Key="S.Exporter.Encoding.Actions.DeleteFile">Bestand verwijderen</s:String>
 
     <!--Windows • Editor-->
-    <s:String x:Key="S.Editor.Title">N-Studio • Editor</s:String>
-    <s:String x:Key="S.Editor.Project">Project</s:String>
+    <!--<s:String x:Key="S.Editor.Title">N-Studio • Editor</s:String>-->
+    <!--<s:String x:Key="S.Editor.Project">Project</s:String>-->
     <s:String x:Key="S.Editor.Project.New">Nieuw</s:String>
     <s:String x:Key="S.Editor.Project.New.Screen">Van schermopname</s:String>
     <s:String x:Key="S.Editor.Project.New.Sound">Van geluidsopname</s:String>
@@ -968,14 +1007,14 @@
     <s:String x:Key="S.Editor.Edit.Remove">Verwijderen</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Text">Tekst bewerken</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Drawing">Tekening bewerken</s:String>
-    <s:String x:Key="S.Editor.Canvas">Canvas</s:String>
+    <!--<s:String x:Key="S.Editor.Canvas">Canvas</s:String>-->
     <s:String x:Key="S.Editor.Canvas.Resize">Formaat wijzigen...</s:String>
     <s:String x:Key="S.Editor.Canvas.Crop">Bijsnijden...</s:String>
-    <s:String x:Key="S.Editor.Canvas.Trim">Trim...</s:String>
+    <s:String x:Key="S.Editor.Canvas.Trim">Trimmen...</s:String>
     <s:String x:Key="S.Editor.Insert">Invoegen</s:String>
     <s:String x:Key="S.Editor.Insert.Screen">Schermopname</s:String>
     <s:String x:Key="S.Editor.Insert.Sound">Geluidsopname</s:String>
-    <s:String x:Key="S.Editor.Insert.Media">Media</s:String>
+    <!--<s:String x:Key="S.Editor.Insert.Media">Media</s:String>-->
     <s:String x:Key="S.Editor.Insert.Text">Tekst</s:String>
     <s:String x:Key="S.Editor.Insert.Shape">Vorm</s:String>
     <s:String x:Key="S.Editor.Insert.Drawing">Tekening</s:String>
@@ -992,13 +1031,13 @@
     <s:String x:Key="S.Editor.Segment.Properties">Segmenteigenschappen</s:String>
 
     <s:String x:Key="S.Editor.More">Meer</s:String>
-    <s:String x:Key="S.Editor.More.Help">Help</s:String>
-    <s:String x:Key="S.Editor.More.Feedback">Feedback</s:String>
+    <!--<s:String x:Key="S.Editor.More.Help">Help</s:String>-->
+    <!--<s:String x:Key="S.Editor.More.Feedback">Feedback</s:String>-->
     <s:String x:Key="S.Editor.More.Settings">Instellingen</s:String>
 
     <!--Windows • Editor > Sections-->
-    <s:String x:Key="S.Editor.Sections.Timing">Timing</s:String>
-    <s:String x:Key="S.Editor.Sections.Timing.Start">Start</s:String>
+    <!--<s:String x:Key="S.Editor.Sections.Timing">Timing</s:String>-->
+    <!--<s:String x:Key="S.Editor.Sections.Timing.Start">Start</s:String>-->
     <s:String x:Key="S.Editor.Sections.Timing.StartOffset">Startoffset</s:String>
     <s:String x:Key="S.Editor.Sections.Timing.End">Einde</s:String>
     <s:String x:Key="S.Editor.Sections.Timing.EndOffset">Eindeoffset</s:String>
@@ -1033,7 +1072,7 @@
     <s:String x:Key="S.Editor.Timeline.DragEnd">Sleep om snelheid te wijzigen of om einde te trimmen (houd Shift ingedrukt)</s:String>
 
     <!--Windows • Feedback-->
-    <s:String x:Key="S.Feedback.Header">Feedback</s:String>
+    <!--<s:String x:Key="S.Feedback.Header">Feedback</s:String>-->
     <s:String x:Key="S.Feedback.WhatsSent">Wat wordt verzonden?</s:String>
     <s:String x:Key="S.Feedback.ExportZip">Exporteer als zip</s:String>
     <s:String x:Key="S.Feedback.ExportZip.Info">Feedback exporteren als zip</s:String>
@@ -1051,10 +1090,10 @@
     <s:String x:Key="S.Feedback.Description.Info">Beschrijf met meer details...</s:String>
     <s:String x:Key="S.Feedback.Email">E-mail</s:String>
     <s:String x:Key="S.Feedback.Email.Info">E-mail voor contact (optioneel)</s:String>
-    <s:String x:Key="S.Feedback.Extra">Extra details</s:String>
+    <!--<s:String x:Key="S.Feedback.Extra">Extra details</s:String>-->
     <s:String x:Key="S.Feedback.Extra.System.Info">Besturingssysteemversie en geïnstalleerde updates</s:String>
     <s:String x:Key="S.Feedback.Extra.Application.Info">Applicatieversie</s:String>
-    <s:String x:Key="S.Feedback.Extra.Hardware">Hardware</s:String>
+    <!--<s:String x:Key="S.Feedback.Extra.Hardware">Hardware</s:String>-->
     <s:String x:Key="S.Feedback.Extra.Hardware.Info">Processor-, geheugen- en grafische adapterdetails</s:String>
     <s:String x:Key="S.Feedback.Extra.Screen.Info">Scherminformatie zoals resolutie en schaal</s:String>
     <s:String x:Key="S.Feedback.Extra.Sound">Geluidsapparaten</s:String>
@@ -1077,18 +1116,18 @@
     <s:String x:Key="S.FeedbackPreview.Header">Feedbackvoorbeeld</s:String>
     <s:String x:Key="S.FeedbackPreview.System">Systeem</s:String>
     <s:String x:Key="S.FeedbackPreview.System.Name">Naam</s:String>
-    <s:String x:Key="S.FeedbackPreview.System.Build">Build</s:String>
+    <!--<s:String x:Key="S.FeedbackPreview.System.Build">Build</s:String>-->
     <s:String x:Key="S.FeedbackPreview.System.Architecture">Architectuur</s:String>
     <s:String x:Key="S.FeedbackPreview.System.UserName">Gebruikersnaam</s:String>
     <s:String x:Key="S.FeedbackPreview.System.MachineName">Computernaam</s:String>
     <s:String x:Key="S.FeedbackPreview.Application">Applicatie</s:String>
     <s:String x:Key="S.FeedbackPreview.Application.Version">Versie</s:String>
-    <s:String x:Key="S.FeedbackPreview.Application.Variant">Variant</s:String>
+    <!--<s:String x:Key="S.FeedbackPreview.Application.Variant">Variant</s:String>-->
     <s:String x:Key="S.FeedbackPreview.Application.Startup">Gestart in</s:String>
     <s:String x:Key="S.FeedbackPreview.Application.Date">Datum</s:String>
     <s:String x:Key="S.FeedbackPreview.Application.Running">Draait al</s:String>
-    <s:String x:Key="S.FeedbackPreview.Processor">Processor</s:String>
-    <s:String x:Key="S.FeedbackPreview.Processor.Model">Model</s:String>
+    <!--<s:String x:Key="S.FeedbackPreview.Processor">Processor</s:String>-->
+    <!--<s:String x:Key="S.FeedbackPreview.Processor.Model">Model</s:String>-->
     <s:String x:Key="S.FeedbackPreview.Processor.Frequency">Frequentie</s:String>
     <s:String x:Key="S.FeedbackPreview.Processor.CoresThreads">Kernen/draden</s:String>
     <s:String x:Key="S.FeedbackPreview.Processor.Architecture">Architectuur</s:String>
@@ -1112,16 +1151,16 @@
     <s:String x:Key="S.FeedbackPreview.Sound.Channels">Kanalen</s:String>
     <s:String x:Key="S.FeedbackPreview.Sound.SampleRate">Samplefrequentie</s:String>
     <s:String x:Key="S.FeedbackPreview.Disks">Schijven</s:String>
-    <s:String x:Key="S.FeedbackPreview.Disks.Root">Root</s:String>
+    <!--<s:String x:Key="S.FeedbackPreview.Disks.Root">Root</s:String>-->
     <s:String x:Key="S.FeedbackPreview.Disks.Total">Totaal</s:String>
     <s:String x:Key="S.FeedbackPreview.Disks.Free">Vrij</s:String>
     <s:String x:Key="S.FeedbackPreview.Disks.Format">Formaat</s:String>
-    <s:String x:Key="S.FeedbackPreview.Disks.Type">Type</s:String>
+    <!--<s:String x:Key="S.FeedbackPreview.Disks.Type">Type</s:String>-->
     <s:String x:Key="S.FeedbackPreview.Disks.Ready">Klaar?</s:String>
 
     <!--Project Types -->
     <s:String x:Key="S.ProjectTypes.Recording">Opname</s:String>
-    <s:String x:Key="S.ProjectTypes.Project">Project</s:String>
+    <!--<s:String x:Key="S.ProjectTypes.Project">Project</s:String>-->
     <s:String x:Key="S.ProjectTypes.RecordingOld">Opname (oud)</s:String>
 
     <!--Capture-->
@@ -1164,7 +1203,7 @@
     <s:String x:Key="S.Playback.TimeLeft">Tijd resterend</s:String>
     <s:String x:Key="S.Playback.RepeatOn">Herhalen aan</s:String>
     <s:String x:Key="S.Playback.RepeatOff">Herhalen uit</s:String>
-    <s:String x:Key="S.Playback.Volume">Volume</s:String>
+    <!--<s:String x:Key="S.Playback.Volume">Volume</s:String>-->
     <s:String x:Key="S.Playback.ToggleVolume">Dempen/opheffen</s:String>
     <s:String x:Key="S.Playback.Statistics">Aantal frames, gemiddelde framerate en gemiddelde vertoningstijd per frame</s:String>
 
@@ -1189,14 +1228,14 @@
     <s:String x:Key="S.Positioning.Angle">Hoek</s:String>
 
     <!--Timing-->
-    <s:String x:Key="S.Timing.Start">Start</s:String>
+    <!--<s:String x:Key="S.Timing.Start">Start</s:String>-->
     <s:String x:Key="S.Timing.End">Einde</s:String>
 
     <!--States-->
     <s:String x:Key="S.Field.Empty">(leeg)</s:String>
     <s:String x:Key="S.Field.Space">(spatie)</s:String>
     <s:String x:Key="S.Field.Optional">(optioneel)</s:String>
-    <s:String x:Key="S.Field.Minimum">(min)</s:String>
+    <!--<s:String x:Key="S.Field.Minimum">(min)</s:String>-->
     <s:String x:Key="S.Field.Key">Klik om het toetsenbordfocus in te stellen en druk vervolgens op de gewenste toetsen en modifiers.&#10;Sommige toetscombinaties zijn niet toegestaan.</s:String>
     <s:String x:Key="S.Field.Key.Remove">Toetscombinatie verwijderen</s:String>
 
@@ -1252,148 +1291,148 @@
     <s:String x:Key="S.DragDrop.Ignored">Sommige niet-ondersteunde bestanden worden genegeerd</s:String>
 
     <!--Keys-->
-    <s:String x:Key="S.Keys.Backspace">Backspace</s:String>
-    <s:String x:Key="S.Keys.Tab">Tab</s:String>
-    <s:String x:Key="S.Keys.Return">Enter</s:String>
-    <s:String x:Key="S.Keys.PauseBreak">Pause/Break</s:String>
-    <s:String x:Key="S.Keys.CapsLock">Caps Lock</s:String>
-    <s:String x:Key="S.Keys.Escape">Esc</s:String>
-    <s:String x:Key="S.Keys.Space">Space</s:String>
-    <s:String x:Key="S.Keys.PageUp">Page Up</s:String>
-    <s:String x:Key="S.Keys.PageDown">Page Down</s:String>
-    <s:String x:Key="S.Keys.Home">Home</s:String>
-    <s:String x:Key="S.Keys.End">End</s:String>
-    <s:String x:Key="S.Keys.Left">Arrow Left</s:String>
-    <s:String x:Key="S.Keys.Up">Arrow Up</s:String>
-    <s:String x:Key="S.Keys.Right">Arrow Right</s:String>
-    <s:String x:Key="S.Keys.Down">Arrow Down</s:String>
-    <s:String x:Key="S.Keys.PrintScreen">Print Screen</s:String>
-    <s:String x:Key="S.Keys.Insert">Insert</s:String>
-    <s:String x:Key="S.Keys.Delete">Delete</s:String>
-    <s:String x:Key="S.Keys.NumLock">Num Lock</s:String>
-    <s:String x:Key="S.Keys.ScrollLock">Scroll Lock</s:String>
-    <s:String x:Key="S.Keys.Shift">Shift</s:String>
-    <s:String x:Key="S.Keys.LeftShift">Left Shift</s:String>
-    <s:String x:Key="S.Keys.RightShift">Right Shift</s:String>
-    <s:String x:Key="S.Keys.Alt">Alt</s:String>
-    <s:String x:Key="S.Keys.LeftAlt">Left Alt</s:String>
-    <s:String x:Key="S.Keys.RightAlt">Right Alt</s:String>
-    <s:String x:Key="S.Keys.Ctrl">Control</s:String>
-    <s:String x:Key="S.Keys.LeftCtrl">Left Ctrl</s:String>
-    <s:String x:Key="S.Keys.RightCtrl">Right Ctrl</s:String>
-    <s:String x:Key="S.Keys.Windows">Windows</s:String>
-    <s:String x:Key="S.Keys.LeftWindows">Left Windows</s:String>
-    <s:String x:Key="S.Keys.RightWindows">Right Windows</s:String>
-    <s:String x:Key="S.Keys.NextTrack">Next Track</s:String>
-    <s:String x:Key="S.Keys.PreviousTrack">Previous Track</s:String>
-    <s:String x:Key="S.Keys.PlayPause">Play/Pause</s:String>
-    <s:String x:Key="S.Keys.Stop">Stop</s:String>
+    <!--<s:String x:Key="S.Keys.Backspace">Backspace</s:String>-->
+    <!--<s:String x:Key="S.Keys.Tab">Tab</s:String>-->
+    <!--<s:String x:Key="S.Keys.Return">Enter</s:String>-->
+    <!--<s:String x:Key="S.Keys.PauseBreak">Pause/Break</s:String>-->
+    <!--<s:String x:Key="S.Keys.CapsLock">Caps Lock</s:String>-->
+    <!--<s:String x:Key="S.Keys.Escape">Esc</s:String>-->
+    <s:String x:Key="S.Keys.Space">Spatie</s:String>
+    <!--<s:String x:Key="S.Keys.PageUp">Page Up</s:String>-->
+    <!--<s:String x:Key="S.Keys.PageDown">Page Down</s:String>-->
+    <!--<s:String x:Key="S.Keys.Home">Home</s:String>-->
+    <!--<s:String x:Key="S.Keys.End">End</s:String>-->
+    <s:String x:Key="S.Keys.Left">Pijl links</s:String>
+    <s:String x:Key="S.Keys.Up">Pijl omhoog</s:String>
+    <s:String x:Key="S.Keys.Right">Pijl rechts</s:String>
+    <s:String x:Key="S.Keys.Down">Pijl omlaag</s:String>
+    <!--<s:String x:Key="S.Keys.PrintScreen">Print Screen</s:String>-->
+    <!--<s:String x:Key="S.Keys.Insert">Insert</s:String>-->
+    <!--<s:String x:Key="S.Keys.Delete">Delete</s:String>-->
+    <!--<s:String x:Key="S.Keys.NumLock">Num Lock</s:String>-->
+    <!--<s:String x:Key="S.Keys.ScrollLock">Scroll Lock</s:String>-->
+    <!--<s:String x:Key="S.Keys.Shift">Shift</s:String>-->
+    <s:String x:Key="S.Keys.LeftShift">Linker Shift</s:String>
+    <s:String x:Key="S.Keys.RightShift">Rechter Shift</s:String>
+    <!--<s:String x:Key="S.Keys.Alt">Alt</s:String>-->
+    <s:String x:Key="S.Keys.LeftAlt">Linker Alt</s:String>
+    <s:String x:Key="S.Keys.RightAlt">Rechter Alt</s:String>
+    <!--<s:String x:Key="S.Keys.Ctrl">Control</s:String>-->
+    <s:String x:Key="S.Keys.LeftCtrl">Linker Ctrl</s:String>
+    <s:String x:Key="S.Keys.RightCtrl">Rechter Ctrl</s:String>
+    <!--<s:String x:Key="S.Keys.Windows">Windows</s:String>-->
+    <s:String x:Key="S.Keys.LeftWindows">Linker Windows</s:String>
+    <s:String x:Key="S.Keys.RightWindows">Rechter Windows</s:String>
+    <s:String x:Key="S.Keys.NextTrack">Volgend nummer</s:String>
+    <s:String x:Key="S.Keys.PreviousTrack">Vorig nummer</s:String>
+    <s:String x:Key="S.Keys.PlayPause">Afspelen/Pauzeren</s:String>
+    <!--<s:String x:Key="S.Keys.Stop">Stop</s:String>-->
 
     <!--Mouse buttons-->
     <s:String x:Key="S.Mouse.Right">Rechtsklik</s:String>
 
     <!--Units-->
-    <s:String x:Key="S.Units.Points.Short">pt</s:String>
-    <s:String x:Key="S.Units.Second.Short">s</s:String>
-    <s:String x:Key="S.Units.Millisecond.Short">ms</s:String>
-    <s:String x:Key="S.Units.Pixels.Short">px</s:String>
-    <s:String x:Key="S.Units.FramesPerSecond.Short">fps</s:String>
+    <!--<s:String x:Key="S.Units.Points.Short">pt</s:String>-->
+    <!--<s:String x:Key="S.Units.Second.Short">s</s:String>-->
+    <!--<s:String x:Key="S.Units.Millisecond.Short">ms</s:String>-->
+    <!--<s:String x:Key="S.Units.Pixels.Short">px</s:String>-->
+    <!--<s:String x:Key="S.Units.FramesPerSecond.Short">fps</s:String>-->
 
     <!--Formats-->
-    <s:String x:Key="S.Formats.Type.Animated">Animated image</s:String>
-    <s:String x:Key="S.Formats.Type.Video">Video</s:String>
-    <s:String x:Key="S.Formats.Type.Audio">Audio</s:String>
-    <s:String x:Key="S.Formats.Type.Frames">Frames</s:String>
-    <s:String x:Key="S.Formats.Type.Other">Other</s:String>
-    <s:String x:Key="S.Formats.Type.All">All files</s:String>
+    <s:String x:Key="S.Formats.Type.Animated">Geanimeerde afbeelding</s:String>
+    <!--<s:String x:Key="S.Formats.Type.Video">Video</s:String>-->
+    <!--<s:String x:Key="S.Formats.Type.Audio">Audio</s:String>-->
+    <!--<s:String x:Key="S.Formats.Type.Frames">Frames</s:String>-->
+    <s:String x:Key="S.Formats.Type.Other">Overig</s:String>
+    <s:String x:Key="S.Formats.Type.All">Alle bestanden</s:String>
 
-    <s:String x:Key="S.Formats.Apng">Apng</s:String>
-    <s:String x:Key="S.Formats.Apng.Info">Animated Portable Network Graphics</s:String>
-    <s:String x:Key="S.Formats.Gif">Gif</s:String>
-    <s:String x:Key="S.Formats.Gif.Info">Graphics Interchange Format</s:String>
-    <s:String x:Key="S.Formats.Webp">Webp</s:String>
-    <s:String x:Key="S.Formats.Webp.Info">Web Picture</s:String>
+    <!--<s:String x:Key="S.Formats.Apng">Apng</s:String>-->
+    <!--<s:String x:Key="S.Formats.Apng.Info">Animated Portable Network Graphics</s:String>-->
+    <!--<s:String x:Key="S.Formats.Gif">Gif</s:String>-->
+    <!--<s:String x:Key="S.Formats.Gif.Info">Graphics Interchange Format</s:String>-->
+    <!--<s:String x:Key="S.Formats.Webp">Webp</s:String>-->
+    <!--<s:String x:Key="S.Formats.Webp.Info">Web Picture</s:String>-->
 
-    <s:String x:Key="S.Formats.Avi">Avi</s:String>
-    <s:String x:Key="S.Formats.Avi.Info">Audio Video Interleave</s:String>
-    <s:String x:Key="S.Formats.Mkv">Mkv</s:String>
-    <s:String x:Key="S.Formats.Mkv.Info">Matroska</s:String>
-    <s:String x:Key="S.Formats.Mov">Mov</s:String>
-    <s:String x:Key="S.Formats.Mov.Info">QuickTime File Format</s:String>
-    <s:String x:Key="S.Formats.Mp4">Mp4</s:String>
-    <s:String x:Key="S.Formats.Mp4.Info">Mpeg-4</s:String>
-    <s:String x:Key="S.Formats.Webm">Webm</s:String>
-    <s:String x:Key="S.Formats.Webm.Info">Web Movie</s:String>
+    <!--<s:String x:Key="S.Formats.Avi">Avi</s:String>-->
+    <!--<s:String x:Key="S.Formats.Avi.Info">Audio Video Interleave</s:String>-->
+    <!--<s:String x:Key="S.Formats.Mkv">Mkv</s:String>-->
+    <!--<s:String x:Key="S.Formats.Mkv.Info">Matroska</s:String>-->
+    <!--<s:String x:Key="S.Formats.Mov">Mov</s:String>-->
+    <s:String x:Key="S.Formats.Mov.Info">QuickTime-bestandsformaat</s:String>
+    <!--<s:String x:Key="S.Formats.Mp4">Mp4</s:String>-->
+    <!--<s:String x:Key="S.Formats.Mp4.Info">Mpeg-4</s:String>-->
+    <!--<s:String x:Key="S.Formats.Webm">Webm</s:String>-->
+    <!--<s:String x:Key="S.Formats.Webm.Info">Web Movie</s:String>-->
 
-    <s:String x:Key="S.Formats.Aac">Aac</s:String>
-    <s:String x:Key="S.Formats.Aac.Info">Advanced Audio Coding</s:String>
-    <s:String x:Key="S.Formats.Ac3">Ac3</s:String>
-    <s:String x:Key="S.Formats.Ac3.Info">Audio Codec 3</s:String>
-    <s:String x:Key="S.Formats.Aiff">Aiff</s:String>
-    <s:String x:Key="S.Formats.Aiff.Info">Audio Interchange File Format</s:String>
-    <s:String x:Key="S.Formats.Alac">Alac</s:String>
-    <s:String x:Key="S.Formats.Alac.Info">Apple Lossless Audio Codec</s:String>
-    <s:String x:Key="S.Formats.Amr">Amr</s:String>
-    <s:String x:Key="S.Formats.Amr.Info">Adaptive Multi-Rate</s:String>
-    <s:String x:Key="S.Formats.Flac">Flac</s:String>
-    <s:String x:Key="S.Formats.Flac.Info">Free Lossless Audio Codec</s:String>
-    <s:String x:Key="S.Formats.Mp3">Mp3</s:String>
-    <s:String x:Key="S.Formats.Mp3.Info">MPEG-1/2 Audio Layer III</s:String>
-    <s:String x:Key="S.Formats.Ogg">Ogg</s:String>
-    <s:String x:Key="S.Formats.Ogg.Info">Ogg Vorbis Container</s:String>
-    <s:String x:Key="S.Formats.Opus">Opus</s:String>
-    <s:String x:Key="S.Formats.Opus.Info">Opus</s:String>
-    <s:String x:Key="S.Formats.Wav">Wav</s:String>
-    <s:String x:Key="S.Formats.Wav.Info">Waveform Audio File Format</s:String>
-    <s:String x:Key="S.Formats.Wma">Wma</s:String>
-    <s:String x:Key="S.Formats.Wma.Info">Windows Media Audio</s:String>
+    <!--<s:String x:Key="S.Formats.Aac">Aac</s:String>-->
+    <!--<s:String x:Key="S.Formats.Aac.Info">Advanced Audio Coding</s:String>-->
+    <!--<s:String x:Key="S.Formats.Ac3">Ac3</s:String>-->
+    <!--<s:String x:Key="S.Formats.Ac3.Info">Audio Codec 3</s:String>-->
+    <!--<s:String x:Key="S.Formats.Aiff">Aiff</s:String>-->
+    <!--<s:String x:Key="S.Formats.Aiff.Info">Audio Interchange File Format</s:String>-->
+    <!--<s:String x:Key="S.Formats.Alac">Alac</s:String>-->
+    <!--<s:String x:Key="S.Formats.Alac.Info">Apple Lossless Audio Codec</s:String>-->
+    <!--<s:String x:Key="S.Formats.Amr">Amr</s:String>-->
+    <!--<s:String x:Key="S.Formats.Amr.Info">Adaptive Multi-Rate</s:String>-->
+    <!--<s:String x:Key="S.Formats.Flac">Flac</s:String>-->
+    <!--<s:String x:Key="S.Formats.Flac.Info">Free Lossless Audio Codec</s:String>-->
+    <!--<s:String x:Key="S.Formats.Mp3">Mp3</s:String>-->
+    <!--<s:String x:Key="S.Formats.Mp3.Info">MPEG-1/2 Audio Layer III</s:String>-->
+    <!--<s:String x:Key="S.Formats.Ogg">Ogg</s:String>-->
+    <s:String x:Key="S.Formats.Ogg.Info">Ogg Vorbis-container</s:String>
+    <!--<s:String x:Key="S.Formats.Opus">Opus</s:String>-->
+    <!--<s:String x:Key="S.Formats.Opus.Info">Opus</s:String>-->
+    <!--<s:String x:Key="S.Formats.Wav">Wav</s:String>-->
+    <!--<s:String x:Key="S.Formats.Wav.Info">Waveform Audio File Format</s:String>-->
+    <!--<s:String x:Key="S.Formats.Wma">Wma</s:String>-->
+    <!--<s:String x:Key="S.Formats.Wma.Info">Windows Media Audio</s:String>-->
 
-    <s:String x:Key="S.Formats.Avif">AVIF</s:String>
+    <!--<s:String x:Key="S.Formats.Avif">AVIF</s:String>-->
     <s:String x:Key="S.Formats.Avif.Info">AV1-gecomprimeerde afbeelding (HEIF/AV1)</s:String>
-    <s:String x:Key="S.Formats.Bmp">Bmp</s:String>
-    <s:String x:Key="S.Formats.Bmp.Info">Bitmap</s:String>
-    <s:String x:Key="S.Formats.Heic">HEIC</s:String>
-    <s:String x:Key="S.Formats.Heic.Info">High‑Efficiency Image (HEIF/HEVC)</s:String>
-    <s:String x:Key="S.Formats.Jpeg">Jpeg</s:String>
-    <s:String x:Key="S.Formats.Jpeg.Info">Joint Photographic Experts Group</s:String>
-    <s:String x:Key="S.Formats.Png">Png</s:String>
-    <s:String x:Key="S.Formats.Png.Info">Portable Network Graphics</s:String>
-    <s:String x:Key="S.Formats.Images.Zip">Packed images</s:String>
+    <!--<s:String x:Key="S.Formats.Bmp">Bmp</s:String>-->
+    <!--<s:String x:Key="S.Formats.Bmp.Info">Bitmap</s:String>-->
+    <!--<s:String x:Key="S.Formats.Heic">HEIC</s:String>-->
+    <!--<s:String x:Key="S.Formats.Heic.Info">High‑Efficiency Image (HEIF/HEVC)</s:String>-->
+    <!--<s:String x:Key="S.Formats.Jpeg">Jpeg</s:String>-->
+    <!--<s:String x:Key="S.Formats.Jpeg.Info">Joint Photographic Experts Group</s:String>-->
+    <!--<s:String x:Key="S.Formats.Png">Png</s:String>-->
+    <!--<s:String x:Key="S.Formats.Png.Info">Portable Network Graphics</s:String>-->
+    <s:String x:Key="S.Formats.Images.Zip">Ingepakte afbeeldingen</s:String>
 
-    <s:String x:Key="S.Formats.Project">Project</s:String>
-    <s:String x:Key="S.Formats.Project.Info">N-Studio project</s:String>
+    <!--<s:String x:Key="S.Formats.Project">Project</s:String>-->
+    <s:String x:Key="S.Formats.Project.Info">N-Studio-project</s:String>
     <s:String x:Key="S.Formats.LegacyProject">ScreenToGif-project</s:String>
     <s:String x:Key="S.Formats.LegacyProject.Info">Projectbestand dat door ScreenToGif wordt gebruikt</s:String>
-    <s:String x:Key="S.Formats.Psd">Psd</s:String>
-    <s:String x:Key="S.Formats.Psd.Info">Photoshop file</s:String>
+    <!--<s:String x:Key="S.Formats.Psd">Psd</s:String>-->
+    <s:String x:Key="S.Formats.Psd.Info">Photoshop-bestand</s:String>
 
     <!--Objects-->
-    <s:String x:Key="S.Project">Project</s:String>
-    <s:String x:Key="S.Track">Track</s:String>
-    <s:String x:Key="S.Segment">Segment</s:String>
+    <!--<s:String x:Key="S.Project">Project</s:String>-->
+    <!--<s:String x:Key="S.Track">Track</s:String>-->
+    <!--<s:String x:Key="S.Segment">Segment</s:String>-->
 
     <!--Segments-->
-    <s:String x:Key="S.Segments.Frames">Frames</s:String>
+    <!--<s:String x:Key="S.Segments.Frames">Frames</s:String>-->
     <s:String x:Key="S.Segments.MouseCursor">Muiscursor</s:String>
     <s:String x:Key="S.Segments.KeyPresses">Toetsaanslagen</s:String>
-    <s:String x:Key="S.Segments.Text">Text</s:String>
-    <s:String x:Key="S.Segments.Progress">Progress</s:String>
-    <s:String x:Key="S.Segments.Image">Image</s:String>
-    <s:String x:Key="S.Segments.AnimatedImage">Animated image</s:String>
-    <s:String x:Key="S.Segments.Video">Video</s:String>
-    <s:String x:Key="S.Segments.LinkedVideo">Linked video</s:String>
-    <s:String x:Key="S.Segments.Audio">Audio</s:String>
-    <s:String x:Key="S.Segments.MicrophoneAudio">Microphone audio</s:String>
-    <s:String x:Key="S.Segments.SystemAudio">System audio</s:String>
-    <s:String x:Key="S.Segments.Subtitle">Subtitle</s:String>
-    <s:String x:Key="S.Segments.Shape">Shape</s:String>
-    <s:String x:Key="S.Segments.Drawing">Drawing</s:String>
-    <s:String x:Key="S.Segments.Pixelation">Pixelation</s:String>
-    <s:String x:Key="S.Segments.Blur">Blur</s:String>
-    <s:String x:Key="S.Segments.Brightness">Brightness</s:String>
-    <s:String x:Key="S.Segments.Unfocus">Unfocus</s:String>
-    <s:String x:Key="S.Segments.Zoom">Zoom</s:String>
-    <s:String x:Key="S.Segments.NewTrack">New track</s:String>
+    <s:String x:Key="S.Segments.Text">Tekst</s:String>
+    <s:String x:Key="S.Segments.Progress">Voortgang</s:String>
+    <s:String x:Key="S.Segments.Image">Afbeelding</s:String>
+    <s:String x:Key="S.Segments.AnimatedImage">Geanimeerde afbeelding</s:String>
+    <!--<s:String x:Key="S.Segments.Video">Video</s:String>-->
+    <s:String x:Key="S.Segments.LinkedVideo">Gekoppelde video</s:String>
+    <!--<s:String x:Key="S.Segments.Audio">Audio</s:String>-->
+    <s:String x:Key="S.Segments.MicrophoneAudio">Microfoonaudio</s:String>
+    <s:String x:Key="S.Segments.SystemAudio">Systeemaudio</s:String>
+    <s:String x:Key="S.Segments.Subtitle">Ondertitel</s:String>
+    <s:String x:Key="S.Segments.Shape">Vorm</s:String>
+    <s:String x:Key="S.Segments.Drawing">Tekening</s:String>
+    <s:String x:Key="S.Segments.Pixelation">Pixelatie</s:String>
+    <s:String x:Key="S.Segments.Blur">Vervagen</s:String>
+    <s:String x:Key="S.Segments.Brightness">Helderheid</s:String>
+    <s:String x:Key="S.Segments.Unfocus">Onscherp</s:String>
+    <!--<s:String x:Key="S.Segments.Zoom">Zoom</s:String>-->
+    <s:String x:Key="S.Segments.NewTrack">Nieuwe track</s:String>
 
     <!--Settings-->
     <s:String x:Key="S.Settings.Title">N-Studio • Instellingen</s:String>
@@ -1403,15 +1442,15 @@
     <s:String x:Key="S.Settings.Pages.RegionShare">Regiodeel</s:String>
     <s:String x:Key="S.Settings.Pages.DefaultStyles">Standaardstijlen</s:String>
     <s:String x:Key="S.Settings.Pages.DefaultEffects">Standaardeffecten</s:String>
-    <s:String x:Key="S.Settings.Pages.Editor">Editor</s:String>
-    <s:String x:Key="S.Settings.Pages.Exporter">Exporter</s:String>
+    <!--<s:String x:Key="S.Settings.Pages.Editor">Editor</s:String>-->
+    <!--<s:String x:Key="S.Settings.Pages.Exporter">Exporter</s:String>-->
     <s:String x:Key="S.Settings.Pages.Storage">Opslag</s:String>
     <s:String x:Key="S.Settings.Pages.Plugins">Plug-ins</s:String>
     <s:String x:Key="S.Settings.Pages.Update">Bijwerken</s:String>
     <s:String x:Key="S.Settings.Pages.About">Info</s:String>
 
     <!--Settings • Sections-->
-    <s:String x:Key="S.Settings.Sections.Interface">Interface</s:String>
+    <!--<s:String x:Key="S.Settings.Sections.Interface">Interface</s:String>-->
     <s:String x:Key="S.Settings.Sections.Behavior">Gedrag</s:String>
     <s:String x:Key="S.Settings.Sections.InterfaceBehavior">Interface en gedrag</s:String>
     <s:String x:Key="S.Settings.Sections.Shortcuts">Snelkoppelingen</s:String>
@@ -1469,7 +1508,7 @@
     <s:String x:Key="S.Settings.Application.Startup.StartWith.Sound.Info">Neem audio op van microfoons of het systeem</s:String>
     <s:String x:Key="S.Settings.Application.Startup.StartWith.RegionShare">Regiodelen</s:String>
     <s:String x:Key="S.Settings.Application.Startup.StartWith.RegionShare.Info">Kies een gebied van je scherm om te delen met andere apps</s:String>
-    <s:String x:Key="S.Settings.Application.Startup.StartWith.Editor">Editor</s:String>
+    <!--<s:String x:Key="S.Settings.Application.Startup.StartWith.Editor">Editor</s:String>-->
     <s:String x:Key="S.Settings.Application.Startup.StartWith.Editor.Info">Maak of bewerk content</s:String>
     <s:String x:Key="S.Settings.Application.Startup.StartWith.Nothing">Niets</s:String>
     <s:String x:Key="S.Settings.Application.Startup.StartWith.Nothing.Info">Laat de app in het systeemvak</s:String>
@@ -1494,9 +1533,9 @@
 
     <!--Settings • Screen Recorder-->
     <s:String x:Key="S.Settings.ScreenRecorder.AfterRecording">Venster na opname</s:String>
-    <s:String x:Key="S.Settings.ScreenRecorder.AfterRecording.Exporter">Exporter</s:String>
+    <!--<s:String x:Key="S.Settings.ScreenRecorder.AfterRecording.Exporter">Exporter</s:String>-->
     <s:String x:Key="S.Settings.ScreenRecorder.AfterRecording.Exporter.Info">Met eenvoudige laatste momentbewerkingshulpmiddelen zoals bijsnijden, wijzigen van grootte, trimmen, enz.</s:String>
-    <s:String x:Key="S.Settings.ScreenRecorder.AfterRecording.Editor">Editor</s:String>
+    <!--<s:String x:Key="S.Settings.ScreenRecorder.AfterRecording.Editor">Editor</s:String>-->
     <s:String x:Key="S.Settings.ScreenRecorder.AfterRecording.Editor.Info">Volwaardige editor, voeg lagen in, beheer de tijdlijn, enz.</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.StartAfterSelection">Start opname na selectie</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.StartAfterSelection.Info">Versnel je workflow door automatisch op te nemen na het selecteren van een schermgebied</s:String>
@@ -1586,11 +1625,11 @@
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.PreventBlack">Voorkom dat volledig zwarte frames worden opgenomen</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.PreventBlack.Info">Voorkomt dat frames met alle pixels zwart ten onrechte worden vastgelegd</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.RemoteImprovement">Schakel gelaagde vensteropname uit voor betere prestaties op een externe desktopverbinding</s:String>
-    
+
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.GammaCorrection">Gamma-correctie toepassen voor 10-bits SDR-opname</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.GammaCorrection.Info">Schakel lineaire naar sRGB-conversie voor 10-bits SDR-opname in/uit.&#10;Als kleuren er onjuist uitzien, probeer dit te wijzigen.</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation">Helderheidscompensatie</s:String>
-    <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation.Auto">Auto</s:String>
+    <!--<s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation.Auto">Auto</s:String>-->
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation.Fixed">Vast</s:String>
 
     <!--Settings • Screen Recorder > Capture Frequency-->
@@ -1665,7 +1704,7 @@
     <s:String x:Key="S.Settings.Styles.WordWrapping.Character">Teken</s:String>
     <s:String x:Key="S.Settings.Styles.LineSpacingMethod">Regelafstandmethode</s:String>
     <s:String x:Key="S.Settings.Styles.LineSpacingMethod.Default">Standaard</s:String>
-    <s:String x:Key="S.Settings.Styles.LineSpacingMethod.Uniform">Uniform</s:String>
+    <!--<s:String x:Key="S.Settings.Styles.LineSpacingMethod.Uniform">Uniform</s:String>-->
     <s:String x:Key="S.Settings.Styles.LineSpacingMethod.Proportional">Proportioneel</s:String>
     <s:String x:Key="S.Settings.Styles.LineSpacing">Regelafstand</s:String>
     <s:String x:Key="S.Settings.Styles.Baseline">Basislijn</s:String>
@@ -1730,20 +1769,20 @@
     <!--Settings • Styles > Video-->
     <s:String x:Key="S.Settings.Styles.MaxFramerate">Maximale framerate</s:String>
     <s:String x:Key="S.Settings.Styles.Mute">Volume dempen</s:String>
-    <s:String x:Key="S.Settings.Styles.Volume">Volume</s:String>
+    <!--<s:String x:Key="S.Settings.Styles.Volume">Volume</s:String>-->
 
     <!--Settings • Styles > Progress-->
     <s:String x:Key="S.Settings.Styles.DisplayMode">Weergavemodus</s:String>
     <s:String x:Key="S.Settings.Styles.DisplayMode.Text">Tekst</s:String>
     <s:String x:Key="S.Settings.Styles.DisplayMode.Bar">Balk</s:String>
     <s:String x:Key="S.Settings.Styles.BasedOn">Gebaseerd op</s:String>
-    <s:String x:Key="S.Settings.Styles.BasedOn.Segment">Segment</s:String>
+    <!--<s:String x:Key="S.Settings.Styles.BasedOn.Segment">Segment</s:String>-->
     <s:String x:Key="S.Settings.Styles.BasedOn.Timeline">Tijdlijn</s:String>
     <s:String x:Key="S.Settings.Styles.BasedOn.Capture">Opname</s:String>
     <s:String x:Key="S.Settings.Styles.Format">Formaat</s:String>
     <s:String x:Key="S.Settings.Styles.Format.DateTime">Datum en tijd</s:String>
     <s:String x:Key="S.Settings.Styles.Format.Time">Tijd</s:String>
-    <s:String x:Key="S.Settings.Styles.Format.Percentage">Percentage</s:String>
+    <!--<s:String x:Key="S.Settings.Styles.Format.Percentage">Percentage</s:String>-->
     <s:String x:Key="S.Settings.Styles.Format.Other">Overig</s:String>
     <s:String x:Key="S.Settings.Styles.Format.Other.Info">Volg de specificatie om je eigen formaat te bouwen</s:String>
     <s:String x:Key="S.Settings.Styles.CustomFormat">Aangepast formaat</s:String>
@@ -1769,9 +1808,9 @@
 
     <!--Settings • Styles > Drawing-->
     <s:String x:Key="S.Settings.Styles.DrawingMode">Tekenmodus</s:String>
-    <s:String x:Key="S.Settings.Styles.DrawingMode.Pen">Pen</s:String>
+    <!--<s:String x:Key="S.Settings.Styles.DrawingMode.Pen">Pen</s:String>-->
     <s:String x:Key="S.Settings.Styles.DrawingMode.Highlighter">Markeringspen</s:String>
-    <s:String x:Key="S.Settings.Styles.DrawingMode.Airbrush">Airbrush</s:String>
+    <!--<s:String x:Key="S.Settings.Styles.DrawingMode.Airbrush">Airbrush</s:String>-->
     <s:String x:Key="S.Settings.Styles.DrawingMode.Eraser">Gum</s:String>
     <s:String x:Key="S.Settings.Styles.TipShape">Puntvorm</s:String>
     <s:String x:Key="S.Settings.Styles.TipShape.Circle">Cirkel</s:String>
@@ -1877,7 +1916,7 @@
     <s:String x:Key="S.Settings.Exporter.UncommonFormat.Info">Oude of ongewone formaten zoals AVI, AC3, enz. worden beschikbaar</s:String>
 
     <!--Settings • Storage-->
-    <s:String x:Key="S.Settings.Storage.Cache">Cache</s:String>
+    <!--<s:String x:Key="S.Settings.Storage.Cache">Cache</s:String>-->
     <s:String x:Key="S.Settings.Storage.Cache.Path">Cachepad</s:String>
     <s:String x:Key="S.Settings.Storage.Cache.Logs">Logspad</s:String>
     <s:String x:Key="S.Settings.Storage.SelectPath">Klik om een pad te selecteren</s:String>
@@ -1939,14 +1978,14 @@
     <s:String x:Key="S.Settings.Update.StoreHandled.Action">Microsoft Store openen</s:String>
 
     <!--Settings • About-->
-    <s:String x:Key="S.Settings.About.Contact">Contact</s:String>
-    <s:String x:Key="S.Settings.About.Contact.Email">E-mail</s:String>
+    <!--<s:String x:Key="S.Settings.About.Contact">Contact</s:String>-->
+    <!--<s:String x:Key="S.Settings.About.Contact.Email">E-mail</s:String>-->
     <s:String x:Key="S.Settings.About.Contact.Email.Copy">Kopieer e-mail</s:String>
     <s:String x:Key="S.Settings.About.Dependencies">Afhankelijkheden</s:String>
 
     <!--Windows • Preset Settings-->
     <s:String x:Key="S.PresetSettings.Title">NStudio • Presetinstellingen</s:String>
-    <s:String x:Key="S.PresetSettings.Presets">Presets</s:String>
+    <!--<s:String x:Key="S.PresetSettings.Presets">Presets</s:String>-->
     <s:String x:Key="S.PresetSettings.Add.Info">Voeg een nieuwe preset toe</s:String>
     <s:String x:Key="S.PresetSettings.Duplicate">Dupliceren</s:String>
     <s:String x:Key="S.PresetSettings.Duplicate.Info">Geselecteerde preset dupliceren</s:String>
@@ -1960,8 +1999,8 @@
     <s:String x:Key="S.Preset.Identification.Info">Titel, beschrijving en meer</s:String>
     <s:String x:Key="S.Preset.Identification.Title">Titel</s:String>
     <s:String x:Key="S.Preset.Identification.Description">Beschrijving</s:String>
-    <s:String x:Key="S.Preset.Identification.Service">Service</s:String>
-    <s:String x:Key="S.Preset.Identification.Encoder">Encoder</s:String>
+    <!--<s:String x:Key="S.Preset.Identification.Service">Service</s:String>-->
+    <!--<s:String x:Key="S.Preset.Identification.Encoder">Encoder</s:String>-->
     <s:String x:Key="S.Preset.Identification.Enabled">Ingeschakeld</s:String>
     <s:String x:Key="S.Preset.Identification.Enabled.Info">Alleen ingeschakelde presets zijn beschikbaar</s:String>
     <s:String x:Key="S.Preset.Identification.AutoSave">Auto sla outputselectie op</s:String>
@@ -1996,11 +2035,11 @@
     <s:String x:Key="S.Preset.Output.ExportAsProject.Info">Exporteer ook als project, naar dezelfde locatie</s:String>
 
     <!--Windows • Preset Settings > Upload-->
-    <s:String x:Key="S.Preset.Upload.Title">Upload</s:String>
+    <!--<s:String x:Key="S.Preset.Upload.Title">Upload</s:String>-->
     <s:String x:Key="S.Preset.Upload.Title.Info">Standaard uploadpreset</s:String>
     <s:String x:Key="S.Preset.Upload.Title2">Uploadopties</s:String>
     <s:String x:Key="S.Preset.Upload.Title2.Info">Opties specifiek voor de geselecteerde uploadservice en bestandsformaat</s:String>
-    <s:String x:Key="S.Preset.Upload.Preset">Preset</s:String>
+    <!--<s:String x:Key="S.Preset.Upload.Preset">Preset</s:String>-->
 
     <!--Windows • Preset Settings > Clipboard-->
     <s:String x:Key="S.Preset.Clipboard.Title">Klembord</s:String>
@@ -2012,7 +2051,7 @@
     <s:String x:Key="S.Preset.Clipboard.Behavior.FolderPath.Info">Kopieert het mappad van het uitvoerbestand naar het klembord.</s:String>
     <s:String x:Key="S.Preset.Clipboard.Behavior.FilePath">Bestandspad</s:String>
     <s:String x:Key="S.Preset.Clipboard.Behavior.FilePath.Info">Kopieert het pad van het uitvoerbestand naar het klembord.</s:String>
-    <s:String x:Key="S.Preset.Clipboard.Behavior.Link">Link</s:String>
+    <!--<s:String x:Key="S.Preset.Clipboard.Behavior.Link">Link</s:String>-->
     <s:String x:Key="S.Preset.Clipboard.Behavior.Link.Info">Kopieert de door de uploadservice gegenereerde link naar het klembord.</s:String>
 
     <!--Windows • Preset Settings > Commands-->
@@ -2037,11 +2076,11 @@
     <s:String x:Key="S.Preset.Encoder.Title.Info">Opties specifiek voor de geselecteerde encoder en het bestandsformaat</s:String>
     <s:String x:Key="S.Preset.Encoder.Version">Versie</s:String>
     <s:String x:Key="S.Preset.Encoder.Quality">Kwaliteit</s:String>
-    <s:String x:Key="S.Preset.Encoder.Pass">Pass</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Pass">Pass</s:String>-->
 
     <s:String x:Key="S.Preset.Encoder.FFmpeg.UseCommands">Gebruik opdrachten</s:String>
     <s:String x:Key="S.Preset.Encoder.FFmpeg.UseCommands.Info">Typ argumenten rechtstreeks naar FFmpeg (gevorderde modus)</s:String>
-    <s:String x:Key="S.Preset.Encoder.FFmpeg.Parameters">Parameters</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.FFmpeg.Parameters">Parameters</s:String>-->
     <s:String x:Key="S.Preset.Encoder.FFmpeg.Parameters.Info">Lijst met parameters die naar FFmpeg worden gestuurd.&#10;&#10;Speciale parameters:&#10;{I} is het pad naar de invoer (de frames).&#10;{O} is het uitvoerpad (het geëxporteerde bestand).&#10;{W} is de breedte van het frame.&#10;{H} is de hoogte van het frame.</s:String>
     <s:String x:Key="S.Preset.Encoder.FFmpeg.Preview">Voorbeeld</s:String>
     <s:String x:Key="S.Preset.Encoder.FFmpeg.Preview.Info">Volledige opdracht zoals deze naar FFmpeg wordt gestuurd</s:String>
@@ -2066,27 +2105,27 @@
     <s:String x:Key="S.Preset.Encoder.Apng.PaintTransparent.Info">Vervangt pixels die niet zijn veranderd tussen frames door een transparante kleur</s:String>
     <s:String x:Key="S.Preset.Encoder.Apng.Prediction">Voorspelling</s:String>
     <s:String x:Key="S.Preset.Encoder.Apng.Prediction.None">Geen</s:String>
-    <s:String x:Key="S.Preset.Encoder.Apng.Prediction.Sub">Sub</s:String>
-    <s:String x:Key="S.Preset.Encoder.Apng.Prediction.Up">Up</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Apng.Prediction.Sub">Sub</s:String>-->
+    <!--<s:String x:Key="S.Preset.Encoder.Apng.Prediction.Up">Up</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Apng.Prediction.Average">Gemiddeld</s:String>
     <s:String x:Key="S.Preset.Encoder.Apng.Prediction.Mixed">Gemengd</s:String>
 
     <!--Preset • Gif-->
     <s:String x:Key="S.Preset.Encoder.Gif.GlobalColorTable">Gebruik een globale kleurentabel</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.GlobalColorTable.Info">Kan de kwaliteit en/of grootte van de gif verminderen</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer">Quantizer</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Quantizer">Quantizer</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Info">Kleurenreductie-algoritme (quantization)</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Neural">Neuraal netwerk</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Neural.Info">Hoge nauwkeurigheid quantization. Langzamer, maar goed voor meer kleuren</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Octree">Octree</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Octree">Octree</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Octree.Info">Goed voor animaties met minder kleuren. Sneller, maar kan kleurbanden veroorzaken</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.MedianCut">Median cut</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Quantizer.MedianCut">Median cut</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.MedianCut.Info">Minder goed dan Octree en langzamer</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Grayscale">Grijstinten</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Grayscale.Info">Gebruikt een vaste grijstintenpalette, dus het is veel sneller</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.MostUsed">Meest gebruikte kleuren</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.MostUsed.Info">Neemt gewoon de meest gebruikte kleuren in de frames</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Sampling">Sampling</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Sampling">Sampling</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Sampling.Info">Samplingfactor:&#10;Een waarde van 1 resulteert in een beter uitziende gif, maar deze is langzamer om weer te geven</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Sampling.Best">Beste</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Sampling.Fastest">Snelste</s:String>
@@ -2102,7 +2141,7 @@
     <s:String x:Key="S.Preset.Encoder.Gif.PaintWithChroma">Vervang deze pixels met een chroma key</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.PaintWithChroma.Info">Herhaalde/ongebruikte pixels worden vervangen door deze chroma key,&#10;waardoor het mogelijk wordt om minder kleuren per frame te gebruiken</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Color">Kleur</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.ChromaKey">Chroma key</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.ChromaKey">Chroma key</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Dither">Dithering</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Dither.Scale">Bayer-schaling</s:String>
 
@@ -2139,7 +2178,7 @@
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.SystemDefault4BppPalette.Info">Vast 4 bpp-palette met de standaard 16 sRGB-kleuren</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.SystemDefault8BppPalette">Systeemstandaard 8 bpp-palette</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.SystemDefault8BppPalette.Info">Vast 8 bpp-palette inclusief de 'web-veilige' kleuren en transparantie</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.Rgb332">RGB 332 palette</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.Rgb332">RGB 332-palet</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.Rgb332.Info">Vast 8 bpp-palette met het RGB 332-kleurenbereik</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Palette.Octree">Octree-quantizer</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Palette.Octree.Info">Palette optimaliseren voor elk frame met het Octree-algoritme</s:String>
@@ -2148,10 +2187,10 @@
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Palette.Wu">Wu-quantizer</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Palette.Wu.Info">Palette optimaliseren voor elk frame met het algoritme van Xiaolin Wu</s:String>
 
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer">Ditherer</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer">Ditherer</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Strength">Sterkte</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Strength.Info">De sterkte van de ditherer, of 0 om de sterkte automatisch te kalibreren</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Seed">Seed</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Seed">Seed</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Seed.Info">Een integer seed om een specifiek willekeurig ditheringpatroon te genereren.&#10;Laat leeg om voor elk frame een willekeurige seed te gebruiken</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.None">Geen</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.None.Info">Frames worden gekwantiseerd zonder dithering.</s:String>
@@ -2169,23 +2208,23 @@
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.DottedHalftone.Info">Een 8x8-matrix met een gestippeld halftonepatroon</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.BlueNoise">Blue Noise (Geordend)</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.BlueNoise.Info">Een 64x64-matrix met een blue noise-patroon</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Atkinson">Atkinson (Error Diffusion)</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Atkinson">Atkinson (Error Diffusion)</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Atkinson.Info">Bill Atkinsons 4x3-matrix met 6 effectieve waarden</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Burkes">Burkes (Error Diffusion)</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Burkes">Burkes (Error Diffusion)</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Burkes.Info">D. Burkes' 5x2-matrix</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.FloydSteinberg">Floyd-Steinberg (Error Diffusion)</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.FloydSteinberg">Floyd-Steinberg (Error Diffusion)</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.FloydSteinberg.Info">De originele 3x2-matrix van Floyd en Steinberg</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.JarvisJudiceNinke">Jarvis-Judice-Ninke (Error Diffusion)</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.JarvisJudiceNinke">Jarvis-Judice-Ninke (Error Diffusion)</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.JarvisJudiceNinke.Info">Een 5x3-matrix van Jarvis, Judice en Ninke</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Sierra3">Sierra 3 (Error Diffusion)</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Sierra3">Sierra 3 (Error Diffusion)</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Sierra3.Info">Frankie Sierra's 5x3-matrix</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Sierra2">Sierra 2 (Error Diffusion)</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Sierra2">Sierra 2 (Error Diffusion)</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Sierra2.Info">Frankie Sierra's 5x2-matrix</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.SierraLite">Sierra Lite (Error Diffusion)</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.SierraLite">Sierra Lite (Error Diffusion)</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.SierraLite.Info">Frankie Sierra's 3x2-matrix</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.StevensonArce">Stevenson-Arce (Error Diffusion)</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.StevensonArce">Stevenson-Arce (Error Diffusion)</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.StevensonArce.Info">Een 7x4 hexagonale matrix van Stevenson en Arce</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Stucki">Stucki (Error Diffusion)</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Stucki">Stucki (Error Diffusion)</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Stucki.Info">Stucki's 5x3-matrix</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.RandomNoise">Willekeurig ruis</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.RandomNoise.Info">Willekeurige witte ruis</s:String>
@@ -2218,7 +2257,7 @@
     <s:String x:Key="S.Preset.Encoder.Webm.Lossless.Info">Maximale kwaliteit, zonder kleurdegradatie</s:String>
     
     <!--Preset • Video-->
-    <s:String x:Key="S.Preset.Encoder.Video.Codec">Codec</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Video.Codec">Codec</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Video.Codec.Info">De videoencoder die verantwoordelijk is voor&#10;het omzetten van de ruwe pixels naar het uitvoerbestand</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.CodecPreset">Codecpreset</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.None">Geen</s:String>
@@ -2254,10 +2293,10 @@
     <s:String x:Key="S.Preset.Encoder.Video.Crf.Info">Constant Rate Factor.&#10;Kwaliteit- en snelheidsinstelling.&#10;Laat het leeg als je deze eigenschap niet wilt instellen</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.QualityLevel">Kwaliteitsniveau</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.QualityLevel.Info">Kleinere waarden betekenen betere kwaliteit</s:String>
-    <s:String x:Key="S.Preset.Encoder.Video.Bitrate">Bitrate</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Video.Bitrate">Bitrate</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Info">Doel video-bitrate</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Mode">Bitrate-modus</s:String>
-    <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Mode.Constant">Constant</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Video.Bitrate.Mode.Constant">Constant</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Mode.Variable">Variabel</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Minimum">Minimale snelheid</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Minimum.Info">Minimale bitrate-tolerantie.&#10;Het meest nuttig bij gebruik van CBR-modus.&#10;Laat het leeg of zet het op nul &#10;als je deze eigenschap niet wilt instellen</s:String>
@@ -2268,7 +2307,7 @@
     <s:String x:Key="S.Preset.Encoder.Video.Audio.Include">Audio opnemen</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.Audio.Include.Info">Als het project audiotracks bevat, worden deze in het uitvoerbestand opgenomen</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.Audio.Format">Audioformaat</s:String>
-    <s:String x:Key="S.Preset.Encoder.Video.Audio.Codec">Audio codec</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Audio.Codec">Audiocodec</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.Audio.BitRate">Audio bitrate</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.Audio.SampleRate">Audio samplefrequentie</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.Audio.Channels">Kanalen</s:String>
@@ -2297,7 +2336,7 @@
     <s:String x:Key="S.UploadPreset.PreferVideo.Info">De geleverde link zal video zijn in plaats van gif</s:String>
     <s:String x:Key="S.UploadPreset.UploadToAlbum">Uploaden naar een album</s:String>
     <s:String x:Key="S.UploadPreset.UploadToAlbum.Info">Het bestand wordt geüpload naar een album naar keuze</s:String>
-    <s:String x:Key="S.UploadPreset.Album">Album</s:String>
+    <!--<s:String x:Key="S.UploadPreset.Album">Album</s:String>-->
     <s:String x:Key="S.UploadPreset.Album.AskMe.Title">Vraag het mij</s:String>
     <s:String x:Key="S.UploadPreset.Album.Empty.Title">Geen beschikbaar</s:String>
     <s:String x:Key="S.UploadPreset.Album.Empty.Message">Geen album of map beschikbaar</s:String>
@@ -2314,7 +2353,7 @@
     <s:String x:Key="S.UploadPreset.History.Title">Uploadgeschiedenis</s:String>
     <s:String x:Key="S.UploadPreset.History.Title.Info">Lijst van bestanden geüpload met deze preset</s:String>
     <s:String x:Key="S.UploadPreset.History.Item">Uploaditem</s:String>
-    <s:String x:Key="S.UploadPreset.History.Details">Details</s:String>
+    <!--<s:String x:Key="S.UploadPreset.History.Details">Details</s:String>-->
 
     <s:String x:Key="S.UploadPreset.History.Empty.Header">Geen uploadgeschiedenis beschikbaar voor deze preset</s:String>
     <s:String x:Key="S.UploadPreset.History.Empty.Message">Zodra een bestand is geüpload, zie je het in deze lijst</s:String>
@@ -2326,15 +2365,15 @@
     <s:String x:Key="S.Presets.Default.Description">Standaardpreset voor de encoder</s:String>
     <s:String x:Key="S.Presets.Twitter.Title">Voor X/Twitter ({0})</s:String>
     <s:String x:Key="S.Presets.Twitter.Description">Houdt rekening met X/Twitter uploadlimieten (behalve grootte en resolutie)</s:String>
-    <s:String x:Key="S.Presets.Hevc.Title">HEVC ({0})</s:String>
+    <!--<s:String x:Key="S.Presets.Hevc.Title">HEVC ({0})</s:String>-->
     <s:String x:Key="S.Presets.Hevc.Description">Hoge efficiëntie videocodering</s:String>
-    <s:String x:Key="S.Presets.Vp8.Title">VP8 ({0})</s:String>
+    <!--<s:String x:Key="S.Presets.Vp8.Title">VP8 ({0})</s:String>-->
     <s:String x:Key="S.Presets.Vp8.Description">Oudere en beter bekende codec</s:String>
     <s:String x:Key="S.Presets.Filename.Animation">Animatie</s:String>
-    <s:String x:Key="S.Presets.Filename.Video">Video</s:String>
+    <!--<s:String x:Key="S.Presets.Filename.Video">Video</s:String>-->
     <s:String x:Key="S.Presets.Filename.Image">Afbeelding</s:String>
-    <s:String x:Key="S.Presets.Filename.Audio">Audio</s:String>
-    <s:String x:Key="S.Presets.Filename.Project">Project</s:String>
+    <!--<s:String x:Key="S.Presets.Filename.Audio">Audio</s:String>-->
+    <!--<s:String x:Key="S.Presets.Filename.Project">Project</s:String>-->
 
     <s:String x:Key="S.Presets.Gif.Embedded.High.Title">Hoge kwaliteit</s:String>
     <s:String x:Key="S.Presets.Gif.Embedded.High.Description">Beter geschikt voor opnames met meer kleuren en verlopen.</s:String>
@@ -2368,11 +2407,11 @@
 
     <s:String x:Key="S.Presets.Audio.Low.Title">Laag</s:String>
     <s:String x:Key="S.Presets.Audio.Low.Description">Voor informele spraakvertelling; 128 kbps • 44,1 kHz</s:String>
-    <s:String x:Key="S.Presets.Audio.Medium.Title">Medium</s:String>
+    <!--<s:String x:Key="S.Presets.Audio.Medium.Title">Medium</s:String>-->
     <s:String x:Key="S.Presets.Audio.Medium.Description">Gebalanceerde kwaliteit voor dagelijks audio; 192 kbps • 44,1 kHz</s:String>
     <s:String x:Key="S.Presets.Audio.High.Title">Hoog</s:String>
     <s:String x:Key="S.Presets.Audio.High.Description">Rijk geluid voor muziek- en videoweergave; 320 kbps • 48 kHz</s:String>
-    <s:String x:Key="S.Presets.Audio.Studio.Title">Studio</s:String>
+    <!--<s:String x:Key="S.Presets.Audio.Studio.Title">Studio</s:String>-->
     <s:String x:Key="S.Presets.Audio.Studio.Description">Maximaal detail voor professioneel masteren; 320 kbps • 96 kHz</s:String>
 
     <!--Font Styles-->
@@ -2387,7 +2426,7 @@
     <s:String x:Key="S.FontWeights.ExtraLight">Extra licht</s:String>
     <s:String x:Key="S.FontWeights.Light">Licht</s:String>
     <s:String x:Key="S.FontWeights.Normal">Normaal</s:String>
-    <s:String x:Key="S.FontWeights.Medium">Medium</s:String>
+    <!--<s:String x:Key="S.FontWeights.Medium">Medium</s:String>-->
     <s:String x:Key="S.FontWeights.SemiBold">Semi vet</s:String>
     <s:String x:Key="S.FontWeights.Bold">Vet</s:String>
     <s:String x:Key="S.FontWeights.ExtraBold">Extra vet</s:String>
@@ -2400,7 +2439,7 @@
     <s:String x:Key="S.FontStretch.ExtraCondensed">Extra ingekort</s:String>
     <s:String x:Key="S.FontStretch.Condensed">Ingekort</s:String>
     <s:String x:Key="S.FontStretch.SemiCondensed">Half ingekort</s:String>
-    <s:String x:Key="S.FontStretch.Medium">Medium</s:String>
+    <!--<s:String x:Key="S.FontStretch.Medium">Medium</s:String>-->
     <s:String x:Key="S.FontStretch.Normal">Normaal</s:String>
     <s:String x:Key="S.FontStretch.SemiExpanded">Half uitgerekt</s:String>
     <s:String x:Key="S.FontStretch.Expanded">Uitgebreid</s:String>

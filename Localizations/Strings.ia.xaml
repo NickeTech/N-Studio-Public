@@ -2,14 +2,14 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:s="clr-namespace:System;assembly=mscorlib"
                     xml:space="preserve">
-    
+
     <!--To use a NewLine: &#10; or CarriageReturn + NewLine: &#13;&#10;-->
     <!--You can use the zero-width-divider to suggest where the word should be divided when there's no space &#8203;-->
     <!--Special texts like {0}, are placeholders for dynamic values, such as numbers.-->
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Traducte per machina (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-14</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-27</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Accepta</s:String>
@@ -69,6 +69,7 @@
     <s:String x:Key="S.Imperative.SendWithout">Enviar sin</s:String>
     <s:String x:Key="S.Imperative.Trim">Recortar</s:String>
     <s:String x:Key="S.Imperative.Resize">Redimensionar</s:String>
+    <s:String x:Key="S.Imperative.Search">Cercar</s:String>
 
     <!--Time • Referential-->
     <s:String x:Key="S.Time.Ago.Seconds">alcun secundas passate</s:String>
@@ -83,7 +84,7 @@
     <s:String x:Key="S.Time.Ago.Year">ultimo anno</s:String>
     <s:String x:Key="S.Time.Ago.Years">{0} annos passate</s:String>
 
-    <!--Time • Static (leave 2/3-4 plurals same as the normal plural if your language makes no difference for those quantities)--> 
+    <!--Time • Static (leave 2/3-4 plurals same as the normal plural if your language makes no difference for those quantities)-->
     <s:String x:Key="S.Time.Static.Millisecond">millisecondo</s:String>
     <s:String x:Key="S.Time.Static.Milliseconds">millisecondos</s:String>
     <s:String x:Key="S.Time.Static.Milliseconds.2">millisecondos</s:String>
@@ -207,7 +208,7 @@
     <s:String x:Key="S.Dialog.ImportLocalization.Language">Lingua</s:String>
     <s:String x:Key="S.Dialog.ImportLocalization.Select.Info">Selecciona un localization pro importar</s:String>
     <s:String x:Key="S.Dialog.ImportLocalization.Open">Aperir un localization</s:String>
-    <!--<s:String x:Key="S.Dialog.ImportLocalization.File">Localization</s:String>-->
+    <s:String x:Key="S.Dialog.ImportLocalization.File">Localisation</s:String>
 
     <!--Dialogs • Upgrade now-->
     <s:String x:Key="S.Dialog.UpgradeNow.Header">Actualizar ora</s:String>
@@ -269,7 +270,7 @@
     <!--<s:String x:Key="S.Dialog.Effects.Easing.Type.Quadratic">Quadratic</s:String>-->
     <!--<s:String x:Key="S.Dialog.Effects.Easing.Type.Quartic">Quartic</s:String>-->
     <!--<s:String x:Key="S.Dialog.Effects.Easing.Type.Quintic">Quintic</s:String>-->
-    <!--<s:String x:Key="S.Dialog.Effects.Easing.Type.Sine">Sine</s:String>-->
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Sine">Sinus</s:String>
     <s:String x:Key="S.Dialog.Effects.Easing.Type.KeyFrames">Frame de claves</s:String>
     <s:String x:Key="S.Dialog.Effects.Easing.Mode">Modo de facilitation</s:String>
     <s:String x:Key="S.Dialog.Effects.Easing.Mode.In">Facilita in</s:String>
@@ -395,15 +396,28 @@
     <s:String x:Key="S.Dialogs.Cache.Message">Quando tu crea un registration o aperi alcun cosa pro editar, un projecto es create e conservate in le cartella de cache.</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent">Conservar projectos recent</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent.Info">Solmente projectos plus vetule que lo configure in Settings > Storage sera delitate</s:String>
-    
+
     <!--Dialogs • Resize canvas-->
     <s:String x:Key="S.Dialogs.ResizeCanvas.Header">Redimensionar le tela</s:String>
     <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent">Redimensionar le contento existente al nove dimension de tela</s:String>
     <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent.Info">Quando activate, le contento existente es redimensionate e repositionate pro correspondere al nove dimensiones del tela.&#10;Quando deactivate, solmente le dimension del tela cambia.</s:String>
-    
+
     <!--Dialogs • Trim canvas-->
     <s:String x:Key="S.Dialogs.TrimCanvas.Header">Recortar tela</s:String>
     <s:String x:Key="S.Dialogs.TrimCanvas.Direction">Directiones de recorte</s:String>
+
+    <!--Dialogs • Trim canvas-->
+    <s:String x:Key="S.Dialogs.SmoothLoop.Header">Cercar un bucla fluide</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.Similarity">Similaritate</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.TrimDirection">Direction de reduction</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.TrimDirection.End">Reducer le fin pro corresponder al prime quadro</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.TrimDirection.Start">Reducer le initio pro corresponder al ultime quadro</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.MinimumLength">Longor minime</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm">Algorithm de comparation</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Pixel">Differentia de pixel (rapide)</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Perceptual">Hash perceptual (equilibrate)</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Structural">Similaritate structural (accurate)</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.TracksToInclude">Tracias a includer in le recerca</s:String>
 
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">Campes requirite</s:String>
@@ -487,6 +501,10 @@
     <s:String x:Key="S.Success.StorageCleanup.Header">Successo</s:String>
     <s:String x:Key="S.Success.StorageCleanup.Message">Cache limpezza succedite</s:String>
 
+    <!--Success • Smooth loop--> 
+    <s:String x:Key="S.Success.SmoothLoop.Header">Bucla fluide trovate</s:String>
+    <s:String x:Key="S.Success.SmoothLoop.Message">Trovate un bucla con {0:0.##}% de similaritate</s:String>
+
     <!--Info • Pro feature-->
     <s:String x:Key="S.Info.ProFeature.Header">Solmente pro Pro</s:String>
     <s:String x:Key="S.Info.ProFeature.Message">Actualizar pro disbloccar iste function</s:String>
@@ -514,6 +532,14 @@
     <s:String x:Key="S.Info.FeedbackSent.Header">Gratias pro tu retroalimentation</s:String>
     <s:String x:Key="S.Info.FeedbackSent.Message">Tu message ha essite inviate. Nos apprecia que tu prendeva le tempore pro compartir lo con nos</s:String>
 
+    <!--Info • Smooth loop partial-->
+    <s:String x:Key="S.Info.SmoothLoopPartial.Header">Correspondentia partial trovate</s:String>
+    <s:String x:Key="S.Info.SmoothLoopPartial.Message">Le correspondentia le plus proxime habeva {0:0.##}% de similaritate. Clicca ‘Usar iste correspondentia’ pro applicar lo comunque</s:String>
+
+    <!--Info • Smooth loop cancelled-->
+    <s:String x:Key="S.Info.SmoothLoopCancelled.Header">Recerca cancellate</s:String>
+    <s:String x:Key="S.Info.SmoothLoopCancelled.Message">Le recerca de bucla esseva cancellate</s:String>
+
     <!--Warnings • Single instance-->
     <s:String x:Key="S.Warning.Single.Header">Le application es ja in curso</s:String>
     <s:String x:Key="S.Warning.Single.Message">N-Studio ja corre, ma aparentemente il ha nulle fenestra aperte. Verifica tu tray systema, le icona de N-Studio debe esser ibi</s:String>
@@ -528,25 +554,29 @@
     <s:String x:Key="S.Warning.InvalidFileName.Fix">Fixar</s:String>
     <s:String x:Key="S.Warning.InvalidFileName.Fix.Info">Remove characteres invalide del nomine del file</s:String>
 
-    <!--Warnings • File already exists-->  
+    <!--Warnings • File already exists--> 
     <s:String x:Key="S.Warning.FileAlreadyExists.Header">Le file ja existe</s:String>
     <s:String x:Key="S.Warning.FileAlreadyExists.Message">Le nomine del file contine characteres invalide</s:String>
 
-    <!--Warnings • Failed to authenticate token-->  
+    <!--Warnings • Failed to authenticate token--> 
     <s:String x:Key="S.Warning.FailedToken.Header">Impossible obtener responsa</s:String>
     <s:String x:Key="S.Warning.FailedToken.Message">Incolla le URL complete hic pro authenticar</s:String>
 
-    <!--Warnings • Authorization missing-->  
+    <!--Warnings • Authorization missing--> 
     <s:String x:Key="S.Warning.AuthorizationMissing.Header">Authorization mancante</s:String>
     <s:String x:Key="S.Warning.AuthorizationMissing.Message">Tu non pote uploader al service seligite proque tu non te connecteva</s:String>
 
-    <!--Warnings • Unsupported files dropped-->  
+    <!--Warnings • Unsupported files dropped--> 
     <s:String x:Key="S.Warning.Drop.Header">Non supportate o invalide</s:String>
     <s:String x:Key="S.Warning.Drop.Message">Il non esseva possibile inserer o aperir le file(s)</s:String>
 
-    <!--Warnings • Low on space-->  
+    <!--Warnings • Low on space-->
     <s:String x:Key="S.Warning.LowSpace.Header">Poco spatio</s:String>
     <s:String x:Key="S.Warning.LowSpace.Message">Clear spatio in tu disco de cache pro poter registrar</s:String>
+
+    <!--Warnings • No smooth loop found-->
+    <s:String x:Key="S.Warning.SmoothLoopNotFound.Header">Nulle correspondentia trovate</s:String>
+    <s:String x:Key="S.Warning.SmoothLoopNotFound.Message">Impossibile trovar un puncto de bucla appropriate. Proba ajustar le threshold de similaritate o le longor minime.</s:String>
 
     <!--Warnings • Graphics engine-->
     <s:String x:Key="S.Warning.Graphics.Title">Cambiar adaptator de graphica</s:String>
@@ -757,6 +787,10 @@
     <s:String x:Key="S.Errors.StorageCleanup.Header">Error in le limpezza</s:String>
     <s:String x:Key="S.Errors.StorageCleanup.Message">Il non esseva possibile limpiar le cache</s:String>
 
+    <!--Error • Smooth loop search--> 
+    <s:String x:Key="S.Errors.SmoothLoop.Header">Recerca fallite</s:String>
+    <s:String x:Key="S.Errors.SmoothLoop.Message">Un error occurreva durante le recerca de bucla</s:String>
+
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Activation fallite</s:String>
     <s:String x:Key="S.Errors.Activation.Generic">Il non esseva possibile activear le applico pro un problema incognite</s:String>
@@ -775,7 +809,7 @@
     <s:String x:Key="S.Welcome.Feedback">Retroalimentation</s:String>
     <s:String x:Key="S.Welcome.Upgrade">Actualizar a Pro</s:String>
     <s:String x:Key="S.Welcome.Troubleshoot">Resolver problemas</s:String>
-    <!--<s:String x:Key="S.Welcome.Settings">Settings</s:String>-->
+    <s:String x:Key="S.Welcome.Settings">Configurationes</s:String>
     <s:String x:Key="S.Welcome.RecentProjects">Projectos recent</s:String>
     <s:String x:Key="S.Welcome.RecentProjects.DiscardAll">Discarder tote</s:String>
     <s:String x:Key="S.Welcome.RecentProjects.DiscardAll.Info">Delita tote le projectos ab le cache</s:String>
@@ -894,7 +928,11 @@
     <s:String x:Key="S.Exporter.Resize.MaintainRatio.Info">Le ratio essera mantenite lo plus possibile,&#10;mente provante resultar in un latessa e altezza con numeros integre</s:String>
 
     <!--Windows • Exporter > Trim-->
-    <s:String x:Key="S.Exporter.Trim.NewTarget">Novo tempore destinate</s:String>
+    <s:String x:Key="S.Exporter.Trim.Original">Duration original</s:String>
+    <s:String x:Key="S.Exporter.Trim.Trimmed">Duration reducite</s:String>
+    <s:String x:Key="S.Exporter.Trim.FindLoop">Cercar un bucla fluide...</s:String>
+    <s:String x:Key="S.Exporter.Trim.FindLoop.Searching">Cercante un bucla fluide...</s:String>
+    <s:String x:Key="S.Exporter.Trim.FindLoop.Cancel">Cancellar recerca</s:String>
 
     <!--Windows • Exporter > Framerate-->
     <s:String x:Key="S.Exporter.Framerate.Mode.Info">Modo de cadence de quadros</s:String>
@@ -940,6 +978,7 @@
     <s:String x:Key="S.Exporter.Encoding.Actions.More">Plus actiones</s:String>
     <s:String x:Key="S.Exporter.Encoding.Actions.OpenFolder">Aperir cartella</s:String>
     <s:String x:Key="S.Exporter.Encoding.Actions.CopyFile">Copiar file</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Actions.CopyFolderPath">Copiar percurso del dossier</s:String>
     <s:String x:Key="S.Exporter.Encoding.Actions.CopyPath">Copiar percorso</s:String>
     <s:String x:Key="S.Exporter.Encoding.Actions.DeleteFile">Delitar file</s:String>
 
@@ -1129,7 +1168,7 @@
     <s:String x:Key="S.Capture.Snap">Instantanea</s:String>
     <s:String x:Key="S.Capture.Pause">Pausar</s:String>
     <s:String x:Key="S.Capture.Continue">Continuar</s:String>
-    <!--<s:String x:Key="S.Capture.Stop">Stop</s:String>-->
+    <s:String x:Key="S.Capture.Stop">Stoppar</s:String>
     <s:String x:Key="S.Capture.Discard">Discardar</s:String>
     <s:String x:Key="S.Capture.Time">Tempore de capture</s:String>
 
@@ -1236,8 +1275,8 @@
     <s:String x:Key="S.Track.Properties.Info">Proprietates del trajecto</s:String>
 
     <!--Status-->
-    <!--<s:String x:Key="S.Status.On">On</s:String>-->
-    <!--<s:String x:Key="S.Status.Off">Off</s:String>-->
+    <s:String x:Key="S.Status.On">Activate</s:String>
+    <s:String x:Key="S.Status.Off">Disactivate</s:String>
 
     <!--Drag and drop-->
     <s:String x:Key="S.DragDrop.Info">Tu pote lassar cader media files o un projecto hic</s:String>
@@ -1259,10 +1298,10 @@
     <!--<s:String x:Key="S.Keys.CapsLock">Caps Lock</s:String>-->
     <!--<s:String x:Key="S.Keys.Escape">Esc</s:String>-->
     <s:String x:Key="S.Keys.Space">Spatio</s:String>
-    <!--<s:String x:Key="S.Keys.PageUp">Page Up</s:String>-->
-    <!--<s:String x:Key="S.Keys.PageDown">Page Down</s:String>-->
-    <!--<s:String x:Key="S.Keys.Home">Home</s:String>-->
-    <!--<s:String x:Key="S.Keys.End">End</s:String>-->
+    <s:String x:Key="S.Keys.PageUp">Pagina supra</s:String>
+    <s:String x:Key="S.Keys.PageDown">Pagina a basso</s:String>
+    <s:String x:Key="S.Keys.Home">Initio</s:String>
+    <s:String x:Key="S.Keys.End">Fin</s:String>
     <s:String x:Key="S.Keys.Left">Freccia sinistre</s:String>
     <s:String x:Key="S.Keys.Up">Freccia super</s:String>
     <s:String x:Key="S.Keys.Right">Freccia recte</s:String>
@@ -1273,21 +1312,21 @@
     <!--<s:String x:Key="S.Keys.NumLock">Num Lock</s:String>-->
     <!--<s:String x:Key="S.Keys.ScrollLock">Scroll Lock</s:String>-->
     <!--<s:String x:Key="S.Keys.Shift">Shift</s:String>-->
-    <!--<s:String x:Key="S.Keys.LeftShift">Left Shift</s:String>-->
-    <!--<s:String x:Key="S.Keys.RightShift">Right Shift</s:String>-->
+    <s:String x:Key="S.Keys.LeftShift">Shift sinistre</s:String>
+    <s:String x:Key="S.Keys.RightShift">Shift dextere</s:String>
     <!--<s:String x:Key="S.Keys.Alt">Alt</s:String>-->
-    <!--<s:String x:Key="S.Keys.LeftAlt">Left Alt</s:String>-->
-    <!--<s:String x:Key="S.Keys.RightAlt">Right Alt</s:String>-->
+    <s:String x:Key="S.Keys.LeftAlt">Alt sinistre</s:String>
+    <s:String x:Key="S.Keys.RightAlt">Alt dextere</s:String>
     <!--<s:String x:Key="S.Keys.Ctrl">Control</s:String>-->
-    <!--<s:String x:Key="S.Keys.LeftCtrl">Left Ctrl</s:String>-->
-    <!--<s:String x:Key="S.Keys.RightCtrl">Right Ctrl</s:String>-->
+    <s:String x:Key="S.Keys.LeftCtrl">Ctrl sinistre</s:String>
+    <s:String x:Key="S.Keys.RightCtrl">Ctrl dextere</s:String>
     <!--<s:String x:Key="S.Keys.Windows">Windows</s:String>-->
-    <!--<s:String x:Key="S.Keys.LeftWindows">Left Windows</s:String>-->
-    <!--<s:String x:Key="S.Keys.RightWindows">Right Windows</s:String>-->
-    <!--<s:String x:Key="S.Keys.NextTrack">Next Track</s:String>-->
-    <!--<s:String x:Key="S.Keys.PreviousTrack">Previous Track</s:String>-->
-    <!--<s:String x:Key="S.Keys.PlayPause">Play/Pause</s:String>-->
-    <!--<s:String x:Key="S.Keys.Stop">Stop</s:String>-->
+    <s:String x:Key="S.Keys.LeftWindows">Windows sinistre</s:String>
+    <s:String x:Key="S.Keys.RightWindows">Windows dextere</s:String>
+    <s:String x:Key="S.Keys.NextTrack">Tracia sequente</s:String>
+    <s:String x:Key="S.Keys.PreviousTrack">Tracia precedente</s:String>
+    <s:String x:Key="S.Keys.PlayPause">Reproducer/Pausar</s:String>
+    <s:String x:Key="S.Keys.Stop">Stoppar</s:String>
 
     <!--Mouse buttons-->
     <s:String x:Key="S.Mouse.Right">Clic dextere</s:String>
@@ -1308,56 +1347,56 @@
     <s:String x:Key="S.Formats.Type.All">Tote le files</s:String>
 
     <!--<s:String x:Key="S.Formats.Apng">Apng</s:String>-->
-    <!--<s:String x:Key="S.Formats.Apng.Info">Animated Portable Network Graphics</s:String>-->
+    <s:String x:Key="S.Formats.Apng.Info">Graphicos de rete portabile animate</s:String>
     <!--<s:String x:Key="S.Formats.Gif">Gif</s:String>-->
-    <!--<s:String x:Key="S.Formats.Gif.Info">Graphics Interchange Format</s:String>-->
+    <s:String x:Key="S.Formats.Gif.Info">Formato de intercambio graphic</s:String>
     <!--<s:String x:Key="S.Formats.Webp">Webp</s:String>-->
-    <!--<s:String x:Key="S.Formats.Webp.Info">Web Picture</s:String>-->
+    <s:String x:Key="S.Formats.Webp.Info">Imagine web</s:String>
 
     <!--<s:String x:Key="S.Formats.Avi">Avi</s:String>-->
     <!--<s:String x:Key="S.Formats.Avi.Info">Audio Video Interleave</s:String>-->
     <!--<s:String x:Key="S.Formats.Mkv">Mkv</s:String>-->
     <!--<s:String x:Key="S.Formats.Mkv.Info">Matroska</s:String>-->
     <!--<s:String x:Key="S.Formats.Mov">Mov</s:String>-->
-    <!--<s:String x:Key="S.Formats.Mov.Info">QuickTime File Format</s:String>-->
+    <s:String x:Key="S.Formats.Mov.Info">Formato de file QuickTime</s:String>
     <!--<s:String x:Key="S.Formats.Mp4">Mp4</s:String>-->
     <!--<s:String x:Key="S.Formats.Mp4.Info">Mpeg-4</s:String>-->
     <!--<s:String x:Key="S.Formats.Webm">Webm</s:String>-->
-    <!--<s:String x:Key="S.Formats.Webm.Info">Web Movie</s:String>-->
+    <s:String x:Key="S.Formats.Webm.Info">Film web</s:String>
 
     <!--<s:String x:Key="S.Formats.Aac">Aac</s:String>-->
-    <!--<s:String x:Key="S.Formats.Aac.Info">Advanced Audio Coding</s:String>-->
+    <s:String x:Key="S.Formats.Aac.Info">Codification audio avantiate</s:String>
     <!--<s:String x:Key="S.Formats.Ac3">Ac3</s:String>-->
-    <!--<s:String x:Key="S.Formats.Ac3.Info">Audio Codec 3</s:String>-->
+    <s:String x:Key="S.Formats.Ac3.Info">Codec audio 3</s:String>
     <!--<s:String x:Key="S.Formats.Aiff">Aiff</s:String>-->
-    <!--<s:String x:Key="S.Formats.Aiff.Info">Audio Interchange File Format</s:String>-->
+    <s:String x:Key="S.Formats.Aiff.Info">Formato de intercambio audio</s:String>
     <!--<s:String x:Key="S.Formats.Alac">Alac</s:String>-->
-    <!--<s:String x:Key="S.Formats.Alac.Info">Apple Lossless Audio Codec</s:String>-->
+    <s:String x:Key="S.Formats.Alac.Info">Codec audio sin perdita Apple</s:String>
     <!--<s:String x:Key="S.Formats.Amr">Amr</s:String>-->
-    <!--<s:String x:Key="S.Formats.Amr.Info">Adaptive Multi-Rate</s:String>-->
+    <s:String x:Key="S.Formats.Amr.Info">Multi‑rata adaptative</s:String>
     <!--<s:String x:Key="S.Formats.Flac">Flac</s:String>-->
-    <!--<s:String x:Key="S.Formats.Flac.Info">Free Lossless Audio Codec</s:String>-->
+    <s:String x:Key="S.Formats.Flac.Info">Codec audio sin perdita libere</s:String>
     <!--<s:String x:Key="S.Formats.Mp3">Mp3</s:String>-->
-    <!--<s:String x:Key="S.Formats.Mp3.Info">MPEG-1/2 Audio Layer III</s:String>-->
+    <s:String x:Key="S.Formats.Mp3.Info">MPEG‑1/2 Audio Layer III</s:String>
     <!--<s:String x:Key="S.Formats.Ogg">Ogg</s:String>-->
-    <!--<s:String x:Key="S.Formats.Ogg.Info">Ogg Vorbis Container</s:String>-->
+    <s:String x:Key="S.Formats.Ogg.Info">Contenitor Ogg Vorbis</s:String>
     <!--<s:String x:Key="S.Formats.Opus">Opus</s:String>-->
     <!--<s:String x:Key="S.Formats.Opus.Info">Opus</s:String>-->
     <!--<s:String x:Key="S.Formats.Wav">Wav</s:String>-->
-    <!--<s:String x:Key="S.Formats.Wav.Info">Waveform Audio File Format</s:String>-->
+    <s:String x:Key="S.Formats.Wav.Info">Formato audio Waveform</s:String>
     <!--<s:String x:Key="S.Formats.Wma">Wma</s:String>-->
     <!--<s:String x:Key="S.Formats.Wma.Info">Windows Media Audio</s:String>-->
 
     <!--<s:String x:Key="S.Formats.Avif">AVIF</s:String>-->
-    <!--<s:String x:Key="S.Formats.Avif.Info">AV1‑Compressed Image (HEIF/AV1)</s:String>-->
+    <s:String x:Key="S.Formats.Avif.Info">Imagine comprimite AV1 (HEIF/AV1)</s:String>
     <!--<s:String x:Key="S.Formats.Bmp">Bmp</s:String>-->
     <!--<s:String x:Key="S.Formats.Bmp.Info">Bitmap</s:String>-->
     <!--<s:String x:Key="S.Formats.Heic">HEIC</s:String>-->
-    <!--<s:String x:Key="S.Formats.Heic.Info">High‑Efficiency Image (HEIF/HEVC)</s:String>-->
+    <s:String x:Key="S.Formats.Heic.Info">Imagine de alte efficientia (HEIF/HEVC)</s:String>
     <!--<s:String x:Key="S.Formats.Jpeg">Jpeg</s:String>-->
     <!--<s:String x:Key="S.Formats.Jpeg.Info">Joint Photographic Experts Group</s:String>-->
     <!--<s:String x:Key="S.Formats.Png">Png</s:String>-->
-    <!--<s:String x:Key="S.Formats.Png.Info">Portable Network Graphics</s:String>-->
+    <s:String x:Key="S.Formats.Png.Info">Graphicos de rete portabile</s:String>
     <s:String x:Key="S.Formats.Images.Zip">Immagines packageate</s:String>
 
     <s:String x:Key="S.Formats.Project">Projecto</s:String>
@@ -1405,23 +1444,23 @@
     <s:String x:Key="S.Settings.Pages.DefaultEffects">Effectos predefinite</s:String>
     <!--<s:String x:Key="S.Settings.Pages.Editor">Editor</s:String>-->
     <s:String x:Key="S.Settings.Pages.Exporter">Exportator</s:String>
-    <!--<s:String x:Key="S.Settings.Pages.Storage">Storage</s:String>-->
+    <s:String x:Key="S.Settings.Pages.Storage">Immagazinage</s:String>
     <!--<s:String x:Key="S.Settings.Pages.Plugins">Plugins</s:String>-->
     <s:String x:Key="S.Settings.Pages.Update">Actualisation</s:String>
     <s:String x:Key="S.Settings.Pages.About">Super</s:String>
 
     <!--Settings • Sections-->
-    <!--<s:String x:Key="S.Settings.Sections.Interface">Interface</s:String>-->
-    <!--<s:String x:Key="S.Settings.Sections.Behavior">Behavior</s:String>-->
+    <s:String x:Key="S.Settings.Sections.Interface">Interfacie</s:String>
+    <s:String x:Key="S.Settings.Sections.Behavior">Comportamento</s:String>
     <s:String x:Key="S.Settings.Sections.InterfaceBehavior">Interface e behavior</s:String>
-    <!--<s:String x:Key="S.Settings.Sections.Shortcuts">Shortcuts</s:String>-->
+    <s:String x:Key="S.Settings.Sections.Shortcuts">Vias breve</s:String>
     <!--<s:String x:Key="S.Settings.Sections.Selection">Selection</s:String>-->
-    <!--<s:String x:Key="S.Settings.Sections.Capture">Capture</s:String>-->
+    <s:String x:Key="S.Settings.Sections.Capture">Captura</s:String>
     <s:String x:Key="S.Settings.Sections.Guidelines">Guidas</s:String>
     <s:String x:Key="S.Settings.Sections.TemporaryFiles">Files temporales</s:String>
     <s:String x:Key="S.Settings.Sections.Cleanup">Limpeza</s:String>
     <s:String x:Key="S.Settings.Sections.MoreOptions">Plus optiones</s:String>
-    <!--<s:String x:Key="S.Settings.Sections.Styles">Styles</s:String>-->
+    <s:String x:Key="S.Settings.Sections.Styles">Stilos</s:String>
 
     <!--Settings • Application-->
     <s:String x:Key="S.Settings.Application.Language">Lingua</s:String>
@@ -1457,7 +1496,7 @@
     <s:String x:Key="S.Settings.Application.Tray.Interactions.Else">Altere, aperi</s:String>
 
     <!--Settings • Application > Startup-->
-    <!--<s:String x:Key="S.Settings.Application.Startup">Startup</s:String>-->
+    <s:String x:Key="S.Settings.Application.Startup">Initio</s:String>
     <s:String x:Key="S.Settings.Application.Startup.Info">Controla como le applico se comporta al initio</s:String>
     <s:String x:Key="S.Settings.Application.Startup.StartWith">Inicia con</s:String>
     <s:String x:Key="S.Settings.Application.Startup.StartWith.Info">Le fenestra de initio del applico</s:String>
@@ -1503,7 +1542,7 @@
 
     <s:String x:Key="S.Settings.ScreenRecorder.Shortcuts.StartPause">Iniciar/pausar</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Shortcuts.StartPause.Info">Inicia o pausa le registration (prende instantaneas si le modo manual es activate)</s:String>
-    <!--<s:String x:Key="S.Settings.ScreenRecorder.Shortcuts.Stop">Stop</s:String>-->
+    <s:String x:Key="S.Settings.ScreenRecorder.Shortcuts.Stop">Stoppar</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Shortcuts.Stop.Info">Stoppa le registration</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Shortcuts.Discard">Discardar</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Shortcuts.Discard.Info">Discarda le registration actual</s:String>
@@ -1586,11 +1625,11 @@
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.PreventBlack">Preveni capture de quadros completamente black</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.PreventBlack.Info">Preveni le capture incorrecte de quadros con tote pixeles black</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.RemoteImprovement">Disactivar capture de fenestras cum stratos, meliorante le performance in connection remote desktop</s:String>
-    
+
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.GammaCorrection">Applicar correction de gamma pro capture SDR a 10 bits</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.GammaCorrection.Info">Alternar le conversion lineari a sRGB pro capture SDR a 10 bits.&#10;Si le colores apparente incorrecte, prova a cambiar isto.</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation">Compensation de luminantia</s:String>
-    <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation.Auto">Auto</s:String>
+    <!--<s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation.Auto">Auto</s:String>-->
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation.Fixed">Fixe</s:String>
 
     <!--Settings • Screen Recorder > Capture Frequency-->
@@ -1815,7 +1854,7 @@
     <!--Settings • Styles > Dash-->
     <s:String x:Key="S.Settings.Styles.Dash">Stilo de dash</s:String>
     <s:String x:Key="S.Settings.Styles.Dash.Solid">Solide</s:String>
-    <!--<s:String x:Key="S.Settings.Styles.Dash.Dash">Dash</s:String>-->
+    <s:String x:Key="S.Settings.Styles.Dash.Dash">Tratte</s:String>
     <s:String x:Key="S.Settings.Styles.Dash.Dot">Puncto</s:String>
     <s:String x:Key="S.Settings.Styles.Dash.DashDot">Dash, puncto</s:String>
     <s:String x:Key="S.Settings.Styles.Dash.DashDotDot">Dash, puncto, puncto</s:String>
@@ -1960,7 +1999,7 @@
     <s:String x:Key="S.Preset.Identification.Info">Titulo, description e plus</s:String>
     <s:String x:Key="S.Preset.Identification.Title">Titulo</s:String>
     <!--<s:String x:Key="S.Preset.Identification.Description">Description</s:String>-->
-    <!--<s:String x:Key="S.Preset.Identification.Service">Service</s:String>-->
+    <s:String x:Key="S.Preset.Identification.Service">Servicio</s:String>
     <!--<s:String x:Key="S.Preset.Identification.Encoder">Encoder</s:String>-->
     <s:String x:Key="S.Preset.Identification.Enabled">Activate</s:String>
     <s:String x:Key="S.Preset.Identification.Enabled.Info">Solmente presets activate es disponibile pro uso</s:String>
@@ -2045,7 +2084,7 @@
     <s:String x:Key="S.Preset.Encoder.FFmpeg.Parameters.Info">Lista de parameters que sera date a FFmpeg.&#10;&#10;Parameters special:&#10;{I} es le percorso del input (le quadros).&#10;{O} es le percurso del output (le file exportate).&#10;{W} es le largesse del quadro.&#10;{H} es le altezza del quadro.</s:String>
     <s:String x:Key="S.Preset.Encoder.FFmpeg.Preview">Previsualisation</s:String>
     <s:String x:Key="S.Preset.Encoder.FFmpeg.Preview.Info">Commandos complete como los qui sera transmittite a FFmpeg</s:String>
-    <!--<s:String x:Key="S.Preset.Encoder.FFmpeg.Help.PngFilters">PNG Filters</s:String>-->
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.Help.PngFilters">Filtros PNG</s:String>
     <s:String x:Key="S.Preset.Encoder.FFmpeg.Help.Format">Documentos de formato</s:String>
     <s:String x:Key="S.Preset.Encoder.FFmpeg.Help.Filters">Documentos de filtros</s:String>
     <s:String x:Key="S.Preset.Encoder.FFmpeg.PixelFormat">Formato de pixel</s:String>
@@ -2074,7 +2113,7 @@
     <!--Preset • Gif-->
     <s:String x:Key="S.Preset.Encoder.Gif.GlobalColorTable">Usar un tabula global de colores</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.GlobalColorTable.Info">Pote reducer le qualitate e/o le dimension del gif</s:String>
-    <!--<s:String x:Key="S.Preset.Encoder.Gif.Quantizer">Quantizer</s:String>-->
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer">Quantisator</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Info">Algorithm de reduction de colores (quantization)</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Neural">Rete neural</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Neural.Info">Quantization de alte fidelitate. Plus lente, sed bon pro un maior numero de colores</s:String>
@@ -2169,27 +2208,27 @@
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.DottedHalftone.Info">Un matrice 8x8 con un patron de mezaton dotate</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.BlueNoise">Blue Noise (Ordinate)</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.BlueNoise.Info">Un matrice 64x64 con un patron de blue noise</s:String>
-    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Atkinson">Atkinson (Error Diffusion)</s:String>-->
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Atkinson">Atkinson (Diffusion de error)</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Atkinson.Info">Le matrice 4x3 de Bill Atkinson con 6 valores effective</s:String>
-    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Burkes">Burkes (Error Diffusion)</s:String>-->
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Burkes">Burkes (Diffusion de error)</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Burkes.Info">Le matrice 5x2 de D. Burkes</s:String>
-    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.FloydSteinberg">Floyd-Steinberg (Error Diffusion)</s:String>-->
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.FloydSteinberg">Floyd-Steinberg (Diffusion de error)</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.FloydSteinberg.Info">Le originale matrice 3x2 de Floyd e Steinberg</s:String>
-    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.JarvisJudiceNinke">Jarvis-Judice-Ninke (Error Diffusion)</s:String>-->
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.JarvisJudiceNinke">Jarvis-Judice-Ninke (Diffusion de error)</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.JarvisJudiceNinke.Info">Un matrice 5x3 de Jarvis, Judice e Ninke</s:String>
-    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Sierra3">Sierra 3 (Error Diffusion)</s:String>-->
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Sierra3">Sierra 3 (Diffusion de error)</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Sierra3.Info">Le matrice 5x3 de Frankie Sierra</s:String>
-    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Sierra2">Sierra 2 (Error Diffusion)</s:String>-->
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Sierra2">Sierra 2 (Diffusion de error)</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Sierra2.Info">Le matrice 5x2 de Frankie Sierra</s:String>
-    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.SierraLite">Sierra Lite (Error Diffusion)</s:String>-->
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.SierraLite">Sierra Lite (Diffusion de error)</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.SierraLite.Info">Le matrice 3x2 de Frankie Sierra</s:String>
-    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.StevensonArce">Stevenson-Arce (Error Diffusion)</s:String>-->
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.StevensonArce">Stevenson-Arce (Diffusion de error)</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.StevensonArce.Info">Un matrice 7x4 hexagonal de Stevenson e Arce</s:String>
-    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Stucki">Stucki (Error Diffusion)</s:String>-->
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Stucki">Stucki (Diffusion de error)</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Stucki.Info">Le matrice 5x3 de Stucki</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.RandomNoise">Noise random</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.RandomNoise.Info">Noise blanc random</s:String>
-    <!--<s:String x:Key="S.Preset.Encoder.Gif.Ditherer.InterleavedGradientNoise">Interleaved gradient noise</s:String>-->
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.InterleavedGradientNoise">Rumor de gradiente intercalate</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.InterleavedGradientNoise.Info">Noise gradient non-random generate per un formula</s:String>
 
     <s:String x:Key="S.Preset.Encoder.Gif.AllowDeltaFrames">Permitter quadros delta</s:String>
@@ -2216,7 +2255,7 @@
     <s:String x:Key="S.Preset.Encoder.Webm.Preset.Text">Texto</s:String>
     <s:String x:Key="S.Preset.Encoder.Webm.Lossless">Usar modo lossless</s:String>
     <s:String x:Key="S.Preset.Encoder.Webm.Lossless.Info">Qualitate maxime, sin degradation de colores</s:String>
-
+    
     <!--Preset • Video-->
     <!--<s:String x:Key="S.Preset.Encoder.Video.Codec">Codec</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Video.Codec.Info">Le encoder video, responsable pro convertir le pixeles raw al file de output</s:String>
@@ -2235,12 +2274,12 @@
     <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Balanced">Balanceate</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Speed">Celeritate</s:String>
     <!--<s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Default">Default</s:String>-->
-    <!--<s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Lossless">Lossless</s:String>-->
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Lossless">Sin perdita</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.LosslessHp">Lossless (Alta Performance)</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Hp">Alta Performance</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Hq">Alta Qualitate</s:String>
-    <!--<s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Bd">Blu-ray Disk</s:String>-->
-    <!--<s:String x:Key="S.Preset.Encoder.Video.CodecPreset.LowLatency">Low Latency</s:String>-->
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Bd">Disco Blu-ray</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.LowLatency">Basse latencia</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.LowLatencyHp">Low Latency (Alta Performance)</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.LowLatencyHq">Low Latency (Alta Qualitate)</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Info">Velocitate de encodation al ratio de compression,&#10;preset plus lente pote dar melior compression&#10;(qualitate per dimension de file)</s:String>
@@ -2258,7 +2297,7 @@
     <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Info">Rate video objectivo</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Mode">Modo de bitrate</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Mode.Constant">Constante</s:String>
-    <!--<s:String x:Key="S.Preset.Encoder.Video.Bitrate.Mode.Variable">Variable</s:String>-->
+    <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Mode.Variable">Variabile</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Minimum">Rate minime</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Minimum.Info">Tolerantia de bitrate minime.&#10;Le plus utile quando usa modo CBR.&#10;Lassa vacue o seta a zero &#10;si tu non vole fixer iste proprietate</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Maximum">Rate maxime</s:String>
@@ -2396,16 +2435,16 @@
 
     <!--Font Stretch-->
     <s:String x:Key="S.FontStretch">Extension del fonte</s:String>
-    <!--<s:String x:Key="S.FontStretch.UltraCondensed">Ultra Condensed</s:String>-->
-    <!--<s:String x:Key="S.FontStretch.ExtraCondensed">Extra Condensed</s:String>-->
-    <!--<s:String x:Key="S.FontStretch.Condensed">Condensed</s:String>-->
-    <!--<s:String x:Key="S.FontStretch.SemiCondensed">Semi Condensed</s:String>-->
+    <s:String x:Key="S.FontStretch.UltraCondensed">Ultra condensate</s:String>
+    <s:String x:Key="S.FontStretch.ExtraCondensed">Extra condensate</s:String>
+    <s:String x:Key="S.FontStretch.Condensed">Condensate</s:String>
+    <s:String x:Key="S.FontStretch.SemiCondensed">Semi‑condensate</s:String>
     <!--<s:String x:Key="S.FontStretch.Medium">Medium</s:String>-->
     <!--<s:String x:Key="S.FontStretch.Normal">Normal</s:String>-->
-    <!--<s:String x:Key="S.FontStretch.SemiExpanded">Semi Expanded</s:String>-->
-    <!--<s:String x:Key="S.FontStretch.Expanded">Expanded</s:String>-->
-    <!--<s:String x:Key="S.FontStretch.ExtraExpanded">Extra Expanded</s:String>-->
-    <!--<s:String x:Key="S.FontStretch.UltraExpanded">Ultra Expanded</s:String>-->
+    <s:String x:Key="S.FontStretch.SemiExpanded">Semi‑expandite</s:String>
+    <s:String x:Key="S.FontStretch.Expanded">Expandite</s:String>
+    <s:String x:Key="S.FontStretch.ExtraExpanded">Extra expandite</s:String>
+    <s:String x:Key="S.FontStretch.UltraExpanded">Ultra expandite</s:String>
 
     <!--Alignment-->
     <s:String x:Key="S.Alignment.Horizontal">Aliniamento horizontal</s:String>

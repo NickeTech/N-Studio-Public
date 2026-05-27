@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ 機械翻訳 (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-14</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-27</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">受け入れる</s:String>
@@ -69,6 +69,7 @@
     <s:String x:Key="S.Imperative.SendWithout">なしで送信</s:String>
     <s:String x:Key="S.Imperative.Trim">トリム</s:String>
     <s:String x:Key="S.Imperative.Resize">リサイズ</s:String>
+    <s:String x:Key="S.Imperative.Search">検索</s:String>
 
     <!--Time • Referential-->
     <s:String x:Key="S.Time.Ago.Seconds">数秒前</s:String>
@@ -88,32 +89,32 @@
     <s:String x:Key="S.Time.Static.Milliseconds">ミリ秒</s:String>
     <s:String x:Key="S.Time.Static.Milliseconds.2">ミリ秒</s:String>
     <s:String x:Key="S.Time.Static.Milliseconds.3-4">ミリ秒</s:String>
-    <s:String x:Key="S.Time.Static.Short.Milliseconds">ms</s:String>
+    <!--<s:String x:Key="S.Time.Static.Short.Milliseconds">ms</s:String>-->
     <s:String x:Key="S.Time.Static.Second">秒</s:String>
     <s:String x:Key="S.Time.Static.Seconds">秒</s:String>
     <s:String x:Key="S.Time.Static.Seconds.2">秒</s:String>
     <s:String x:Key="S.Time.Static.Seconds.3-4">秒</s:String>
     <s:String x:Key="S.Time.Static.Short.Second">秒</s:String>
     <s:String x:Key="S.Time.Static.Short.Seconds">秒</s:String>
-    <s:String x:Key="S.Time.Static.Single.Second">s</s:String>
+    <!--<s:String x:Key="S.Time.Static.Single.Second">s</s:String>-->
     <s:String x:Key="S.Time.Static.Minute">分</s:String>
     <s:String x:Key="S.Time.Static.Minutes">分</s:String>
     <s:String x:Key="S.Time.Static.Minutes.2">分</s:String>
     <s:String x:Key="S.Time.Static.Minutes.3-4">分</s:String>
     <s:String x:Key="S.Time.Static.Short.Minute">分</s:String>
-    <s:String x:Key="S.Time.Static.Single.Minute">m</s:String>
+    <!--<s:String x:Key="S.Time.Static.Single.Minute">m</s:String>-->
     <s:String x:Key="S.Time.Static.Hour">時間</s:String>
     <s:String x:Key="S.Time.Static.Hours">時間</s:String>
     <s:String x:Key="S.Time.Static.Hours.2">時間</s:String>
     <s:String x:Key="S.Time.Static.Hours.3-4">時間</s:String>
     <s:String x:Key="S.Time.Static.Short.Hour">h</s:String>
     <s:String x:Key="S.Time.Static.Short.Hours">h</s:String>
-    <s:String x:Key="S.Time.Static.Single.Hour">h</s:String>
+    <!--<s:String x:Key="S.Time.Static.Single.Hour">h</s:String>-->
     <s:String x:Key="S.Time.Static.Day">日</s:String>
     <s:String x:Key="S.Time.Static.Days">日</s:String>
     <s:String x:Key="S.Time.Static.Days.2">日</s:String>
     <s:String x:Key="S.Time.Static.Days.3-4">日</s:String>
-    <s:String x:Key="S.Time.Static.Single.Day">d</s:String>
+    <!--<s:String x:Key="S.Time.Static.Single.Day">d</s:String>-->
 
     <!--Dialogs • Error-->
     <s:String x:Key="S.Dialog.Error.Header">あれ？予期しないエラーが発生しました...</s:String>
@@ -148,7 +149,7 @@
     <s:String x:Key="S.Dialog.NewProject.Header">新しいプロジェクト</s:String>
     <s:String x:Key="S.Dialog.NewProject.Name">名前</s:String>
     <s:String x:Key="S.Dialog.NewProject.Background">背景</s:String>
-    <s:String x:Key="S.Dialog.NewProject.Dpi">DPI</s:String>
+    <!--<s:String x:Key="S.Dialog.NewProject.Dpi">DPI</s:String>-->
 
     <!--Dialogs • Update-->
     <s:String x:Key="S.Dialog.Update.Header">更新があります</s:String>
@@ -395,15 +396,28 @@
     <s:String x:Key="S.Dialogs.Cache.Message">録画を作成したり編集するために何かを開いたりすると、プロジェクトが作成されキャッシュフォルダーに保存されます。</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent">最近のプロジェクトを保持</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent.Info">設定 > ストレージで構成された期間より古いプロジェクトのみが削除されます</s:String>
-    
+
     <!--Dialogs • Resize canvas-->
     <s:String x:Key="S.Dialogs.ResizeCanvas.Header">キャンバスのリサイズ</s:String>
     <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent">既存のコンテンツを新しいキャンバスサイズに合わせてスケールします</s:String>
     <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent.Info">有効にすると、既存のコンテンツは新しいキャンバスの寸法に合わせてリサイズおよび再配置されます。&#10;無効にすると、キャンバスのサイズのみが変更されます。</s:String>
-    
+
     <!--Dialogs • Trim canvas-->
     <s:String x:Key="S.Dialogs.TrimCanvas.Header">キャンバスをトリム</s:String>
     <s:String x:Key="S.Dialogs.TrimCanvas.Direction">トリム方向</s:String>
+
+    <!--Dialogs • Trim canvas-->
+    <s:String x:Key="S.Dialogs.SmoothLoop.Header">スムーズなループを検索</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.Similarity">類似度</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.TrimDirection">トリム方向</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.TrimDirection.End">最初のフレームに合わせて末尾をトリム</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.TrimDirection.Start">最後のフレームに合わせて先頭をトリム</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.MinimumLength">最小長</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm">比較アルゴリズム</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Pixel">ピクセル差分（高速）</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Perceptual">知覚ハッシュ（バランス）</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Structural">構造類似度（高精度）</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.TracksToInclude">検索に含めるトラック</s:String>
 
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">必須フィールド</s:String>
@@ -487,6 +501,10 @@
     <s:String x:Key="S.Success.StorageCleanup.Header">成功</s:String>
     <s:String x:Key="S.Success.StorageCleanup.Message">キャッシュのクリーンアップが完了しました</s:String>
 
+    <!--Success • Smooth loop--> 
+    <s:String x:Key="S.Success.SmoothLoop.Header">スムーズなループが見つかりました</s:String>
+    <s:String x:Key="S.Success.SmoothLoop.Message">{0:0.##}% の類似度のループが見つかりました</s:String>
+
     <!--Info • Pro feature-->
     <s:String x:Key="S.Info.ProFeature.Header">Pro専用</s:String>
     <s:String x:Key="S.Info.ProFeature.Message">この機能をアンロックするにはアップグレードしてください</s:String>
@@ -514,11 +532,19 @@
     <s:String x:Key="S.Info.FeedbackSent.Header">フィードバックありがとうございます</s:String>
     <s:String x:Key="S.Info.FeedbackSent.Message">メッセージは送信されました。共有していただきありがとうございます</s:String>
 
+    <!--Info • Smooth loop partial-->
+    <s:String x:Key="S.Info.SmoothLoopPartial.Header">部分一致が見つかりました</s:String>
+    <s:String x:Key="S.Info.SmoothLoopPartial.Message">最も近い一致は類似度 {0:0.##}% でした。「この一致を使用」をクリックすると適用できます</s:String>
+
+    <!--Info • Smooth loop cancelled-->
+    <s:String x:Key="S.Info.SmoothLoopCancelled.Header">検索がキャンセルされました</s:String>
+    <s:String x:Key="S.Info.SmoothLoopCancelled.Message">ループ検索はキャンセルされました</s:String>
+
     <!--Warnings • Single instance-->
     <s:String x:Key="S.Warning.Single.Header">アプリはすでに実行されています</s:String>
     <s:String x:Key="S.Warning.Single.Message">N-Studioは既に実行されていますが、ウィンドウが開いていないようです。システムトレイを確認してください。N-Studioアイコンが表示されているはずです</s:String>
 
-    <!--Warnings • Audio device detection--> 
+    <!--Warnings • Audio device detection-->
     <s:String x:Key="S.Warning.DeviceDetection.Title">デバイス検出の問題</s:String>
     <s:String x:Key="S.Warning.DeviceDetection.Description">オーディオデバイスを検出できませんでした</s:String>
 
@@ -547,7 +573,11 @@
     <!--Warnings • Low on space-->
     <s:String x:Key="S.Warning.LowSpace.Header">空き容量が不足しています</s:String>
     <s:String x:Key="S.Warning.LowSpace.Message">録画できるようにキャッシュドライブの容量を確保してください</s:String>
-    
+
+    <!--Warnings • No smooth loop found-->
+    <s:String x:Key="S.Warning.SmoothLoopNotFound.Header">一致が見つかりません</s:String>
+    <s:String x:Key="S.Warning.SmoothLoopNotFound.Message">適切なループポイントが見つかりませんでした。類似度の閾値または最小長を調整してみてください。</s:String>
+
     <!--Warnings • Graphics engine-->
     <s:String x:Key="S.Warning.Graphics.Title">グラフィックスアダプターを切り替える</s:String>
     <s:String x:Key="S.Warning.Graphics.Instruction">選択した画面をキャプチャするには正しいグラフィックスアダプターに切り替えてください</s:String>
@@ -757,6 +787,10 @@
     <s:String x:Key="S.Errors.StorageCleanup.Header">クリーンアップ中のエラー</s:String>
     <s:String x:Key="S.Errors.StorageCleanup.Message">キャッシュをクリーンアップできませんでした</s:String>
 
+    <!--Error • Smooth loop search--> 
+    <s:String x:Key="S.Errors.SmoothLoop.Header">検索に失敗しました</s:String>
+    <s:String x:Key="S.Errors.SmoothLoop.Message">ループ検索中にエラーが発生しました</s:String>
+
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">アクティベーションに失敗しました</s:String>
     <s:String x:Key="S.Errors.Activation.Generic">不明な問題のため、アプリをアクティブ化できませんでした</s:String>
@@ -786,11 +820,11 @@
     <!--Windows • Screen Recorder-->
     <s:String x:Key="S.ScreenRecorder.Frequency.Switch">クリックしてキャプチャ頻度モードを切り替えます</s:String>
     <s:String x:Key="S.ScreenRecorder.Frequency.Fps">最大毎秒フレーム数。&#10;1〜60fpsの範囲で、値が高いほどより多くのフレームがキャプチャされます。&#10;各増分は16ミリ秒の差を表します。</s:String>
-    <s:String x:Key="S.ScreenRecorder.Frequency.Fps.Short">fps</s:String>
+    <!--<s:String x:Key="S.ScreenRecorder.Frequency.Fps.Short">fps</s:String>-->
     <s:String x:Key="S.ScreenRecorder.Frequency.Fpm">最大毎分フレーム数。&#10;1〜60fpmの範囲で、値が高いほどより多くのフレームがキャプチャされます。&#10;各増分は1秒の差を表します。</s:String>
-    <s:String x:Key="S.ScreenRecorder.Frequency.Fpm.Short">fpm</s:String>
+    <!--<s:String x:Key="S.ScreenRecorder.Frequency.Fpm.Short">fpm</s:String>-->
     <s:String x:Key="S.ScreenRecorder.Frequency.Fph">最大毎時フレーム数&#10;1〜60fphの範囲で、値が高いほどより多くのフレームがキャプチャされます。&#10;各増分は1分の差を表します。</s:String>
-    <s:String x:Key="S.ScreenRecorder.Frequency.Fph.Short">fph</s:String>
+    <!--<s:String x:Key="S.ScreenRecorder.Frequency.Fph.Short">fph</s:String>-->
     <s:String x:Key="S.ScreenRecorder.ClickOrPress">クリックまたはキーを押してキャプチャ</s:String>
 
     <s:String x:Key="S.ScreenRecorder.Select">選択</s:String>
@@ -811,7 +845,7 @@
     <s:String x:Key="S.ScreenRecorder.Screen.Info1">グラフィックスアダプター: {0}</s:String>
     <s:String x:Key="S.ScreenRecorder.Screen.Info2">解像度: {0} x {1}</s:String>
     <s:String x:Key="S.ScreenRecorder.Screen.Info3">ネイティブ解像度: {0} x {1}</s:String>
-    <s:String x:Key="S.ScreenRecorder.Screen.Info4">DPI: {0} ({1:0.##}%)</s:String>
+    <!--<s:String x:Key="S.ScreenRecorder.Screen.Info4">DPI: {0} ({1:0.##}%)</s:String>-->
 
     <s:String x:Key="S.ScreenRecorder.DiskSpace.Info">使用されたディスクの割合と利用可能なスペース</s:String>
     <s:String x:Key="S.ScreenRecorder.AudioSource.Input">マイクと他のオーディオ入力&#10;ソースがキャプチャされている</s:String>
@@ -894,7 +928,11 @@
     <s:String x:Key="S.Exporter.Resize.MaintainRatio.Info">幅と高さが整数になるようにしつつ、できるだけ比率を維持します</s:String>
 
     <!--Windows • Exporter > Trim-->
-    <s:String x:Key="S.Exporter.Trim.NewTarget">新しい目標時間</s:String>
+    <s:String x:Key="S.Exporter.Trim.Original">元の長さ</s:String>
+    <s:String x:Key="S.Exporter.Trim.Trimmed">トリム後の長さ</s:String>
+    <s:String x:Key="S.Exporter.Trim.FindLoop">スムーズなループを検索...</s:String>
+    <s:String x:Key="S.Exporter.Trim.FindLoop.Searching">スムーズなループを検索中...</s:String>
+    <s:String x:Key="S.Exporter.Trim.FindLoop.Cancel">検索をキャンセル</s:String>
 
     <!--Windows • Exporter > Framerate-->
     <s:String x:Key="S.Exporter.Framerate.Mode.Info">フレームレートモード</s:String>
@@ -940,6 +978,7 @@
     <s:String x:Key="S.Exporter.Encoding.Actions.More">その他の操作</s:String>
     <s:String x:Key="S.Exporter.Encoding.Actions.OpenFolder">フォルダーを開く</s:String>
     <s:String x:Key="S.Exporter.Encoding.Actions.CopyFile">ファイルをコピー</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Actions.CopyFolderPath">フォルダーパスをコピー</s:String>
     <s:String x:Key="S.Exporter.Encoding.Actions.CopyPath">パスをコピー</s:String>
     <s:String x:Key="S.Exporter.Encoding.Actions.DeleteFile">ファイルを削除</s:String>
 
@@ -1252,52 +1291,52 @@
     <s:String x:Key="S.DragDrop.Ignored">一部のサポートされていないファイルは無視されます</s:String>
 
     <!--Keys-->
-    <s:String x:Key="S.Keys.Backspace">Backspace</s:String>
-    <s:String x:Key="S.Keys.Tab">Tab</s:String>
-    <s:String x:Key="S.Keys.Return">Enter</s:String>
-    <s:String x:Key="S.Keys.PauseBreak">Pause/Break</s:String>
-    <s:String x:Key="S.Keys.CapsLock">Caps Lock</s:String>
-    <s:String x:Key="S.Keys.Escape">Esc</s:String>
-    <s:String x:Key="S.Keys.Space">Space</s:String>
-    <s:String x:Key="S.Keys.PageUp">Page Up</s:String>
-    <s:String x:Key="S.Keys.PageDown">Page Down</s:String>
-    <s:String x:Key="S.Keys.Home">Home</s:String>
-    <s:String x:Key="S.Keys.End">End</s:String>
-    <s:String x:Key="S.Keys.Left">Arrow Left</s:String>
-    <s:String x:Key="S.Keys.Up">Arrow Up</s:String>
-    <s:String x:Key="S.Keys.Right">Arrow Right</s:String>
-    <s:String x:Key="S.Keys.Down">Arrow Down</s:String>
-    <s:String x:Key="S.Keys.PrintScreen">Print Screen</s:String>
-    <s:String x:Key="S.Keys.Insert">Insert</s:String>
-    <s:String x:Key="S.Keys.Delete">Delete</s:String>
-    <s:String x:Key="S.Keys.NumLock">Num Lock</s:String>
-    <s:String x:Key="S.Keys.ScrollLock">Scroll Lock</s:String>
-    <s:String x:Key="S.Keys.Shift">Shift</s:String>
-    <s:String x:Key="S.Keys.LeftShift">Left Shift</s:String>
-    <s:String x:Key="S.Keys.RightShift">Right Shift</s:String>
-    <s:String x:Key="S.Keys.Alt">Alt</s:String>
-    <s:String x:Key="S.Keys.LeftAlt">Left Alt</s:String>
-    <s:String x:Key="S.Keys.RightAlt">Right Alt</s:String>
-    <s:String x:Key="S.Keys.Ctrl">Control</s:String>
-    <s:String x:Key="S.Keys.LeftCtrl">Left Ctrl</s:String>
-    <s:String x:Key="S.Keys.RightCtrl">Right Ctrl</s:String>
-    <s:String x:Key="S.Keys.Windows">Windows</s:String>
-    <s:String x:Key="S.Keys.LeftWindows">Left Windows</s:String>
-    <s:String x:Key="S.Keys.RightWindows">Right Windows</s:String>
-    <s:String x:Key="S.Keys.NextTrack">Next Track</s:String>
-    <s:String x:Key="S.Keys.PreviousTrack">Previous Track</s:String>
-    <s:String x:Key="S.Keys.PlayPause">Play/Pause</s:String>
-    <s:String x:Key="S.Keys.Stop">Stop</s:String>
+    <!--<s:String x:Key="S.Keys.Backspace">Backspace</s:String>-->
+    <!--<s:String x:Key="S.Keys.Tab">Tab</s:String>-->
+    <!--<s:String x:Key="S.Keys.Return">Enter</s:String>-->
+    <!--<s:String x:Key="S.Keys.PauseBreak">Pause/Break</s:String>-->
+    <!--<s:String x:Key="S.Keys.CapsLock">Caps Lock</s:String>-->
+    <!--<s:String x:Key="S.Keys.Escape">Esc</s:String>-->
+    <!--<s:String x:Key="S.Keys.Space">Space</s:String>-->
+    <!--<s:String x:Key="S.Keys.PageUp">Page Up</s:String>-->
+    <!--<s:String x:Key="S.Keys.PageDown">Page Down</s:String>-->
+    <!--<s:String x:Key="S.Keys.Home">Home</s:String>-->
+    <!--<s:String x:Key="S.Keys.End">End</s:String>-->
+    <s:String x:Key="S.Keys.Left">左矢印</s:String>
+    <s:String x:Key="S.Keys.Up">上矢印</s:String>
+    <s:String x:Key="S.Keys.Right">右矢印</s:String>
+    <s:String x:Key="S.Keys.Down">下矢印</s:String>
+    <!--<s:String x:Key="S.Keys.PrintScreen">Print Screen</s:String>-->
+    <!--<s:String x:Key="S.Keys.Insert">Insert</s:String>-->
+    <!--<s:String x:Key="S.Keys.Delete">Delete</s:String>-->
+    <!--<s:String x:Key="S.Keys.NumLock">Num Lock</s:String>-->
+    <!--<s:String x:Key="S.Keys.ScrollLock">Scroll Lock</s:String>-->
+    <!--<s:String x:Key="S.Keys.Shift">Shift</s:String>-->
+    <s:String x:Key="S.Keys.LeftShift">左 Shift</s:String>
+    <s:String x:Key="S.Keys.RightShift">右 Shift</s:String>
+    <!--<s:String x:Key="S.Keys.Alt">Alt</s:String>-->
+    <s:String x:Key="S.Keys.LeftAlt">左 Alt</s:String>
+    <s:String x:Key="S.Keys.RightAlt">右 Alt</s:String>
+    <!--<s:String x:Key="S.Keys.Ctrl">Control</s:String>-->
+    <s:String x:Key="S.Keys.LeftCtrl">左 Ctrl</s:String>
+    <s:String x:Key="S.Keys.RightCtrl">右 Ctrl</s:String>
+    <!--<s:String x:Key="S.Keys.Windows">Windows</s:String>-->
+    <s:String x:Key="S.Keys.LeftWindows">左 Windows</s:String>
+    <s:String x:Key="S.Keys.RightWindows">右 Windows</s:String>
+    <s:String x:Key="S.Keys.NextTrack">次のトラック</s:String>
+    <s:String x:Key="S.Keys.PreviousTrack">前のトラック</s:String>
+    <s:String x:Key="S.Keys.PlayPause">再生/一時停止</s:String>
+    <s:String x:Key="S.Keys.Stop">停止</s:String>
 
     <!--Mouse buttons-->
-    <s:String x:Key="S.Mouse.Right">Right-Click</s:String>
+    <s:String x:Key="S.Mouse.Right">右クリック</s:String>
 
     <!--Units-->
-    <s:String x:Key="S.Units.Points.Short">pt</s:String>
-    <s:String x:Key="S.Units.Second.Short">s</s:String>
-    <s:String x:Key="S.Units.Millisecond.Short">ms</s:String>
-    <s:String x:Key="S.Units.Pixels.Short">px</s:String>
-    <s:String x:Key="S.Units.FramesPerSecond.Short">fps</s:String>
+    <!--<s:String x:Key="S.Units.Points.Short">pt</s:String>-->
+    <!--<s:String x:Key="S.Units.Second.Short">s</s:String>-->
+    <!--<s:String x:Key="S.Units.Millisecond.Short">ms</s:String>-->
+    <!--<s:String x:Key="S.Units.Pixels.Short">px</s:String>-->
+    <!--<s:String x:Key="S.Units.FramesPerSecond.Short">fps</s:String>-->
 
     <!--Formats-->
     <s:String x:Key="S.Formats.Type.Animated">アニメーション画像</s:String>
@@ -1307,64 +1346,64 @@
     <s:String x:Key="S.Formats.Type.Other">その他</s:String>
     <s:String x:Key="S.Formats.Type.All">すべてのファイル</s:String>
 
-    <s:String x:Key="S.Formats.Apng">Apng</s:String>
-    <s:String x:Key="S.Formats.Apng.Info">Animated Portable Network Graphics</s:String>
-    <s:String x:Key="S.Formats.Gif">Gif</s:String>
-    <s:String x:Key="S.Formats.Gif.Info">Graphics Interchange Format</s:String>
-    <s:String x:Key="S.Formats.Webp">Webp</s:String>
-    <s:String x:Key="S.Formats.Webp.Info">Web Picture</s:String>
+    <!--<s:String x:Key="S.Formats.Apng">Apng</s:String>-->
+    <s:String x:Key="S.Formats.Apng.Info">アニメーション PNG</s:String>
+    <!--<s:String x:Key="S.Formats.Gif">Gif</s:String>-->
+    <!--<s:String x:Key="S.Formats.Gif.Info">Graphics Interchange Format</s:String>-->
+    <!--<s:String x:Key="S.Formats.Webp">Webp</s:String>-->
+    <!--<s:String x:Key="S.Formats.Webp.Info">Web Picture</s:String>-->
 
-    <s:String x:Key="S.Formats.Avi">Avi</s:String>
-    <s:String x:Key="S.Formats.Avi.Info">Audio Video Interleave</s:String>
-    <s:String x:Key="S.Formats.Mkv">Mkv</s:String>
-    <s:String x:Key="S.Formats.Mkv.Info">Matroska</s:String>
-    <s:String x:Key="S.Formats.Mov">Mov</s:String>
-    <s:String x:Key="S.Formats.Mov.Info">QuickTime File Format</s:String>
-    <s:String x:Key="S.Formats.Mp4">Mp4</s:String>
-    <s:String x:Key="S.Formats.Mp4.Info">Mpeg-4</s:String>
-    <s:String x:Key="S.Formats.Webm">Webm</s:String>
-    <s:String x:Key="S.Formats.Webm.Info">Web Movie</s:String>
+    <!--<s:String x:Key="S.Formats.Avi">Avi</s:String>-->
+    <!--<s:String x:Key="S.Formats.Avi.Info">Audio Video Interleave</s:String>-->
+    <!--<s:String x:Key="S.Formats.Mkv">Mkv</s:String>-->
+    <!--<s:String x:Key="S.Formats.Mkv.Info">Matroska</s:String>-->
+    <!--<s:String x:Key="S.Formats.Mov">Mov</s:String>-->
+    <!--<s:String x:Key="S.Formats.Mov.Info">QuickTime File Format</s:String>-->
+    <!--<s:String x:Key="S.Formats.Mp4">Mp4</s:String>-->
+    <!--<s:String x:Key="S.Formats.Mp4.Info">Mpeg-4</s:String>-->
+    <!--<s:String x:Key="S.Formats.Webm">Webm</s:String>-->
+    <!--<s:String x:Key="S.Formats.Webm.Info">Web Movie</s:String>-->
 
-    <s:String x:Key="S.Formats.Aac">Aac</s:String>
-    <s:String x:Key="S.Formats.Aac.Info">Advanced Audio Coding</s:String>
-    <s:String x:Key="S.Formats.Ac3">Ac3</s:String>
-    <s:String x:Key="S.Formats.Ac3.Info">Audio Codec 3</s:String>
-    <s:String x:Key="S.Formats.Aiff">Aiff</s:String>
-    <s:String x:Key="S.Formats.Aiff.Info">Audio Interchange File Format</s:String>
-    <s:String x:Key="S.Formats.Alac">Alac</s:String>
-    <s:String x:Key="S.Formats.Alac.Info">Apple Lossless Audio Codec</s:String>
-    <s:String x:Key="S.Formats.Amr">Amr</s:String>
-    <s:String x:Key="S.Formats.Amr.Info">Adaptive Multi-Rate</s:String>
-    <s:String x:Key="S.Formats.Flac">Flac</s:String>
-    <s:String x:Key="S.Formats.Flac.Info">Free Lossless Audio Codec</s:String>
-    <s:String x:Key="S.Formats.Mp3">Mp3</s:String>
-    <s:String x:Key="S.Formats.Mp3.Info">MPEG-1/2 Audio Layer III</s:String>
-    <s:String x:Key="S.Formats.Ogg">Ogg</s:String>
-    <s:String x:Key="S.Formats.Ogg.Info">Ogg Vorbis Container</s:String>
-    <s:String x:Key="S.Formats.Opus">Opus</s:String>
-    <s:String x:Key="S.Formats.Opus.Info">Opus</s:String>
-    <s:String x:Key="S.Formats.Wav">Wav</s:String>
-    <s:String x:Key="S.Formats.Wav.Info">Waveform Audio File Format</s:String>
-    <s:String x:Key="S.Formats.Wma">Wma</s:String>
-    <s:String x:Key="S.Formats.Wma.Info">Windows Media Audio</s:String>
+    <!--<s:String x:Key="S.Formats.Aac">Aac</s:String>-->
+    <!--<s:String x:Key="S.Formats.Aac.Info">Advanced Audio Coding</s:String>-->
+    <!--<s:String x:Key="S.Formats.Ac3">Ac3</s:String>-->
+    <!--<s:String x:Key="S.Formats.Ac3.Info">Audio Codec 3</s:String>-->
+    <!--<s:String x:Key="S.Formats.Aiff">Aiff</s:String>-->
+    <!--<s:String x:Key="S.Formats.Aiff.Info">Audio Interchange File Format</s:String>-->
+    <!--<s:String x:Key="S.Formats.Alac">Alac</s:String>-->
+    <!--<s:String x:Key="S.Formats.Alac.Info">Apple Lossless Audio Codec</s:String>-->
+    <!--<s:String x:Key="S.Formats.Amr">Amr</s:String>-->
+    <!--<s:String x:Key="S.Formats.Amr.Info">Adaptive Multi-Rate</s:String>-->
+    <!--<s:String x:Key="S.Formats.Flac">Flac</s:String>-->
+    <!--<s:String x:Key="S.Formats.Flac.Info">Free Lossless Audio Codec</s:String>-->
+    <!--<s:String x:Key="S.Formats.Mp3">Mp3</s:String>-->
+    <!--<s:String x:Key="S.Formats.Mp3.Info">MPEG-1/2 Audio Layer III</s:String>-->
+    <!--<s:String x:Key="S.Formats.Ogg">Ogg</s:String>-->
+    <!--<s:String x:Key="S.Formats.Ogg.Info">Ogg Vorbis Container</s:String>-->
+    <!--<s:String x:Key="S.Formats.Opus">Opus</s:String>-->
+    <!--<s:String x:Key="S.Formats.Opus.Info">Opus</s:String>-->
+    <!--<s:String x:Key="S.Formats.Wav">Wav</s:String>-->
+    <!--<s:String x:Key="S.Formats.Wav.Info">Waveform Audio File Format</s:String>-->
+    <!--<s:String x:Key="S.Formats.Wma">Wma</s:String>-->
+    <!--<s:String x:Key="S.Formats.Wma.Info">Windows Media Audio</s:String>-->
 
-    <s:String x:Key="S.Formats.Avif">AVIF</s:String>
-    <s:String x:Key="S.Formats.Avif.Info">AV1‑Compressed Image (HEIF/AV1)</s:String>
-    <s:String x:Key="S.Formats.Bmp">Bmp</s:String>
-    <s:String x:Key="S.Formats.Bmp.Info">Bitmap</s:String>
-    <s:String x:Key="S.Formats.Heic">HEIC</s:String>
-    <s:String x:Key="S.Formats.Heic.Info">High‑Efficiency Image (HEIF/HEVC)</s:String>
-    <s:String x:Key="S.Formats.Jpeg">Jpeg</s:String>
-    <s:String x:Key="S.Formats.Jpeg.Info">Joint Photographic Experts Group</s:String>
-    <s:String x:Key="S.Formats.Png">Png</s:String>
-    <s:String x:Key="S.Formats.Png.Info">Portable Network Graphics</s:String>
-    <s:String x:Key="S.Formats.Images.Zip">Packed images</s:String>
+    <!--<s:String x:Key="S.Formats.Avif">AVIF</s:String>-->
+    <s:String x:Key="S.Formats.Avif.Info">AV1 圧縮画像 (HEIF/AV1)</s:String>
+    <!--<s:String x:Key="S.Formats.Bmp">Bmp</s:String>-->
+    <s:String x:Key="S.Formats.Bmp.Info">ビットマップ</s:String>
+    <!--<s:String x:Key="S.Formats.Heic">HEIC</s:String>-->
+    <s:String x:Key="S.Formats.Heic.Info">高効率画像 (HEIF/HEVC)</s:String>
+    <!--<s:String x:Key="S.Formats.Jpeg">Jpeg</s:String>-->
+    <!--<s:String x:Key="S.Formats.Jpeg.Info">Joint Photographic Experts Group</s:String>-->
+    <!--<s:String x:Key="S.Formats.Png">Png</s:String>-->
+    <!--<s:String x:Key="S.Formats.Png.Info">Portable Network Graphics</s:String>-->
+    <s:String x:Key="S.Formats.Images.Zip">画像パック</s:String>
 
     <s:String x:Key="S.Formats.Project">プロジェクト</s:String>
     <s:String x:Key="S.Formats.Project.Info">N-Studioプロジェクト</s:String>
     <s:String x:Key="S.Formats.LegacyProject">ScreenToGifプロジェクト</s:String>
     <s:String x:Key="S.Formats.LegacyProject.Info">ScreenToGifで使用されるプロジェクトファイル</s:String>
-    <s:String x:Key="S.Formats.Psd">Psd</s:String>
+    <!--<s:String x:Key="S.Formats.Psd">Psd</s:String>-->
     <s:String x:Key="S.Formats.Psd.Info">Photoshopファイル</s:String>
 
     <!--Objects-->
@@ -1446,7 +1485,7 @@
     <s:String x:Key="S.Settings.Application.Tray.LeftClick">左クリック</s:String>
     <s:String x:Key="S.Settings.Application.Tray.LeftDoubleClick">左クリック（x2）</s:String>
     <s:String x:Key="S.Settings.Application.Tray.MiddleClick">中クリック</s:String>
-    
+
     <s:String x:Key="S.Settings.Application.Tray.Interactions.Nothing">何もしない</s:String>
     <s:String x:Key="S.Settings.Application.Tray.Interactions.Open">開く</s:String>
     <s:String x:Key="S.Settings.Application.Tray.Interactions.Open.None">ウィンドウなし</s:String>
@@ -1586,7 +1625,7 @@
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.PreventBlack">真っ黒なフレームのキャプチャを防止</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.PreventBlack.Info">すべてのピクセルが黒いフレームの誤ったキャプチャを防ぎます</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.RemoteImprovement">リモートデスクトップ接続時のパフォーマンスを改善するためにレイヤードウィンドウキャプチャを無効にします</s:String>
-    
+
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.GammaCorrection">10ビット SDR キャプチャにガンマ補正を適用</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.GammaCorrection.Info">10ビット SDR キャプチャのために線形から sRGB への変換を切り替えます。&#10;色がおかしく見える場合はこれを切り替えてみてください。</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation">明るさ補正</s:String>
@@ -1758,7 +1797,7 @@
     <s:String x:Key="S.Settings.Styles.Orientation">方向</s:String>
     <s:String x:Key="S.Settings.Styles.Orientation.Horizontal">水平方向</s:String>
     <s:String x:Key="S.Settings.Styles.Orientation.Vertical">垂直方向</s:String>
-
+    
     <!--Settings • Styles > Shape-->
     <s:String x:Key="S.Settings.Styles.Shape">形状</s:String>
     <s:String x:Key="S.Settings.Styles.Shape.LineArrow">ライン矢印</s:String>
@@ -1902,7 +1941,7 @@
     <s:String x:Key="S.Settings.Storage.Cleanup.Clear.Global.Header">グローバル設定を削除しますか？</s:String>
     <s:String x:Key="S.Settings.Storage.Cleanup.Clear.Local.Header">ローカル設定を削除しますか？</s:String>
     <s:String x:Key="S.Settings.Storage.Cleanup.Clear.Description">変更を反映するにはアプリを再起動する必要があります。</s:String>
-    
+
     <!--Settings • Plugins-->
     <s:String x:Key="S.Settings.Plugin.Path">パス</s:String>
     <s:String x:Key="S.Settings.Plugin.SelectFile">ファイルを選択するにはクリック</s:String>
@@ -1916,7 +1955,7 @@
     <s:String x:Key="S.Settings.Plugin.PackedDownload">パックされたダウンロード</s:String>
     <s:String x:Key="S.Settings.Plugin.StoreLimitations">ストアの制限</s:String>
     <s:String x:Key="S.Settings.Plugin.StoreLimitations.Info">Microsoft Storeのポリシーにより、プラグインを手動でダウンロードする必要があります</s:String>
-
+    
     <!--Settings • Update-->
     <s:String x:Key="S.Settings.Update.UpToDate">最新です</s:String>
     <s:String x:Key="S.Settings.Update.LastChecked">最終確認日:</s:String>
@@ -2078,7 +2117,7 @@
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Info">色削減アルゴリズム（量子化）</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Neural">ニューラルネットワーク</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Neural.Info">高忠実度の量子化。遅いが、より多くの色に適しています</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Octree">Octree</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Octree">Octree</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Octree.Info">色数の少ないアニメーションに適しています。高速ですが、カラーバンディングが発生する場合があります</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.MedianCut">中央値カット</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.MedianCut.Info">Octreeより品質が低く、遅くなります</s:String>
@@ -2216,7 +2255,7 @@
     <s:String x:Key="S.Preset.Encoder.Webm.Preset.Text">テキスト</s:String>
     <s:String x:Key="S.Preset.Encoder.Webm.Lossless">ロスレスモードを使用</s:String>
     <s:String x:Key="S.Preset.Encoder.Webm.Lossless.Info">最大品質、色の劣化なし</s:String>
-
+    
     <!--Preset • Video-->
     <s:String x:Key="S.Preset.Encoder.Video.Codec">コーデック</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.Codec.Info">生のピクセルを出力ファイルに変換するビデオエンコーダー</s:String>
@@ -2239,7 +2278,7 @@
     <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.LosslessHp">ロスレス（高性能）</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Hp">高性能</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Hq">高品質</s:String>
-    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Bd">Blu-ray Disk</s:String>
+    <!--<s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Bd">Blu-ray Disk</s:String>-->
     <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.LowLatency">低遅延</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.LowLatencyHp">低遅延（高性能）</s:String>
     <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.LowLatencyHq">低遅延（高品質）</s:String>
@@ -2326,9 +2365,9 @@
     <s:String x:Key="S.Presets.Default.Description">エンコーダーの既定プリセット</s:String>
     <s:String x:Key="S.Presets.Twitter.Title">X/Twitter用 ({0})</s:String>
     <s:String x:Key="S.Presets.Twitter.Description">X/Twitterのアップロード制限を尊重します（サイズと解像度を除く）</s:String>
-    <s:String x:Key="S.Presets.Hevc.Title">HEVC ({0})</s:String>
+    <!--<s:String x:Key="S.Presets.Hevc.Title">HEVC ({0})</s:String>-->
     <s:String x:Key="S.Presets.Hevc.Description">高効率ビデオコーディング</s:String>
-    <s:String x:Key="S.Presets.Vp8.Title">VP8 ({0})</s:String>
+    <!--<s:String x:Key="S.Presets.Vp8.Title">VP8 ({0})</s:String>-->
     <s:String x:Key="S.Presets.Vp8.Description">より古く、よく知られたコーデック</s:String>
     <s:String x:Key="S.Presets.Filename.Animation">アニメーション</s:String>
     <s:String x:Key="S.Presets.Filename.Video">ビデオ</s:String>
