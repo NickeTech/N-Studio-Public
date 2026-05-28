@@ -534,7 +534,8 @@
 
     <!--Info • Smooth loop partial-->
     <s:String x:Key="S.Info.SmoothLoopPartial.Header">Delvis matchning hittad</s:String>
-    <s:String x:Key="S.Info.SmoothLoopPartial.Message">Närmaste matchning hade {0:0.##}% likhet. Klicka på ’Använd denna matchning’ för att använda den ändå</s:String>
+    <s:String x:Key="S.Info.SmoothLoopPartial.Message">Närmaste matchning hade {0:0.##}% likhet</s:String>
+    <s:String x:Key="S.Info.SmoothLoopPartial.Action">Använd denna matchning</s:String>
 
     <!--Info • Smooth loop cancelled-->
     <s:String x:Key="S.Info.SmoothLoopCancelled.Header">Sökning avbruten</s:String>

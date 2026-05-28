@@ -534,7 +534,8 @@
 
     <!--Info • Smooth loop partial-->
     <s:String x:Key="S.Info.SmoothLoopPartial.Header">找到部分匹配</s:String>
-    <s:String x:Key="S.Info.SmoothLoopPartial.Message">最接近的匹配相似度為 {0:0.##}%。點擊「使用此匹配」仍可套用</s:String>
+    <s:String x:Key="S.Info.SmoothLoopPartial.Message">最接近的匹配相似度為 {0:0.##}%</s:String>
+    <s:String x:Key="S.Info.SmoothLoopPartial.Action">使用此結果</s:String>
 
     <!--Info • Smooth loop cancelled-->
     <s:String x:Key="S.Info.SmoothLoopCancelled.Header">搜尋已取消</s:String>

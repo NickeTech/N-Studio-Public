@@ -534,7 +534,8 @@
 
     <!--Info • Smooth loop partial-->
     <s:String x:Key="S.Info.SmoothLoopPartial.Header">Βρέθηκε μερική αντιστοίχιση</s:String>
-    <s:String x:Key="S.Info.SmoothLoopPartial.Message">Η πιο κοντινή αντιστοίχιση είχε ομοιότητα {0:0.##}%. Πατήστε 'Χρήση αυτής της αντιστοίχισης' για να εφαρμοστεί ούτως ή άλλως</s:String>
+    <s:String x:Key="S.Info.SmoothLoopPartial.Message">Η πιο κοντινή αντιστοίχιση είχε ομοιότητα {0:0.##}%</s:String>
+    <s:String x:Key="S.Info.SmoothLoopPartial.Action">Χρησιμοποίησε αυτό το αποτέλεσμα</s:String>
 
     <!--Info • Smooth loop cancelled-->
     <s:String x:Key="S.Info.SmoothLoopCancelled.Header">Η αναζήτηση ακυρώθηκε</s:String>

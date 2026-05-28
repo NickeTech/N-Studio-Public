@@ -534,7 +534,8 @@
 
     <!--Info • Smooth loop partial-->
     <s:String x:Key="S.Info.SmoothLoopPartial.Header">Teiltreffer gefunden</s:String>
-    <s:String x:Key="S.Info.SmoothLoopPartial.Message">Der ähnlichste Treffer hatte {0:0.##}% Ähnlichkeit. Klicken Sie auf 'Diesen Treffer verwenden', um ihn trotzdem anzuwenden</s:String>
+    <s:String x:Key="S.Info.SmoothLoopPartial.Message">Der ähnlichste Treffer hatte {0:0.##}% Ähnlichkeit</s:String>
+    <s:String x:Key="S.Info.SmoothLoopPartial.Action">Diesen Ergebnis verwenden</s:String>
 
     <!--Info • Smooth loop cancelled-->
     <s:String x:Key="S.Info.SmoothLoopCancelled.Header">Suche abgebrochen</s:String>

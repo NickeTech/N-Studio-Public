@@ -534,7 +534,8 @@
 
     <!--Info • Smooth loop partial-->
     <s:String x:Key="S.Info.SmoothLoopPartial.Header">Gedeeltelijke overeenkomst gevonden</s:String>
-    <s:String x:Key="S.Info.SmoothLoopPartial.Message">Dichtstbijzijnde overeenkomst had {0:0.##}% similariteit. Klik op ‘Deze overeenkomst gebruiken’ om deze toch toe te passen</s:String>
+    <s:String x:Key="S.Info.SmoothLoopPartial.Message">Dichtstbijzijnde overeenkomst had {0:0.##}% similariteit</s:String>
+    <s:String x:Key="S.Info.SmoothLoopPartial.Action">Gebruik dit resultaat</s:String>
 
     <!--Info • Smooth loop cancelled-->
     <s:String x:Key="S.Info.SmoothLoopCancelled.Header">Zoekopdracht geannuleerd</s:String>

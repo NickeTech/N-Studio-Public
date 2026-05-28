@@ -534,7 +534,8 @@
 
     <!--Info • Smooth loop partial-->
     <s:String x:Key="S.Info.SmoothLoopPartial.Header">Correspondance partielle trouvée</s:String>
-    <s:String x:Key="S.Info.SmoothLoopPartial.Message">La meilleure correspondance trouvée a {0:0.##}% de similarité. Cliquez sur « Utiliser cette correspondance » pour l’appliquer quand même</s:String>
+    <s:String x:Key="S.Info.SmoothLoopPartial.Message">La meilleure correspondance trouvée a {0:0.##}% de similarité</s:String>
+    <s:String x:Key="S.Info.SmoothLoopPartial.Action">Utiliser ce résultat</s:String>
 
     <!--Info • Smooth loop cancelled-->
     <s:String x:Key="S.Info.SmoothLoopCancelled.Header">Recherche annulée</s:String>

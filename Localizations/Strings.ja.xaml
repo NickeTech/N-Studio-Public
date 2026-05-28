@@ -534,7 +534,8 @@
 
     <!--Info • Smooth loop partial-->
     <s:String x:Key="S.Info.SmoothLoopPartial.Header">部分一致が見つかりました</s:String>
-    <s:String x:Key="S.Info.SmoothLoopPartial.Message">最も近い一致は類似度 {0:0.##}% でした。「この一致を使用」をクリックすると適用できます</s:String>
+    <s:String x:Key="S.Info.SmoothLoopPartial.Message">最も近い一致は類似度 {0:0.##}% でした</s:String>
+    <s:String x:Key="S.Info.SmoothLoopPartial.Action">この結果を使う</s:String>
 
     <!--Info • Smooth loop cancelled-->
     <s:String x:Key="S.Info.SmoothLoopCancelled.Header">検索がキャンセルされました</s:String>

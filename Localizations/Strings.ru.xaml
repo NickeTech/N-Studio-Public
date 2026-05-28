@@ -534,7 +534,8 @@
 
     <!--Info • Smooth loop partial-->
     <s:String x:Key="S.Info.SmoothLoopPartial.Header">Найдена частичная совпадение</s:String>
-    <s:String x:Key="S.Info.SmoothLoopPartial.Message">Ближайшее совпадение имеет похожесть {0:0.##}%. Нажмите «Использовать это совпадение», чтобы применить его</s:String>
+    <s:String x:Key="S.Info.SmoothLoopPartial.Message">Ближайшее совпадение имеет похожесть {0:0.##}%</s:String>
+    <s:String x:Key="S.Info.SmoothLoopPartial.Action">Использовать это совпадение</s:String>
 
     <!--Info • Smooth loop cancelled-->
     <s:String x:Key="S.Info.SmoothLoopCancelled.Header">Поиск отменён</s:String>

@@ -534,7 +534,8 @@
 
     <!--Info • Smooth loop partial-->
     <!--<s:String x:Key="S.Info.SmoothLoopPartial.Header">Coincidencia parcial encontrada</s:String>-->
-    <!--<s:String x:Key="S.Info.SmoothLoopPartial.Message">La coincidencia más cercana tuvo {0:0.##}% de similitud. Haz clic en 'Usar esta coincidencia' para aplicarla igualmente</s:String>-->
+    <!--<s:String x:Key="S.Info.SmoothLoopPartial.Message">La coincidencia más cercana tuvo {0:0.##}% de similitud</s:String>-->
+    <s:String x:Key="S.Info.SmoothLoopPartial.Action">Usá este resultado</s:String>
 
     <!--Info • Smooth loop cancelled-->
     <!--<s:String x:Key="S.Info.SmoothLoopCancelled.Header">Búsqueda cancelada</s:String>-->

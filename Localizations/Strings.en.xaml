@@ -534,7 +534,8 @@
 
     <!--Info • Smooth loop partial-->
     <s:String x:Key="S.Info.SmoothLoopPartial.Header">Partial match found</s:String>
-    <s:String x:Key="S.Info.SmoothLoopPartial.Message">Closest match found was with {0:0.##}% similarity. Click 'Use this match' to apply it anyway</s:String>
+    <s:String x:Key="S.Info.SmoothLoopPartial.Message">Closest match found was with {0:0.##}% similarity</s:String>
+    <s:String x:Key="S.Info.SmoothLoopPartial.Action">Use this match anyway</s:String>
 
     <!--Info • Smooth loop cancelled-->
     <s:String x:Key="S.Info.SmoothLoopCancelled.Header">Search cancelled</s:String>

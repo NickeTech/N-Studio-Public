@@ -534,7 +534,8 @@
 
     <!--Info • Smooth loop partial-->
     <s:String x:Key="S.Info.SmoothLoopPartial.Header">Delvist match fundet</s:String>
-    <s:String x:Key="S.Info.SmoothLoopPartial.Message">Tætteste match havde {0:0.##}% lighed. Klik 'Brug dette match' for at anvende det alligevel</s:String>
+    <s:String x:Key="S.Info.SmoothLoopPartial.Message">Tætteste match havde {0:0.##}% lighed</s:String>
+    <s:String x:Key="S.Info.SmoothLoopPartial.Action">Brug dette resultat</s:String>
 
     <!--Info • Smooth loop cancelled-->
     <s:String x:Key="S.Info.SmoothLoopCancelled.Header">Søgning annulleret</s:String>
