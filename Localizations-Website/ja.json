@@ -252,6 +252,7 @@
       "agree-prefix": "続行すると、以下に同意したことになります：",
       "agree-middle": "と",
       "action": "Stripeでチェックアウト",
+      "action-secondary": "代わりにPaddleでチェックアウト",
       "wait": "チェックアウトをお待ちください..."
     },
 
@@ -275,6 +276,10 @@
 
     "privacy-policy": {
       "title": "プライバシーポリシー"
+    },
+
+    "refund-policy": {
+      "title": "返金ポリシー"
     }
   },
 

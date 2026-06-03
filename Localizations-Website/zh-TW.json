@@ -252,6 +252,7 @@
       "agree-prefix": "繼續即表示你同意",
       "agree-middle": "和",
       "action": "使用 Stripe 結帳",
+      "action-secondary": "改用 Paddle 結帳",
       "wait": "請等待結帳完成..."
     },
 
@@ -275,6 +276,10 @@
 
     "privacy-policy": {
       "title": "隱私政策"
+    },
+
+    "refund-policy": {
+      "title": "退款政策"
     }
   },
 

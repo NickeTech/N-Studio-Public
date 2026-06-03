@@ -250,6 +250,7 @@
       "agree-prefix": "Ao prosseguir você concorda com os",
       "agree-middle": "e",
       "action": "Pague com Stripe",
+      "action-secondary": "Pague com Paddle ao invés",
       "wait": "Aguarde para o pagamento..."
     },
 
@@ -273,6 +274,10 @@
 
     "privacy-policy": {
       "title": "Política de Privacidade"
+    },
+
+    "refund-policy": {
+      "title": "Política de reembolso"
     }
   },
 

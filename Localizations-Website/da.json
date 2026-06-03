@@ -252,6 +252,7 @@
       "agree-prefix": "Ved at fortsætte accepterer du",
       "agree-middle": "og",
       "action": "Betal med Stripe",
+      "action-secondary": "Betal med Paddle i stedet",
       "wait": "Vent på betalingen..."
     },
 
@@ -275,6 +276,10 @@
 
     "privacy-policy": {
       "title": "Fortrolighedspolitik"
+    },
+
+    "refund-policy": {
+      "title": "Refusionspolitik"
     }
   },
 

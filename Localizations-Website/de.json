@@ -252,6 +252,7 @@
       "agree-prefix": "Wenn du fortfährst, stimmst du den",
       "agree-middle": "und",
       "action": "Mit Stripe bezahlen",
+      "action-secondary": "Stattdessen mit Paddle bezahlen",
       "wait": "Bitte warte auf den Checkout..."
     },
 
@@ -275,6 +276,10 @@
 
     "privacy-policy": {
       "title": "Datenschutzrichtlinie"
+    },
+
+    "refund-policy": {
+      "title": "Rückerstattungsrichtlinie"
     }
   },
 

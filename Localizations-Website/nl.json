@@ -252,6 +252,7 @@
       "agree-prefix": "Door verder te gaan ga je akkoord met",
       "agree-middle": "en",
       "action": "Afrekenen met Stripe",
+      "action-secondary": "Afrekenen met Paddle in plaats daarvan",
       "wait": "Wacht op de checkout..."
     },
 
@@ -275,6 +276,10 @@
 
     "privacy-policy": {
       "title": "Privacybeleid"
+    },
+
+    "refund-policy": {
+      "title": "Terugbetalingsbeleid"
     }
   },
 
