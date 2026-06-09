@@ -247,12 +247,14 @@
       "how-many": "将有多少用户使用此应用？",
       "get-discount": "想要按年计费获得 2 个月免费吗？",
       "yes-for-discount": "是的，按年计费",
+      "include-trial": "要包括 5 天试用期吗？",
+      "yes-for-trial": "是的，包含试用",
       "two-installations": "你最多可以拥有两个同时安装",
       "manage-installations": "你可以通过账户页面控制访问",
       "agree-prefix": "继续即表示你同意",
       "agree-middle": "和",
       "action": "使用 Stripe 结账",
-      "action-secondary": "改用 Paddle 结账",
+      "action-secondary": "使用 Paddle 结账",
       "wait": "请等待结账完成..."
     },
 

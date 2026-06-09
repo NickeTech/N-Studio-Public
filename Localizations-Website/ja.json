@@ -247,12 +247,14 @@
       "how-many": "何人のユーザーがアプリを使用しますか？",
       "get-discount": "年額請求で2か月無料にしますか？",
       "yes-for-discount": "はい、年額請求にします",
+      "include-trial": "5日間の試用期間を含めますか？",
+      "yes-for-trial": "はい、試用を含める",
       "two-installations": "同時に最大2つのインストールが可能です",
       "manage-installations": "アカウントページからアクセスを管理できます",
       "agree-prefix": "続行すると、以下に同意したことになります：",
       "agree-middle": "と",
       "action": "Stripeでチェックアウト",
-      "action-secondary": "代わりにPaddleでチェックアウト",
+      "action-secondary": "Paddleでチェックアウト",
       "wait": "チェックアウトをお待ちください..."
     },
 

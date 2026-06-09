@@ -247,12 +247,14 @@
       "how-many": "Combien d'utilisateurs utiliseront l'application ?",
       "get-discount": "Voulez-vous obtenir 2 mois gratuits en facturant annuellement ?",
       "yes-for-discount": "Oui, facturer annuellement",
+      "include-trial": "Voulez-vous inclure une période d'essai de 5 jours ?",
+      "yes-for-trial": "Oui, inclure l'essai",
       "two-installations": "Vous pouvez avoir jusqu'à deux installations simultanées",
       "manage-installations": "Vous pouvez contrôler l'accès via la page de compte",
       "agree-prefix": "En continuant, vous acceptez les",
       "agree-middle": "et",
       "action": "Payer avec Stripe",
-      "action-secondary": "Payer avec Paddle à la place",
+      "action-secondary": "Payer avec Paddle",
       "wait": "Veuillez patienter pendant le paiement..."
     },
 

@@ -247,12 +247,14 @@
       "how-many": "Hvor mange brugere vil bruge appen?",
       "get-discount": "Vil du have 2 måneder gratis ved årlig fakturering?",
       "yes-for-discount": "Ja, fakturer årligt",
+      "include-trial": "Vil du inkludere en 5-dages prøveperiode?",
+      "yes-for-trial": "Ja, inkluder prøveperioden",
       "two-installations": "Du kan have op til to samtidige installationer",
       "manage-installations": "Du kan styre adgangen via kontosiden",
       "agree-prefix": "Ved at fortsætte accepterer du",
       "agree-middle": "og",
       "action": "Betal med Stripe",
-      "action-secondary": "Betal med Paddle i stedet",
+      "action-secondary": "Betal med Paddle",
       "wait": "Vent på betalingen..."
     },
 

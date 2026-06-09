@@ -247,12 +247,14 @@
       "how-many": "How many users will be using the app?",
       "get-discount": "Do you want to get 2 months free by billing annually?",
       "yes-for-discount": "Yes, bill annually",
+      "include-trial": "Do you want to include a 5-day trial period?",
+      "yes-for-trial": "Yes, include trial",
       "two-installations": "You may have up to two simultaneous installations",
       "manage-installations": "You can control access via the account page",
       "agree-prefix": "By proceeding you agree with the",
       "agree-middle": "and",
       "action": "Checkout with Stripe",
-      "action-secondary": "Checkout with Paddle instead",
+      "action-secondary": "Checkout with Paddle",
       "wait": "Wait for checkout..."
     },
 

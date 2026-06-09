@@ -247,12 +247,14 @@
       "how-many": "Hoeveel gebruikers gebruiken de app?",
       "get-discount": "Wil je 2 maanden gratis krijgen door jaarlijks te factureren?",
       "yes-for-discount": "Ja, jaarlijks factureren",
+      "include-trial": "Wil je een proefperiode van 5 dagen opnemen?",
+      "yes-for-trial": "Ja, proef opnemen",
       "two-installations": "Je kunt tot twee gelijktijdige installaties hebben",
       "manage-installations": "Je kunt toegang beheren via de accountpagina",
       "agree-prefix": "Door verder te gaan ga je akkoord met",
       "agree-middle": "en",
       "action": "Afrekenen met Stripe",
-      "action-secondary": "Afrekenen met Paddle in plaats daarvan",
+      "action-secondary": "Afrekenen met Paddle",
       "wait": "Wacht op de checkout..."
     },
 

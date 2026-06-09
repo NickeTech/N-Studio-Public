@@ -245,12 +245,14 @@
       "how-many": "Quantos utilizadores vão usar a aplicação?",
       "get-discount": "Quer ganhar 2 meses grátis pagando anualmente?",
       "yes-for-discount": "Sim, paga anualmente",
+      "include-trial": "Quer incluir um período de teste de 5 dias?",
+      "yes-for-trial": "Sim, incluir teste",
       "two-installations": "Pode ter até duas instalações simultâneas",
       "manage-installations": "Pode controlar o acesso através da página da conta",
       "agree-prefix": "Ao prosseguir, concorda com os",
       "agree-middle": "e",
       "action": "Pague com Stripe",
-      "action-secondary": "Pague com Paddle em vez disso",
+      "action-secondary": "Pague com Paddle",
       "wait": "Aguarde pelo pagamento..."
     },
 

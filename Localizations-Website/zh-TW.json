@@ -247,12 +247,14 @@
       "how-many": "會有多少使用者使用此應用？",
       "get-discount": "想要透過年度計費獲得 2 個月免費嗎？",
       "yes-for-discount": "是，按年計費",
+      "include-trial": "要包括 5 天試用期嗎？",
+      "yes-for-trial": "是的，包含試用",
       "two-installations": "你最多可以有兩個同時安裝",
       "manage-installations": "你可以透過帳戶頁面控制存取",
       "agree-prefix": "繼續即表示你同意",
       "agree-middle": "和",
       "action": "使用 Stripe 結帳",
-      "action-secondary": "改用 Paddle 結帳",
+      "action-secondary": "使用 Paddle 結帳",
       "wait": "請等待結帳完成..."
     },
 
