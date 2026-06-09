@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Maskinöversatt (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-27</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-09</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Acceptera</s:String>
@@ -780,6 +780,10 @@
     <s:String x:Key="S.Errors.Plugin.Header">Fel vid nedladdning av tillägg</s:String>
     <s:String x:Key="S.Errors.Plugin.Message">Misslyckades ladda ner och extrahera tillägget</s:String>
 
+    <!--Error • Removing plugin-->
+    <s:String x:Key="S.Errors.RemovingPlugin.Header">Fel vid borttagning av plugin</s:String>
+    <s:String x:Key="S.Errors.RemovingPlugin.Message">Det gick inte att ta bort pluginet från disken</s:String>
+
     <!--Error • Open windows settings--> 
     <s:String x:Key="S.Errors.WindowsSettings.Header">Windows-inställningar</s:String>
     <s:String x:Key="S.Errors.WindowsSettings.Message">Kunde inte öppna inställningssidan</s:String>
@@ -1100,6 +1104,8 @@
     <s:String x:Key="S.Feedback.Extra.Sound">Ljudenheter</s:String>
     <s:String x:Key="S.Feedback.Extra.Sound.Info">Detaljer om ljudenheter som mikrofoner och högtalare</s:String>
     <s:String x:Key="S.Feedback.Extra.Disks.Info">Diskdetaljer som total och tillgänglig storlek</s:String>
+    <s:String x:Key="S.Feedback.Extra.Telemetry">Utförda steg</s:String>
+    <s:String x:Key="S.Feedback.Extra.Telemetry.Info">Användarklick och apphändelser som ledde till det aktuella läget</s:String>
     <s:String x:Key="S.Feedback.Extra.Error">Fel</s:String>
     <s:String x:Key="S.Feedback.Extra.Error.Info">Detaljer om felet</s:String>
     <s:String x:Key="S.Feedback.Extra.Settings">Appinställningar</s:String>
@@ -1158,6 +1164,13 @@
     <!--<s:String x:Key="S.FeedbackPreview.Disks.Format">Format</s:String>-->
     <s:String x:Key="S.FeedbackPreview.Disks.Type">Typ</s:String>
     <s:String x:Key="S.FeedbackPreview.Disks.Ready">Klar?</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.When">När</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Category">Kategori</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Location">Plats</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Trigger">Utlösare</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Input">Inmatning</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.UserInitiated">Initierat av användaren?</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Description">Beskrivning</s:String>
 
     <!--Project Types -->
     <s:String x:Key="S.ProjectTypes.Recording">Inspelning</s:String>

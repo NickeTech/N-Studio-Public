@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Door machine vertaald (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-27</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-09</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Accepteren</s:String>
@@ -780,6 +780,10 @@
     <s:String x:Key="S.Errors.Plugin.Header">Fout bij downloaden van plugin</s:String>
     <s:String x:Key="S.Errors.Plugin.Message">Het downloaden en uitpakken van de plugin is mislukt</s:String>
 
+    <!--Error • Removing plugin-->
+    <s:String x:Key="S.Errors.RemovingPlugin.Header">Fout bij het verwijderen van de plug-in</s:String>
+    <s:String x:Key="S.Errors.RemovingPlugin.Message">De plug-in kon niet van de schijf worden verwijderd</s:String>
+
     <!--Error • Open windows settings--> 
     <s:String x:Key="S.Errors.WindowsSettings.Header">Windows-instellingen</s:String>
     <s:String x:Key="S.Errors.WindowsSettings.Message">Kon de instellingenpagina niet openen</s:String>
@@ -1100,6 +1104,8 @@
     <s:String x:Key="S.Feedback.Extra.Sound">Geluidsapparaten</s:String>
     <s:String x:Key="S.Feedback.Extra.Sound.Info">Details over geluidsapparaten zoals microfoons en luidsprekers</s:String>
     <s:String x:Key="S.Feedback.Extra.Disks.Info">Schijfdetails zoals totale en beschikbare grootte</s:String>
+    <s:String x:Key="S.Feedback.Extra.Telemetry">Uitgevoerde stappen</s:String>
+    <s:String x:Key="S.Feedback.Extra.Telemetry.Info">Gebruikersklikken en app‑gebeurtenissen die tot de huidige status hebben geleid</s:String>
     <s:String x:Key="S.Feedback.Extra.Error">Fout</s:String>
     <s:String x:Key="S.Feedback.Extra.Error.Info">Details over de fout</s:String>
     <s:String x:Key="S.Feedback.Extra.Settings">App-instellingen</s:String>
@@ -1158,6 +1164,13 @@
     <s:String x:Key="S.FeedbackPreview.Disks.Format">Formaat</s:String>
     <!--<s:String x:Key="S.FeedbackPreview.Disks.Type">Type</s:String>-->
     <s:String x:Key="S.FeedbackPreview.Disks.Ready">Klaar?</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.When">Wanneer</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Category">Categorie</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Location">Locatie</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Trigger">Trigger</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Input">Invoer</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.UserInitiated">Door gebruiker gestart?</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Description">Beschrijving</s:String>
 
     <!--Project Types -->
     <s:String x:Key="S.ProjectTypes.Recording">Opname</s:String>

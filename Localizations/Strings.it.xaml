@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Tradotto automaticamente (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-27</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-09</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Accetta</s:String>
@@ -780,6 +780,10 @@
     <s:String x:Key="S.Errors.Plugin.Header">Errore download plugin</s:String>
     <s:String x:Key="S.Errors.Plugin.Message">Download ed estrazione del plugin non riusciti</s:String>
 
+    <!--Error • Removing plugin-->
+    <s:String x:Key="S.Errors.RemovingPlugin.Header">Errore durante la rimozione del plugin</s:String>
+    <s:String x:Key="S.Errors.RemovingPlugin.Message">Impossibile eliminare il plugin dal disco</s:String>
+
     <!--Error • Open windows settings--> 
     <s:String x:Key="S.Errors.WindowsSettings.Header">Impostazioni Windows</s:String>
     <s:String x:Key="S.Errors.WindowsSettings.Message">Impossibile aprire la pagina delle impostazioni</s:String>
@@ -1100,6 +1104,8 @@
     <s:String x:Key="S.Feedback.Extra.Sound">Dispositivi audio</s:String>
     <s:String x:Key="S.Feedback.Extra.Sound.Info">Dettagli sui dispositivi audio come microfoni e altoparlanti</s:String>
     <s:String x:Key="S.Feedback.Extra.Disks.Info">Dettagli sui dischi come dimensione totale e disponibile</s:String>
+    <s:String x:Key="S.Feedback.Extra.Telemetry">Azioni eseguite</s:String>
+    <s:String x:Key="S.Feedback.Extra.Telemetry.Info">Clic dell’utente ed eventi dell’app che hanno portato allo stato attuale</s:String>
     <s:String x:Key="S.Feedback.Extra.Error">Errore</s:String>
     <s:String x:Key="S.Feedback.Extra.Error.Info">Dettagli sull'errore</s:String>
     <s:String x:Key="S.Feedback.Extra.Settings">Impostazioni app</s:String>
@@ -1158,6 +1164,13 @@
     <s:String x:Key="S.FeedbackPreview.Disks.Format">Formato</s:String>
     <s:String x:Key="S.FeedbackPreview.Disks.Type">Tipo</s:String>
     <s:String x:Key="S.FeedbackPreview.Disks.Ready">Pronto?</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.When">Quando</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Category">Categoria</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Location">Posizione</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Trigger">Trigger</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Input">Input</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.UserInitiated">Avviato dall’utente?</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Description">Descrizione</s:String>
 
     <!--Project Types -->
     <s:String x:Key="S.ProjectTypes.Recording">Registrazione</s:String>

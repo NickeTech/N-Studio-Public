@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ 機器翻譯 (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-27</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-09</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">接受</s:String>
@@ -780,6 +780,10 @@
     <s:String x:Key="S.Errors.Plugin.Header">下載外掛程式時出錯</s:String>
     <s:String x:Key="S.Errors.Plugin.Message">下載並解壓外掛程式失敗</s:String>
 
+    <!--Error • Removing plugin-->
+    <s:String x:Key="S.Errors.RemovingPlugin.Header">移除外掛時發生錯誤</s:String>
+    <s:String x:Key="S.Errors.RemovingPlugin.Message">無法從磁碟刪除外掛</s:String>
+
     <!--Error • Open windows settings--> 
     <s:String x:Key="S.Errors.WindowsSettings.Header">Windows 設定</s:String>
     <s:String x:Key="S.Errors.WindowsSettings.Message">無法打開設定頁面</s:String>
@@ -1100,6 +1104,8 @@
     <s:String x:Key="S.Feedback.Extra.Sound">音效裝置</s:String>
     <s:String x:Key="S.Feedback.Extra.Sound.Info">關於麥克風與揚聲器等音效裝置的詳細資訊</s:String>
     <s:String x:Key="S.Feedback.Extra.Disks.Info">磁碟詳細資訊，例如總容量與可用容量</s:String>
+    <s:String x:Key="S.Feedback.Extra.Telemetry">執行的步驟</s:String>
+    <s:String x:Key="S.Feedback.Extra.Telemetry.Info">導致目前狀態的使用者點擊與應用程式事件</s:String>
     <s:String x:Key="S.Feedback.Extra.Error">錯誤</s:String>
     <s:String x:Key="S.Feedback.Extra.Error.Info">錯誤的詳細資訊</s:String>
     <s:String x:Key="S.Feedback.Extra.Settings">應用設定</s:String>
@@ -1158,6 +1164,13 @@
     <s:String x:Key="S.FeedbackPreview.Disks.Format">格式</s:String>
     <s:String x:Key="S.FeedbackPreview.Disks.Type">類型</s:String>
     <s:String x:Key="S.FeedbackPreview.Disks.Ready">準備好了嗎？</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.When">時間</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Category">類別</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Location">位置</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Trigger">觸發器</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Input">輸入</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.UserInitiated">由使用者啟動？</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Description">描述</s:String>
 
     <!--Project Types -->
     <s:String x:Key="S.ProjectTypes.Recording">錄製</s:String>

@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ 機械翻訳 (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-27</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-09</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">受け入れる</s:String>
@@ -780,6 +780,10 @@
     <s:String x:Key="S.Errors.Plugin.Header">プラグインダウンロードエラー</s:String>
     <s:String x:Key="S.Errors.Plugin.Message">プラグインのダウンロードおよび展開に失敗しました</s:String>
 
+    <!--Error • Removing plugin-->
+    <s:String x:Key="S.Errors.RemovingPlugin.Header">プラグインの削除エラー</s:String>
+    <s:String x:Key="S.Errors.RemovingPlugin.Message">ディスクからプラグインを削除できませんでした</s:String>
+
     <!--Error • Open windows settings--> 
     <s:String x:Key="S.Errors.WindowsSettings.Header">Windows設定</s:String>
     <s:String x:Key="S.Errors.WindowsSettings.Message">設定ページを開けません</s:String>
@@ -1100,6 +1104,8 @@
     <s:String x:Key="S.Feedback.Extra.Sound">サウンドデバイス</s:String>
     <s:String x:Key="S.Feedback.Extra.Sound.Info">マイクやスピーカーなどのサウンドデバイスの詳細</s:String>
     <s:String x:Key="S.Feedback.Extra.Disks.Info">合計および利用可能サイズなどのディスクの詳細</s:String>
+    <s:String x:Key="S.Feedback.Extra.Telemetry">実行された操作</s:String>
+    <s:String x:Key="S.Feedback.Extra.Telemetry.Info">現在の状態に至るまでのユーザー操作とアプリイベント</s:String>
     <s:String x:Key="S.Feedback.Extra.Error">エラー</s:String>
     <s:String x:Key="S.Feedback.Extra.Error.Info">エラーの詳細</s:String>
     <s:String x:Key="S.Feedback.Extra.Settings">アプリ設定</s:String>
@@ -1158,6 +1164,13 @@
     <s:String x:Key="S.FeedbackPreview.Disks.Format">形式</s:String>
     <s:String x:Key="S.FeedbackPreview.Disks.Type">種類</s:String>
     <s:String x:Key="S.FeedbackPreview.Disks.Ready">準備完了？</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.When">いつ</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Category">カテゴリ</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Location">場所</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Trigger">トリガー</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Input">入力</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.UserInitiated">ユーザー操作？</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Description">説明</s:String>
 
     <!--Project Types -->
     <s:String x:Key="S.ProjectTypes.Recording">録画</s:String>

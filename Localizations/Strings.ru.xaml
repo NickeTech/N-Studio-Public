@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Машинный перевод (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-27</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-09</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Принять</s:String>
@@ -780,6 +780,10 @@
     <s:String x:Key="S.Errors.Plugin.Header">Ошибка загрузки плагина</s:String>
     <s:String x:Key="S.Errors.Plugin.Message">Не удалось скачать и распаковать плагин</s:String>
 
+    <!--Error • Removing plugin-->
+    <s:String x:Key="S.Errors.RemovingPlugin.Header">Ошибка при удалении плагина</s:String>
+    <s:String x:Key="S.Errors.RemovingPlugin.Message">Не удалось удалить плагин с диска</s:String>
+
     <!--Error • Open windows settings--> 
     <s:String x:Key="S.Errors.WindowsSettings.Header">Параметры Windows</s:String>
     <s:String x:Key="S.Errors.WindowsSettings.Message">Не удалось открыть страницу настроек</s:String>
@@ -1100,6 +1104,8 @@
     <s:String x:Key="S.Feedback.Extra.Sound">Звуковые устройства</s:String>
     <s:String x:Key="S.Feedback.Extra.Sound.Info">Сведения об аудиоустройствах, таких как микрофоны и динамики</s:String>
     <s:String x:Key="S.Feedback.Extra.Disks.Info">Сведения о диске, такие как общий и доступный размер</s:String>
+    <s:String x:Key="S.Feedback.Extra.Telemetry">Выполненные действия</s:String>
+    <s:String x:Key="S.Feedback.Extra.Telemetry.Info">Клики пользователя и события приложения, приведшие к текущему состоянию</s:String>
     <s:String x:Key="S.Feedback.Extra.Error">Ошибка</s:String>
     <s:String x:Key="S.Feedback.Extra.Error.Info">Сведения об ошибке</s:String>
     <s:String x:Key="S.Feedback.Extra.Settings">Настройки приложения</s:String>
@@ -1158,6 +1164,13 @@
     <s:String x:Key="S.FeedbackPreview.Disks.Format">Формат</s:String>
     <s:String x:Key="S.FeedbackPreview.Disks.Type">Тип</s:String>
     <s:String x:Key="S.FeedbackPreview.Disks.Ready">Готово?</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.When">Когда</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Category">Категория</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Location">Местоположение</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Trigger">Триггер</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Input">Ввод</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.UserInitiated">Инициировано пользователем?</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Description">Описание</s:String>
 
     <!--Project Types -->
     <s:String x:Key="S.ProjectTypes.Recording">Запись</s:String>

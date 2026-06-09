@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Traducido por máquina (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-27</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-09</s:DateTime>
 
     <!--Imperative-->
     <!--<s:String x:Key="S.Imperative.Accept">Aceptar</s:String>-->
@@ -780,6 +780,10 @@
     <!--<s:String x:Key="S.Errors.Plugin.Header">Error al descargar el complemento</s:String>-->
     <!--<s:String x:Key="S.Errors.Plugin.Message">Error al descargar y extraer el complemento</s:String>-->
 
+    <!--Error • Removing plugin-->
+    <!--<s:String x:Key="S.Errors.RemovingPlugin.Header">Error al eliminar el complemento</s:String>-->
+    <s:String x:Key="S.Errors.RemovingPlugin.Message">No se pudo borrar el complemento del disco</s:String>
+
     <!--Error • Open windows settings--> 
     <!--<s:String x:Key="S.Errors.WindowsSettings.Header">Configuración de Windows</s:String>-->
     <!--<s:String x:Key="S.Errors.WindowsSettings.Message">No se pudo abrir la página de configuración</s:String>-->
@@ -1100,6 +1104,8 @@
     <!--<s:String x:Key="S.Feedback.Extra.Sound">Sonido</s:String>-->
     <!--<s:String x:Key="S.Feedback.Extra.Sound.Info">Detalles sobre dispositivos de sonido, como micrófonos y altavoces</s:String>-->
     <!--<s:String x:Key="S.Feedback.Extra.Disks.Info">Detalles de discos como tamaño total y disponible</s:String>-->
+    <!--<s:String x:Key="S.Feedback.Extra.Telemetry">Pasos realizados</s:String>-->
+    <s:String x:Key="S.Feedback.Extra.Telemetry.Info">Clics del usuario y eventos de la app que llevaron al estado actual</s:String>
     <!--<s:String x:Key="S.Feedback.Extra.Error">Error</s:String>-->
     <!--<s:String x:Key="S.Feedback.Extra.Error.Info">Detalles sobre el error</s:String>-->
     <s:String x:Key="S.Feedback.Extra.Settings">Configuración de la aplicación</s:String>
@@ -1158,6 +1164,13 @@
     <!--<s:String x:Key="S.FeedbackPreview.Disks.Format">Formato</s:String>-->
     <!--<s:String x:Key="S.FeedbackPreview.Disks.Type">Tipo</s:String>-->
     <!--<s:String x:Key="S.FeedbackPreview.Disks.Ready">¿Listo?</s:String>-->
+    <!-- <s:String x:Key="S.FeedbackPreview.Telemetry.When">Cuándo</s:String> -->
+    <!-- <s:String x:Key="S.FeedbackPreview.Telemetry.Category">Categoría</s:String> -->
+    <!-- <s:String x:Key="S.FeedbackPreview.Telemetry.Location">Ubicación</s:String> -->
+    <!-- <s:String x:Key="S.FeedbackPreview.Telemetry.Trigger">Disparador</s:String> -->
+    <!-- <s:String x:Key="S.FeedbackPreview.Telemetry.Input">Entrada</s:String> -->
+    <!-- <s:String x:Key="S.FeedbackPreview.Telemetry.UserInitiated">¿Iniciado por el usuario?</s:String> -->
+    <!-- <s:String x:Key="S.FeedbackPreview.Telemetry.Description">Descripción</s:String> -->
 
     <!--Project Types -->
     <!--<s:String x:Key="S.ProjectTypes.Recording">Grabación</s:String>-->
@@ -2470,3 +2483,4 @@
     <!--<s:String x:Key="S.TextAlignment.Center">Centro</s:String>-->
     <!--<s:String x:Key="S.TextAlignment.Justify">Justificar</s:String>-->
 </ResourceDictionary>
+

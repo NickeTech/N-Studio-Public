@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">Nicke Manarin</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-27</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-09</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Aceitar</s:String>
@@ -780,6 +780,10 @@
     <s:String x:Key="S.Errors.Plugin.Header">Erro ao baixar o plugin</s:String>
     <s:String x:Key="S.Errors.Plugin.Message">Falha ao baixar e extrair o plugin</s:String>
 
+    <!--Error • Removing plugin-->
+    <s:String x:Key="S.Errors.RemovingPlugin.Header">Erro ao remover o plugin</s:String>
+    <s:String x:Key="S.Errors.RemovingPlugin.Message">Falha ao excluir o plugin do disco</s:String>
+
     <!--Error • Open windows settings--> 
     <s:String x:Key="S.Errors.WindowsSettings.Header">Configurações do Windows</s:String>
     <s:String x:Key="S.Errors.WindowsSettings.Message">Não foi possível abrir a página de configurações</s:String>
@@ -1100,6 +1104,8 @@
     <s:String x:Key="S.Feedback.Extra.Sound">Som</s:String>
     <s:String x:Key="S.Feedback.Extra.Sound.Info">Detalhes sobre dispositivos de som, como microfones e alto-falantes</s:String>
     <s:String x:Key="S.Feedback.Extra.Disks.Info">Detalhes do disco, como tamanho total e disponível</s:String>
+    <s:String x:Key="S.Feedback.Extra.Telemetry">Ações realizadas</s:String>
+    <s:String x:Key="S.Feedback.Extra.Telemetry.Info">Cliques do usuário e eventos do app que levaram ao estado atual</s:String>
     <s:String x:Key="S.Feedback.Extra.Error">Erro</s:String>
     <s:String x:Key="S.Feedback.Extra.Error.Info">Detalhes sobre o erro</s:String>
     <s:String x:Key="S.Feedback.Extra.Settings">Configurações do app</s:String>
@@ -1158,6 +1164,13 @@
     <s:String x:Key="S.FeedbackPreview.Disks.Format">Formato</s:String>
     <s:String x:Key="S.FeedbackPreview.Disks.Type">Tipo</s:String>
     <s:String x:Key="S.FeedbackPreview.Disks.Ready">Pronto?</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.When">Quando</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Category">Categoria</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Location">Local</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Trigger">Gatilho</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Input">Entrada</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.UserInitiated">Iniciado pelo usuário?</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Description">Descrição</s:String>
 
     <!--Project Types -->
     <s:String x:Key="S.ProjectTypes.Recording">Gravação</s:String>

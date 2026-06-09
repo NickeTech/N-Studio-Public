@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Maskinoversat (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-27</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-09</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Accepter</s:String>
@@ -780,6 +780,10 @@
     <s:String x:Key="S.Errors.Plugin.Header">Fejl ved download af plugin</s:String>
     <s:String x:Key="S.Errors.Plugin.Message">Download og udpakning af plugin mislykkedes</s:String>
 
+    <!--Error • Removing plugin-->
+    <s:String x:Key="S.Errors.RemovingPlugin.Header">Fejl ved fjernelse af plugin</s:String>
+    <s:String x:Key="S.Errors.RemovingPlugin.Message">Kunne ikke slette pluginet fra disken</s:String>
+
     <!--Error • Open windows settings--> 
     <s:String x:Key="S.Errors.WindowsSettings.Header">Windows-indstillinger</s:String>
     <s:String x:Key="S.Errors.WindowsSettings.Message">Kan ikke åbne indstillingssiden</s:String>
@@ -1100,6 +1104,8 @@
     <s:String x:Key="S.Feedback.Extra.Sound">Lydenheder</s:String>
     <s:String x:Key="S.Feedback.Extra.Sound.Info">Oplysninger om lydenheder såsom mikrofoner og højttalere</s:String>
     <s:String x:Key="S.Feedback.Extra.Disks.Info">Diskoplysninger såsom total og tilgængelig størrelse</s:String>
+    <s:String x:Key="S.Feedback.Extra.Telemetry">Udførte trin</s:String>
+    <s:String x:Key="S.Feedback.Extra.Telemetry.Info">Brugerklik og app‑hændelser, der førte til den aktuelle tilstand</s:String>
     <s:String x:Key="S.Feedback.Extra.Error">Fejl</s:String>
     <s:String x:Key="S.Feedback.Extra.Error.Info">Oplysninger om fejlen</s:String>
     <s:String x:Key="S.Feedback.Extra.Settings">App-indstillinger</s:String>
@@ -1158,6 +1164,13 @@
     <!--<s:String x:Key="S.FeedbackPreview.Disks.Format">Format</s:String>-->
     <!--<s:String x:Key="S.FeedbackPreview.Disks.Type">Type</s:String>-->
     <s:String x:Key="S.FeedbackPreview.Disks.Ready">Klar?</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.When">Hvornår</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Category">Kategori</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Location">Placering</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Trigger">Udløser</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Input">Input</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.UserInitiated">Brugerinitieret?</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Description">Beskrivelse</s:String>
 
     <!--Project Types -->
     <s:String x:Key="S.ProjectTypes.Recording">Optagelse</s:String>

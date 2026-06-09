@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Μεταφρασμένο μηχανικά (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-27</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-09</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Αποδοχή</s:String>
@@ -780,6 +780,10 @@
     <s:String x:Key="S.Errors.Plugin.Header">Σφάλμα λήψης προσθέτου</s:String>
     <s:String x:Key="S.Errors.Plugin.Message">Απέτυχε η λήψη και η αποσυμπίεση του προσθέτου</s:String>
 
+    <!--Error • Removing plugin-->
+    <s:String x:Key="S.Errors.RemovingPlugin.Header">Σφάλμα κατά την αφαίρεση του πρόσθετου</s:String>
+    <s:String x:Key="S.Errors.RemovingPlugin.Message">Αποτυχία διαγραφής του πρόσθετου από τον δίσκο</s:String>
+
     <!--Error • Open windows settings--> 
     <s:String x:Key="S.Errors.WindowsSettings.Header">Ρυθμίσεις Windows</s:String>
     <s:String x:Key="S.Errors.WindowsSettings.Message">Δεν είναι δυνατή η άνοιξη της σελίδας ρυθμίσεων</s:String>
@@ -1100,6 +1104,8 @@
     <s:String x:Key="S.Feedback.Extra.Sound">Συσκευές ήχου</s:String>
     <s:String x:Key="S.Feedback.Extra.Sound.Info">Λεπτομέρειες για συσκευές ήχου όπως μικρόφωνα και ηχεία</s:String>
     <s:String x:Key="S.Feedback.Extra.Disks.Info">Λεπτομέρειες δίσκου όπως συνολικό και διαθέσιμο μέγεθος</s:String>
+    <s:String x:Key="S.Feedback.Extra.Telemetry">Ενέργειες που έγιναν</s:String>
+    <s:String x:Key="S.Feedback.Extra.Telemetry.Info">Κλικ χρήστη και συμβάντα της εφαρμογής που οδήγησαν στην τρέχουσα κατάσταση</s:String>
     <s:String x:Key="S.Feedback.Extra.Error">Σφάλμα</s:String>
     <s:String x:Key="S.Feedback.Extra.Error.Info">Λεπτομέρειες για το σφάλμα</s:String>
     <s:String x:Key="S.Feedback.Extra.Settings">Ρυθμίσεις εφαρμογής</s:String>
@@ -1158,6 +1164,13 @@
     <s:String x:Key="S.FeedbackPreview.Disks.Format">Μορφή</s:String>
     <s:String x:Key="S.FeedbackPreview.Disks.Type">Τύπος</s:String>
     <s:String x:Key="S.FeedbackPreview.Disks.Ready">Έτοιμο;</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.When">Πότε</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Category">Κατηγορία</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Location">Τοποθεσία</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Trigger">Ενεργοποιητής</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Input">Είσοδος</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.UserInitiated">Ξεκίνησε από τον χρήστη?</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Description">Περιγραφή</s:String>
 
     <!--Project Types -->
     <s:String x:Key="S.ProjectTypes.Recording">Εγγραφή</s:String>

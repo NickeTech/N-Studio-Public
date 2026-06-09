@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">Anlv</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-05-27</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-09</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">接受</s:String>
@@ -780,6 +780,10 @@
     <s:String x:Key="S.Errors.Plugin.Header">下载插件时出错</s:String>
     <s:String x:Key="S.Errors.Plugin.Message">下载并解压插件失败</s:String>
 
+    <!--Error • Removing plugin-->
+    <s:String x:Key="S.Errors.RemovingPlugin.Header">移除插件时出错</s:String>
+    <s:String x:Key="S.Errors.RemovingPlugin.Message">无法从磁盘删除插件</s:String>
+
     <!--Error • Open windows settings--> 
     <s:String x:Key="S.Errors.WindowsSettings.Header">Windows 设置</s:String>
     <s:String x:Key="S.Errors.WindowsSettings.Message">无法打开设置页面</s:String>
@@ -1100,6 +1104,8 @@
     <s:String x:Key="S.Feedback.Extra.Sound">声音设备</s:String>
     <s:String x:Key="S.Feedback.Extra.Sound.Info">关于声音设备（如麦克风和扬声器）的详细信息</s:String>
     <s:String x:Key="S.Feedback.Extra.Disks.Info">磁盘详情，例如总容量和可用容量</s:String>
+    <s:String x:Key="S.Feedback.Extra.Telemetry">执行的步骤</s:String>
+    <s:String x:Key="S.Feedback.Extra.Telemetry.Info">导致当前状态的用户点击和应用事件</s:String>
     <s:String x:Key="S.Feedback.Extra.Error">错误</s:String>
     <s:String x:Key="S.Feedback.Extra.Error.Info">有关错误的详情</s:String>
     <s:String x:Key="S.Feedback.Extra.Settings">应用设置</s:String>
@@ -1158,6 +1164,13 @@
     <s:String x:Key="S.FeedbackPreview.Disks.Format">格式</s:String>
     <s:String x:Key="S.FeedbackPreview.Disks.Type">类型</s:String>
     <s:String x:Key="S.FeedbackPreview.Disks.Ready">准备就绪?</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.When">时间</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Category">类别</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Location">位置</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Trigger">触发器</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Input">输入</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.UserInitiated">用户发起？</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Description">描述</s:String>
 
     <!--Project Types -->
     <s:String x:Key="S.ProjectTypes.Recording">录制</s:String>
