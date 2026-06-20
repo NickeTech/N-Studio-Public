@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Maschinell übersetzt (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-09</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-19</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Akzeptieren</s:String>
@@ -419,6 +419,10 @@
     <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Structural">Strukturelle Ähnlichkeit (genau)</s:String>
     <s:String x:Key="S.Dialogs.SmoothLoop.TracksToInclude">Spuren, die in die Suche einbezogen werden</s:String>
 
+    <!--Dialogs • Set timeline length-->
+    <s:String x:Key="S.Dialogs.TimelineLength.Header">Zeitachsenlänge festlegen</s:String>
+    <s:String x:Key="S.Dialogs.TimelineLength.Action">Länge festlegen</s:String>
+
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">Erforderliche Felder</s:String>
     <s:String x:Key="S.Validation.Required.Description">Einige Pflichtfelder sind leer oder enthalten ungültige Daten</s:String>
@@ -796,6 +800,14 @@
     <s:String x:Key="S.Errors.SmoothLoop.Header">Suche fehlgeschlagen</s:String>
     <s:String x:Key="S.Errors.SmoothLoop.Message">Während der Schleifensuche ist ein Fehler aufgetreten</s:String>
 
+    <!--Error • Removing recent project--> 
+    <s:String x:Key="S.Errors.RemovingRecent.Header">Fehler</s:String>
+    <s:String x:Key="S.Errors.RemovingRecent.Message">Projekt konnte nicht entfernt werden</s:String>
+
+    <!--Error • Removing recent projects--> 
+    <s:String x:Key="S.Errors.RemovingRecents.Header">Fehler</s:String>
+    <s:String x:Key="S.Errors.RemovingRecents.Message">Ein oder mehrere Projekte konnten nicht entfernt werden</s:String>
+
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Aktivierung fehlgeschlagen</s:String>
     <s:String x:Key="S.Errors.Activation.Generic">Die App konnte aufgrund eines unbekannten Problems nicht aktiviert werden</s:String>
@@ -1085,7 +1097,7 @@
     <s:String x:Key="S.Feedback.Title">Titel</s:String>
     <s:String x:Key="S.Feedback.Title.Info">Kurze Beschreibung...</s:String>
     <!--<s:String x:Key="S.Feedback.Name">Name</s:String>-->
-    <s:String x:Key="S.Feedback.Name.Info">Dein Name (optional)</s:String>
+    <s:String x:Key="S.Feedback.Name.Info">Dein Name</s:String>
     <s:String x:Key="S.Feedback.Type">Feedback-Typ</s:String>
     <s:String x:Key="S.Feedback.Type.Bug">Fehler</s:String>
     <s:String x:Key="S.Feedback.Type.Suggestion">Vorschlag</s:String>
@@ -1094,7 +1106,7 @@
     <s:String x:Key="S.Feedback.Description">Beschreibung</s:String>
     <s:String x:Key="S.Feedback.Description.Info">Beschreibe es mit mehr Details...</s:String>
     <s:String x:Key="S.Feedback.Email">E-Mail</s:String>
-    <s:String x:Key="S.Feedback.Email.Info">E-Mail zur Kontaktaufnahme (optional)</s:String>
+    <s:String x:Key="S.Feedback.Email.Info">E-Mail zur Kontaktaufnahme</s:String>
     <s:String x:Key="S.Feedback.Extra">Zusätzliche Details</s:String>
     <s:String x:Key="S.Feedback.Extra.System.Info">Betriebssystemversion und installierte Patches</s:String>
     <s:String x:Key="S.Feedback.Extra.Application.Info">Anwendungsversion</s:String>

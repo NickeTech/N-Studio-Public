@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Traducido por máquina (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-09</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-19</s:DateTime>
 
     <!--Imperative-->
     <!--<s:String x:Key="S.Imperative.Accept">Aceptar</s:String>-->
@@ -419,6 +419,10 @@
     <!--<s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Structural">Similitud estructural (preciso)</s:String>-->
     <!--<s:String x:Key="S.Dialogs.SmoothLoop.TracksToInclude">Pistas a incluir en la búsqueda</s:String>-->
 
+    <!--Dialogs • Set timeline length-->
+    <s:String x:Key="S.Dialogs.TimelineLength.Header">Configurar la duración de la línea de tiempo</s:String>
+    <s:String x:Key="S.Dialogs.TimelineLength.Action">Configurar duración</s:String>
+
     <!--Validation • Field Validations-->
     <!--<s:String x:Key="S.Validation.Required.Header">Campos obligatorios</s:String>-->
     <!--<s:String x:Key="S.Validation.Required.Description">Algunos campos obligatorios están vacíos o contienen datos no válidos</s:String>-->
@@ -796,6 +800,14 @@
     <!--<s:String x:Key="S.Errors.SmoothLoop.Header">La búsqueda falló</s:String>-->
     <!--<s:String x:Key="S.Errors.SmoothLoop.Message">Ocurrió un error durante la búsqueda del bucle</s:String>-->
 
+    <!--Error • Removing recent project--> 
+    <!--<s:String x:Key="S.Errors.RemovingRecent.Header">Error</s:String>-->
+    <s:String x:Key="S.Errors.RemovingRecent.Message">No se pudo quitar el proyecto</s:String>
+
+    <!--Error • Removing recent projects--> 
+    <!--<s:String x:Key="S.Errors.RemovingRecents.Header">Error</s:String>-->
+    <s:String x:Key="S.Errors.RemovingRecents.Message">No se pudieron quitar uno o más proyectos</s:String>
+
     <!--Error • Others--> 
     <!--<s:String x:Key="S.Errors.Activation.Title">La activación ha fallado</s:String>-->
     <!--<s:String x:Key="S.Errors.Activation.Generic">No fue posible activar la aplicación debido a un problema desconocido</s:String>-->
@@ -1085,7 +1097,7 @@
     <!--<s:String x:Key="S.Feedback.Title">Título</s:String>-->
     <!--<s:String x:Key="S.Feedback.Title.Info">Descripción breve...</s:String>-->
     <!--<s:String x:Key="S.Feedback.Name">Nombre</s:String>-->
-    <!--<s:String x:Key="S.Feedback.Name.Info">Tu nombre (opcional)</s:String>-->
+    <!--<s:String x:Key="S.Feedback.Name.Info">Tu nombre</s:String>-->
     <!--<s:String x:Key="S.Feedback.Type">Tipo de comentario</s:String>-->
     <!--<s:String x:Key="S.Feedback.Type.Bug">Error</s:String>-->
     <!--<s:String x:Key="S.Feedback.Type.Suggestion">Sugerencia</s:String>-->
@@ -1094,7 +1106,7 @@
     <!--<s:String x:Key="S.Feedback.Description">Descripción</s:String>-->
     <!--<s:String x:Key="S.Feedback.Description.Info">Describe con más detalles...</s:String>-->
     <!--<s:String x:Key="S.Feedback.Email">Correo electrónico</s:String>-->
-    <!--<s:String x:Key="S.Feedback.Email.Info">Correo para contacto (opcional)</s:String>-->
+    <!--<s:String x:Key="S.Feedback.Email.Info">Correo para contacto</s:String>-->
     <!--<s:String x:Key="S.Feedback.Extra">Detalles adicionales</s:String>-->
     <!--<s:String x:Key="S.Feedback.Extra.System.Info">Versión del sistema operativo y parches instalados</s:String>-->
     <!--<s:String x:Key="S.Feedback.Extra.Application.Info">Versión de la aplicación</s:String>-->
@@ -2483,4 +2495,3 @@
     <!--<s:String x:Key="S.TextAlignment.Center">Centro</s:String>-->
     <!--<s:String x:Key="S.TextAlignment.Justify">Justificar</s:String>-->
 </ResourceDictionary>
-

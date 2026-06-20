@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Maskinöversatt (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-09</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-19</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Acceptera</s:String>
@@ -419,6 +419,10 @@
     <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Structural">Strukturell likhet (noggrann)</s:String>
     <s:String x:Key="S.Dialogs.SmoothLoop.TracksToInclude">Spår att inkludera i sökningen</s:String>
 
+    <!--Dialogs • Set timeline length-->
+    <s:String x:Key="S.Dialogs.TimelineLength.Header">Ställ in tidslinjens längd</s:String>
+    <s:String x:Key="S.Dialogs.TimelineLength.Action">Ställ in längd</s:String>
+
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">Obligatoriska fält</s:String>
     <s:String x:Key="S.Validation.Required.Description">Några obligatoriska fält är tomma eller innehåller ogiltiga data</s:String>
@@ -796,6 +800,14 @@
     <s:String x:Key="S.Errors.SmoothLoop.Header">Sökning misslyckades</s:String>
     <s:String x:Key="S.Errors.SmoothLoop.Message">Ett fel inträffade under loopsökningen</s:String>
 
+    <!--Error • Removing recent project--> 
+    <s:String x:Key="S.Errors.RemovingRecent.Header">Fel</s:String>
+    <s:String x:Key="S.Errors.RemovingRecent.Message">Det gick inte att ta bort projektet</s:String>
+
+    <!--Error • Removing recent projects--> 
+    <s:String x:Key="S.Errors.RemovingRecents.Header">Fel</s:String>
+    <s:String x:Key="S.Errors.RemovingRecents.Message">Det gick inte att ta bort ett eller flera projekt</s:String>
+
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Aktivering misslyckades</s:String>
     <s:String x:Key="S.Errors.Activation.Generic">Det gick inte att aktivera appen på grund av ett okänt problem</s:String>
@@ -1085,7 +1097,7 @@
     <s:String x:Key="S.Feedback.Title">Titel</s:String>
     <s:String x:Key="S.Feedback.Title.Info">Kort beskrivning...</s:String>
     <s:String x:Key="S.Feedback.Name">Namn</s:String>
-    <s:String x:Key="S.Feedback.Name.Info">Ditt namn (valfritt)</s:String>
+    <s:String x:Key="S.Feedback.Name.Info">Ditt namn</s:String>
     <s:String x:Key="S.Feedback.Type">Typ av feedback</s:String>
     <s:String x:Key="S.Feedback.Type.Bug">Bugg</s:String>
     <s:String x:Key="S.Feedback.Type.Suggestion">Förslag</s:String>
@@ -1094,7 +1106,7 @@
     <s:String x:Key="S.Feedback.Description">Beskrivning</s:String>
     <s:String x:Key="S.Feedback.Description.Info">Beskriv mer i detalj...</s:String>
     <s:String x:Key="S.Feedback.Email">E-post</s:String>
-    <s:String x:Key="S.Feedback.Email.Info">E-post för kontakt (valfritt)</s:String>
+    <s:String x:Key="S.Feedback.Email.Info">E-post för kontakt</s:String>
     <s:String x:Key="S.Feedback.Extra">Extra detaljer</s:String>
     <s:String x:Key="S.Feedback.Extra.System.Info">Operativsystemversion och installerade patchar</s:String>
     <s:String x:Key="S.Feedback.Extra.Application.Info">Applikationsversion</s:String>

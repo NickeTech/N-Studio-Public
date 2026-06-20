@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ 機器翻譯 (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-09</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-19</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">接受</s:String>
@@ -419,6 +419,10 @@
     <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Structural">結構相似度（精準）</s:String>
     <s:String x:Key="S.Dialogs.SmoothLoop.TracksToInclude">搜尋中包含的軌道</s:String>
 
+    <!--Dialogs • Set timeline length-->
+    <s:String x:Key="S.Dialogs.TimelineLength.Header">設定時間軸長度</s:String>
+    <s:String x:Key="S.Dialogs.TimelineLength.Action">設定長度</s:String>
+
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">必填欄位</s:String>
     <s:String x:Key="S.Validation.Required.Description">某些必填欄位為空或含有無效資料</s:String>
@@ -796,6 +800,14 @@
     <s:String x:Key="S.Errors.SmoothLoop.Header">搜尋失敗</s:String>
     <s:String x:Key="S.Errors.SmoothLoop.Message">搜尋循環時發生錯誤</s:String>
 
+    <!--Error • Removing recent project--> 
+    <s:String x:Key="S.Errors.RemovingRecent.Header">錯誤</s:String>
+    <s:String x:Key="S.Errors.RemovingRecent.Message">無法移除該專案</s:String>
+
+    <!--Error • Removing recent projects--> 
+    <s:String x:Key="S.Errors.RemovingRecents.Header">錯誤</s:String>
+    <s:String x:Key="S.Errors.RemovingRecents.Message">無法移除一個或多個專案</s:String>
+
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">啟用失敗</s:String>
     <s:String x:Key="S.Errors.Activation.Generic">由於未知問題，無法啟用應用程式</s:String>
@@ -1085,7 +1097,7 @@
     <s:String x:Key="S.Feedback.Title">標題</s:String>
     <s:String x:Key="S.Feedback.Title.Info">簡要描述...</s:String>
     <s:String x:Key="S.Feedback.Name">名稱</s:String>
-    <s:String x:Key="S.Feedback.Name.Info">你的名稱（可選）</s:String>
+    <s:String x:Key="S.Feedback.Name.Info">你的名稱</s:String>
     <s:String x:Key="S.Feedback.Type">回饋類型</s:String>
     <s:String x:Key="S.Feedback.Type.Bug">錯誤</s:String>
     <s:String x:Key="S.Feedback.Type.Suggestion">建議</s:String>
@@ -1094,7 +1106,7 @@
     <s:String x:Key="S.Feedback.Description">描述</s:String>
     <s:String x:Key="S.Feedback.Description.Info">更詳細地描述...</s:String>
     <s:String x:Key="S.Feedback.Email">電子郵件</s:String>
-    <s:String x:Key="S.Feedback.Email.Info">聯絡電子郵件（可選）</s:String>
+    <s:String x:Key="S.Feedback.Email.Info">聯絡電子郵件</s:String>
     <s:String x:Key="S.Feedback.Extra">額外詳情</s:String>
     <s:String x:Key="S.Feedback.Extra.System.Info">作業系統版本和已安裝修補程式</s:String>
     <s:String x:Key="S.Feedback.Extra.Application.Info">應用程式版本</s:String>

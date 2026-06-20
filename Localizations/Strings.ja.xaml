@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ 機械翻訳 (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-09</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-19</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">受け入れる</s:String>
@@ -419,6 +419,10 @@
     <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Structural">構造類似度（高精度）</s:String>
     <s:String x:Key="S.Dialogs.SmoothLoop.TracksToInclude">検索に含めるトラック</s:String>
 
+    <!--Dialogs • Set timeline length-->
+    <s:String x:Key="S.Dialogs.TimelineLength.Header">タイムラインの長さを設定</s:String>
+    <s:String x:Key="S.Dialogs.TimelineLength.Action">長さを設定</s:String>
+
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">必須フィールド</s:String>
     <s:String x:Key="S.Validation.Required.Description">必須フィールドが空白または無効なデータです</s:String>
@@ -796,6 +800,14 @@
     <s:String x:Key="S.Errors.SmoothLoop.Header">検索に失敗しました</s:String>
     <s:String x:Key="S.Errors.SmoothLoop.Message">ループ検索中にエラーが発生しました</s:String>
 
+    <!--Error • Removing recent project--> 
+    <s:String x:Key="S.Errors.RemovingRecent.Header">エラー</s:String>
+    <s:String x:Key="S.Errors.RemovingRecent.Message">プロジェクトを削除できませんでした</s:String>
+
+    <!--Error • Removing recent projects--> 
+    <s:String x:Key="S.Errors.RemovingRecents.Header">エラー</s:String>
+    <s:String x:Key="S.Errors.RemovingRecents.Message">1つ以上のプロジェクトを削除できませんでした</s:String>
+
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">アクティベーションに失敗しました</s:String>
     <s:String x:Key="S.Errors.Activation.Generic">不明な問題のため、アプリをアクティブ化できませんでした</s:String>
@@ -1085,7 +1097,7 @@
     <s:String x:Key="S.Feedback.Title">タイトル</s:String>
     <s:String x:Key="S.Feedback.Title.Info">簡単な説明...</s:String>
     <s:String x:Key="S.Feedback.Name">名前</s:String>
-    <s:String x:Key="S.Feedback.Name.Info">お名前（任意）</s:String>
+    <s:String x:Key="S.Feedback.Name.Info">お名前</s:String>
     <s:String x:Key="S.Feedback.Type">フィードバックの種類</s:String>
     <s:String x:Key="S.Feedback.Type.Bug">バグ</s:String>
     <s:String x:Key="S.Feedback.Type.Suggestion">提案</s:String>
@@ -1094,7 +1106,7 @@
     <s:String x:Key="S.Feedback.Description">説明</s:String>
     <s:String x:Key="S.Feedback.Description.Info">詳細に説明してください...</s:String>
     <s:String x:Key="S.Feedback.Email">メール</s:String>
-    <s:String x:Key="S.Feedback.Email.Info">連絡先メール（任意）</s:String>
+    <s:String x:Key="S.Feedback.Email.Info">連絡先メール</s:String>
     <s:String x:Key="S.Feedback.Extra">追加詳細</s:String>
     <s:String x:Key="S.Feedback.Extra.System.Info">OSバージョンとインストール済みパッチ</s:String>
     <s:String x:Key="S.Feedback.Extra.Application.Info">アプリケーションバージョン</s:String>

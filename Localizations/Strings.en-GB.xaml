@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">Nicke Manarin</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-09</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-19</s:DateTime>
 
     <!--Imperative-->
     <!--<s:String x:Key="S.Imperative.Accept">Accept</s:String>-->
@@ -419,6 +419,10 @@
     <!--<s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Structural">Structural similarity (accurate)</s:String>-->
     <!--<s:String x:Key="S.Dialogs.SmoothLoop.TracksToInclude">Tracks to include in search</s:String>-->
 
+    <!--Dialogs • Set timeline length-->
+    <!--<s:String x:Key="S.Dialogs.TimelineLength.Header">Set timeline length</s:String>-->
+    <!--<s:String x:Key="S.Dialogs.TimelineLength.Action">Set length</s:String>-->
+
     <!--Validation • Field Validations-->
     <!--<s:String x:Key="S.Validation.Required.Header">Required fields</s:String>-->
     <!--<s:String x:Key="S.Validation.Required.Description">Some required fields are empty or have invalid data</s:String>-->
@@ -796,6 +800,14 @@
     <!--<s:String x:Key="S.Errors.SmoothLoop.Header">Search failed</s:String>-->
     <!--<s:String x:Key="S.Errors.SmoothLoop.Message">An error occurred during the loop search</s:String>-->
 
+    <!--Error • Removing recent project--> 
+    <!--<s:String x:Key="S.Errors.RemovingRecent.Header">Error</s:String>-->
+    <!--<s:String x:Key="S.Errors.RemovingRecent.Message">Failed to remove the project</s:String>-->
+
+    <!--Error • Removing recent projects--> 
+    <!--<s:String x:Key="S.Errors.RemovingRecents.Header">Error</s:String>-->
+    <!--<s:String x:Key="S.Errors.RemovingRecents.Message">Failed to remove one or more projects</s:String>-->
+
     <!--Error • Others--> 
     <!--<s:String x:Key="S.Errors.Activation.Title">Activation failed</s:String>-->
     <!--<s:String x:Key="S.Errors.Activation.Generic">It was not possible to activate the app due to an unknown problem</s:String>-->
@@ -1085,7 +1097,7 @@
     <!--<s:String x:Key="S.Feedback.Title">Title</s:String>-->
     <!--<s:String x:Key="S.Feedback.Title.Info">Brief description...</s:String>-->
     <!--<s:String x:Key="S.Feedback.Name">Name</s:String>-->
-    <!--<s:String x:Key="S.Feedback.Name.Info">Your name (optional)</s:String>-->
+    <!--<s:String x:Key="S.Feedback.Name.Info">Your name</s:String>-->
     <!--<s:String x:Key="S.Feedback.Type">Type of feedback</s:String>-->
     <!--<s:String x:Key="S.Feedback.Type.Bug">Bug</s:String>-->
     <!--<s:String x:Key="S.Feedback.Type.Suggestion">Suggestion</s:String>-->
@@ -1094,7 +1106,7 @@
     <!--<s:String x:Key="S.Feedback.Description">Description</s:String>-->
     <!--<s:String x:Key="S.Feedback.Description.Info">Describe with more details...</s:String>-->
     <!--<s:String x:Key="S.Feedback.Email">Email</s:String>-->
-    <!--<s:String x:Key="S.Feedback.Email.Info">Email for contact (optional)</s:String>-->
+    <!--<s:String x:Key="S.Feedback.Email.Info">Email for contact</s:String>-->
     <!--<s:String x:Key="S.Feedback.Extra">Extra details</s:String>-->
     <!--<s:String x:Key="S.Feedback.Extra.System.Info">Operational System version and installed patches</s:String>-->
     <!--<s:String x:Key="S.Feedback.Extra.Application.Info">Application version</s:String>-->
@@ -2483,4 +2495,3 @@
     <!--<s:String x:Key="S.TextAlignment.Center">Center</s:String>-->
     <!--<s:String x:Key="S.TextAlignment.Justify">Justify</s:String>-->
 </ResourceDictionary>
-

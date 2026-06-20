@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Машинный перевод (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-09</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-19</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Принять</s:String>
@@ -419,6 +419,10 @@
     <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Structural">Структурное сходство (точно)</s:String>
     <s:String x:Key="S.Dialogs.SmoothLoop.TracksToInclude">Дорожки для включения в поиск</s:String>
 
+    <!--Dialogs • Set timeline length-->
+    <s:String x:Key="S.Dialogs.TimelineLength.Header">Установить длину таймлайна</s:String>
+    <s:String x:Key="S.Dialogs.TimelineLength.Action">Установить длину</s:String>
+
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">Обязательные поля</s:String>
     <s:String x:Key="S.Validation.Required.Description">Некоторые обязательные поля пусты или содержат неверные данные</s:String>
@@ -796,6 +800,14 @@
     <s:String x:Key="S.Errors.SmoothLoop.Header">Ошибка поиска</s:String>
     <s:String x:Key="S.Errors.SmoothLoop.Message">Во время поиска цикла произошла ошибка</s:String>
 
+    <!--Error • Removing recent project--> 
+    <s:String x:Key="S.Errors.RemovingRecent.Header">Ошибка</s:String>
+    <s:String x:Key="S.Errors.RemovingRecent.Message">Не удалось удалить проект</s:String>
+
+    <!--Error • Removing recent projects--> 
+    <s:String x:Key="S.Errors.RemovingRecents.Header">Ошибка</s:String>
+    <s:String x:Key="S.Errors.RemovingRecents.Message">Не удалось удалить один или несколько проектов</s:String>
+
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Ошибка активации</s:String>
     <s:String x:Key="S.Errors.Activation.Generic">Не удалось активировать приложение из-за неизвестной проблемы</s:String>
@@ -1085,7 +1097,7 @@
     <s:String x:Key="S.Feedback.Title">Заголовок</s:String>
     <s:String x:Key="S.Feedback.Title.Info">Краткое описание...</s:String>
     <s:String x:Key="S.Feedback.Name">Имя</s:String>
-    <s:String x:Key="S.Feedback.Name.Info">Ваше имя (необязательно)</s:String>
+    <s:String x:Key="S.Feedback.Name.Info">Ваше имя</s:String>
     <s:String x:Key="S.Feedback.Type">Тип отзыва</s:String>
     <s:String x:Key="S.Feedback.Type.Bug">Ошибка</s:String>
     <s:String x:Key="S.Feedback.Type.Suggestion">Предложение</s:String>
@@ -1094,7 +1106,7 @@
     <s:String x:Key="S.Feedback.Description">Описание</s:String>
     <s:String x:Key="S.Feedback.Description.Info">Опишите подробнее...</s:String>
     <!--<s:String x:Key="S.Feedback.Email">Email</s:String>-->
-    <s:String x:Key="S.Feedback.Email.Info">Email для связи (необязательно)</s:String>
+    <s:String x:Key="S.Feedback.Email.Info">Email для связи</s:String>
     <s:String x:Key="S.Feedback.Extra">Дополнительные сведения</s:String>
     <s:String x:Key="S.Feedback.Extra.System.Info">Версия ОС и установленные патчи</s:String>
     <s:String x:Key="S.Feedback.Extra.Application.Info">Версия приложения</s:String>

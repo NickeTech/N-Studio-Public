@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">Nicke Manarin</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-09</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-19</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Aceitar</s:String>
@@ -419,6 +419,10 @@
     <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Structural">Similaridade estrutural (precisa)</s:String>
     <s:String x:Key="S.Dialogs.SmoothLoop.TracksToInclude">Faixas incluídas na pesquisa</s:String>
 
+    <!--Dialogs • Set timeline length-->
+    <s:String x:Key="S.Dialogs.TimelineLength.Header">Definir duração da linha do tempo</s:String>
+    <s:String x:Key="S.Dialogs.TimelineLength.Action">Definir duração</s:String>
+
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">Campos obrigatórios</s:String>
     <s:String x:Key="S.Validation.Required.Description">Alguns campos obrigatórios estão vazios ou possuem dados inválidos</s:String>
@@ -796,6 +800,14 @@
     <s:String x:Key="S.Errors.SmoothLoop.Header">Falha na pesquisa</s:String>
     <s:String x:Key="S.Errors.SmoothLoop.Message">Ocorreu um erro durante a pesquisa de loop</s:String>
 
+    <!--Error • Removing recent project--> 
+    <s:String x:Key="S.Errors.RemovingRecent.Header">Erro</s:String>
+    <s:String x:Key="S.Errors.RemovingRecent.Message">Falha ao remover o projeto</s:String>
+
+    <!--Error • Removing recent projects--> 
+    <s:String x:Key="S.Errors.RemovingRecents.Header">Erro</s:String>
+    <s:String x:Key="S.Errors.RemovingRecents.Message">Falha ao remover um ou mais projetos</s:String>
+
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Falha na ativação</s:String>
     <s:String x:Key="S.Errors.Activation.Generic">Não foi possível ativar o aplicativo devido a um problema desconhecido</s:String>
@@ -1085,7 +1097,7 @@
     <s:String x:Key="S.Feedback.Title">Título</s:String>
     <s:String x:Key="S.Feedback.Title.Info">Descrição breve...</s:String>
     <s:String x:Key="S.Feedback.Name">Nome</s:String>
-    <s:String x:Key="S.Feedback.Name.Info">Seu nome (opcional)</s:String>
+    <s:String x:Key="S.Feedback.Name.Info">Seu nome</s:String>
     <s:String x:Key="S.Feedback.Type">Tipo de feedback</s:String>
     <s:String x:Key="S.Feedback.Type.Bug">Erro (Bug)</s:String>
     <s:String x:Key="S.Feedback.Type.Suggestion">Sugestão</s:String>
@@ -1094,7 +1106,7 @@
     <s:String x:Key="S.Feedback.Description">Descrição</s:String>
     <s:String x:Key="S.Feedback.Description.Info">Descreva com mais detalhes...</s:String>
     <s:String x:Key="S.Feedback.Email">E-mail</s:String>
-    <s:String x:Key="S.Feedback.Email.Info">E-mail para contato (opcional)</s:String>
+    <s:String x:Key="S.Feedback.Email.Info">E-mail para contato</s:String>
     <s:String x:Key="S.Feedback.Extra">Detalhes extras</s:String>
     <s:String x:Key="S.Feedback.Extra.System.Info">Versão do Sistema Operacional e patches instalados</s:String>
     <s:String x:Key="S.Feedback.Extra.Application.Info">Versão do aplicativo</s:String>

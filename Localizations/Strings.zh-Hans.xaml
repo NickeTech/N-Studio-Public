@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">Anlv</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-09</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-19</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">接受</s:String>
@@ -419,6 +419,10 @@
     <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Structural">结构相似度（精确）</s:String>
     <s:String x:Key="S.Dialogs.SmoothLoop.TracksToInclude">搜索中包含的轨道</s:String>
 
+    <!--Dialogs • Set timeline length-->
+    <s:String x:Key="S.Dialogs.TimelineLength.Header">设置时间轴长度</s:String>
+    <s:String x:Key="S.Dialogs.TimelineLength.Action">设置长度</s:String>
+
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">必填字段</s:String>
     <s:String x:Key="S.Validation.Required.Description">某些必填字段为空或包含无效数据</s:String>
@@ -796,6 +800,14 @@
     <s:String x:Key="S.Errors.SmoothLoop.Header">搜索失败</s:String>
     <s:String x:Key="S.Errors.SmoothLoop.Message">循环搜索过程中发生错误</s:String>
 
+    <!--Error • Removing recent project--> 
+    <s:String x:Key="S.Errors.RemovingRecent.Header">错误</s:String>
+    <s:String x:Key="S.Errors.RemovingRecent.Message">无法删除该项目</s:String>
+
+    <!--Error • Removing recent projects--> 
+    <s:String x:Key="S.Errors.RemovingRecents.Header">错误</s:String>
+    <s:String x:Key="S.Errors.RemovingRecents.Message">无法删除一个或多个项目</s:String>
+
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">激活失败</s:String>
     <s:String x:Key="S.Errors.Activation.Generic">由于未知问题，无法激活应用</s:String>
@@ -1085,7 +1097,7 @@
     <s:String x:Key="S.Feedback.Title">标题</s:String>
     <s:String x:Key="S.Feedback.Title.Info">简要描述...</s:String>
     <s:String x:Key="S.Feedback.Name">名称</s:String>
-    <s:String x:Key="S.Feedback.Name.Info">你的名字（可选）</s:String>
+    <s:String x:Key="S.Feedback.Name.Info">你的名字</s:String>
     <s:String x:Key="S.Feedback.Type">反馈类型</s:String>
     <s:String x:Key="S.Feedback.Type.Bug">错误</s:String>
     <s:String x:Key="S.Feedback.Type.Suggestion">建议</s:String>
@@ -1094,7 +1106,7 @@
     <s:String x:Key="S.Feedback.Description">描述</s:String>
     <s:String x:Key="S.Feedback.Description.Info">更详细地描述...</s:String>
     <s:String x:Key="S.Feedback.Email">电子邮件</s:String>
-    <s:String x:Key="S.Feedback.Email.Info">联系电子邮件（可选）</s:String>
+    <s:String x:Key="S.Feedback.Email.Info">联系电子邮件</s:String>
     <s:String x:Key="S.Feedback.Extra">额外详情</s:String>
     <s:String x:Key="S.Feedback.Extra.System.Info">操作系统版本和已安装的补丁</s:String>
     <s:String x:Key="S.Feedback.Extra.Application.Info">应用程序版本</s:String>

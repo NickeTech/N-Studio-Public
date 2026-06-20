@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Traducte per machina (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-09</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-19</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Accepta</s:String>
@@ -419,6 +419,10 @@
     <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Structural">Similaritate structural (accurate)</s:String>
     <s:String x:Key="S.Dialogs.SmoothLoop.TracksToInclude">Tracias a includer in le recerca</s:String>
 
+    <!--Dialogs • Set timeline length-->
+    <s:String x:Key="S.Dialogs.TimelineLength.Header">Definir le longitude del chronologia</s:String>
+    <s:String x:Key="S.Dialogs.TimelineLength.Action">Definir longitude</s:String>
+
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">Campes requirite</s:String>
     <s:String x:Key="S.Validation.Required.Description">Alcune campos requirite es vacue o contine datos invalide</s:String>
@@ -796,6 +800,14 @@
     <s:String x:Key="S.Errors.SmoothLoop.Header">Recerca fallite</s:String>
     <s:String x:Key="S.Errors.SmoothLoop.Message">Un error occurreva durante le recerca de bucla</s:String>
 
+    <!--Error • Removing recent project--> 
+    <!--<s:String x:Key="S.Errors.RemovingRecent.Header">Error</s:String>-->
+    <s:String x:Key="S.Errors.RemovingRecent.Message">Falta remover le projecto</s:String>
+
+    <!--Error • Removing recent projects--> 
+    <!--<s:String x:Key="S.Errors.RemovingRecents.Header">Error</s:String>-->
+    <s:String x:Key="S.Errors.RemovingRecents.Message">Falta remover un o plure projectos</s:String>
+
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Activation fallite</s:String>
     <s:String x:Key="S.Errors.Activation.Generic">Il non esseva possibile activear le applico pro un problema incognite</s:String>
@@ -1085,7 +1097,7 @@
     <s:String x:Key="S.Feedback.Title">Titulo</s:String>
     <s:String x:Key="S.Feedback.Title.Info">Description breve...</s:String>
     <s:String x:Key="S.Feedback.Name">Nomine</s:String>
-    <s:String x:Key="S.Feedback.Name.Info">Tu nomine (optional)</s:String>
+    <s:String x:Key="S.Feedback.Name.Info">Tu nomine</s:String>
     <s:String x:Key="S.Feedback.Type">Typo de retroalimentation</s:String>
     <!--<s:String x:Key="S.Feedback.Type.Bug">Bug</s:String>-->
     <!--<s:String x:Key="S.Feedback.Type.Suggestion">Suggestion</s:String>-->
@@ -1094,7 +1106,7 @@
     <!--<s:String x:Key="S.Feedback.Description">Description</s:String>-->
     <s:String x:Key="S.Feedback.Description.Info">Describe con plus de detalios...</s:String>
     <s:String x:Key="S.Feedback.Email">E-mail</s:String>
-    <s:String x:Key="S.Feedback.Email.Info">E-mail pro contacto (optional)</s:String>
+    <s:String x:Key="S.Feedback.Email.Info">E-mail pro contacto</s:String>
     <s:String x:Key="S.Feedback.Extra">Detalios extra</s:String>
     <s:String x:Key="S.Feedback.Extra.System.Info">Version del systema operative e patches installate</s:String>
     <s:String x:Key="S.Feedback.Extra.Application.Info">Version del application</s:String>

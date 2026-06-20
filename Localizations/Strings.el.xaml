@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Μεταφρασμένο μηχανικά (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-09</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-19</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Αποδοχή</s:String>
@@ -419,6 +419,10 @@
     <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Structural">Δομική ομοιότητα (ακριβές)</s:String>
     <s:String x:Key="S.Dialogs.SmoothLoop.TracksToInclude">Κομμάτια προς συμπερίληψη στην αναζήτηση</s:String>
 
+    <!--Dialogs • Set timeline length-->
+    <s:String x:Key="S.Dialogs.TimelineLength.Header">Ορισμός μήκους χρονογραμμής</s:String>
+    <s:String x:Key="S.Dialogs.TimelineLength.Action">Ορισμός μήκους</s:String>
+
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">Απαιτούμενα πεδία</s:String>
     <s:String x:Key="S.Validation.Required.Description">Κάποια απαιτούμενα πεδία είναι κενά ή περιέχουν μη έγκυρα δεδομένα</s:String>
@@ -796,6 +800,14 @@
     <s:String x:Key="S.Errors.SmoothLoop.Header">Η αναζήτηση απέτυχε</s:String>
     <s:String x:Key="S.Errors.SmoothLoop.Message">Παρουσιάστηκε σφάλμα κατά την αναζήτηση βρόχου</s:String>
 
+    <!--Error • Removing recent project--> 
+    <s:String x:Key="S.Errors.RemovingRecent.Header">Σφάλμα</s:String>
+    <s:String x:Key="S.Errors.RemovingRecent.Message">Αποτυχία αφαίρεσης του έργου</s:String>
+
+    <!--Error • Removing recent projects--> 
+    <s:String x:Key="S.Errors.RemovingRecents.Header">Σφάλμα</s:String>
+    <s:String x:Key="S.Errors.RemovingRecents.Message">Αποτυχία αφαίρεσης ενός ή περισσότερων έργων</s:String>
+
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Η ενεργοποίηση απέτυχε</s:String>
     <s:String x:Key="S.Errors.Activation.Generic">Δεν ήταν δυνατή η ενεργοποίηση της εφαρμογής λόγω άγνωστου προβλήματος</s:String>
@@ -1085,7 +1097,7 @@
     <s:String x:Key="S.Feedback.Title">Τίτλος</s:String>
     <s:String x:Key="S.Feedback.Title.Info">Σύντομη περιγραφή...</s:String>
     <s:String x:Key="S.Feedback.Name">Όνομα</s:String>
-    <s:String x:Key="S.Feedback.Name.Info">Το όνομά σας (προαιρετικό)</s:String>
+    <s:String x:Key="S.Feedback.Name.Info">Το όνομά σας</s:String>
     <s:String x:Key="S.Feedback.Type">Τύπος σχολίων</s:String>
     <s:String x:Key="S.Feedback.Type.Bug">Σφάλμα</s:String>
     <s:String x:Key="S.Feedback.Type.Suggestion">Πρόταση</s:String>
@@ -1094,7 +1106,7 @@
     <s:String x:Key="S.Feedback.Description">Περιγραφή</s:String>
     <s:String x:Key="S.Feedback.Description.Info">Περιγράψτε με περισσότερες λεπτομέρειες...</s:String>
     <!--<s:String x:Key="S.Feedback.Email">Email</s:String>-->
-    <s:String x:Key="S.Feedback.Email.Info">Email για επικοινωνία (προαιρετικό)</s:String>
+    <s:String x:Key="S.Feedback.Email.Info">Email για επικοινωνία</s:String>
     <s:String x:Key="S.Feedback.Extra">Επιπλέον λεπτομέρειες</s:String>
     <s:String x:Key="S.Feedback.Extra.System.Info">Έκδοση λειτουργικού συστήματος και εγκατεστημένα patch</s:String>
     <s:String x:Key="S.Feedback.Extra.Application.Info">Έκδοση εφαρμογής</s:String>

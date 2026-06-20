@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Door machine vertaald (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-09</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-19</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Accepteren</s:String>
@@ -419,6 +419,10 @@
     <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Structural">Structurele similariteit (nauwkeurig)</s:String>
     <s:String x:Key="S.Dialogs.SmoothLoop.TracksToInclude">Tracks om mee te nemen in de zoekopdracht</s:String>
 
+    <!--Dialogs • Set timeline length-->
+    <s:String x:Key="S.Dialogs.TimelineLength.Header">Tijdlijnlengte instellen</s:String>
+    <s:String x:Key="S.Dialogs.TimelineLength.Action">Lengte instellen</s:String>
+
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">Verplichte velden</s:String>
     <s:String x:Key="S.Validation.Required.Description">Sommige verplichte velden zijn leeg of bevatten ongeldige gegevens</s:String>
@@ -796,6 +800,14 @@
     <s:String x:Key="S.Errors.SmoothLoop.Header">Zoekopdracht mislukt</s:String>
     <s:String x:Key="S.Errors.SmoothLoop.Message">Er is een fout opgetreden tijdens het zoeken naar de lus</s:String>
 
+    <!--Error • Removing recent project--> 
+    <s:String x:Key="S.Errors.RemovingRecent.Header">Fout</s:String>
+    <s:String x:Key="S.Errors.RemovingRecent.Message">Kan het project niet verwijderen</s:String>
+
+    <!--Error • Removing recent projects--> 
+    <s:String x:Key="S.Errors.RemovingRecents.Header">Fout</s:String>
+    <s:String x:Key="S.Errors.RemovingRecents.Message">Kan een of meer projecten niet verwijderen</s:String>
+
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Activering mislukt</s:String>
     <s:String x:Key="S.Errors.Activation.Generic">Het was niet mogelijk om de app te activeren vanwege een onbekend probleem</s:String>
@@ -1085,7 +1097,7 @@
     <s:String x:Key="S.Feedback.Title">Titel</s:String>
     <s:String x:Key="S.Feedback.Title.Info">Korte beschrijving...</s:String>
     <s:String x:Key="S.Feedback.Name">Naam</s:String>
-    <s:String x:Key="S.Feedback.Name.Info">Uw naam (optioneel)</s:String>
+    <s:String x:Key="S.Feedback.Name.Info">Uw naam</s:String>
     <s:String x:Key="S.Feedback.Type">Soort feedback</s:String>
     <s:String x:Key="S.Feedback.Type.Bug">Fout</s:String>
     <s:String x:Key="S.Feedback.Type.Suggestion">Suggestie</s:String>
@@ -1094,7 +1106,7 @@
     <s:String x:Key="S.Feedback.Description">Beschrijving</s:String>
     <s:String x:Key="S.Feedback.Description.Info">Beschrijf met meer details...</s:String>
     <s:String x:Key="S.Feedback.Email">E-mail</s:String>
-    <s:String x:Key="S.Feedback.Email.Info">E-mail voor contact (optioneel)</s:String>
+    <s:String x:Key="S.Feedback.Email.Info">E-mail voor contact</s:String>
     <!--<s:String x:Key="S.Feedback.Extra">Extra details</s:String>-->
     <s:String x:Key="S.Feedback.Extra.System.Info">Besturingssysteemversie en geïnstalleerde updates</s:String>
     <s:String x:Key="S.Feedback.Extra.Application.Info">Applicatieversie</s:String>

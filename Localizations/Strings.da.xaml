@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Maskinoversat (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-09</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-19</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Accepter</s:String>
@@ -419,6 +419,10 @@
     <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Structural">Strukturel lighed (præcis)</s:String>
     <s:String x:Key="S.Dialogs.SmoothLoop.TracksToInclude">Spor der skal medtages i søgning</s:String>
 
+    <!--Dialogs • Set timeline length-->
+    <s:String x:Key="S.Dialogs.TimelineLength.Header">Angiv tidslinjelængde</s:String>
+    <s:String x:Key="S.Dialogs.TimelineLength.Action">Angiv længde</s:String>
+
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">Nødvendige felter</s:String>
     <s:String x:Key="S.Validation.Required.Description">Nogle nødvendige felter er tomme eller indeholder ugyldige data</s:String>
@@ -796,6 +800,14 @@
     <s:String x:Key="S.Errors.SmoothLoop.Header">Søgning mislykkedes</s:String>
     <s:String x:Key="S.Errors.SmoothLoop.Message">Der opstod en fejl under sløjfesøgningen</s:String>
 
+    <!--Error • Removing recent project--> 
+    <s:String x:Key="S.Errors.RemovingRecent.Header">Error</s:String>
+    <s:String x:Key="S.Errors.RemovingRecent.Message">Failed to remove the project</s:String>
+
+    <!--Error • Removing recent projects--> 
+    <s:String x:Key="S.Errors.RemovingRecents.Header">Error</s:String>
+    <s:String x:Key="S.Errors.RemovingRecents.Message">Failed to remove one or more projects</s:String>
+
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Aktivering mislykkedes</s:String>
     <s:String x:Key="S.Errors.Activation.Generic">Det var ikke muligt at aktivere appen på grund af et ukendt problem</s:String>
@@ -1085,7 +1097,7 @@
     <s:String x:Key="S.Feedback.Title">Titel</s:String>
     <s:String x:Key="S.Feedback.Title.Info">Kort beskrivelse...</s:String>
     <s:String x:Key="S.Feedback.Name">Navn</s:String>
-    <s:String x:Key="S.Feedback.Name.Info">Dit navn (valgfrit)</s:String>
+    <s:String x:Key="S.Feedback.Name.Info">Dit navn</s:String>
     <s:String x:Key="S.Feedback.Type">Type feedback</s:String>
     <s:String x:Key="S.Feedback.Type.Bug">Fejl</s:String>
     <s:String x:Key="S.Feedback.Type.Suggestion">Forslag</s:String>
@@ -1094,7 +1106,7 @@
     <s:String x:Key="S.Feedback.Description">Beskrivelse</s:String>
     <s:String x:Key="S.Feedback.Description.Info">Beskriv med flere detaljer...</s:String>
     <s:String x:Key="S.Feedback.Email">E-mail</s:String>
-    <s:String x:Key="S.Feedback.Email.Info">E-mail til kontakt (valgfrit)</s:String>
+    <s:String x:Key="S.Feedback.Email.Info">E-mail til kontakt</s:String>
     <s:String x:Key="S.Feedback.Extra">Ekstra oplysninger</s:String>
     <s:String x:Key="S.Feedback.Extra.System.Info">Operativsystemversion og installerede opdateringer</s:String>
     <s:String x:Key="S.Feedback.Extra.Application.Info">Applikationsversion</s:String>
