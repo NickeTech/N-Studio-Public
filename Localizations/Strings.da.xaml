@@ -70,6 +70,7 @@
     <!--<s:String x:Key="S.Imperative.Trim">Trim</s:String>-->
     <s:String x:Key="S.Imperative.Resize">Ændr størrelse</s:String>
     <s:String x:Key="S.Imperative.Search">Søg</s:String>
+    <s:String x:Key="S.Imperative.ChangeDrive">Skift drev</s:String>
 
     <!--Time • Referential-->
     <s:String x:Key="S.Time.Ago.Seconds">få sekunder siden</s:String>
@@ -397,6 +398,15 @@
     <s:String x:Key="S.Dialogs.Cache.KeepRecent">Behold nylige projekter</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent.Info">Kun projekter, der er ældre end det, der er konfigureret i Indstillinger > Lager, vil blive slettet.</s:String>
 
+    <!--Dialogs • Change drive-->
+    <s:String x:Key="S.Dialogs.ChangeDrive.Header">Skift cache-drev</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.Current">Nuværende drev</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.Size">Cache-størrelse:</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.Target">Måldrev</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.LowOnSpaceToMove">Kan ikke migrere filer, ikke nok plads</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.MoveFiles">Flyt eksisterende filer</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.MoveFiles.Info">Flyt alle cachedata til den nye drevplacering</s:String>
+
     <!--Dialogs • Resize canvas-->
     <s:String x:Key="S.Dialogs.ResizeCanvas.Header">Ændr lærredsstørrelse</s:String>
     <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent">Skaler eksisterende indhold til den nye lærredsstørrelse</s:String>
@@ -504,6 +514,10 @@
     <!--Success • Storage clean up--> 
     <s:String x:Key="S.Success.StorageCleanup.Header">Succes</s:String>
     <s:String x:Key="S.Success.StorageCleanup.Message">Cache-oprydning lykkedes</s:String>
+
+    <!--Success • Storage clean up-->
+    <s:String x:Key="S.Success.CacheDrive.Header">Succes</s:String>
+    <s:String x:Key="S.Success.CacheDrive.Message">Ændring af cacheplacering gennemført</s:String>
 
     <!--Success • Smooth loop--> 
     <s:String x:Key="S.Success.SmoothLoop.Header">Glat sløjfe fundet</s:String>
@@ -796,6 +810,10 @@
     <s:String x:Key="S.Errors.StorageCleanup.Header">Fejl ved oprydning</s:String>
     <s:String x:Key="S.Errors.StorageCleanup.Message">Det var ikke muligt at rydde cachen</s:String>
 
+    <!--Error • Change cache drive--> 
+    <s:String x:Key="S.Errors.CacheDrive.Header">Fejl ved ændring af drev</s:String>
+    <s:String x:Key="S.Errors.CacheDrive.Message">Det var ikke muligt at ændre cache-drevet</s:String>
+
     <!--Error • Smooth loop search--> 
     <s:String x:Key="S.Errors.SmoothLoop.Header">Søgning mislykkedes</s:String>
     <s:String x:Key="S.Errors.SmoothLoop.Message">Der opstod en fejl under sløjfesøgningen</s:String>
@@ -807,6 +825,10 @@
     <!--Error • Removing recent projects--> 
     <s:String x:Key="S.Errors.RemovingRecents.Header">Error</s:String>
     <s:String x:Key="S.Errors.RemovingRecents.Message">Failed to remove one or more projects</s:String>
+
+    <!--Error • Missing drive-->
+    <s:String x:Key="S.Errors.MissingDrive.Header">Ingen drev</s:String>
+    <s:String x:Key="S.Errors.MissingDrive.Message">Drevet er utilgængeligt eller mangler</s:String>
 
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Aktivering mislykkedes</s:String>
@@ -1271,6 +1293,8 @@
     <s:String x:Key="S.State.Saving">Gemmer...</s:String>
     <s:String x:Key="S.State.Discarding">Kasserer...</s:String>
     <s:String x:Key="S.State.Discarded">Kasseret</s:String>
+    <s:String x:Key="S.State.ChangingDrive">Skifter drev...</s:String>
+    <s:String x:Key="S.State.MovingFiles">Flytter filer...</s:String>
     <s:String x:Key="S.State.Done">Færdig</s:String>
     <s:String x:Key="S.State.Copied">Kopieret</s:String>
     <s:String x:Key="S.State.Cut">Klip</s:String>

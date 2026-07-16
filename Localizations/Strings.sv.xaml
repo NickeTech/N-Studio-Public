@@ -70,6 +70,7 @@
     <s:String x:Key="S.Imperative.Trim">Trimma</s:String>
     <s:String x:Key="S.Imperative.Resize">Ändra storlek</s:String>
     <s:String x:Key="S.Imperative.Search">Sök</s:String>
+    <s:String x:Key="S.Imperative.ChangeDrive">Byt enhet</s:String>
 
     <!--Time • Referential-->
     <s:String x:Key="S.Time.Ago.Seconds">för några sekunder sedan</s:String>
@@ -397,6 +398,15 @@
     <s:String x:Key="S.Dialogs.Cache.KeepRecent">Behåll senaste projekten</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent.Info">Endast projekt äldre än vad som är konfigurerat i Inställningar > Lagring kommer att raderas</s:String>
 
+    <!--Dialogs • Change drive-->
+    <s:String x:Key="S.Dialogs.ChangeDrive.Header">Byt cache-enhet</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.Current">Nuvarande enhet</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.Size">Cache-storlek:</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.Target">Målenhet</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.LowOnSpaceToMove">Kan inte migrera filer, otillräckligt utrymme</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.MoveFiles">Flytta befintliga filer</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.MoveFiles.Info">Flytta all cachedata till den nya enheten</s:String>
+
     <!--Dialogs • Resize canvas-->
     <s:String x:Key="S.Dialogs.ResizeCanvas.Header">Ändra kanvasstorlek</s:String>
     <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent">Skala befintligt innehåll till den nya kanvasstorleken</s:String>
@@ -504,6 +514,10 @@
     <!--Success • Storage clean up--> 
     <s:String x:Key="S.Success.StorageCleanup.Header">Framgång</s:String>
     <s:String x:Key="S.Success.StorageCleanup.Message">Cache-rensning slutförd</s:String>
+
+    <!--Success • Storage clean up-->
+    <s:String x:Key="S.Success.CacheDrive.Header">Klart</s:String>
+    <s:String x:Key="S.Success.CacheDrive.Message">Cacheplatsen har ändrats</s:String>
 
     <!--Success • Smooth loop--> 
     <s:String x:Key="S.Success.SmoothLoop.Header">Mjuk loop hittad</s:String>
@@ -796,6 +810,10 @@
     <s:String x:Key="S.Errors.StorageCleanup.Header">Fel vid rensning</s:String>
     <s:String x:Key="S.Errors.StorageCleanup.Message">Det gick inte att rensa cachen</s:String>
 
+    <!--Error • Change cache drive--> 
+    <s:String x:Key="S.Errors.CacheDrive.Header">Fel vid byte av enhet</s:String>
+    <s:String x:Key="S.Errors.CacheDrive.Message">Det gick inte att ändra cache-enheten</s:String>
+
     <!--Error • Smooth loop search--> 
     <s:String x:Key="S.Errors.SmoothLoop.Header">Sökning misslyckades</s:String>
     <s:String x:Key="S.Errors.SmoothLoop.Message">Ett fel inträffade under loopsökningen</s:String>
@@ -807,6 +825,10 @@
     <!--Error • Removing recent projects--> 
     <s:String x:Key="S.Errors.RemovingRecents.Header">Fel</s:String>
     <s:String x:Key="S.Errors.RemovingRecents.Message">Det gick inte att ta bort ett eller flera projekt</s:String>
+
+    <!--Error • Missing drive-->
+    <s:String x:Key="S.Errors.MissingDrive.Header">Ingen enhet</s:String>
+    <s:String x:Key="S.Errors.MissingDrive.Message">Enheten är otillgänglig eller saknas</s:String>
 
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Aktivering misslyckades</s:String>
@@ -1271,6 +1293,8 @@
     <s:String x:Key="S.State.Saving">Sparar...</s:String>
     <s:String x:Key="S.State.Discarding">Kasserar...</s:String>
     <s:String x:Key="S.State.Discarded">Kasserad</s:String>
+    <s:String x:Key="S.State.ChangingDrive">Byter enhet...</s:String>
+    <s:String x:Key="S.State.MovingFiles">Flyttar filer...</s:String>
     <s:String x:Key="S.State.Done">Klart</s:String>
     <s:String x:Key="S.State.Copied">Kopierat</s:String>
     <s:String x:Key="S.State.Cut">Klippt</s:String>

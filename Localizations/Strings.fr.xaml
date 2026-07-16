@@ -70,6 +70,7 @@
     <s:String x:Key="S.Imperative.Trim">Rogner</s:String>
     <s:String x:Key="S.Imperative.Resize">Redimensionner</s:String>
     <s:String x:Key="S.Imperative.Search">Rechercher</s:String>
+    <s:String x:Key="S.Imperative.ChangeDrive">Changer de lecteur</s:String>
 
     <!--Time • Referential-->
     <s:String x:Key="S.Time.Ago.Seconds">il y a quelques secondes</s:String>
@@ -397,6 +398,15 @@
     <s:String x:Key="S.Dialogs.Cache.KeepRecent">Conserver les projets récents</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent.Info">Seuls les projets plus anciens que ce qui est configuré dans Paramètres > Stockage seront supprimés</s:String>
 
+    <!--Dialogs • Change drive-->
+    <s:String x:Key="S.Dialogs.ChangeDrive.Header">Changer le lecteur de cache</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.Current">Lecteur actuel</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.Size">Taille du cache :</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.Target">Lecteur cible</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.LowOnSpaceToMove">Impossible de migrer les fichiers, espace insuffisant</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.MoveFiles">Déplacer les fichiers existants</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.MoveFiles.Info">Déplacer toutes les données du cache vers le nouveau lecteur</s:String>
+
     <!--Dialogs • Resize canvas-->
     <s:String x:Key="S.Dialogs.ResizeCanvas.Header">Redimensionner le canevas</s:String>
     <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent">Redimensionner le contenu existant à la nouvelle taille du canevas</s:String>
@@ -504,6 +514,10 @@
     <!--Success • Storage clean up--> 
     <s:String x:Key="S.Success.StorageCleanup.Header">Succès</s:String>
     <s:String x:Key="S.Success.StorageCleanup.Message">Nettoyage du cache réussi</s:String>
+
+    <!--Success • Storage clean up-->
+    <s:String x:Key="S.Success.CacheDrive.Header">Succès</s:String>
+    <s:String x:Key="S.Success.CacheDrive.Message">Changement d’emplacement du cache réussi</s:String>
 
     <!--Success • Smooth loop--> 
     <s:String x:Key="S.Success.SmoothLoop.Header">Boucle fluide trouvée</s:String>
@@ -796,6 +810,10 @@
     <s:String x:Key="S.Errors.StorageCleanup.Header">Erreur lors du nettoyage</s:String>
     <s:String x:Key="S.Errors.StorageCleanup.Message">Impossible de nettoyer le cache</s:String>
 
+    <!--Error • Change cache drive--> 
+    <s:String x:Key="S.Errors.CacheDrive.Header">Erreur lors du changement de lecteur</s:String>
+    <s:String x:Key="S.Errors.CacheDrive.Message">Impossible de changer le lecteur de cache</s:String>
+
     <!--Error • Smooth loop search--> 
     <s:String x:Key="S.Errors.SmoothLoop.Header">Échec de la recherche</s:String>
     <s:String x:Key="S.Errors.SmoothLoop.Message">Une erreur s’est produite lors de la recherche de boucle</s:String>
@@ -807,6 +825,10 @@
     <!--Error • Removing recent projects--> 
     <s:String x:Key="S.Errors.RemovingRecents.Header">Erreur</s:String>
     <s:String x:Key="S.Errors.RemovingRecents.Message">Échec de la suppression d’un ou plusieurs projets</s:String>
+
+    <!--Error • Missing drive-->
+    <s:String x:Key="S.Errors.MissingDrive.Header">Aucun lecteur</s:String>
+    <s:String x:Key="S.Errors.MissingDrive.Message">Le lecteur est indisponible ou manquant</s:String>
 
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Échec de l'activation</s:String>
@@ -1271,6 +1293,8 @@
     <s:String x:Key="S.State.Saving">Enregistrement...</s:String>
     <s:String x:Key="S.State.Discarding">Abandon en cours...</s:String>
     <s:String x:Key="S.State.Discarded">Abandonné</s:String>
+    <s:String x:Key="S.State.ChangingDrive">Changement de lecteur...</s:String>
+    <s:String x:Key="S.State.MovingFiles">Déplacement des fichiers...</s:String>
     <s:String x:Key="S.State.Done">Terminé</s:String>
     <s:String x:Key="S.State.Copied">Copié</s:String>
     <s:String x:Key="S.State.Cut">Coupé</s:String>

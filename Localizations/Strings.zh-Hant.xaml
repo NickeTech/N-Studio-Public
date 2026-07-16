@@ -70,6 +70,7 @@
     <s:String x:Key="S.Imperative.Trim">修剪</s:String>
     <s:String x:Key="S.Imperative.Resize">調整大小</s:String>
     <s:String x:Key="S.Imperative.Search">搜尋</s:String>
+    <s:String x:Key="S.Imperative.ChangeDrive">更改磁碟機</s:String>
 
     <!--Time • Referential-->
     <s:String x:Key="S.Time.Ago.Seconds">幾秒前</s:String>
@@ -397,6 +398,15 @@
     <s:String x:Key="S.Dialogs.Cache.KeepRecent">保留最近的專案</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent.Info">只有早於「設定」>「存儲空間」中配置的專案才會被刪除</s:String>
 
+    <!--Dialogs • Change drive-->
+    <s:String x:Key="S.Dialogs.ChangeDrive.Header">更改快取磁碟機</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.Current">目前的磁碟機</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.Size">快取大小：</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.Target">目標磁碟機</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.LowOnSpaceToMove">無法移轉檔案，空間不足</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.MoveFiles">移動現有檔案</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.MoveFiles.Info">將所有快取資料移至新的磁碟機位置</s:String>
+
     <!--Dialogs • Resize canvas-->
     <s:String x:Key="S.Dialogs.ResizeCanvas.Header">調整畫布大小</s:String>
     <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent">將現有內容縮放到新的畫布尺寸</s:String>
@@ -504,6 +514,10 @@
     <!--Success • Storage clean up--> 
     <s:String x:Key="S.Success.StorageCleanup.Header">成功</s:String>
     <s:String x:Key="S.Success.StorageCleanup.Message">快取清理成功</s:String>
+
+    <!--Success • Storage clean up-->
+    <s:String x:Key="S.Success.CacheDrive.Header">成功</s:String>
+    <s:String x:Key="S.Success.CacheDrive.Message">快取位置變更成功</s:String>
 
     <!--Success • Smooth loop--> 
     <s:String x:Key="S.Success.SmoothLoop.Header">已找到平滑循環</s:String>
@@ -796,6 +810,10 @@
     <s:String x:Key="S.Errors.StorageCleanup.Header">清理時出錯</s:String>
     <s:String x:Key="S.Errors.StorageCleanup.Message">無法清理快取</s:String>
 
+    <!--Error • Change cache drive--> 
+    <s:String x:Key="S.Errors.CacheDrive.Header">更改磁碟機時發生錯誤</s:String>
+    <s:String x:Key="S.Errors.CacheDrive.Message">無法更改快取磁碟機</s:String>
+
     <!--Error • Smooth loop search--> 
     <s:String x:Key="S.Errors.SmoothLoop.Header">搜尋失敗</s:String>
     <s:String x:Key="S.Errors.SmoothLoop.Message">搜尋循環時發生錯誤</s:String>
@@ -807,6 +825,10 @@
     <!--Error • Removing recent projects--> 
     <s:String x:Key="S.Errors.RemovingRecents.Header">錯誤</s:String>
     <s:String x:Key="S.Errors.RemovingRecents.Message">無法移除一個或多個專案</s:String>
+
+    <!--Error • Missing drive-->
+    <s:String x:Key="S.Errors.MissingDrive.Header">無磁碟機</s:String>
+    <s:String x:Key="S.Errors.MissingDrive.Message">磁碟機無法使用或已遺失</s:String>
 
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">啟用失敗</s:String>
@@ -1271,6 +1293,8 @@
     <s:String x:Key="S.State.Saving">儲存中...</s:String>
     <s:String x:Key="S.State.Discarding">正在捨棄...</s:String>
     <s:String x:Key="S.State.Discarded">已捨棄</s:String>
+    <s:String x:Key="S.State.ChangingDrive">正在更換磁碟機...</s:String>
+    <s:String x:Key="S.State.MovingFiles">正在移動檔案...</s:String>
     <s:String x:Key="S.State.Done">完成</s:String>
     <s:String x:Key="S.State.Copied">已複製</s:String>
     <s:String x:Key="S.State.Cut">已剪下</s:String>

@@ -70,6 +70,7 @@
     <s:String x:Key="S.Imperative.Trim">Trimmen</s:String>
     <s:String x:Key="S.Imperative.Resize">Größe ändern</s:String>
     <s:String x:Key="S.Imperative.Search">Suchen</s:String>
+    <s:String x:Key="S.Imperative.ChangeDrive">Laufwerk wechseln</s:String>
 
     <!--Time • Referential-->
     <s:String x:Key="S.Time.Ago.Seconds">vor ein paar Sekunden</s:String>
@@ -397,6 +398,15 @@
     <s:String x:Key="S.Dialogs.Cache.KeepRecent">Neueste Projekte behalten</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent.Info">Nur Projekte, die älter sind als in Einstellungen > Speicher konfiguriert, werden gelöscht</s:String>
 
+    <!--Dialogs • Change drive-->
+    <s:String x:Key="S.Dialogs.ChangeDrive.Header">Cache-Laufwerk ändern</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.Current">Aktuelles Laufwerk</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.Size">Cachegröße:</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.Target">Ziellaufwerk</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.LowOnSpaceToMove">Dateien können nicht migriert werden, nicht genug Speicherplatz</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.MoveFiles">Vorhandene Dateien verschieben</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.MoveFiles.Info">Alle Cache-Daten an den neuen Laufwerksspeicherort verschieben</s:String>
+
     <!--Dialogs • Resize canvas-->
     <s:String x:Key="S.Dialogs.ResizeCanvas.Header">Leinwandgröße ändern</s:String>
     <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent">Skaliere vorhandene Inhalte auf die neue Leinwandgröße</s:String>
@@ -504,6 +514,10 @@
     <!--Success • Storage clean up--> 
     <s:String x:Key="S.Success.StorageCleanup.Header">Erfolg</s:String>
     <s:String x:Key="S.Success.StorageCleanup.Message">Cache-Bereinigung erfolgreich</s:String>
+
+    <!--Success • Storage clean up-->
+    <s:String x:Key="S.Success.CacheDrive.Header">Erfolg</s:String>
+    <s:String x:Key="S.Success.CacheDrive.Message">Cache-Speicherort erfolgreich geändert</s:String>
 
     <!--Success • Smooth loop--> 
     <s:String x:Key="S.Success.SmoothLoop.Header">Saubere Schleife gefunden</s:String>
@@ -796,6 +810,10 @@
     <s:String x:Key="S.Errors.StorageCleanup.Header">Fehler bei der Bereinigung</s:String>
     <s:String x:Key="S.Errors.StorageCleanup.Message">Es war nicht möglich, den Cache zu löschen</s:String>
 
+    <!--Error • Change cache drive--> 
+    <s:String x:Key="S.Errors.CacheDrive.Header">Fehler beim Ändern des Laufwerks</s:String>
+    <s:String x:Key="S.Errors.CacheDrive.Message">Das Cache-Laufwerk konnte nicht geändert werden</s:String>
+
     <!--Error • Smooth loop search--> 
     <s:String x:Key="S.Errors.SmoothLoop.Header">Suche fehlgeschlagen</s:String>
     <s:String x:Key="S.Errors.SmoothLoop.Message">Während der Schleifensuche ist ein Fehler aufgetreten</s:String>
@@ -807,6 +825,10 @@
     <!--Error • Removing recent projects--> 
     <s:String x:Key="S.Errors.RemovingRecents.Header">Fehler</s:String>
     <s:String x:Key="S.Errors.RemovingRecents.Message">Ein oder mehrere Projekte konnten nicht entfernt werden</s:String>
+
+    <!--Error • Missing drive-->
+    <s:String x:Key="S.Errors.MissingDrive.Header">Kein Laufwerk</s:String>
+    <s:String x:Key="S.Errors.MissingDrive.Message">Das Laufwerk ist nicht verfügbar oder fehlt</s:String>
 
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Aktivierung fehlgeschlagen</s:String>
@@ -1271,6 +1293,8 @@
     <s:String x:Key="S.State.Saving">Speichere...</s:String>
     <s:String x:Key="S.State.Discarding">Wird verworfen...</s:String>
     <s:String x:Key="S.State.Discarded">Verworfen</s:String>
+    <s:String x:Key="S.State.ChangingDrive">Laufwerk wird gewechselt...</s:String>
+    <s:String x:Key="S.State.MovingFiles">Dateien werden verschoben...</s:String>
     <s:String x:Key="S.State.Done">Fertig</s:String>
     <s:String x:Key="S.State.Copied">Kopiert</s:String>
     <s:String x:Key="S.State.Cut">Ausgeschnitten</s:String>

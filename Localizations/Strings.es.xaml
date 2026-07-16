@@ -70,6 +70,7 @@
     <s:String x:Key="S.Imperative.Trim">Recortar</s:String>
     <s:String x:Key="S.Imperative.Resize">Cambiar tamaño</s:String>
     <s:String x:Key="S.Imperative.Search">Buscar</s:String>
+    <s:String x:Key="S.Imperative.ChangeDrive">Cambiar unidad</s:String>
 
     <!--Time • Referential-->
     <s:String x:Key="S.Time.Ago.Seconds">hace unos segundos</s:String>
@@ -397,6 +398,15 @@
     <s:String x:Key="S.Dialogs.Cache.KeepRecent">Mantener proyectos recientes</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent.Info">Solo se eliminarán los proyectos más antiguos que lo configurado en Ajustes > Almacenamiento</s:String>
 
+    <!--Dialogs • Change drive-->
+    <s:String x:Key="S.Dialogs.ChangeDrive.Header">Cambiar unidad de caché</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.Current">Unidad actual</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.Size">Tamaño de la caché:</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.Target">Unidad de destino</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.LowOnSpaceToMove">No se pueden migrar los archivos, no hay suficiente espacio</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.MoveFiles">Mover archivos existentes</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.MoveFiles.Info">Mover todos los datos de la caché a la nueva ubicación</s:String>
+
     <!--Dialogs • Resize canvas-->
     <s:String x:Key="S.Dialogs.ResizeCanvas.Header">Cambiar tamaño del lienzo</s:String>
     <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent">Escalar el contenido existente al nuevo tamaño del lienzo</s:String>
@@ -504,6 +514,10 @@
     <!--Success • Storage clean up--> 
     <s:String x:Key="S.Success.StorageCleanup.Header">Éxito</s:String>
     <s:String x:Key="S.Success.StorageCleanup.Message">Limpieza de caché completada con éxito</s:String>
+
+    <!--Success • Storage clean up-->
+    <s:String x:Key="S.Success.CacheDrive.Header">Éxito</s:String>
+    <s:String x:Key="S.Success.CacheDrive.Message">Cambio de ubicación de la caché realizado con éxito</s:String>
 
     <!--Success • Smooth loop--> 
     <s:String x:Key="S.Success.SmoothLoop.Header">Bucle suave encontrado</s:String>
@@ -796,6 +810,10 @@
     <s:String x:Key="S.Errors.StorageCleanup.Header">Error al limpiar</s:String>
     <s:String x:Key="S.Errors.StorageCleanup.Message">No fue posible limpiar la caché</s:String>
 
+    <!--Error • Change cache drive--> 
+    <s:String x:Key="S.Errors.CacheDrive.Header">Error al cambiar la unidad</s:String>
+    <s:String x:Key="S.Errors.CacheDrive.Message">No fue posible cambiar la unidad de caché</s:String>
+
     <!--Error • Smooth loop search--> 
     <s:String x:Key="S.Errors.SmoothLoop.Header">La búsqueda falló</s:String>
     <s:String x:Key="S.Errors.SmoothLoop.Message">Ocurrió un error durante la búsqueda del bucle</s:String>
@@ -807,6 +825,10 @@
     <!--Error • Removing recent projects--> 
     <!--<s:String x:Key="S.Errors.RemovingRecents.Header">Error</s:String>-->
     <s:String x:Key="S.Errors.RemovingRecents.Message">No se pudieron eliminar uno o más proyectos</s:String>
+
+    <!--Error • Missing drive-->
+    <s:String x:Key="S.Errors.MissingDrive.Header">No hay unidad</s:String>
+    <s:String x:Key="S.Errors.MissingDrive.Message">La unidad no está disponible o falta</s:String>
 
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">La activación ha fallado</s:String>
@@ -1271,6 +1293,8 @@
     <s:String x:Key="S.State.Saving">Guardando...</s:String>
     <s:String x:Key="S.State.Discarding">Descartando...</s:String>
     <s:String x:Key="S.State.Discarded">Descartado</s:String>
+    <s:String x:Key="S.State.ChangingDrive">Cambiando unidad...</s:String>
+    <s:String x:Key="S.State.MovingFiles">Moviendo archivos...</s:String>
     <s:String x:Key="S.State.Done">Hecho</s:String>
     <s:String x:Key="S.State.Copied">Copiado</s:String>
     <s:String x:Key="S.State.Cut">Cortado</s:String>

@@ -70,6 +70,7 @@
     <s:String x:Key="S.Imperative.Trim">修剪</s:String>
     <s:String x:Key="S.Imperative.Resize">调整大小</s:String>
     <s:String x:Key="S.Imperative.Search">搜索</s:String>
+    <s:String x:Key="S.Imperative.ChangeDrive">更改驱动器</s:String>
 
     <!--Time • Referential-->
     <s:String x:Key="S.Time.Ago.Seconds">几秒前</s:String>
@@ -397,6 +398,15 @@
     <s:String x:Key="S.Dialogs.Cache.KeepRecent">保留最近的项目</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent.Info">只有早于"设置">"存储空间"中配置的项目才会被删除</s:String>
 
+    <!--Dialogs • Change drive-->
+    <s:String x:Key="S.Dialogs.ChangeDrive.Header">更改缓存驱动器</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.Current">当前驱动器</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.Size">缓存大小：</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.Target">目标驱动器</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.LowOnSpaceToMove">无法迁移文件，空间不足</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.MoveFiles">移动现有文件</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.MoveFiles.Info">将所有缓存数据移动到新的驱动器位置</s:String>
+
     <!--Dialogs • Resize canvas-->
     <s:String x:Key="S.Dialogs.ResizeCanvas.Header">调整画布大小</s:String>
     <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent">将现有内容缩放到新的画布尺寸</s:String>
@@ -504,6 +514,10 @@
     <!--Success • Storage clean up--> 
     <s:String x:Key="S.Success.StorageCleanup.Header">成功</s:String>
     <s:String x:Key="S.Success.StorageCleanup.Message">缓存清理成功</s:String>
+
+    <!--Success • Storage clean up-->
+    <s:String x:Key="S.Success.CacheDrive.Header">成功</s:String>
+    <s:String x:Key="S.Success.CacheDrive.Message">缓存位置更改成功</s:String>
 
     <!--Success • Smooth loop--> 
     <s:String x:Key="S.Success.SmoothLoop.Header">已找到平滑循环</s:String>
@@ -796,6 +810,10 @@
     <s:String x:Key="S.Errors.StorageCleanup.Header">清理时出错</s:String>
     <s:String x:Key="S.Errors.StorageCleanup.Message">无法清理缓存</s:String>
 
+    <!--Error • Change cache drive--> 
+    <s:String x:Key="S.Errors.CacheDrive.Header">更改驱动器时出错</s:String>
+    <s:String x:Key="S.Errors.CacheDrive.Message">无法更改缓存驱动器</s:String>
+
     <!--Error • Smooth loop search--> 
     <s:String x:Key="S.Errors.SmoothLoop.Header">搜索失败</s:String>
     <s:String x:Key="S.Errors.SmoothLoop.Message">循环搜索过程中发生错误</s:String>
@@ -807,6 +825,10 @@
     <!--Error • Removing recent projects--> 
     <s:String x:Key="S.Errors.RemovingRecents.Header">错误</s:String>
     <s:String x:Key="S.Errors.RemovingRecents.Message">无法删除一个或多个项目</s:String>
+
+    <!--Error • Missing drive-->
+    <s:String x:Key="S.Errors.MissingDrive.Header">无驱动器</s:String>
+    <s:String x:Key="S.Errors.MissingDrive.Message">驱动器不可用或已丢失</s:String>
 
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">激活失败</s:String>
@@ -1271,6 +1293,8 @@
     <s:String x:Key="S.State.Saving">保存中...</s:String>
     <s:String x:Key="S.State.Discarding">正在丢弃...</s:String>
     <s:String x:Key="S.State.Discarded">已丢弃</s:String>
+    <s:String x:Key="S.State.ChangingDrive">正在更换驱动器...</s:String>
+    <s:String x:Key="S.State.MovingFiles">正在移动文件...</s:String>
     <s:String x:Key="S.State.Done">完成</s:String>
     <s:String x:Key="S.State.Copied">已复制</s:String>
     <s:String x:Key="S.State.Cut">已剪切</s:String>

@@ -70,6 +70,7 @@
     <s:String x:Key="S.Imperative.Trim">Περικοπή</s:String>
     <s:String x:Key="S.Imperative.Resize">Αλλαγή μεγέθους</s:String>
     <s:String x:Key="S.Imperative.Search">Αναζήτηση</s:String>
+    <s:String x:Key="S.Imperative.ChangeDrive">Αλλαγή μονάδας δίσκου</s:String>
 
     <!--Time • Referential-->
     <s:String x:Key="S.Time.Ago.Seconds">πριν λίγα δευτερόλεπτα</s:String>
@@ -397,6 +398,15 @@
     <s:String x:Key="S.Dialogs.Cache.KeepRecent">Διατήρηση πρόσφατων έργων</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent.Info">Θα διαγραφούν μόνο έργα παλαιότερα από αυτά που έχουν ρυθμιστεί στις Ρυθμίσεις > Αποθήκευση</s:String>
 
+    <!--Dialogs • Change drive-->
+    <s:String x:Key="S.Dialogs.ChangeDrive.Header">Αλλαγή μονάδας cache</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.Current">Τρέχουσα μονάδα</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.Size">Μέγεθος cache:</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.Target">Μονάδα προορισμού</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.LowOnSpaceToMove">Δεν είναι δυνατή η μεταφορά αρχείων, δεν υπάρχει αρκετός χώρος</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.MoveFiles">Μετακίνηση υπαρχόντων αρχείων</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.MoveFiles.Info">Μετακίνηση όλων των δεδομένων cache στη νέα τοποθεσία μονάδας</s:String>
+
     <!--Dialogs • Resize canvas-->
     <s:String x:Key="S.Dialogs.ResizeCanvas.Header">Αλλαγή μεγέθους καμβά</s:String>
     <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent">Κλίμακα του υπάρχοντος περιεχομένου στο νέο μέγεθος καμβά</s:String>
@@ -504,6 +514,10 @@
     <!--Success • Storage clean up--> 
     <s:String x:Key="S.Success.StorageCleanup.Header">Επιτυχία</s:String>
     <s:String x:Key="S.Success.StorageCleanup.Message">Ο καθαρισμός της προσωρινής μνήμης ολοκληρώθηκε με επιτυχία</s:String>
+
+    <!--Success • Storage clean up-->
+    <s:String x:Key="S.Success.CacheDrive.Header">Επιτυχία</s:String>
+    <s:String x:Key="S.Success.CacheDrive.Message">Η αλλαγή της τοποθεσίας cache ολοκληρώθηκε με επιτυχία</s:String>
 
     <!--Success • Smooth loop--> 
     <s:String x:Key="S.Success.SmoothLoop.Header">Βρέθηκε ομαλός βρόχος</s:String>
@@ -796,6 +810,10 @@
     <s:String x:Key="S.Errors.StorageCleanup.Header">Σφάλμα κατά τον καθαρισμό</s:String>
     <s:String x:Key="S.Errors.StorageCleanup.Message">Δεν ήταν δυνατό να καθαριστεί η προσωρινή μνήμη</s:String>
 
+    <!--Error • Change cache drive--> 
+    <s:String x:Key="S.Errors.CacheDrive.Header">Σφάλμα αλλαγής μονάδας</s:String>
+    <s:String x:Key="S.Errors.CacheDrive.Message">Δεν ήταν δυνατή η αλλαγή της μονάδας cache</s:String>
+
     <!--Error • Smooth loop search--> 
     <s:String x:Key="S.Errors.SmoothLoop.Header">Η αναζήτηση απέτυχε</s:String>
     <s:String x:Key="S.Errors.SmoothLoop.Message">Παρουσιάστηκε σφάλμα κατά την αναζήτηση βρόχου</s:String>
@@ -807,6 +825,10 @@
     <!--Error • Removing recent projects--> 
     <s:String x:Key="S.Errors.RemovingRecents.Header">Σφάλμα</s:String>
     <s:String x:Key="S.Errors.RemovingRecents.Message">Αποτυχία αφαίρεσης ενός ή περισσότερων έργων</s:String>
+
+    <!--Error • Missing drive-->
+    <s:String x:Key="S.Errors.MissingDrive.Header">Δεν υπάρχει μονάδα δίσκου</s:String>
+    <s:String x:Key="S.Errors.MissingDrive.Message">Η μονάδα δίσκου δεν είναι διαθέσιμη ή λείπει</s:String>
 
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Η ενεργοποίηση απέτυχε</s:String>
@@ -1271,6 +1293,8 @@
     <s:String x:Key="S.State.Saving">Αποθήκευση...</s:String>
     <s:String x:Key="S.State.Discarding">Απόρριψη...</s:String>
     <s:String x:Key="S.State.Discarded">Απορρίφθηκε</s:String>
+    <s:String x:Key="S.State.ChangingDrive">Αλλαγή μονάδας...</s:String>
+    <s:String x:Key="S.State.MovingFiles">Μετακίνηση αρχείων...</s:String>
     <s:String x:Key="S.State.Done">Ολοκληρώθηκε</s:String>
     <s:String x:Key="S.State.Copied">Αντιγράφηκε</s:String>
     <s:String x:Key="S.State.Cut">Αποκόπηκε</s:String>

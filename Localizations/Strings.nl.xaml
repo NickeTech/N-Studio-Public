@@ -70,6 +70,7 @@
     <s:String x:Key="S.Imperative.Trim">Trimmen</s:String>
     <s:String x:Key="S.Imperative.Resize">Formaat wijzigen</s:String>
     <s:String x:Key="S.Imperative.Search">Zoeken</s:String>
+    <s:String x:Key="S.Imperative.ChangeDrive">Station wijzigen</s:String>
 
     <!--Time • Referential-->
     <s:String x:Key="S.Time.Ago.Seconds">een paar seconden geleden</s:String>
@@ -397,6 +398,15 @@
     <s:String x:Key="S.Dialogs.Cache.KeepRecent">Bewaar recente projecten</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent.Info">Alleen projecten ouder dan wat is geconfigureerd in Instellingen > Opslag worden verwijderd</s:String>
 
+    <!--Dialogs • Change drive-->
+    <s:String x:Key="S.Dialogs.ChangeDrive.Header">Cache-station wijzigen</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.Current">Huidig station</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.Size">Cachegrootte:</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.Target">Doelstation</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.LowOnSpaceToMove">Kan bestanden niet migreren, onvoldoende ruimte</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.MoveFiles">Bestaande bestanden verplaatsen</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.MoveFiles.Info">Alle cachegegevens naar de nieuwe stationlocatie verplaatsen</s:String>
+
     <!--Dialogs • Resize canvas-->
     <s:String x:Key="S.Dialogs.ResizeCanvas.Header">Canvasformaat wijzigen</s:String>
     <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent">Schaal bestaande inhoud naar de nieuwe canvasgrootte</s:String>
@@ -504,6 +514,10 @@
     <!--Success • Storage clean up--> 
     <s:String x:Key="S.Success.StorageCleanup.Header">Succes</s:String>
     <s:String x:Key="S.Success.StorageCleanup.Message">Cache-schoonmaak geslaagd</s:String>
+
+    <!--Success • Storage clean up-->
+    <s:String x:Key="S.Success.CacheDrive.Header">Succes</s:String>
+    <s:String x:Key="S.Success.CacheDrive.Message">Cachelocatie succesvol gewijzigd</s:String>
 
     <!--Success • Smooth loop--> 
     <s:String x:Key="S.Success.SmoothLoop.Header">Vloeiende lus gevonden</s:String>
@@ -796,6 +810,10 @@
     <s:String x:Key="S.Errors.StorageCleanup.Header">Fout bij het opschonen</s:String>
     <s:String x:Key="S.Errors.StorageCleanup.Message">Het was niet mogelijk om de cache te legen</s:String>
 
+    <!--Error • Change cache drive--> 
+    <s:String x:Key="S.Errors.CacheDrive.Header">Fout bij wijzigen van station</s:String>
+    <s:String x:Key="S.Errors.CacheDrive.Message">Het was niet mogelijk het cache-station te wijzigen</s:String>
+
     <!--Error • Smooth loop search--> 
     <s:String x:Key="S.Errors.SmoothLoop.Header">Zoekopdracht mislukt</s:String>
     <s:String x:Key="S.Errors.SmoothLoop.Message">Er is een fout opgetreden tijdens het zoeken naar de lus</s:String>
@@ -807,6 +825,10 @@
     <!--Error • Removing recent projects--> 
     <s:String x:Key="S.Errors.RemovingRecents.Header">Fout</s:String>
     <s:String x:Key="S.Errors.RemovingRecents.Message">Kan een of meer projecten niet verwijderen</s:String>
+
+    <!--Error • Missing drive-->
+    <s:String x:Key="S.Errors.MissingDrive.Header">Geen station</s:String>
+    <s:String x:Key="S.Errors.MissingDrive.Message">Het station is niet beschikbaar of ontbreekt</s:String>
 
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Activering mislukt</s:String>
@@ -1271,6 +1293,8 @@
     <s:String x:Key="S.State.Saving">Opslaan...</s:String>
     <s:String x:Key="S.State.Discarding">Weggooien...</s:String>
     <s:String x:Key="S.State.Discarded">Weggegooid</s:String>
+    <s:String x:Key="S.State.ChangingDrive">Station wordt gewijzigd...</s:String>
+    <s:String x:Key="S.State.MovingFiles">Bestanden worden verplaatst...</s:String>
     <s:String x:Key="S.State.Done">Klaar</s:String>
     <s:String x:Key="S.State.Copied">Gekopieerd</s:String>
     <s:String x:Key="S.State.Cut">Geknipt</s:String>

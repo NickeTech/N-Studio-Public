@@ -70,6 +70,7 @@
     <s:String x:Key="S.Imperative.Trim">トリム</s:String>
     <s:String x:Key="S.Imperative.Resize">リサイズ</s:String>
     <s:String x:Key="S.Imperative.Search">検索</s:String>
+    <s:String x:Key="S.Imperative.ChangeDrive">ドライブを変更</s:String>
 
     <!--Time • Referential-->
     <s:String x:Key="S.Time.Ago.Seconds">数秒前</s:String>
@@ -397,6 +398,15 @@
     <s:String x:Key="S.Dialogs.Cache.KeepRecent">最近のプロジェクトを保持</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent.Info">設定 > ストレージで構成された期間より古いプロジェクトのみが削除されます</s:String>
 
+    <!--Dialogs • Change drive-->
+    <s:String x:Key="S.Dialogs.ChangeDrive.Header">キャッシュドライブを変更</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.Current">現在のドライブ</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.Size">キャッシュサイズ:</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.Target">対象ドライブ</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.LowOnSpaceToMove">ファイルを移行できません。空き容量が不足しています</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.MoveFiles">既存ファイルを移動</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.MoveFiles.Info">すべてのキャッシュデータを新しいドライブに移動します</s:String>
+
     <!--Dialogs • Resize canvas-->
     <s:String x:Key="S.Dialogs.ResizeCanvas.Header">キャンバスのリサイズ</s:String>
     <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent">既存のコンテンツを新しいキャンバスサイズに合わせてスケールします</s:String>
@@ -504,6 +514,10 @@
     <!--Success • Storage clean up--> 
     <s:String x:Key="S.Success.StorageCleanup.Header">成功</s:String>
     <s:String x:Key="S.Success.StorageCleanup.Message">キャッシュのクリーンアップが完了しました</s:String>
+
+    <!--Success • Storage clean up-->
+    <s:String x:Key="S.Success.CacheDrive.Header">成功</s:String>
+    <s:String x:Key="S.Success.CacheDrive.Message">キャッシュの場所が正常に変更されました</s:String>
 
     <!--Success • Smooth loop--> 
     <s:String x:Key="S.Success.SmoothLoop.Header">スムーズなループが見つかりました</s:String>
@@ -796,6 +810,10 @@
     <s:String x:Key="S.Errors.StorageCleanup.Header">クリーンアップ中のエラー</s:String>
     <s:String x:Key="S.Errors.StorageCleanup.Message">キャッシュをクリーンアップできませんでした</s:String>
 
+    <!--Error • Change cache drive--> 
+    <s:String x:Key="S.Errors.CacheDrive.Header">ドライブ変更エラー</s:String>
+    <s:String x:Key="S.Errors.CacheDrive.Message">キャッシュドライブを変更できませんでした</s:String>
+
     <!--Error • Smooth loop search--> 
     <s:String x:Key="S.Errors.SmoothLoop.Header">検索に失敗しました</s:String>
     <s:String x:Key="S.Errors.SmoothLoop.Message">ループ検索中にエラーが発生しました</s:String>
@@ -807,6 +825,10 @@
     <!--Error • Removing recent projects--> 
     <s:String x:Key="S.Errors.RemovingRecents.Header">エラー</s:String>
     <s:String x:Key="S.Errors.RemovingRecents.Message">1つ以上のプロジェクトを削除できませんでした</s:String>
+
+    <!--Error • Missing drive-->
+    <s:String x:Key="S.Errors.MissingDrive.Header">ドライブなし</s:String>
+    <s:String x:Key="S.Errors.MissingDrive.Message">ドライブが利用できないか、見つかりません</s:String>
 
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">アクティベーションに失敗しました</s:String>
@@ -1271,6 +1293,8 @@
     <s:String x:Key="S.State.Saving">保存中...</s:String>
     <s:String x:Key="S.State.Discarding">破棄中...</s:String>
     <s:String x:Key="S.State.Discarded">破棄されました</s:String>
+    <s:String x:Key="S.State.ChangingDrive">ドライブを変更しています...</s:String>
+    <s:String x:Key="S.State.MovingFiles">ファイルを移動しています...</s:String>
     <s:String x:Key="S.State.Done">完了</s:String>
     <s:String x:Key="S.State.Copied">コピーされました</s:String>
     <s:String x:Key="S.State.Cut">切り取り済み</s:String>

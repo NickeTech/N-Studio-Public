@@ -70,6 +70,7 @@
     <s:String x:Key="S.Imperative.Trim">Обрезать</s:String>
     <s:String x:Key="S.Imperative.Resize">Изменить размер</s:String>
     <s:String x:Key="S.Imperative.Search">Поиск</s:String>
+    <s:String x:Key="S.Imperative.ChangeDrive">Сменить диск</s:String>
 
     <!--Time • Referential-->
     <s:String x:Key="S.Time.Ago.Seconds">несколько секунд назад</s:String>
@@ -397,6 +398,15 @@
     <s:String x:Key="S.Dialogs.Cache.KeepRecent">Сохранить недавние проекты</s:String>
     <s:String x:Key="S.Dialogs.Cache.KeepRecent.Info">Будут удалены только проекты старше срока, указанного в Настройки > Хранилище</s:String>
 
+    <!--Dialogs • Change drive-->
+    <s:String x:Key="S.Dialogs.ChangeDrive.Header">Изменить диск для кеша</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.Current">Текущий диск</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.Size">Размер кеша:</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.Target">Целевой диск</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.LowOnSpaceToMove">Невозможно перенести файлы, недостаточно места</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.MoveFiles">Переместить существующие файлы</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.MoveFiles.Info">Переместить все данные кеша на новый диск</s:String>
+
     <!--Dialogs • Resize canvas-->
     <s:String x:Key="S.Dialogs.ResizeCanvas.Header">Изменить размер холста</s:String>
     <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent">Масштабировать существующее содержимое до нового размера холста</s:String>
@@ -504,6 +514,10 @@
     <!--Success • Storage clean up--> 
     <s:String x:Key="S.Success.StorageCleanup.Header">Успех</s:String>
     <s:String x:Key="S.Success.StorageCleanup.Message">Очистка кеша выполнена успешно</s:String>
+
+    <!--Success • Storage clean up-->
+    <s:String x:Key="S.Success.CacheDrive.Header">Успех</s:String>
+    <s:String x:Key="S.Success.CacheDrive.Message">Изменение расположения кеша успешно выполнено</s:String>
 
     <!--Success • Smooth loop--> 
     <s:String x:Key="S.Success.SmoothLoop.Header">Плавный цикл найден</s:String>
@@ -796,6 +810,10 @@
     <s:String x:Key="S.Errors.StorageCleanup.Header">Ошибка при очистке</s:String>
     <s:String x:Key="S.Errors.StorageCleanup.Message">Невозможно очистить кэш</s:String>
 
+    <!--Error • Change cache drive--> 
+    <s:String x:Key="S.Errors.CacheDrive.Header">Ошибка изменения диска</s:String>
+    <s:String x:Key="S.Errors.CacheDrive.Message">Не удалось изменить диск для кеша</s:String>
+
     <!--Error • Smooth loop search--> 
     <s:String x:Key="S.Errors.SmoothLoop.Header">Ошибка поиска</s:String>
     <s:String x:Key="S.Errors.SmoothLoop.Message">Во время поиска цикла произошла ошибка</s:String>
@@ -807,6 +825,10 @@
     <!--Error • Removing recent projects--> 
     <s:String x:Key="S.Errors.RemovingRecents.Header">Ошибка</s:String>
     <s:String x:Key="S.Errors.RemovingRecents.Message">Не удалось удалить один или несколько проектов</s:String>
+
+    <!--Error • Missing drive-->
+    <s:String x:Key="S.Errors.MissingDrive.Header">Нет диска</s:String>
+    <s:String x:Key="S.Errors.MissingDrive.Message">Диск недоступен или отсутствует</s:String>
 
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Ошибка активации</s:String>
@@ -1271,6 +1293,8 @@
     <s:String x:Key="S.State.Saving">Сохранение...</s:String>
     <s:String x:Key="S.State.Discarding">Отбрасывается...</s:String>
     <s:String x:Key="S.State.Discarded">Отброшено</s:String>
+    <s:String x:Key="S.State.ChangingDrive">Смена диска...</s:String>
+    <s:String x:Key="S.State.MovingFiles">Перемещение файлов...</s:String>
     <s:String x:Key="S.State.Done">Готово</s:String>
     <s:String x:Key="S.State.Copied">Скопировано</s:String>
     <s:String x:Key="S.State.Cut">Вырезано</s:String>
