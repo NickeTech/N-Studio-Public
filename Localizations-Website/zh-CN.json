@@ -260,8 +260,9 @@
 
     "success": {
       "title": "支付成功",
-      "message-company": "你的付款已获批准，现在可以下载应用或管理你的用户。",
-      "message-individual": "你的付款已获批准，现在可以下载应用。"
+      "message-company": "你的付款已获批准。<br>下载 Pro 版本以使用新功能或管理你的用户。",
+      "message-individual": "你的付款已获批准。<br>下载 Pro 版本以使用新功能。",
+      "download-pro": "下载 Pro"
     },
 
     "contact": {
@@ -393,9 +394,22 @@
       "flexible": "灵活投资",
       "download-now": "立即下载",
       "get-professional": "获取 Professional",
+      "get-business": "获取 Business",
       "contact-us": "联系我们",
       "month": "月",
       "month-user": "月/用户",
+      "most-popular": "最受欢迎",
+      "always-free": "永久免费",
+      "annual-billing-short": "按年计费可免费获得2个月",
+
+      "section-recording": "屏幕录制",
+      "section-adjustments": "调整",
+      "section-editor": "完整编辑器",
+      "section-export": "导出格式",
+      "section-general": "常规",
+      "section-upgrades": "升级",
+      "section-admin": "团队管理",
+      "section-enterprise": "企业版",
 
       "capture-screen": "自由捕获屏幕",
       "capture-screen-framerate": "控制帧率",
@@ -444,9 +458,11 @@
       "admin-dashboard": "附带管理仪表板以控制用户访问",
       "add-user": "添加/删除用户",
       "user-access": "通过邮箱或域名访问",
+      "user-access-tip": "通过单个电子邮件地址或整个电子邮件域控制访问权限",
 
       "same-as-business": "功能与 Business 选项相同",
       "large-corpo": "适用于大型企业",
+      "custom-billing-short": "自定义计费方案",
       "custom-billing": "基于公司需求的定制计费方案"
     },
 

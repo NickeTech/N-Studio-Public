@@ -260,8 +260,9 @@
 
     "success": {
       "title": "Betalning lyckades",
-      "message-company": "Din betalning godkändes, du kan nu ladda ner appen eller hantera dina användare.",
-      "message-individual": "Din betalning godkändes, du kan nu ladda ner appen."
+      "message-company": "Din betalning godkändes.<br>Ladda ner Pro-versionen för att använda dina nya funktioner eller hantera dina användare.",
+      "message-individual": "Din betalning godkändes.<br>Ladda ner Pro-versionen för att använda dina nya funktioner.",
+      "download-pro": "Ladda ner Pro"
     },
 
     "contact": {
@@ -393,9 +394,22 @@
       "flexible": "Flexibel investering",
       "download-now": "Ladda ner nu",
       "get-professional": "Skaffa Professional",
+      "get-business": "Skaffa Business",
       "contact-us": "Kontakta oss",
       "month": "månad",
       "month-user": "månad/användare",
+      "most-popular": "Mest populär",
+      "always-free": "Alltid gratis",
+      "annual-billing-short": "2 månader gratis med årlig fakturering",
+
+      "section-recording": "Skärminspelning",
+      "section-adjustments": "Justeringar",
+      "section-editor": "Fullständig redigerare",
+      "section-export": "Exportformat",
+      "section-general": "Allmänt",
+      "section-upgrades": "Uppgraderingar",
+      "section-admin": "Teamhantering",
+      "section-enterprise": "Enterprise",
 
       "capture-screen": "Spela in din skärm fritt",
       "capture-screen-framerate": "Kontrollera bildfrekvensen",
@@ -444,9 +458,11 @@
       "admin-dashboard": "Med admin-panel för att kontrollera användaråtkomst",
       "add-user": "Lägg till/ta bort användare",
       "user-access": "Åtkomst per e-post eller per domän",
+      "user-access-tip": "Styr åtkomst via enskilda e-postadresser eller hela e-postdomäner",
 
       "same-as-business": "Samma funktioner som business-alternativet",
       "large-corpo": "För stora företag",
+      "custom-billing-short": "Anpassat faktureringsupplägg",
       "custom-billing": "Anpassad faktureringsplan efter ditt företags behov"
     },
 

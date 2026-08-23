@@ -260,8 +260,9 @@
 
     "success": {
       "title": "支払い成功",
-      "message-company": "お支払いが承認されました。アプリをダウンロードするか、ユーザーを管理できます。",
-      "message-individual": "お支払いが承認されました。アプリをダウンロードできます。"
+      "message-company": "お支払いが承認されました。<br>新しい機能を利用するにはPro版をダウンロードするか、ユーザーを管理してください。",
+      "message-individual": "お支払いが承認されました。<br>新しい機能を利用するにはPro版をダウンロードしてください。",
+      "download-pro": "Pro版をダウンロード"
     },
 
     "contact": {
@@ -393,9 +394,22 @@
       "flexible": "柔軟な投資",
       "download-now": "今すぐダウンロード",
       "get-professional": "Professionalを入手",
+      "get-business": "Businessを入手",
       "contact-us": "お問い合わせ",
       "month": "月",
       "month-user": "月/ユーザー",
+      "most-popular": "最も人気",
+      "always-free": "常に無料",
+      "annual-billing-short": "年払いで2ヶ月無料",
+
+      "section-recording": "画面録画",
+      "section-adjustments": "調整",
+      "section-editor": "フルエディター",
+      "section-export": "エクスポート形式",
+      "section-general": "一般",
+      "section-upgrades": "アップグレード",
+      "section-admin": "チーム管理",
+      "section-enterprise": "エンタープライズ",
 
       "capture-screen": "画面を自由にキャプチャ",
       "capture-screen-framerate": "フレームレートを制御",
@@ -444,9 +458,11 @@
       "admin-dashboard": "ユーザーアクセスを制御する管理ダッシュボード付き",
       "add-user": "ユーザーの追加/削除",
       "user-access": "メールまたはドメインによるアクセス",
+      "user-access-tip": "個別のメールアドレスまたはメールドメイン全体でアクセスを制御",
 
       "same-as-business": "機能面ではBusinessオプションと同じ",
       "large-corpo": "大企業向け",
+      "custom-billing-short": "カスタム請求スキーム",
       "custom-billing": "会社のニーズに応じたカスタム請求スキーム"
     },
 

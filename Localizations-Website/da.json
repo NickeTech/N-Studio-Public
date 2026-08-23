@@ -260,8 +260,9 @@
 
     "success": {
       "title": "Betaling gennemført",
-      "message-company": "Din betaling blev godkendt, og du kan nu downloade appen eller administrere dine brugere.",
-      "message-individual": "Din betaling blev godkendt, og du kan nu downloade appen."
+      "message-company": "Din betaling blev godkendt.<br>Download Pro-versionen for at bruge dine nye funktioner eller administrere dine brugere.",
+      "message-individual": "Din betaling blev godkendt.<br>Download Pro-versionen for at bruge dine nye funktioner.",
+      "download-pro": "Download Pro"
     },
 
     "contact": {
@@ -393,9 +394,22 @@
       "flexible": "Fleksibel investering",
       "download-now": "Hent nu",
       "get-professional": "Få Professionel",
+      "get-business": "Få Business",
       "contact-us": "Kontakt os",
       "month": "måned",
       "month-user": "måned/bruger",
+      "most-popular": "Mest populær",
+      "always-free": "Altid gratis",
+      "annual-billing-short": "2 måneder gratis med årlig fakturering",
+
+      "section-recording": "Skærmoptagelse",
+      "section-adjustments": "Justeringer",
+      "section-editor": "Fuld Editor",
+      "section-export": "Eksportformater",
+      "section-general": "Generelt",
+      "section-upgrades": "Opgraderinger",
+      "section-admin": "Teamadministration",
+      "section-enterprise": "Enterprise",
 
       "capture-screen": "Optag din skærm frit",
       "capture-screen-framerate": "Kontroller billedhastigheden",
@@ -444,9 +458,11 @@
       "admin-dashboard": "Med admin-instrumentbræt til kontrol af brugeradgang",
       "add-user": "Tilføj/fjern brugere",
       "user-access": "Adgang per e-mail eller per domæne",
+      "user-access-tip": "Kontroller adgang via individuelle e-mailadresser eller hele e-maildomæner",
 
       "same-as-business": "Samme som business-muligheden funktionsmæssigt",
       "large-corpo": "Til store virksomheder",
+      "custom-billing-short": "Tilpasset faktureringsordning",
       "custom-billing": "Tilpasset faktureringsordning baseret på din virksomheds behov"
     },
 

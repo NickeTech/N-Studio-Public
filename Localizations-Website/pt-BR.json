@@ -258,8 +258,9 @@
 
     "success": {
       "title": "Pagamento Feito com Sucesso",
-      "message-company": "Seu pagamento foi aprovado, agora você pode baixar o aplicativo ou gerenciar seus usuários.",
-      "message-individual": "Seu pagamento foi aprovado, agora você pode baixar aplicativo."
+      "message-company": "Seu pagamento foi aprovado.<br>Baixe a versão Pro para usar seus novos recursos ou gerenciar seus usuários.",
+      "message-individual": "Seu pagamento foi aprovado.<br>Baixe a versão Pro para usar seus novos recursos.",
+      "download-pro": "Baixar Pro"
     },
 
     "contact": {
@@ -391,9 +392,22 @@
       "flexible": "Investimento flexível",
       "download-now": "Baixar agora",
       "get-professional": "Obter Profissional",
+      "get-business": "Obter Business",
       "contact-us": "Entre em Contato",
       "month": "mês",
       "month-user": "mês/usuário",
+      "most-popular": "Mais popular",
+      "always-free": "Sempre grátis",
+      "annual-billing-short": "2 meses grátis com cobrança anual",
+
+      "section-recording": "Gravação de tela",
+      "section-adjustments": "Ajustes",
+      "section-editor": "Editor completo",
+      "section-export": "Formatos de exportação",
+      "section-general": "Geral",
+      "section-upgrades": "Atualizações",
+      "section-admin": "Gestão da equipe",
+      "section-enterprise": "Enterprise",
 
       "capture-screen": "Capture sua tela livremente",
       "capture-screen-framerate": "Controle a taxa de quadros",
@@ -443,15 +457,17 @@
       "admin-dashboard": "Com painel de administração para controlar o acesso de usuários",
       "add-user": "Adicionar/remover usuários",
       "user-access": "Acesso por e-mail ou por domínio",
+      "user-access-tip": "Controle o acesso por endereços de e-mail individuais ou domínios de e-mail inteiros",
 
       "same-as-business": "Mesmo conjunto de recursos da opção Business",
       "large-corpo": "Para grandes corporações",
+      "custom-billing-short": "Esquema de cobrança personalizado",
       "custom-billing": "Esquema de cobrança personalizado conforme as necessidades da sua empresa"
     },
 
     "screenshots": {
       "title": "Imagens",
-      "welcome": "A princípio, você pode ser recebido pela janela de boas-vindas",
+      "welcome": "No início, você pode ser recebido pela janela de boas-vindas",
       "welcome-info": "Isto é opcional, pois você pode configurar para abrir o gravador ou o editor na inicialização",
       "record": "Você pode gravar sua tela, junto com o cursor e as teclas pressionadas",
       "record-info": "Você pode escolher qual parte da tela gravar e controlar os FPS (você pode até capturar timelapses!)",

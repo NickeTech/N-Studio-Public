@@ -260,8 +260,9 @@
 
     "success": {
       "title": "Pago exitoso",
-      "message-company": "Tu pago fue aprobado, ahora puedes descargar la app o gestionar tus usuarios.",
-      "message-individual": "Tu pago fue aprobado, ahora puedes descargar la app."
+      "message-company": "Tu pago fue aprobado.<br>Descarga la versión Pro para usar tus nuevas funciones o gestionar tus usuarios.",
+      "message-individual": "Tu pago fue aprobado.<br>Descarga la versión Pro para usar tus nuevas funciones.",
+      "download-pro": "Descargar Pro"
     },
 
     "contact": {
@@ -393,9 +394,22 @@
       "flexible": "Inversión flexible",
       "download-now": "Descargar ahora",
       "get-professional": "Conseguir Professional",
+      "get-business": "Conseguir Business",
       "contact-us": "Contacta con nosotros",
       "month": "mes",
       "month-user": "mes/usuario",
+      "most-popular": "Más popular",
+      "always-free": "Siempre gratis",
+      "annual-billing-short": "2 meses gratis con facturación anual",
+
+      "section-recording": "Grabación de pantalla",
+      "section-adjustments": "Ajustes",
+      "section-editor": "Editor completo",
+      "section-export": "Formatos de exportación",
+      "section-general": "General",
+      "section-upgrades": "Actualizaciones",
+      "section-admin": "Gestión del equipo",
+      "section-enterprise": "Enterprise",
 
       "capture-screen": "Captura tu pantalla libremente",
       "capture-screen-framerate": "Controla la velocidad de fotogramas",
@@ -445,9 +459,11 @@
       "admin-dashboard": "Con panel de administración para controlar el acceso de usuarios",
       "add-user": "Agregar/eliminar usuarios",
       "user-access": "Acceso por correo electrónico o por dominio",
+      "user-access-tip": "Controla el acceso mediante direcciones de correo electrónico individuales o dominios de correo completos",
 
       "same-as-business": "Igual que la opción Business en cuanto a características",
       "large-corpo": "Para grandes corporaciones",
+      "custom-billing-short": "Esquema de facturación personalizado",
       "custom-billing": "Esquema de facturación personalizado basado en las necesidades de tu empresa"
     },
 

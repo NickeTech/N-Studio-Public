@@ -260,8 +260,9 @@
 
     "success": {
       "title": "Betaling geslaagd",
-      "message-company": "Je betaling is goedgekeurd, je kunt nu de app downloaden of je gebruikers beheren.",
-      "message-individual": "Je betaling is goedgekeurd, je kunt nu de app downloaden."
+      "message-company": "Je betaling is goedgekeurd.<br>Download de Pro-versie om je nieuwe functies te gebruiken of je gebruikers te beheren.",
+      "message-individual": "Je betaling is goedgekeurd.<br>Download de Pro-versie om je nieuwe functies te gebruiken.",
+      "download-pro": "Pro downloaden"
     },
 
     "contact": {
@@ -393,9 +394,22 @@
       "flexible": "Flexibele investering",
       "download-now": "Nu downloaden",
       "get-professional": "Krijg Professional",
+      "get-business": "Krijg Business",
       "contact-us": "Neem contact op",
       "month": "maand",
       "month-user": "maand/gebruiker",
+      "most-popular": "Meest populair",
+      "always-free": "Altijd gratis",
+      "annual-billing-short": "2 maanden gratis bij jaarlijkse facturering",
+
+      "section-recording": "Schermopname",
+      "section-adjustments": "Aanpassingen",
+      "section-editor": "Volledige editor",
+      "section-export": "Exportformaten",
+      "section-general": "Algemeen",
+      "section-upgrades": "Upgrades",
+      "section-admin": "Teambeheer",
+      "section-enterprise": "Enterprise",
 
       "capture-screen": "Neem je scherm vrij op",
       "capture-screen-framerate": "Beheer de framerate",
@@ -444,9 +458,11 @@
       "admin-dashboard": "Met beheerder dashboard om gebruikers toegang te regelen",
       "add-user": "Gebruiker toevoegen/verwijderen",
       "user-access": "Toegang via e-mail of domein",
+      "user-access-tip": "Beheer toegang via individuele e-mailadressen of volledige e-maildomeinen",
 
       "same-as-business": "Zelfde functies als de Business-optie",
       "large-corpo": "Voor grote bedrijven",
+      "custom-billing-short": "Aangepast factureringsschema",
       "custom-billing": "Aangepaste facturering op basis van je bedrijfsbehoeften"
     },
 

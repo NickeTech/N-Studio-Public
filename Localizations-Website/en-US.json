@@ -260,8 +260,9 @@
 
     "success": {
       "title": "Payment Successful",
-      "message-company": "Your payment was approved, you can now download the app or manage your users.",
-      "message-individual": "Your payment was approved, you can now download the app."
+      "message-company": "Your payment was approved.<br>Download the Pro version to use your new features, or manage your users.",
+      "message-individual": "Your payment was approved.<br>Download the Pro version to use your new features.",
+      "download-pro": "Download Pro"
     },
 
     "contact": {
@@ -393,9 +394,22 @@
       "flexible": "Flexible investment",
       "download-now": "Download Now",
       "get-professional": "Get Professional",
+      "get-business": "Get Business",
       "contact-us": "Contact Us",
       "month": "month",
       "month-user": "month/user",
+      "most-popular": "Most Popular",
+      "always-free": "Always free",
+      "annual-billing-short": "2 months free with annual billing",
+
+      "section-recording": "Screen Recording",
+      "section-adjustments": "Adjustments",
+      "section-editor": "Full Editor",
+      "section-export": "Export Formats",
+      "section-general": "General",
+      "section-upgrades": "Upgrades",
+      "section-admin": "Team Management",
+      "section-enterprise": "Enterprise",    
 
       "capture-screen": "Capture your screen freely",
       "capture-screen-framerate": "Control the framerate",
@@ -445,9 +459,11 @@
       "admin-dashboard": "With admin dashboard to control user access",
       "add-user": "Add/remove users",
       "user-access": "Per email or per domain access",
+      "user-access-tip": "Control access by individual email addresses or entire email domains",
 
       "same-as-business": "Same as business option feature-wise",
       "large-corpo": "For large corporations",
+      "custom-billing-short": "Custom billing scheme",
       "custom-billing": "Custom billing scheme based on the needs of your company"
     },
 

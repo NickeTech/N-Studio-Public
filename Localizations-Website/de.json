@@ -260,8 +260,9 @@
 
     "success": {
       "title": "Zahlung erfolgreich",
-      "message-company": "Deine Zahlung wurde genehmigt, du kannst jetzt die App herunterladen oder deine Benutzer verwalten.",
-      "message-individual": "Deine Zahlung wurde genehmigt, du kannst jetzt die App herunterladen."
+      "message-company": "Deine Zahlung wurde genehmigt.<br>Lade die Pro-Version herunter, um deine neuen Funktionen zu nutzen oder deine Benutzer zu verwalten.",
+      "message-individual": "Deine Zahlung wurde genehmigt.<br>Lade die Pro-Version herunter, um deine neuen Funktionen zu nutzen.",
+      "download-pro": "Pro herunterladen"
     },
 
     "contact": {
@@ -393,9 +394,22 @@
       "flexible": "Flexible Investition",
       "download-now": "Jetzt herunterladen",
       "get-professional": "Professional erhalten",
+      "get-business": "Business erhalten",
       "contact-us": "Kontaktiere uns",
       "month": "Monat",
       "month-user": "Monat/Benutzer",
+      "most-popular": "Am beliebtesten",
+      "always-free": "Immer kostenlos",
+      "annual-billing-short": "2 Monate kostenlos bei jährlicher Abrechnung",
+
+      "section-recording": "Bildschirmaufnahme",
+      "section-adjustments": "Anpassungen",
+      "section-editor": "Vollständiger Editor",
+      "section-export": "Exportformate",
+      "section-general": "Allgemein",
+      "section-upgrades": "Upgrades",
+      "section-admin": "Teamverwaltung",
+      "section-enterprise": "Enterprise",
 
       "capture-screen": "Erfasse deinen Bildschirm frei",
       "capture-screen-framerate": "Steuere die Bildrate",
@@ -444,9 +458,11 @@
       "admin-dashboard": "Mit Admin-Dashboard zur Steuerung des Benutzerzugangs",
       "add-user": "Benutzer hinzufügen/entfernen",
       "user-access": "Zugriff per E-Mail oder Domäne",
+      "user-access-tip": "Steuern Sie den Zugriff über einzelne E-Mail-Adressen oder ganze E-Mail-Domänen",
 
       "same-as-business": "Gleichwertig zur Business-Option in Bezug auf Funktionen",
       "large-corpo": "Für große Konzerne",
+      "custom-billing-short": "Individuelles Abrechnungsschema",
       "custom-billing": "Individuelle Abrechnungsmodelle basierend auf den Bedürfnissen deines Unternehmens"
     },
 

@@ -260,8 +260,9 @@
 
     "success": {
       "title": "付款成功",
-      "message-company": "你的付款已通過，現在你可以下載應用或管理你的使用者。",
-      "message-individual": "你的付款已通過，現在你可以下載應用。"
+      "message-company": "你的付款已通過。<br>下載 Pro 版本以使用新功能或管理你的使用者。",
+      "message-individual": "你的付款已通過。<br>下載 Pro 版本以使用新功能。",
+      "download-pro": "下載 Pro"
     },
 
     "contact": {
@@ -393,9 +394,22 @@
       "flexible": "彈性投資",
       "download-now": "立即下載",
       "get-professional": "取得 Professional",
+      "get-business": "取得 Business",
       "contact-us": "聯絡我們",
       "month": "月",
       "month-user": "月/使用者",
+      "most-popular": "最受歡迎",
+      "always-free": "永久免費",
+      "annual-billing-short": "年繳可享2個月免費",
+
+      "section-recording": "螢幕錄製",
+      "section-adjustments": "調整",
+      "section-editor": "完整編輯器",
+      "section-export": "匯出格式",
+      "section-general": "一般",
+      "section-upgrades": "升級",
+      "section-admin": "團隊管理",
+      "section-enterprise": "企業版",
 
       "capture-screen": "自由擷取你的螢幕",
       "capture-screen-framerate": "控制幀率",
@@ -444,9 +458,11 @@
       "admin-dashboard": "提供管理儀表板以控制使用者存取",
       "add-user": "新增/移除使用者",
       "user-access": "透過電子郵件或網域存取",
+      "user-access-tip": "透過個別電子郵件地址或整個電子郵件網域控制存取權限",
 
       "same-as-business": "功能上與 Business 選項相同",
       "large-corpo": "適用於大型企業",
+      "custom-billing-short": "自訂計費方案",
       "custom-billing": "根據公司需求定制的計費方案"
     },
 

@@ -258,8 +258,9 @@
 
     "success": {
       "title": "Pagamento concluído com sucesso",
-      "message-company": "O seu pagamento foi aprovado, agora pode transferir a aplicação ou gerir os seus utilizadores.",
-      "message-individual": "O seu pagamento foi aprovado, agora pode transferir a aplicação."
+      "message-company": "O seu pagamento foi aprovado.<br>Descarregue a versão Pro para utilizar as suas novas funcionalidades ou gerir os seus utilizadores.",
+      "message-individual": "O seu pagamento foi aprovado.<br>Descarregue a versão Pro para utilizar as suas novas funcionalidades.",
+      "download-pro": "Descarregar Pro"
     },
 
     "contact": {
@@ -391,9 +392,22 @@
       "flexible": "Investimento flexível",
       "download-now": "Transferir agora",
       "get-professional": "Obter Profissional",
+      "get-business": "Obter Business",
       "contact-us": "Contacte-nos",
       "month": "mês",
       "month-user": "mês/utilizador",
+      "most-popular": "Mais popular",
+      "always-free": "Sempre gratuito",
+      "annual-billing-short": "2 meses grátis com faturação anual",
+
+      "section-recording": "Gravação de ecrã",
+      "section-adjustments": "Ajustes",
+      "section-editor": "Editor completo",
+      "section-export": "Formatos de exportação",
+      "section-general": "Geral",
+      "section-upgrades": "Atualizações",
+      "section-admin": "Gestão de equipa",
+      "section-enterprise": "Enterprise",
 
       "capture-screen": "Capture o seu ecrã livremente",
       "capture-screen-framerate": "Controle a taxa de frames",
@@ -443,9 +457,11 @@
       "admin-dashboard": "Com painel de administração para controlar o acesso dos utilizadores",
       "add-user": "Adicionar/remover utilizadores",
       "user-access": "Acesso por e-mail ou por domínio",
+      "user-access-tip": "Controle o acesso por endereços de e-mail individuais ou domínios de e-mail inteiros",
 
       "same-as-business": "Mesmo conjunto de funcionalidades da opção Business",
       "large-corpo": "Para grandes corporações",
+      "custom-billing-short": "Esquema de faturação personalizado",
       "custom-billing": "Esquema de faturação personalizado às necessidades da sua empresa"
     },
 

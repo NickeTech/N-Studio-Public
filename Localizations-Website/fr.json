@@ -260,8 +260,9 @@
 
     "success": {
       "title": "Paiement réussi",
-      "message-company": "Votre paiement a été accepté, vous pouvez maintenant télécharger l'application ou gérer vos utilisateurs.",
-      "message-individual": "Votre paiement a été accepté, vous pouvez maintenant télécharger l'application."
+      "message-company": "Votre paiement a été accepté.<br>Téléchargez la version Pro pour utiliser vos nouvelles fonctionnalités ou gérer vos utilisateurs.",
+      "message-individual": "Votre paiement a été accepté.<br>Téléchargez la version Pro pour utiliser vos nouvelles fonctionnalités.",
+      "download-pro": "Télécharger Pro"
     },
 
     "contact": {
@@ -393,9 +394,22 @@
       "flexible": "Investissement flexible",
       "download-now": "Télécharger maintenant",
       "get-professional": "Obtenir Professional",
+      "get-business": "Obtenir Business",
       "contact-us": "Contactez-nous",
       "month": "mois",
       "month-user": "mois/utilisateur",
+      "most-popular": "Le plus populaire",
+      "always-free": "Toujours gratuit",
+      "annual-billing-short": "2 mois gratuits avec facturation annuelle",
+
+      "section-recording": "Enregistrement d'écran",
+      "section-adjustments": "Ajustements",
+      "section-editor": "Éditeur complet",
+      "section-export": "Formats d'exportation",
+      "section-general": "Général",
+      "section-upgrades": "Mises à jour",
+      "section-admin": "Gestion de l'équipe",
+      "section-enterprise": "Enterprise",
 
       "capture-screen": "Capturez votre écran librement",
       "capture-screen-framerate": "Contrôlez la fréquence d'images",
@@ -444,9 +458,11 @@
       "admin-dashboard": "Avec un tableau de bord administrateur pour contrôler l'accès utilisateur",
       "add-user": "Ajouter/supprimer des utilisateurs",
       "user-access": "Accès par e-mail ou par domaine",
+      "user-access-tip": "Contrôlez l'accès par des adresses e-mail individuelles ou des domaines e-mail entiers",
 
       "same-as-business": "Identique à l'option Business en termes de fonctionnalités",
       "large-corpo": "Pour les grandes entreprises",
+      "custom-billing-short": "Schéma de facturation personnalisé",
       "custom-billing": "Facturation personnalisée basée sur les besoins de votre entreprise"
     },
 

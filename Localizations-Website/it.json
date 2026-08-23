@@ -260,8 +260,9 @@
 
     "success": {
       "title": "Pagamento riuscito",
-      "message-company": "Il tuo pagamento è stato approvato, ora puoi scaricare l'app o gestire i tuoi utenti.",
-      "message-individual": "Il tuo pagamento è stato approvato, ora puoi scaricare l'app."
+      "message-company": "Il tuo pagamento è stato approvato.<br>Scarica la versione Pro per usare le tue nuove funzionalità o gestire i tuoi utenti.",
+      "message-individual": "Il tuo pagamento è stato approvato.<br>Scarica la versione Pro per usare le tue nuove funzionalità.",
+      "download-pro": "Scarica Pro"
     },
 
     "contact": {
@@ -393,9 +394,22 @@
       "flexible": "Investimento flessibile",
       "download-now": "Scarica ora",
       "get-professional": "Ottieni Professional",
+      "get-business": "Ottieni Business",
       "contact-us": "Contattaci",
       "month": "mese",
       "month-user": "mese/utente",
+      "most-popular": "Più popolare",
+      "always-free": "Sempre gratuito",
+      "annual-billing-short": "2 mesi gratis con fatturazione annuale",
+
+      "section-recording": "Registrazione schermo",
+      "section-adjustments": "Regolazioni",
+      "section-editor": "Editor completo",
+      "section-export": "Formati di esportazione",
+      "section-general": "Generale",
+      "section-upgrades": "Aggiornamenti",
+      "section-admin": "Gestione del team",
+      "section-enterprise": "Enterprise",
 
       "capture-screen": "Cattura lo schermo liberamente",
       "capture-screen-framerate": "Controlla il frame rate",
@@ -444,9 +458,11 @@
       "admin-dashboard": "Con dashboard amministratore per controllare l'accesso degli utenti",
       "add-user": "Aggiungi/rimuovi utenti",
       "user-access": "Accesso tramite email o dominio",
+      "user-access-tip": "Controlla l'accesso tramite singoli indirizzi email o interi domini email",
 
       "same-as-business": "Uguale all'opzione Business in termini di funzionalità",
       "large-corpo": "Per grandi aziende",
+      "custom-billing-short": "Schema di fatturazione personalizzato",
       "custom-billing": "Fatturazione personalizzata basata sulle esigenze della tua azienda"
     },
 
