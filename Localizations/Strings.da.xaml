@@ -1147,6 +1147,7 @@
     <s:String x:Key="S.Feedback.Extra.Settings.Info">Konfigurationen af appen</s:String>
     <s:String x:Key="S.Feedback.Extra.PreviousErrors">Fejllogs</s:String>
     <s:String x:Key="S.Feedback.Extra.PreviousErrors.Info">Fejllogs fra tidligere nedbrud</s:String>
+    <s:String x:Key="S.Feedback.Extra.FFmpeg.Info">Detaljer om den nuværende FFmpeg-binære fil</s:String>
     <s:String x:Key="S.Feedback.Attachments">Vedhæftninger (maks 100 MiB, 25 MiB hver)</s:String>
     <s:String x:Key="S.Feedback.Attachments.Add">Tilføj vedhæftning</s:String>
     <s:String x:Key="S.Feedback.Attachments.Select">Vælg filer til vedhæftning</s:String>
@@ -1163,6 +1164,7 @@
     <s:String x:Key="S.FeedbackPreview.System.MachineName">Computernavn</s:String>
     <s:String x:Key="S.FeedbackPreview.Application">Applikation</s:String>
     <!--<s:String x:Key="S.FeedbackPreview.Application.Version">Version</s:String>-->
+    <s:String x:Key="S.FeedbackPreview.Application.Source">Kilde</s:String>
     <!--<s:String x:Key="S.FeedbackPreview.Application.Variant">Variant</s:String>-->
     <s:String x:Key="S.FeedbackPreview.Application.Startup">Startet i</s:String>
     <s:String x:Key="S.FeedbackPreview.Application.Date">Dato</s:String>
@@ -1198,6 +1200,10 @@
     <!--<s:String x:Key="S.FeedbackPreview.Disks.Format">Format</s:String>-->
     <!--<s:String x:Key="S.FeedbackPreview.Disks.Type">Type</s:String>-->
     <s:String x:Key="S.FeedbackPreview.Disks.Ready">Klar?</s:String>
+    <!--<s:String x:Key="S.FeedbackPreview.FFmpeg.Header">Header</s:String>-->
+    <!--<s:String x:Key="S.FeedbackPreview.FFmpeg.Version">Version</s:String>-->
+    <s:String x:Key="S.FeedbackPreview.FFmpeg.Older">(ældre)</s:String>
+    <s:String x:Key="S.FeedbackPreview.FFmpeg.Location">Placering</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.When">Hvornår</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.Category">Kategori</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.Location">Placering</s:String>
@@ -1977,7 +1983,7 @@
     <!--<s:String x:Key="S.Settings.Storage.AppSettings.Global">Global</s:String>-->
     <s:String x:Key="S.Settings.Storage.AppSettings.Local">Lokal</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.GlobalSettings">Globale indstillinger</s:String>
-    <s:String x:Key="S.Settings.Storage.AppSettings.GlobalSettings.Info">Indstillinger gemt i %AppData%/NStudio-mappen</s:String>
+    <s:String x:Key="S.Settings.Storage.AppSettings.GlobalSettings.Info">Indstillinger gemt i %AppData%/N-Studio-mappen</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.LocalSettings">Lokale indstillinger</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.LocalSettings.Info">Indstillinger gemt i en fil i samme mappe som appens eksekverbare fil</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.LocalSettings.Create">Opret lokale indstillinger</s:String>
@@ -2002,6 +2008,8 @@
     <s:String x:Key="S.Settings.Plugin.Ffmpeg.File">FFmpeg-eksekverbar fil</s:String>
     <s:String x:Key="S.Settings.Plugin.Gifski.Select">Vælg placeringen af Gifski-biblioteket</s:String>
     <s:String x:Key="S.Settings.Plugin.Gifski.File">Gifski-bibliotek</s:String>
+    <s:String x:Key="S.Settings.Plugin.Clear.Info">Ryd stien uden at fjerne filen fra disken</s:String>
+    <s:String x:Key="S.Settings.Plugin.Remove.Info">Ryd stien og fjern filen fra disken</s:String>
     <s:String x:Key="S.Settings.Plugin.PackedDownload">Pakke-download</s:String>
     <s:String x:Key="S.Settings.Plugin.StoreLimitations">Store-begrænsninger</s:String>
     <s:String x:Key="S.Settings.Plugin.StoreLimitations.Info">På grund af Microsoft Store-politikker skal du manuelt downloade plugins</s:String>

@@ -1147,6 +1147,7 @@
     <s:String x:Key="S.Feedback.Extra.Settings.Info">La configuración de la aplicación</s:String>
     <s:String x:Key="S.Feedback.Extra.PreviousErrors">Registros de errores</s:String>
     <s:String x:Key="S.Feedback.Extra.PreviousErrors.Info">Registros de errores de fallos anteriores</s:String>
+    <s:String x:Key="S.Feedback.Extra.FFmpeg.Info">Detalles sobre el binario actual de FFmpeg</s:String>
     <s:String x:Key="S.Feedback.Attachments">Adjuntos (máx. 100 MiB, 25 MiB cada uno)</s:String>
     <s:String x:Key="S.Feedback.Attachments.Add">Añadir adjunto</s:String>
     <s:String x:Key="S.Feedback.Attachments.Select">Seleccionar archivos para añadir como adjuntos</s:String>
@@ -1163,6 +1164,7 @@
     <s:String x:Key="S.FeedbackPreview.System.MachineName">Nombre del equipo</s:String>
     <s:String x:Key="S.FeedbackPreview.Application">Aplicación</s:String>
     <s:String x:Key="S.FeedbackPreview.Application.Version">Versión</s:String>
+    <s:String x:Key="S.FeedbackPreview.Application.Source">Origen</s:String>
     <s:String x:Key="S.FeedbackPreview.Application.Variant">Variante</s:String>
     <s:String x:Key="S.FeedbackPreview.Application.Startup">Iniciada en</s:String>
     <s:String x:Key="S.FeedbackPreview.Application.Date">Fecha</s:String>
@@ -1198,6 +1200,10 @@
     <s:String x:Key="S.FeedbackPreview.Disks.Format">Formato</s:String>
     <s:String x:Key="S.FeedbackPreview.Disks.Type">Tipo</s:String>
     <s:String x:Key="S.FeedbackPreview.Disks.Ready">¿Listo?</s:String>
+    <s:String x:Key="S.FeedbackPreview.FFmpeg.Header">Encabezado</s:String>
+    <s:String x:Key="S.FeedbackPreview.FFmpeg.Version">Versión</s:String>
+    <s:String x:Key="S.FeedbackPreview.FFmpeg.Older">(anterior)</s:String>
+    <s:String x:Key="S.FeedbackPreview.FFmpeg.Location">Ubicación</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.When">Cuándo</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.Category">Categoría</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.Location">Ubicación</s:String>
@@ -1977,7 +1983,7 @@
     <s:String x:Key="S.Settings.Storage.AppSettings.Global">Globales</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.Local">Locales</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.GlobalSettings">Ajustes globales</s:String>
-    <s:String x:Key="S.Settings.Storage.AppSettings.GlobalSettings.Info">Ajustes almacenados en la carpeta %AppData%/NStudio</s:String>
+    <s:String x:Key="S.Settings.Storage.AppSettings.GlobalSettings.Info">Ajustes almacenados en la carpeta %AppData%/N-Studio</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.LocalSettings">Ajustes locales</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.LocalSettings.Info">Ajustes almacenados en un archivo en la misma carpeta que el ejecutable</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.LocalSettings.Create">Crear ajustes locales</s:String>
@@ -2002,6 +2008,8 @@
     <s:String x:Key="S.Settings.Plugin.Ffmpeg.File">Ejecutable de FFmpeg</s:String>
     <s:String x:Key="S.Settings.Plugin.Gifski.Select">Selecciona la ubicación de la biblioteca Gifski</s:String>
     <s:String x:Key="S.Settings.Plugin.Gifski.File">Biblioteca Gifski</s:String>
+    <s:String x:Key="S.Settings.Plugin.Clear.Info">Borrar la ruta sin eliminar el archivo del disco</s:String>
+    <s:String x:Key="S.Settings.Plugin.Remove.Info">Borrar la ruta y eliminar el archivo del disco</s:String>
     <s:String x:Key="S.Settings.Plugin.PackedDownload">Descarga empaquetada</s:String>
     <s:String x:Key="S.Settings.Plugin.StoreLimitations">Limitaciones de la tienda</s:String>
     <s:String x:Key="S.Settings.Plugin.StoreLimitations.Info">Debido a las políticas de Microsoft Store, tendrás que descargar los plugins manualmente</s:String>

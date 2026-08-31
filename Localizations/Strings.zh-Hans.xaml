@@ -1147,6 +1147,7 @@
     <s:String x:Key="S.Feedback.Extra.Settings.Info">应用程序的配置</s:String>
     <s:String x:Key="S.Feedback.Extra.PreviousErrors">错误日志</s:String>
     <s:String x:Key="S.Feedback.Extra.PreviousErrors.Info">以前崩溃的错误日志</s:String>
+    <s:String x:Key="S.Feedback.Extra.FFmpeg.Info">关于当前 FFmpeg 二进制文件的详细信息</s:String>
     <s:String x:Key="S.Feedback.Attachments">附件（最多 100 MiB，每个 25 MiB）</s:String>
     <s:String x:Key="S.Feedback.Attachments.Add">添加附件</s:String>
     <s:String x:Key="S.Feedback.Attachments.Select">选择要添加为附件的文件</s:String>
@@ -1163,6 +1164,7 @@
     <s:String x:Key="S.FeedbackPreview.System.MachineName">计算机名称</s:String>
     <s:String x:Key="S.FeedbackPreview.Application">应用程序</s:String>
     <s:String x:Key="S.FeedbackPreview.Application.Version">版本</s:String>
+    <s:String x:Key="S.FeedbackPreview.Application.Source">来源</s:String>
     <s:String x:Key="S.FeedbackPreview.Application.Variant">变体</s:String>
     <s:String x:Key="S.FeedbackPreview.Application.Startup">启动于</s:String>
     <s:String x:Key="S.FeedbackPreview.Application.Date">日期</s:String>
@@ -1198,6 +1200,10 @@
     <s:String x:Key="S.FeedbackPreview.Disks.Format">格式</s:String>
     <s:String x:Key="S.FeedbackPreview.Disks.Type">类型</s:String>
     <s:String x:Key="S.FeedbackPreview.Disks.Ready">准备就绪?</s:String>
+    <s:String x:Key="S.FeedbackPreview.FFmpeg.Header">标头</s:String>
+    <s:String x:Key="S.FeedbackPreview.FFmpeg.Version">版本</s:String>
+    <s:String x:Key="S.FeedbackPreview.FFmpeg.Older">（较旧）</s:String>
+    <s:String x:Key="S.FeedbackPreview.FFmpeg.Location">位置</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.When">时间</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.Category">类别</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.Location">位置</s:String>
@@ -1977,7 +1983,7 @@
     <s:String x:Key="S.Settings.Storage.AppSettings.Global">全局</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.Local">本地</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.GlobalSettings">全局设置</s:String>
-    <s:String x:Key="S.Settings.Storage.AppSettings.GlobalSettings.Info">存储在 %AppData%/NStudio 文件夹中的设置</s:String>
+    <s:String x:Key="S.Settings.Storage.AppSettings.GlobalSettings.Info">存储在 %AppData%/N-Studio 文件夹中的设置</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.LocalSettings">本地设置</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.LocalSettings.Info">存储在与应用程序可执行文件相同文件夹中的设置</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.LocalSettings.Create">创建本地设置</s:String>
@@ -2002,6 +2008,8 @@
     <s:String x:Key="S.Settings.Plugin.Ffmpeg.File">FFmpeg 可执行文件</s:String>
     <s:String x:Key="S.Settings.Plugin.Gifski.Select">选择 Gifski 库的位置</s:String>
     <s:String x:Key="S.Settings.Plugin.Gifski.File">Gifski 库</s:String>
+    <s:String x:Key="S.Settings.Plugin.Clear.Info">清除路径但不从磁盘中移除文件</s:String>
+    <s:String x:Key="S.Settings.Plugin.Remove.Info">清除路径并从磁盘中移除文件</s:String>
     <s:String x:Key="S.Settings.Plugin.PackedDownload">打包下载</s:String>
     <s:String x:Key="S.Settings.Plugin.StoreLimitations">Microsoft Store 限制</s:String>
     <s:String x:Key="S.Settings.Plugin.StoreLimitations.Info">由于 Microsoft Store 政策的限制，您需要手动下载插件</s:String>

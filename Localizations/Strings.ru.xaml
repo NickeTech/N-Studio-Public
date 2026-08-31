@@ -1147,6 +1147,7 @@
     <s:String x:Key="S.Feedback.Extra.Settings.Info">Конфигурация приложения</s:String>
     <s:String x:Key="S.Feedback.Extra.PreviousErrors">Журналы ошибок</s:String>
     <s:String x:Key="S.Feedback.Extra.PreviousErrors.Info">Журналы ошибок предыдущих сбоев</s:String>
+    <s:String x:Key="S.Feedback.Extra.FFmpeg.Info">Сведения о текущем двоичном файле FFmpeg</s:String>
     <s:String x:Key="S.Feedback.Attachments">Вложения (макс 100 МиБ, 25 МиБ каждое)</s:String>
     <s:String x:Key="S.Feedback.Attachments.Add">Добавить вложение</s:String>
     <s:String x:Key="S.Feedback.Attachments.Select">Выберите файлы для добавления в качестве вложений</s:String>
@@ -1163,6 +1164,7 @@
     <s:String x:Key="S.FeedbackPreview.System.MachineName">Имя машины</s:String>
     <s:String x:Key="S.FeedbackPreview.Application">Приложение</s:String>
     <s:String x:Key="S.FeedbackPreview.Application.Version">Версия</s:String>
+    <s:String x:Key="S.FeedbackPreview.Application.Source">Источник</s:String>
     <s:String x:Key="S.FeedbackPreview.Application.Variant">Вариант</s:String>
     <s:String x:Key="S.FeedbackPreview.Application.Startup">Запущено в</s:String>
     <s:String x:Key="S.FeedbackPreview.Application.Date">Дата</s:String>
@@ -1198,6 +1200,10 @@
     <s:String x:Key="S.FeedbackPreview.Disks.Format">Формат</s:String>
     <s:String x:Key="S.FeedbackPreview.Disks.Type">Тип</s:String>
     <s:String x:Key="S.FeedbackPreview.Disks.Ready">Готово?</s:String>
+    <s:String x:Key="S.FeedbackPreview.FFmpeg.Header">Заголовок</s:String>
+    <s:String x:Key="S.FeedbackPreview.FFmpeg.Version">Версия</s:String>
+    <s:String x:Key="S.FeedbackPreview.FFmpeg.Older">(старее)</s:String>
+    <s:String x:Key="S.FeedbackPreview.FFmpeg.Location">Расположение</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.When">Когда</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.Category">Категория</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.Location">Местоположение</s:String>
@@ -1977,7 +1983,7 @@
     <s:String x:Key="S.Settings.Storage.AppSettings.Global">Глобальные</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.Local">Локальные</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.GlobalSettings">Глобальные настройки</s:String>
-    <s:String x:Key="S.Settings.Storage.AppSettings.GlobalSettings.Info">Настройки хранятся в папке %AppData%/NStudio</s:String>
+    <s:String x:Key="S.Settings.Storage.AppSettings.GlobalSettings.Info">Настройки хранятся в папке %AppData%/N-Studio</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.LocalSettings">Локальные настройки</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.LocalSettings.Info">Настройки хранятся в файле в той же папке, что и исполняемый файл приложения</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.LocalSettings.Create">Создать локальные настройки</s:String>
@@ -2002,6 +2008,8 @@
     <s:String x:Key="S.Settings.Plugin.Ffmpeg.File">Исполняемый файл FFmpeg</s:String>
     <s:String x:Key="S.Settings.Plugin.Gifski.Select">Выберите расположение библиотеки Gifski</s:String>
     <s:String x:Key="S.Settings.Plugin.Gifski.File">Библиотека Gifski</s:String>
+    <s:String x:Key="S.Settings.Plugin.Clear.Info">Очистить путь, не удаляя файл с диска</s:String>
+    <s:String x:Key="S.Settings.Plugin.Remove.Info">Очистить путь и удалить файл с диска</s:String>
     <s:String x:Key="S.Settings.Plugin.PackedDownload">Упакованная загрузка</s:String>
     <s:String x:Key="S.Settings.Plugin.StoreLimitations">Ограничения магазина</s:String>
     <s:String x:Key="S.Settings.Plugin.StoreLimitations.Info">Из-за политик Microsoft Store вам придётся загружать плагины вручную</s:String>

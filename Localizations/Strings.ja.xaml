@@ -1147,6 +1147,7 @@
     <s:String x:Key="S.Feedback.Extra.Settings.Info">アプリの構成</s:String>
     <s:String x:Key="S.Feedback.Extra.PreviousErrors">エラーログ</s:String>
     <s:String x:Key="S.Feedback.Extra.PreviousErrors.Info">以前のクラッシュのエラーログ</s:String>
+    <s:String x:Key="S.Feedback.Extra.FFmpeg.Info">現在のFFmpegバイナリの詳細</s:String>
     <s:String x:Key="S.Feedback.Attachments">添付ファイル（最大100 MiB、25 MiBごと）</s:String>
     <s:String x:Key="S.Feedback.Attachments.Add">添付ファイルを追加</s:String>
     <s:String x:Key="S.Feedback.Attachments.Select">添付するファイルを選択</s:String>
@@ -1163,6 +1164,7 @@
     <s:String x:Key="S.FeedbackPreview.System.MachineName">コンピューター名</s:String>
     <s:String x:Key="S.FeedbackPreview.Application">アプリケーション</s:String>
     <s:String x:Key="S.FeedbackPreview.Application.Version">バージョン</s:String>
+    <s:String x:Key="S.FeedbackPreview.Application.Source">ソース</s:String>
     <s:String x:Key="S.FeedbackPreview.Application.Variant">バリアント</s:String>
     <s:String x:Key="S.FeedbackPreview.Application.Startup">起動時間</s:String>
     <s:String x:Key="S.FeedbackPreview.Application.Date">日付</s:String>
@@ -1198,6 +1200,10 @@
     <s:String x:Key="S.FeedbackPreview.Disks.Format">形式</s:String>
     <s:String x:Key="S.FeedbackPreview.Disks.Type">種類</s:String>
     <s:String x:Key="S.FeedbackPreview.Disks.Ready">準備完了？</s:String>
+    <s:String x:Key="S.FeedbackPreview.FFmpeg.Header">ヘッダー</s:String>
+    <s:String x:Key="S.FeedbackPreview.FFmpeg.Version">バージョン</s:String>
+    <s:String x:Key="S.FeedbackPreview.FFmpeg.Older">（旧）</s:String>
+    <s:String x:Key="S.FeedbackPreview.FFmpeg.Location">場所</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.When">いつ</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.Category">カテゴリ</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.Location">場所</s:String>
@@ -1977,7 +1983,7 @@
     <s:String x:Key="S.Settings.Storage.AppSettings.Global">グローバル</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.Local">ローカル</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.GlobalSettings">グローバル設定</s:String>
-    <s:String x:Key="S.Settings.Storage.AppSettings.GlobalSettings.Info">%AppData%/NStudioフォルダーに保存された設定</s:String>
+    <s:String x:Key="S.Settings.Storage.AppSettings.GlobalSettings.Info">%AppData%/N-Studioフォルダーに保存された設定</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.LocalSettings">ローカル設定</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.LocalSettings.Info">アプリ実行可能ファイルと同じフォルダーに保存された設定</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.LocalSettings.Create">ローカル設定を作成</s:String>
@@ -2002,6 +2008,8 @@
     <s:String x:Key="S.Settings.Plugin.Ffmpeg.File">FFmpeg実行ファイル</s:String>
     <s:String x:Key="S.Settings.Plugin.Gifski.Select">Gifskiライブラリの場所を選択</s:String>
     <s:String x:Key="S.Settings.Plugin.Gifski.File">Gifskiライブラリ</s:String>
+    <s:String x:Key="S.Settings.Plugin.Clear.Info">ディスクからファイルを削除せずにパスをクリアします</s:String>
+    <s:String x:Key="S.Settings.Plugin.Remove.Info">パスをクリアしてディスクからファイルを削除します</s:String>
     <s:String x:Key="S.Settings.Plugin.PackedDownload">パックされたダウンロード</s:String>
     <s:String x:Key="S.Settings.Plugin.StoreLimitations">ストアの制限</s:String>
     <s:String x:Key="S.Settings.Plugin.StoreLimitations.Info">Microsoft Storeのポリシーにより、プラグインを手動でダウンロードする必要があります</s:String>

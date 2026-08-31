@@ -1147,6 +1147,7 @@
     <s:String x:Key="S.Feedback.Extra.Settings.Info">De configuratie van de app</s:String>
     <s:String x:Key="S.Feedback.Extra.PreviousErrors">Foutlogboeken</s:String>
     <s:String x:Key="S.Feedback.Extra.PreviousErrors.Info">Foutlogboeken van eerdere crashes</s:String>
+    <s:String x:Key="S.Feedback.Extra.FFmpeg.Info">Details over de huidige FFmpeg-binary</s:String>
     <s:String x:Key="S.Feedback.Attachments">Bijlagen (max 100 MiB, 25 MiB per stuk)</s:String>
     <s:String x:Key="S.Feedback.Attachments.Add">Bijlage toevoegen</s:String>
     <s:String x:Key="S.Feedback.Attachments.Select">Selecteer bestanden om als bijlagen toe te voegen</s:String>
@@ -1163,6 +1164,7 @@
     <s:String x:Key="S.FeedbackPreview.System.MachineName">Computernaam</s:String>
     <s:String x:Key="S.FeedbackPreview.Application">Applicatie</s:String>
     <s:String x:Key="S.FeedbackPreview.Application.Version">Versie</s:String>
+    <s:String x:Key="S.FeedbackPreview.Application.Source">Bron</s:String>
     <!--<s:String x:Key="S.FeedbackPreview.Application.Variant">Variant</s:String>-->
     <s:String x:Key="S.FeedbackPreview.Application.Startup">Gestart in</s:String>
     <s:String x:Key="S.FeedbackPreview.Application.Date">Datum</s:String>
@@ -1198,6 +1200,10 @@
     <s:String x:Key="S.FeedbackPreview.Disks.Format">Formaat</s:String>
     <!--<s:String x:Key="S.FeedbackPreview.Disks.Type">Type</s:String>-->
     <s:String x:Key="S.FeedbackPreview.Disks.Ready">Klaar?</s:String>
+    <!--<s:String x:Key="S.FeedbackPreview.FFmpeg.Header">Header</s:String>-->
+    <s:String x:Key="S.FeedbackPreview.FFmpeg.Version">Versie</s:String>
+    <s:String x:Key="S.FeedbackPreview.FFmpeg.Older">(ouder)</s:String>
+    <s:String x:Key="S.FeedbackPreview.FFmpeg.Location">Locatie</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.When">Wanneer</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.Category">Categorie</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.Location">Locatie</s:String>
@@ -1977,7 +1983,7 @@
     <s:String x:Key="S.Settings.Storage.AppSettings.Global">Globaal</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.Local">Lokaal</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.GlobalSettings">Globale instellingen</s:String>
-    <s:String x:Key="S.Settings.Storage.AppSettings.GlobalSettings.Info">Instellingen opgeslagen in %AppData%/NStudio map</s:String>
+    <s:String x:Key="S.Settings.Storage.AppSettings.GlobalSettings.Info">Instellingen opgeslagen in %AppData%/N-Studio map</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.LocalSettings">Lokale instellingen</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.LocalSettings.Info">Instellingen opgeslagen in een bestand in dezelfde map als de app-executable</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.LocalSettings.Create">Maak lokale instellingen</s:String>
@@ -2002,6 +2008,8 @@
     <s:String x:Key="S.Settings.Plugin.Ffmpeg.File">FFmpeg-executable</s:String>
     <s:String x:Key="S.Settings.Plugin.Gifski.Select">Selecteer de locatie van de Gifski-bibliotheek</s:String>
     <s:String x:Key="S.Settings.Plugin.Gifski.File">Gifski-bibliotheek</s:String>
+    <s:String x:Key="S.Settings.Plugin.Clear.Info">Wis het pad zonder het bestand van de schijf te verwijderen</s:String>
+    <s:String x:Key="S.Settings.Plugin.Remove.Info">Wis het pad en verwijder het bestand van de schijf</s:String>
     <s:String x:Key="S.Settings.Plugin.PackedDownload">Gedownloade bundle</s:String>
     <s:String x:Key="S.Settings.Plugin.StoreLimitations">Storebeperkingen</s:String>
     <s:String x:Key="S.Settings.Plugin.StoreLimitations.Info">Vanwege het beleid van de Microsoft Store moet je de plug-ins handmatig downloaden</s:String>

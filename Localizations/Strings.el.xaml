@@ -1147,6 +1147,7 @@
     <s:String x:Key="S.Feedback.Extra.Settings.Info">Η διαμόρφωση της εφαρμογής</s:String>
     <s:String x:Key="S.Feedback.Extra.PreviousErrors">Αρχεία καταγραφής σφαλμάτων</s:String>
     <s:String x:Key="S.Feedback.Extra.PreviousErrors.Info">Αρχεία καταγραφής σφαλμάτων από προηγούμενες καταρρεύσεις</s:String>
+    <s:String x:Key="S.Feedback.Extra.FFmpeg.Info">Λεπτομέρειες σχετικά με το τρέχον δυαδικό αρχείο FFmpeg</s:String>
     <s:String x:Key="S.Feedback.Attachments">Συνημμένα (μέχρι 100 MiB, 25 MiB το καθένα)</s:String>
     <s:String x:Key="S.Feedback.Attachments.Add">Προσθήκη συνημμένου</s:String>
     <s:String x:Key="S.Feedback.Attachments.Select">Επιλέξτε αρχεία για προσθήκη ως συνημμένα</s:String>
@@ -1163,6 +1164,7 @@
     <s:String x:Key="S.FeedbackPreview.System.MachineName">Όνομα μηχανής</s:String>
     <s:String x:Key="S.FeedbackPreview.Application">Εφαρμογή</s:String>
     <s:String x:Key="S.FeedbackPreview.Application.Version">Έκδοση</s:String>
+    <s:String x:Key="S.FeedbackPreview.Application.Source">Πηγή</s:String>
     <s:String x:Key="S.FeedbackPreview.Application.Variant">Έκδοση</s:String>
     <s:String x:Key="S.FeedbackPreview.Application.Startup">Ξεκίνησε σε</s:String>
     <s:String x:Key="S.FeedbackPreview.Application.Date">Ημερομηνία</s:String>
@@ -1198,6 +1200,10 @@
     <s:String x:Key="S.FeedbackPreview.Disks.Format">Μορφή</s:String>
     <s:String x:Key="S.FeedbackPreview.Disks.Type">Τύπος</s:String>
     <s:String x:Key="S.FeedbackPreview.Disks.Ready">Έτοιμο;</s:String>
+    <s:String x:Key="S.FeedbackPreview.FFmpeg.Header">Κεφαλίδα</s:String>
+    <s:String x:Key="S.FeedbackPreview.FFmpeg.Version">Έκδοση</s:String>
+    <s:String x:Key="S.FeedbackPreview.FFmpeg.Older">(παλαιότερη)</s:String>
+    <s:String x:Key="S.FeedbackPreview.FFmpeg.Location">Τοποθεσία</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.When">Πότε</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.Category">Κατηγορία</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.Location">Τοποθεσία</s:String>
@@ -1977,7 +1983,7 @@
     <s:String x:Key="S.Settings.Storage.AppSettings.Global">Παγκόσμιες</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.Local">Τοπικές</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.GlobalSettings">Παγκόσμιες ρυθμίσεις</s:String>
-    <s:String x:Key="S.Settings.Storage.AppSettings.GlobalSettings.Info">Οι ρυθμίσεις αποθηκεύονται στο φάκελο %AppData%/NStudio</s:String>
+    <s:String x:Key="S.Settings.Storage.AppSettings.GlobalSettings.Info">Οι ρυθμίσεις αποθηκεύονται στο φάκελο %AppData%/N-Studio</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.LocalSettings">Τοπικές ρυθμίσεις</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.LocalSettings.Info">Οι ρυθμίσεις αποθηκεύονται σε αρχείο στον ίδιο φάκελο με το εκτελέσιμο της εφαρμογής</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.LocalSettings.Create">Δημιουργία τοπικών ρυθμίσεων</s:String>
@@ -2002,6 +2008,8 @@
     <s:String x:Key="S.Settings.Plugin.Ffmpeg.File">Εκτελέσιμο FFmpeg</s:String>
     <s:String x:Key="S.Settings.Plugin.Gifski.Select">Επιλέξτε τη θέση της βιβλιοθήκης Gifski</s:String>
     <s:String x:Key="S.Settings.Plugin.Gifski.File">Βιβλιοθήκη Gifski</s:String>
+    <s:String x:Key="S.Settings.Plugin.Clear.Info">Εκκαθαρίστε τη διαδρομή χωρίς να αφαιρέσετε το αρχείο από τον δίσκο</s:String>
+    <s:String x:Key="S.Settings.Plugin.Remove.Info">Εκκαθαρίστε τη διαδρομή και αφαιρέστε το αρχείο από τον δίσκο</s:String>
     <s:String x:Key="S.Settings.Plugin.PackedDownload">Συμπιεσμένη λήψη</s:String>
     <s:String x:Key="S.Settings.Plugin.StoreLimitations">Περιορισμοί καταστήματος</s:String>
     <s:String x:Key="S.Settings.Plugin.StoreLimitations.Info">Λόγω πολιτικών του Microsoft Store, θα πρέπει να κατεβάσετε χειροκίνητα τα πρόσθετα</s:String>

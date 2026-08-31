@@ -1147,6 +1147,7 @@
     <!--<s:String x:Key="S.Feedback.Extra.Settings.Info">The configuration of the app</s:String>-->
     <!--<s:String x:Key="S.Feedback.Extra.PreviousErrors">Error logs</s:String>-->
     <!--<s:String x:Key="S.Feedback.Extra.PreviousErrors.Info">Error logs from previous crashes</s:String>-->
+    <!--<s:String x:Key="S.Feedback.Extra.FFmpeg.Info">Details about the current FFmpeg binary</s:String>-->
     <!--<s:String x:Key="S.Feedback.Attachments">Attachments (max 100 MiB, 25 MiB each)</s:String>-->
     <!--<s:String x:Key="S.Feedback.Attachments.Add">Add attachment</s:String>-->
     <!--<s:String x:Key="S.Feedback.Attachments.Select">Select files to add as attachments</s:String>-->
@@ -1163,6 +1164,7 @@
     <!--<s:String x:Key="S.FeedbackPreview.System.MachineName">Machine name</s:String>-->
     <!--<s:String x:Key="S.FeedbackPreview.Application">Application</s:String>-->
     <!--<s:String x:Key="S.FeedbackPreview.Application.Version">Version</s:String>-->
+    <!--<s:String x:Key="S.FeedbackPreview.Application.Source">Source</s:String>-->
     <!--<s:String x:Key="S.FeedbackPreview.Application.Variant">Variant</s:String>-->
     <!--<s:String x:Key="S.FeedbackPreview.Application.Startup">Started in</s:String>-->
     <!--<s:String x:Key="S.FeedbackPreview.Application.Date">Date</s:String>-->
@@ -1198,6 +1200,10 @@
     <!--<s:String x:Key="S.FeedbackPreview.Disks.Format">Format</s:String>-->
     <!--<s:String x:Key="S.FeedbackPreview.Disks.Type">Type</s:String>-->
     <!--<s:String x:Key="S.FeedbackPreview.Disks.Ready">Ready?</s:String>-->
+    <!--<s:String x:Key="S.FeedbackPreview.FFmpeg.Header">Header</s:String>-->
+    <!--<s:String x:Key="S.FeedbackPreview.FFmpeg.Version">Version</s:String>-->
+    <!--<s:String x:Key="S.FeedbackPreview.FFmpeg.Older">(older)</s:String>-->
+    <!--<s:String x:Key="S.FeedbackPreview.FFmpeg.Location">Location</s:String>-->
     <!--<s:String x:Key="S.FeedbackPreview.Telemetry.When">When</s:String>-->
     <!--<s:String x:Key="S.FeedbackPreview.Telemetry.Category">Category</s:String>-->
     <!-- <s:String x:Key="S.FeedbackPreview.Telemetry.Location">Location</s:String> -->
@@ -1977,7 +1983,7 @@
     <!--<s:String x:Key="S.Settings.Storage.AppSettings.Global">Global</s:String>-->
     <!--<s:String x:Key="S.Settings.Storage.AppSettings.Local">Local</s:String>-->
     <!--<s:String x:Key="S.Settings.Storage.AppSettings.GlobalSettings">Global settings</s:String>-->
-    <!--<s:String x:Key="S.Settings.Storage.AppSettings.GlobalSettings.Info">Settings stored in %AppData%/NStudio folder</s:String>-->
+    <!--<s:String x:Key="S.Settings.Storage.AppSettings.GlobalSettings.Info">Settings stored in %AppData%/N-Studio folder</s:String>-->
     <!--<s:String x:Key="S.Settings.Storage.AppSettings.LocalSettings">Local settings</s:String>-->
     <!--<s:String x:Key="S.Settings.Storage.AppSettings.LocalSettings.Info">Settings stored in a file in the same folder as the app executable</s:String>-->
     <!--<s:String x:Key="S.Settings.Storage.AppSettings.LocalSettings.Create">Create local settings</s:String>-->
@@ -2002,6 +2008,8 @@
     <!--<s:String x:Key="S.Settings.Plugin.Ffmpeg.File">FFmpeg executable</s:String>-->
     <!--<s:String x:Key="S.Settings.Plugin.Gifski.Select">Select the location of the Gifski library</s:String>-->
     <!--<s:String x:Key="S.Settings.Plugin.Gifski.File">Gifski library</s:String>-->
+    <!--<s:String x:Key="S.Settings.Plugin.Clear.Info">Clear the path without removing the file from disk</s:String>-->
+    <!--<s:String x:Key="S.Settings.Plugin.Remove.Info">Clear the path and removes the file from disk</s:String>-->
     <!--<s:String x:Key="S.Settings.Plugin.PackedDownload">Packed download</s:String>-->
     <!--<s:String x:Key="S.Settings.Plugin.StoreLimitations">Store Limitations</s:String>-->
     <!--<s:String x:Key="S.Settings.Plugin.StoreLimitations.Info">Due to Microsoft Store policies, you'll have to download manually the plugins</s:String>-->

@@ -1147,6 +1147,7 @@
     <s:String x:Key="S.Feedback.Extra.Settings.Info">Applikationens konfiguration</s:String>
     <s:String x:Key="S.Feedback.Extra.PreviousErrors">Felloggar</s:String>
     <s:String x:Key="S.Feedback.Extra.PreviousErrors.Info">Felloggar från tidigare krascher</s:String>
+    <s:String x:Key="S.Feedback.Extra.FFmpeg.Info">Information om den aktuella FFmpeg-binären</s:String>
     <s:String x:Key="S.Feedback.Attachments">Bilagor (max 100 MiB, 25 MiB vardera)</s:String>
     <s:String x:Key="S.Feedback.Attachments.Add">Lägg till bilaga</s:String>
     <s:String x:Key="S.Feedback.Attachments.Select">Välj filer att lägga till som bilagor</s:String>
@@ -1163,6 +1164,7 @@
     <s:String x:Key="S.FeedbackPreview.System.MachineName">Datornamn</s:String>
     <s:String x:Key="S.FeedbackPreview.Application">Applikation</s:String>
     <!--<s:String x:Key="S.FeedbackPreview.Application.Version">Version</s:String>-->
+    <s:String x:Key="S.FeedbackPreview.Application.Source">Källa</s:String>
     <!--<s:String x:Key="S.FeedbackPreview.Application.Variant">Variant</s:String>-->
     <s:String x:Key="S.FeedbackPreview.Application.Startup">Startade</s:String>
     <s:String x:Key="S.FeedbackPreview.Application.Date">Datum</s:String>
@@ -1198,6 +1200,10 @@
     <!--<s:String x:Key="S.FeedbackPreview.Disks.Format">Format</s:String>-->
     <s:String x:Key="S.FeedbackPreview.Disks.Type">Typ</s:String>
     <s:String x:Key="S.FeedbackPreview.Disks.Ready">Klar?</s:String>
+    <!--<s:String x:Key="S.FeedbackPreview.FFmpeg.Header">Header</s:String>-->
+    <!--<s:String x:Key="S.FeedbackPreview.FFmpeg.Version">Version</s:String>-->
+    <s:String x:Key="S.FeedbackPreview.FFmpeg.Older">(äldre)</s:String>
+    <s:String x:Key="S.FeedbackPreview.FFmpeg.Location">Plats</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.When">När</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.Category">Kategori</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.Location">Plats</s:String>
@@ -1977,7 +1983,7 @@
     <s:String x:Key="S.Settings.Storage.AppSettings.Global">Globalt</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.Local">Lokalt</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.GlobalSettings">Globala inställningar</s:String>
-    <s:String x:Key="S.Settings.Storage.AppSettings.GlobalSettings.Info">Inställningar lagras i %AppData%/NStudio-mappen</s:String>
+    <s:String x:Key="S.Settings.Storage.AppSettings.GlobalSettings.Info">Inställningar lagras i %AppData%/N-Studio-mappen</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.LocalSettings">Lokala inställningar</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.LocalSettings.Info">Inställningar lagras i en fil i samma mapp som appens körbara fil</s:String>
     <s:String x:Key="S.Settings.Storage.AppSettings.LocalSettings.Create">Skapa lokala inställningar</s:String>
@@ -2002,6 +2008,8 @@
     <s:String x:Key="S.Settings.Plugin.Ffmpeg.File">FFmpeg-exekverbara fil</s:String>
     <s:String x:Key="S.Settings.Plugin.Gifski.Select">Välj platsen för Gifski-biblioteket</s:String>
     <s:String x:Key="S.Settings.Plugin.Gifski.File">Gifski-bibliotek</s:String>
+    <s:String x:Key="S.Settings.Plugin.Clear.Info">Rensa sökvägen utan att ta bort filen från disken</s:String>
+    <s:String x:Key="S.Settings.Plugin.Remove.Info">Rensa sökvägen och ta bort filen från disken</s:String>
     <s:String x:Key="S.Settings.Plugin.PackedDownload">Packad nedladdning</s:String>
     <s:String x:Key="S.Settings.Plugin.StoreLimitations">Butikbegränsningar</s:String>
     <s:String x:Key="S.Settings.Plugin.StoreLimitations.Info">På grund av Microsoft Store-policyer måste du ladda ner plugins manuellt</s:String>
