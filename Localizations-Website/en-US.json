@@ -492,11 +492,13 @@
         "how-to-record": "How To Record",
         "how-to-edit": "How To Edit",
         "how-to-export": "How To Export",
-        "how-to-import": "How To Import"
+        "how-to-import": "How To Import",
+        "common-issues-capture-card": "Capture Card"
       },
       "groups": {
         "tools": "Tools",
-        "how-to": "How To"
+        "how-to": "How To",
+        "common-issues": "Common Issues"
       }
     }
   },
