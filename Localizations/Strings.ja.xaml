@@ -71,6 +71,9 @@
     <s:String x:Key="S.Imperative.Resize">リサイズ</s:String>
     <s:String x:Key="S.Imperative.Search">検索</s:String>
     <s:String x:Key="S.Imperative.ChangeDrive">ドライブを変更</s:String>
+    <s:String x:Key="S.Imperative.Test">テストする</s:String>
+    <s:String x:Key="S.Imperative.Repair">修復する</s:String>
+    <s:String x:Key="S.Imperative.RunAll">すべて実行する</s:String>
 
     <!--Time • Referential-->
     <s:String x:Key="S.Time.Ago.Seconds">数秒前</s:String>
@@ -141,6 +144,65 @@
     <s:String x:Key="S.Dialog.FirstTime.AfterRecording">録画後に表示...</s:String>
     <s:String x:Key="S.Dialog.FirstTime.CacheLocation">録画とプロジェクトを次に保存...</s:String>
     <s:String x:Key="S.Dialog.FirstTime.CacheLocation.Low">空き容量が少ない</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.DownloadPlugins">一般的なプラグインをダウンロード (~100 MiB)</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.DownloadPlugins.Info">動画書き出しに使用される FFmpeg をダウンロードします</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.RunTests">問題を発見するための簡易テストを実行</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.RunTests.Info">ディスクアクセス、画面録画、音声録音のテストを実行します</s:String>
+
+    <!--Dialogs • Troubleshooter-->
+    <s:String x:Key="S.Dialog.Troubleshooter.Header">トラブルシューティング</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Subtitle">アプリの基本機能が動作しているか確認し、必要に応じて復旧を試みます。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Header2">セットアップ後</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Subtitle2">すべてが正常に動作しているか確認するための基本的な準備とテストです。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.FolderAccess.Title">フォルダーアクセス</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.FolderAccess.Description">アプリがキャッシュフォルダーにアクセスできるか確認します</s:String>
+    <!--<s:String x:Key="S.Dialog.Troubleshooter.Test.FFmpeg.Title">FFmpeg</s:String>-->
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.FFmpeg.Description">動画・アニメーションの書き出しに使用されます</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.Screen.Title">画面録画</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.Screen.Description">画面キャプチャ機能が正常に動作しているか確認します</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.Audio.Title">音声録音</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.Audio.Description">音声キャプチャ機能が正常に動作しているか確認します</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Result.Passed">成功</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Result.Failed">失敗 – {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Result.FailedShort">失敗</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.CacheReadMismatch">キャッシュから読み取った内容が書き込まれた内容と一致しません。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.AppDataReadMismatch">AppData から読み取った内容が書き込まれた内容と一致しません。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.CachePathMissing">キャッシュパスが設定されていないか、空です。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegNotFound">FFmpeg が見つかりません。アプリフォルダー、プラグインフォルダー、ProgramData、システム PATH を確認しました。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegLocationInvalid">FFmpeg の場所が空、またはファイルが存在しません。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionEmptyOutput">FFmpeg が空の出力を返しました。実行ファイルが破損しているか、互換性がない可能性があります。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionCommandFailed">FFmpeg -version コマンドが失敗しました。出力: {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionUnknown">出力から FFmpeg のバージョンを判別できませんでした。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionOld">FFmpeg バージョン {0} は 6.0 より古いです。新しいバージョンに更新してください。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingFailed">FFmpeg のエンコードに失敗しました。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingOutputMissing">FFmpeg のエンコードに失敗しました。出力ファイルが作成されませんでした。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingOutputEmpty">FFmpeg のエンコードに失敗しました。出力ファイルが空です。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegDownloadFailed">GitHub と API の両方からの FFmpeg ダウンロードに失敗しました。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegAssetMissing">最新の GitHub リリースに互換性のある FFmpeg アセットが見つかりません。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegExtractionFailed">アーカイブから FFmpeg を展開できませんでした。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegApiDownloadInvalid">API からの FFmpeg ダウンロードが空または欠落したファイルになりました。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegExeMissingInArchive">ダウンロードしたアーカイブに ffmpeg.exe が見つかりません。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.Unexpected">予期しないエラー: {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoMonitors">モニターが検出されませんでした。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoFramesCaptured">フレームがキャプチャされませんでした。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.MonitorLabel">画面 {0} ({1})</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.Position">center=({0}, {1})</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDevices">アクティブな音声デバイスが検出されません。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Output">出力</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Input">入力</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoActiveOutputStream">アクティブなシステム音声ストリームが検出されません</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDataCaptured">音声データがキャプチャされませんでした</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.CapturedBytes">キャプチャ済み {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestNotImplemented">テストは未実装です。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestPassed">テストは正常に完了しました。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestFailed">テストに失敗しました。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestCancelled">テストはキャンセルされました。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestError">テストエラー: {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairNotAvailable">このテストでは修復は利用できません。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.Repairing">修復中…</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairCompleted">修復が正常に完了しました。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairCancelled">修復はキャンセルされました。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairError">修復エラー: {0}</s:String>
 
     <!--Dialogs • Reset Styles-->
     <s:String x:Key="S.Dialog.ResetStyles.Header">これらの設定をリセットしますか？</s:String>
@@ -523,6 +585,11 @@
     <s:String x:Key="S.Success.SmoothLoop.Header">スムーズなループが見つかりました</s:String>
     <s:String x:Key="S.Success.SmoothLoop.Message">{0:0.##}% の類似度のループが見つかりました</s:String>
 
+    <!--Info • Test underway-->
+    <s:String x:Key="S.Dialog.TroubleshooterAutoClose.Header">テスト実行中</s:String>
+    <s:String x:Key="S.Dialog.TroubleshooterAutoClose.Message">問題がなければこのウィンドウは自動的に閉じられます</s:String>
+    <s:String x:Key="S.Dialog.TroubleshooterAutoClose.Closing">{0}秒後に閉じます</s:String>
+
     <!--Info • Pro feature-->
     <s:String x:Key="S.Info.ProFeature.Header">Pro専用</s:String>
     <s:String x:Key="S.Info.ProFeature.Message">この機能をアンロックするにはアップグレードしてください</s:String>
@@ -609,6 +676,9 @@
     <s:String x:Key="S.Error.FailedToSend.Header">フィードバックの送信に失敗しました</s:String>
     <s:String x:Key="S.Error.FailedToSend.Description">フィードバック内容をzipとしてエクスポートし、メールで送信してください</s:String>
     <s:String x:Key="S.Error.FailedToSend.OpenEmail">メールを開く</s:String>
+
+    <!--Error • Test or repair failed-->
+    <s:String x:Key="S.Error.Troubleshooter.Header">トラブルシューティングに失敗しました</s:String>
 
     <!--Error • Update Unsupported-->
     <s:String x:Key="S.Error.UpdateUnsupported.Header">サポートされていません</s:String>

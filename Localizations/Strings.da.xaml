@@ -71,6 +71,9 @@
     <s:String x:Key="S.Imperative.Resize">Ændr størrelse</s:String>
     <s:String x:Key="S.Imperative.Search">Søg</s:String>
     <s:String x:Key="S.Imperative.ChangeDrive">Skift drev</s:String>
+    <!--<s:String x:Key="S.Imperative.Test">Test</s:String>-->
+    <s:String x:Key="S.Imperative.Repair">Reparer</s:String>
+    <s:String x:Key="S.Imperative.RunAll">Kør alle</s:String>
 
     <!--Time • Referential-->
     <s:String x:Key="S.Time.Ago.Seconds">få sekunder siden</s:String>
@@ -141,6 +144,65 @@
     <s:String x:Key="S.Dialog.FirstTime.AfterRecording">Efter optagelse, vis...</s:String>
     <s:String x:Key="S.Dialog.FirstTime.CacheLocation">Gem optagelser og projekter på...</s:String>
     <s:String x:Key="S.Dialog.FirstTime.CacheLocation.Low">Mangler plads</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.DownloadPlugins">Download almindelige plugins (~100 MiB)</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.DownloadPlugins.Info">Downloader FFmpeg, som bruges til videoeksport</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.RunTests">Kør hurtig test for at finde problemer</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.RunTests.Info">Kører tests for diskadgang, skærm- og lydoptagelse</s:String>
+
+    <!--Dialogs • Troubleshooter-->
+    <s:String x:Key="S.Dialog.Troubleshooter.Header">Fejlfinding</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Subtitle">Kontrollér om grundlæggende appfunktioner virker og forsøg at gendanne dem.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Header2">Efter opsætning</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Subtitle2">Grundlæggende forberedelser og tests for at sikre, at alt fungerer.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.FolderAccess.Title">Mappeadgang</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.FolderAccess.Description">Kontrollerer om appen har adgang til cachemappen</s:String>
+    <!-- <s:String x:Key="S.Dialog.Troubleshooter.Test.FFmpeg.Title">FFmpeg</s:String> -->
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.FFmpeg.Description">Bruges til video-/animations­eksport</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.Screen.Title">Skærmoptagelse</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.Screen.Description">Verificerer at skærmoptagelse fungerer</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.Audio.Title">Lydoptagelse</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.Audio.Description">Verificerer at lydoptagelse fungerer</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Result.Passed">Bestået</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Result.Failed">Fejlede - {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Result.FailedShort">Fejlede</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.CacheReadMismatch">Cache-indhold stemmer ikke overens med det skrevne indhold.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.AppDataReadMismatch">AppData-indhold stemmer ikke overens med det skrevne indhold.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.CachePathMissing">Cache-sti er ikke konfigureret eller er tom.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegNotFound">FFmpeg ikke fundet. Tjekkede appmappe, pluginmappe, programdata og system-PATH.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegLocationInvalid">FFmpeg-sti er tom eller filen findes ikke.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionEmptyOutput">FFmpeg returnerede tom output. Programmet kan være beskadiget eller inkompatibelt.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionCommandFailed">FFmpeg -version kommando mislykkedes. Output: {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionUnknown">Kunne ikke bestemme FFmpeg-version fra output.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionOld">FFmpeg version {0} er ældre end 6.0. Opdater venligst til en nyere version.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingFailed">FFmpeg-kodning mislykkedes.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingOutputMissing">FFmpeg-kodning mislykkedes. Outputfil blev ikke oprettet.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingOutputEmpty">FFmpeg-kodning mislykkedes. Outputfilen er tom.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegDownloadFailed">FFmpeg-download fra både GitHub og API mislykkedes.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegAssetMissing">Ingen kompatibel FFmpeg-asset fundet i seneste GitHub-udgivelse.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegExtractionFailed">Udtrækning af FFmpeg fra arkivet mislykkedes.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegApiDownloadInvalid">FFmpeg-download fra API resulterede i tom eller manglende fil.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegExeMissingInArchive">ffmpeg.exe ikke fundet i det downloadede arkiv.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.Unexpected">Uventet fejl: {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoMonitors">Ingen skærme fundet.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoFramesCaptured">Ingen frames optaget.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.MonitorLabel">Skærm {0} ({1})</s:String>
+    <!-- <s:String x:Key="S.Dialog.Troubleshooter.Screen.Position">center=({0}, {1})</s:String> -->
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDevices">Ingen aktive lydenheder fundet.</s:String>
+    <!-- <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Output">Output</s:String> -->
+    <!-- <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Input">Input</s:String> -->
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoActiveOutputStream">Ingen aktiv systemlydstrøm fundet</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDataCaptured">Ingen lyddata optaget</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.CapturedBytes">Optaget {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestNotImplemented">Test ikke implementeret.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestPassed">Test bestået.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestFailed">Test mislykkedes.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestCancelled">Test blev annulleret.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestError">Testfejl: {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairNotAvailable">Reparation ikke tilgængelig for denne test.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.Repairing">Reparerer...</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairCompleted">Reparation gennemført.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairCancelled">Reparation annulleret.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairError">Reparationsfejl: {0}</s:String>
 
     <!--Dialogs • Reset Styles-->
     <s:String x:Key="S.Dialog.ResetStyles.Header">Vil du nulstille disse indstillinger?</s:String>
@@ -282,7 +344,7 @@
     <s:String x:Key="S.Dialog.Effects.Easing.Direction.Backward">Bagud</s:String>
     <s:String x:Key="S.Dialog.Effects.Easing.Direction.ForwardBackward">Fremad → bagud</s:String>
     <s:String x:Key="S.Dialog.Effects.Easing.Direction.BackwardForward">Bagud → fremad</s:String>
-    <!--<s:String x:Key="S.Dialog.Effects.Easing.Amplitude">Amplitude</s:String>-->
+    <s:String x:Key="S.Dialog.Effects.Easing.Amplitude">Amplituden</s:String>
     <s:String x:Key="S.Dialog.Effects.Easing.Bounces">Hop</s:String>
     <s:String x:Key="S.Dialog.Effects.Easing.Bounciness">Hoppeevne</s:String>
     <s:String x:Key="S.Dialog.Effects.Easing.Oscillations">Oscillationer</s:String>
@@ -291,7 +353,7 @@
     <s:String x:Key="S.Dialog.Effects.Easing.Power">Styrke</s:String>
     <s:String x:Key="S.Dialog.Effects.Easing.KeyFrames">Nøgleframes</s:String>
     <s:String x:Key="S.Dialog.Effects.Easing.KeyFrames.SmoothTransition">Glidende overgang</s:String>
-    <!--<s:String x:Key="S.Dialog.Effects.Easing.KeyFrames.Position">Position</s:String>-->
+    <s:String x:Key="S.Dialog.Effects.Easing.KeyFrames.Position">Positionen</s:String>
     <s:String x:Key="S.Dialog.Effects.Easing.KeyFrames.Value">Værdi</s:String>
     <s:String x:Key="S.Dialog.Effects.Easing.NoSettings">Ingen andre indstillinger for denne easing-funktion</s:String>
 
@@ -523,6 +585,11 @@
     <s:String x:Key="S.Success.SmoothLoop.Header">Glat sløjfe fundet</s:String>
     <s:String x:Key="S.Success.SmoothLoop.Message">Fandt en sløjfe med {0:0.##}% lighed</s:String>
 
+    <!--Info • Test underway-->
+    <s:String x:Key="S.Dialog.TroubleshooterAutoClose.Header">Test i gang</s:String>
+    <s:String x:Key="S.Dialog.TroubleshooterAutoClose.Message">Dette vindue lukkes automatisk, hvis alting er i orden</s:String>
+    <s:String x:Key="S.Dialog.TroubleshooterAutoClose.Closing">Lukker om {0}s</s:String>
+
     <!--Info • Pro feature-->
     <s:String x:Key="S.Info.ProFeature.Header">Kun for Pro</s:String>
     <s:String x:Key="S.Info.ProFeature.Message">Opgrader for at låse op for denne funktion</s:String>
@@ -609,6 +676,9 @@
     <s:String x:Key="S.Error.FailedToSend.Header">Kunne ikke sende feedback</s:String>
     <s:String x:Key="S.Error.FailedToSend.Description">Eksporter venligst feedbackindholdet som zip og send det til e-mail</s:String>
     <s:String x:Key="S.Error.FailedToSend.OpenEmail">Åbn e-mail</s:String>
+
+    <!--Error • Test or repair failed-->
+    <s:String x:Key="S.Error.Troubleshooter.Header">Fejlfinding mislykkedes</s:String>
 
     <!--Error • Update Unsupported-->
     <s:String x:Key="S.Error.UpdateUnsupported.Header">Ikke understøttet</s:String>
@@ -818,13 +888,13 @@
     <s:String x:Key="S.Errors.SmoothLoop.Header">Søgning mislykkedes</s:String>
     <s:String x:Key="S.Errors.SmoothLoop.Message">Der opstod en fejl under sløjfesøgningen</s:String>
 
-    <!--Error • Removing recent project--> 
-    <s:String x:Key="S.Errors.RemovingRecent.Header">Error</s:String>
-    <s:String x:Key="S.Errors.RemovingRecent.Message">Failed to remove the project</s:String>
+    <!--Error • Removing recent project-->
+    <s:String x:Key="S.Errors.RemovingRecent.Header">Fejl</s:String>
+    <s:String x:Key="S.Errors.RemovingRecent.Message">Kunne ikke fjerne projektet</s:String>
 
-    <!--Error • Removing recent projects--> 
-    <s:String x:Key="S.Errors.RemovingRecents.Header">Error</s:String>
-    <s:String x:Key="S.Errors.RemovingRecents.Message">Failed to remove one or more projects</s:String>
+    <!--Error • Removing recent projects-->
+    <s:String x:Key="S.Errors.RemovingRecents.Header">Fejl</s:String>
+    <s:String x:Key="S.Errors.RemovingRecents.Message">Kunne ikke fjerne et eller flere projekter</s:String>
 
     <!--Error • Missing drive-->
     <s:String x:Key="S.Errors.MissingDrive.Header">Ingen drev</s:String>
@@ -1208,7 +1278,7 @@
     <s:String x:Key="S.FeedbackPreview.Telemetry.Category">Kategori</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.Location">Placering</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.Trigger">Udløser</s:String>
-    <s:String x:Key="S.FeedbackPreview.Telemetry.Input">Input</s:String>
+    <!-- <s:String x:Key="S.FeedbackPreview.Telemetry.Input">Input</s:String> -->
     <s:String x:Key="S.FeedbackPreview.Telemetry.UserInitiated">Brugerinitieret?</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.Description">Beskrivelse</s:String>
 

@@ -71,6 +71,9 @@
     <s:String x:Key="S.Imperative.Resize">Formaat wijzigen</s:String>
     <s:String x:Key="S.Imperative.Search">Zoeken</s:String>
     <s:String x:Key="S.Imperative.ChangeDrive">Station wijzigen</s:String>
+    <s:String x:Key="S.Imperative.Test">Testen</s:String>
+    <s:String x:Key="S.Imperative.Repair">Repareren</s:String>
+    <s:String x:Key="S.Imperative.RunAll">Alles uitvoeren</s:String>
 
     <!--Time • Referential-->
     <s:String x:Key="S.Time.Ago.Seconds">een paar seconden geleden</s:String>
@@ -141,6 +144,65 @@
     <s:String x:Key="S.Dialog.FirstTime.AfterRecording">Na het opnemen weergeven...</s:String>
     <s:String x:Key="S.Dialog.FirstTime.CacheLocation">Opnamen en projecten opslaan op...</s:String>
     <s:String x:Key="S.Dialog.FirstTime.CacheLocation.Low">Weinig ruimte</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.DownloadPlugins">Algemene plug-ins downloaden (~100 MiB)</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.DownloadPlugins.Info">Downloadt FFmpeg, dat wordt gebruikt voor video-export</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.RunTests">Snelle test uitvoeren om problemen te ontdekken</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.RunTests.Info">Voert tests uit voor schijftoegang, scherm- en audio-opname</s:String>
+
+    <!--Dialogs • Troubleshooter-->
+    <s:String x:Key="S.Dialog.Troubleshooter.Header">Probleemoplosser</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Subtitle">Controleer of basisfuncties van de app werken en probeer ze indien nodig te herstellen.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Header2">Na installatie</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Subtitle2">Basisvoorbereidingen en tests om te controleren of alles correct werkt.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.FolderAccess.Title">Maptoegang</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.FolderAccess.Description">Controleert of de app toegang heeft tot de cachemap</s:String>
+    <!--<s:String x:Key="S.Dialog.Troubleshooter.Test.FFmpeg.Title">FFmpeg</s:String>-->
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.FFmpeg.Description">Gebruikt voor video-/animatie‑export</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.Screen.Title">Schermopname</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.Screen.Description">Controleert of schermvastlegging correct werkt</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.Audio.Title">Audio‑opname</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.Audio.Description">Controleert of audiovastlegging correct werkt</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Result.Passed">Geslaagd</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Result.Failed">Mislukt – {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Result.FailedShort">Mislukt</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.CacheReadMismatch">Cache‑inhoud komt niet overeen met de geschreven inhoud.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.AppDataReadMismatch">AppData‑inhoud komt niet overeen met de geschreven inhoud.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.CachePathMissing">Cachepad is niet geconfigureerd of leeg.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegNotFound">FFmpeg niet gevonden. App‑map, pluginmap, ProgramData en systeem‑PATH gecontroleerd.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegLocationInvalid">FFmpeg‑locatie is leeg of het bestand bestaat niet.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionEmptyOutput">FFmpeg gaf een lege uitvoer terug. Het uitvoerbare bestand kan beschadigd of incompatibel zijn.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionCommandFailed">FFmpeg‑opdracht “‑version” is mislukt. Uitvoer: {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionUnknown">Kon FFmpeg‑versie niet bepalen op basis van de uitvoer.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionOld">FFmpeg‑versie {0} is ouder dan 6.0. Werk bij naar een nieuwere versie.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingFailed">FFmpeg‑codering mislukt.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingOutputMissing">FFmpeg‑codering mislukt. Uitvoerbestand is niet aangemaakt.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingOutputEmpty">FFmpeg‑codering mislukt. Uitvoerbestand is leeg.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegDownloadFailed">Download van FFmpeg via GitHub en API mislukt.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegAssetMissing">Geen compatibele FFmpeg‑asset gevonden in de nieuwste GitHub‑release.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegExtractionFailed">Extractie van FFmpeg uit het archief mislukt.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegApiDownloadInvalid">Download van FFmpeg via API resulteerde in een leeg of ontbrekend bestand.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegExeMissingInArchive">ffmpeg.exe niet gevonden in het gedownloade archief.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.Unexpected">Onverwachte fout: {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoMonitors">Geen monitoren gedetecteerd.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoFramesCaptured">Geen frames vastgelegd.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.MonitorLabel">Scherm {0} ({1})</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.Position">center=({0}, {1})</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDevices">Geen actieve audioapparaten gedetecteerd.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Output">Uitgang</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Input">Ingang</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoActiveOutputStream">Geen actieve systeem‑audiostream gedetecteerd</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDataCaptured">Geen audiodata vastgelegd</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.CapturedBytes">Vastgelegd {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestNotImplemented">Test niet geïmplementeerd.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestPassed">Test succesvol voltooid.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestFailed">Test mislukt.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestCancelled">Test geannuleerd.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestError">Testfout: {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairNotAvailable">Reparatie niet beschikbaar voor deze test.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.Repairing">Bezig met repareren…</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairCompleted">Reparatie succesvol voltooid.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairCancelled">Reparatie geannuleerd.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairError">Reparatiefout: {0}</s:String>
 
     <!--Dialogs • Reset Styles-->
     <s:String x:Key="S.Dialog.ResetStyles.Header">Wil je deze instellingen resetten?</s:String>
@@ -523,6 +585,11 @@
     <s:String x:Key="S.Success.SmoothLoop.Header">Vloeiende lus gevonden</s:String>
     <s:String x:Key="S.Success.SmoothLoop.Message">Een lus gevonden met {0:0.##}% similariteit</s:String>
 
+    <!--Info • Test underway-->
+    <s:String x:Key="S.Dialog.TroubleshooterAutoClose.Header">Test bezig</s:String>
+    <s:String x:Key="S.Dialog.TroubleshooterAutoClose.Message">Dit venster sluit automatisch als alles in orde is</s:String>
+    <s:String x:Key="S.Dialog.TroubleshooterAutoClose.Closing">Sluiten over {0}s</s:String>
+
     <!--Info • Pro feature-->
     <s:String x:Key="S.Info.ProFeature.Header">Alleen voor Pro</s:String>
     <s:String x:Key="S.Info.ProFeature.Message">Upgrade om deze functie te ontgrendelen</s:String>
@@ -609,6 +676,9 @@
     <s:String x:Key="S.Error.FailedToSend.Header">Fout bij verzenden van feedback</s:String>
     <s:String x:Key="S.Error.FailedToSend.Description">Exporteer de feedbackinhoud als zip en stuur deze per e-mail</s:String>
     <s:String x:Key="S.Error.FailedToSend.OpenEmail">Open e-mail</s:String>
+
+    <!--Error • Test or repair failed-->
+    <s:String x:Key="S.Error.Troubleshooter.Header">Probleemoplossing is mislukt</s:String>
 
     <!--Error • Update Unsupported-->
     <s:String x:Key="S.Error.UpdateUnsupported.Header">Niet ondersteund</s:String>

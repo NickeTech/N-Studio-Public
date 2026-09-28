@@ -1,4 +1,4 @@
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:s="clr-namespace:System;assembly=mscorlib"
                     xml:space="preserve">
@@ -38,7 +38,7 @@
     <s:String x:Key="S.Imperative.Upgrade">Uppgradera</s:String>
     <s:String x:Key="S.Imperative.Save">Spara</s:String>
     <s:String x:Key="S.Imperative.Create">Skapa</s:String>
-    <s:String x:Key="S.Imperative.Ok">OK</s:String>
+    <!-- <s:String x:Key="S.Imperative.Ok">OK</s:String> -->
     <s:String x:Key="S.Imperative.Cancel">Avbryt</s:String>
     <s:String x:Key="S.Imperative.Close">Stäng</s:String>
     <s:String x:Key="S.Imperative.Continue">Fortsätt</s:String>
@@ -71,6 +71,9 @@
     <s:String x:Key="S.Imperative.Resize">Ändra storlek</s:String>
     <s:String x:Key="S.Imperative.Search">Sök</s:String>
     <s:String x:Key="S.Imperative.ChangeDrive">Byt enhet</s:String>
+    <s:String x:Key="S.Imperative.Test">Testa</s:String>
+    <s:String x:Key="S.Imperative.Repair">Reparera</s:String>
+    <s:String x:Key="S.Imperative.RunAll">Kör alla</s:String>
 
     <!--Time • Referential-->
     <s:String x:Key="S.Time.Ago.Seconds">för några sekunder sedan</s:String>
@@ -141,6 +144,65 @@
     <s:String x:Key="S.Dialog.FirstTime.AfterRecording">Efter inspelning, visa...</s:String>
     <s:String x:Key="S.Dialog.FirstTime.CacheLocation">Spara inspelningar och projekt på...</s:String>
     <s:String x:Key="S.Dialog.FirstTime.CacheLocation.Low">Lite plats kvar</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.DownloadPlugins">Ladda ner vanliga plugins (~100 MiB)</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.DownloadPlugins.Info">Laddar ner FFmpeg, som används för videoexport</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.RunTests">Kör snabbtest för att hitta problem</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.RunTests.Info">Kör tester för disktillgång, skärm- och ljudinspelning</s:String>
+
+    <!--Dialogs • Troubleshooter-->
+    <s:String x:Key="S.Dialog.Troubleshooter.Header">Felsökare</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Subtitle">Kontrollera om appens grundläggande funktioner fungerar och försök återställa dem.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Header2">Efter installation</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Subtitle2">Grundläggande förberedelser och tester för att säkerställa att allt fungerar.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.FolderAccess.Title">Mappåtkomst</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.FolderAccess.Description">Kontrollerar om appen har åtkomst till cachemappen</s:String>
+    <!--<s:String x:Key="S.Dialog.Troubleshooter.Test.FFmpeg.Title">FFmpeg</s:String>-->
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.FFmpeg.Description">Används för export av video/animation</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.Screen.Title">Skärminspelning</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.Screen.Description">Verifierar att skärminspelning fungerar</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.Audio.Title">Ljudinspelning</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.Audio.Description">Verifierar att ljudinspelning fungerar</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Result.Passed">Godkänd</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Result.Failed">Misslyckades – {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Result.FailedShort">Misslyckades</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.CacheReadMismatch">Cacheinnehållet matchar inte det skrivna innehållet.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.AppDataReadMismatch">AppData‑innehållet matchar inte det skrivna innehållet.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.CachePathMissing">Cache‑sökvägen är inte konfigurerad eller är tom.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegNotFound">FFmpeg hittades inte. Appmapp, pluginmapp, ProgramData och system‑PATH kontrollerades.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegLocationInvalid">FFmpeg‑platsen är tom eller filen finns inte.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionEmptyOutput">FFmpeg returnerade tom utdata. Den körbara filen kan vara skadad eller inkompatibel.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionCommandFailed">FFmpeg‑kommandot ”‑version” misslyckades. Utdata: {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionUnknown">Kunde inte fastställa FFmpeg‑version från utdata.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionOld">FFmpeg‑version {0} är äldre än 6.0. Uppdatera till en nyare version.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingFailed">FFmpeg‑kodning misslyckades.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingOutputMissing">FFmpeg‑kodning misslyckades. Utdatafilen skapades inte.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingOutputEmpty">FFmpeg‑kodning misslyckades. Utdatafilen är tom.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegDownloadFailed">Nedladdning av FFmpeg från både GitHub och API misslyckades.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegAssetMissing">Inget kompatibelt FFmpeg‑paket hittades i den senaste GitHub‑versionen.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegExtractionFailed">Extrahering av FFmpeg från arkivet misslyckades.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegApiDownloadInvalid">Nedladdning av FFmpeg via API resulterade i en tom eller saknad fil.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegExeMissingInArchive">ffmpeg.exe hittades inte i det nedladdade arkivet.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.Unexpected">Oväntat fel: {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoMonitors">Inga bildskärmar hittades.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoFramesCaptured">Inga bildrutor fångades.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.MonitorLabel">Skärm {0} ({1})</s:String>
+    <!-- <s:String x:Key="S.Dialog.Troubleshooter.Screen.Position">center=({0}, {1})</s:String> -->
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDevices">Inga aktiva ljudenheter hittades.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Output">Utgång</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Input">Ingång</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoActiveOutputStream">Ingen aktiv systemljudström hittades</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDataCaptured">Inga ljuddata fångades</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.CapturedBytes">Fångat {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestNotImplemented">Testet är inte implementerat.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestPassed">Testet slutfördes framgångsrikt.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestFailed">Testet misslyckades.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestCancelled">Testet avbröts.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestError">Testfel: {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairNotAvailable">Reparation är inte tillgänglig för detta test.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.Repairing">Reparerar…</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairCompleted">Reparation slutförd.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairCancelled">Reparation avbruten.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairError">Reparationsfel: {0}</s:String>
 
     <!--Dialogs • Reset Styles-->
     <s:String x:Key="S.Dialog.ResetStyles.Header">Vill du återställa dessa inställningar?</s:String>
@@ -523,6 +585,11 @@
     <s:String x:Key="S.Success.SmoothLoop.Header">Mjuk loop hittad</s:String>
     <s:String x:Key="S.Success.SmoothLoop.Message">Hittade en loop med {0:0.##}% likhet</s:String>
 
+    <!--Info • Test underway-->
+    <s:String x:Key="S.Dialog.TroubleshooterAutoClose.Header">Test pågår</s:String>
+    <s:String x:Key="S.Dialog.TroubleshooterAutoClose.Message">Detta fönster stängs automatiskt om allt är okej</s:String>
+    <s:String x:Key="S.Dialog.TroubleshooterAutoClose.Closing">Stänger om {0}s</s:String>
+
     <!--Info • Pro feature-->
     <s:String x:Key="S.Info.ProFeature.Header">Endast för Pro</s:String>
     <s:String x:Key="S.Info.ProFeature.Message">Uppgradera för att låsa upp den här funktionen</s:String>
@@ -609,6 +676,9 @@
     <s:String x:Key="S.Error.FailedToSend.Header">Kunde inte skicka feedback</s:String>
     <s:String x:Key="S.Error.FailedToSend.Description">Exportera feedbackinnehållet som zip och skicka till e-post</s:String>
     <s:String x:Key="S.Error.FailedToSend.OpenEmail">Öppna e-post</s:String>
+
+    <!--Error • Test or repair failed-->
+    <s:String x:Key="S.Error.Troubleshooter.Header">Felsökningen misslyckades</s:String>
 
     <!--Error • Update Unsupported-->
     <s:String x:Key="S.Error.UpdateUnsupported.Header">Inte stöds</s:String>

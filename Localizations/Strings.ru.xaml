@@ -71,6 +71,9 @@
     <s:String x:Key="S.Imperative.Resize">Изменить размер</s:String>
     <s:String x:Key="S.Imperative.Search">Поиск</s:String>
     <s:String x:Key="S.Imperative.ChangeDrive">Сменить диск</s:String>
+    <s:String x:Key="S.Imperative.Test">Тестировать</s:String>
+    <s:String x:Key="S.Imperative.Repair">Исправить</s:String>
+    <s:String x:Key="S.Imperative.RunAll">Выполнить всё</s:String>
 
     <!--Time • Referential-->
     <s:String x:Key="S.Time.Ago.Seconds">несколько секунд назад</s:String>
@@ -141,6 +144,65 @@
     <s:String x:Key="S.Dialog.FirstTime.AfterRecording">После записи показать...</s:String>
     <s:String x:Key="S.Dialog.FirstTime.CacheLocation">Сохранять записи и проекты в...</s:String>
     <s:String x:Key="S.Dialog.FirstTime.CacheLocation.Low">Мало места</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.DownloadPlugins">Скачать стандартные плагины (~100 MiB)</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.DownloadPlugins.Info">Скачивает FFmpeg, используемый для экспорта видео</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.RunTests">Запустить быстрый тест для выявления проблем</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.RunTests.Info">Запускает тесты доступа к диску, записи экрана и аудио</s:String>
+
+    <!--Dialogs • Troubleshooter-->
+    <s:String x:Key="S.Dialog.Troubleshooter.Header">Диагностика</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Subtitle">Проверьте, работают ли основные функции приложения, и попробуйте восстановить их.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Header2">После установки</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Subtitle2">Базовые проверки и подготовка, чтобы убедиться, что всё работает.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.FolderAccess.Title">Доступ к папке</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.FolderAccess.Description">Проверяет, имеет ли приложение доступ к папке кеша</s:String>
+    <!--<s:String x:Key="S.Dialog.Troubleshooter.Test.FFmpeg.Title">FFmpeg</s:String>-->
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.FFmpeg.Description">Используется для экспорта видео и анимации</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.Screen.Title">Запись экрана</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.Screen.Description">Проверяет, работает ли функция захвата экрана</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.Audio.Title">Запись звука</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.Audio.Description">Проверяет, работает ли функция захвата звука</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Result.Passed">Успешно</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Result.Failed">Ошибка – {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Result.FailedShort">Ошибка</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.CacheReadMismatch">Содержимое, прочитанное из кеша, не совпадает с записанным.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.AppDataReadMismatch">Содержимое, прочитанное из AppData, не совпадает с записанным.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.CachePathMissing">Путь к кешу не настроен или пуст.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegNotFound">FFmpeg не найден. Проверены папка приложения, папка плагинов, ProgramData и системный PATH.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegLocationInvalid">Путь к FFmpeg пуст или файл не существует.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionEmptyOutput">FFmpeg вернул пустой вывод. Исполняемый файл может быть повреждён или несовместим.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionCommandFailed">Команда FFmpeg -version завершилась ошибкой. Вывод: {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionUnknown">Не удалось определить версию FFmpeg по выводу.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionOld">Версия FFmpeg {0} старее 6.0. Обновите до более новой версии.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingFailed">Ошибка кодирования FFmpeg.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingOutputMissing">Ошибка кодирования FFmpeg. Файл вывода не был создан.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingOutputEmpty">Ошибка кодирования FFmpeg. Файл вывода пуст.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegDownloadFailed">Не удалось скачать FFmpeg ни с GitHub, ни через API.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegAssetMissing">Совместимый FFmpeg‑asset не найден в последнем релизе GitHub.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegExtractionFailed">Не удалось извлечь FFmpeg из архива.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegApiDownloadInvalid">Загрузка FFmpeg через API привела к пустому или отсутствующему файлу.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegExeMissingInArchive">ffmpeg.exe не найден в загруженном архиве.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.Unexpected">Непредвиденная ошибка: {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoMonitors">Мониторы не обнаружены.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoFramesCaptured">Кадры не были захвачены.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.MonitorLabel">Экран {0} ({1})</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.Position">центр=({0}, {1})</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDevices">Активные аудиоустройства не обнаружены.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Output">Вывод</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Input">Ввод</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoActiveOutputStream">Активный системный аудиопоток не обнаружен</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDataCaptured">Аудиоданные не были захвачены</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.CapturedBytes">Захвачено {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestNotImplemented">Тест не реализован.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestPassed">Тест успешно пройден.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestFailed">Тест не пройден.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestCancelled">Тест отменён.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestError">Ошибка теста: {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairNotAvailable">Восстановление недоступно для этого теста.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.Repairing">Восстановление…</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairCompleted">Восстановление успешно завершено.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairCancelled">Восстановление отменено.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairError">Ошибка восстановления: {0}</s:String>
 
     <!--Dialogs • Reset Styles-->
     <s:String x:Key="S.Dialog.ResetStyles.Header">Хотите сбросить эти настройки?</s:String>
@@ -523,6 +585,11 @@
     <s:String x:Key="S.Success.SmoothLoop.Header">Плавный цикл найден</s:String>
     <s:String x:Key="S.Success.SmoothLoop.Message">Найден цикл с похожестью {0:0.##}%</s:String>
 
+    <!--Info • Test underway-->
+    <s:String x:Key="S.Dialog.TroubleshooterAutoClose.Header">Тест выполняется</s:String>
+    <s:String x:Key="S.Dialog.TroubleshooterAutoClose.Message">Это окно закроется автоматически, если всё в порядке</s:String>
+    <s:String x:Key="S.Dialog.TroubleshooterAutoClose.Closing">Закрытие через {0}с</s:String>
+
     <!--Info • Pro feature-->
     <s:String x:Key="S.Info.ProFeature.Header">Только для Pro</s:String>
     <s:String x:Key="S.Info.ProFeature.Message">Обновите, чтобы разблокировать эту функцию</s:String>
@@ -609,6 +676,9 @@
     <s:String x:Key="S.Error.FailedToSend.Header">Не удалось отправить отзыв</s:String>
     <s:String x:Key="S.Error.FailedToSend.Description">Пожалуйста, экспортируйте содержимое отзыва в zip и отправьте по электронной почте</s:String>
     <s:String x:Key="S.Error.FailedToSend.OpenEmail">Открыть email</s:String>
+
+    <!--Error • Test or repair failed-->
+    <s:String x:Key="S.Error.Troubleshooter.Header">Диагностика завершилась ошибкой</s:String>
 
     <!--Error • Update Unsupported-->
     <s:String x:Key="S.Error.UpdateUnsupported.Header">Не поддерживается</s:String>

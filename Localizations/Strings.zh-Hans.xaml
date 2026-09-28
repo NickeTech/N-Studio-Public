@@ -71,6 +71,9 @@
     <s:String x:Key="S.Imperative.Resize">调整大小</s:String>
     <s:String x:Key="S.Imperative.Search">搜索</s:String>
     <s:String x:Key="S.Imperative.ChangeDrive">更改驱动器</s:String>
+    <s:String x:Key="S.Imperative.Test">测试</s:String>
+    <s:String x:Key="S.Imperative.Repair">修复</s:String>
+    <s:String x:Key="S.Imperative.RunAll">运行全部</s:String>
 
     <!--Time • Referential-->
     <s:String x:Key="S.Time.Ago.Seconds">几秒前</s:String>
@@ -141,6 +144,65 @@
     <s:String x:Key="S.Dialog.FirstTime.AfterRecording">录制后，打开...</s:String>
     <s:String x:Key="S.Dialog.FirstTime.CacheLocation">将录制内容和项目存储到...</s:String>
     <s:String x:Key="S.Dialog.FirstTime.CacheLocation.Low">空间不足</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.DownloadPlugins">下载常用插件 (~100 MiB)</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.DownloadPlugins.Info">下载用于视频导出的 FFmpeg</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.RunTests">运行快速测试以发现问题</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.RunTests.Info">运行磁盘访问、屏幕录制和音频录制测试</s:String>
+
+    <!--Dialogs • Troubleshooter-->
+    <s:String x:Key="S.Dialog.Troubleshooter.Header">故障排查</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Subtitle">检查应用的基本功能是否正常运行，并尝试恢复它们。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Header2">安装后检查</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Subtitle2">基础准备和测试，以确保一切正常运行。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.FolderAccess.Title">文件夹访问</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.FolderAccess.Description">检查应用是否能访问缓存文件夹</s:String>
+    <!--<s:String x:Key="S.Dialog.Troubleshooter.Test.FFmpeg.Title">FFmpeg</s:String>-->
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.FFmpeg.Description">用于视频/动画导出</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.Screen.Title">屏幕录制</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.Screen.Description">验证屏幕捕获功能是否正常</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.Audio.Title">音频录制</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.Audio.Description">验证音频捕获功能是否正常</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Result.Passed">通过</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Result.Failed">失败 – {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Result.FailedShort">失败</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.CacheReadMismatch">从缓存读取的内容与写入的内容不一致。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.AppDataReadMismatch">从 AppData 读取的内容与写入的内容不一致。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.CachePathMissing">缓存路径未配置或为空。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegNotFound">未找到 FFmpeg。已检查应用目录、插件文件夹、ProgramData 和系统 PATH。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegLocationInvalid">FFmpeg 路径为空或文件不存在。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionEmptyOutput">FFmpeg 返回空输出。可执行文件可能损坏或不兼容。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionCommandFailed">FFmpeg -version 命令执行失败。输出：{0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionUnknown">无法从输出中确定 FFmpeg 版本。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionOld">FFmpeg 版本 {0} 早于 6.0。请更新到较新的版本。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingFailed">FFmpeg 编码失败。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingOutputMissing">FFmpeg 编码失败。未创建输出文件。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingOutputEmpty">FFmpeg 编码失败。输出文件为空。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegDownloadFailed">从 GitHub 和 API 下载 FFmpeg 均失败。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegAssetMissing">在最新的 GitHub 发布中未找到兼容的 FFmpeg 资源。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegExtractionFailed">从压缩包中提取 FFmpeg 失败。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegApiDownloadInvalid">通过 API 下载的 FFmpeg 文件为空或缺失。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegExeMissingInArchive">在下载的压缩包中未找到 ffmpeg.exe。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.Unexpected">意外错误：{0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoMonitors">未检测到显示器。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoFramesCaptured">未捕获到任何帧。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.MonitorLabel">屏幕 {0} ({1})</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.Position">center=({0}, {1})</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDevices">未检测到活动音频设备。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Output">输出</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Input">输入</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoActiveOutputStream">未检测到活动的系统音频流</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDataCaptured">未捕获到音频数据</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.CapturedBytes">已捕获 {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestNotImplemented">测试未实现。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestPassed">测试成功通过。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestFailed">测试失败。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestCancelled">测试已取消。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestError">测试错误：{0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairNotAvailable">此测试不支持修复。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.Repairing">正在修复…</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairCompleted">修复已成功完成。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairCancelled">修复已取消。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairError">修复错误：{0}</s:String>
 
     <!--Dialogs • Reset Styles-->
     <s:String x:Key="S.Dialog.ResetStyles.Header">是否要重置这些设置？</s:String>
@@ -523,6 +585,11 @@
     <s:String x:Key="S.Success.SmoothLoop.Header">已找到平滑循环</s:String>
     <s:String x:Key="S.Success.SmoothLoop.Message">找到一个相似度为 {0:0.##}% 的循环</s:String>
 
+    <!--Info • Test underway-->
+    <s:String x:Key="S.Dialog.TroubleshooterAutoClose.Header">测试进行中</s:String>
+    <s:String x:Key="S.Dialog.TroubleshooterAutoClose.Message">如果一切正常，此窗口将自动关闭</s:String>
+    <s:String x:Key="S.Dialog.TroubleshooterAutoClose.Closing">将在 {0} 秒后关闭</s:String>
+
     <!--Info • Pro feature-->
     <s:String x:Key="S.Info.ProFeature.Header">仅供 Pro 版使用</s:String>
     <s:String x:Key="S.Info.ProFeature.Message">升级以解锁此功能</s:String>
@@ -609,6 +676,9 @@
     <s:String x:Key="S.Error.FailedToSend.Header">无法发送反馈</s:String>
     <s:String x:Key="S.Error.FailedToSend.Description">请将反馈内容导出为 zip 文件并发送到电子邮件</s:String>
     <s:String x:Key="S.Error.FailedToSend.OpenEmail">打开电子邮件</s:String>
+
+    <!--Error • Test or repair failed-->
+    <s:String x:Key="S.Error.Troubleshooter.Header">故障排查失败</s:String>
 
     <!--Error • Update Unsupported-->
     <s:String x:Key="S.Error.UpdateUnsupported.Header">不受支持</s:String>

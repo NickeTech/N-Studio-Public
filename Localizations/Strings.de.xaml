@@ -71,6 +71,9 @@
     <s:String x:Key="S.Imperative.Resize">Größe ändern</s:String>
     <s:String x:Key="S.Imperative.Search">Suchen</s:String>
     <s:String x:Key="S.Imperative.ChangeDrive">Laufwerk wechseln</s:String>
+    <s:String x:Key="S.Imperative.Test">Testen</s:String>
+    <s:String x:Key="S.Imperative.Repair">Reparieren</s:String>
+    <s:String x:Key="S.Imperative.RunAll">Alle ausführen</s:String>
 
     <!--Time • Referential-->
     <s:String x:Key="S.Time.Ago.Seconds">vor ein paar Sekunden</s:String>
@@ -98,7 +101,7 @@
     <s:String x:Key="S.Time.Static.Short.Second">s</s:String>
     <s:String x:Key="S.Time.Static.Short.Seconds">s</s:String>
     <!--<s:String x:Key="S.Time.Static.Single.Second">s</s:String>-->
-    <s:String x:Key="S.Time.Static.Minute">Minute</s:String>
+    <!-- <s:String x:Key="S.Time.Static.Minute">Minute</s:String> -->
     <s:String x:Key="S.Time.Static.Minutes">Minuten</s:String>
     <s:String x:Key="S.Time.Static.Minutes.2">Minuten</s:String>
     <s:String x:Key="S.Time.Static.Minutes.3-4">Minuten</s:String>
@@ -141,6 +144,65 @@
     <s:String x:Key="S.Dialog.FirstTime.AfterRecording">Nach der Aufnahme anzeigen...</s:String>
     <s:String x:Key="S.Dialog.FirstTime.CacheLocation">Aufnahmen und Projekte speichern auf...</s:String>
     <s:String x:Key="S.Dialog.FirstTime.CacheLocation.Low">Wenig Speicherplatz</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.DownloadPlugins">Allgemeine Plugins herunterladen (~100 MiB)</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.DownloadPlugins.Info">Lädt FFmpeg herunter, das für Videoexport verwendet wird</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.RunTests">Schnellen Test ausführen, um Probleme zu erkennen</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.RunTests.Info">Führt Tests für Festplattenzugriff, Bildschirm- und Audioaufnahme aus</s:String>
+
+    <!--Dialogs • Troubleshooter-->
+    <s:String x:Key="S.Dialog.Troubleshooter.Header">Problembehandlung</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Subtitle">Prüfen, ob grundlegende App‑Funktionen funktionieren, und versuchen, sie wiederherzustellen.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Header2">Nach der Einrichtung</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Subtitle2">Grundlegende Vorbereitungen und Tests, um sicherzustellen, dass alles funktioniert.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.FolderAccess.Title">Ordnerzugriff</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.FolderAccess.Description">Prüft, ob die App Zugriff auf den Cache‑Ordner hat</s:String>
+    <!-- <s:String x:Key="S.Dialog.Troubleshooter.Test.FFmpeg.Title">FFmpeg</s:String> -->
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.FFmpeg.Description">Wird für Video‑/Animations­export verwendet</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.Screen.Title">Bildschirmaufnahme</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.Screen.Description">Überprüft, ob die Bildschirmaufnahme funktioniert</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.Audio.Title">Audioaufnahme</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.Audio.Description">Überprüft, ob die Audioaufnahme funktioniert</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Result.Passed">Bestanden</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Result.Failed">Fehlgeschlagen – {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Result.FailedShort">Fehlgeschlagen</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.CacheReadMismatch">Cache‑Inhalt stimmt nicht mit dem geschriebenen Inhalt überein.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.AppDataReadMismatch">AppData‑Inhalt stimmt nicht mit dem geschriebenen Inhalt überein.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.CachePathMissing">Cache‑Pfad ist nicht konfiguriert oder leer.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegNotFound">FFmpeg nicht gefunden. App‑Verzeichnis, Plugin‑Ordner, ProgramData und System‑PATH wurden geprüft.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegLocationInvalid">FFmpeg‑Pfad ist leer oder die Datei existiert nicht.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionEmptyOutput">FFmpeg gab eine leere Ausgabe zurück. Die ausführbare Datei könnte beschädigt oder inkompatibel sein.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionCommandFailed">FFmpeg‑Befehl „‑version“ fehlgeschlagen. Ausgabe: {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionUnknown">FFmpeg‑Version konnte nicht aus der Ausgabe bestimmt werden.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionOld">FFmpeg‑Version {0} ist älter als 6.0. Bitte aktualisieren.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingFailed">FFmpeg‑Kodierung fehlgeschlagen.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingOutputMissing">FFmpeg‑Kodierung fehlgeschlagen. Ausgabedatei wurde nicht erstellt.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingOutputEmpty">FFmpeg‑Kodierung fehlgeschlagen. Ausgabedatei ist leer.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegDownloadFailed">FFmpeg‑Download von GitHub und API fehlgeschlagen.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegAssetMissing">Kein kompatibles FFmpeg‑Asset im neuesten GitHub‑Release gefunden.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegExtractionFailed">Extrahieren von FFmpeg aus dem Archiv fehlgeschlagen.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegApiDownloadInvalid">FFmpeg‑Download über API ergab eine leere oder fehlende Datei.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegExeMissingInArchive">ffmpeg.exe wurde im heruntergeladenen Archiv nicht gefunden.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.Unexpected">Unerwarteter Fehler: {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoMonitors">Keine Monitore erkannt.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoFramesCaptured">Keine Frames aufgenommen.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.MonitorLabel">Bildschirm {0} ({1})</s:String>
+    <!-- <s:String x:Key="S.Dialog.Troubleshooter.Screen.Position">center=({0}, {1})</s:String> -->
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDevices">Keine aktiven Audiogeräte erkannt.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Output">Ausgabe</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Input">Eingabe</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoActiveOutputStream">Kein aktiver System‑Audiostream erkannt</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDataCaptured">Keine Audiodaten aufgenommen</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.CapturedBytes">Aufgenommen: {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestNotImplemented">Test nicht implementiert.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestPassed">Test erfolgreich bestanden.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestFailed">Test fehlgeschlagen.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestCancelled">Test wurde abgebrochen.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestError">Testfehler: {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairNotAvailable">Reparatur für diesen Test nicht verfügbar.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.Repairing">Reparatur läuft…</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairCompleted">Reparatur erfolgreich abgeschlossen.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairCancelled">Reparatur abgebrochen.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairError">Reparaturfehler: {0}</s:String>
 
     <!--Dialogs • Reset Styles-->
     <s:String x:Key="S.Dialog.ResetStyles.Header">Möchtest du diese Einstellungen zurücksetzen?</s:String>
@@ -523,6 +585,11 @@
     <s:String x:Key="S.Success.SmoothLoop.Header">Saubere Schleife gefunden</s:String>
     <s:String x:Key="S.Success.SmoothLoop.Message">Eine Schleife mit {0:0.##}% Ähnlichkeit gefunden</s:String>
 
+    <!--Info • Test underway-->
+    <s:String x:Key="S.Dialog.TroubleshooterAutoClose.Header">Test läuft</s:String>
+    <s:String x:Key="S.Dialog.TroubleshooterAutoClose.Message">Dieses Fenster wird automatisch geschlossen, wenn alles in Ordnung ist</s:String>
+    <s:String x:Key="S.Dialog.TroubleshooterAutoClose.Closing">Schließen in {0}s</s:String>
+
     <!--Info • Pro feature-->
     <s:String x:Key="S.Info.ProFeature.Header">Nur für Pro</s:String>
     <s:String x:Key="S.Info.ProFeature.Message">Upgrade, um diese Funktion freizuschalten</s:String>
@@ -609,6 +676,9 @@
     <s:String x:Key="S.Error.FailedToSend.Header">Feedback konnte nicht gesendet werden</s:String>
     <s:String x:Key="S.Error.FailedToSend.Description">Bitte exportiere den Feedback-Inhalt als ZIP und sende ihn per E-Mail</s:String>
     <s:String x:Key="S.Error.FailedToSend.OpenEmail">E-Mail öffnen</s:String>
+
+    <!--Error • Test or repair failed-->
+    <s:String x:Key="S.Error.Troubleshooter.Header">Fehlerbehebung fehlgeschlagen</s:String>
 
     <!--Error • Update Unsupported-->
     <s:String x:Key="S.Error.UpdateUnsupported.Header">Nicht unterstützt</s:String>
@@ -1596,7 +1666,7 @@
     <s:String x:Key="S.Settings.ScreenRecorder.StartAfterSelection">Nach der Auswahl mit der Aufnahme beginnen</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.StartAfterSelection.Info">Beschleunigt deinen Workflow, indem automatisch nach Auswahl eines Bildschirmbereichs aufgenommen wird</s:String>
 
-    <s:String x:Key="S.Settings.ScreenRecorder.Shortcuts.StartPause">Start/Pause</s:String>
+    <!-- <s:String x:Key="S.Settings.ScreenRecorder.Shortcuts.StartPause">Start/Pause</s:String> -->
     <s:String x:Key="S.Settings.ScreenRecorder.Shortcuts.StartPause.Info">Startet oder pausiert die Aufnahme (macht Schnappschüsse, wenn der manuelle Modus aktiviert ist)</s:String>
     <!--<s:String x:Key="S.Settings.ScreenRecorder.Shortcuts.Stop">Stop</s:String>-->
     <s:String x:Key="S.Settings.ScreenRecorder.Shortcuts.Stop.Info">Beendet die Aufnahme</s:String>
@@ -2037,7 +2107,7 @@
 
     <!--Settings • About-->
     <s:String x:Key="S.Settings.About.Contact">Kontakt</s:String>
-    <s:String x:Key="S.Settings.About.Contact.Email">E-Mail</s:String>
+    <!-- <s:String x:Key="S.Settings.About.Contact.Email">E-Mail</s:String> -->
     <s:String x:Key="S.Settings.About.Contact.Email.Copy">E-Mail kopieren</s:String>
     <s:String x:Key="S.Settings.About.Dependencies">Abhängigkeiten</s:String>
 
@@ -2177,7 +2247,7 @@
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Neural.Info">Hochwertige Quantisierung. Langsamer, aber gut für eine höhere Anzahl von Farben</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Octree">Oktalbaum</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Octree.Info">Gut für Animationen mit weniger Farben. Schneller, kann jedoch Farbbandbildung erzeugen</s:String>
-    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.MedianCut">Median Cut</s:String>
+    <!-- <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.MedianCut">Median Cut</s:String> -->
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.MedianCut.Info">Weniger gut als Octree und langsamer</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Grayscale">Graustufen</s:String>
     <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Grayscale.Info">Verwendet eine feste Graustufenpalette, daher viel schneller</s:String>

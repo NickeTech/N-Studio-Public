@@ -71,6 +71,9 @@
     <s:String x:Key="S.Imperative.Resize">Resize</s:String>
     <s:String x:Key="S.Imperative.Search">Search</s:String>
     <s:String x:Key="S.Imperative.ChangeDrive">Change drive</s:String>
+    <s:String x:Key="S.Imperative.Test">Test</s:String>
+    <s:String x:Key="S.Imperative.Repair">Repair</s:String>
+    <s:String x:Key="S.Imperative.RunAll">Run all</s:String>
 
     <!--Time • Referential-->
     <s:String x:Key="S.Time.Ago.Seconds">few seconds ago</s:String>
@@ -141,6 +144,65 @@
     <s:String x:Key="S.Dialog.FirstTime.AfterRecording">After recording, show...</s:String>
     <s:String x:Key="S.Dialog.FirstTime.CacheLocation">Store recordings and projects on...</s:String>
     <s:String x:Key="S.Dialog.FirstTime.CacheLocation.Low">Low on space</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.DownloadPlugins">Download common plugins (~100 MiB)</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.DownloadPlugins.Info">Downloads FFmpeg, which is used for video exporting</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.RunTests">Run quick test to discover issues</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.RunTests.Info">Runs tests for disk access, screen and audio recording</s:String>
+
+    <!--Dialogs • Troubleshooter-->
+    <s:String x:Key="S.Dialog.Troubleshooter.Header">Troubleshooter</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Subtitle">Check if basic app functions are working and try recovering them.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Header2">Post-Setup</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Subtitle2">Basic preparations and tests to check if everything is working.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.FolderAccess.Title">Folder access</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.FolderAccess.Description">Checks if the app has access to the cache folder</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.FFmpeg.Title">FFmpeg</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.FFmpeg.Description">Used for video/animation exporting</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.Screen.Title">Screen recording</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.Screen.Description">Verifies screen capture functionality is working</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.Audio.Title">Audio recording</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.Audio.Description">Verifies audio capture functionality is working</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Result.Passed">Passed</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Result.Failed">Failed - {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Result.FailedShort">Failed</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.CacheReadMismatch">Cache read content doesn't match written content.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.AppDataReadMismatch">AppData read content doesn't match written content.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.CachePathMissing">Cache path is not configured or is empty.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegNotFound">FFmpeg not found. Checked app directory, plugins folder, program data, and system PATH.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegLocationInvalid">FFmpeg location is empty or file doesn't exist.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionEmptyOutput">FFmpeg returned empty output. Executable may be corrupted or incompatible.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionCommandFailed">FFmpeg -version command failed. Output: {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionUnknown">Could not determine FFmpeg version from output.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionOld">FFmpeg version {0} is older than 6.0. Please update to a newer version.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingFailed">FFmpeg encoding failed.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingOutputMissing">FFmpeg encoding failed. Output file was not created.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingOutputEmpty">FFmpeg encoding failed. Output file is empty.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegDownloadFailed">FFmpeg download from both GitHub and API failed.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegAssetMissing">No compatible FFmpeg asset found in the latest GitHub release.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegExtractionFailed">FFmpeg extraction from archive failed.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegApiDownloadInvalid">FFmpeg download from API resulted in empty or missing file.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegExeMissingInArchive">ffmpeg.exe not found in the downloaded archive.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.Unexpected">Unexpected error: {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoMonitors">No monitors detected.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoFramesCaptured">No frames captured.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.MonitorLabel">Screen {0} ({1})</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.Position">center=({0}, {1})</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDevices">No active audio devices detected.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Output">Output</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Input">Input</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoActiveOutputStream">No active system audio stream detected</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDataCaptured">No audio data captured</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.CapturedBytes">Captured {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestNotImplemented">Test not implemented.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestPassed">Test passed successfully.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestFailed">Test failed.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestCancelled">Test was cancelled.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestError">Test error: {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairNotAvailable">Repair not available for this test.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.Repairing">Repairing...</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairCompleted">Repair completed successfully.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairCancelled">Repair cancelled.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairError">Repair error: {0}</s:String>
 
     <!--Dialogs • Reset Styles-->
     <s:String x:Key="S.Dialog.ResetStyles.Header">Would you like to reset these settings?</s:String>
@@ -523,6 +585,11 @@
     <s:String x:Key="S.Success.SmoothLoop.Header">Smooth loop found</s:String>
     <s:String x:Key="S.Success.SmoothLoop.Message">Found a loop with {0:0.##}% similarity</s:String>
 
+    <!--Info • Test underway-->
+    <s:String x:Key="S.Dialog.TroubleshooterAutoClose.Header">Test underway</s:String>
+    <s:String x:Key="S.Dialog.TroubleshooterAutoClose.Message">This window will close automatically if everything is ok</s:String>
+    <s:String x:Key="S.Dialog.TroubleshooterAutoClose.Closing">Closing in {0}s</s:String>
+
     <!--Info • Pro feature-->
     <s:String x:Key="S.Info.ProFeature.Header">Only for Pro</s:String>
     <s:String x:Key="S.Info.ProFeature.Message">Upgrade to unlock this feature</s:String>
@@ -609,6 +676,9 @@
     <s:String x:Key="S.Error.FailedToSend.Header">Failed to send feedback</s:String>
     <s:String x:Key="S.Error.FailedToSend.Description">Please export feedback contents as zip and sent to email</s:String>
     <s:String x:Key="S.Error.FailedToSend.OpenEmail">Open email</s:String>
+
+    <!--Error • Test or repair failed-->
+    <s:String x:Key="S.Error.Troubleshooter.Header">Troubleshooting failed</s:String>
 
     <!--Error • Update Unsupported-->
     <s:String x:Key="S.Error.UpdateUnsupported.Header">Unsupported</s:String>

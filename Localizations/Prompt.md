@@ -71,7 +71,7 @@ The agent must output languages in exactly this order:
 5. es  
 6. es-AR  
 7. fr  
-8. ia  
+8. ia (interlingua) 
 9. it  
 10. ja  
 11. nl  

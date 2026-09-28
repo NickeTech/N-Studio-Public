@@ -71,6 +71,9 @@
     <s:String x:Key="S.Imperative.Resize">Αλλαγή μεγέθους</s:String>
     <s:String x:Key="S.Imperative.Search">Αναζήτηση</s:String>
     <s:String x:Key="S.Imperative.ChangeDrive">Αλλαγή μονάδας δίσκου</s:String>
+    <s:String x:Key="S.Imperative.Test">Δοκίμασε</s:String>
+    <s:String x:Key="S.Imperative.Repair">Επιδιόρθωσε</s:String>
+    <s:String x:Key="S.Imperative.RunAll">Εκτέλεσε όλα</s:String>
 
     <!--Time • Referential-->
     <s:String x:Key="S.Time.Ago.Seconds">πριν λίγα δευτερόλεπτα</s:String>
@@ -141,6 +144,65 @@
     <s:String x:Key="S.Dialog.FirstTime.AfterRecording">Μετά την εγγραφή, εμφάνιση...</s:String>
     <s:String x:Key="S.Dialog.FirstTime.CacheLocation">Αποθήκευση εγγραφών και έργων σε...</s:String>
     <s:String x:Key="S.Dialog.FirstTime.CacheLocation.Low">Λίγος χώρος</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.DownloadPlugins">Λήψη κοινών προσθηκών (~100 MiB)</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.DownloadPlugins.Info">Λήψη του FFmpeg, που χρησιμοποιείται για εξαγωγή βίντεο</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.RunTests">Εκτέλεση γρήγορου τεστ για εντοπισμό προβλημάτων</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.RunTests.Info">Εκτελεί τεστ για πρόσβαση δίσκου, εγγραφή οθόνης και ήχου</s:String>
+
+    <!--Dialogs • Troubleshooter-->
+    <s:String x:Key="S.Dialog.Troubleshooter.Header">Εργαλείο αντιμετώπισης προβλημάτων</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Subtitle">Ελέγξτε αν οι βασικές λειτουργίες της εφαρμογής λειτουργούν και δοκιμάστε να τις επαναφέρετε.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Header2">Μετά την εγκατάσταση</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Subtitle2">Βασικές προετοιμασίες και δοκιμές για να διασφαλιστεί ότι όλα λειτουργούν.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.FolderAccess.Title">Πρόσβαση φακέλου</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.FolderAccess.Description">Ελέγχει αν η εφαρμογή έχει πρόσβαση στον φάκελο cache</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.FFmpeg.Title">FFmpeg</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.FFmpeg.Description">Χρησιμοποιείται για εξαγωγή βίντεο/κινούμενων γραφικών</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.Screen.Title">Εγγραφή οθόνης</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.Screen.Description">Επαληθεύει ότι η λειτουργία καταγραφής οθόνης λειτουργεί</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.Audio.Title">Εγγραφή ήχου</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.Audio.Description">Επαληθεύει ότι η λειτουργία καταγραφής ήχου λειτουργεί</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Result.Passed">Επιτυχής</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Result.Failed">Αποτυχία – {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Result.FailedShort">Αποτυχία</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.CacheReadMismatch">Το περιεχόμενο που διαβάστηκε από το cache δεν ταιριάζει με το περιεχόμενο που γράφτηκε.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.AppDataReadMismatch">Το περιεχόμενο που διαβάστηκε από το AppData δεν ταιριάζει με το περιεχόμενο που γράφτηκε.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.CachePathMissing">Η διαδρομή cache δεν έχει ρυθμιστεί ή είναι κενή.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegNotFound">Το FFmpeg δεν βρέθηκε. Ελέγχθηκαν ο φάκελος της εφαρμογής, ο φάκελος plugins, τα ProgramData και το PATH του συστήματος.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegLocationInvalid">Η διαδρομή FFmpeg είναι κενή ή το αρχείο δεν υπάρχει.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionEmptyOutput">Το FFmpeg επέστρεψε κενή έξοδο. Το εκτελέσιμο μπορεί να είναι κατεστραμμένο ή ασύμβατο.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionCommandFailed">Η εντολή FFmpeg -version απέτυχε. Έξοδος: {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionUnknown">Δεν ήταν δυνατός ο προσδιορισμός της έκδοσης FFmpeg από την έξοδο.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionOld">Η έκδοση FFmpeg {0} είναι παλαιότερη από την 6.0. Παρακαλώ ενημερώστε σε νεότερη έκδοση.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingFailed">Η κωδικοποίηση FFmpeg απέτυχε.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingOutputMissing">Η κωδικοποίηση FFmpeg απέτυχε. Το αρχείο εξόδου δεν δημιουργήθηκε.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingOutputEmpty">Η κωδικοποίηση FFmpeg απέτυχε. Το αρχείο εξόδου είναι κενό.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegDownloadFailed">Η λήψη FFmpeg από GitHub και API απέτυχε.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegAssetMissing">Δεν βρέθηκε συμβατό FFmpeg asset στην τελευταία έκδοση του GitHub.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegExtractionFailed">Η εξαγωγή του FFmpeg από το αρχείο απέτυχε.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegApiDownloadInvalid">Η λήψη FFmpeg από το API είχε ως αποτέλεσμα κενό ή μη διαθέσιμο αρχείο.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegExeMissingInArchive">Το ffmpeg.exe δεν βρέθηκε στο ληφθέν αρχείο.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.Unexpected">Μη αναμενόμενο σφάλμα: {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoMonitors">Δεν εντοπίστηκαν οθόνες.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoFramesCaptured">Δεν καταγράφηκαν καρέ.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.MonitorLabel">Οθόνη {0} ({1})</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.Position">κέντρο=({0}, {1})</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDevices">Δεν εντοπίστηκαν ενεργές συσκευές ήχου.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Output">Έξοδος</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Input">Είσοδος</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoActiveOutputStream">Δεν εντοπίστηκε ενεργή ροή συστήματος ήχου</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDataCaptured">Δεν καταγράφηκαν δεδομένα ήχου</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.CapturedBytes">Καταγράφηκαν {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestNotImplemented">Η δοκιμή δεν έχει υλοποιηθεί.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestPassed">Η δοκιμή ολοκληρώθηκε με επιτυχία.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestFailed">Η δοκιμή απέτυχε.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestCancelled">Η δοκιμή ακυρώθηκε.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestError">Σφάλμα δοκιμής: {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairNotAvailable">Η επιδιόρθωση δεν είναι διαθέσιμη για αυτή τη δοκιμή.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.Repairing">Γίνεται επιδιόρθωση...</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairCompleted">Η επιδιόρθωση ολοκληρώθηκε με επιτυχία.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairCancelled">Η επιδιόρθωση ακυρώθηκε.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairError">Σφάλμα επιδιόρθωσης: {0}</s:String>
 
     <!--Dialogs • Reset Styles-->
     <s:String x:Key="S.Dialog.ResetStyles.Header">Θέλετε να επαναφέρετε αυτές τις ρυθμίσεις;</s:String>
@@ -523,6 +585,11 @@
     <s:String x:Key="S.Success.SmoothLoop.Header">Βρέθηκε ομαλός βρόχος</s:String>
     <s:String x:Key="S.Success.SmoothLoop.Message">Βρέθηκε βρόχος με ομοιότητα {0:0.##}%</s:String>
 
+    <!--Info • Test underway-->
+    <s:String x:Key="S.Dialog.TroubleshooterAutoClose.Header">Δοκιμή σε εξέλιξη</s:String>
+    <s:String x:Key="S.Dialog.TroubleshooterAutoClose.Message">Αυτό το παράθυρο θα κλείσει αυτόματα αν όλα είναι εντάξει</s:String>
+    <s:String x:Key="S.Dialog.TroubleshooterAutoClose.Closing">Κλείσιμο σε {0}s</s:String>
+
     <!--Info • Pro feature-->
     <s:String x:Key="S.Info.ProFeature.Header">Μόνο για Pro</s:String>
     <s:String x:Key="S.Info.ProFeature.Message">Αναβαθμίστε για να ξεκλειδώσετε αυτή τη λειτουργία</s:String>
@@ -609,6 +676,9 @@
     <s:String x:Key="S.Error.FailedToSend.Header">Αποτυχία αποστολής σχολίων</s:String>
     <s:String x:Key="S.Error.FailedToSend.Description">Εξάγετε τα περιεχόμενα σχολίων ως zip και στείλτε τα στο email</s:String>
     <s:String x:Key="S.Error.FailedToSend.OpenEmail">Άνοιγμα email</s:String>
+
+    <!--Error • Test or repair failed-->
+    <s:String x:Key="S.Error.Troubleshooter.Header">Η αντιμετώπιση προβλημάτων απέτυχε</s:String>
 
     <!--Error • Update Unsupported-->
     <s:String x:Key="S.Error.UpdateUnsupported.Header">Μη υποστηριζόμενο</s:String>
