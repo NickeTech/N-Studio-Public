@@ -1,4 +1,4 @@
-﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:s="clr-namespace:System;assembly=mscorlib"
                     xml:space="preserve">
@@ -663,6 +663,10 @@
     <!--Warnings • No smooth loop found-->
     <s:String x:Key="S.Warning.SmoothLoopNotFound.Header">Ingen matchning hittades</s:String>
     <s:String x:Key="S.Warning.SmoothLoopNotFound.Message">Kunde inte hitta en lämplig loop‑punkt. Prova att justera likhetströskeln eller minimilängden.</s:String>
+
+    <!--Warnings • FFmpeg missing-->
+    <s:String x:Key="S.Warning.TroubleshooterFfmpeg.Header">FFmpeg saknas</s:String>
+    <s:String x:Key="S.Warning.TroubleshooterFfmpeg.Message">Videoexport är inte möjlig utan detta plugin</s:String>
 
     <!--Warnings • Graphics engine-->
     <s:String x:Key="S.Warning.Graphics.Title">Byt grafikadapter</s:String>

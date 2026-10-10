@@ -664,6 +664,10 @@
     <s:String x:Key="S.Warning.SmoothLoopNotFound.Header">Nulle correspondentia trovate</s:String>
     <s:String x:Key="S.Warning.SmoothLoopNotFound.Message">Impossibile trovar un puncto de bucla appropriate. Proba ajustar le threshold de similaritate o le longor minime.</s:String>
 
+    <!--Warnings • FFmpeg missing-->
+    <s:String x:Key="S.Warning.TroubleshooterFfmpeg.Header">FFmpeg manca</s:String>
+    <s:String x:Key="S.Warning.TroubleshooterFfmpeg.Message">Le exportation de video non es possibile sin iste plugin</s:String>
+
     <!--Warnings • Graphics engine-->
     <s:String x:Key="S.Warning.Graphics.Title">Cambiar adaptator de graphica</s:String>
     <s:String x:Key="S.Warning.Graphics.Instruction">Cambia al adaptator de graphica correcte pro capturar le schermo seligite</s:String>

@@ -664,6 +664,10 @@
     <s:String x:Key="S.Warning.SmoothLoopNotFound.Header">未找到匹配</s:String>
     <s:String x:Key="S.Warning.SmoothLoopNotFound.Message">找不到合適的循環點。請嘗試調整相似度閾值或最小長度。</s:String>
 
+    <!--Warnings • FFmpeg missing-->
+    <s:String x:Key="S.Warning.TroubleshooterFfmpeg.Header">缺少 FFmpeg</s:String>
+    <s:String x:Key="S.Warning.TroubleshooterFfmpeg.Message">沒有此外掛程式將無法匯出影片</s:String>
+
     <!--Warnings • Graphics engine-->
     <s:String x:Key="S.Warning.Graphics.Title">切換圖形適配器</s:String>
     <s:String x:Key="S.Warning.Graphics.Instruction">切換到正確的圖形適配器以捕獲所選的螢幕</s:String>

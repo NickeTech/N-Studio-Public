@@ -664,6 +664,10 @@
     <s:String x:Key="S.Warning.SmoothLoopNotFound.Header">Intet match fundet</s:String>
     <s:String x:Key="S.Warning.SmoothLoopNotFound.Message">Kunne ikke finde et passende sløjfepunkt. Prøv at justere lighedstærsklen eller minimumslængden.</s:String>
 
+    <!--Warnings • FFmpeg missing-->
+    <s:String x:Key="S.Warning.TroubleshooterFfmpeg.Header">FFmpeg mangler</s:String>
+    <s:String x:Key="S.Warning.TroubleshooterFfmpeg.Message">Videoeksport er ikke mulig uden dette plugin</s:String>
+
     <!--Warnings • Graphics engine-->
     <s:String x:Key="S.Warning.Graphics.Title">Skift grafikadapter</s:String>
     <s:String x:Key="S.Warning.Graphics.Instruction">Skift til den korrekte grafikadapter for at optage den valgte skærm</s:String>

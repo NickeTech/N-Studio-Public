@@ -664,6 +664,10 @@
     <s:String x:Key="S.Warning.SmoothLoopNotFound.Header">Совпадений не найдено</s:String>
     <s:String x:Key="S.Warning.SmoothLoopNotFound.Message">Не удалось найти подходящую точку цикла. Попробуйте изменить порог сходства или минимальную длину.</s:String>
 
+    <!--Warnings • FFmpeg missing-->
+    <s:String x:Key="S.Warning.TroubleshooterFfmpeg.Header">FFmpeg отсутствует</s:String>
+    <s:String x:Key="S.Warning.TroubleshooterFfmpeg.Message">Экспорт видео будет невозможен без этого плагина</s:String>
+
     <!--Warnings • Graphics engine-->
     <s:String x:Key="S.Warning.Graphics.Title">Переключить графический адаптер</s:String>
     <s:String x:Key="S.Warning.Graphics.Instruction">Переключитесь на правильный графический адаптер, чтобы захватить выбранный экран</s:String>

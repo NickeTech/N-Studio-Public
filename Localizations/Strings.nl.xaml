@@ -664,6 +664,10 @@
     <s:String x:Key="S.Warning.SmoothLoopNotFound.Header">Geen overeenkomst gevonden</s:String>
     <s:String x:Key="S.Warning.SmoothLoopNotFound.Message">Kon geen geschikt luspunt vinden. Probeer de similariteitsdrempel of minimale lengte aan te passen.</s:String>
 
+    <!--Warnings • FFmpeg missing-->
+    <s:String x:Key="S.Warning.TroubleshooterFfmpeg.Header">FFmpeg ontbreekt</s:String>
+    <s:String x:Key="S.Warning.TroubleshooterFfmpeg.Message">Video exporteren is niet mogelijk zonder deze plug‑in</s:String>
+
     <!--Warnings • Graphics engine-->
     <s:String x:Key="S.Warning.Graphics.Title">Wissel grafische adapter</s:String>
     <s:String x:Key="S.Warning.Graphics.Instruction">Schakel over naar de juiste grafische adapter om het geselecteerde scherm vast te leggen</s:String>

@@ -664,6 +664,10 @@
     <s:String x:Key="S.Warning.SmoothLoopNotFound.Header">Kein Treffer gefunden</s:String>
     <s:String x:Key="S.Warning.SmoothLoopNotFound.Message">Es konnte kein geeigneter Schleifenpunkt gefunden werden. Versuchen Sie, die Ähnlichkeitsschwelle oder die Mindestlänge anzupassen.</s:String>
 
+    <!--Warnings • FFmpeg missing-->
+    <s:String x:Key="S.Warning.TroubleshooterFfmpeg.Header">FFmpeg fehlt</s:String>
+    <s:String x:Key="S.Warning.TroubleshooterFfmpeg.Message">Der Videoexport ist ohne dieses Plugin nicht möglich</s:String>
+
     <!--Warnings • Graphics engine-->
     <s:String x:Key="S.Warning.Graphics.Title">Grafikadapter wechseln</s:String>
     <s:String x:Key="S.Warning.Graphics.Instruction">Wechsle zum richtigen Grafikadapter, um den ausgewählten Bildschirm zu erfassen</s:String>

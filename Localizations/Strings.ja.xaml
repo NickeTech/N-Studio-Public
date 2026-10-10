@@ -664,6 +664,10 @@
     <s:String x:Key="S.Warning.SmoothLoopNotFound.Header">一致が見つかりません</s:String>
     <s:String x:Key="S.Warning.SmoothLoopNotFound.Message">適切なループポイントが見つかりませんでした。類似度の閾値または最小長を調整してみてください。</s:String>
 
+    <!--Warnings • FFmpeg missing-->
+    <s:String x:Key="S.Warning.TroubleshooterFfmpeg.Header">FFmpeg がありません</s:String>
+    <s:String x:Key="S.Warning.TroubleshooterFfmpeg.Message">このプラグインがないと動画を書き出せません</s:String>
+
     <!--Warnings • Graphics engine-->
     <s:String x:Key="S.Warning.Graphics.Title">グラフィックスアダプターを切り替える</s:String>
     <s:String x:Key="S.Warning.Graphics.Instruction">選択した画面をキャプチャするには正しいグラフィックスアダプターに切り替えてください</s:String>

@@ -664,6 +664,10 @@
     <!--<s:String x:Key="S.Warning.SmoothLoopNotFound.Header">No se encontró coincidencia</s:String>-->
     <!--<s:String x:Key="S.Warning.SmoothLoopNotFound.Message">No se pudo encontrar un punto de bucle adecuado. Intenta ajustar el umbral de similitud o la longitud mínima.</s:String>-->
 
+    <!--Warnings • FFmpeg missing-->
+    <!--<s:String x:Key="S.Warning.TroubleshooterFfmpeg.Header">Falta FFmpeg</s:String>-->
+    <!--<s:String x:Key="S.Warning.TroubleshooterFfmpeg.Message">La exportación de video no será posible sin este complemento</s:String>-->
+
     <!--Warnings • Graphics engine-->
     <!--<s:String x:Key="S.Warning.Graphics.Title">Cambiar adaptador gráfico</s:String>-->
     <!--<s:String x:Key="S.Warning.Graphics.Instruction">Cambia al adaptador gráfico correcto para capturar la pantalla seleccionada</s:String>-->

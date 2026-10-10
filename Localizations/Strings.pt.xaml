@@ -664,6 +664,10 @@
     <s:String x:Key="S.Warning.SmoothLoopNotFound.Header">Nenhuma correspondência encontrada</s:String>
     <s:String x:Key="S.Warning.SmoothLoopNotFound.Message">Não foi possível encontrar um ponto de loop adequado. Tente ajustar o limite de similaridade ou o comprimento mínimo.</s:String>
 
+    <!--Warnings • FFmpeg missing-->
+    <s:String x:Key="S.Warning.TroubleshooterFfmpeg.Header">FFmpeg ausente</s:String>
+    <s:String x:Key="S.Warning.TroubleshooterFfmpeg.Message">A exportação de vídeo não será possível sem este plugin</s:String>
+
     <!--Warnings • Graphics engine-->
     <s:String x:Key="S.Warning.Graphics.Title">Alternar Adaptador Gráfico</s:String>
     <s:String x:Key="S.Warning.Graphics.Instruction">Alterne para o adaptador gráfico correto para capturar a tela selecionada</s:String>

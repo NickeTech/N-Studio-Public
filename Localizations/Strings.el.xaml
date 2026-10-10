@@ -664,6 +664,10 @@
     <s:String x:Key="S.Warning.SmoothLoopNotFound.Header">Δεν βρέθηκε αντιστοίχιση</s:String>
     <s:String x:Key="S.Warning.SmoothLoopNotFound.Message">Δεν βρέθηκε κατάλληλο σημείο βρόχου. Δοκιμάστε να προσαρμόσετε το όριο ομοιότητας ή το ελάχιστο μήκος.</s:String>
 
+    <!--Warnings • FFmpeg missing-->
+    <s:String x:Key="S.Warning.TroubleshooterFfmpeg.Header">Το FFmpeg λείπει</s:String>
+    <s:String x:Key="S.Warning.TroubleshooterFfmpeg.Message">Η εξαγωγή βίντεο δεν είναι δυνατή χωρίς αυτό το πρόσθετο</s:String>
+
     <!--Warnings • Graphics engine-->
     <s:String x:Key="S.Warning.Graphics.Title">Αλλαγή προσαρμογέα γραφικών</s:String>
     <s:String x:Key="S.Warning.Graphics.Instruction">Μεταβείτε στον σωστό προσαρμογέα γραφικών για να καταγράψετε την επιλεγμένη οθόνη</s:String>

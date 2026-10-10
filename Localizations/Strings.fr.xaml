@@ -664,6 +664,10 @@
     <s:String x:Key="S.Warning.SmoothLoopNotFound.Header">Aucune correspondance trouvée</s:String>
     <s:String x:Key="S.Warning.SmoothLoopNotFound.Message">Impossible de trouver un point de boucle approprié. Essayez d’ajuster le seuil de similarité ou la longueur minimale.</s:String>
 
+    <!--Warnings • FFmpeg missing-->
+    <s:String x:Key="S.Warning.TroubleshooterFfmpeg.Header">FFmpeg manquant</s:String>
+    <s:String x:Key="S.Warning.TroubleshooterFfmpeg.Message">L’exportation vidéo sera impossible sans ce module</s:String>
+
     <!--Warnings • Graphics engine-->
     <s:String x:Key="S.Warning.Graphics.Title">Changer d'adaptateur graphique</s:String>
     <s:String x:Key="S.Warning.Graphics.Instruction">Changez d'adaptateur graphique pour capturer l'écran sélectionné</s:String>
