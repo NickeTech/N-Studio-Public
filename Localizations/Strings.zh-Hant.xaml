@@ -26,6 +26,7 @@
     <s:String x:Key="S.Imperative.Discard">放棄</s:String>
     <s:String x:Key="S.Imperative.Delete">刪除</s:String>
     <s:String x:Key="S.Imperative.Reload">重新載入</s:String>
+    <s:String x:Key="S.Imperative.Back">返回</s:String>
     <s:String x:Key="S.Imperative.Remove">移除</s:String>
     <s:String x:Key="S.Imperative.RemoveAll">全部移除</s:String>
     <s:String x:Key="S.Imperative.Insert">插入</s:String>

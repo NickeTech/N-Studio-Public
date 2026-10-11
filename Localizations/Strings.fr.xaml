@@ -26,6 +26,7 @@
     <s:String x:Key="S.Imperative.Discard">Rejeter</s:String>
     <s:String x:Key="S.Imperative.Delete">Supprimer</s:String>
     <s:String x:Key="S.Imperative.Reload">Recharger</s:String>
+    <s:String x:Key="S.Imperative.Back">Retour</s:String>
     <s:String x:Key="S.Imperative.Remove">Retirer</s:String>
     <s:String x:Key="S.Imperative.RemoveAll">Tout retirer</s:String>
     <s:String x:Key="S.Imperative.Insert">Insérer</s:String>

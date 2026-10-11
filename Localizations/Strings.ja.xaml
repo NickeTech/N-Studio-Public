@@ -26,6 +26,7 @@
     <s:String x:Key="S.Imperative.Discard">破棄</s:String>
     <s:String x:Key="S.Imperative.Delete">削除</s:String>
     <s:String x:Key="S.Imperative.Reload">再読み込み</s:String>
+    <s:String x:Key="S.Imperative.Back">戻る</s:String>
     <s:String x:Key="S.Imperative.Remove">削除</s:String>
     <s:String x:Key="S.Imperative.RemoveAll">すべて削除</s:String>
     <s:String x:Key="S.Imperative.Insert">挿入</s:String>

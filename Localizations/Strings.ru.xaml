@@ -26,6 +26,7 @@
     <s:String x:Key="S.Imperative.Discard">Отменить</s:String>
     <s:String x:Key="S.Imperative.Delete">Удалить</s:String>
     <s:String x:Key="S.Imperative.Reload">Перезагрузить</s:String>
+    <s:String x:Key="S.Imperative.Back">Назад</s:String>
     <s:String x:Key="S.Imperative.Remove">Удалить</s:String>
     <s:String x:Key="S.Imperative.RemoveAll">Удалить все</s:String>
     <s:String x:Key="S.Imperative.Insert">Вставить</s:String>

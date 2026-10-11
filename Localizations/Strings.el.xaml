@@ -26,6 +26,7 @@
     <s:String x:Key="S.Imperative.Discard">Απόρριψη</s:String>
     <s:String x:Key="S.Imperative.Delete">Διαγραφή</s:String>
     <s:String x:Key="S.Imperative.Reload">Ανανέωση</s:String>
+    <s:String x:Key="S.Imperative.Back">Πίσω</s:String>
     <s:String x:Key="S.Imperative.Remove">Αφαίρεση</s:String>
     <s:String x:Key="S.Imperative.RemoveAll">Αφαίρεση όλων</s:String>
     <s:String x:Key="S.Imperative.Insert">Εισαγωγή</s:String>

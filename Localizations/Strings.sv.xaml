@@ -26,6 +26,7 @@
     <s:String x:Key="S.Imperative.Discard">Kassera</s:String>
     <s:String x:Key="S.Imperative.Delete">Ta bort</s:String>
     <s:String x:Key="S.Imperative.Reload">Ladda om</s:String>
+    <s:String x:Key="S.Imperative.Back">Tillbaka</s:String>
     <s:String x:Key="S.Imperative.Remove">Ta bort</s:String>
     <s:String x:Key="S.Imperative.RemoveAll">Ta bort alla</s:String>
     <s:String x:Key="S.Imperative.Insert">Infoga</s:String>

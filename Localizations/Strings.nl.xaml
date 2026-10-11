@@ -26,6 +26,7 @@
     <s:String x:Key="S.Imperative.Discard">Weggooien</s:String>
     <s:String x:Key="S.Imperative.Delete">Verwijderen</s:String>
     <s:String x:Key="S.Imperative.Reload">Opnieuw laden</s:String>
+    <s:String x:Key="S.Imperative.Back">Terug</s:String>
     <s:String x:Key="S.Imperative.Remove">Verwijderen</s:String>
     <s:String x:Key="S.Imperative.RemoveAll">Alles verwijderen</s:String>
     <s:String x:Key="S.Imperative.Insert">Invoegen</s:String>
