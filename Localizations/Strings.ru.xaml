@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Машинный перевод (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-19</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-10-11</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Принять</s:String>
@@ -186,8 +186,6 @@
     <s:String x:Key="S.Dialog.Troubleshooter.Error.Unexpected">Непредвиденная ошибка: {0}</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoMonitors">Мониторы не обнаружены.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoFramesCaptured">Кадры не были захвачены.</s:String>
-    <s:String x:Key="S.Dialog.Troubleshooter.Screen.MonitorLabel">Экран {0} ({1})</s:String>
-    <s:String x:Key="S.Dialog.Troubleshooter.Screen.Position">центр=({0}, {1})</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDevices">Активные аудиоустройства не обнаружены.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Output">Вывод</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Input">Ввод</s:String>
@@ -521,6 +519,14 @@
     <!--Validation • Missing input/output parameters-->
     <s:String x:Key="S.Validation.MissingParameters.Header">Недостающие параметры</s:String>
     <s:String x:Key="S.Validation.MissingParameters.Message">В поле параметров отсутствуют специальные параметры {input} и/или {output}</s:String>
+
+    <!--Validation • Invalid audio codec-->
+    <s:String x:Key="S.Validation.InvalidAudioCodec.Header">Недопустимый аудиокодек</s:String>
+    <s:String x:Key="S.Validation.InvalidAudioCodec.Webm.Message">Аудио WebM должно использовать Opus или Vorbis</s:String>
+
+    <!--Validation • Invalid audio sample rate-->
+    <s:String x:Key="S.Validation.InvalidAudioSampleRate.Header">Недопустимая частота дискретизации аудио</s:String>
+    <s:String x:Key="S.Validation.InvalidAudioSampleRate.Opus.Message">Частота дискретизации Opus должна быть 48000, 24000, 16000, 12000 или 8000 Гц</s:String>
 
     <!--Validation • No export type-->
     <s:String x:Key="S.Validation.NoExport.Header">Не выбран экспорт</s:String>
@@ -1681,6 +1687,8 @@
     <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown">Показывать обратный отсчёт</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.Info">Ждёт заданное время перед записью</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.WaitTime">Время ожидания</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.WhenOverlapping">Принудительно показывать обратный отсчёт и сворачивать интерфейс при перекрытии области захвата</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.WhenOverlapping.Info">Если область захвата перекрывает элементы управления, принудительно показывать обратный отсчёт и сворачивать интерфейс</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.ShowDiscardOnRecording">Показывать кнопку отмены во время записи</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.ShowDiscardOnRecording.Info">Обычно она видна только при паузе</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.AskBeforeDiscarding">Спрашивать меня перед удалением записи</s:String>

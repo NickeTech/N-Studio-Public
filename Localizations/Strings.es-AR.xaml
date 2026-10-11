@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Traducido por máquina (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-19</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-10-11</s:DateTime>
 
     <!--Imperative-->
     <!--<s:String x:Key="S.Imperative.Accept">Aceptar</s:String>-->
@@ -186,8 +186,6 @@
     <!--<s:String x:Key="S.Dialog.Troubleshooter.Error.Unexpected">Error inesperado: {0}</s:String>-->
     <!--<s:String x:Key="S.Dialog.Troubleshooter.Screen.NoMonitors">No se detectaron monitores.</s:String>-->
     <!--<s:String x:Key="S.Dialog.Troubleshooter.Screen.NoFramesCaptured">No se capturaron fotogramas.</s:String>-->
-    <!--<s:String x:Key="S.Dialog.Troubleshooter.Screen.MonitorLabel">Pantalla {0} ({1})</s:String>-->
-    <!--<s:String x:Key="S.Dialog.Troubleshooter.Screen.Position">centro=({0}, {1})</s:String>-->
     <!--<s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDevices">No se detectaron dispositivos de audio activos.</s:String>-->
     <!--<s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Output">Salida</s:String>-->
     <!--<s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Input">Entrada</s:String>-->
@@ -521,6 +519,14 @@
     <!--Validation • Missing input/output parameters-->
     <!--<s:String x:Key="S.Validation.MissingParameters.Header">Parámetros faltantes</s:String>-->
     <!--<s:String x:Key="S.Validation.MissingParameters.Message">Los parámetros especiales {input} y/o {output} faltan en el campo de parámetros</s:String>-->
+
+    <!--Validation • Invalid audio codec-->
+    <!--<s:String x:Key="S.Validation.InvalidAudioCodec.Header">Códec de audio no válido</s:String>-->
+    <!--<s:String x:Key="S.Validation.InvalidAudioCodec.Webm.Message">El audio WebM debe usar Opus o Vorbis</s:String>-->
+
+    <!--Validation • Invalid audio sample rate-->
+    <!--<s:String x:Key="S.Validation.InvalidAudioSampleRate.Header">Frecuencia de muestreo de audio no válida</s:String>-->
+    <!--<s:String x:Key="S.Validation.InvalidAudioSampleRate.Opus.Message">La frecuencia de muestreo de Opus debe ser 48000, 24000, 16000, 12000 o 8000 Hz</s:String>-->
 
     <!--Validation • No export type-->
     <!--<s:String x:Key="S.Validation.NoExport.Header">Ninguna exportación seleccionada</s:String>-->
@@ -1681,6 +1687,8 @@
     <!--<s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown">Mostrar cuenta regresiva</s:String>-->
     <!--<s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.Info">Espera un tiempo determinado antes de grabar</s:String>-->
     <!--<s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.WaitTime">Tiempo de espera</s:String>-->
+    <!--<s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.WhenOverlapping">Forzar la visualización de la cuenta regresiva y minimizar la interfaz cuando haya superposición con la región de captura</s:String>-->
+    <!--<s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.WhenOverlapping.Info">Cuando la región de captura se superpone con los controles de captura, se fuerza la visualización de una cuenta regresiva y se minimiza la interfaz</s:String>-->
     <!--<s:String x:Key="S.Settings.ScreenRecorder.ShowDiscardOnRecording">Mostrar botón de descartar durante la grabación</s:String>-->
     <!--<s:String x:Key="S.Settings.ScreenRecorder.ShowDiscardOnRecording.Info">Normalmente solo es visible cuando está en pausa</s:String>-->
     <!--<s:String x:Key="S.Settings.ScreenRecorder.AskBeforeDiscarding">Preguntarme antes de descartar la grabación</s:String>-->

@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">Nicke Manarin</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-19</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-10-11</s:DateTime>
 
     <!--Imperative-->
     <!--<s:String x:Key="S.Imperative.Accept">Aceitar</s:String>-->
@@ -186,8 +186,6 @@
     <!-- <s:String x:Key="S.Dialog.Troubleshooter.Error.Unexpected">Erro inesperado: {0}</s:String> -->
     <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoMonitors">Nenhum monitor detetado.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoFramesCaptured">Nenhum fotograma capturado.</s:String>
-    <s:String x:Key="S.Dialog.Troubleshooter.Screen.MonitorLabel">Ecrã {0} ({1})</s:String>
-    <!-- <s:String x:Key="S.Dialog.Troubleshooter.Screen.Position">centro=({0}, {1})</s:String> -->
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDevices">Nenhum dispositivo de áudio ativo detetado.</s:String>
     <!-- <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Output">Saída</s:String> -->
     <!-- <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Input">Entrada</s:String> -->
@@ -521,6 +519,14 @@
     <!--Validation • Missing input/output parameters-->
     <!--<s:String x:Key="S.Validation.MissingParameters.Header">Parâmetros ausentes</s:String>-->
     <!--<s:String x:Key="S.Validation.MissingParameters.Message">Os parâmetros especiais {input} e/ou {output} estão ausentes no campo de parâmetros</s:String>-->
+
+    <!--Validation • Invalid audio codec-->
+    <!--<s:String x:Key="S.Validation.InvalidAudioCodec.Header">Codec de áudio inválido</s:String>-->
+    <!--<s:String x:Key="S.Validation.InvalidAudioCodec.Webm.Message">O áudio WebM deve usar Opus ou Vorbis</s:String>-->
+
+    <!--Validation • Invalid audio sample rate-->
+    <!--<s:String x:Key="S.Validation.InvalidAudioSampleRate.Header">Taxa de amostragem de áudio inválida</s:String>-->
+    <!--<s:String x:Key="S.Validation.InvalidAudioSampleRate.Opus.Message">A taxa de amostragem do Opus deve ser 48.000, 24.000, 16.000, 12.000 ou 8.000 Hz</s:String>-->
 
     <!--Validation • No export type-->
     <!--<s:String x:Key="S.Validation.NoExport.Header">Nenhuma exportação selecionada</s:String>-->
@@ -1681,6 +1687,8 @@
     <!--<s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown">Mostrar contagem regressiva</s:String>-->
     <!--<s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.Info">Aguarda um tempo determinado antes da gravação</s:String>-->
     <!--<s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.WaitTime">Tempo de espera</s:String>-->
+    <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.WhenOverlapping">Forçar a exibição da contagem decrescente e minimizar a interface quando houver sobreposição com a região de captura</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.WhenOverlapping.Info">Quando a região de captura se sobrepõe aos controlos, forçar a exibição da contagem decrescente e minimizar a interface</s:String>
     <!--<s:String x:Key="S.Settings.ScreenRecorder.ShowDiscardOnRecording">Mostrar o botão de descartar durante a gravação</s:String>-->
     <!--<s:String x:Key="S.Settings.ScreenRecorder.ShowDiscardOnRecording.Info">Normalmente, ele fica visível apenas quando pausado</s:String>-->
     <!--<s:String x:Key="S.Settings.ScreenRecorder.AskBeforeDiscarding">Perguntar antes de descartar a gravação</s:String>-->

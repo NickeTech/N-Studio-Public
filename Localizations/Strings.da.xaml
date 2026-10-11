@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Maskinoversat (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-19</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-10-11</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Accepter</s:String>
@@ -186,8 +186,6 @@
     <s:String x:Key="S.Dialog.Troubleshooter.Error.Unexpected">Uventet fejl: {0}</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoMonitors">Ingen skærme fundet.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoFramesCaptured">Ingen frames optaget.</s:String>
-    <s:String x:Key="S.Dialog.Troubleshooter.Screen.MonitorLabel">Skærm {0} ({1})</s:String>
-    <!-- <s:String x:Key="S.Dialog.Troubleshooter.Screen.Position">center=({0}, {1})</s:String> -->
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDevices">Ingen aktive lydenheder fundet.</s:String>
     <!-- <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Output">Output</s:String> -->
     <!-- <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Input">Input</s:String> -->
@@ -521,6 +519,14 @@
     <!--Validation • Missing input/output parameters-->
     <s:String x:Key="S.Validation.MissingParameters.Header">Manglende parametre</s:String>
     <s:String x:Key="S.Validation.MissingParameters.Message">De specielle parametre {input} og/eller {output} mangler i parameterfeltet</s:String>
+
+    <!--Validation • Invalid audio codec-->
+    <s:String x:Key="S.Validation.InvalidAudioCodec.Header">Ugyldig lydcodec</s:String>
+    <s:String x:Key="S.Validation.InvalidAudioCodec.Webm.Message">WebM-lyd skal bruge Opus eller Vorbis</s:String>
+
+    <!--Validation • Invalid audio sample rate-->
+    <s:String x:Key="S.Validation.InvalidAudioSampleRate.Header">Ugyldig lydsamplingsfrekvens</s:String>
+    <s:String x:Key="S.Validation.InvalidAudioSampleRate.Opus.Message">Opus-samplingsfrekvens skal være 48000, 24000, 16000, 12000 eller 8000 Hz</s:String>
 
     <!--Validation • No export type-->
     <s:String x:Key="S.Validation.NoExport.Header">Intet eksport valgt</s:String>
@@ -1681,6 +1687,8 @@
     <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown">Vis nedtælling</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.Info">Venter et givet tidspunkt før optagelsen</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.WaitTime">Ventetid</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.WhenOverlapping">Gennemtving nedtælling og minimer UI, når området overlapper optagelsen</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.WhenOverlapping.Info">Når optagelsesområdet overlapper optagekontrollerne, gennemtving visning af en nedtælling og minimer UI</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.ShowDiscardOnRecording">Vis kassér-knappen under optagelse</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.ShowDiscardOnRecording.Info">Normalt er den kun synlig, når der er pause</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.AskBeforeDiscarding">Spørg mig før optagelsen kasseres</s:String>

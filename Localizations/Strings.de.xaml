@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Maschinell übersetzt (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-19</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-10-11</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Akzeptieren</s:String>
@@ -186,8 +186,6 @@
     <s:String x:Key="S.Dialog.Troubleshooter.Error.Unexpected">Unerwarteter Fehler: {0}</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoMonitors">Keine Monitore erkannt.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoFramesCaptured">Keine Frames aufgenommen.</s:String>
-    <s:String x:Key="S.Dialog.Troubleshooter.Screen.MonitorLabel">Bildschirm {0} ({1})</s:String>
-    <!-- <s:String x:Key="S.Dialog.Troubleshooter.Screen.Position">center=({0}, {1})</s:String> -->
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDevices">Keine aktiven Audiogeräte erkannt.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Output">Ausgabe</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Input">Eingabe</s:String>
@@ -521,6 +519,14 @@
     <!--Validation • Missing input/output parameters-->
     <s:String x:Key="S.Validation.MissingParameters.Header">Fehlende Parameter</s:String>
     <s:String x:Key="S.Validation.MissingParameters.Message">Die speziellen Parameter {input} und/oder {output} fehlen im Parameterfeld</s:String>
+
+    <!--Validation • Invalid audio codec-->
+    <s:String x:Key="S.Validation.InvalidAudioCodec.Header">Ungültiger Audiocodec</s:String>
+    <s:String x:Key="S.Validation.InvalidAudioCodec.Webm.Message">WebM-Audio muss Opus oder Vorbis verwenden</s:String>
+
+    <!--Validation • Invalid audio sample rate-->
+    <s:String x:Key="S.Validation.InvalidAudioSampleRate.Header">Ungültige Audio-Abtastrate</s:String>
+    <s:String x:Key="S.Validation.InvalidAudioSampleRate.Opus.Message">Die Opus-Abtastrate muss 48000, 24000, 16000, 12000 oder 8000 Hz betragen</s:String>
 
     <!--Validation • No export type-->
     <s:String x:Key="S.Validation.NoExport.Header">Kein Export ausgewählt</s:String>
@@ -1681,6 +1687,8 @@
     <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown">Countdown anzeigen</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.Info">Wartet vor der Aufnahme eine bestimmte Zeit</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.WaitTime">Wartezeit</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.WhenOverlapping">Countdown erzwingen und UI minimieren, wenn der Aufnahmebereich überlappt</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.WhenOverlapping.Info">Wenn der Aufnahmebereich die Aufnahmesteuerung überlappt, Countdown erzwingen und die UI minimieren</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.ShowDiscardOnRecording">Zeige die Verwerfen-Schaltfläche während der Aufnahme</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.ShowDiscardOnRecording.Info">Normalerweise ist sie nur sichtbar, wenn die Aufnahme pausiert ist</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.AskBeforeDiscarding">Frage mich, bevor du die Aufnahme verwirfst</s:String>

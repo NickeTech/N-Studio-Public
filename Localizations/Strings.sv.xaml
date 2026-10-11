@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Maskinöversatt (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-19</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-10-11</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Acceptera</s:String>
@@ -186,8 +186,6 @@
     <s:String x:Key="S.Dialog.Troubleshooter.Error.Unexpected">Oväntat fel: {0}</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoMonitors">Inga bildskärmar hittades.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoFramesCaptured">Inga bildrutor fångades.</s:String>
-    <s:String x:Key="S.Dialog.Troubleshooter.Screen.MonitorLabel">Skärm {0} ({1})</s:String>
-    <!-- <s:String x:Key="S.Dialog.Troubleshooter.Screen.Position">center=({0}, {1})</s:String> -->
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDevices">Inga aktiva ljudenheter hittades.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Output">Utgång</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Input">Ingång</s:String>
@@ -521,6 +519,14 @@
     <!--Validation • Missing input/output parameters-->
     <s:String x:Key="S.Validation.MissingParameters.Header">Saknade parametrar</s:String>
     <s:String x:Key="S.Validation.MissingParameters.Message">De speciella parametrarna {input} och/eller {output} saknas i parameterfältet</s:String>
+
+    <!--Validation • Invalid audio codec-->
+    <s:String x:Key="S.Validation.InvalidAudioCodec.Header">Ogiltig ljudcodec</s:String>
+    <s:String x:Key="S.Validation.InvalidAudioCodec.Webm.Message">WebM‑ljud måste använda Opus eller Vorbis</s:String>
+
+    <!--Validation • Invalid audio sample rate-->
+    <s:String x:Key="S.Validation.InvalidAudioSampleRate.Header">Ogiltig ljudsamplingsfrekvens</s:String>
+    <s:String x:Key="S.Validation.InvalidAudioSampleRate.Opus.Message">Opus‑samplingsfrekvens måste vara 48000, 24000, 16000, 12000 eller 8000 Hz</s:String>
 
     <!--Validation • No export type-->
     <s:String x:Key="S.Validation.NoExport.Header">Ingen export vald</s:String>
@@ -1681,6 +1687,8 @@
     <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown">Visa nedräkning</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.Info">Väntar en given tid innan inspelningen startar</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.WaitTime">Väntetid</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.WhenOverlapping">Tvinga nedräkning och minimera UI när området överlappar inspelningen</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.WhenOverlapping.Info">När inspelningsområdet överlappar kontrollerna, tvinga fram en nedräkning och minimera UI</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.ShowDiscardOnRecording">Visa kassera-knappen under inspelning</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.ShowDiscardOnRecording.Info">Normalt syns den endast när pausad</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.AskBeforeDiscarding">Fråga mig innan inspelningen kasseras</s:String>

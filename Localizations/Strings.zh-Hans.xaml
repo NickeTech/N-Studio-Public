@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">Anlv</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-19</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-10-11</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">接受</s:String>
@@ -186,8 +186,6 @@
     <s:String x:Key="S.Dialog.Troubleshooter.Error.Unexpected">意外错误：{0}</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoMonitors">未检测到显示器。</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoFramesCaptured">未捕获到任何帧。</s:String>
-    <s:String x:Key="S.Dialog.Troubleshooter.Screen.MonitorLabel">屏幕 {0} ({1})</s:String>
-    <s:String x:Key="S.Dialog.Troubleshooter.Screen.Position">center=({0}, {1})</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDevices">未检测到活动音频设备。</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Output">输出</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Input">输入</s:String>
@@ -521,6 +519,14 @@
     <!--Validation • Missing input/output parameters-->
     <s:String x:Key="S.Validation.MissingParameters.Header">缺少参数</s:String>
     <s:String x:Key="S.Validation.MissingParameters.Message">参数字段中缺少特殊参数 {input} 和/或 {output}</s:String>
+
+    <!--Validation • Invalid audio codec-->
+    <s:String x:Key="S.Validation.InvalidAudioCodec.Header">无效的音频编码器</s:String>
+    <s:String x:Key="S.Validation.InvalidAudioCodec.Webm.Message">WebM 音频必须使用 Opus 或 Vorbis</s:String>
+
+    <!--Validation • Invalid audio sample rate-->
+    <s:String x:Key="S.Validation.InvalidAudioSampleRate.Header">无效的音频采样率</s:String>
+    <s:String x:Key="S.Validation.InvalidAudioSampleRate.Opus.Message">Opus 的采样率必须为 48000、24000、16000、12000 或 8000 Hz</s:String>
 
     <!--Validation • No export type-->
     <s:String x:Key="S.Validation.NoExport.Header">未选择导出</s:String>
@@ -1681,6 +1687,8 @@
     <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown">显示倒计时</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.Info">在录制前等待指定时间</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.WaitTime">等待时间</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.WhenOverlapping">在与捕获区域重叠时强制显示倒计时并最小化界面</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.WhenOverlapping.Info">当捕获区域与控制面板重叠时，强制显示倒计时并最小化界面</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.ShowDiscardOnRecording">录制时显示放弃按钮</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.ShowDiscardOnRecording.Info">通常只在暂停时显示</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.AskBeforeDiscarding">放弃录制前询问</s:String>

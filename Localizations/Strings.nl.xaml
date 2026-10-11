@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Door machine vertaald (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-19</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-10-11</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Accepteren</s:String>
@@ -186,8 +186,6 @@
     <s:String x:Key="S.Dialog.Troubleshooter.Error.Unexpected">Onverwachte fout: {0}</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoMonitors">Geen monitoren gedetecteerd.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoFramesCaptured">Geen frames vastgelegd.</s:String>
-    <s:String x:Key="S.Dialog.Troubleshooter.Screen.MonitorLabel">Scherm {0} ({1})</s:String>
-    <s:String x:Key="S.Dialog.Troubleshooter.Screen.Position">center=({0}, {1})</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDevices">Geen actieve audioapparaten gedetecteerd.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Output">Uitgang</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Input">Ingang</s:String>
@@ -521,6 +519,14 @@
     <!--Validation • Missing input/output parameters-->
     <s:String x:Key="S.Validation.MissingParameters.Header">Ontbrekende parameters</s:String>
     <s:String x:Key="S.Validation.MissingParameters.Message">De speciale parameters {input} en/of {output} ontbreken in het parametersveld</s:String>
+
+    <!--Validation • Invalid audio codec-->
+    <s:String x:Key="S.Validation.InvalidAudioCodec.Header">Ongeldige audiocodec</s:String>
+    <s:String x:Key="S.Validation.InvalidAudioCodec.Webm.Message">WebM-audio moet Opus of Vorbis gebruiken</s:String>
+
+    <!--Validation • Invalid audio sample rate-->
+    <s:String x:Key="S.Validation.InvalidAudioSampleRate.Header">Ongeldige audiosamplefrequentie</s:String>
+    <s:String x:Key="S.Validation.InvalidAudioSampleRate.Opus.Message">De Opus-samplefrequentie moet 48000, 24000, 16000, 12000 of 8000 Hz zijn</s:String>
 
     <!--Validation • No export type-->
     <s:String x:Key="S.Validation.NoExport.Header">Geen export geselecteerd</s:String>
@@ -1681,6 +1687,8 @@
     <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown">Toon aftellen</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.Info">Wacht een bepaalde tijd voor de opname</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.WaitTime">Wachtijd</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.WhenOverlapping">Aftellen forceren en UI minimaliseren wanneer het opnamegebied overlapt</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.WhenOverlapping.Info">Wanneer het opnamegebied de bedieningsknoppen overlapt, wordt het aftellen geforceerd en de UI geminimaliseerd</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.ShowDiscardOnRecording">Toon de verwijderknop tijdens het opnemen</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.ShowDiscardOnRecording.Info">Normaal is het alleen zichtbaar wanneer gepauzeerd</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.AskBeforeDiscarding">Vraag het mij voordat je de opname weggooit</s:String>

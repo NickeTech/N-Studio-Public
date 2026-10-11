@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Μεταφρασμένο μηχανικά (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-19</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-10-11</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Αποδοχή</s:String>
@@ -186,8 +186,6 @@
     <s:String x:Key="S.Dialog.Troubleshooter.Error.Unexpected">Μη αναμενόμενο σφάλμα: {0}</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoMonitors">Δεν εντοπίστηκαν οθόνες.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoFramesCaptured">Δεν καταγράφηκαν καρέ.</s:String>
-    <s:String x:Key="S.Dialog.Troubleshooter.Screen.MonitorLabel">Οθόνη {0} ({1})</s:String>
-    <s:String x:Key="S.Dialog.Troubleshooter.Screen.Position">κέντρο=({0}, {1})</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDevices">Δεν εντοπίστηκαν ενεργές συσκευές ήχου.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Output">Έξοδος</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Input">Είσοδος</s:String>
@@ -521,6 +519,14 @@
     <!--Validation • Missing input/output parameters-->
     <s:String x:Key="S.Validation.MissingParameters.Header">Λείπουν παράμετροι</s:String>
     <s:String x:Key="S.Validation.MissingParameters.Message">Λείπουν οι ειδικές παράμετροι {input} και/ή {output} από το πεδίο παραμέτρων</s:String>
+
+    <!--Validation • Invalid audio codec-->
+    <s:String x:Key="S.Validation.InvalidAudioCodec.Header">Μη έγκυρος κωδικοποιητής ήχου</s:String>
+    <s:String x:Key="S.Validation.InvalidAudioCodec.Webm.Message">Ο ήχος WebM πρέπει να χρησιμοποιεί Opus ή Vorbis</s:String>
+
+    <!--Validation • Invalid audio sample rate-->
+    <s:String x:Key="S.Validation.InvalidAudioSampleRate.Header">Μη έγκυρος ρυθμός δειγματοληψίας ήχου</s:String>
+    <s:String x:Key="S.Validation.InvalidAudioSampleRate.Opus.Message">Ο ρυθμός δειγματοληψίας Opus πρέπει να είναι 48000, 24000, 16000, 12000 ή 8000 Hz</s:String>
 
     <!--Validation • No export type-->
     <s:String x:Key="S.Validation.NoExport.Header">Δεν έχει επιλεγεί εξαγωγή</s:String>
@@ -1681,6 +1687,8 @@
     <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown">Εμφάνιση αντίστροφης μέτρησης</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.Info">Περιμένει έναν δοσμένο χρόνο πριν την εγγραφή</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.WaitTime">Χρόνος αναμονής</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.WhenOverlapping">Επιβολή εμφάνισης αντίστροφης μέτρησης και ελαχιστοποίηση UI όταν υπάρχει επικάλυψη με την περιοχή λήψης</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.WhenOverlapping.Info">Όταν η περιοχή λήψης επικαλύπτει τα στοιχεία ελέγχου, επιβάλλεται η εμφάνιση αντίστροφης μέτρησης και η ελαχιστοποίηση του UI</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.ShowDiscardOnRecording">Εμφάνιση κουμπιού απόρριψης κατά την εγγραφή</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.ShowDiscardOnRecording.Info">Κανονικά είναι ορατό μόνο όταν είναι σε παύση</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.AskBeforeDiscarding">Ρώτησέ με πριν απορρίψεις την εγγραφή</s:String>

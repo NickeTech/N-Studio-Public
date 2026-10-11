@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">Nicke Manarin</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-19</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-10-11</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Accept</s:String>
@@ -186,8 +186,6 @@
     <s:String x:Key="S.Dialog.Troubleshooter.Error.Unexpected">Unexpected error: {0}</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoMonitors">No monitors detected.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoFramesCaptured">No frames captured.</s:String>
-    <s:String x:Key="S.Dialog.Troubleshooter.Screen.MonitorLabel">Screen {0} ({1})</s:String>
-    <s:String x:Key="S.Dialog.Troubleshooter.Screen.Position">center=({0}, {1})</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDevices">No active audio devices detected.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Output">Output</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Input">Input</s:String>
@@ -521,6 +519,14 @@
     <!--Validation • Missing input/output parameters-->
     <s:String x:Key="S.Validation.MissingParameters.Header">Missing parameters</s:String>
     <s:String x:Key="S.Validation.MissingParameters.Message">The special parameters {input} and/or {output} are missing from the parameters field</s:String>
+
+    <!--Validation • Invalid audio codec-->
+    <s:String x:Key="S.Validation.InvalidAudioCodec.Header">Invalid audio codec</s:String>
+    <s:String x:Key="S.Validation.InvalidAudioCodec.Webm.Message">WebM audio must use Opus or Vorbis</s:String>
+
+    <!--Validation • Invalid audio sample rate-->
+    <s:String x:Key="S.Validation.InvalidAudioSampleRate.Header">Invalid audio sample rate</s:String>
+    <s:String x:Key="S.Validation.InvalidAudioSampleRate.Opus.Message">Opus sample rate must be 48000, 24000, 16000, 12000 or 8000 Hz</s:String>
 
     <!--Validation • No export type-->
     <s:String x:Key="S.Validation.NoExport.Header">No export selected</s:String>
@@ -1681,6 +1687,8 @@
     <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown">Show countdown</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.Info">Waits a given time before the recording</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.WaitTime">Wait time</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.WhenOverlapping">Force countdown display and minimize UI when overlapping with capture region</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.WhenOverlapping.Info">When the capture region is overlapping with the capture controls, force the display of a coutndown and minimize the UI</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.ShowDiscardOnRecording">Show the discard button while recording</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.ShowDiscardOnRecording.Info">Normally, it's visible only when paused</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.AskBeforeDiscarding">Ask me before discarding the recording</s:String>

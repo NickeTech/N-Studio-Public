@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ 機械翻訳 (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-06-19</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-10-11</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">受け入れる</s:String>
@@ -186,8 +186,6 @@
     <s:String x:Key="S.Dialog.Troubleshooter.Error.Unexpected">予期しないエラー: {0}</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoMonitors">モニターが検出されませんでした。</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoFramesCaptured">フレームがキャプチャされませんでした。</s:String>
-    <s:String x:Key="S.Dialog.Troubleshooter.Screen.MonitorLabel">画面 {0} ({1})</s:String>
-    <s:String x:Key="S.Dialog.Troubleshooter.Screen.Position">center=({0}, {1})</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDevices">アクティブな音声デバイスが検出されません。</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Output">出力</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Input">入力</s:String>
@@ -521,6 +519,14 @@
     <!--Validation • Missing input/output parameters-->
     <s:String x:Key="S.Validation.MissingParameters.Header">パラメーターが不足しています</s:String>
     <s:String x:Key="S.Validation.MissingParameters.Message">パラメーター欄に特殊パラメーター {input} および/または {output} がありません</s:String>
+
+    <!--Validation • Invalid audio codec-->
+    <s:String x:Key="S.Validation.InvalidAudioCodec.Header">無効な音声コーデック</s:String>
+    <s:String x:Key="S.Validation.InvalidAudioCodec.Webm.Message">WebM の音声は Opus または Vorbis を使用する必要があります</s:String>
+
+    <!--Validation • Invalid audio sample rate-->
+    <s:String x:Key="S.Validation.InvalidAudioSampleRate.Header">無効な音声サンプリングレート</s:String>
+    <s:String x:Key="S.Validation.InvalidAudioSampleRate.Opus.Message">Opus のサンプリングレートは 48000、24000、16000、12000、または 8000 Hz である必要があります</s:String>
 
     <!--Validation • No export type-->
     <s:String x:Key="S.Validation.NoExport.Header">エクスポート先が選択されていません</s:String>
@@ -1681,6 +1687,8 @@
     <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown">カウントダウンを表示</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.Info">録画前に指定時間待機します</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.WaitTime">待機時間</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.WhenOverlapping">キャプチャ領域が重なる場合、カウントダウンを強制表示し UI を最小化します</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.WhenOverlapping.Info">キャプチャ領域が操作パネルと重なっている場合、カウントダウンを強制表示し UI を最小化します</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.ShowDiscardOnRecording">録画中に破棄ボタンを表示</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.ShowDiscardOnRecording.Info">通常は一時停止時にのみ表示されます</s:String>
     <s:String x:Key="S.Settings.ScreenRecorder.AskBeforeDiscarding">録画を破棄する前に確認する</s:String>
