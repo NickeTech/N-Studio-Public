@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Tradotto automaticamente (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-10-11</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-10-24</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Accetta</s:String>
@@ -494,6 +494,13 @@
     <s:String x:Key="S.Dialogs.TimelineLength.Header">Imposta la durata della timeline</s:String>
     <s:String x:Key="S.Dialogs.TimelineLength.Action">Imposta durata</s:String>
 
+    <!--Dialogs • Open with-->
+    <s:String x:Key="S.Dialogs.OpenWith.Header">Apri con</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Files">File</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Target">Destinazione</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Ignored.Exporter">L'esportatore apre un video, un file audio o un progetto alla volta. Verrà utilizzato solo il primo file compatibile.</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Ignored.Project">È stato trovato un progetto, quindi tutti gli altri file verranno ignorati.</s:String>
+
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">Campi obbligatori</s:String>
     <s:String x:Key="S.Validation.Required.Description">Alcuni campi obbligatori sono vuoti o contengono dati non validi</s:String>
@@ -911,6 +918,10 @@
     <s:String x:Key="S.Errors.MissingDrive.Header">Nessuna unità</s:String>
     <s:String x:Key="S.Errors.MissingDrive.Message">L’unità non è disponibile o è mancante</s:String>
 
+    <!--Error • No other drive-->
+    <s:String x:Key="S.Errors.NoOtherDrive.Header">Nessuna altra unità</s:String>
+    <s:String x:Key="S.Errors.NoOtherDrive.Message">Non ci sono altre unità da usare come destinazione</s:String>
+
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Attivazione non riuscita</s:String>
     <s:String x:Key="S.Errors.Activation.Generic">Non è stato possibile attivare l'app a causa di un problema sconosciuto</s:String>
@@ -1127,10 +1138,26 @@
     <s:String x:Key="S.Editor.Edit.Remove">Rimuovi</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Text">Modifica testo</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Drawing">Modifica disegno</s:String>
+
     <s:String x:Key="S.Editor.Canvas">Tela</s:String>
     <s:String x:Key="S.Editor.Canvas.Resize">Ridimensiona...</s:String>
     <s:String x:Key="S.Editor.Canvas.Crop">Ritaglia...</s:String>
     <s:String x:Key="S.Editor.Canvas.Trim">Taglia...</s:String>
+
+    <s:String x:Key="S.Editor.Timeline">Sequenza temporale</s:String>
+    <s:String x:Key="S.Editor.Timeline.Split">Dividi</s:String>
+    <s:String x:Key="S.Editor.Timeline.Delete">Elimina selezione</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimStart">Taglia inizio</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEnd">Taglia fine</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty">Rimuovi parti vuote...</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.Start">Inizio</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.StartEnd">Inizio e fine</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.End">Fine</s:String>
+    <s:String x:Key="S.Editor.Timeline.SetLength">Imposta durata...</s:String>
+    <s:String x:Key="S.Editor.Timeline.OptimizeForLoop">Ottimizza per loop...</s:String>
+    <s:String x:Key="S.Editor.Timeline.Automatic">Durata automatica</s:String>
+    <s:String x:Key="S.Editor.Timeline.TimeScroll">Scorrimento temporale</s:String>
+
     <s:String x:Key="S.Editor.Insert">Inserisci</s:String>
     <s:String x:Key="S.Editor.Insert.Screen">Registrazione schermo</s:String>
     <s:String x:Key="S.Editor.Insert.Sound">Registrazione audio</s:String>
@@ -1325,6 +1352,7 @@
     <!--Remember choices-->
     <s:String x:Key="S.RememberChoice">Ricorda la mia scelta</s:String>
     <s:String x:Key="S.RememberChoice.Editor.Info">Per cambiare queste preferenze dopo, vai su Impostazioni > Editor</s:String>
+    <s:String x:Key="S.RememberChoice.Application.Info">Per modificare questa preferenza in seguito, vai su Impostazioni > Applicazione</s:String>
 
     <!--Playback-->
     <s:String x:Key="S.Playback.Play">Riproduci</s:String>
@@ -1663,6 +1691,10 @@
     <s:String x:Key="S.Settings.Application.Shortcuts.Settings.Info">Apre la finestra delle impostazioni</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Exit">Esci</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Exit.Info">Chiude tutte le finestre e rimuove l'app dalla tray di sistema</s:String>
+
+    <!--Settings • Application > Other-->
+    <s:String x:Key="S.Settings.Application.OpenMediaWith">Apri file con</s:String>
+    <s:String x:Key="S.Settings.Application.OpenMediaWith.Info">Scegli cosa apre i file trascinati nella finestra di benvenuto, aperti tramite «Apri con» o trascinati sul collegamento dell'app</s:String>
     <s:String x:Key="S.Settings.Application.DisableHardwareAcc">Disabilita accelerazione hardware</s:String>
     <s:String x:Key="S.Settings.Application.DisableHardwareAcc.Info">L'interfaccia utente verrà renderizzata in modalità software</s:String>
     <s:String x:Key="S.Settings.Application.AskWhenExiting">Chiedimelo prima di chiudere l'app</s:String>

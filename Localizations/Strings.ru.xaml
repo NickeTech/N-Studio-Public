@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Машинный перевод (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-10-11</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-10-24</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Принять</s:String>
@@ -494,6 +494,13 @@
     <s:String x:Key="S.Dialogs.TimelineLength.Header">Установить длину таймлайна</s:String>
     <s:String x:Key="S.Dialogs.TimelineLength.Action">Установить длину</s:String>
 
+    <!--Dialogs • Open with-->
+    <s:String x:Key="S.Dialogs.OpenWith.Header">Открыть с помощью</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Files">Файлы</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Target">Назначение</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Ignored.Exporter">Экспортёр открывает только одно видео, аудиофайл или проект за раз. Будет использован только первый совместимый файл.</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Ignored.Project">Найден проект, поэтому все остальные файлы будут проигнорированы.</s:String>
+
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">Обязательные поля</s:String>
     <s:String x:Key="S.Validation.Required.Description">Некоторые обязательные поля пусты или содержат неверные данные</s:String>
@@ -911,6 +918,10 @@
     <s:String x:Key="S.Errors.MissingDrive.Header">Нет диска</s:String>
     <s:String x:Key="S.Errors.MissingDrive.Message">Диск недоступен или отсутствует</s:String>
 
+    <!--Error • No other drive-->
+    <s:String x:Key="S.Errors.NoOtherDrive.Header">Нет другого диска</s:String>
+    <s:String x:Key="S.Errors.NoOtherDrive.Message">Нет другого диска для выбора в качестве целевого</s:String>
+
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Ошибка активации</s:String>
     <s:String x:Key="S.Errors.Activation.Generic">Не удалось активировать приложение из-за неизвестной проблемы</s:String>
@@ -1127,10 +1138,26 @@
     <s:String x:Key="S.Editor.Edit.Remove">Удалить</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Text">Редактировать текст</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Drawing">Редактировать рисунок</s:String>
+
     <s:String x:Key="S.Editor.Canvas">Холст</s:String>
     <s:String x:Key="S.Editor.Canvas.Resize">Изменить размер...</s:String>
     <s:String x:Key="S.Editor.Canvas.Crop">Обрезать...</s:String>
     <s:String x:Key="S.Editor.Canvas.Trim">Обрезать...</s:String>
+
+    <s:String x:Key="S.Editor.Timeline">Таймлайн</s:String>
+    <s:String x:Key="S.Editor.Timeline.Split">Разделить</s:String>
+    <s:String x:Key="S.Editor.Timeline.Delete">Удалить выделение</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimStart">Обрезать начало</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEnd">Обрезать конец</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty">Обрезать пустоты...</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.Start">Начало</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.StartEnd">Начало и конец</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.End">Конец</s:String>
+    <s:String x:Key="S.Editor.Timeline.SetLength">Задать длительность...</s:String>
+    <s:String x:Key="S.Editor.Timeline.OptimizeForLoop">Оптимизировать для цикла...</s:String>
+    <s:String x:Key="S.Editor.Timeline.Automatic">Автоматическая длительность</s:String>
+    <s:String x:Key="S.Editor.Timeline.TimeScroll">Прокрутка времени</s:String>
+
     <s:String x:Key="S.Editor.Insert">Вставить</s:String>
     <s:String x:Key="S.Editor.Insert.Screen">Запись экрана</s:String>
     <s:String x:Key="S.Editor.Insert.Sound">Запись звука</s:String>
@@ -1325,6 +1352,7 @@
     <!--Remember choices-->
     <s:String x:Key="S.RememberChoice">Запомнить мой выбор</s:String>
     <s:String x:Key="S.RememberChoice.Editor.Info">Чтобы изменить эти настройки позже, перейдите в Настройки > Редактор</s:String>
+    <s:String x:Key="S.RememberChoice.Application.Info">Чтобы изменить этот параметр позже, откройте Настройки > Приложение</s:String>
 
     <!--Playback-->
     <s:String x:Key="S.Playback.Play">Воспроизвести</s:String>
@@ -1663,6 +1691,10 @@
     <s:String x:Key="S.Settings.Application.Shortcuts.Settings.Info">Открывает окно настроек</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Exit">Выход</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Exit.Info">Закрывает все окна и удаляет приложение из системного трея</s:String>
+
+    <!--Settings • Application > Other-->
+    <s:String x:Key="S.Settings.Application.OpenMediaWith">Открывать файлы с помощью</s:String>
+    <s:String x:Key="S.Settings.Application.OpenMediaWith.Info">Выберите, чем открывать файлы, перетаскиваемые в окно приветствия, открываемые через «Открыть с помощью» или перетаскиваемые на ярлык приложения</s:String>
     <s:String x:Key="S.Settings.Application.DisableHardwareAcc">Отключить аппаратное ускорение</s:String>
     <s:String x:Key="S.Settings.Application.DisableHardwareAcc.Info">Интерфейс будет отрисован в программном режиме</s:String>
     <s:String x:Key="S.Settings.Application.AskWhenExiting">Спрашивать меня перед закрытием приложения</s:String>

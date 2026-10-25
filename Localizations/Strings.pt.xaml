@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">Nicke Manarin</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-10-11</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-10-24</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Aceitar</s:String>
@@ -59,7 +59,7 @@
     <s:String x:Key="S.Imperative.SelectAll">Selecionar tudo</s:String>
     <s:String x:Key="S.Imperative.DeselectAll">Desmarcar tudo</s:String>
     <s:String x:Key="S.Imperative.ReportIssue">Reportar problema</s:String>
-    <s:String x:Key="S.Imperative.AskMe">Perguntar-me</s:String>
+    <s:String x:Key="S.Imperative.AskMe">Me pergunte</s:String>
     <s:String x:Key="S.Imperative.Abort">Abortar</s:String>
     <s:String x:Key="S.Imperative.TryAgain">Tentar novamente</s:String>
     <s:String x:Key="S.Imperative.Overwrite">Sobrescrever</s:String>
@@ -494,6 +494,13 @@
     <s:String x:Key="S.Dialogs.TimelineLength.Header">Definir duração da linha do tempo</s:String>
     <s:String x:Key="S.Dialogs.TimelineLength.Action">Definir duração</s:String>
 
+    <!--Dialogs • Open with-->
+    <s:String x:Key="S.Dialogs.OpenWith.Header">Abrir com</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Files">Arquivos</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Target">Destino</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Ignored.Exporter">O exportador abre um vídeo, áudio ou projeto por vez. Apenas o primeiro arquivo compatível será usado.</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Ignored.Project">Foi encontrado um projeto, então todos os outros arquivos serão ignorados.</s:String>
+
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">Campos obrigatórios</s:String>
     <s:String x:Key="S.Validation.Required.Description">Alguns campos obrigatórios estão vazios ou possuem dados inválidos</s:String>
@@ -911,6 +918,10 @@
     <s:String x:Key="S.Errors.MissingDrive.Header">Sem unidade</s:String>
     <s:String x:Key="S.Errors.MissingDrive.Message">A unidade está indisponível ou ausente</s:String>
 
+    <!--Error • No other drive-->
+    <s:String x:Key="S.Errors.NoOtherDrive.Header">Nenhuma outra unidade</s:String>
+    <s:String x:Key="S.Errors.NoOtherDrive.Message">Não há outra unidade para usar como destino</s:String>
+
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Falha na ativação</s:String>
     <s:String x:Key="S.Errors.Activation.Generic">Não foi possível ativar o aplicativo devido a um problema desconhecido</s:String>
@@ -1127,10 +1138,26 @@
     <s:String x:Key="S.Editor.Edit.Remove">Remover</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Text">Editar texto</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Drawing">Editar desenho</s:String>
+
     <s:String x:Key="S.Editor.Canvas">Tela</s:String>
     <s:String x:Key="S.Editor.Canvas.Resize">Redimensionar...</s:String>
     <s:String x:Key="S.Editor.Canvas.Crop">Recortar...</s:String>
     <s:String x:Key="S.Editor.Canvas.Trim">Aparar...</s:String>
+
+    <s:String x:Key="S.Editor.Timeline">Linha do tempo</s:String>
+    <s:String x:Key="S.Editor.Timeline.Split">Dividir</s:String>
+    <s:String x:Key="S.Editor.Timeline.Delete">Excluir seleção</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimStart">Aparar início</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEnd">Aparar fim</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty">Remover partes vazias...</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.Start">Início</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.StartEnd">Início e fim</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.End">Fim</s:String>
+    <s:String x:Key="S.Editor.Timeline.SetLength">Definir duração...</s:String>
+    <s:String x:Key="S.Editor.Timeline.OptimizeForLoop">Otimizar para loop...</s:String>
+    <s:String x:Key="S.Editor.Timeline.Automatic">Duração automática</s:String>
+    <s:String x:Key="S.Editor.Timeline.TimeScroll">Rolagem temporal</s:String>
+
     <s:String x:Key="S.Editor.Insert">Inserir</s:String>
     <s:String x:Key="S.Editor.Insert.Screen">Gravação de tela</s:String>
     <s:String x:Key="S.Editor.Insert.Sound">Gravação de Som</s:String>
@@ -1325,6 +1352,7 @@
     <!--Remember choices-->
     <s:String x:Key="S.RememberChoice">Lembrar minha escolha</s:String>
     <s:String x:Key="S.RememberChoice.Editor.Info">Para alterar essas preferências mais tarde, visite Configurações > Editor</s:String>
+    <s:String x:Key="S.RememberChoice.Application.Info">Para alterar esta preferência mais tarde, acesse Configurações > Aplicativo</s:String>
 
     <!--Playback-->
     <s:String x:Key="S.Playback.Play">Reproduzir</s:String>
@@ -1412,8 +1440,8 @@
     <s:String x:Key="S.Track.Properties.Info">Propriedades da faixa</s:String>
 
     <!--Status-->
-    <s:String x:Key="S.Status.On">Ligado</s:String>
-    <s:String x:Key="S.Status.Off">Desligado</s:String>
+    <s:String x:Key="S.Status.On">Ativado</s:String>
+    <s:String x:Key="S.Status.Off">Desativado</s:String>
 
     <!--Drag and drop-->
     <s:String x:Key="S.DragDrop.Info">Você pode soltar arquivos de mídia ou um projeto aqui</s:String>
@@ -1663,6 +1691,10 @@
     <s:String x:Key="S.Settings.Application.Shortcuts.Settings.Info">Abre a janela de configurações</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Exit">Sair</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Exit.Info">Fecha todas as janelas e remove o app da bandeja do sistema</s:String>
+
+    <!--Settings • Application > Other-->
+    <s:String x:Key="S.Settings.Application.OpenMediaWith">Abrir arquivos com</s:String>
+    <s:String x:Key="S.Settings.Application.OpenMediaWith.Info">Escolha o que abre arquivos soltos na janela inicial, abertos via “Abrir com” ou soltos no atalho do aplicativo</s:String>
     <s:String x:Key="S.Settings.Application.DisableHardwareAcc">Desativar aceleração de hardware</s:String>
     <s:String x:Key="S.Settings.Application.DisableHardwareAcc.Info">A interface do usuário será renderizada via modo de software</s:String>
     <s:String x:Key="S.Settings.Application.AskWhenExiting">Perguntar antes de fechar o app</s:String>
@@ -2478,7 +2510,7 @@
     <s:String x:Key="S.UploadPreset.UploadToAlbum">Fazer upload para um álbum</s:String>
     <s:String x:Key="S.UploadPreset.UploadToAlbum.Info">O arquivo será carregado para um álbum de escolha</s:String>
     <s:String x:Key="S.UploadPreset.Album">Álbum</s:String>
-    <s:String x:Key="S.UploadPreset.Album.AskMe.Title">Perguntar-me</s:String>
+    <s:String x:Key="S.UploadPreset.Album.AskMe.Title">Me pergunte</s:String>
     <s:String x:Key="S.UploadPreset.Album.Empty.Title">Nenhum disponível</s:String>
     <s:String x:Key="S.UploadPreset.Album.Empty.Message">Nenhum álbum ou pasta disponível</s:String>
     <s:String x:Key="S.UploadPreset.Album.NotSelected.Title">Nenhum selecionado</s:String>

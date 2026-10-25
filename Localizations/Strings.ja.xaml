@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ 機械翻訳 (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-10-11</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-10-24</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">受け入れる</s:String>
@@ -494,6 +494,13 @@
     <s:String x:Key="S.Dialogs.TimelineLength.Header">タイムラインの長さを設定</s:String>
     <s:String x:Key="S.Dialogs.TimelineLength.Action">長さを設定</s:String>
 
+    <!--Dialogs • Open with-->
+    <s:String x:Key="S.Dialogs.OpenWith.Header">プログラムから開く</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Files">ファイル</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Target">対象</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Ignored.Exporter">エクスポーターでは一度に1つの動画、音声、またはプロジェクトのみ開けます。最初の互換ファイルのみが使用されます。</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Ignored.Project">プロジェクトが見つかったため、他のすべてのファイルは無視されます。</s:String>
+
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">必須フィールド</s:String>
     <s:String x:Key="S.Validation.Required.Description">必須フィールドが空白または無効なデータです</s:String>
@@ -911,6 +918,10 @@
     <s:String x:Key="S.Errors.MissingDrive.Header">ドライブなし</s:String>
     <s:String x:Key="S.Errors.MissingDrive.Message">ドライブが利用できないか、見つかりません</s:String>
 
+    <!--Error • No other drive-->
+    <s:String x:Key="S.Errors.NoOtherDrive.Header">他のドライブがありません</s:String>
+    <s:String x:Key="S.Errors.NoOtherDrive.Message">対象にできる他のドライブがありません</s:String>
+
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">アクティベーションに失敗しました</s:String>
     <s:String x:Key="S.Errors.Activation.Generic">不明な問題のため、アプリをアクティブ化できませんでした</s:String>
@@ -1127,10 +1138,26 @@
     <s:String x:Key="S.Editor.Edit.Remove">削除</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Text">テキストを編集</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Drawing">描画を編集</s:String>
+
     <s:String x:Key="S.Editor.Canvas">キャンバス</s:String>
     <s:String x:Key="S.Editor.Canvas.Resize">リサイズ...</s:String>
     <s:String x:Key="S.Editor.Canvas.Crop">トリミング...</s:String>
     <s:String x:Key="S.Editor.Canvas.Trim">トリム...</s:String>
+
+    <s:String x:Key="S.Editor.Timeline">タイムライン</s:String>
+    <s:String x:Key="S.Editor.Timeline.Split">分割</s:String>
+    <s:String x:Key="S.Editor.Timeline.Delete">選択部分を削除</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimStart">先頭をトリミング</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEnd">末尾をトリミング</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty">無音部分をトリミング...</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.Start">先頭</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.StartEnd">先頭と末尾</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.End">末尾</s:String>
+    <s:String x:Key="S.Editor.Timeline.SetLength">長さを設定...</s:String>
+    <s:String x:Key="S.Editor.Timeline.OptimizeForLoop">ループ用に最適化...</s:String>
+    <s:String x:Key="S.Editor.Timeline.Automatic">自動長さ</s:String>
+    <s:String x:Key="S.Editor.Timeline.TimeScroll">時間スクロール</s:String>
+
     <s:String x:Key="S.Editor.Insert">挿入</s:String>
     <s:String x:Key="S.Editor.Insert.Screen">画面録画</s:String>
     <s:String x:Key="S.Editor.Insert.Sound">音声録音</s:String>
@@ -1325,6 +1352,7 @@
     <!--Remember choices-->
     <s:String x:Key="S.RememberChoice">選択を記憶する</s:String>
     <s:String x:Key="S.RememberChoice.Editor.Info">これらの設定を後で変更するには、設定 > エディターを開いてください</s:String>
+    <s:String x:Key="S.RememberChoice.Application.Info">後でこの設定を変更するには、設定 > アプリケーションを開いてください</s:String>
 
     <!--Playback-->
     <s:String x:Key="S.Playback.Play">再生</s:String>
@@ -1663,6 +1691,10 @@
     <s:String x:Key="S.Settings.Application.Shortcuts.Settings.Info">設定ウィンドウを開きます</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Exit">終了</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Exit.Info">すべてのウィンドウを閉じ、アプリをシステムトレイから削除します</s:String>
+
+    <!--Settings • Application > Other-->
+    <s:String x:Key="S.Settings.Application.OpenMediaWith">ファイルを開くアプリ</s:String>
+    <s:String x:Key="S.Settings.Application.OpenMediaWith.Info">ウェルカム画面にドロップしたファイル、「プログラムから開く」で開いたファイル、またはアプリのショートカットにドロップしたファイルを開く対象を選択します</s:String>
     <s:String x:Key="S.Settings.Application.DisableHardwareAcc">ハードウェアアクセラレーションを無効にする</s:String>
     <s:String x:Key="S.Settings.Application.DisableHardwareAcc.Info">ユーザーインターフェースはソフトウェアモードでレンダリングされます</s:String>
     <s:String x:Key="S.Settings.Application.AskWhenExiting">アプリを閉じる前に確認する</s:String>

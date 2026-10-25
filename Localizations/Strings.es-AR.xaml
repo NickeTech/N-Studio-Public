@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Traducido por máquina (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-10-11</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-10-24</s:DateTime>
 
     <!--Imperative-->
     <!--<s:String x:Key="S.Imperative.Accept">Aceptar</s:String>-->
@@ -494,6 +494,13 @@
     <s:String x:Key="S.Dialogs.TimelineLength.Header">Configurar la duración de la línea de tiempo</s:String>
     <s:String x:Key="S.Dialogs.TimelineLength.Action">Configurar duración</s:String>
 
+    <!--Dialogs • Open with-->
+    <!--<s:String x:Key="S.Dialogs.OpenWith.Header">Abrir con</s:String>-->
+    <!--<s:String x:Key="S.Dialogs.OpenWith.Files">Archivos</s:String>-->
+    <!--<s:String x:Key="S.Dialogs.OpenWith.Target">Destino</s:String>-->
+    <!--<s:String x:Key="S.Dialogs.OpenWith.Ignored.Exporter">El exportador abre un vídeo, audio o proyecto cada vez. Solo se usará el primer archivo compatible.</s:String>-->
+    <!--<s:String x:Key="S.Dialogs.OpenWith.Ignored.Project">Se encontró un proyecto, por lo que se ignorarán todos los demás archivos.</s:String>-->
+
     <!--Validation • Field Validations-->
     <!--<s:String x:Key="S.Validation.Required.Header">Campos obligatorios</s:String>-->
     <!--<s:String x:Key="S.Validation.Required.Description">Algunos campos obligatorios están vacíos o contienen datos no válidos</s:String>-->
@@ -911,6 +918,10 @@
     <!--<s:String x:Key="S.Errors.MissingDrive.Header">No hay unidad</s:String>-->
     <!--<s:String x:Key="S.Errors.MissingDrive.Message">La unidad no está disponible o falta</s:String>-->
 
+    <!--Error • No other drive-->
+    <!--<s:String x:Key="S.Errors.NoOtherDrive.Header">No hay otra unidad</s:String>-->
+    <!--<s:String x:Key="S.Errors.NoOtherDrive.Message">No hay otra unidad para usar como destino</s:String>-->
+
     <!--Error • Others--> 
     <!--<s:String x:Key="S.Errors.Activation.Title">La activación ha fallado</s:String>-->
     <!--<s:String x:Key="S.Errors.Activation.Generic">No fue posible activar la aplicación debido a un problema desconocido</s:String>-->
@@ -1127,10 +1138,26 @@
     <!--<s:String x:Key="S.Editor.Edit.Remove">Eliminar</s:String>-->
     <!--<s:String x:Key="S.Editor.Edit.Content.Text">Editar texto</s:String>-->
     <!--<s:String x:Key="S.Editor.Edit.Content.Drawing">Editar dibujo</s:String>-->
+
     <!--<s:String x:Key="S.Editor.Canvas">Lienzo</s:String>-->
     <!--<s:String x:Key="S.Editor.Canvas.Resize">Cambiar tamaño...</s:String>-->
     <!--<s:String x:Key="S.Editor.Canvas.Crop">Recortar...</s:String>-->
     <!--<s:String x:Key="S.Editor.Canvas.Trim">Ajustar...</s:String>-->
+
+    <!--<s:String x:Key="S.Editor.Timeline">Línea de tiempo</s:String>-->
+    <!--<s:String x:Key="S.Editor.Timeline.Split">Dividir</s:String>-->
+    <!--<s:String x:Key="S.Editor.Timeline.Delete">Eliminar selección</s:String>-->
+    <!--<s:String x:Key="S.Editor.Timeline.TrimStart">Recortar inicio</s:String>-->
+    <!--<s:String x:Key="S.Editor.Timeline.TrimEnd">Recortar final</s:String>-->
+    <!--<s:String x:Key="S.Editor.Timeline.TrimEmpty">Recortar vacío...</s:String>-->
+    <!--<s:String x:Key="S.Editor.Timeline.TrimEmpty.Start">Inicio</s:String>-->
+    <!--<s:String x:Key="S.Editor.Timeline.TrimEmpty.StartEnd">Inicio y final</s:String>-->
+    <!--<s:String x:Key="S.Editor.Timeline.TrimEmpty.End">Final</s:String>-->
+    <!--<s:String x:Key="S.Editor.Timeline.SetLength">Establecer duración...</s:String>-->
+    <!--<s:String x:Key="S.Editor.Timeline.OptimizeForLoop">Optimizar para bucle...</s:String>-->
+    <!--<s:String x:Key="S.Editor.Timeline.Automatic">Duración automática</s:String>-->
+    <!--<s:String x:Key="S.Editor.Timeline.TimeScroll">Desplazamiento temporal</s:String>-->
+
     <!--<s:String x:Key="S.Editor.Insert">Insertar</s:String>-->
     <!--<s:String x:Key="S.Editor.Insert.Screen">Grabación de pantalla</s:String>-->
     <!--<s:String x:Key="S.Editor.Insert.Sound">Grabación de sonido</s:String>-->
@@ -1325,6 +1352,7 @@
     <!--Remember choices-->
     <!--<s:String x:Key="S.RememberChoice">Recordar mi elección</s:String>-->
     <s:String x:Key="S.RememberChoice.Editor.Info">Para cambiar estas preferencias más tarde, visita Configuración > Editor</s:String>
+    <!--<s:String x:Key="S.RememberChoice.Application.Info">Para cambiar esta preferencia más adelante, ve a Configuración > Aplicación</s:String>-->
 
     <!--Playback-->
     <!--<s:String x:Key="S.Playback.Play">Reproducir</s:String>-->
@@ -1663,6 +1691,10 @@
     <s:String x:Key="S.Settings.Application.Shortcuts.Settings.Info">Abre la ventana de configuración</s:String>
     <!--<s:String x:Key="S.Settings.Application.Shortcuts.Exit">Salir</s:String>-->
     <!--<s:String x:Key="S.Settings.Application.Shortcuts.Exit.Info">Cierra todas las ventanas y elimina la aplicación de la bandeja del sistema</s:String>-->
+
+    <!--Settings • Application > Other-->
+    <!--<s:String x:Key="S.Settings.Application.OpenMediaWith">Abrir archivos con</s:String>-->
+    <!--<s:String x:Key="S.Settings.Application.OpenMediaWith.Info">Elige qué abre los archivos que se sueltan en la ventana de bienvenida, se abren mediante «Abrir con» o se sueltan en el acceso directo de la aplicación</s:String>-->
     <!--<s:String x:Key="S.Settings.Application.DisableHardwareAcc">Desactivar aceleración por hardware</s:String>-->
     <!--<s:String x:Key="S.Settings.Application.DisableHardwareAcc.Info">La interfaz de usuario se renderizará en modo de software</s:String>-->
     <!--<s:String x:Key="S.Settings.Application.AskWhenExiting">Preguntarme antes de cerrar la aplicación</s:String>-->

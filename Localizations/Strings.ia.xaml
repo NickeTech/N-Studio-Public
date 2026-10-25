@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Traducte per machina (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-10-11</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-10-24</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Accepta</s:String>
@@ -494,6 +494,13 @@
     <s:String x:Key="S.Dialogs.TimelineLength.Header">Definir le longitude del chronologia</s:String>
     <s:String x:Key="S.Dialogs.TimelineLength.Action">Definir longitude</s:String>
 
+    <!--Dialogs • Open with-->
+    <s:String x:Key="S.Dialogs.OpenWith.Header">Aperir con</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Files">Files</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Target">Destination</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Ignored.Exporter">Le exportator aperi un video, audio o projecto al vice. Solmente le prime file compatibile essera usate.</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Ignored.Project">Un projecto esseva trovate, ergo tote le altere files essera ignorate.</s:String>
+
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">Campes requirite</s:String>
     <s:String x:Key="S.Validation.Required.Description">Alcune campos requirite es vacue o contine datos invalide</s:String>
@@ -911,6 +918,10 @@
     <s:String x:Key="S.Errors.MissingDrive.Header">Nulle disco</s:String>
     <s:String x:Key="S.Errors.MissingDrive.Message">Le disco non es disponibile o manca</s:String>
 
+    <!--Error • No other drive-->
+    <s:String x:Key="S.Errors.NoOtherDrive.Header">Nulle altere unitate</s:String>
+    <s:String x:Key="S.Errors.NoOtherDrive.Message">Il non existe altere unitate a usar como destination</s:String>
+
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Activation fallite</s:String>
     <s:String x:Key="S.Errors.Activation.Generic">Il non esseva possibile activear le applico pro un problema incognite</s:String>
@@ -1127,10 +1138,26 @@
     <s:String x:Key="S.Editor.Edit.Remove">Remover</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Text">Editar texto</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Drawing">Editar dibujo</s:String>
+
     <s:String x:Key="S.Editor.Canvas">Tela</s:String>
     <s:String x:Key="S.Editor.Canvas.Resize">Redimensionar...</s:String>
     <s:String x:Key="S.Editor.Canvas.Crop">Recortar...</s:String>
     <s:String x:Key="S.Editor.Canvas.Trim">Ajustar...</s:String>
+
+    <s:String x:Key="S.Editor.Timeline">Chronologia</s:String>
+    <s:String x:Key="S.Editor.Timeline.Split">Divider</s:String>
+    <s:String x:Key="S.Editor.Timeline.Delete">Deler le selection</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimStart">Taliar le initio</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEnd">Taliar le fin</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty">Taliar partes vacue...</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.Start">Initio</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.StartEnd">Initio e fin</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.End">Fin</s:String>
+    <s:String x:Key="S.Editor.Timeline.SetLength">Definir longitud...</s:String>
+    <s:String x:Key="S.Editor.Timeline.OptimizeForLoop">Optimisar pro bucla...</s:String>
+    <s:String x:Key="S.Editor.Timeline.Automatic">Longitudine automatic</s:String>
+    <s:String x:Key="S.Editor.Timeline.TimeScroll">Rolar temporal</s:String>
+
     <s:String x:Key="S.Editor.Insert">Inserer</s:String>
     <s:String x:Key="S.Editor.Insert.Screen">Registration de schermo</s:String>
     <s:String x:Key="S.Editor.Insert.Sound">Registration de sonore</s:String>
@@ -1325,6 +1352,7 @@
     <!--Remember choices-->
     <s:String x:Key="S.RememberChoice">Recordar mi election</s:String>
     <s:String x:Key="S.RememberChoice.Editor.Info">Pro cambiar iste preferentias plus tarde, visita Settings > Editor</s:String>
+    <s:String x:Key="S.RememberChoice.Application.Info">Pro modificar iste preferentia plus tarde, visita Parametros > Application</s:String>
 
     <!--Playback-->
     <s:String x:Key="S.Playback.Play">Jocar</s:String>
@@ -1663,6 +1691,10 @@
     <s:String x:Key="S.Settings.Application.Shortcuts.Settings.Info">Aperi le fenestra de settings</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Exit">Exir</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Exit.Info">Claude tote le fenestras e remove le applico del tray systema</s:String>
+
+    <!--Settings • Application > Other-->
+    <s:String x:Key="S.Settings.Application.OpenMediaWith">Aperir files con</s:String>
+    <s:String x:Key="S.Settings.Application.OpenMediaWith.Info">Selige lo que aperi files deponite sur le fenestra de benvenita, aperite via « Aperir con » o deponite sur le via breve del application</s:String>
     <s:String x:Key="S.Settings.Application.DisableHardwareAcc">Disactivar acceleration hardware</s:String>
     <s:String x:Key="S.Settings.Application.DisableHardwareAcc.Info">Le interface de usator sera rendite via modo software</s:String>
     <s:String x:Key="S.Settings.Application.AskWhenExiting">Prega me ante clauder le applico</s:String>

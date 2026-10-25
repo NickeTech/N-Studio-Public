@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Μεταφρασμένο μηχανικά (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-10-11</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-10-24</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Αποδοχή</s:String>
@@ -494,6 +494,13 @@
     <s:String x:Key="S.Dialogs.TimelineLength.Header">Ορισμός μήκους χρονογραμμής</s:String>
     <s:String x:Key="S.Dialogs.TimelineLength.Action">Ορισμός μήκους</s:String>
 
+    <!--Dialogs • Open with-->
+    <s:String x:Key="S.Dialogs.OpenWith.Header">Άνοιγμα με</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Files">Αρχεία</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Target">Προορισμός</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Ignored.Exporter">Η εξαγωγή ανοίγει ένα βίντεο, αρχείο ήχου ή έργο κάθε φορά. Θα χρησιμοποιηθεί μόνο το πρώτο συμβατό αρχείο.</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Ignored.Project">Βρέθηκε έργο, επομένως όλα τα άλλα αρχεία θα αγνοηθούν.</s:String>
+
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">Απαιτούμενα πεδία</s:String>
     <s:String x:Key="S.Validation.Required.Description">Κάποια απαιτούμενα πεδία είναι κενά ή περιέχουν μη έγκυρα δεδομένα</s:String>
@@ -911,6 +918,10 @@
     <s:String x:Key="S.Errors.MissingDrive.Header">Δεν υπάρχει μονάδα δίσκου</s:String>
     <s:String x:Key="S.Errors.MissingDrive.Message">Η μονάδα δίσκου δεν είναι διαθέσιμη ή λείπει</s:String>
 
+    <!--Error • No other drive-->
+    <s:String x:Key="S.Errors.NoOtherDrive.Header">Δεν υπάρχει άλλη μονάδα δίσκου</s:String>
+    <s:String x:Key="S.Errors.NoOtherDrive.Message">Δεν υπάρχει άλλη μονάδα δίσκου για προορισμό</s:String>
+
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Η ενεργοποίηση απέτυχε</s:String>
     <s:String x:Key="S.Errors.Activation.Generic">Δεν ήταν δυνατή η ενεργοποίηση της εφαρμογής λόγω άγνωστου προβλήματος</s:String>
@@ -1127,10 +1138,26 @@
     <s:String x:Key="S.Editor.Edit.Remove">Αφαίρεση</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Text">Επεξεργασία κειμένου</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Drawing">Επεξεργασία σχεδίου</s:String>
+
     <s:String x:Key="S.Editor.Canvas">Καμβάς</s:String>
     <s:String x:Key="S.Editor.Canvas.Resize">Αλλαγή μεγέθους...</s:String>
     <s:String x:Key="S.Editor.Canvas.Crop">Περικοπή...</s:String>
     <s:String x:Key="S.Editor.Canvas.Trim">Περικοπή...</s:String>
+
+    <s:String x:Key="S.Editor.Timeline">Χρονογραμμή</s:String>
+    <s:String x:Key="S.Editor.Timeline.Split">Διαίρεση</s:String>
+    <s:String x:Key="S.Editor.Timeline.Delete">Διαγραφή επιλογής</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimStart">Περικοπή αρχής</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEnd">Περικοπή τέλους</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty">Περικοπή κενού...</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.Start">Αρχή</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.StartEnd">Αρχή και τέλος</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.End">Τέλος</s:String>
+    <s:String x:Key="S.Editor.Timeline.SetLength">Ορισμός διάρκειας...</s:String>
+    <s:String x:Key="S.Editor.Timeline.OptimizeForLoop">Βελτιστοποίηση για βρόχο...</s:String>
+    <s:String x:Key="S.Editor.Timeline.Automatic">Αυτόματη διάρκεια</s:String>
+    <s:String x:Key="S.Editor.Timeline.TimeScroll">Κύλιση χρόνου</s:String>
+
     <s:String x:Key="S.Editor.Insert">Εισαγωγή</s:String>
     <s:String x:Key="S.Editor.Insert.Screen">Εγγραφή οθόνης</s:String>
     <s:String x:Key="S.Editor.Insert.Sound">Εγγραφή ήχου</s:String>
@@ -1325,6 +1352,7 @@
     <!--Remember choices-->
     <s:String x:Key="S.RememberChoice">Να θυμάται την επιλογή μου</s:String>
     <s:String x:Key="S.RememberChoice.Editor.Info">Για να αλλάξετε αυτές τις προτιμήσεις αργότερα, μεταβείτε στις Ρυθμίσεις > Επεξεργαστής</s:String>
+    <s:String x:Key="S.RememberChoice.Application.Info">Για να αλλάξετε αυτήν την προτίμηση αργότερα, μεταβείτε στις Ρυθμίσεις > Εφαρμογή</s:String>
 
     <!--Playback-->
     <s:String x:Key="S.Playback.Play">Αναπαραγωγή</s:String>
@@ -1663,6 +1691,10 @@
     <s:String x:Key="S.Settings.Application.Shortcuts.Settings.Info">Ανοίγει το παράθυρο ρυθμίσεων</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Exit">Έξοδος</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Exit.Info">Κλείνει όλα τα παράθυρα και αφαιρεί την εφαρμογή από τη γραμμή ειδοποιήσεων</s:String>
+
+    <!--Settings • Application > Other-->
+    <s:String x:Key="S.Settings.Application.OpenMediaWith">Άνοιγμα αρχείων με</s:String>
+    <s:String x:Key="S.Settings.Application.OpenMediaWith.Info">Επιλέξτε τι θα ανοίγει αρχεία που αποτίθενται στο παράθυρο υποδοχής, ανοίγουν μέσω «Άνοιγμα με» ή αποτίθενται στη συντόμευση της εφαρμογής</s:String>
     <s:String x:Key="S.Settings.Application.DisableHardwareAcc">Απενεργοποίηση επιτάχυνσης υλικού</s:String>
     <s:String x:Key="S.Settings.Application.DisableHardwareAcc.Info">Η διεπαφή χρήστη θα αποδίδεται σε λειτουργία λογισμικού</s:String>
     <s:String x:Key="S.Settings.Application.AskWhenExiting">Ρώτησέ με πριν κλείσει η εφαρμογή</s:String>

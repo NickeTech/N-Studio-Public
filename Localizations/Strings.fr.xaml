@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Traduit par machine (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-10-11</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-10-24</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Accepter</s:String>
@@ -494,6 +494,13 @@
     <s:String x:Key="S.Dialogs.TimelineLength.Header">Définir la durée de la timeline</s:String>
     <s:String x:Key="S.Dialogs.TimelineLength.Action">Définir la durée</s:String>
 
+    <!--Dialogs • Open with-->
+    <s:String x:Key="S.Dialogs.OpenWith.Header">Ouvrir avec</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Files">Fichiers</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Target">Cible</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Ignored.Exporter">L'exportateur ouvre une seule vidéo, un seul fichier audio ou un seul projet à la fois. Seul le premier fichier compatible sera utilisé.</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Ignored.Project">Un projet a été trouvé, tous les autres fichiers seront ignorés.</s:String>
+
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">Champs obligatoires</s:String>
     <s:String x:Key="S.Validation.Required.Description">Certains champs obligatoires sont vides ou contiennent des données invalides</s:String>
@@ -911,6 +918,10 @@
     <s:String x:Key="S.Errors.MissingDrive.Header">Aucun lecteur</s:String>
     <s:String x:Key="S.Errors.MissingDrive.Message">Le lecteur est indisponible ou manquant</s:String>
 
+    <!--Error • No other drive-->
+    <s:String x:Key="S.Errors.NoOtherDrive.Header">Aucun autre lecteur</s:String>
+    <s:String x:Key="S.Errors.NoOtherDrive.Message">Aucun autre lecteur n'est disponible comme cible</s:String>
+
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Échec de l'activation</s:String>
     <s:String x:Key="S.Errors.Activation.Generic">Il n'a pas été possible d'activer l'application en raison d'un problème inconnu</s:String>
@@ -1127,10 +1138,26 @@
     <s:String x:Key="S.Editor.Edit.Remove">Supprimer</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Text">Modifier le texte</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Drawing">Modifier le dessin</s:String>
+
     <s:String x:Key="S.Editor.Canvas">Canevas</s:String>
     <s:String x:Key="S.Editor.Canvas.Resize">Redimensionner...</s:String>
     <s:String x:Key="S.Editor.Canvas.Crop">Rogner...</s:String>
     <s:String x:Key="S.Editor.Canvas.Trim">Rogner...</s:String>
+
+    <s:String x:Key="S.Editor.Timeline">Chronologie</s:String>
+    <s:String x:Key="S.Editor.Timeline.Split">Scinder</s:String>
+    <s:String x:Key="S.Editor.Timeline.Delete">Supprimer la sélection</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimStart">Rogner le début</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEnd">Rogner la fin</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty">Rogner les parties vides...</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.Start">Début</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.StartEnd">Début et fin</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.End">Fin</s:String>
+    <s:String x:Key="S.Editor.Timeline.SetLength">Définir la durée...</s:String>
+    <s:String x:Key="S.Editor.Timeline.OptimizeForLoop">Optimiser pour la boucle...</s:String>
+    <s:String x:Key="S.Editor.Timeline.Automatic">Durée automatique</s:String>
+    <s:String x:Key="S.Editor.Timeline.TimeScroll">Défilement temporel</s:String>
+
     <s:String x:Key="S.Editor.Insert">Insérer</s:String>
     <s:String x:Key="S.Editor.Insert.Screen">Enregistrement d'écran</s:String>
     <s:String x:Key="S.Editor.Insert.Sound">Enregistrement audio</s:String>
@@ -1325,6 +1352,7 @@
     <!--Remember choices-->
     <s:String x:Key="S.RememberChoice">Mémoriser mon choix</s:String>
     <s:String x:Key="S.RememberChoice.Editor.Info">Pour modifier ces préférences plus tard, rendez-vous dans Paramètres > Éditeur</s:String>
+    <s:String x:Key="S.RememberChoice.Application.Info">Pour modifier cette préférence plus tard, accédez à Paramètres > Application</s:String>
 
     <!--Playback-->
     <s:String x:Key="S.Playback.Play">Lecture</s:String>
@@ -1663,6 +1691,10 @@
     <s:String x:Key="S.Settings.Application.Shortcuts.Settings.Info">Ouvre la fenêtre des paramètres</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Exit">Quitter</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Exit.Info">Ferme toutes les fenêtres et supprime l'application de la barre d'état</s:String>
+
+    <!--Settings • Application > Other-->
+    <s:String x:Key="S.Settings.Application.OpenMediaWith">Ouvrir les fichiers avec</s:String>
+    <s:String x:Key="S.Settings.Application.OpenMediaWith.Info">Choisissez ce qui ouvre les fichiers déposés sur la fenêtre d’accueil, ouverts via « Ouvrir avec » ou déposés sur le raccourci de l’application</s:String>
     <s:String x:Key="S.Settings.Application.DisableHardwareAcc">Désactiver l'accélération matérielle</s:String>
     <s:String x:Key="S.Settings.Application.DisableHardwareAcc.Info">L'interface utilisateur sera rendue en mode logiciel</s:String>
     <s:String x:Key="S.Settings.Application.AskWhenExiting">Me demander avant de fermer l'application</s:String>

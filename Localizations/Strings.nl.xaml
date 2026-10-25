@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Door machine vertaald (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-10-11</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-10-24</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Accepteren</s:String>
@@ -494,6 +494,13 @@
     <s:String x:Key="S.Dialogs.TimelineLength.Header">Tijdlijnlengte instellen</s:String>
     <s:String x:Key="S.Dialogs.TimelineLength.Action">Lengte instellen</s:String>
 
+    <!--Dialogs • Open with-->
+    <s:String x:Key="S.Dialogs.OpenWith.Header">Openen met</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Files">Bestanden</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Target">Doel</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Ignored.Exporter">De exportfunctie opent één video, audiobestand of project tegelijk. Alleen het eerste compatibele bestand wordt gebruikt.</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Ignored.Project">Er is een project gevonden, daarom worden alle andere bestanden genegeerd.</s:String>
+
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">Verplichte velden</s:String>
     <s:String x:Key="S.Validation.Required.Description">Sommige verplichte velden zijn leeg of bevatten ongeldige gegevens</s:String>
@@ -911,6 +918,10 @@
     <s:String x:Key="S.Errors.MissingDrive.Header">Geen station</s:String>
     <s:String x:Key="S.Errors.MissingDrive.Message">Het station is niet beschikbaar of ontbreekt</s:String>
 
+    <!--Error • No other drive-->
+    <s:String x:Key="S.Errors.NoOtherDrive.Header">Geen ander station</s:String>
+    <s:String x:Key="S.Errors.NoOtherDrive.Message">Er is geen ander station om als doel te gebruiken</s:String>
+
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Activering mislukt</s:String>
     <s:String x:Key="S.Errors.Activation.Generic">Het was niet mogelijk om de app te activeren vanwege een onbekend probleem</s:String>
@@ -1127,10 +1138,26 @@
     <s:String x:Key="S.Editor.Edit.Remove">Verwijderen</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Text">Tekst bewerken</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Drawing">Tekening bewerken</s:String>
+
     <!--<s:String x:Key="S.Editor.Canvas">Canvas</s:String>-->
     <s:String x:Key="S.Editor.Canvas.Resize">Formaat wijzigen...</s:String>
     <s:String x:Key="S.Editor.Canvas.Crop">Bijsnijden...</s:String>
     <s:String x:Key="S.Editor.Canvas.Trim">Trimmen...</s:String>
+
+    <s:String x:Key="S.Editor.Timeline">Tijdlijn</s:String>
+    <s:String x:Key="S.Editor.Timeline.Split">Splitsen</s:String>
+    <s:String x:Key="S.Editor.Timeline.Delete">Selectie verwijderen</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimStart">Begin inkorten</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEnd">Einde inkorten</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty">Lege delen inkorten...</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.Start">Begin</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.StartEnd">Begin en einde</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.End">Einde</s:String>
+    <s:String x:Key="S.Editor.Timeline.SetLength">Lengte instellen...</s:String>
+    <s:String x:Key="S.Editor.Timeline.OptimizeForLoop">Optimaliseren voor lus...</s:String>
+    <s:String x:Key="S.Editor.Timeline.Automatic">Automatische lengte</s:String>
+    <s:String x:Key="S.Editor.Timeline.TimeScroll">Tijdscrollen</s:String>
+
     <s:String x:Key="S.Editor.Insert">Invoegen</s:String>
     <s:String x:Key="S.Editor.Insert.Screen">Schermopname</s:String>
     <s:String x:Key="S.Editor.Insert.Sound">Geluidsopname</s:String>
@@ -1325,6 +1352,7 @@
     <!--Remember choices-->
     <s:String x:Key="S.RememberChoice">Onthoud mijn keuze</s:String>
     <s:String x:Key="S.RememberChoice.Editor.Info">Om deze voorkeuren later te wijzigen, ga naar Instellingen > Editor</s:String>
+    <s:String x:Key="S.RememberChoice.Application.Info">Ga naar Instellingen > Toepassing om deze voorkeur later te wijzigen</s:String>
 
     <!--Playback-->
     <s:String x:Key="S.Playback.Play">Afspelen</s:String>
@@ -1663,6 +1691,10 @@
     <s:String x:Key="S.Settings.Application.Shortcuts.Settings.Info">Opent het instellingenvenster</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Exit">Afsluiten</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Exit.Info">Sluit alle vensters en verwijdert de app uit het systeemvak</s:String>
+
+    <!--Settings • Application > Other-->
+    <s:String x:Key="S.Settings.Application.OpenMediaWith">Bestanden openen met</s:String>
+    <s:String x:Key="S.Settings.Application.OpenMediaWith.Info">Kies waarmee bestanden worden geopend die op het welkomstvenster worden neergezet, via ‘Openen met’ worden geopend of op de snelkoppeling van de app worden neergezet</s:String>
     <s:String x:Key="S.Settings.Application.DisableHardwareAcc">Schakel hardwareversnelling uit</s:String>
     <s:String x:Key="S.Settings.Application.DisableHardwareAcc.Info">De gebruikersinterface wordt weergegeven via softwaremodus</s:String>
     <s:String x:Key="S.Settings.Application.AskWhenExiting">Vraag het mij voordat je de app sluit</s:String>

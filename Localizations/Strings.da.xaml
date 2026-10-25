@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Maskinoversat (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-10-11</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-10-24</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Accepter</s:String>
@@ -494,6 +494,13 @@
     <s:String x:Key="S.Dialogs.TimelineLength.Header">Angiv tidslinjelængde</s:String>
     <s:String x:Key="S.Dialogs.TimelineLength.Action">Angiv længde</s:String>
 
+    <!--Dialogs • Open with-->
+    <s:String x:Key="S.Dialogs.OpenWith.Header">Åbn med</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Files">Filer</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Target">Mål</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Ignored.Exporter">Eksportøren åbner én video, lydfil eller ét projekt ad gangen. Kun den første kompatible fil vil blive brugt.</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Ignored.Project">Et projekt blev fundet, så alle andre filer ignoreres.</s:String>
+
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">Nødvendige felter</s:String>
     <s:String x:Key="S.Validation.Required.Description">Nogle nødvendige felter er tomme eller indeholder ugyldige data</s:String>
@@ -911,6 +918,10 @@
     <s:String x:Key="S.Errors.MissingDrive.Header">Ingen drev</s:String>
     <s:String x:Key="S.Errors.MissingDrive.Message">Drevet er utilgængeligt eller mangler</s:String>
 
+    <!--Error • No other drive-->
+    <s:String x:Key="S.Errors.NoOtherDrive.Header">Ingen anden disk</s:String>
+    <s:String x:Key="S.Errors.NoOtherDrive.Message">Der er ingen anden disk at vælge som mål</s:String>
+
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Aktivering mislykkedes</s:String>
     <s:String x:Key="S.Errors.Activation.Generic">Det var ikke muligt at aktivere appen på grund af et ukendt problem</s:String>
@@ -1127,10 +1138,26 @@
     <s:String x:Key="S.Editor.Edit.Remove">Fjern</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Text">Rediger tekst</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Drawing">Rediger tegning</s:String>
+
     <s:String x:Key="S.Editor.Canvas">Lærred</s:String>
     <s:String x:Key="S.Editor.Canvas.Resize">Ændr størrelse...</s:String>
     <s:String x:Key="S.Editor.Canvas.Crop">Beskær...</s:String>
     <!--<s:String x:Key="S.Editor.Canvas.Trim">Trim...</s:String>-->
+    
+    <s:String x:Key="S.Editor.Timeline">Tidslinje</s:String>
+    <s:String x:Key="S.Editor.Timeline.Split">Opdel</s:String>
+    <s:String x:Key="S.Editor.Timeline.Delete">Slet markering</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimStart">Beskær start</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEnd">Beskær slut</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty">Beskær tomt...</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.Start">Start</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.StartEnd">Start og slut</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.End">Slut</s:String>
+    <s:String x:Key="S.Editor.Timeline.SetLength">Angiv længde...</s:String>
+    <s:String x:Key="S.Editor.Timeline.OptimizeForLoop">Optimer til løkke...</s:String>
+    <s:String x:Key="S.Editor.Timeline.Automatic">Automatisk længde</s:String>
+    <s:String x:Key="S.Editor.Timeline.TimeScroll">Tidsrulning</s:String>
+
     <s:String x:Key="S.Editor.Insert">Indsæt</s:String>
     <s:String x:Key="S.Editor.Insert.Screen">Skærmoptagelse</s:String>
     <s:String x:Key="S.Editor.Insert.Sound">Lydoptagelse</s:String>
@@ -1325,6 +1352,7 @@
     <!--Remember choices-->
     <s:String x:Key="S.RememberChoice">Husk mit valg</s:String>
     <s:String x:Key="S.RememberChoice.Editor.Info">For at ændre disse indstillinger senere, gå til Indstillinger > Editor</s:String>
+    <s:String x:Key="S.RememberChoice.Application.Info">Hvis du vil ændre denne indstilling senere, skal du gå til Indstillinger > Program</s:String>
 
     <!--Playback-->
     <s:String x:Key="S.Playback.Play">Afspil</s:String>
@@ -1663,6 +1691,10 @@
     <s:String x:Key="S.Settings.Application.Shortcuts.Settings.Info">Åbner indstillingsvinduet</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Exit">Afslut</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Exit.Info">Lukker alle vinduer og fjerner appen fra systembakken</s:String>
+
+    <!--Settings • Application > Other-->
+    <s:String x:Key="S.Settings.Application.OpenMediaWith">Åbn filer med</s:String>
+    <s:String x:Key="S.Settings.Application.OpenMediaWith.Info">Vælg, hvad der skal åbne filer, som slippes på velkomstvinduet, åbnes via "Åbn med" eller slippes på programmets genvej</s:String>
     <s:String x:Key="S.Settings.Application.DisableHardwareAcc">Deaktiver hardwareacceleration</s:String>
     <s:String x:Key="S.Settings.Application.DisableHardwareAcc.Info">Brugergrænsefladen vil blive gengivet i softwaretilstand</s:String>
     <s:String x:Key="S.Settings.Application.AskWhenExiting">Spørg mig før appen lukkes</s:String>

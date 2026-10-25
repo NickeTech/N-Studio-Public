@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">Nicke Manarin</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-10-11</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-10-24</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Accept</s:String>
@@ -494,6 +494,13 @@
     <s:String x:Key="S.Dialogs.TimelineLength.Header">Set timeline length</s:String>
     <s:String x:Key="S.Dialogs.TimelineLength.Action">Set length</s:String>
 
+    <!--Dialogs • Open with-->
+    <s:String x:Key="S.Dialogs.OpenWith.Header">Open with</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Files">Files</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Target">Target</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Ignored.Exporter">The exporter opens one video, audio or project at a time. Only the first compatible file will be used.</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Ignored.Project">A project was found, so all other files will be ignored.</s:String>
+
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">Required fields</s:String>
     <s:String x:Key="S.Validation.Required.Description">Some required fields are empty or have invalid data</s:String>
@@ -911,6 +918,10 @@
     <s:String x:Key="S.Errors.MissingDrive.Header">No drive</s:String>
     <s:String x:Key="S.Errors.MissingDrive.Message">The drive is unavailable or missing</s:String>
 
+    <!--Error • No other drive--> 
+    <s:String x:Key="S.Errors.NoOtherDrive.Header">No other drive</s:String>
+    <s:String x:Key="S.Errors.NoOtherDrive.Message">There's no other drive to target</s:String>
+
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Activation failed</s:String>
     <s:String x:Key="S.Errors.Activation.Generic">It was not possible to activate the app due to an unknown problem</s:String>
@@ -1127,10 +1138,26 @@
     <s:String x:Key="S.Editor.Edit.Remove">Remove</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Text">Edit text</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Drawing">Edit drawing</s:String>
+
     <s:String x:Key="S.Editor.Canvas">Canvas</s:String>
     <s:String x:Key="S.Editor.Canvas.Resize">Resize...</s:String>
     <s:String x:Key="S.Editor.Canvas.Crop">Crop...</s:String>
     <s:String x:Key="S.Editor.Canvas.Trim">Trim...</s:String>
+
+    <s:String x:Key="S.Editor.Timeline">Timeline</s:String>
+    <s:String x:Key="S.Editor.Timeline.Split">Split</s:String>
+    <s:String x:Key="S.Editor.Timeline.Delete">Delete selection</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimStart">Trim start</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEnd">Trim end</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty">Trim empty...</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.Start">Start</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.StartEnd">Start and end</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.End">End</s:String>
+    <s:String x:Key="S.Editor.Timeline.SetLength">Set length...</s:String>
+    <s:String x:Key="S.Editor.Timeline.OptimizeForLoop">Optimize for loop...</s:String>
+    <s:String x:Key="S.Editor.Timeline.Automatic">Automatic length</s:String>
+    <s:String x:Key="S.Editor.Timeline.TimeScroll">Time scroll</s:String>
+
     <s:String x:Key="S.Editor.Insert">Insert</s:String>
     <s:String x:Key="S.Editor.Insert.Screen">Screen Recording</s:String>
     <s:String x:Key="S.Editor.Insert.Sound">Sound Recording</s:String>
@@ -1325,6 +1352,7 @@
     <!--Remember choices-->
     <s:String x:Key="S.RememberChoice">Remember my choice</s:String>
     <s:String x:Key="S.RememberChoice.Editor.Info">To change these preferences later, visit Settings > Editor</s:String>
+    <s:String x:Key="S.RememberChoice.Application.Info">To change this preferences later, visit Settings > Application</s:String>
 
     <!--Playback-->
     <s:String x:Key="S.Playback.Play">Play</s:String>
@@ -1663,6 +1691,10 @@
     <s:String x:Key="S.Settings.Application.Shortcuts.Settings.Info">Opens the settings window</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Exit">Exit</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Exit.Info">Closes all windows and removes the app from the system tray</s:String>
+
+    <!--Settings • Application > Other-->
+    <s:String x:Key="S.Settings.Application.OpenMediaWith">Open files with</s:String>
+    <s:String x:Key="S.Settings.Application.OpenMediaWith.Info">Choose what opens files dropped on the welcome window, opened via “Open with,” or dropped on the app shortcut</s:String>
     <s:String x:Key="S.Settings.Application.DisableHardwareAcc">Disable hardware acceleration</s:String>
     <s:String x:Key="S.Settings.Application.DisableHardwareAcc.Info">The user interface will be rendered via software mode</s:String>
     <s:String x:Key="S.Settings.Application.AskWhenExiting">Ask me before closing the app</s:String>

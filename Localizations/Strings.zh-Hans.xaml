@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">Anlv</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-10-11</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-10-24</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">接受</s:String>
@@ -494,6 +494,13 @@
     <s:String x:Key="S.Dialogs.TimelineLength.Header">设置时间轴长度</s:String>
     <s:String x:Key="S.Dialogs.TimelineLength.Action">设置长度</s:String>
 
+    <!--Dialogs • Open with-->
+    <s:String x:Key="S.Dialogs.OpenWith.Header">打开方式</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Files">文件</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Target">目标</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Ignored.Exporter">导出器一次只能打开一个视频、音频或项目。仅会使用第一个兼容文件。</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Ignored.Project">已找到项目，因此将忽略所有其他文件。</s:String>
+
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">必填字段</s:String>
     <s:String x:Key="S.Validation.Required.Description">某些必填字段为空或包含无效数据</s:String>
@@ -911,6 +918,10 @@
     <s:String x:Key="S.Errors.MissingDrive.Header">无驱动器</s:String>
     <s:String x:Key="S.Errors.MissingDrive.Message">驱动器不可用或已丢失</s:String>
 
+    <!--Error • No other drive-->
+    <s:String x:Key="S.Errors.NoOtherDrive.Header">没有其他驱动器</s:String>
+    <s:String x:Key="S.Errors.NoOtherDrive.Message">没有其他驱动器可作为目标</s:String>
+
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">激活失败</s:String>
     <s:String x:Key="S.Errors.Activation.Generic">由于未知问题，无法激活应用</s:String>
@@ -1127,10 +1138,26 @@
     <s:String x:Key="S.Editor.Edit.Remove">移除</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Text">编辑文前</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Drawing">编辑绘画</s:String>
+
     <s:String x:Key="S.Editor.Canvas">画布</s:String>
     <s:String x:Key="S.Editor.Canvas.Resize">调整大小...</s:String>
     <s:String x:Key="S.Editor.Canvas.Crop">裁剪...</s:String>
     <s:String x:Key="S.Editor.Canvas.Trim">修剪...</s:String>
+
+    <s:String x:Key="S.Editor.Timeline">时间轴</s:String>
+    <s:String x:Key="S.Editor.Timeline.Split">分割</s:String>
+    <s:String x:Key="S.Editor.Timeline.Delete">删除选区</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimStart">裁剪开头</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEnd">裁剪结尾</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty">裁剪空白...</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.Start">开头</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.StartEnd">开头和结尾</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.End">结尾</s:String>
+    <s:String x:Key="S.Editor.Timeline.SetLength">设置时长...</s:String>
+    <s:String x:Key="S.Editor.Timeline.OptimizeForLoop">优化循环...</s:String>
+    <s:String x:Key="S.Editor.Timeline.Automatic">自动时长</s:String>
+    <s:String x:Key="S.Editor.Timeline.TimeScroll">时间滚动</s:String>
+
     <s:String x:Key="S.Editor.Insert">插入</s:String>
     <s:String x:Key="S.Editor.Insert.Screen">屏幕录制</s:String>
     <s:String x:Key="S.Editor.Insert.Sound">音声录制</s:String>
@@ -1325,6 +1352,7 @@
     <!--Remember choices-->
     <s:String x:Key="S.RememberChoice">记住选择</s:String>
     <s:String x:Key="S.RememberChoice.Editor.Info">要稍后更改这些首选项，请访问"设置">"编辑器"</s:String>
+    <s:String x:Key="S.RememberChoice.Application.Info">若要稍后更改此首选项，请前往“设置 > 应用程序”</s:String>
 
     <!--Playback-->
     <s:String x:Key="S.Playback.Play">播放</s:String>
@@ -1663,6 +1691,10 @@
     <s:String x:Key="S.Settings.Application.Shortcuts.Settings.Info">打开设置窗口</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Exit">退出</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Exit.Info">关闭所有窗口并从系统托盘中移除应用</s:String>
+
+    <!--Settings • Application > Other-->
+    <s:String x:Key="S.Settings.Application.OpenMediaWith">打开文件时使用</s:String>
+    <s:String x:Key="S.Settings.Application.OpenMediaWith.Info">选择用于打开拖放到欢迎窗口、通过“打开方式”打开或拖放到应用快捷方式上的文件的程序</s:String>
     <s:String x:Key="S.Settings.Application.DisableHardwareAcc">禁用硬件加速</s:String>
     <s:String x:Key="S.Settings.Application.DisableHardwareAcc.Info">用户界面将通过软件模式渲染</s:String>
     <s:String x:Key="S.Settings.Application.AskWhenExiting">关闭应用前询问我</s:String>

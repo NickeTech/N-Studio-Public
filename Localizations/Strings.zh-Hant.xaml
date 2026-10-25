@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ 機器翻譯 (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-10-11</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-10-24</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">接受</s:String>
@@ -494,6 +494,13 @@
     <s:String x:Key="S.Dialogs.TimelineLength.Header">設定時間軸長度</s:String>
     <s:String x:Key="S.Dialogs.TimelineLength.Action">設定長度</s:String>
 
+    <!--Dialogs • Open with-->
+    <s:String x:Key="S.Dialogs.OpenWith.Header">開啟方式</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Files">檔案</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Target">目標</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Ignored.Exporter">匯出工具一次只能開啟一個影片、音訊或專案。只會使用第一個相容的檔案。</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Ignored.Project">已找到專案，因此將忽略所有其他檔案。</s:String>
+
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">必填欄位</s:String>
     <s:String x:Key="S.Validation.Required.Description">某些必填欄位為空或含有無效資料</s:String>
@@ -911,6 +918,10 @@
     <s:String x:Key="S.Errors.MissingDrive.Header">無磁碟機</s:String>
     <s:String x:Key="S.Errors.MissingDrive.Message">磁碟機無法使用或已遺失</s:String>
 
+    <!--Error • No other drive-->
+    <s:String x:Key="S.Errors.NoOtherDrive.Header">沒有其他磁碟機</s:String>
+    <s:String x:Key="S.Errors.NoOtherDrive.Message">沒有其他磁碟機可作為目標</s:String>
+
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">啟用失敗</s:String>
     <s:String x:Key="S.Errors.Activation.Generic">由於未知問題，無法啟用應用程式</s:String>
@@ -1127,10 +1138,26 @@
     <s:String x:Key="S.Editor.Edit.Remove">移除</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Text">編輯文字</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Drawing">編輯繪圖</s:String>
+
     <s:String x:Key="S.Editor.Canvas">畫布</s:String>
     <s:String x:Key="S.Editor.Canvas.Resize">調整大小...</s:String>
     <s:String x:Key="S.Editor.Canvas.Crop">裁剪...</s:String>
     <s:String x:Key="S.Editor.Canvas.Trim">修剪...</s:String>
+
+    <s:String x:Key="S.Editor.Timeline">時間軸</s:String>
+    <s:String x:Key="S.Editor.Timeline.Split">分割</s:String>
+    <s:String x:Key="S.Editor.Timeline.Delete">刪除選取範圍</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimStart">裁切開頭</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEnd">裁切結尾</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty">裁切空白...</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.Start">開頭</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.StartEnd">開頭與結尾</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.End">結尾</s:String>
+    <s:String x:Key="S.Editor.Timeline.SetLength">設定長度...</s:String>
+    <s:String x:Key="S.Editor.Timeline.OptimizeForLoop">最佳化循環...</s:String>
+    <s:String x:Key="S.Editor.Timeline.Automatic">自動長度</s:String>
+    <s:String x:Key="S.Editor.Timeline.TimeScroll">時間捲動</s:String>
+
     <s:String x:Key="S.Editor.Insert">插入</s:String>
     <s:String x:Key="S.Editor.Insert.Screen">螢幕錄製</s:String>
     <s:String x:Key="S.Editor.Insert.Sound">聲音錄製</s:String>
@@ -1325,6 +1352,7 @@
     <!--Remember choices-->
     <s:String x:Key="S.RememberChoice">記住我的選擇</s:String>
     <s:String x:Key="S.RememberChoice.Editor.Info">要稍後更改這些偏好設定，請前往 設定 > 編輯器</s:String>
+    <s:String x:Key="S.RememberChoice.Application.Info">若要稍後變更此偏好設定，請前往「設定 > 應用程式」</s:String>
 
     <!--Playback-->
     <s:String x:Key="S.Playback.Play">播放</s:String>
@@ -1663,6 +1691,10 @@
     <s:String x:Key="S.Settings.Application.Shortcuts.Settings.Info">開啟設定視窗</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Exit">退出</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Exit.Info">關閉所有視窗並從系統托盤移除應用程式</s:String>
+
+    <!--Settings • Application > Other-->
+    <s:String x:Key="S.Settings.Application.OpenMediaWith">開啟檔案時使用</s:String>
+    <s:String x:Key="S.Settings.Application.OpenMediaWith.Info">選擇用來開啟拖放到歡迎視窗、透過「開啟方式」開啟或拖放到應用程式捷徑上的檔案的程式</s:String>
     <s:String x:Key="S.Settings.Application.DisableHardwareAcc">停用硬體加速</s:String>
     <s:String x:Key="S.Settings.Application.DisableHardwareAcc.Info">使用者介面將以軟體模式呈現</s:String>
     <s:String x:Key="S.Settings.Application.AskWhenExiting">關閉應用程式前詢問我</s:String>

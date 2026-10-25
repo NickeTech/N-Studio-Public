@@ -9,7 +9,7 @@
 
     <!--Information-->
     <s:String x:Key="S.Translation.Authors">⚠️ Maskinöversatt (Machine translated)</s:String>
-    <s:DateTime x:Key="S.Translation.LastUpdate">2026-10-11</s:DateTime>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-10-24</s:DateTime>
 
     <!--Imperative-->
     <s:String x:Key="S.Imperative.Accept">Acceptera</s:String>
@@ -494,6 +494,13 @@
     <s:String x:Key="S.Dialogs.TimelineLength.Header">Ställ in tidslinjens längd</s:String>
     <s:String x:Key="S.Dialogs.TimelineLength.Action">Ställ in längd</s:String>
 
+    <!--Dialogs • Open with-->
+    <s:String x:Key="S.Dialogs.OpenWith.Header">Öppna med</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Files">Filer</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Target">Mål</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Ignored.Exporter">Exporteraren öppnar en video, ljudfil eller ett projekt åt gången. Endast den första kompatibla filen kommer att användas.</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Ignored.Project">Ett projekt hittades, så alla andra filer ignoreras.</s:String>
+
     <!--Validation • Field Validations-->
     <s:String x:Key="S.Validation.Required.Header">Obligatoriska fält</s:String>
     <s:String x:Key="S.Validation.Required.Description">Några obligatoriska fält är tomma eller innehåller ogiltiga data</s:String>
@@ -911,6 +918,10 @@
     <s:String x:Key="S.Errors.MissingDrive.Header">Ingen enhet</s:String>
     <s:String x:Key="S.Errors.MissingDrive.Message">Enheten är otillgänglig eller saknas</s:String>
 
+    <!--Error • No other drive-->
+    <s:String x:Key="S.Errors.NoOtherDrive.Header">Ingen annan enhet</s:String>
+    <s:String x:Key="S.Errors.NoOtherDrive.Message">Det finns ingen annan enhet att använda som mål</s:String>
+
     <!--Error • Others--> 
     <s:String x:Key="S.Errors.Activation.Title">Aktivering misslyckades</s:String>
     <s:String x:Key="S.Errors.Activation.Generic">Det gick inte att aktivera appen på grund av ett okänt problem</s:String>
@@ -1127,10 +1138,26 @@
     <s:String x:Key="S.Editor.Edit.Remove">Ta bort</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Text">Redigera text</s:String>
     <s:String x:Key="S.Editor.Edit.Content.Drawing">Redigera ritning</s:String>
+
     <!--<s:String x:Key="S.Editor.Canvas">Canvas</s:String>-->
     <s:String x:Key="S.Editor.Canvas.Resize">Ändra storlek...</s:String>
     <s:String x:Key="S.Editor.Canvas.Crop">Beskära...</s:String>
     <s:String x:Key="S.Editor.Canvas.Trim">Trimma...</s:String>
+
+    <s:String x:Key="S.Editor.Timeline">Tidslinje</s:String>
+    <s:String x:Key="S.Editor.Timeline.Split">Dela</s:String>
+    <s:String x:Key="S.Editor.Timeline.Delete">Ta bort markering</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimStart">Beskär början</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEnd">Beskär slutet</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty">Beskär tomt...</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.Start">Början</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.StartEnd">Början och slutet</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.End">Slutet</s:String>
+    <s:String x:Key="S.Editor.Timeline.SetLength">Ställ in längd...</s:String>
+    <s:String x:Key="S.Editor.Timeline.OptimizeForLoop">Optimera för loop...</s:String>
+    <s:String x:Key="S.Editor.Timeline.Automatic">Automatisk längd</s:String>
+    <s:String x:Key="S.Editor.Timeline.TimeScroll">Tidsskrollning</s:String>
+
     <s:String x:Key="S.Editor.Insert">Infoga</s:String>
     <s:String x:Key="S.Editor.Insert.Screen">Skärminspelning</s:String>
     <s:String x:Key="S.Editor.Insert.Sound">Ljudinspelning</s:String>
@@ -1325,6 +1352,7 @@
     <!--Remember choices-->
     <s:String x:Key="S.RememberChoice">Kom ihåg mitt val</s:String>
     <s:String x:Key="S.RememberChoice.Editor.Info">För att ändra dessa preferenser senare, gå till Inställningar > Redigerare</s:String>
+    <s:String x:Key="S.RememberChoice.Application.Info">Om du vill ändra denna inställning senare går du till Inställningar > Program</s:String>
 
     <!--Playback-->
     <s:String x:Key="S.Playback.Play">Spela upp</s:String>
@@ -1663,6 +1691,10 @@
     <s:String x:Key="S.Settings.Application.Shortcuts.Settings.Info">Öppnar inställningsfönstret</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Exit">Avsluta</s:String>
     <s:String x:Key="S.Settings.Application.Shortcuts.Exit.Info">Stänger alla fönster och tar bort appen från systemfältet</s:String>
+
+    <!--Settings • Application > Other-->
+    <s:String x:Key="S.Settings.Application.OpenMediaWith">Öppna filer med</s:String>
+    <s:String x:Key="S.Settings.Application.OpenMediaWith.Info">Välj vad som öppnar filer som släpps på välkomstfönstret, öppnas via ”Öppna med” eller släpps på appgenvägen</s:String>
     <s:String x:Key="S.Settings.Application.DisableHardwareAcc">Inaktivera hårdvaruacceleration</s:String>
     <s:String x:Key="S.Settings.Application.DisableHardwareAcc.Info">Användargränssnittet kommer att renderas i programvaruläge</s:String>
     <s:String x:Key="S.Settings.Application.AskWhenExiting">Fråga mig innan appen stängs</s:String>
