@@ -45,6 +45,7 @@
     <s:String x:Key="S.Imperative.Continue">繼續</s:String>
     <s:String x:Key="S.Imperative.Clear">清除</s:String>
     <s:String x:Key="S.Imperative.SeeMore">查看更多</s:String>
+    <s:String x:Key="S.Imperative.SeeError">檢視錯誤</s:String>
     <s:String x:Key="S.Imperative.FixIssue">修正問題</s:String>
     <s:String x:Key="S.Imperative.Login">登入</s:String>
     <s:String x:Key="S.Imperative.Logout">登出</s:String>
@@ -175,6 +176,7 @@
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionCommandFailed">FFmpeg -version 指令執行失敗。輸出：{0}</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionUnknown">無法從輸出判斷 FFmpeg 版本。</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionOld">FFmpeg 版本 {0} 早於 6.0。請更新至較新版本。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionUnsupported">不支援 FFmpeg 版本 {0}。</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingFailed">FFmpeg 編碼失敗。</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingOutputMissing">FFmpeg 編碼失敗。未建立輸出檔案。</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingOutputEmpty">FFmpeg 編碼失敗。輸出檔案為空。</s:String>
@@ -186,6 +188,8 @@
     <s:String x:Key="S.Dialog.Troubleshooter.Error.Unexpected">未預期的錯誤：{0}</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoMonitors">未偵測到螢幕。</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoFramesCaptured">未擷取到任何畫面。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.DpiAwareness">DPI 感知</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.DpiAwarenessFailure">每個顯示器 V2 DPI 感知未啟用。請在 Windows 相容性設定中檢查應用程式的高 DPI 縮放覆寫選項。</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDevices">未偵測到任何啟用的音訊裝置。</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Output">輸出</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Input">輸入</s:String>
@@ -519,6 +523,10 @@
     <s:String x:Key="S.Validation.Missing.Ffmpeg.Message">未找到 FFmpeg。請透過 設定 > 外掛 下載</s:String>
     <s:String x:Key="S.Validation.Missing.Gifski.Message">未找到 Gifski。請透過 設定 > 外掛 下載</s:String>
 
+    <!--Validation • Unsupported dependency-->
+    <s:String x:Key="S.Validation.Unsupported.Header">不支援</s:String>
+    <s:String x:Key="S.Validation.Unsupported.Ffmpeg.Message">目前不支援此 FFmpeg 版本。請透過 設定 > 插件 下載新版本</s:String>
+    
     <!--Validation • Empty parameters-->
     <s:String x:Key="S.Validation.EmptyParameters.Header">空參數</s:String>
     <s:String x:Key="S.Validation.EmptyParameters.Message">尚未為預設設定參數</s:String>
@@ -527,6 +535,10 @@
     <s:String x:Key="S.Validation.MissingParameters.Header">缺少參數</s:String>
     <s:String x:Key="S.Validation.MissingParameters.Message">參數欄位中缺少特殊參數 {input} 和/或 {output}</s:String>
 
+    <!--Validation • Invalid FFmpeg parameters-->
+    <s:String x:Key="S.Validation.InvalidFfmpegParameters.Header">FFmpeg 驗證失敗</s:String>
+    <s:String x:Key="S.Validation.InvalidFfmpegParameters.Message">FFmpeg 無法使用所選設定進行編碼。</s:String>
+    
     <!--Validation • Invalid audio codec-->
     <s:String x:Key="S.Validation.InvalidAudioCodec.Header">無效的音訊編碼器</s:String>
     <s:String x:Key="S.Validation.InvalidAudioCodec.Webm.Message">WebM 音訊必須使用 Opus 或 Vorbis</s:String>
@@ -1311,6 +1323,7 @@
     <s:String x:Key="S.FeedbackPreview.FFmpeg.Header">標頭</s:String>
     <s:String x:Key="S.FeedbackPreview.FFmpeg.Version">版本</s:String>
     <s:String x:Key="S.FeedbackPreview.FFmpeg.Older">（較舊）</s:String>
+    <s:String x:Key="S.FeedbackPreview.FFmpeg.Unsupported">(不支援)</s:String>
     <s:String x:Key="S.FeedbackPreview.FFmpeg.Location">位置</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.When">時間</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.Category">類別</s:String>
@@ -2149,6 +2162,7 @@
     <s:String x:Key="S.Settings.Update.StoreHandled">如何更新？</s:String>
     <s:String x:Key="S.Settings.Update.StoreHandled.Info">更新會直接由 Microsoft Store 處理</s:String>
     <s:String x:Key="S.Settings.Update.StoreHandled.Action">開啟 Microsoft Store</s:String>
+    <s:String x:Key="S.Settings.Update.SteamHandled.Info">更新會直接由 Steam 處理</s:String>
 
     <!--Settings • About-->
     <s:String x:Key="S.Settings.About.Contact">聯絡</s:String>

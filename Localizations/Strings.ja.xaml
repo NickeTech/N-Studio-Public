@@ -45,6 +45,7 @@
     <s:String x:Key="S.Imperative.Continue">続行</s:String>
     <s:String x:Key="S.Imperative.Clear">クリア</s:String>
     <s:String x:Key="S.Imperative.SeeMore">さらに表示</s:String>
+    <s:String x:Key="S.Imperative.SeeError">エラーを表示</s:String>
     <s:String x:Key="S.Imperative.FixIssue">問題を修正</s:String>
     <s:String x:Key="S.Imperative.Login">ログイン</s:String>
     <s:String x:Key="S.Imperative.Logout">ログアウト</s:String>
@@ -175,6 +176,7 @@
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionCommandFailed">FFmpeg -version コマンドが失敗しました。出力: {0}</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionUnknown">出力から FFmpeg のバージョンを判別できませんでした。</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionOld">FFmpeg バージョン {0} は 6.0 より古いです。新しいバージョンに更新してください。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionUnsupported">FFmpeg のバージョン {0} はサポートされていません。</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingFailed">FFmpeg のエンコードに失敗しました。</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingOutputMissing">FFmpeg のエンコードに失敗しました。出力ファイルが作成されませんでした。</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingOutputEmpty">FFmpeg のエンコードに失敗しました。出力ファイルが空です。</s:String>
@@ -186,6 +188,8 @@
     <s:String x:Key="S.Dialog.Troubleshooter.Error.Unexpected">予期しないエラー: {0}</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoMonitors">モニターが検出されませんでした。</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoFramesCaptured">フレームがキャプチャされませんでした。</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.DpiAwareness">DPI 認識</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.DpiAwarenessFailure">モニターごとの V2 DPI 認識が有効になっていません。Windows の互換性設定で、アプリの高 DPI スケーリングの上書きを確認してください。</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDevices">アクティブな音声デバイスが検出されません。</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Output">出力</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Input">入力</s:String>
@@ -519,6 +523,10 @@
     <s:String x:Key="S.Validation.Missing.Ffmpeg.Message">FFmpegが見つかりませんでした。設定 > プラグインからダウンロードしてください</s:String>
     <s:String x:Key="S.Validation.Missing.Gifski.Message">Gifskiが見つかりませんでした。設定 > プラグインからダウンロードしてください</s:String>
 
+    <!--Validation • Unsupported dependency-->
+    <s:String x:Key="S.Validation.Unsupported.Header">サポートされていません</s:String>
+    <s:String x:Key="S.Validation.Unsupported.Ffmpeg.Message">現在の FFmpeg バージョンはサポートされていません。設定 > プラグイン から新しいものをダウンロードしてください</s:String>
+    
     <!--Validation • Empty parameters-->
     <s:String x:Key="S.Validation.EmptyParameters.Header">パラメーターが空です</s:String>
     <s:String x:Key="S.Validation.EmptyParameters.Message">プリセットにパラメーターが設定されていません</s:String>
@@ -527,6 +535,10 @@
     <s:String x:Key="S.Validation.MissingParameters.Header">パラメーターが不足しています</s:String>
     <s:String x:Key="S.Validation.MissingParameters.Message">パラメーター欄に特殊パラメーター {input} および/または {output} がありません</s:String>
 
+    <!--Validation • Invalid FFmpeg parameters-->
+    <s:String x:Key="S.Validation.InvalidFfmpegParameters.Header">FFmpeg の検証に失敗しました</s:String>
+    <s:String x:Key="S.Validation.InvalidFfmpegParameters.Message">選択した設定で FFmpeg をエンコードできませんでした。</s:String>
+    
     <!--Validation • Invalid audio codec-->
     <s:String x:Key="S.Validation.InvalidAudioCodec.Header">無効な音声コーデック</s:String>
     <s:String x:Key="S.Validation.InvalidAudioCodec.Webm.Message">WebM の音声は Opus または Vorbis を使用する必要があります</s:String>
@@ -1311,6 +1323,7 @@
     <s:String x:Key="S.FeedbackPreview.FFmpeg.Header">ヘッダー</s:String>
     <s:String x:Key="S.FeedbackPreview.FFmpeg.Version">バージョン</s:String>
     <s:String x:Key="S.FeedbackPreview.FFmpeg.Older">（旧）</s:String>
+    <s:String x:Key="S.FeedbackPreview.FFmpeg.Unsupported">(サポート外)</s:String>
     <s:String x:Key="S.FeedbackPreview.FFmpeg.Location">場所</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.When">いつ</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.Category">カテゴリ</s:String>
@@ -2149,6 +2162,7 @@
     <s:String x:Key="S.Settings.Update.StoreHandled">更新方法は？</s:String>
     <s:String x:Key="S.Settings.Update.StoreHandled.Info">更新はMicrosoft Store経由で直接処理されます</s:String>
     <s:String x:Key="S.Settings.Update.StoreHandled.Action">Microsoft Storeを開く</s:String>
+    <s:String x:Key="S.Settings.Update.SteamHandled.Info">更新はSteam経由で直接処理されます</s:String>
 
     <!--Settings • About-->
     <s:String x:Key="S.Settings.About.Contact">連絡先</s:String>

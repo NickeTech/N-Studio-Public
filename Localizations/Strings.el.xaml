@@ -45,6 +45,7 @@
     <s:String x:Key="S.Imperative.Continue">Συνέχεια</s:String>
     <s:String x:Key="S.Imperative.Clear">Καθαρισμός</s:String>
     <s:String x:Key="S.Imperative.SeeMore">Δείτε περισσότερα</s:String>
+    <s:String x:Key="S.Imperative.SeeError">Προβολή σφάλματος</s:String>
     <s:String x:Key="S.Imperative.FixIssue">Διόρθωση προβλήματος</s:String>
     <s:String x:Key="S.Imperative.Login">Σύνδεση</s:String>
     <s:String x:Key="S.Imperative.Logout">Αποσύνδεση</s:String>
@@ -175,6 +176,7 @@
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionCommandFailed">Η εντολή FFmpeg -version απέτυχε. Έξοδος: {0}</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionUnknown">Δεν ήταν δυνατός ο προσδιορισμός της έκδοσης FFmpeg από την έξοδο.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionOld">Η έκδοση FFmpeg {0} είναι παλαιότερη από την 6.0. Παρακαλώ ενημερώστε σε νεότερη έκδοση.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionUnsupported">Η έκδοση FFmpeg {0} δεν υποστηρίζεται.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingFailed">Η κωδικοποίηση FFmpeg απέτυχε.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingOutputMissing">Η κωδικοποίηση FFmpeg απέτυχε. Το αρχείο εξόδου δεν δημιουργήθηκε.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingOutputEmpty">Η κωδικοποίηση FFmpeg απέτυχε. Το αρχείο εξόδου είναι κενό.</s:String>
@@ -186,6 +188,8 @@
     <s:String x:Key="S.Dialog.Troubleshooter.Error.Unexpected">Μη αναμενόμενο σφάλμα: {0}</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoMonitors">Δεν εντοπίστηκαν οθόνες.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoFramesCaptured">Δεν καταγράφηκαν καρέ.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.DpiAwareness">Επίγνωση DPI</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.DpiAwarenessFailure">Η επίγνωση DPI ανά οθόνη V2 δεν είναι ενεργή. Ελέγξτε την παράκαμψη κλιμάκωσης υψηλού DPI της εφαρμογής στις ρυθμίσεις συμβατότητας των Windows.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDevices">Δεν εντοπίστηκαν ενεργές συσκευές ήχου.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Output">Έξοδος</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Input">Είσοδος</s:String>
@@ -519,6 +523,10 @@
     <s:String x:Key="S.Validation.Missing.Ffmpeg.Message">Το FFmpeg δεν βρέθηκε. Κατεβάστε το από Ρυθμίσεις > Πρόσθετα</s:String>
     <s:String x:Key="S.Validation.Missing.Gifski.Message">Το Gifski δεν βρέθηκε. Κατεβάστε το από Ρυθμίσεις > Πρόσθετα</s:String>
 
+    <!--Validation • Unsupported dependency-->
+    <s:String x:Key="S.Validation.Unsupported.Header">Μη υποστηριζόμενο</s:String>
+    <s:String x:Key="S.Validation.Unsupported.Ffmpeg.Message">Η τρέχουσα έκδοση FFmpeg δεν υποστηρίζεται. Λήψη νέας μέσω των Ρυθμίσεις > Πρόσθετα</s:String>
+    
     <!--Validation • Empty parameters-->
     <s:String x:Key="S.Validation.EmptyParameters.Header">Κενές παράμετροι</s:String>
     <s:String x:Key="S.Validation.EmptyParameters.Message">Δεν έχουν οριστεί παράμετροι για την προεπιλογή</s:String>
@@ -527,6 +535,10 @@
     <s:String x:Key="S.Validation.MissingParameters.Header">Λείπουν παράμετροι</s:String>
     <s:String x:Key="S.Validation.MissingParameters.Message">Λείπουν οι ειδικές παράμετροι {input} και/ή {output} από το πεδίο παραμέτρων</s:String>
 
+    <!--Validation • Invalid FFmpeg parameters-->
+    <s:String x:Key="S.Validation.InvalidFfmpegParameters.Header">H επικύρωση του FFmpeg απέτυχε</s:String>
+    <s:String x:Key="S.Validation.InvalidFfmpegParameters.Message">Το FFmpeg δεν μπόρεσε να κωδικοποιήσει με τις επιλεγμένες ρυθμίσεις.</s:String>
+    
     <!--Validation • Invalid audio codec-->
     <s:String x:Key="S.Validation.InvalidAudioCodec.Header">Μη έγκυρος κωδικοποιητής ήχου</s:String>
     <s:String x:Key="S.Validation.InvalidAudioCodec.Webm.Message">Ο ήχος WebM πρέπει να χρησιμοποιεί Opus ή Vorbis</s:String>
@@ -1311,6 +1323,7 @@
     <s:String x:Key="S.FeedbackPreview.FFmpeg.Header">Κεφαλίδα</s:String>
     <s:String x:Key="S.FeedbackPreview.FFmpeg.Version">Έκδοση</s:String>
     <s:String x:Key="S.FeedbackPreview.FFmpeg.Older">(παλαιότερη)</s:String>
+    <s:String x:Key="S.FeedbackPreview.FFmpeg.Unsupported">(δεν υποστηρίζεται)</s:String>
     <s:String x:Key="S.FeedbackPreview.FFmpeg.Location">Τοποθεσία</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.When">Πότε</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.Category">Κατηγορία</s:String>
@@ -2149,6 +2162,7 @@
     <s:String x:Key="S.Settings.Update.StoreHandled">Πώς να ενημερώσετε;</s:String>
     <s:String x:Key="S.Settings.Update.StoreHandled.Info">Οι ενημερώσεις χειρίζονται απευθείας από το Microsoft Store</s:String>
     <s:String x:Key="S.Settings.Update.StoreHandled.Action">Άνοιγμα Microsoft Store</s:String>
+    <s:String x:Key="S.Settings.Update.SteamHandled.Info">Οι ενημερώσεις χειρίζονται απευθείας από το Steam</s:String>
 
     <!--Settings • About-->
     <s:String x:Key="S.Settings.About.Contact">Επικοινωνία</s:String>

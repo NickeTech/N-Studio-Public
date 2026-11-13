@@ -1,0 +1,2658 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib"
+                    xml:space="preserve">
+
+    <!--To use a NewLine: &#10; or CarriageReturn + NewLine: &#13;&#10;-->
+    <!--You can use the zero-width-divider to suggest where the word should be divided when there's no space &#8203;-->
+    <!--Special texts like {0}, are placeholders for dynamic values, such as numbers.-->
+
+    <!--Information-->
+    <s:String x:Key="S.Translation.Authors">Nicke Manarin (한국어 번역)</s:String>
+    <s:DateTime x:Key="S.Translation.LastUpdate">2026-10-19</s:DateTime>
+
+    <!--Imperative-->
+    <s:String x:Key="S.Imperative.Accept">수락</s:String>
+    <s:String x:Key="S.Imperative.Yes">예</s:String>
+    <s:String x:Key="S.Imperative.No">아니오</s:String>
+    <s:String x:Key="S.Imperative.Add">추가</s:String>
+    <s:String x:Key="S.Imperative.Select">선택</s:String>
+    <s:String x:Key="S.Imperative.Reset">초기화</s:String>
+    <s:String x:Key="S.Imperative.Reset.Info">원래 설정으로 초기화</s:String>
+    <s:String x:Key="S.Imperative.Revert">되돌리기</s:String>
+    <s:String x:Key="S.Imperative.Retry">다시 시도</s:String>
+    <s:String x:Key="S.Imperative.Export">내보내기</s:String>
+    <s:String x:Key="S.Imperative.Edit">편집</s:String>
+    <s:String x:Key="S.Imperative.Discard">버리기</s:String>
+    <s:String x:Key="S.Imperative.Delete">삭제</s:String>
+    <s:String x:Key="S.Imperative.Reload">다시 불러오기</s:String>
+    <s:String x:Key="S.Imperative.Back">뒤로</s:String>
+    <s:String x:Key="S.Imperative.Remove">제거</s:String>
+    <s:String x:Key="S.Imperative.RemoveAll">모두 제거</s:String>
+    <s:String x:Key="S.Imperative.Insert">삽입</s:String>
+    <s:String x:Key="S.Imperative.Import">가져오기</s:String>
+    <s:String x:Key="S.Imperative.Keep">유지</s:String>
+    <s:String x:Key="S.Imperative.KeepAll">모두 유지</s:String>
+    <s:String x:Key="S.Imperative.Download">다운로드</s:String>
+    <s:String x:Key="S.Imperative.LeaveAsIs">그대로 두기</s:String>
+    <s:String x:Key="S.Imperative.Dismiss">닫기</s:String>
+    <s:String x:Key="S.Imperative.Upgrade">업그레이드</s:String>
+    <s:String x:Key="S.Imperative.Save">저장</s:String>
+    <s:String x:Key="S.Imperative.Create">만들기</s:String>
+    <s:String x:Key="S.Imperative.Ok">확인</s:String>
+    <s:String x:Key="S.Imperative.Cancel">취소</s:String>
+    <s:String x:Key="S.Imperative.Close">닫기</s:String>
+    <s:String x:Key="S.Imperative.Continue">계속</s:String>
+    <s:String x:Key="S.Imperative.Clear">지우기</s:String>
+    <s:String x:Key="S.Imperative.SeeMore">더 보기</s:String>
+    <s:String x:Key="S.Imperative.SeeError">오류 보기</s:String>
+    <s:String x:Key="S.Imperative.FixIssue">문제 해결</s:String>
+    <s:String x:Key="S.Imperative.Login">로그인</s:String>
+    <s:String x:Key="S.Imperative.Logout">로그아웃</s:String>
+    <s:String x:Key="S.Imperative.Update">업데이트</s:String>
+    <s:String x:Key="S.Imperative.Ignore">무시</s:String>
+    <s:String x:Key="S.Imperative.Exit">종료</s:String>
+    <s:String x:Key="S.Imperative.KeepOpen">열어 두기</s:String>
+    <s:String x:Key="S.Imperative.OpenSettings">설정 열기</s:String>
+    <s:String x:Key="S.Imperative.OpenPresetSettings">프리셋 설정 열기</s:String>
+    <s:String x:Key="S.Imperative.OpenFile">파일 열기</s:String>
+    <s:String x:Key="S.Imperative.Open">열기</s:String>
+    <s:String x:Key="S.Imperative.SelectAll">모두 선택</s:String>
+    <s:String x:Key="S.Imperative.DeselectAll">모두 선택 해제</s:String>
+    <s:String x:Key="S.Imperative.ReportIssue">문제 보고</s:String>
+    <s:String x:Key="S.Imperative.AskMe">직접 선택</s:String>
+    <s:String x:Key="S.Imperative.Abort">중단</s:String>
+    <s:String x:Key="S.Imperative.TryAgain">다시 시도</s:String>
+    <s:String x:Key="S.Imperative.Overwrite">덮어쓰기</s:String>
+    <s:String x:Key="S.Imperative.SendFeedback">피드백 보내기</s:String>
+    <s:String x:Key="S.Imperative.OpenFolder">폴더 열기</s:String>
+    <s:String x:Key="S.Imperative.OpenDrive">드라이브 열기</s:String>
+    <s:String x:Key="S.Imperative.AddEmail">이메일 추가</s:String>
+    <s:String x:Key="S.Imperative.SendWithout">없이 보내기</s:String>
+    <s:String x:Key="S.Imperative.Trim">자르기</s:String>
+    <s:String x:Key="S.Imperative.Resize">크기 조정</s:String>
+    <s:String x:Key="S.Imperative.Search">검색</s:String>
+    <s:String x:Key="S.Imperative.ChangeDrive">드라이브 변경</s:String>
+    <s:String x:Key="S.Imperative.Test">테스트</s:String>
+    <s:String x:Key="S.Imperative.Repair">복구</s:String>
+    <s:String x:Key="S.Imperative.RunAll">모두 실행</s:String>
+
+    <!--Time • Referential-->
+    <s:String x:Key="S.Time.Ago.Seconds">몇 초 전</s:String>
+    <s:String x:Key="S.Time.Ago.Minute">1분 전</s:String>
+    <s:String x:Key="S.Time.Ago.Minutes">{0}분 전</s:String>
+    <s:String x:Key="S.Time.Ago.Hour">1시간 전</s:String>
+    <s:String x:Key="S.Time.Ago.Hours">{0}시간 전</s:String>
+    <s:String x:Key="S.Time.Ago.Day">어제</s:String>
+    <s:String x:Key="S.Time.Ago.Days">{0}일 전</s:String>
+    <s:String x:Key="S.Time.Ago.Month">지난달</s:String>
+    <s:String x:Key="S.Time.Ago.Months">{0}개월 전</s:String>
+    <s:String x:Key="S.Time.Ago.Year">작년</s:String>
+    <s:String x:Key="S.Time.Ago.Years">{0}년 전</s:String>
+
+    <!--Time • Static (leave 2/3-4 plurals same as the normal plural if your language makes no difference for those quantities)-->
+    <s:String x:Key="S.Time.Static.Millisecond">밀리초</s:String>
+    <s:String x:Key="S.Time.Static.Milliseconds">밀리초</s:String>
+    <s:String x:Key="S.Time.Static.Milliseconds.2">밀리초</s:String>
+    <s:String x:Key="S.Time.Static.Milliseconds.3-4">밀리초</s:String>
+    <s:String x:Key="S.Time.Static.Short.Milliseconds">ms</s:String>
+    <s:String x:Key="S.Time.Static.Second">초</s:String>
+    <s:String x:Key="S.Time.Static.Seconds">초</s:String>
+    <s:String x:Key="S.Time.Static.Seconds.2">초</s:String>
+    <s:String x:Key="S.Time.Static.Seconds.3-4">초</s:String>
+    <s:String x:Key="S.Time.Static.Short.Second">초</s:String>
+    <s:String x:Key="S.Time.Static.Short.Seconds">초</s:String>
+    <s:String x:Key="S.Time.Static.Single.Second">초</s:String>
+    <s:String x:Key="S.Time.Static.Minute">분</s:String>
+    <s:String x:Key="S.Time.Static.Minutes">분</s:String>
+    <s:String x:Key="S.Time.Static.Minutes.2">분</s:String>
+    <s:String x:Key="S.Time.Static.Minutes.3-4">분</s:String>
+    <s:String x:Key="S.Time.Static.Short.Minute">분</s:String>
+    <s:String x:Key="S.Time.Static.Single.Minute">분</s:String>
+    <s:String x:Key="S.Time.Static.Hour">시간</s:String>
+    <s:String x:Key="S.Time.Static.Hours">시간</s:String>
+    <s:String x:Key="S.Time.Static.Hours.2">시간</s:String>
+    <s:String x:Key="S.Time.Static.Hours.3-4">시간</s:String>
+    <s:String x:Key="S.Time.Static.Short.Hour">시간</s:String>
+    <s:String x:Key="S.Time.Static.Short.Hours">시간</s:String>
+    <s:String x:Key="S.Time.Static.Single.Hour">시간</s:String>
+    <s:String x:Key="S.Time.Static.Day">일</s:String>
+    <s:String x:Key="S.Time.Static.Days">일</s:String>
+    <s:String x:Key="S.Time.Static.Days.2">일</s:String>
+    <s:String x:Key="S.Time.Static.Days.3-4">일</s:String>
+    <s:String x:Key="S.Time.Static.Single.Day">일</s:String>
+
+    <!--Dialogs • Error-->
+    <s:String x:Key="S.Dialog.Error.Header">이런. 예상치 못한 문제가 발생했습니다...</s:String>
+    <s:String x:Key="S.Dialog.Error.Info">예기치 않은 이유로 앱이 중단되었습니다.&#10;문제 해결을 돕기 위해 피드백 도구로 자세한 내용을 보내 주세요.</s:String>
+    <s:String x:Key="S.Dialog.Error.SeeMore">자세한 내용을 보려면 여기를 클릭하세요.</s:String>
+    <s:String x:Key="S.Dialog.Error.SeeMore.Tooltip">오류에 대한 자세한 내용을 보여주는 다른 창을 엽니다.</s:String>
+
+    <!--Dialogs • Error details-->
+    <s:String x:Key="S.Dialog.Exception.Header">오류 상세 정보</s:String>
+    <s:String x:Key="S.Dialog.Exception.Copy">상세 정보 복사</s:String>
+
+    <!--Dialogs • First Time-->
+    <s:String x:Key="S.Dialog.FirstTime.Header">N-Studio에 오신 것을 환영합니다</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.Subtitle">이메일 주소 + 비밀번호 또는 시리얼로 앱을 활성화하세요.</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.Subtitle.Settings">작업 흐름에 맞게 앱을 설정하세요.</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.Account">구독 보기</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.AlmostDone.Title">거의 완료됨</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.AlmostDone.Message">활성화 정보는 시스템 관리자가 제공했습니다</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.Email">이메일</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.Password">비밀번호</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.Serial">시리얼</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.OnStart">시작 시 열기...</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.AfterRecording">녹화 후 표시...</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.CacheLocation">녹화 및 프로젝트 저장 위치...</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.CacheLocation.Low">공간 부족</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.DownloadPlugins">공통 플러그인 다운로드 (~100 MiB)</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.DownloadPlugins.Info">비디오 내보내기에 사용되는 FFmpeg를 다운로드합니다</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.RunTests">문제 발견을 위한 빠른 테스트 실행</s:String>
+    <s:String x:Key="S.Dialog.FirstTime.RunTests.Info">디스크 접근, 화면 및 오디오 녹화 테스트를 실행합니다</s:String>
+
+    <!--Dialogs • Troubleshooter-->
+    <s:String x:Key="S.Dialog.Troubleshooter.Header">문제 해결사</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Subtitle">기본 앱 기능이 작동하는지 확인하고 복구를 시도합니다.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Header2">설정 후 점검</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Subtitle2">모든 것이 작동하는지 확인하는 기본 준비 및 테스트입니다.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.FolderAccess.Title">폴더 접근</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.FolderAccess.Description">앱이 캐시 폴더에 접근할 수 있는지 확인합니다</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.FFmpeg.Title">FFmpeg</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.FFmpeg.Description">비디오/애니메이션 내보내기에 사용됩니다</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.Screen.Title">화면 녹화</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.Screen.Description">화면 캡처 기능이 작동하는지 확인합니다</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.Audio.Title">오디오 녹화</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Test.Audio.Description">오디오 캡처 기능이 작동하는지 확인합니다</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Result.Passed">통과</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Result.Failed">실패 - {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Result.FailedShort">실패</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.CacheReadMismatch">캐시 읽기 내용이 쓴 내용과 일치하지 않습니다.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.AppDataReadMismatch">AppData 읽기 내용이 쓴 내용과 일치하지 않습니다.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.CachePathMissing">캐시 경로가 설정되지 않았거나 비어 있습니다.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegNotFound">FFmpeg를 찾을 수 없습니다. 앱 디렉터리, 플러그인 폴더, 프로그램 데이터 및 시스템 PATH를 확인했습니다.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegLocationInvalid">FFmpeg 위치가 비어 있거나 파일이 존재하지 않습니다.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionEmptyOutput">FFmpeg가 빈 출력을 반환했습니다. 실행 파일이 손상되었거나 호환되지 않을 수 있습니다.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionCommandFailed">FFmpeg -version 명령이 실패했습니다. 출력: {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionUnknown">출력에서 FFmpeg 버전을 확인할 수 없습니다.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionOld">FFmpeg 버전 {0}은 6.0보다 오래되었습니다. 최신 버전으로 업데이트하세요.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionUnsupported">FFmpeg 버전 {0}은(는) 지원되지 않습니다.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingFailed">FFmpeg 인코딩에 실패했습니다.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingOutputMissing">FFmpeg 인코딩에 실패했습니다. 출력 파일이 생성되지 않았습니다.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingOutputEmpty">FFmpeg 인코딩에 실패했습니다. 출력 파일이 비어 있습니다.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegDownloadFailed">GitHub와 API 모두에서 FFmpeg 다운로드에 실패했습니다.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegAssetMissing">최신 GitHub 릴리스에서 호환되는 FFmpeg 자산을 찾을 수 없습니다.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegExtractionFailed">아카이브에서 FFmpeg 추출에 실패했습니다.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegApiDownloadInvalid">API에서 FFmpeg 다운로드 결과 파일이 비어 있거나 없습니다.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegExeMissingInArchive">다운로드한 아카이브에서 ffmpeg.exe를 찾을 수 없습니다.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.Unexpected">예상치 못한 오류: {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoMonitors">모니터가 감지되지 않았습니다.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoFramesCaptured">프레임이 캡처되지 않았습니다.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.DpiAwareness">DPI 인식</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.DpiAwarenessFailure">모니터별 V2 DPI 인식이 활성화되어 있지 않습니다. Windows 호환성 설정에서 앱의 높은 DPI 조정 재정의를 확인하세요.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDevices">활성 오디오 장치가 감지되지 않았습니다.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Output">출력</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Input">입력</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoActiveOutputStream">활성 시스템 오디오 스트림이 감지되지 않았습니다</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDataCaptured">오디오 데이터가 캡처되지 않았습니다</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Audio.CapturedBytes">{0} 캡처됨</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestNotImplemented">테스트가 구현되지 않았습니다.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestPassed">테스트가 성공적으로 통과했습니다.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestFailed">테스트에 실패했습니다.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestCancelled">테스트가 취소되었습니다.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestError">테스트 오류: {0}</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairNotAvailable">이 테스트에 대한 복구를 사용할 수 없습니다.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.Repairing">복구 중...</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairCompleted">복구가 성공적으로 완료되었습니다.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairCancelled">복구가 취소되었습니다.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairError">복구 오류: {0}</s:String>
+
+    <!--Dialogs • Reset Styles-->
+    <s:String x:Key="S.Dialog.ResetStyles.Header">이 설정을 초기화하시겠습니까?</s:String>
+    <s:String x:Key="S.Dialog.ResetStyles.Subtitle">해당 세그먼트 유형의 설정이 기본값으로 초기화됩니다.</s:String>
+
+    <!--Dialogs • Create Project-->
+    <s:String x:Key="S.Dialog.NewProject.Header">새 프로젝트</s:String>
+    <s:String x:Key="S.Dialog.NewProject.Name">이름</s:String>
+    <s:String x:Key="S.Dialog.NewProject.Background">배경</s:String>
+    <s:String x:Key="S.Dialog.NewProject.Dpi">DPI</s:String>
+
+    <!--Dialogs • Update-->
+    <s:String x:Key="S.Dialog.Update.Header">업데이트 가능</s:String>
+    <s:String x:Key="S.Dialog.Update.Warning.NoUpdate">업데이트를 찾을 수 없습니다</s:String>
+
+    <!--Dialogs • Color selector-->
+    <s:String x:Key="S.Dialog.ColorSelector.Header">색상 선택</s:String>
+    <s:String x:Key="S.Dialog.ColorSelector.Red">빨강</s:String>
+    <s:String x:Key="S.Dialog.ColorSelector.Green">초록</s:String>
+    <s:String x:Key="S.Dialog.ColorSelector.Blue">파랑</s:String>
+    <s:String x:Key="S.Dialog.ColorSelector.Alpha">알파</s:String>
+    <s:String x:Key="S.Dialog.ColorSelector.Hexadecimal">Hex</s:String>
+    <s:String x:Key="S.Dialog.ColorSelector.Initial">초기 색상</s:String>
+    <s:String x:Key="S.Dialog.ColorSelector.Current">현재 색상</s:String>
+    <s:String x:Key="S.Dialog.ColorSelector.Latest">최근 색상</s:String>
+    <s:String x:Key="S.Dialog.ColorSelector.Sample">드래그하여&#10;색상 샘플링</s:String>
+    <s:String x:Key="S.Dialog.ColorSelector.Sample.Info">클릭하고 드래그하여&#10;화면에서 색상을 선택하세요.</s:String>
+    <s:String x:Key="S.Dialog.ColorSelector.Control">색상을 선택하려면 여기를 클릭하세요</s:String>
+
+    <!--Dialogs • Token-->
+    <s:String x:Key="S.Dialog.Token.Header">인증</s:String>
+    <s:String x:Key="S.Dialog.Token.Url">콜백 URL</s:String>
+
+    <!--Dialogs • File Name Automation-->
+    <s:String x:Key="S.Dialog.NameAutomation.Title">파일 이름 자동화</s:String>
+    <s:String x:Key="S.Dialog.NameAutomation.Preview">미리보기</s:String>
+    <s:String x:Key="S.Dialog.NameAutomation.Format">형식</s:String>
+    <s:String x:Key="S.Dialog.NameAutomation.Types.Number">자동 파일 번호</s:String>
+    <s:String x:Key="S.Dialog.NameAutomation.Types.Date">날짜 및 시간</s:String>
+    <s:String x:Key="S.Dialog.NameAutomation.Insert.Info">형식 필드의 커서 위치에 선택한 자동화 섹션을 삽입합니다</s:String>
+    <s:String x:Key="S.Dialog.NameAutomation.TurnStatic">고정으로 전환</s:String>
+    <s:String x:Key="S.Dialog.NameAutomation.TurnStatic.Info">변환된 파일 이름을 형식으로 사용하여 파일 이름을 고정합니다</s:String>
+    <s:String x:Key="S.Dialog.NameAutomation.RemoveSections">섹션 제거</s:String>
+    <s:String x:Key="S.Dialog.NameAutomation.RemoveSections.Info">모든 자동화 섹션을 제거합니다</s:String>
+
+    <!--Dialogs • Key Translations-->
+    <s:String x:Key="S.Dialog.KeyTranslations.Header">키 이름 번역</s:String>
+    <s:String x:Key="S.Dialog.KeyTranslations.Subtitle">번역된 이름으로 표시할 키를 선택하세요</s:String>
+    <s:String x:Key="S.Dialog.KeyTranslations.ToggleTranslation">번역 사용 전환</s:String>
+    <s:String x:Key="S.Dialog.KeyTranslations.OriginalKey">원본 키 이름</s:String>
+    <s:String x:Key="S.Dialog.KeyTranslations.TranslatedKey">번역된 키 이름</s:String>
+
+    <!--Dialogs • Key Aliases-->
+    <s:String x:Key="S.Dialog.KeyAliases.Header">키 이름 별칭</s:String>
+    <s:String x:Key="S.Dialog.KeyAliases.Subtitle">키에 대한 별칭(다른 이름)을 설정합니다</s:String>
+    <s:String x:Key="S.Dialog.KeyAliases.Alias">새 키 이름</s:String>
+
+    <!--Dialogs • Login-->
+    <s:String x:Key="S.Dialog.Login.Header">로그인</s:String>
+    <s:String x:Key="S.Dialog.Login.Username">사용자 이름</s:String>
+    <s:String x:Key="S.Dialog.Login.Password">비밀번호</s:String>
+
+    <!--Dialogs • Import localization-->
+    <s:String x:Key="S.Dialog.ImportLocalization.Header">로컬라이제이션 가져오기</s:String>
+    <s:String x:Key="S.Dialog.ImportLocalization.Resource">리소스 파일 (.xaml)</s:String>
+    <s:String x:Key="S.Dialog.ImportLocalization.Language">언어</s:String>
+    <s:String x:Key="S.Dialog.ImportLocalization.Select.Info">가져올 로컬라이제이션을 선택하세요</s:String>
+    <s:String x:Key="S.Dialog.ImportLocalization.Open">로컬라이제이션 열기</s:String>
+    <s:String x:Key="S.Dialog.ImportLocalization.File">로컬라이제이션</s:String>
+
+    <!--Dialogs • Upgrade now-->
+    <s:String x:Key="S.Dialog.UpgradeNow.Header">지금 업그레이드</s:String>
+    <s:String x:Key="S.Dialog.UpgradeNow.Subtitle">이 기능은 Pro 버전에서 사용할 수 있습니다</s:String>
+
+    <!--Dialogs • Command output-->
+    <s:String x:Key="S.Dialog.CommandOutput.Header">명령 출력</s:String>
+    <s:String x:Key="S.Dialog.CommandOutput.StartedOn">시작 시간</s:String>
+    <s:String x:Key="S.Dialog.CommandOutput.FinishedOn">완료 시간</s:String>
+    <s:String x:Key="S.Dialog.CommandOutput.Result">결과</s:String>
+
+    <!--Dialogs • Effects-->
+    <s:String x:Key="S.Dialog.Effects.Header.New">새 효과</s:String>
+    <s:String x:Key="S.Dialog.Effects.Header.Edit">효과 편집</s:String>
+    <s:String x:Key="S.Dialog.Effects.Target">대상 세그먼트</s:String>
+    <s:String x:Key="S.Dialog.Effects.Type">효과 유형</s:String>
+    <s:String x:Key="S.Dialog.Effects.Type.ColorInversion">색상 반전</s:String>
+    <s:String x:Key="S.Dialog.Effects.Type.Fade">페이드</s:String>
+    <s:String x:Key="S.Dialog.Effects.Type.Move">이동/변환</s:String>
+    <s:String x:Key="S.Dialog.Effects.Type.Overlay">오버레이</s:String>
+    <s:String x:Key="S.Dialog.Effects.Type.Scale">크기 조정</s:String>
+    <s:String x:Key="S.Dialog.Effects.Type.Shadow">그림자</s:String>
+    <s:String x:Key="S.Dialog.Effects.Type.Tint">색조</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger">트리거</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.SegmentStart">세그먼트 시작</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.SegmentEnd">세그먼트 끝</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.SubSegment">하위 세그먼트</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.MouseClick">마우스 클릭</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.MouseClick.Left">왼쪽</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.MouseClick.Middle">가운데</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.MouseClick.Right">오른쪽</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.MouseClick.Extra1">추가 1</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.MouseClick.Extra2">추가 2</s:String>
+    <s:String x:Key="S.Dialog.Effects.Timing.Trigger.MouseHover">마우스 호버</s:String>
+    <s:String x:Key="S.Dialog.Effects.TimingModifier">타이밍 수정자</s:String>
+    <s:String x:Key="S.Dialog.Effects.Duration">지속 시간</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect">효과</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.Style">스타일</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.Fill">채우기</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.Stroke">선</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.StrokeThickness">선 두께</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.HorizontalOffset">가로 오프셋</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.VerticalOffset">세로 오프셋</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.AppliesBeforeSegment">세그먼트 전에 적용?</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.HorizontalScale">가로 배율</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.VerticalScale">세로 배율</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.HorizontalCenter">가로 중심</s:String>
+    <s:String x:Key="S.Dialog.Effects.Effect.VerticalCenter">세로 중심</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing">이징</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type">이징 유형</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.None">없음</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Back">백</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Bounce">바운스</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Circle">원</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Cubic">큐빅</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Elastic">탄성</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Exponential">지수</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Power">파워</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Quadratic">이차</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Quartic">사차</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Quintic">오차</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.Sine">사인</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Type.KeyFrames">키 프레임</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Mode">이징 모드</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Mode.In">이즈 인</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Mode.Out">이즈 아웃</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Mode.InOut">이즈 인 + 아웃</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Direction">이징 방향</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Direction.Forward">앞으로</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Direction.Backward">뒤로</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Direction.ForwardBackward">앞으로 → 뒤로</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Direction.BackwardForward">뒤로 → 앞으로</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Amplitude">진폭</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Bounces">바운스</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Bounciness">바운스 정도</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Oscillations">진동</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Springiness">스프링 정도</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Exponent">지수</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.Power">파워</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.KeyFrames">키 프레임</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.KeyFrames.SmoothTransition">부드러운 전환</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.KeyFrames.Position">위치</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.KeyFrames.Value">값</s:String>
+    <s:String x:Key="S.Dialog.Effects.Easing.NoSettings">이 이징 기능에 대한 다른 설정 없음</s:String>
+
+    <!--Dialogs • New preset-->
+    <s:String x:Key="S.Dialog.NewPreset.Header">새 프리셋</s:String>
+
+    <!--Dialogs • Recording underway-->
+    <s:String x:Key="S.Dialog.OngoingRecording.Title">닫기 전에 녹화를 유지하시겠습니까?</s:String>
+    <s:String x:Key="S.Dialog.OngoingRecording.Details">진행 중인 녹화가 있습니다.&#10;유지하거나 버리시겠습니까?</s:String>
+
+    <!--Dialogs • Unsaved changes-->
+    <s:String x:Key="S.Dialog.UnsavedChanges.Title">닫기 전에 변경 사항을 저장하시겠습니까?</s:String>
+    <s:String x:Key="S.Dialog.UnsavedChanges.Details">이 프로젝트에 저장되지 않은 변경 사항이 있습니다.&#10;닫기 전에 저장하시겠습니까?</s:String>
+    <s:String x:Key="S.Dialog.UnsavedChanges.KeepInCache">나중에 사용할 수 있도록 임시 캐시에 유지</s:String>
+    <s:String x:Key="S.Dialog.UnsavedChanges.KeepInCache.Info">프로젝트를 파일로 저장하는 것 외에 나중에 쉽게 접근할 수 있도록 캐시에 유지합니다</s:String>
+
+    <!--Dialogs • Exiting app-->
+    <s:String x:Key="S.Dialog.Exiting.Header">정말 종료하시겠습니까?</s:String>
+    <s:String x:Key="S.Dialog.Exiting.Message">모든 창이 닫히고 트레이 아이콘이 제거됩니다</s:String>
+
+    <!--Dialogs • Keep Project-->
+    <s:String x:Key="S.Dialog.KeepProject.Title">이 프로젝트를 캐시에 유지하시겠습니까?</s:String>
+    <s:String x:Key="S.Dialog.KeepProject.Details">이 프로젝트는 캐시 폴더에 저장되어 있지만 며칠 후 삭제됩니다.&#10;지금 유지하시겠습니까?</s:String>
+
+    <!--Dialogs • Insert Recording Position-->
+    <s:String x:Key="S.Dialog.InsertRecording.Header">타임스탬프에 녹화 삽입</s:String>
+    <s:String x:Key="S.Dialog.InsertRecording.Message">타임라인에서 녹화를 배치할 위치를 선택하고 기본 삽입 지점으로 설정할 수 있습니다.</s:String>
+
+    <!--Dialogs • Insert Media Position-->
+    <s:String x:Key="S.Dialog.InsertMedia.Header">타임스탬프에 미디어 삽입</s:String>
+    <s:String x:Key="S.Dialog.InsertMedia.Message">타임라인에서 미디어를 배치할 위치를 선택하고 기본 삽입 지점으로 설정할 수 있습니다.</s:String>
+
+    <!--Dialogs • Insert Media Settings-->
+    <s:String x:Key="S.Dialog.InsertMedia.Settings.Header">미디어 삽입</s:String>
+    <s:String x:Key="S.Dialog.InsertMedia.Settings.Subtitle">타임라인에서 미디어를 그룹화하고 배치하는 방법을 선택하세요.</s:String>
+
+    <!--Dialogs • Remove Effect-->
+    <s:String x:Key="S.Dialog.RemoveEffect.Title">효과를 제거하시겠습니까?</s:String>
+    <s:String x:Key="S.Dialog.RemoveEffect.Details">실행 취소가 가능합니다.</s:String>
+
+    <!--Dialogs • Remove Segment-->
+    <s:String x:Key="S.Dialog.RemoveSegment.Title">세그먼트(들)를 제거하시겠습니까?</s:String>
+    <s:String x:Key="S.Dialog.RemoveSegment.Details">실행 취소가 가능합니다.</s:String>
+
+    <!--Dialogs • Remove Track-->
+    <s:String x:Key="S.Dialog.RemoveTrack.Title">트랙을 제거하시겠습니까?</s:String>
+    <s:String x:Key="S.Dialog.RemoveTrack.Details">실행 취소가 가능합니다.</s:String>
+
+    <!--Dialogs • Missing Contact Email-->
+    <s:String x:Key="S.Dialog.ContactEmail.Title">답변을 원하시나요?</s:String>
+    <s:String x:Key="S.Dialog.ContactEmail.Details">후속 조치를 원하시면 이메일을 입력해 주세요.&#10;그렇지 않으면 피드백은 받지만 연락드릴 수 없습니다.</s:String>
+
+    <!--Dialogs • Remove All Projects-->
+    <s:String x:Key="S.Dialog.RemoveAllProjects.Title">모든 프로젝트를 제거하시겠습니까?</s:String>
+    <s:String x:Key="S.Dialog.RemoveAllProjects.Description">캐시에서 모든 프로젝트가 삭제됩니다. 이 작업은 되돌릴 수 없습니다.</s:String>
+
+    <!--Dialogs • Remove Project-->
+    <s:String x:Key="S.Dialog.RemoveProject.Title">프로젝트를 제거하시겠습니까?</s:String>
+    <s:String x:Key="S.Dialog.RemoveProject.Description">캐시에서 선택한 프로젝트가 삭제됩니다. 이 작업은 되돌릴 수 없습니다.</s:String>
+
+    <!--Dialogs • Missing 'Follow Cursor' shortcuts-->
+    <s:String x:Key="S.Dialog.FollowCursor.Header">커서 따라가기 바로 가기 키 누락</s:String>
+    <s:String x:Key="S.Dialog.FollowCursor.Message">마우스 커서 따라가기 기능을 사용하려면 필요할 때 전환할 바로 가기 키를 설정해야 합니다.</s:String>
+
+    <!--Dialogs • Delete file with same name-->
+    <s:String x:Key="S.Dialog.Overwrite.Header">파일을 덮어쓰시겠습니까?</s:String>
+    <s:String x:Key="S.Dialog.Overwrite.Message">같은 이름의 파일이 이미 존재합니다.</s:String>
+
+    <!--Dialogs • Delete file-->
+    <s:String x:Key="S.Dialog.DeleteFile.Header">파일을 삭제하시겠습니까?</s:String>
+    <s:String x:Key="S.Dialog.DeleteFile.Message">이 작업은 되돌릴 수 없습니다.</s:String>
+
+    <!--Dialogs • Delete old project-->
+    <s:String x:Key="S.Dialog.DeleteOld.Title">오래된 프로젝트를 삭제하시겠습니까?</s:String>
+    <s:String x:Key="S.Dialog.DeleteOld.Message">선택한 프로젝트가 새 형식으로 변환됩니다.&#10;이후에 이전 프로젝트를 삭제하시겠습니까?</s:String>
+
+    <!--Dialogs • Discard recording-->
+    <s:String x:Key="S.Dialog.DiscardRecording.Header">녹화를 버리시겠습니까?</s:String>
+    <s:String x:Key="S.Dialog.DiscardRecording.Message">캡처된 모든 내용이 버려집니다.&#10;이 작업은 되돌릴 수 없습니다.</s:String>
+
+    <!--Dialogs • Delete preset-->
+    <s:String x:Key="S.Dialog.DeletePreset.Header">프리셋을 삭제하시겠습니까?</s:String>
+    <s:String x:Key="S.Dialog.DeletePreset.Message">선택한 프리셋이 삭제되며 이 작업은 되돌릴 수 없습니다.</s:String>
+
+    <!--Dialogs • Reset preset-->
+    <s:String x:Key="S.Dialog.ResetPreset.Header">프리셋을 초기화하시겠습니까?</s:String>
+    <s:String x:Key="S.Dialog.ResetPreset.Message">선택한 프리셋이 기본 설정으로 초기화되며 이 작업은 되돌릴 수 없습니다.</s:String>
+
+    <!--Dialogs • Remove all effects-->
+    <s:String x:Key="S.Dialog.RemoveAllEffects.Header">모든 효과를 제거하시겠습니까?</s:String>
+    <s:String x:Key="S.Dialog.RemoveAllEffects.Message">'초기화'를 클릭하여 기본 효과를 복원할 수 있지만 사용자 지정 효과는 손실됩니다.</s:String>
+
+    <!--Dialogs • Reset effects-->
+    <s:String x:Key="S.Dialog.ResetEffects.Header">기본 설정으로 초기화하시겠습니까?</s:String>
+    <s:String x:Key="S.Dialog.ResetEffects.Message">모든 사용자 지정 효과가 손실됩니다.</s:String>
+
+    <!--Dialogs • Remove effect-->
+    <s:String x:Key="S.Dialog.RemoveEffect.Header">효과를 제거하시겠습니까?</s:String>
+    <s:String x:Key="S.Dialog.RemoveEffect.Message">이 작업은 되돌릴 수 없지만 '초기화'를 눌러 기본 효과를 복구할 수 있습니다.</s:String>
+
+    <!--Dialogs • Clear cache-->
+    <s:String x:Key="S.Dialogs.Cache.Header">캐시 폴더를 지우시겠습니까?</s:String>
+    <s:String x:Key="S.Dialogs.Cache.Message">녹화를 만들거나 편집할 항목을 열면 프로젝트가 생성되어 캐시 폴더에 저장됩니다.</s:String>
+    <s:String x:Key="S.Dialogs.Cache.KeepRecent">최근 프로젝트 유지</s:String>
+    <s:String x:Key="S.Dialogs.Cache.KeepRecent.Info">설정 > 저장소에 구성된 것보다 오래된 프로젝트만 삭제됩니다</s:String>
+
+    <!--Dialogs • Change drive-->
+    <s:String x:Key="S.Dialogs.ChangeDrive.Header">캐시 드라이브 변경</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.Current">현재 드라이브</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.Size">캐시 크기:</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.Target">대상 드라이브</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.LowOnSpaceToMove">파일을 이동할 수 없습니다. 공간이 부족합니다</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.MoveFiles">기존 파일 이동</s:String>
+    <s:String x:Key="S.Dialogs.ChangeDrive.MoveFiles.Info">모든 캐시 데이터를 새 드라이브 위치로 이동합니다</s:String>
+
+    <!--Dialogs • Resize canvas-->
+    <s:String x:Key="S.Dialogs.ResizeCanvas.Header">캔버스 크기 조정</s:String>
+    <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent">기존 콘텐츠를 새 캔버스 크기에 맞게 조정</s:String>
+    <s:String x:Key="S.Dialogs.ResizeCanvas.ResizeContent.Info">활성화하면 기존 콘텐츠가 새 캔버스 크기에 맞게 크기 조정되고 위치가 변경됩니다.&#10;비활성화하면 캔버스 크기만 변경됩니다.</s:String>
+
+    <!--Dialogs • Trim canvas-->
+    <s:String x:Key="S.Dialogs.TrimCanvas.Header">캔버스 트림</s:String>
+    <s:String x:Key="S.Dialogs.TrimCanvas.Direction">트림 방향</s:String>
+
+    <!--Dialogs • Trim canvas-->
+    <s:String x:Key="S.Dialogs.SmoothLoop.Header">부드러운 루프 검색</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.Similarity">유사도</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.TrimDirection">트림 방향</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.TrimDirection.End">끝 트림, 첫 프레임에 맞춤</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.TrimDirection.Start">시작 트림, 마지막 프레임에 맞춤</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.MinimumLength">최소 길이</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm">비교 알고리즘</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Pixel">픽셀 차이 (빠름)</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Perceptual">지각 해시 (균형)</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.ComparisonAlgorithm.Structural">구조적 유사도 (정확)</s:String>
+    <s:String x:Key="S.Dialogs.SmoothLoop.TracksToInclude">검색에 포함할 트랙</s:String>
+
+    <!--Dialogs • Set timeline length-->
+    <s:String x:Key="S.Dialogs.TimelineLength.Header">타임라인 길이 설정</s:String>
+    <s:String x:Key="S.Dialogs.TimelineLength.Action">길이 설정</s:String>
+
+    <!--Dialogs • Open with-->
+    <s:String x:Key="S.Dialogs.OpenWith.Header">다음으로 열기</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Files">파일</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Target">대상</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Ignored.Exporter">내보내기 기능은 한 번에 하나의 비디오, 오디오 또는 프로젝트만 열 수 있습니다. 호환되는 첫 번째 파일만 사용됩니다.</s:String>
+    <s:String x:Key="S.Dialogs.OpenWith.Ignored.Project">프로젝트가 발견되어 다른 모든 파일은 무시됩니다.</s:String>
+
+    <!--Validation • Field Validations-->
+    <s:String x:Key="S.Validation.Required.Header">필수 필드</s:String>
+    <s:String x:Key="S.Validation.Required.Description">일부 필수 필드가 비어 있거나 잘못된 데이터가 있습니다</s:String>
+    <s:String x:Key="S.Validation.Required.Fields.Title">유효한 제목이 필요합니다 (5~100자)</s:String>
+    <s:String x:Key="S.Validation.Required.Fields.Description">설명이 필요합니다 (5~5,000자)</s:String>
+    <s:String x:Key="S.Validation.Required.Fields.Email">유효한 이메일 주소가 필요합니다</s:String>
+    <s:String x:Key="S.Validation.Required.Fields.Password">8~128자 사이의 비밀번호가 필요합니다</s:String>
+    <s:String x:Key="S.Validation.Required.Fields.Serial">유효한 시리얼이 필요합니다</s:String>
+
+    <!--Validation • Attachments too large-->
+    <s:String x:Key="S.Validation.AttachmentsLarge.Header">첨부 파일 크기</s:String>
+    <s:String x:Key="S.Validation.AttachmentsLarge.Description">첨부 파일 크기가 100 MiB를 초과합니다</s:String>
+
+    <!--Validation • Missing dependency-->
+    <s:String x:Key="S.Validation.Missing.Header">누락된 종속성</s:String>
+    <s:String x:Key="S.Validation.Missing.Ffmpeg.Message">FFmpeg를 찾을 수 없습니다. 설정 > 플러그인에서 다운로드하세요</s:String>
+    <s:String x:Key="S.Validation.Missing.Gifski.Message">Gifski를 찾을 수 없습니다. 설정 > 플러그인에서 다운로드하세요</s:String>
+
+    <!--Validation • Unsupported dependency-->
+    <s:String x:Key="S.Validation.Unsupported.Header">지원되지 않음</s:String>
+    <s:String x:Key="S.Validation.Unsupported.Ffmpeg.Message">현재 FFmpeg 버전이 지원되지 않습니다. 설정 > 플러그인을 통해 새 버전을 다운로드하세요</s:String>
+
+    <!--Validation • Empty parameters-->
+    <s:String x:Key="S.Validation.EmptyParameters.Header">빈 매개변수</s:String>
+    <s:String x:Key="S.Validation.EmptyParameters.Message">프리셋에 매개변수가 설정되지 않았습니다</s:String>
+
+    <!--Validation • Missing input/output parameters-->
+    <s:String x:Key="S.Validation.MissingParameters.Header">누락된 매개변수</s:String>
+    <s:String x:Key="S.Validation.MissingParameters.Message">매개변수 필드에 특수 매개변수 {input} 및/또는 {output}이 없습니다</s:String>
+
+    <!--Validation • Invalid FFmpeg parameters-->
+    <s:String x:Key="S.Validation.InvalidFfmpegParameters.Header">FFmpeg 유효성 검사 실패</s:String>
+    <s:String x:Key="S.Validation.InvalidFfmpegParameters.Message">선택한 설정으로 FFmpeg를 인코딩할 수 없습니다.</s:String>
+
+    <!--Validation • Invalid audio codec-->
+    <s:String x:Key="S.Validation.InvalidAudioCodec.Header">잘못된 오디오 코덱</s:String>
+    <s:String x:Key="S.Validation.InvalidAudioCodec.Webm.Message">WebM 오디오는 Opus 또는 Vorbis를 사용해야 합니다</s:String>
+
+    <!--Validation • Invalid audio sample rate-->
+    <s:String x:Key="S.Validation.InvalidAudioSampleRate.Header">잘못된 오디오 샘플 레이트</s:String>
+    <s:String x:Key="S.Validation.InvalidAudioSampleRate.Opus.Message">Opus 샘플 레이트는 48000, 24000, 16000, 12000 또는 8000 Hz여야 합니다</s:String>
+
+    <!--Validation • No export type-->
+    <s:String x:Key="S.Validation.NoExport.Header">내보내기가 선택되지 않음</s:String>
+    <s:String x:Key="S.Validation.NoExport.Message">파일을 저장할 위치(폴더, 클립보드 또는 다른 곳에 업로드)를 선택해야 합니다</s:String>
+
+    <!--Validation • No extension selected-->
+    <s:String x:Key="S.Validation.NoExtension.Header">확장자가 선택되지 않음</s:String>
+    <s:String x:Key="S.Validation.NoExtension.Message">파일 확장자를 선택하지 않았습니다</s:String>
+
+    <!--Validation • No output folder selected-->
+    <s:String x:Key="S.Validation.NoOutput.Header">출력 폴더가 선택되지 않음</s:String>
+    <s:String x:Key="S.Validation.NoOutput.Message">파일이 저장될 위치를 선택해야 합니다</s:String>
+
+    <!--Validation • Invalid characters in folder-->
+    <s:String x:Key="S.Validation.InvalidOutput.Header">잘못된 문자</s:String>
+    <s:String x:Key="S.Validation.InvalidOutput.Message">출력 폴더에 하나 이상의 잘못된 문자가 포함되어 있습니다. 유효한 폴더를 선택하세요.</s:String>
+
+    <!--Validation • Output folder missing-->
+    <s:String x:Key="S.Validation.OutputMissing.Header">누락된 폴더</s:String>
+    <s:String x:Key="S.Validation.OutputMissing.Message">출력 폴더가 존재하지 않습니다</s:String>
+
+    <!--Validation • File name empty-->
+    <s:String x:Key="S.Validation.FileNameEmpty.Header">파일 이름 없음</s:String>
+    <s:String x:Key="S.Validation.FileNameEmpty.Message">파일 이름을 선택해야 합니다</s:String>
+
+    <!--Validation • File name invalid-->
+    <s:String x:Key="S.Validation.InvalidFileName.Header">잘못된 파일 이름</s:String>
+    <s:String x:Key="S.Validation.InvalidFileName.Message">파일 이름에 하나 이상의 잘못된 문자가 포함되어 있습니다</s:String>
+
+    <!--Validation • File already exists-->
+    <s:String x:Key="S.Validation.FileAlreadyExists.Header">파일이 이미 존재함</s:String>
+    <s:String x:Key="S.Validation.FileAlreadyExists.Message">파일 이름에 하나 이상의 잘못된 문자가 포함되어 있습니다</s:String>
+
+    <!--Validation • Low disk space-->
+    <s:String x:Key="S.Validation.LowSpace.Header">디스크 공간 부족</s:String>
+    <s:String x:Key="S.Validation.LowSpace.Message">다른 디스크를 선택하거나 일부 파일을 삭제하세요</s:String>
+
+    <!--Validation • Can't copy link-->
+    <s:String x:Key="S.Validation.NoLink.Header">복사할 링크 없음</s:String>
+    <s:String x:Key="S.Validation.NoLink.Message">파일 업로드를 설정하지 않았기 때문에 링크 복사 옵션을 선택할 수 없습니다</s:String>
+
+    <!--Validation • No custom command-->
+    <s:String x:Key="S.Validation.NoCommand.Header">실행할 명령 없음</s:String>
+    <s:String x:Key="S.Validation.NoCommand.Message">인코딩 후 명령을 실행하려면 명령 텍스트 필드에 내용을 입력해야 합니다</s:String>
+
+    <!--Validation • Shortcut in use-->
+    <s:String x:Key="S.Validation.ShortcutInUse.Header">이미 사용 중</s:String>
+    <s:String x:Key="S.Validation.ShortcutInUse.Message">해당 바로 가기는 이미 다른 명령에서 사용 중입니다</s:String>
+
+    <!--Success • Export feedback-->
+    <s:String x:Key="S.Success.ExportFeedback.Header">성공</s:String>
+    <s:String x:Key="S.Success.ExportFeedback.Message">피드백이 zip으로 성공적으로 내보내졌습니다</s:String>
+
+    <!--Success • Storage clean up--> 
+    <s:String x:Key="S.Success.StorageCleanup.Header">성공</s:String>
+    <s:String x:Key="S.Success.StorageCleanup.Message">캐시 정리 성공</s:String>
+
+    <!--Success • Storage clean up--> 
+    <s:String x:Key="S.Success.CacheDrive.Header">성공</s:String>
+    <s:String x:Key="S.Success.CacheDrive.Message">캐시 위치 변경 성공</s:String>
+
+    <!--Success • Smooth loop--> 
+    <s:String x:Key="S.Success.SmoothLoop.Header">부드러운 루프 발견</s:String>
+    <s:String x:Key="S.Success.SmoothLoop.Message">{0:0.##}% 유사도의 루프를 찾았습니다</s:String>
+
+    <!--Info • Test underway-->
+    <s:String x:Key="S.Dialog.TroubleshooterAutoClose.Header">테스트 진행 중</s:String>
+    <s:String x:Key="S.Dialog.TroubleshooterAutoClose.Message">모든 것이 정상이면 이 창이 자동으로 닫힙니다</s:String>
+    <s:String x:Key="S.Dialog.TroubleshooterAutoClose.Closing">{0}초 후 닫힘</s:String>
+
+    <!--Info • Pro feature-->
+    <s:String x:Key="S.Info.ProFeature.Header">Pro 전용</s:String>
+    <s:String x:Key="S.Info.ProFeature.Message">이 기능을 잠금 해제하려면 업그레이드하세요</s:String>
+    <s:String x:Key="S.Info.ProFeature.Upgrade">업그레이드</s:String>
+
+    <!--Info • Format limitations-->
+    <s:String x:Key="S.Info.FormatLimitations.Title">형식 제한</s:String>
+    <s:String x:Key="S.Info.FormatLimitations.Message">현재 프리셋이 프레임레이트에 제한을 둡니다</s:String>
+    <s:String x:Key="S.Info.FormatLimitations.Gif.Message">이 형식은 10ms의 배수인 프레임 지연만 지원합니다. 사용 가능한 범위는 20ms에서 65,535ms입니다. 인코더가 프레임레이트를 적절히 조정합니다.</s:String>
+    <s:String x:Key="S.Info.FormatLimitations.Ignore.Message">이 형식은 프레임레이트 설정을 무시합니다. 이 옵션은 내보내기 창의 표시용으로만 사용됩니다.</s:String>
+
+    <!--Info • Default preset-->
+    <s:String x:Key="S.Info.DefaultPreset.Title">읽기 전용</s:String>
+    <s:String x:Key="S.Info.DefaultPreset.Message">기본 프리셋의 일부 속성은 읽기 전용입니다</s:String>
+
+    <!--Info • Undo/redo recovered-->
+    <s:String x:Key="S.Info.ResumeUndo.Header">중단한 곳에서 다시 시작</s:String>
+    <s:String x:Key="S.Info.ResumeUndo.Message">이전 편집 상태가 감지되었습니다. 실행 취소/다시 실행 기록이 사용 가능합니다</s:String>
+
+    <!--Info • Load canceled-->
+    <s:String x:Key="S.Info.LoadCanceled.Header">불러오기 취소됨</s:String>
+    <s:String x:Key="S.Info.LoadCanceled.Message">사용자가 작업을 취소하여 프로젝트가 불러와지지 않았습니다</s:String>
+
+    <!--Info • Feedback sent-->
+    <s:String x:Key="S.Info.FeedbackSent.Header">피드백 감사합니다</s:String>
+    <s:String x:Key="S.Info.FeedbackSent.Message">메시지가 전송되었습니다. 시간을 내어 공유해 주셔서 감사합니다</s:String>
+
+    <!--Info • Smooth loop partial-->
+    <s:String x:Key="S.Info.SmoothLoopPartial.Header">부분 일치 발견</s:String>
+    <s:String x:Key="S.Info.SmoothLoopPartial.Message">가장 가까운 일치는 {0:0.##}% 유사도였습니다</s:String>
+    <s:String x:Key="S.Info.SmoothLoopPartial.Action">이 일치 항목을 그래도 사용</s:String>
+
+    <!--Info • Smooth loop cancelled-->
+    <s:String x:Key="S.Info.SmoothLoopCancelled.Header">검색 취소됨</s:String>
+    <s:String x:Key="S.Info.SmoothLoopCancelled.Message">루프 검색이 취소되었습니다</s:String>
+
+    <!--Warnings • Single instance-->
+    <s:String x:Key="S.Warning.Single.Header">앱이 이미 실행 중입니다</s:String>
+    <s:String x:Key="S.Warning.Single.Message">N-Studio가 이미 실행 중이지만 열린 창이 없는 것 같습니다. 시스템 트레이를 확인하세요. N-Studio 아이콘이 있어야 합니다</s:String>
+
+    <!--Warnings • Audio device detection-->
+    <s:String x:Key="S.Warning.DeviceDetection.Title">장치 감지 문제</s:String>
+    <s:String x:Key="S.Warning.DeviceDetection.Description">오디오 장치를 감지할 수 없었습니다</s:String>
+
+    <!--Warnings • Invalid file name--> 
+    <s:String x:Key="S.Warning.InvalidFileName.Header">잘못된 파일 이름</s:String>
+    <s:String x:Key="S.Warning.InvalidFileName.Message">파일 이름에 잘못된 문자가 포함되어 있습니다</s:String>
+    <s:String x:Key="S.Warning.InvalidFileName.Fix">수정</s:String>
+    <s:String x:Key="S.Warning.InvalidFileName.Fix.Info">파일 이름에서 잘못된 문자를 제거합니다</s:String>
+
+    <!--Warnings • File already exists--> 
+    <s:String x:Key="S.Warning.FileAlreadyExists.Header">파일이 이미 존재함</s:String>
+    <s:String x:Key="S.Warning.FileAlreadyExists.Message">파일 이름에 잘못된 문자가 포함되어 있습니다</s:String>
+
+    <!--Warnings • Failed to authenticate token--> 
+    <s:String x:Key="S.Warning.FailedToken.Header">응답을 받지 못함</s:String>
+    <s:String x:Key="S.Warning.FailedToken.Message">인증을 위해 전체 URL을 여기에 붙여넣으세요</s:String>
+
+    <!--Warnings • Authorization missing--> 
+    <s:String x:Key="S.Warning.AuthorizationMissing.Header">인증 누락</s:String>
+    <s:String x:Key="S.Warning.AuthorizationMissing.Message">로그인하지 않았기 때문에 선택한 서비스에 업로드할 수 없습니다</s:String>
+
+    <!--Warnings • Unsupported files dropped--> 
+    <s:String x:Key="S.Warning.Drop.Header">지원되지 않거나 잘못됨</s:String>
+    <s:String x:Key="S.Warning.Drop.Message">파일(들)을 삽입하거나 열 수 없었습니다</s:String>
+
+    <!--Warnings • Low on space-->
+    <s:String x:Key="S.Warning.LowSpace.Header">공간 부족</s:String>
+    <s:String x:Key="S.Warning.LowSpace.Message">녹화를 위해 캐시 드라이브의 공간을 확보하세요</s:String>
+
+    <!--Warnings • No smooth loop found-->
+    <s:String x:Key="S.Warning.SmoothLoopNotFound.Header">일치 항목 없음</s:String>
+    <s:String x:Key="S.Warning.SmoothLoopNotFound.Message">적합한 루프 지점을 찾을 수 없습니다. 유사도 임계값이나 최소 길이를 조정해 보세요.</s:String>
+
+    <!--Warnings • FFmpeg missing-->
+    <s:String x:Key="S.Warning.TroubleshooterFfmpeg.Header">FFmpeg 누락</s:String>
+    <s:String x:Key="S.Warning.TroubleshooterFfmpeg.Message">이 플러그인 없이는 비디오 내보내기가 불가능합니다</s:String>
+
+    <!--Warnings • Graphics engine-->
+    <s:String x:Key="S.Warning.Graphics.Title">그래픽 어댑터 전환</s:String>
+    <s:String x:Key="S.Warning.Graphics.Instruction">선택한 화면을 캡처하려면 올바른 그래픽 어댑터로 전환하세요</s:String>
+    <s:String x:Key="S.Warning.Graphics.Message">DirectX의 제한으로 인해 N-Studio는 캡처 중인 화면과 동일한 그래픽 어댑터에서 실행되어야 합니다.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Action">Windows 설정 > 시스템 > 디스플레이 > 그래픽 설정을 열거나 아래 링크를 클릭하여 N-Studio의 그래픽 어댑터를 전환하세요.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Action.Legacy">그래픽 어댑터의 그래픽 설정을 열어 N-Studio의 그래픽 어댑터를 전환하세요.</s:String>
+    <s:String x:Key="S.Warning.Graphics.Switch">Windows 설정 열기</s:String>
+
+    <!--Error • Failed to send feedback-->
+    <s:String x:Key="S.Error.FailedToSend.Header">피드백 전송 실패</s:String>
+    <s:String x:Key="S.Error.FailedToSend.Description">피드백 내용을 zip으로 내보내어 이메일로 보내 주세요</s:String>
+    <s:String x:Key="S.Error.FailedToSend.OpenEmail">이메일 열기</s:String>
+
+    <!--Error • Test or repair failed-->
+    <s:String x:Key="S.Error.Troubleshooter.Header">문제 해결 실패</s:String>
+
+    <!--Error • Update Unsupported-->
+    <s:String x:Key="S.Error.UpdateUnsupported.Header">지원되지 않음</s:String>
+    <s:String x:Key="S.Error.UpdateUnsupported.Message">시스템이 더 이상 지원되지 않거나 업데이트 시스템이 변경된 것 같습니다. 웹사이트에서 수동으로 다운로드해 보세요.</s:String>
+
+    <!--Error • Update Failed--> 
+    <s:String x:Key="S.Error.UpdateFailed.Header">업데이트 실패</s:String>
+    <s:String x:Key="S.Error.UpdateFailed.Message">업데이트를 다운로드할 수 없었습니다.</s:String>
+
+    <!--Error • Login failed--> 
+    <s:String x:Key="S.Error.Login.Header">로그인 실패</s:String>
+    <s:String x:Key="S.Error.Login.Message">브라우저 인증에 실패했습니다. 다시 시도하세요</s:String>
+
+    <!--Error • Authentication--> 
+    <s:String x:Key="S.Error.Authentication.Header">인증 오류</s:String>
+    <s:String x:Key="S.Error.Authentication.Message">서비스에 인증할 수 없었습니다</s:String>
+
+    <!--Error • Delete file--> 
+    <s:String x:Key="S.Error.DeleteFile.Header">파일 삭제 오류</s:String>
+    <s:String x:Key="S.Error.DeleteFile.Message">파일을 삭제할 수 없었습니다.</s:String>
+
+    <!--Error • Encoding--> 
+    <s:String x:Key="S.Error.Encoding.Header">인코딩 오류</s:String>
+    <s:String x:Key="S.Error.Encoding.Message">인코딩에 실패하여 완료할 수 없었습니다.</s:String>
+
+    <!--Error • Recording--> 
+    <s:String x:Key="S.Error.Recording.Header">녹화 시작 오류</s:String>
+    <s:String x:Key="S.Error.Recording.Message">캡처에 문제가 있어 올바르게 시작할 수 없었습니다.</s:String>
+
+    <!--Error • Pausing--> 
+    <s:String x:Key="S.Error.Pausing.Header">일시정지 오류</s:String>
+    <s:String x:Key="S.Error.Pausing.Message">캡처에 문제가 있어 올바르게 일시정지할 수 없었습니다.</s:String>
+
+    <!--Error • Stopping--> 
+    <s:String x:Key="S.Error.Stopping.Header">중지 오류</s:String>
+    <s:String x:Key="S.Error.Stopping.Message">캡처에 문제가 있어 올바르게 종료할 수 없었습니다.</s:String>
+
+    <!--Error • Capture--> 
+    <s:String x:Key="S.Error.Capture.Header">화면을 캡처할 수 없었습니다</s:String>
+    <s:String x:Key="S.Error.Capture.Message">캡처가 충돌하여 깨진 상태입니다.</s:String>
+
+    <!--Error • Export feedback--> 
+    <s:String x:Key="S.Error.ExportFeedback.Header">내보내기 오류</s:String>
+    <s:String x:Key="S.Error.ExportFeedback.Message">피드백을 내보낼 수 없었습니다</s:String>
+
+    <!--Error • Unsupported files dropped--> 
+    <s:String x:Key="S.Error.Drop.Header">가져오기 오류</s:String>
+    <s:String x:Key="S.Error.Drop.Message">파일(들)을 삽입하거나 열 수 없었습니다</s:String>
+
+    <!--Error • Unrecognized plugin--> 
+    <s:String x:Key="S.Error.UnrecognizedPlugin.Header">인식되지 않는 파일</s:String>
+    <s:String x:Key="S.Error.UnrecognizedPlugin.Message">선택한 파일이 인식되지 않았습니다</s:String>
+
+    <!--Error • Impossible to update--> 
+    <s:String x:Key="S.Error.UpdatedFailed.Header">업데이트 설치 실패</s:String>
+    <s:String x:Key="S.Error.UpdatedFailed.Message">업데이트를 수동으로 설치하세요</s:String>
+
+    <!--Error • Error loading--> 
+    <s:String x:Key="S.Errors.Load.Header">불러오기 오류</s:String>
+    <s:String x:Key="S.Errors.Load.Message">프로젝트를 불러올 수 없었습니다</s:String>
+
+    <!--Error • Error with renderer--> 
+    <s:String x:Key="S.Errors.Renderer.Header">렌더러 오류</s:String>
+    <s:String x:Key="S.Errors.Renderer.Message">렌더 파이프라인이 충돌했습니다</s:String>
+
+    <!--Error • Error initializing--> 
+    <s:String x:Key="S.Errors.InitializePreviewer.Header">미리보기 오류</s:String>
+    <s:String x:Key="S.Errors.InitializePreviewer.Message">미리보기를 초기화할 수 없었습니다</s:String>
+
+    <!--Error • Saving project--> 
+    <s:String x:Key="S.Errors.SaveProject.Header">저장 오류</s:String>
+    <s:String x:Key="S.Errors.SaveProject.Message">프로젝트를 저장할 수 없었습니다</s:String>
+
+    <!--Error • Creating empty project--> 
+    <s:String x:Key="S.Errors.EmptyProject.Header">프로젝트 생성 오류</s:String>
+    <s:String x:Key="S.Errors.EmptyProject.Message">빈 프로젝트 생성에 실패했습니다</s:String>
+
+    <!--Error • Creating project from recording--> 
+    <s:String x:Key="S.Errors.ProjectFromRecording.Header">프로젝트 생성 오류</s:String>
+    <s:String x:Key="S.Errors.ProjectFromRecording.Message">녹화에서 프로젝트를 생성할 수 없었습니다</s:String>
+
+    <!--Error • Creating project from media--> 
+    <s:String x:Key="S.Errors.ProjectFromMedia.Header">프로젝트 생성 오류</s:String>
+    <s:String x:Key="S.Errors.ProjectFromMedia.Message">미디어에서 프로젝트를 생성할 수 없었습니다</s:String>
+
+    <!--Error • Copy--> 
+    <s:String x:Key="S.Errors.Copy.Header">복사 실패</s:String>
+    <s:String x:Key="S.Errors.Copy.Message">선택한 항목 복사에 실패했습니다</s:String>
+
+    <!--Error • Cut--> 
+    <s:String x:Key="S.Errors.Cut.Header">잘라내기 실패</s:String>
+    <s:String x:Key="S.Errors.Cut.Message">선택한 항목 잘라내기에 실패했습니다</s:String>
+
+    <!--Error • Paste--> 
+    <s:String x:Key="S.Errors.Paste.Header">붙여넣기 실패</s:String>
+    <s:String x:Key="S.Errors.Paste.Message">항목 붙여넣기에 실패했습니다</s:String>
+
+    <!--Error • Inserting recording--> 
+    <s:String x:Key="S.Errors.InsertingRecording.Header">녹화 삽입 오류</s:String>
+    <s:String x:Key="S.Errors.InsertingRecording.Message">캡처된 녹화를 프로젝트에 삽입하는 데 실패했습니다</s:String>
+
+    <!--Error • Inserting media--> 
+    <s:String x:Key="S.Errors.InsertingMedia.Header">미디어 삽입 오류</s:String>
+    <s:String x:Key="S.Errors.InsertingMedia.Message">선택한 미디어를 프로젝트에 삽입하는 데 실패했습니다</s:String>
+
+    <!--Error • Inserting text--> 
+    <s:String x:Key="S.Errors.InsertingText.Header">텍스트 삽입 오류</s:String>
+    <s:String x:Key="S.Errors.InsertingText.Message">텍스트 요소를 프로젝트에 삽입하는 데 실패했습니다</s:String>
+
+    <!--Error • Inserting progress--> 
+    <s:String x:Key="S.Errors.InsertingProgress.Header">진행 표시기 삽입 오류</s:String>
+    <s:String x:Key="S.Errors.InsertingProgress.Message">진행 표시기 요소를 프로젝트에 삽입하는 데 실패했습니다</s:String>
+
+    <!--Error • Inserting drawing--> 
+    <s:String x:Key="S.Errors.InsertingDrawing.Header">그리기 삽입 오류</s:String>
+    <s:String x:Key="S.Errors.InsertingDrawing.Message">그리기 요소를 프로젝트에 삽입하는 데 실패했습니다</s:String>
+
+    <!--Error • Editing drawing--> 
+    <s:String x:Key="S.Errors.EditingDrawing.Header">그리기 편집 오류</s:String>
+    <s:String x:Key="S.Errors.EditingDrawing.Message">선택한 그리기 편집에 실패했습니다</s:String>
+
+    <!--Error • Inserting segment (generic)--> 
+    <s:String x:Key="S.Errors.InsertingSegment.Header">세그먼트 삽입 오류</s:String>
+    <s:String x:Key="S.Errors.InsertingSegment.Message">세그먼트를 프로젝트에 삽입하는 데 실패했습니다</s:String>
+
+    <!--Error • Inserting track (empty)--> 
+    <s:String x:Key="S.Errors.InsertingEmptyTrack.Header">트랙 삽입 오류</s:String>
+    <s:String x:Key="S.Errors.InsertingEmptyTrack.Message">빈 트랙을 프로젝트에 삽입하는 데 실패했습니다</s:String>
+
+    <!--Error • Reorder tracks--> 
+    <s:String x:Key="S.Errors.ReorderingTracks.Header">트랙 재정렬 오류</s:String>
+    <s:String x:Key="S.Errors.ReorderingTracks.Message">선택한 트랙 재정렬에 실패했습니다</s:String>
+
+    <!--Error • Remove tracks--> 
+    <s:String x:Key="S.Errors.RemoveTracks.Header">트랙 제거 오류</s:String>
+    <s:String x:Key="S.Errors.RemoveTracks.Message">선택한 트랙 제거에 실패했습니다</s:String>
+
+    <!--Error • Move segments--> 
+    <s:String x:Key="S.Errors.MoveSegments.Header">세그먼트 이동 오류</s:String>
+    <s:String x:Key="S.Errors.MoveSegments.Message">선택한 세그먼트 이동에 실패했습니다</s:String>
+
+    <!--Error • Remove segments--> 
+    <s:String x:Key="S.Errors.RemoveSegments.Header">세그먼트 제거 오류</s:String>
+    <s:String x:Key="S.Errors.RemoveSegments.Message">선택한 세그먼트 제거에 실패했습니다</s:String>
+
+    <!--Error • Split segment--> 
+    <s:String x:Key="S.Errors.SplitSegment.Header">세그먼트 분할 오류</s:String>
+    <s:String x:Key="S.Errors.SplitSegment.Message">선택한 세그먼트 분할에 실패했습니다</s:String>
+
+    <!--Error • Trim segment--> 
+    <s:String x:Key="S.Errors.TrimSegment.Header">세그먼트 트림 오류</s:String>
+    <s:String x:Key="S.Errors.TrimSegment.Message">선택한 세그먼트 트림에 실패했습니다</s:String>
+
+    <!--Error • Edit key aliases--> 
+    <s:String x:Key="S.Errors.EditAliases.Header">키 별칭 편집 오류</s:String>
+    <s:String x:Key="S.Errors.EditAliases.Message">키 별칭 편집에 실패했습니다</s:String>
+
+    <!--Error • Edit key translations--> 
+    <s:String x:Key="S.Errors.EditTranslations.Header">키 번역 편집 오류</s:String>
+    <s:String x:Key="S.Errors.EditTranslations.Message">키 번역 편집에 실패했습니다</s:String>
+
+    <!--Error • Add effect--> 
+    <s:String x:Key="S.Errors.AddEffect.Header">효과 추가 오류</s:String>
+    <s:String x:Key="S.Errors.AddEffect.Message">효과 추가에 실패했습니다</s:String>
+
+    <!--Error • Edit effect--> 
+    <s:String x:Key="S.Errors.EditEffect.Header">효과 편집 오류</s:String>
+    <s:String x:Key="S.Errors.EditEffect.Message">효과 편집에 실패했습니다</s:String>
+
+    <!--Error • Remove effect--> 
+    <s:String x:Key="S.Errors.RemoveEffect.Header">효과 제거 오류</s:String>
+    <s:String x:Key="S.Errors.RemoveEffect.Message">효과 제거에 실패했습니다</s:String>
+
+    <!--Error • Redo--> 
+    <s:String x:Key="S.Errors.Redo.Header">다시 실행 오류</s:String>
+    <s:String x:Key="S.Errors.Redo.Message">이전 작업 다시 실행에 실패했습니다</s:String>
+
+    <!--Error • Undo--> 
+    <s:String x:Key="S.Errors.Undo.Header">실행 취소 오류</s:String>
+    <s:String x:Key="S.Errors.Undo.Message">이전 작업 실행 취소에 실패했습니다</s:String>
+
+    <!--Error • Generic--> 
+    <s:String x:Key="S.Errors.Action.Header">작업 실행 오류</s:String>
+    <s:String x:Key="S.Errors.Action.Message">작업 실행에 실패했습니다</s:String>
+
+    <!--Error • Plugin--> 
+    <s:String x:Key="S.Errors.Plugin.Header">플러그인 다운로드 오류</s:String>
+    <s:String x:Key="S.Errors.Plugin.Message">플러그인 다운로드 및 추출에 실패했습니다</s:String>
+
+    <!--Error • Removing plugin--> 
+    <s:String x:Key="S.Errors.RemovingPlugin.Header">플러그인 제거 오류</s:String>
+    <s:String x:Key="S.Errors.RemovingPlugin.Message">디스크에서 플러그인 삭제에 실패했습니다</s:String>
+
+    <!--Error • Open windows settings--> 
+    <s:String x:Key="S.Errors.WindowsSettings.Header">Windows 설정</s:String>
+    <s:String x:Key="S.Errors.WindowsSettings.Message">설정 페이지를 열 수 없습니다</s:String>
+
+    <!--Error • Storage clean up--> 
+    <s:String x:Key="S.Errors.StorageCleanup.Header">정리 오류</s:String>
+    <s:String x:Key="S.Errors.StorageCleanup.Message">캐시를 정리할 수 없었습니다</s:String>
+
+    <!--Error • Change cache drive--> 
+    <s:String x:Key="S.Errors.CacheDrive.Header">드라이브 변경 오류</s:String>
+    <s:String x:Key="S.Errors.CacheDrive.Message">캐시 드라이브를 변경할 수 없었습니다</s:String>
+
+    <!--Error • Smooth loop search--> 
+    <s:String x:Key="S.Errors.SmoothLoop.Header">검색 실패</s:String>
+    <s:String x:Key="S.Errors.SmoothLoop.Message">루프 검색 중 오류가 발생했습니다</s:String>
+
+    <!--Error • Removing recent project--> 
+    <s:String x:Key="S.Errors.RemovingRecent.Header">오류</s:String>
+    <s:String x:Key="S.Errors.RemovingRecent.Message">프로젝트 제거에 실패했습니다</s:String>
+
+    <!--Error • Removing recent projects--> 
+    <s:String x:Key="S.Errors.RemovingRecents.Header">오류</s:String>
+    <s:String x:Key="S.Errors.RemovingRecents.Message">하나 이상의 프로젝트 제거에 실패했습니다</s:String>
+
+    <!--Error • Missing drive--> 
+    <s:String x:Key="S.Errors.MissingDrive.Header">드라이브 없음</s:String>
+    <s:String x:Key="S.Errors.MissingDrive.Message">드라이브를 사용할 수 없거나 없습니다</s:String>
+
+    <!--Error • No other drive-->
+    <s:String x:Key="S.Errors.NoOtherDrive.Header">다른 드라이브 없음</s:String>
+    <s:String x:Key="S.Errors.NoOtherDrive.Message">대상으로 지정할 다른 드라이브가 없습니다</s:String>
+
+    <!--Error • Others--> 
+    <s:String x:Key="S.Errors.Activation.Title">활성화 실패</s:String>
+    <s:String x:Key="S.Errors.Activation.Generic">알 수 없는 문제로 앱을 활성화할 수 없었습니다</s:String>
+    <s:String x:Key="S.Errors.Activation.EmailOrPasswordWrong">이메일 또는 비밀번호가 잘못되어 활성화에 실패했습니다</s:String>
+    <s:String x:Key="S.Errors.Activation.NoValidSubscription">이 앱에 대한 활성 구독을 찾을 수 없습니다</s:String>
+    <s:String x:Key="S.Errors.Activation.NotEnoughSeats">구독에 사용 가능한 좌석이 부족합니다. 계정 페이지에서 좌석을 더 구성하세요</s:String>
+    <s:String x:Key="S.Errors.Activation.TenantFrozenBlocked">사용자가 차단되었습니다. 이메일 접근을 해제하려면 시스템 관리자에게 문의하세요</s:String>
+    <s:String x:Key="S.Errors.Activation.TenantNotFound">제공된 이메일과 시리얼로 사용자를 찾을 수 없습니다</s:String>
+    <s:String x:Key="S.Errors.Activation.TenantAlreadyInUse">이메일과 시리얼이 이미 다른 컴퓨터에서 사용 중입니다. 시스템 관리자에게 좌석 추가를 요청하세요</s:String>
+
+    <!--Windows • Welcome -->
+    <s:String x:Key="S.Welcome.ScreenRecorder">화면 녹화기</s:String>
+    <s:String x:Key="S.Welcome.SoundRecorder">소리 녹화기</s:String>
+    <s:String x:Key="S.Welcome.RegionShare">영역 공유</s:String>
+    <s:String x:Key="S.Welcome.Editor">편집기</s:String>
+    <s:String x:Key="S.Welcome.Feedback">피드백</s:String>
+    <s:String x:Key="S.Welcome.Upgrade">Pro로 업그레이드</s:String>
+    <s:String x:Key="S.Welcome.Troubleshoot">문제 해결</s:String>
+    <s:String x:Key="S.Welcome.Settings">설정</s:String>
+    <s:String x:Key="S.Welcome.RecentProjects">최근 프로젝트</s:String>
+    <s:String x:Key="S.Welcome.RecentProjects.DiscardAll">모두 버리기</s:String>
+    <s:String x:Key="S.Welcome.RecentProjects.DiscardAll.Info">캐시에서 모든 프로젝트 삭제</s:String>
+    <s:String x:Key="S.Welcome.RecentProjects.None">최근에 연 프로젝트가 없습니다</s:String>
+    <s:String x:Key="S.Welcome.Update">업데이트 가능</s:String>
+    <s:String x:Key="S.Welcome.Update.Now">지금 업데이트</s:String>
+
+    <!--Windows • Screen Recorder-->
+    <s:String x:Key="S.ScreenRecorder.Frequency.Switch">캡처 빈도 모드 전환을 위해 클릭</s:String>
+    <s:String x:Key="S.ScreenRecorder.Frequency.Fps">초당 최대 프레임 수.&#10;1~60 fps 범위이며, 값이 높을수록 더 많은 프레임이 캡처됩니다.&#10;각 증분은 16밀리초 차이를 나타냅니다.</s:String>
+    <s:String x:Key="S.ScreenRecorder.Frequency.Fps.Short">fps</s:String>
+    <s:String x:Key="S.ScreenRecorder.Frequency.Fpm">분당 최대 프레임 수.&#10;1~60 fpm 범위이며, 값이 높을수록 더 많은 프레임이 캡처됩니다.&#10;각 증분은 1초 차이를 나타냅니다.</s:String>
+    <s:String x:Key="S.ScreenRecorder.Frequency.Fpm.Short">fpm</s:String>
+    <s:String x:Key="S.ScreenRecorder.Frequency.Fph">시간당 최대 프레임 수&#10;1~60 fph 범위이며, 값이 높을수록 더 많은 프레임이 캡처됩니다.&#10;각 증분은 1분 차이를 나타냅니다.</s:String>
+    <s:String x:Key="S.ScreenRecorder.Frequency.Fph.Short">fph</s:String>
+    <s:String x:Key="S.ScreenRecorder.ClickOrPress">클릭하거나 키를 눌러 캡처</s:String>
+
+    <s:String x:Key="S.ScreenRecorder.Select">선택</s:String>
+    <s:String x:Key="S.ScreenRecorder.Select.Area">영역 선택</s:String>
+    <s:String x:Key="S.ScreenRecorder.Select.Window">창 선택</s:String>
+    <s:String x:Key="S.ScreenRecorder.Select.NoArea">영역이 선택되지 않음</s:String>
+    <s:String x:Key="S.ScreenRecorder.Select.NoWindow">창이 선택되지 않음</s:String>
+    <s:String x:Key="S.ScreenRecorder.Select.NoScreen">화면이 선택되지 않음</s:String>
+    <s:String x:Key="S.ScreenRecorder.Select.Move">드래그하여&#10;선택을 이동하세요.</s:String>
+
+    <s:String x:Key="S.ScreenRecorder.RegionSelect.Rect">사각형 선택</s:String>
+    <s:String x:Key="S.ScreenRecorder.RegionSelect.Window">창 선택</s:String>
+    <s:String x:Key="S.ScreenRecorder.RegionSelect.Screen">화면 선택</s:String>
+
+    <s:String x:Key="S.ScreenRecorder.Screen.Internal">내부 화면</s:String>
+    <s:String x:Key="S.ScreenRecorder.Screen.Generic">일반 화면</s:String>
+    <s:String x:Key="S.ScreenRecorder.Screen.Info">디스플레이: {0}</s:String>
+    <s:String x:Key="S.ScreenRecorder.Screen.Info1">그래픽 어댑터: {0}</s:String>
+    <s:String x:Key="S.ScreenRecorder.Screen.Info2">해상도: {0} x {1}</s:String>
+    <s:String x:Key="S.ScreenRecorder.Screen.Info3">기본 해상도: {0} x {1}</s:String>
+    <s:String x:Key="S.ScreenRecorder.Screen.Info4">DPI: {0} ({1:0.##}%)</s:String>
+
+    <s:String x:Key="S.ScreenRecorder.DiskSpace.Info">사용된 디스크 비율 및 사용 가능한 공간</s:String>
+    <s:String x:Key="S.ScreenRecorder.AudioSource.Input">마이크 및 기타 오디오 입력&#10;캡처 중인 소스</s:String>
+    <s:String x:Key="S.ScreenRecorder.AudioSource.Output">스피커 및 기타 오디오 출력&#10;캡처 중인 소스</s:String>
+    <s:String x:Key="S.ScreenRecorder.Cache.Clearing">캐시 정리 중...</s:String>
+    <s:String x:Key="S.ScreenRecorder.Cache.Recovered">{0} 복구됨</s:String>
+    <s:String x:Key="S.ScreenRecorder.Cache.NothingRecovered">복구된 공간 없음</s:String>
+
+    <s:String x:Key="S.ScreenRecorder.Splash.Title">녹화를 중지하려면 {0}을(를) 누르세요</s:String>
+    <s:String x:Key="S.ScreenRecorder.Splash.Subtitle">녹화기 창이 최소화됩니다.&#10;복원하거나 {0}을(를) 눌러 캡처를 일시정지하세요</s:String>
+
+    <s:String x:Key="S.ScreenRecorder.PreStarting">사전 시작 중...</s:String>
+    <s:String x:Key="S.ScreenRecorder.Processing">프레임 처리 중...</s:String>
+
+    <!--Windows • Sound Recorder-->
+    <s:String x:Key="S.SoundRecorder.Title">N-Studio • 소리 녹화기</s:String>
+    <s:String x:Key="S.SoundRecorder.NoInputs">마이크 또는 스피커가 선택되지 않음</s:String>
+    <s:String x:Key="S.SoundRecorder.Select">하나 이상의 소스를 선택하고 녹화를 누르세요</s:String>
+
+    <!--Windows • Region Share-->
+    <s:String x:Key="S.RegionShare.Title">N-Studio • 영역 공유</s:String>
+    <s:String x:Key="S.RegionShare.Pick">공유할 영역 선택</s:String>
+    <s:String x:Key="S.RegionShare.HideCursor">마우스 커서 숨기기</s:String>
+    <s:String x:Key="S.RegionShare.HideCursorEffects">마우스 커서 효과 숨기기</s:String>
+    <s:String x:Key="S.RegionShare.DisableCursorFollowing">커서 따라가기 비활성화</s:String>
+    <s:String x:Key="S.RegionShare.HideKeyPresses">키 입력 숨기기</s:String>
+    <s:String x:Key="S.RegionShare.RecentShares">최근 공유</s:String>
+    <s:String x:Key="S.RegionShare.RecentShares.None">최근 공유 없음</s:String>
+    <s:String x:Key="S.RegionShare.QuickSettings">빠른 설정</s:String>
+    <s:String x:Key="S.RegionShare.QuickSettings.Info">빠른 설정 표시</s:String>
+    <s:String x:Key="S.RegionShare.PickAnother">다른 화면 영역 선택</s:String>
+
+    <!--Windows • Exporter-->
+    <s:String x:Key="S.Exporter.Title">N-Studio • 내보내기</s:String>
+    <s:String x:Key="S.Exporter.Edit.Info">편집기에서 프로젝트 열기</s:String>
+    <s:String x:Key="S.Exporter.Tracks">트랙</s:String>
+    <s:String x:Key="S.Exporter.Tracks.Info">트랙 관리</s:String>
+    <s:String x:Key="S.Exporter.Crop">자르기</s:String>
+    <s:String x:Key="S.Exporter.Crop.Info">캔버스 자르기 관리</s:String>
+    <s:String x:Key="S.Exporter.Resize">크기 조정</s:String>
+    <s:String x:Key="S.Exporter.Resize.Info">캔버스 크기 관리</s:String>
+    <s:String x:Key="S.Exporter.Trim">트림</s:String>
+    <s:String x:Key="S.Exporter.Trim.Info">애니메이션 트림 관리</s:String>
+    <s:String x:Key="S.Exporter.Framerate">프레임레이트</s:String>
+    <s:String x:Key="S.Exporter.Framerate.Info">애니메이션 프레임레이트 제어</s:String>
+    <s:String x:Key="S.Exporter.Speed">속도</s:String>
+    <s:String x:Key="S.Exporter.Speed.Info">애니메이션 속도 제어</s:String>
+    <s:String x:Key="S.Exporter.Settings">설정</s:String>
+    <s:String x:Key="S.Exporter.Settings.Info">설정 열기</s:String>
+    <s:String x:Key="S.Exporter.AudioOnly">오디오만</s:String>
+    <s:String x:Key="S.Exporter.Loading">불러오는 중...</s:String>
+
+    <!--Windows • Exporter > Type-->
+    <s:String x:Key="S.Exporter.Type">파일 형식 및 프리셋</s:String>
+    <s:String x:Key="S.Exporter.Type.Format.Info">출력 파일의 형식</s:String>
+    <s:String x:Key="S.Exporter.Type.Preset.Info">내보내기 설정의 프리셋</s:String>
+
+    <!--Windows • Exporter > Upload-->
+    <s:String x:Key="S.Exporter.Upload">업로드</s:String>
+    <s:String x:Key="S.Exporter.Upload.Info">업로드에 사용할 서비스 세부 정보가 있는 업로드 프리셋을 선택합니다.</s:String>
+    <s:String x:Key="S.Exporter.Upload.Select.Title">업로드 프리셋 선택</s:String>
+    <s:String x:Key="S.Exporter.Upload.Select.Message">업로드를 건너뛰려면 선택하지 마세요</s:String>
+    <s:String x:Key="S.Exporter.Upload.Unavailable.Title">이 형식에 사용 가능한 업로드 프리셋 없음</s:String>
+    <s:String x:Key="S.Exporter.Upload.Unavailable.Message">위 버튼을 사용하여 프리셋을 추가하세요</s:String>
+
+    <!--Windows • Exporter > File-->
+    <s:String x:Key="S.Exporter.File">파일</s:String>
+    <s:String x:Key="S.Exporter.File.Automation">파일 이름 자동화</s:String>
+    <s:String x:Key="S.Exporter.File.Folder">출력 폴더</s:String>
+    <s:String x:Key="S.Exporter.File.Folder.Select">출력 폴더를 선택하세요.&#10;Shift를 누르고 클릭하면&#10;파일 이름도 선택할 수 있습니다</s:String>
+    <s:String x:Key="S.Exporter.File.Name">파일 이름</s:String>
+    <s:String x:Key="S.Exporter.File.Format">파일 형식</s:String>
+    <s:String x:Key="S.Exporter.File.Extension">파일 확장자</s:String>
+    <s:String x:Key="S.Exporter.File.Increase">파일 번호 증가</s:String>
+    <s:String x:Key="S.Exporter.File.Decrease">파일 번호 감소</s:String>
+    <s:String x:Key="S.Exporter.File.Automation.Info">파일 이름에 자동화 섹션이 포함되어 있습니다.&#10;파일 이름을 자유롭게 편집하려면 모든 자동화 섹션을 제거하세요.&#10;설정 창에서 편집하려면 여기를 클릭하세요.</s:String>
+
+    <!--Windows • Exporter > Resize-->
+    <s:String x:Key="S.Exporter.Resize.MaintainRatio">종횡비 유지</s:String>
+    <s:String x:Key="S.Exporter.Resize.MaintainRatio.Info">비율을 가능한 한 가깝게 유지하면서&#10;너비와 높이가 정수로 나오도록 합니다</s:String>
+
+    <!--Windows • Exporter > Trim-->
+    <s:String x:Key="S.Exporter.Trim.Original">원본 지속 시간</s:String>
+    <s:String x:Key="S.Exporter.Trim.Trimmed">트림된 지속 시간</s:String>
+    <s:String x:Key="S.Exporter.Trim.FindLoop">부드러운 루프 검색...</s:String>
+    <s:String x:Key="S.Exporter.Trim.FindLoop.Searching">부드러운 루프 검색 중...</s:String>
+    <s:String x:Key="S.Exporter.Trim.FindLoop.Cancel">검색 취소</s:String>
+
+    <!--Windows • Exporter > Framerate-->
+    <s:String x:Key="S.Exporter.Framerate.Mode.Info">프레임레이트 모드</s:String>
+    <s:String x:Key="S.Exporter.Framerate.Mode.Automatic">자동</s:String>
+    <s:String x:Key="S.Exporter.Framerate.Mode.Automatic.Info">최상위 트랙의 이벤트에 기반한 프레임레이트를 따릅니다</s:String>
+    <s:String x:Key="S.Exporter.Framerate.Mode.Custom">사용자 지정</s:String>
+    <s:String x:Key="S.Exporter.Framerate.Mode.Custom.Info">사용자 지정 프레임레이트</s:String>
+    <s:String x:Key="S.Exporter.Framerate.Mode.Film">필름</s:String>
+    <s:String x:Key="S.Exporter.Framerate.Mode.HighFramerate">고프레임레이트</s:String>
+
+    <!--Windows • Exporter > Speed-->
+    <s:String x:Key="S.Exporter.Speed.Title">재생 속도</s:String>
+    <s:String x:Key="S.Exporter.Speed.Multiplier">배수 (×)</s:String>
+    <s:String x:Key="S.Exporter.Speed.Target">대상</s:String>
+
+    <!--Windows • Exporter > Encoding-->
+    <s:String x:Key="S.Exporter.Encoding">인코딩</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Export">내보내기</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Export.Past">이전 내보내기</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Export.Past.Clear">이전 내보내기 지우기</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Size.Partial">(지금까지)</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Size.Partial.Info">지금까지 내보낸 파일 크기</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Size.Partial.Upload.Info">지금까지 업로드 크기</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Bitrate.Info">초당 인코딩된 비트</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Bitrate.Upload.Info">초당 업로드된 비트</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Pass.First">첫 번째 패스</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Pass.Second">두 번째 패스</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Pass.Info">현재 인코딩 패스</s:String>
+    <s:String x:Key="S.Exporter.Encoding.MultipleFiles">여러 파일</s:String>
+
+    <s:String x:Key="S.Exporter.Encoding.Status.Replaced">교체됨</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Status.Deleted">삭제됨</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Status.Uploading">업로드 중</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Status.Copying">복사 중</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Status.ExecutingCommands">명령 실행 중</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Status.Aborting">중단 중</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Status.Aborted">중단됨</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Status.Error">오류</s:String>
+
+    <s:String x:Key="S.Exporter.Encoding.Actions.Open">파일 열기</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Actions.SeeError">오류 세부 정보 보기</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Actions.RemoveFromList">목록에서 제거</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Actions.More">더 많은 작업</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Actions.OpenFolder">폴더 열기</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Actions.CopyFile">파일 복사</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Actions.CopyFolderPath">폴더 경로 복사</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Actions.CopyPath">경로 복사</s:String>
+    <s:String x:Key="S.Exporter.Encoding.Actions.DeleteFile">파일 삭제</s:String>
+
+    <!--Windows • Editor-->
+    <s:String x:Key="S.Editor.Title">N-Studio • 편집기</s:String>
+    <s:String x:Key="S.Editor.Project">프로젝트</s:String>
+    <s:String x:Key="S.Editor.Project.New">새로 만들기</s:String>
+    <s:String x:Key="S.Editor.Project.New.Screen">화면 녹화에서</s:String>
+    <s:String x:Key="S.Editor.Project.New.Sound">소리 녹화에서</s:String>
+    <s:String x:Key="S.Editor.Project.New.Media">미디어에서</s:String>
+    <s:String x:Key="S.Editor.Project.New.Empty">빈 프로젝트</s:String>
+    <s:String x:Key="S.Editor.Project.Open">열기</s:String>
+    <s:String x:Key="S.Editor.Project.OpenRecent">최근 항목 열기</s:String>
+    <s:String x:Key="S.Editor.Project.Save">저장</s:String>
+    <s:String x:Key="S.Editor.Project.SaveAs">다른 이름으로 저장...</s:String>
+    <s:String x:Key="S.Editor.Project.Export">내보내기...</s:String>
+    <s:String x:Key="S.Editor.Project.Properties">속성</s:String>
+    <s:String x:Key="S.Editor.Project.Close">닫기</s:String>
+    <s:String x:Key="S.Editor.Project.Exit">종료</s:String>
+    <s:String x:Key="S.Editor.Edit">편집</s:String>
+    <s:String x:Key="S.Editor.Edit.Undo">실행 취소</s:String>
+    <s:String x:Key="S.Editor.Edit.Redo">다시 실행</s:String>
+    <s:String x:Key="S.Editor.Edit.Cut">잘라내기</s:String>
+    <s:String x:Key="S.Editor.Edit.Copy">복사</s:String>
+    <s:String x:Key="S.Editor.Edit.Paste">붙여넣기</s:String>
+    <s:String x:Key="S.Editor.Edit.Remove">제거</s:String>
+    <s:String x:Key="S.Editor.Edit.Content.Text">텍스트 편집</s:String>
+    <s:String x:Key="S.Editor.Edit.Content.Drawing">그리기 편집</s:String>
+
+    <s:String x:Key="S.Editor.Canvas">캔버스</s:String>
+    <s:String x:Key="S.Editor.Canvas.Resize">크기 조정...</s:String>
+    <s:String x:Key="S.Editor.Canvas.Crop">자르기...</s:String>
+    <s:String x:Key="S.Editor.Canvas.Trim">트림...</s:String>
+
+    <s:String x:Key="S.Editor.Timeline">타임라인</s:String>
+    <s:String x:Key="S.Editor.Timeline.Split">분할</s:String>
+    <s:String x:Key="S.Editor.Timeline.Delete">선택 영역 삭제</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimStart">시작 부분 자르기</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEnd">끝 부분 자르기</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty">빈 구간 자르기...</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.Start">시작</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.StartEnd">시작과 끝</s:String>
+    <s:String x:Key="S.Editor.Timeline.TrimEmpty.End">끝</s:String>
+    <s:String x:Key="S.Editor.Timeline.SetLength">길이 설정...</s:String>
+    <s:String x:Key="S.Editor.Timeline.OptimizeForLoop">루프용 최적화...</s:String>
+    <s:String x:Key="S.Editor.Timeline.Automatic">자동 길이</s:String>
+    <s:String x:Key="S.Editor.Timeline.TimeScroll">시간 스크롤</s:String>
+
+    <s:String x:Key="S.Editor.Insert">삽입</s:String>
+    <s:String x:Key="S.Editor.Insert.Screen">화면 녹화</s:String>
+    <s:String x:Key="S.Editor.Insert.Sound">소리 녹화</s:String>
+    <s:String x:Key="S.Editor.Insert.Media">미디어</s:String>
+    <s:String x:Key="S.Editor.Insert.Text">텍스트</s:String>
+    <s:String x:Key="S.Editor.Insert.Shape">도형</s:String>
+    <s:String x:Key="S.Editor.Insert.Drawing">그리기</s:String>
+    <s:String x:Key="S.Editor.Insert.Progress">진행 표시기</s:String>
+    <s:String x:Key="S.Editor.Insert.Pixelation">픽셀화</s:String>
+    <s:String x:Key="S.Editor.Insert.Brightness">밝기</s:String>
+    <s:String x:Key="S.Editor.Insert.Blur">흐림</s:String>
+    <s:String x:Key="S.Editor.Insert.Zoom">확대</s:String>
+    <s:String x:Key="S.Editor.Insert.EmptyTrack">빈 트랙</s:String>
+
+    <s:String x:Key="S.Editor.Segment.TrimStart">세그먼트 시작 자르기</s:String>
+    <s:String x:Key="S.Editor.Segment.Split">세그먼트 분할</s:String>
+    <s:String x:Key="S.Editor.Segment.TrimEnd">세그먼트 끝 자르기</s:String>
+    <s:String x:Key="S.Editor.Segment.Properties">세그먼트 속성</s:String>
+
+    <s:String x:Key="S.Editor.More">더 보기</s:String>
+    <s:String x:Key="S.Editor.More.Help">도움말</s:String>
+    <s:String x:Key="S.Editor.More.Feedback">피드백</s:String>
+    <s:String x:Key="S.Editor.More.Settings">설정</s:String>
+
+    <!--Windows • Editor > Sections-->
+    <s:String x:Key="S.Editor.Sections.Timing">타이밍</s:String>
+    <s:String x:Key="S.Editor.Sections.Timing.Start">시작</s:String>
+    <s:String x:Key="S.Editor.Sections.Timing.StartOffset">시작 오프셋</s:String>
+    <s:String x:Key="S.Editor.Sections.Timing.End">끝</s:String>
+    <s:String x:Key="S.Editor.Sections.Timing.EndOffset">끝 오프셋</s:String>
+    <s:String x:Key="S.Editor.Sections.Timing.Speed">속도</s:String>
+    <s:String x:Key="S.Editor.Sections.Timing.Length">길이</s:String>
+    <s:String x:Key="S.Editor.Sections.Dimensions">크기</s:String>
+    <s:String x:Key="S.Editor.Sections.Appearance">모양</s:String>
+    <s:String x:Key="S.Editor.Sections.Appearance.Opacity">불투명도</s:String>
+    <s:String x:Key="S.Editor.Sections.Miscellaneous">기타</s:String>
+    <s:String x:Key="S.Editor.Sections.Keys">키</s:String>
+    <s:String x:Key="S.Editor.Sections.Keys.EditAliases">키 별칭 편집</s:String>
+    <s:String x:Key="S.Editor.Sections.Keys.EditTranslations">키 번역 편집</s:String>
+    <s:String x:Key="S.Editor.Sections.Sound">사운드</s:String>
+    <s:String x:Key="S.Editor.Sections.Sound.Device">장치 이름</s:String>
+    <s:String x:Key="S.Editor.Sections.Sound.Channels">채널</s:String>
+    <s:String x:Key="S.Editor.Sections.Sound.SampleRate">샘플 레이트</s:String>
+    <s:String x:Key="S.Editor.Sections.Progress">진행</s:String>
+    <s:String x:Key="S.Editor.Sections.Shape.Thickness">두께</s:String>
+    <s:String x:Key="S.Editor.Sections.Effects">효과</s:String>
+    <s:String x:Key="S.Editor.Sections.Effects.Add">효과 추가</s:String>
+
+    <!--Windows • Editor > Timeline-->
+    <s:String x:Key="S.Editor.Timeline.NoTracks">이 프로젝트에 트랙이 없습니다</s:String>
+    <s:String x:Key="S.Editor.Timeline.Locked">잠김</s:String>
+    <s:String x:Key="S.Editor.Timeline.ScrollMode">타임라인 스크롤 모드 전환</s:String>
+    <s:String x:Key="S.Editor.Timeline.ZoomOut">축소</s:String>
+    <s:String x:Key="S.Editor.Timeline.SelectionStart">선택 시작</s:String>
+    <s:String x:Key="S.Editor.Timeline.SelectionEnd">선택 끝</s:String>
+    <s:String x:Key="S.Editor.Timeline.ExpandStart">세그먼트 시작으로 확장하거나 이동 (Ctrl + 클릭)</s:String>
+    <s:String x:Key="S.Editor.Timeline.ExpandEnd">세그먼트 끝으로 확장하거나 이동 (Ctrl + 클릭)</s:String>
+    <s:String x:Key="S.Editor.Timeline.DragStart">드래그하여 속도 변경 또는 시작 트림 (Shift 유지)</s:String>
+    <s:String x:Key="S.Editor.Timeline.DragEnd">드래그하여 속도 변경 또는 끝 트림 (Shift 유지)</s:String>
+
+    <!--Windows • Feedback-->
+    <s:String x:Key="S.Feedback.Header">피드백</s:String>
+    <s:String x:Key="S.Feedback.WhatsSent">무엇이 전송되나요?</s:String>
+    <s:String x:Key="S.Feedback.ExportZip">zip으로 내보내기</s:String>
+    <s:String x:Key="S.Feedback.ExportZip.Info">피드백을 Zip으로 내보내기</s:String>
+    <s:String x:Key="S.Feedback.ExportZip.File">Zip 파일</s:String>
+    <s:String x:Key="S.Feedback.Title">제목</s:String>
+    <s:String x:Key="S.Feedback.Title.Info">간단한 설명...</s:String>
+    <s:String x:Key="S.Feedback.Name">이름</s:String>
+    <s:String x:Key="S.Feedback.Name.Info">귀하의 이름</s:String>
+    <s:String x:Key="S.Feedback.Type">피드백 유형</s:String>
+    <s:String x:Key="S.Feedback.Type.Bug">버그</s:String>
+    <s:String x:Key="S.Feedback.Type.Suggestion">제안</s:String>
+    <s:String x:Key="S.Feedback.Type.Both">버그 및 제안</s:String>
+    <s:String x:Key="S.Feedback.Type.Other">기타</s:String>
+    <s:String x:Key="S.Feedback.Description">설명</s:String>
+    <s:String x:Key="S.Feedback.Description.Info">더 자세히 설명하세요...</s:String>
+    <s:String x:Key="S.Feedback.Email">이메일</s:String>
+    <s:String x:Key="S.Feedback.Email.Info">연락용 이메일</s:String>
+    <s:String x:Key="S.Feedback.Extra">추가 세부 정보</s:String>
+    <s:String x:Key="S.Feedback.Extra.System.Info">운영 체제 버전 및 설치된 패치</s:String>
+    <s:String x:Key="S.Feedback.Extra.Application.Info">애플리케이션 버전</s:String>
+    <s:String x:Key="S.Feedback.Extra.Hardware">하드웨어</s:String>
+    <s:String x:Key="S.Feedback.Extra.Hardware.Info">프로세서, 메모리 및 그래픽 어댑터 세부 정보</s:String>
+    <s:String x:Key="S.Feedback.Extra.Screen.Info">해상도 및 배율과 같은 화면 세부 정보</s:String>
+    <s:String x:Key="S.Feedback.Extra.Sound">사운드 장치</s:String>
+    <s:String x:Key="S.Feedback.Extra.Sound.Info">마이크 및 스피커와 같은 사운드 장치 세부 정보</s:String>
+    <s:String x:Key="S.Feedback.Extra.Disks.Info">총 크기 및 사용 가능 크기와 같은 디스크 세부 정보</s:String>
+    <s:String x:Key="S.Feedback.Extra.Telemetry">수행된 단계</s:String>
+    <s:String x:Key="S.Feedback.Extra.Telemetry.Info">현재 상태로 이어진 사용자 클릭 및 앱 이벤트</s:String>
+    <s:String x:Key="S.Feedback.Extra.Error">오류</s:String>
+    <s:String x:Key="S.Feedback.Extra.Error.Info">오류에 대한 세부 정보</s:String>
+    <s:String x:Key="S.Feedback.Extra.Settings">앱 설정</s:String>
+    <s:String x:Key="S.Feedback.Extra.Settings.Local">로컬 앱 설정</s:String>
+    <s:String x:Key="S.Feedback.Extra.Settings.Info">앱의 구성</s:String>
+    <s:String x:Key="S.Feedback.Extra.PreviousErrors">오류 로그</s:String>
+    <s:String x:Key="S.Feedback.Extra.PreviousErrors.Info">이전 충돌의 오류 로그</s:String>
+    <s:String x:Key="S.Feedback.Extra.FFmpeg.Info">현재 FFmpeg 바이너리에 대한 세부 정보</s:String>
+    <s:String x:Key="S.Feedback.Attachments">첨부 파일 (최대 100 MiB, 각 25 MiB)</s:String>
+    <s:String x:Key="S.Feedback.Attachments.Add">첨부 파일 추가</s:String>
+    <s:String x:Key="S.Feedback.Attachments.Select">첨부 파일로 추가할 파일 선택</s:String>
+    <s:String x:Key="S.Feedback.Attachments.None">아직 추가된 첨부 파일 없음</s:String>
+    <s:String x:Key="S.Feedback.Attachments.Remove">첨부 파일 제거</s:String>
+
+    <!--Windows • Feedback preview-->
+    <s:String x:Key="S.FeedbackPreview.Header">피드백 미리보기</s:String>
+    <s:String x:Key="S.FeedbackPreview.System">시스템</s:String>
+    <s:String x:Key="S.FeedbackPreview.System.Name">이름</s:String>
+    <s:String x:Key="S.FeedbackPreview.System.Build">빌드</s:String>
+    <s:String x:Key="S.FeedbackPreview.System.Architecture">아키텍처</s:String>
+    <s:String x:Key="S.FeedbackPreview.System.UserName">사용자 이름</s:String>
+    <s:String x:Key="S.FeedbackPreview.System.MachineName">컴퓨터 이름</s:String>
+    <s:String x:Key="S.FeedbackPreview.Application">애플리케이션</s:String>
+    <s:String x:Key="S.FeedbackPreview.Application.Version">버전</s:String>
+    <s:String x:Key="S.FeedbackPreview.Application.Source">소스</s:String>
+    <s:String x:Key="S.FeedbackPreview.Application.Variant">변형</s:String>
+    <s:String x:Key="S.FeedbackPreview.Application.Startup">시작 위치</s:String>
+    <s:String x:Key="S.FeedbackPreview.Application.Date">날짜</s:String>
+    <s:String x:Key="S.FeedbackPreview.Application.Running">실행 시간</s:String>
+    <s:String x:Key="S.FeedbackPreview.Processor">프로세서</s:String>
+    <s:String x:Key="S.FeedbackPreview.Processor.Model">모델</s:String>
+    <s:String x:Key="S.FeedbackPreview.Processor.Frequency">주파수</s:String>
+    <s:String x:Key="S.FeedbackPreview.Processor.CoresThreads">코어/스레드</s:String>
+    <s:String x:Key="S.FeedbackPreview.Processor.Architecture">아키텍처</s:String>
+    <s:String x:Key="S.FeedbackPreview.Memory">메모리</s:String>
+    <s:String x:Key="S.FeedbackPreview.Memory.Total">총</s:String>
+    <s:String x:Key="S.FeedbackPreview.Memory.Available">사용 가능</s:String>
+    <s:String x:Key="S.FeedbackPreview.Memory.Used">사용 중</s:String>
+    <s:String x:Key="S.FeedbackPreview.Graphics">그래픽 어댑터</s:String>
+    <s:String x:Key="S.FeedbackPreview.Graphics.Refresh">새로고침 빈도</s:String>
+    <s:String x:Key="S.FeedbackPreview.Graphics.Driver">드라이버 버전</s:String>
+    <s:String x:Key="S.FeedbackPreview.Screens">화면</s:String>
+    <s:String x:Key="S.FeedbackPreview.Screens.Name">친숙한 이름</s:String>
+    <s:String x:Key="S.FeedbackPreview.Screens.Bounds">경계</s:String>
+    <s:String x:Key="S.FeedbackPreview.Screens.WorkingArea">작업 영역</s:String>
+    <s:String x:Key="S.FeedbackPreview.Screens.Scale">DPI/배율</s:String>
+    <s:String x:Key="S.FeedbackPreview.Screens.Adapter">그래픽 어댑터</s:String>
+    <s:String x:Key="S.FeedbackPreview.Sound.Name">친숙한 이름</s:String>
+    <s:String x:Key="S.FeedbackPreview.Sound.Kind">종류</s:String>
+    <s:String x:Key="S.FeedbackPreview.Sound.IsDefault">기본값?</s:String>
+    <s:String x:Key="S.FeedbackPreview.Sound.IsEnabled">활성화됨?</s:String>
+    <s:String x:Key="S.FeedbackPreview.Sound.Channels">채널</s:String>
+    <s:String x:Key="S.FeedbackPreview.Sound.SampleRate">샘플 레이트</s:String>
+    <s:String x:Key="S.FeedbackPreview.Disks">디스크</s:String>
+    <s:String x:Key="S.FeedbackPreview.Disks.Root">루트</s:String>
+    <s:String x:Key="S.FeedbackPreview.Disks.Total">총</s:String>
+    <s:String x:Key="S.FeedbackPreview.Disks.Free">여유</s:String>
+    <s:String x:Key="S.FeedbackPreview.Disks.Format">형식</s:String>
+    <s:String x:Key="S.FeedbackPreview.Disks.Type">유형</s:String>
+    <s:String x:Key="S.FeedbackPreview.Disks.Ready">준비됨?</s:String>
+    <s:String x:Key="S.FeedbackPreview.FFmpeg.Header">헤더</s:String>
+    <s:String x:Key="S.FeedbackPreview.FFmpeg.Version">버전</s:String>
+    <s:String x:Key="S.FeedbackPreview.FFmpeg.Older">(이전)</s:String>
+    <s:String x:Key="S.FeedbackPreview.FFmpeg.Unsupported">(지원되지 않음)</s:String>
+    <s:String x:Key="S.FeedbackPreview.FFmpeg.Location">위치</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.When">언제</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Category">카테고리</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Location">위치</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Trigger">트리거</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Input">입력</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.UserInitiated">사용자 시작?</s:String>
+    <s:String x:Key="S.FeedbackPreview.Telemetry.Description">설명</s:String>
+
+    <!--Project Types -->
+    <s:String x:Key="S.ProjectTypes.Recording">녹화</s:String>
+    <s:String x:Key="S.ProjectTypes.Project">프로젝트</s:String>
+    <s:String x:Key="S.ProjectTypes.RecordingOld">녹화 (이전)</s:String>
+
+    <!--Capture-->
+    <s:String x:Key="S.Capture.Record">녹화</s:String>
+    <s:String x:Key="S.Capture.Snap">스냅</s:String>
+    <s:String x:Key="S.Capture.Pause">일시정지</s:String>
+    <s:String x:Key="S.Capture.Continue">계속</s:String>
+    <s:String x:Key="S.Capture.Stop">중지</s:String>
+    <s:String x:Key="S.Capture.Discard">버리기</s:String>
+    <s:String x:Key="S.Capture.Time">캡처 시간</s:String>
+
+    <!--Timer-->
+    <s:String x:Key="S.Timer.Elapsed">경과된 캡처 시간</s:String>
+    <s:String x:Key="S.Timer.Total">총 프레임 수:</s:String>
+    <s:String x:Key="S.Timer.Manual">수동 캡처:</s:String>
+    <s:String x:Key="S.Timer.Paused">캡처가 일시정지되었습니다</s:String>
+    <s:String x:Key="S.Timer.Imprecise">Your computer does not support an accurate capture mode,&#10;which means that the target frame rate may never be achieved</s:String>
+
+    <!--Audio-->
+    <s:String x:Key="S.Audio.Toggle.Microphone.Info">마이크에서 오디오 캡처 전환</s:String>
+    <s:String x:Key="S.Audio.Toggle.Microphone.Enabled">마이크 캡처 활성화됨</s:String>
+    <s:String x:Key="S.Audio.Toggle.Microphone.Disabled">마이크 캡처 비활성화됨</s:String>
+    <s:String x:Key="S.Audio.Toggle.Speaker.Info">스피커에서 오디오 캡처 전환</s:String>
+    <s:String x:Key="S.Audio.Toggle.Speaker.Enabled">스피커 캡처 활성화됨</s:String>
+    <s:String x:Key="S.Audio.Toggle.Speaker.Disabled">스피커 캡처 비활성화됨</s:String>
+
+    <!--Remember choices-->
+    <s:String x:Key="S.RememberChoice">내 선택 기억하기</s:String>
+    <s:String x:Key="S.RememberChoice.Editor.Info">나중에 이 기본 설정을 변경하려면 설정 > 편집기를 방문하세요</s:String>
+    <s:String x:Key="S.RememberChoice.Application.Info">나중에 이 설정을 변경하려면 설정 > 애플리케이션으로 이동하세요</s:String>
+
+    <!--Playback-->
+    <s:String x:Key="S.Playback.Play">재생</s:String>
+    <s:String x:Key="S.Playback.Pause">일시정지</s:String>
+    <s:String x:Key="S.Playback.Paused">일시정지됨</s:String>
+    <s:String x:Key="S.Playback.SkipBackward">뒤로 건너뛰기</s:String>
+    <s:String x:Key="S.Playback.SkipFrameBackward">이전 프레임</s:String>
+    <s:String x:Key="S.Playback.SkipForward">앞으로 건너뛰기</s:String>
+    <s:String x:Key="S.Playback.SkipFrameForward">다음 프레임</s:String>
+    <s:String x:Key="S.Playback.CurrentTime">현재 시간</s:String>
+    <s:String x:Key="S.Playback.TimeLeft">남은 시간</s:String>
+    <s:String x:Key="S.Playback.RepeatOn">반복 켜짐</s:String>
+    <s:String x:Key="S.Playback.RepeatOff">반복 꺼짐</s:String>
+    <s:String x:Key="S.Playback.Volume">볼륨</s:String>
+    <s:String x:Key="S.Playback.ToggleVolume">음소거/해제</s:String>
+    <s:String x:Key="S.Playback.Statistics">프레임 수, 평균 프레임레이트 및 평균 프레임 표시 시간</s:String>
+
+    <!--Positioning-->
+    <s:String x:Key="S.Positioning.Left">Left</s:String>
+    <s:String x:Key="S.Positioning.Top">Top</s:String>
+    <s:String x:Key="S.Positioning.Right">오른쪽</s:String>
+    <s:String x:Key="S.Positioning.Bottom">아래</s:String>
+    <s:String x:Key="S.Positioning.TopLeft">왼쪽 위 모서리</s:String>
+    <s:String x:Key="S.Positioning.TopCenter">위쪽 가운데</s:String>
+    <s:String x:Key="S.Positioning.TopRight">오른쪽 위 모서리</s:String>
+    <s:String x:Key="S.Positioning.MiddleLeft">왼쪽 가운데</s:String>
+    <s:String x:Key="S.Positioning.Center">화면 가운데</s:String>
+    <s:String x:Key="S.Positioning.MiddleRight">오른쪽 가운데</s:String>
+    <s:String x:Key="S.Positioning.BottomLeft">왼쪽 아래 모서리</s:String>
+    <s:String x:Key="S.Positioning.BottomCenter">아래쪽 가운데</s:String>
+    <s:String x:Key="S.Positioning.BottomRight">오른쪽 아래 모서리</s:String>
+    <s:String x:Key="S.Positioning.Width">너비</s:String>
+    <s:String x:Key="S.Positioning.Height">높이</s:String>
+    <s:String x:Key="S.Positioning.MinWidth">최소 너비</s:String>
+    <s:String x:Key="S.Positioning.MinHeight">최소 높이</s:String>
+    <s:String x:Key="S.Positioning.Angle">각도</s:String>
+
+    <!--Timing-->
+    <s:String x:Key="S.Timing.Start">시작</s:String>
+    <s:String x:Key="S.Timing.End">End</s:String>
+
+    <!--States-->
+    <s:String x:Key="S.Field.Empty">(비어 있음)</s:String>
+    <s:String x:Key="S.Field.Space">(공백)</s:String>
+    <s:String x:Key="S.Field.Optional">(선택 사항)</s:String>
+    <s:String x:Key="S.Field.Minimum">(최소)</s:String>
+    <s:String x:Key="S.Field.Key">Click to set keyboard focus, then press the desired keys and modifiers.&#10;Some keys combinations are not allowed.</s:String>
+    <s:String x:Key="S.Field.Key.Remove">키 조합 제거</s:String>
+
+    <!--Loading-->
+    <s:String x:Key="S.State.Loading">불러오는 중...</s:String>
+    <s:String x:Key="S.State.Processing">처리 중...</s:String>
+    <s:String x:Key="S.State.Saving">저장 중...</s:String>
+    <s:String x:Key="S.State.Discarding">버리는 중...</s:String>
+    <s:String x:Key="S.State.Discarded">버려짐</s:String>
+    <s:String x:Key="S.State.ChangingDrive">드라이브 변경 중...</s:String>
+    <s:String x:Key="S.State.MovingFiles">파일 이동 중...</s:String>
+    <s:String x:Key="S.State.Done">Done</s:String>
+    <s:String x:Key="S.State.Copied">복사됨</s:String>
+    <s:String x:Key="S.State.Cut">Cut</s:String>
+    <s:String x:Key="S.State.Pasted">붙여넣음</s:String>
+    <s:String x:Key="S.State.Saved">저장됨</s:String>
+    <s:String x:Key="S.State.Redone">다시 실행됨</s:String>
+    <s:String x:Key="S.State.Undone">실행 취소됨</s:String>
+    <s:String x:Key="S.State.SavedToCache">캐시에 저장됨</s:String>
+
+    <!--Track-->
+    <s:String x:Key="S.Track.Hidden">숨김</s:String>
+    <s:String x:Key="S.Track.Muted">음소거됨</s:String>
+    <s:String x:Key="S.Track.Locked">잠김</s:String>
+    <s:String x:Key="S.Track.Visibility.Info">트랙 가시성 전환</s:String>
+    <s:String x:Key="S.Track.Visibility.Hide">Hide</s:String>
+    <s:String x:Key="S.Track.Visibility.Show">Show</s:String>
+    <s:String x:Key="S.Track.Audio.Info">트랙 오디오 전환</s:String>
+    <s:String x:Key="S.Track.Audio.Mute">Mute</s:String>
+    <s:String x:Key="S.Track.Audio.Unmute">음소거 해제</s:String>
+    <s:String x:Key="S.Track.Effects.Info">트랙 효과 전환</s:String>
+    <s:String x:Key="S.Track.Effects.Enabled">효과 활성화</s:String>
+    <s:String x:Key="S.Track.Effects.Disable">효과 비활성화</s:String>
+    <s:String x:Key="S.Track.Lock.Info">트랙 잠금 전환</s:String>
+    <s:String x:Key="S.Track.Lock.Enable">Lock</s:String>
+    <s:String x:Key="S.Track.Lock.Disable">잠금 해제</s:String>
+    <s:String x:Key="S.Track.Name">Name</s:String>
+    <s:String x:Key="S.Track.Name.Info">트랙 이름을 편집하려면 더블 클릭</s:String>
+    <s:String x:Key="S.Track.Properties.Info">트랙 속성</s:String>
+
+    <!--Status-->
+    <s:String x:Key="S.Status.On">On</s:String>
+    <s:String x:Key="S.Status.Off">Off</s:String>
+
+    <!--Drag and drop-->
+    <s:String x:Key="S.DragDrop.Info">여기에 미디어 파일 또는 프로젝트를 드롭할 수 있습니다</s:String>
+    <s:String x:Key="S.DragDrop.Insert">파일을 삽입하려면 드롭하세요</s:String>
+    <s:String x:Key="S.DragDrop.Open">파일을 열려면 드롭하세요</s:String>
+    <s:String x:Key="S.DragDrop.Open.Project">프로젝트를 열려면 드롭하세요</s:String>
+    <s:String x:Key="S.DragDrop.Folder.Insert">폴더에서 파일을 삽입하려면 드롭하세요</s:String>
+    <s:String x:Key="S.DragDrop.Folder.Open">폴더에서 파일을 열려면 드롭하세요</s:String>
+    <s:String x:Key="S.DragDrop.Both.Insert">파일과 폴더의 파일을 함께 삽입하려면 드롭하세요</s:String>
+    <s:String x:Key="S.DragDrop.Both.Open">파일과 폴더의 파일을 함께 열려면 드롭하세요</s:String>
+    <s:String x:Key="S.DragDrop.Unsupported">지원되지 않는 파일</s:String>
+    <s:String x:Key="S.DragDrop.Ignored">일부 지원되지 않는 파일은 무시됩니다</s:String>
+
+    <!--Keys-->
+    <s:String x:Key="S.Keys.Backspace">백스페이스</s:String>
+    <s:String x:Key="S.Keys.Tab">Tab</s:String>
+    <s:String x:Key="S.Keys.Return">Enter</s:String>
+    <s:String x:Key="S.Keys.PauseBreak">일시정지/중단</s:String>
+    <s:String x:Key="S.Keys.CapsLock">Caps Lock</s:String>
+    <s:String x:Key="S.Keys.Escape">Esc</s:String>
+    <s:String x:Key="S.Keys.Space">스페이스</s:String>
+    <s:String x:Key="S.Keys.PageUp">Page Up</s:String>
+    <s:String x:Key="S.Keys.PageDown">Page Down</s:String>
+    <s:String x:Key="S.Keys.Home">Home</s:String>
+    <s:String x:Key="S.Keys.End">End</s:String>
+    <s:String x:Key="S.Keys.Left">왼쪽 화살표</s:String>
+    <s:String x:Key="S.Keys.Up">위 화살표</s:String>
+    <s:String x:Key="S.Keys.Right">오른쪽 화살표</s:String>
+    <s:String x:Key="S.Keys.Down">아래 화살표</s:String>
+    <s:String x:Key="S.Keys.PrintScreen">Print Screen</s:String>
+    <s:String x:Key="S.Keys.Insert">Insert</s:String>
+    <s:String x:Key="S.Keys.Delete">Delete</s:String>
+    <s:String x:Key="S.Keys.NumLock">Num Lock</s:String>
+    <s:String x:Key="S.Keys.ScrollLock">Scroll Lock</s:String>
+    <s:String x:Key="S.Keys.Shift">Shift</s:String>
+    <s:String x:Key="S.Keys.LeftShift">왼쪽 Shift</s:String>
+    <s:String x:Key="S.Keys.RightShift">오른쪽 Shift</s:String>
+    <s:String x:Key="S.Keys.Alt">Alt</s:String>
+    <s:String x:Key="S.Keys.LeftAlt">왼쪽 Alt</s:String>
+    <s:String x:Key="S.Keys.RightAlt">오른쪽 Alt</s:String>
+    <s:String x:Key="S.Keys.Ctrl">Control</s:String>
+    <s:String x:Key="S.Keys.LeftCtrl">왼쪽 Ctrl</s:String>
+    <s:String x:Key="S.Keys.RightCtrl">오른쪽 Ctrl</s:String>
+    <s:String x:Key="S.Keys.Windows">Windows</s:String>
+    <s:String x:Key="S.Keys.LeftWindows">왼쪽 Windows</s:String>
+    <s:String x:Key="S.Keys.RightWindows">오른쪽 Windows</s:String>
+    <s:String x:Key="S.Keys.NextTrack">다음 트랙</s:String>
+    <s:String x:Key="S.Keys.PreviousTrack">이전 트랙</s:String>
+    <s:String x:Key="S.Keys.PlayPause">재생/일시정지</s:String>
+    <s:String x:Key="S.Keys.Stop">Stop</s:String>
+
+    <!--Mouse buttons-->
+    <s:String x:Key="S.Mouse.Right">우클릭</s:String>
+
+    <!--Units-->
+    <s:String x:Key="S.Units.Points.Short">pt</s:String>
+    <s:String x:Key="S.Units.Second.Short">s</s:String>
+    <s:String x:Key="S.Units.Millisecond.Short">ms</s:String>
+    <s:String x:Key="S.Units.Pixels.Short">px</s:String>
+    <s:String x:Key="S.Units.FramesPerSecond.Short">fps</s:String>
+
+    <!--Formats-->
+    <s:String x:Key="S.Formats.Type.Animated">애니메이션 이미지</s:String>
+    <s:String x:Key="S.Formats.Type.Video">비디오</s:String>
+    <s:String x:Key="S.Formats.Type.Audio">오디오</s:String>
+    <s:String x:Key="S.Formats.Type.Frames">프레임</s:String>
+    <s:String x:Key="S.Formats.Type.Other">기타</s:String>
+    <s:String x:Key="S.Formats.Type.All">모든 파일</s:String>
+
+    <s:String x:Key="S.Formats.Apng">Apng</s:String>
+    <s:String x:Key="S.Formats.Apng.Info">애니메이션 포터블 네트워크 그래픽</s:String>
+    <s:String x:Key="S.Formats.Gif">Gif</s:String>
+    <s:String x:Key="S.Formats.Gif.Info">그래픽 인터체인지 포맷</s:String>
+    <s:String x:Key="S.Formats.Webp">Webp</s:String>
+    <s:String x:Key="S.Formats.Webp.Info">웹 픽처</s:String>
+
+    <s:String x:Key="S.Formats.Avi">Avi</s:String>
+    <s:String x:Key="S.Formats.Avi.Info">오디오 비디오 인터리브</s:String>
+    <s:String x:Key="S.Formats.Mkv">Mkv</s:String>
+    <s:String x:Key="S.Formats.Mkv.Info">Matroska</s:String>
+    <s:String x:Key="S.Formats.Mov">Mov</s:String>
+    <s:String x:Key="S.Formats.Mov.Info">QuickTime 파일 형식</s:String>
+    <s:String x:Key="S.Formats.Mp4">Mp4</s:String>
+    <s:String x:Key="S.Formats.Mp4.Info">Mpeg-4</s:String>
+    <s:String x:Key="S.Formats.Webm">Webm</s:String>
+    <s:String x:Key="S.Formats.Webm.Info">웹 무비</s:String>
+
+    <s:String x:Key="S.Formats.Aac">Aac</s:String>
+    <s:String x:Key="S.Formats.Aac.Info">고급 오디오 코딩</s:String>
+    <s:String x:Key="S.Formats.Ac3">Ac3</s:String>
+    <s:String x:Key="S.Formats.Ac3.Info">오디오 코덱 3</s:String>
+    <s:String x:Key="S.Formats.Aiff">Aiff</s:String>
+    <s:String x:Key="S.Formats.Aiff.Info">오디오 인터체인지 파일 형식</s:String>
+    <s:String x:Key="S.Formats.Alac">Alac</s:String>
+    <s:String x:Key="S.Formats.Alac.Info">Apple 무손실 오디오 코덱</s:String>
+    <s:String x:Key="S.Formats.Amr">Amr</s:String>
+    <s:String x:Key="S.Formats.Amr.Info">적응형 다중 속도</s:String>
+    <s:String x:Key="S.Formats.Flac">Flac</s:String>
+    <s:String x:Key="S.Formats.Flac.Info">무료 무손실 오디오 코덱</s:String>
+    <s:String x:Key="S.Formats.Mp3">Mp3</s:String>
+    <s:String x:Key="S.Formats.Mp3.Info">MPEG-1/2 오디오 레이어 III</s:String>
+    <s:String x:Key="S.Formats.Ogg">Ogg</s:String>
+    <s:String x:Key="S.Formats.Ogg.Info">Ogg Vorbis 컨테이너</s:String>
+    <s:String x:Key="S.Formats.Opus">Opus</s:String>
+    <s:String x:Key="S.Formats.Opus.Info">Opus</s:String>
+    <s:String x:Key="S.Formats.Wav">Wav</s:String>
+    <s:String x:Key="S.Formats.Wav.Info">웨이브폼 오디오 파일 형식</s:String>
+    <s:String x:Key="S.Formats.Wma">Wma</s:String>
+    <s:String x:Key="S.Formats.Wma.Info">Windows 미디어 오디오</s:String>
+
+    <s:String x:Key="S.Formats.Avif">AVIF</s:String>
+    <s:String x:Key="S.Formats.Avif.Info">AV1 압축 이미지 (HEIF/AV1)</s:String>
+    <s:String x:Key="S.Formats.Bmp">Bmp</s:String>
+    <s:String x:Key="S.Formats.Bmp.Info">비트맵</s:String>
+    <s:String x:Key="S.Formats.Heic">HEIC</s:String>
+    <s:String x:Key="S.Formats.Heic.Info">고효율 이미지 (HEIF/HEVC)</s:String>
+    <s:String x:Key="S.Formats.Jpeg">Jpeg</s:String>
+    <s:String x:Key="S.Formats.Jpeg.Info">Joint Photographic Experts Group</s:String>
+    <s:String x:Key="S.Formats.Png">Png</s:String>
+    <s:String x:Key="S.Formats.Png.Info">포터블 네트워크 그래픽</s:String>
+    <s:String x:Key="S.Formats.Images.Zip">압축된 이미지</s:String>
+
+    <s:String x:Key="S.Formats.Project">프로젝트</s:String>
+    <s:String x:Key="S.Formats.Project.Info">N-Studio 프로젝트</s:String>
+    <s:String x:Key="S.Formats.LegacyProject">ScreenToGif 프로젝트</s:String>
+    <s:String x:Key="S.Formats.LegacyProject.Info">ScreenToGif에서 사용하는 프로젝트 파일</s:String>
+    <s:String x:Key="S.Formats.Psd">Psd</s:String>
+    <s:String x:Key="S.Formats.Psd.Info">Photoshop 파일</s:String>
+
+    <!--Objects-->
+    <s:String x:Key="S.Project">프로젝트</s:String>
+    <s:String x:Key="S.Track">트랙</s:String>
+    <s:String x:Key="S.Segment">세그먼트</s:String>
+
+    <!--Segments-->
+    <s:String x:Key="S.Segments.Frames">프레임</s:String>
+    <s:String x:Key="S.Segments.MouseCursor">마우스 커서</s:String>
+    <s:String x:Key="S.Segments.KeyPresses">키 입력</s:String>
+    <s:String x:Key="S.Segments.Text">Text</s:String>
+    <s:String x:Key="S.Segments.Progress">진행</s:String>
+    <s:String x:Key="S.Segments.Image">이미지</s:String>
+    <s:String x:Key="S.Segments.AnimatedImage">애니메이션 이미지</s:String>
+    <s:String x:Key="S.Segments.Video">비디오</s:String>
+    <s:String x:Key="S.Segments.LinkedVideo">링크된 비디오</s:String>
+    <s:String x:Key="S.Segments.Audio">오디오</s:String>
+    <s:String x:Key="S.Segments.MicrophoneAudio">마이크 오디오</s:String>
+    <s:String x:Key="S.Segments.SystemAudio">시스템 오디오</s:String>
+    <s:String x:Key="S.Segments.Subtitle">자막</s:String>
+    <s:String x:Key="S.Segments.Shape">도형</s:String>
+    <s:String x:Key="S.Segments.Drawing">그리기</s:String>
+    <s:String x:Key="S.Segments.Pixelation">픽셀화</s:String>
+    <s:String x:Key="S.Segments.Blur">Blur</s:String>
+    <s:String x:Key="S.Segments.Brightness">밝기</s:String>
+    <s:String x:Key="S.Segments.Unfocus">초점 해제</s:String>
+    <s:String x:Key="S.Segments.Zoom">Zoom</s:String>
+    <s:String x:Key="S.Segments.NewTrack">새 트랙</s:String>
+
+    <!--Settings-->
+    <s:String x:Key="S.Settings.Title">N-Studio • 설정</s:String>
+    <s:String x:Key="S.Settings.Pages.Application">애플리케이션</s:String>
+    <s:String x:Key="S.Settings.Pages.ScreenRecorder">화면 녹화기</s:String>
+    <s:String x:Key="S.Settings.Pages.SoundRecorder">소리 녹화기</s:String>
+    <s:String x:Key="S.Settings.Pages.RegionShare">영역 공유</s:String>
+    <s:String x:Key="S.Settings.Pages.DefaultStyles">기본 스타일</s:String>
+    <s:String x:Key="S.Settings.Pages.DefaultEffects">기본 효과</s:String>
+    <s:String x:Key="S.Settings.Pages.Editor">편집기</s:String>
+    <s:String x:Key="S.Settings.Pages.Exporter">내보내기</s:String>
+    <s:String x:Key="S.Settings.Pages.Storage">저장소</s:String>
+    <s:String x:Key="S.Settings.Pages.Plugins">플러그인</s:String>
+    <s:String x:Key="S.Settings.Pages.Update">업데이트</s:String>
+    <s:String x:Key="S.Settings.Pages.About">정보</s:String>
+
+    <!--Settings • Sections-->
+    <s:String x:Key="S.Settings.Sections.Interface">인터페이스</s:String>
+    <s:String x:Key="S.Settings.Sections.Behavior">동작</s:String>
+    <s:String x:Key="S.Settings.Sections.InterfaceBehavior">인터페이스 및 동작</s:String>
+    <s:String x:Key="S.Settings.Sections.Shortcuts">바로 가기</s:String>
+    <s:String x:Key="S.Settings.Sections.Selection">선택</s:String>
+    <s:String x:Key="S.Settings.Sections.Capture">캡처</s:String>
+    <s:String x:Key="S.Settings.Sections.Guidelines">가이드라인</s:String>
+    <s:String x:Key="S.Settings.Sections.TemporaryFiles">임시 파일</s:String>
+    <s:String x:Key="S.Settings.Sections.Cleanup">정리</s:String>
+    <s:String x:Key="S.Settings.Sections.MoreOptions">추가 옵션</s:String>
+    <s:String x:Key="S.Settings.Sections.Styles">스타일</s:String>
+
+    <!--Settings • Application-->
+    <s:String x:Key="S.Settings.Application.Language">언어</s:String>
+    <s:String x:Key="S.Settings.Application.Language.Auto">자동 감지</s:String>
+    <s:String x:Key="S.Settings.Application.Language.Imported">가져온 로컬라이제이션</s:String>
+    <s:String x:Key="S.Settings.Application.Language.Detected">감지된 언어</s:String>
+    <s:String x:Key="S.Settings.Application.Language.Authors">작성자</s:String>
+    <s:String x:Key="S.Settings.Application.Language.LastUpdated">마지막 업데이트</s:String>
+    <s:String x:Key="S.Settings.Application.Language.Custom">사용자 지정 번역</s:String>
+    <s:String x:Key="S.Settings.Application.Language.Guidelines">번역 가이드라인</s:String>
+    <s:String x:Key="S.Settings.Application.Language.Import.Info">테스트할 로컬라이제이션 리소스 가져오기</s:String>
+    <s:String x:Key="S.Settings.Application.Theme">테마</s:String>
+    <s:String x:Key="S.Settings.Application.Theme.Light">밝게</s:String>
+    <s:String x:Key="S.Settings.Application.Theme.Dark">어둡게</s:String>
+    <s:String x:Key="S.Settings.Application.Theme.System">시스템 따르기</s:String>
+    <s:String x:Key="S.Settings.Application.Transparency">투명 효과</s:String>
+    <s:String x:Key="S.Settings.Application.Transparency.Info">지원되는 경우 창이 반투명하게 표시됩니다</s:String>
+    <s:String x:Key="S.Settings.Application.Tray">시스템 트레이 아이콘</s:String>
+    <s:String x:Key="S.Settings.Application.Tray.Info">시스템 트레이에 표시되는 앱 아이콘을 제어합니다</s:String>
+    <s:String x:Key="S.Settings.Application.Tray.Show">시스템 트레이(알림 영역)에 앱 표시</s:String>
+    <s:String x:Key="S.Settings.Application.Tray.KeepOpen">모든 창이 닫혀도 앱을 열어 두기</s:String>
+    <s:String x:Key="S.Settings.Application.Tray.LeftClick">왼쪽 클릭</s:String>
+    <s:String x:Key="S.Settings.Application.Tray.LeftDoubleClick">왼쪽 클릭 (x2)</s:String>
+    <s:String x:Key="S.Settings.Application.Tray.MiddleClick">가운데 클릭</s:String>
+
+    <s:String x:Key="S.Settings.Application.Tray.Interactions.Nothing">없음</s:String>
+    <s:String x:Key="S.Settings.Application.Tray.Interactions.Open">열기</s:String>
+    <s:String x:Key="S.Settings.Application.Tray.Interactions.Open.None">창 없음</s:String>
+    <s:String x:Key="S.Settings.Application.Tray.Interactions.Toggle">전환</s:String>
+    <s:String x:Key="S.Settings.Application.Tray.Interactions.Minimize">최소화</s:String>
+    <s:String x:Key="S.Settings.Application.Tray.Interactions.Restore">복원</s:String>
+    <s:String x:Key="S.Settings.Application.Tray.Interactions.Window">창</s:String>
+    <s:String x:Key="S.Settings.Application.Tray.Interactions.Else">또는 다음을 엽니다</s:String>
+
+    <!--Settings • Application > Startup-->
+    <s:String x:Key="S.Settings.Application.Startup">시작</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.Info">시작 시 애플리케이션 동작을 제어합니다</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith">시작 시 열기</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.Info">애플리케이션의 시작 창</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.Welcome">환영 창</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.Welcome.Info">바로 가기가 있는 간단한 환영 화면</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.Screen">화면 녹화기</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.Screen.Info">마이크 또는 시스템 오디오와 함께 화면을 캡처합니다</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.Sound">소리 녹화기</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.Sound.Info">마이크 또는 시스템에서 오디오를 캡처합니다</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.RegionShare">영역 공유</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.RegionShare.Info">다른 앱과 공유할 화면 영역을 선택합니다</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.Editor">편집기</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.Editor.Info">콘텐츠를 만들거나 편집합니다</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.Nothing">없음</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWith.Nothing.Info">앱을 시스템 트레이에 둡니다</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWithWindows">Windows와 함께 시작</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.StartWithWindows.Info">Windows 시작 후 앱이 실행됩니다</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.AllowMultiple">다중 인스턴스 허용</s:String>
+    <s:String x:Key="S.Settings.Application.Startup.AllowMultiple.Info">제한 없이 앱을 동시에 여러 번 실행할 수 있습니다</s:String>
+
+    <!--Settings • Application > Shortcuts-->
+    <s:String x:Key="S.Settings.Application.Shortcuts.Screen.Info">화면 녹화기로 전환하거나 새 인스턴스를 엽니다</s:String>
+    <s:String x:Key="S.Settings.Application.Shortcuts.Sound.Info">소리 녹화기로 전환하거나 새 인스턴스를 엽니다</s:String>
+    <s:String x:Key="S.Settings.Application.Shortcuts.RegionShare.Info">영역 공유 도구로 전환하거나 새 인스턴스를 엽니다</s:String>
+    <s:String x:Key="S.Settings.Application.Shortcuts.Editor.Info">다른 편집기 인스턴스를 엽니다</s:String>
+    <s:String x:Key="S.Settings.Application.Shortcuts.Settings">설정</s:String>
+    <s:String x:Key="S.Settings.Application.Shortcuts.Settings.Info">설정 창을 엽니다</s:String>
+    <s:String x:Key="S.Settings.Application.Shortcuts.Exit">종료</s:String>
+    <s:String x:Key="S.Settings.Application.Shortcuts.Exit.Info">모든 창을 닫고 시스템 트레이에서 앱을 제거합니다</s:String>
+
+    <!--Settings • Application > Other-->
+    <s:String x:Key="S.Settings.Application.OpenMediaWith">파일 열기 방식</s:String>
+    <s:String x:Key="S.Settings.Application.OpenMediaWith.Info">시작 화면에 파일을 끌어다 놓거나, “다음으로 열기”를 통해 열거나, 앱 바로 가기에 파일을 끌어다 놓았을 때 어떤 항목으로 열지 선택합니다</s:String>
+    <s:String x:Key="S.Settings.Application.DisableHardwareAcc">하드웨어 가속 비활성화</s:String>
+    <s:String x:Key="S.Settings.Application.DisableHardwareAcc.Info">사용자 인터페이스가 소프트웨어 모드로 렌더링됩니다</s:String>
+    <s:String x:Key="S.Settings.Application.AskWhenExiting">앱을 닫기 전에 물어보기</s:String>
+    <s:String x:Key="S.Settings.Application.AskWhenExiting.Info">'종료' 명령을 통해</s:String>
+
+    <!--Settings • Screen Recorder-->
+    <s:String x:Key="S.Settings.ScreenRecorder.AfterRecording">녹화 후 창</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.AfterRecording.Exporter">내보내기</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.AfterRecording.Exporter.Info">자르기, 크기 조정, 트림 등 간단한 마지막 편집 도구 포함</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.AfterRecording.Editor">편집기</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.AfterRecording.Editor.Info">완전한 편집기, 레이어 삽입, 타임라인 제어 등</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.StartAfterSelection">선택 후 녹화 시작</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.StartAfterSelection.Info">화면 영역 선택 후 자동으로 녹화하여 작업 흐름을 빠르게 합니다</s:String>
+
+    <s:String x:Key="S.Settings.ScreenRecorder.Shortcuts.StartPause">시작/일시정지</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Shortcuts.StartPause.Info">녹화를 시작하거나 일시정지합니다 (수동 모드가 활성화된 경우 스냅샷 촬영)</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Shortcuts.Stop">중지</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Shortcuts.Stop.Info">녹화를 중지합니다</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Shortcuts.Discard">버리기</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Shortcuts.Discard.Info">현재 녹화를 버립니다</s:String>
+
+    <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown">카운트다운 표시</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.Info">녹화 전 지정된 시간을 기다립니다</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.WaitTime">대기 시간</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.WhenOverlapping">캡처 영역과 겹칠 때 카운트다운 강제 표시 및 UI 최소화</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.ShowCountdown.WhenOverlapping.Info">캡처 영역이 캡처 컨트롤과 겹칠 때 카운트다운을 강제 표시하고 UI를 최소화합니다</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.ShowDiscardOnRecording">녹화 중 버리기 버튼 표시</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.ShowDiscardOnRecording.Info">일반적으로 일시정지 시에만 표시됩니다</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.AskBeforeDiscarding">녹화를 버리기 전에 물어보기</s:String>
+
+    <!--Settings • Screen Recorder > Cursor Following-->
+    <s:String x:Key="S.Settings.ScreenRecorder.CursorFollowing">커서 따라가기</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.CursorFollowing.Info">캡처 영역이 마우스 커서를 따라갑니다</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.CursorFollowing.Buffer">버퍼 여백</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.CursorFollowing.Buffer.Info">자동 패닝이 시작될 때 녹화 경계로부터의 최소 거리</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.CursorFollowing.BufferHide">UI 숨김을 위한 버퍼 여백</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.CursorFollowing.BufferHide.Info">UI가 숨겨질 때 녹화 경계로부터의 최소 거리</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.CursorFollowing.SwitchShortcut">전환 바로 가기</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.CursorFollowing.SwitchShortcut.Info">커서 따라가기를 켜고 끕니다</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.CursorFollowing.ToggleTemporarily">일시적으로 바로 가기 비활성화</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.CursorFollowing.ToggleTemporarily.Info">커서 따라가기를 일시적으로 켜고 끕니다. 수정자 키만 허용됩니다</s:String>
+
+    <!--Settings • Screen Recorder > Region Selection-->
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection">영역 선택</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Remember">화면 선택 기억</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Remember.Never">안 함 (항상 물어보기)</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Remember.Size">크기만</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Remember.SizePosition">크기와 위치</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Mode">화면 선택 모드</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Mode.Region">영역</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Mode.Window">창</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Mode.Screen">화면</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.RememberMode">화면 선택 모드 기억</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.RememberMode.Info">화면 선택을 다시 사용할 때 이전에 사용한 모드를 선택합니다</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Border">영역 선택 테두리 색상</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Border.Alternate">대체 색상을 선택하려면 여기를 클릭하세요</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Dash">영역 선택 대시 길이</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Magnifier">화면 돋보기 표시</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Magnifier.Info">마우스 커서 근처에 확대된 영역이 있는 부동 창을 표시합니다</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Panning">선택 패닝 활성화</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Panning.Info">선택 후 화면 영역을 드래그할 수 있게 합니다</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Performance">화면 선택 성능 향상</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.RegionSelection.Performance.Info">화면의 정적 보기를 표시하여 화면 선택 중 지연을 줄입니다</s:String>
+
+    <!--Settings • Screen Recorder > Input/Output-->
+    <s:String x:Key="S.Settings.ScreenRecorder.Input">입력 장치 선택</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Input.Save">장치 기본 설정 저장</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Input.Save.Never">안 함</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Input.Save.State">음소거 상태만 기억</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Input.Save.StateSelection">음소거 상태와 장치 선택 기억</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Input.Default">기본 선택</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Input.Default.Mic">마이크에서 오디오 캡처 전환</s:String>
+
+    <s:String x:Key="S.Settings.ScreenRecorder.Output">출력 장치 선택</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Output.Default.System">스피커에서 오디오 캡처 전환</s:String>
+
+    <!--Settings • Screen Recorder > Capture-->
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture">캡처 모드</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Method">캡처 방법</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Method.BitBlt.Info">오래된 캡처 방법을 사용합니다. 느리고 게임 캡처가 안 될 수 있지만&#10;더 안정적입니다</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Method.DirectX.Info">Desktop Duplication API 캡처 방법을 사용합니다. 더 빠르고&#10;전체 화면 게임을 캡처할 수 있습니다</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Compression">압축</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Compression.Slowest">가장 느림</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Compression.Slowest.Info">처리 시간이 더 걸려도 가능한 한 작게</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Compression.Optimal">최적</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Compression.Optimal.Info">더 빠르지만 압축이 덜 최적일 수 있음</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Compression.Fastest">가장 빠름</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Compression.Fastest.Info">더 빠르지만 압축이 덜 최적일 수 있음</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Compression.None">압축 없음</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Compression.None.Info">프레임 캡처 중 압축을 수행하지 않습니다</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.CacheSize">메모리 캐시 크기</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.CacheSize.Info">이 크기에 도달하면 데이터가 디스크로 플러시/기록됩니다</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.MouseEvents">마우스 커서 이벤트 캡처</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.MouseEvents.Info">이벤트가 나중에 작업할 수 있는 별도 트랙에 저장됩니다</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.KeyboardEvents">키보드 이벤트 캡처</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.KeyboardEvents.Info">이벤트가 나중에 작업할 수 있는 별도 트랙에 저장됩니다</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.ForceMemoryCleanUp">캡처 중 메모리 강제 정리</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.ForceMemoryCleanUp.Info">캡처 중 메모리 사용량을 줄이지만 성능이 저하됩니다</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.PreventBlack">완전 검은 프레임 캡처 방지</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.PreventBlack.Info">모든 픽셀이 검은색인 프레임을 잘못 캡처하는 것을 방지합니다</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.RemoteImprovement">레이어드 창 캡처 비활성화, 원격 데스크톱 연결에서 성능 향상</s:String>
+
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.GammaCorrection">10비트 SDR 캡처에 감마 보정 적용</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.GammaCorrection.Info">10비트 SDR 캡처에 대한 선형에서 sRGB 변환을 전환합니다.&#10;색상이 잘못 보이면 이 설정을 전환해 보세요</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation">밝기 보정</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation.Auto">자동</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.BrightnessCompensation.Fixed">고정</s:String>
+
+    <!--Settings • Screen Recorder > Capture Frequency-->
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency">캡처 빈도</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Frequency">빈도</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Manual">수동</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Manual.Info">캡처 버튼이나 해당 키보드 바로 가기를 눌러&#10;각 프레임을 수동으로 캡처합니다.</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Interaction">사용자 상호작용</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Interaction.Info">클릭하거나 입력할 때마다 프레임이 캡처됩니다.</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Second">초당</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Second.Info">녹화기 화면에 설정된 프레임레이트 분모에 따라&#10;초당 기준으로 프레임이 캡처됩니다.</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Minute">분당</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Minute.Info">녹화기 화면에 설정된 프레임레이트 분모에 따라&#10;분당 기준(타임랩스)으로 프레임이 캡처됩니다.</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Hour">시간당</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Hour.Info">녹화기 화면에 설정된 프레임레이트 분모에 따라&#10;시간당 기준(타임랩스)으로 프레임이 캡처됩니다.</s:String>
+
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Playback">재생 시간</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Playback.Info">캡처된 각 프레임이 이 시간 동안 표시됩니다</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Trigger">트리거 지연</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.Trigger.Info">각 프레임 캡처가 시작되기 전에 이 시간만큼 기다립니다</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.IgnoreMouseWheel">마우스 휠 상호작용 무시</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.IgnoreMouseWheel.Info">마우스 휠을 스크롤해도 더 이상 캡처가 트리거되지 않습니다</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.FixedFramerate">가변 프레임 타이밍 무시</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.FixedFramerate.Info">모든 캡처된 프레임이 예상 프레임 타이밍을 사용합니다. </s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.CaptureChanges">변경 시에만 캡처</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Frequency.CaptureChanges.Info">캡처 영역 내에서 무언가가 변경될 때만 프레임이 캡처됩니다</s:String>
+
+    <!--Settings • Screen Recorder > Guidelines-->
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.RuleOfThirds">삼등분 법칙</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.RuleOfThirds.Info">삼등분 법칙 비율을 나타내는 프레이밍 그리드를 표시합니다</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.Crosshair">십자선</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.Crosshair.Info">십자선 프레이밍 그리드를 표시합니다</s:String>
+
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.LineThickness">선 두께</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.LineColor">선 색상</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.Dashes">대시</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.Dashes.Info">Controls the size of the dashes and the size of the gaps.&#10;You can set multiple sizes to create an elaborate dash style.&#10;The default is "1 0" or empty, meaning a dash with no gaps.</s:String>
+    <s:String x:Key="S.Settings.ScreenRecorder.Capture.Guidelines.Info">가이드라인은 녹화기가 일시정지되거나 중지된 동안에만 표시됩니다</s:String>
+
+    <!--Settings • Region Share-->
+    <s:String x:Key="S.Settings.RegionShare.Remember">공유 기억</s:String>
+    <s:String x:Key="S.Settings.RegionShare.RememberLast">기억할 선택 수</s:String>
+    <s:String x:Key="S.Settings.RegionShare.Overlay">오버레이 선택 기억</s:String>
+    <s:String x:Key="S.Settings.RegionShare.Overlay.Info">앱이 기억할 옵션을 선택하세요</s:String>
+    <s:String x:Key="S.Settings.RegionShare.Overlay.MouseCursor">마우스 커서 가시성 기억</s:String>
+    <s:String x:Key="S.Settings.RegionShare.Overlay.MouseCursorEffects">마우스 커서 효과 기억</s:String>
+    <s:String x:Key="S.Settings.RegionShare.Overlay.KeyPresses">키 입력 표시 기억</s:String>
+    <s:String x:Key="S.Settings.RegionShare.AntiMirror">미리보기 미러 방지</s:String>
+    <s:String x:Key="S.Settings.RegionShare.AntiMirror.Info">무한 미러 효과를 피하기 위해 공유 영역 내부의 미리보기 콘텐츠 영역을 단색 회색 블록으로 칠합니다.</s:String>
+    <s:String x:Key="S.Settings.RegionShare.Effects.Cursor">마우스 커서 효과</s:String>
+    <s:String x:Key="S.Settings.RegionShare.Effects.Cursor.Info">마우스 클릭 상호작용에 대한 효과를 선택합니다</s:String>
+
+    <!--Settings • Styles-->
+    <s:String x:Key="S.Settings.Styles.FontFamily">글꼴 패밀리</s:String>
+    <s:String x:Key="S.Settings.Styles.FontSize">글꼴 크기</s:String>
+    <s:String x:Key="S.Settings.Styles.ParagraphAlignment">단락 정렬</s:String>
+    <s:String x:Key="S.Settings.Styles.ParagraphAlignment.Near">가깝게</s:String>
+    <s:String x:Key="S.Settings.Styles.ParagraphAlignment.Far">멀리</s:String>
+    <s:String x:Key="S.Settings.Styles.ParagraphAlignment.Center">가운데</s:String>
+    <s:String x:Key="S.Settings.Styles.FlowDirection">흐름 방향</s:String>
+    <s:String x:Key="S.Settings.Styles.FlowDirection.TopToBottom">위에서 아래로</s:String>
+    <s:String x:Key="S.Settings.Styles.FlowDirection.LeftToRight">왼쪽에서 오른쪽으로</s:String>
+    <s:String x:Key="S.Settings.Styles.FlowDirection.RightToLeft">오른쪽에서 왼쪽으로</s:String>
+    <s:String x:Key="S.Settings.Styles.FlowDirection.BottomToTop">아래에서 위로</s:String>
+    <s:String x:Key="S.Settings.Styles.ReadingDirection">읽기 방향</s:String>
+    <s:String x:Key="S.Settings.Styles.IncrementalTabStop">탭 정지 거리</s:String>
+    <s:String x:Key="S.Settings.Styles.WordWrapping">단어 줄 바꿈</s:String>
+    <s:String x:Key="S.Settings.Styles.WordWrapping.Wrap">줄 바꿈</s:String>
+    <s:String x:Key="S.Settings.Styles.WordWrapping.NoWrap">줄 바꿈 안 함</s:String>
+    <s:String x:Key="S.Settings.Styles.WordWrapping.EmergencyBreak">긴급 줄 바꿈</s:String>
+    <s:String x:Key="S.Settings.Styles.WordWrapping.WholeWord">단어 단위</s:String>
+    <s:String x:Key="S.Settings.Styles.WordWrapping.Character">문자 단위</s:String>
+    <s:String x:Key="S.Settings.Styles.LineSpacingMethod">줄 간격 방법</s:String>
+    <s:String x:Key="S.Settings.Styles.LineSpacingMethod.Default">기본</s:String>
+    <s:String x:Key="S.Settings.Styles.LineSpacingMethod.Uniform">균일</s:String>
+    <s:String x:Key="S.Settings.Styles.LineSpacingMethod.Proportional">비례</s:String>
+    <s:String x:Key="S.Settings.Styles.LineSpacing">줄 간격</s:String>
+    <s:String x:Key="S.Settings.Styles.Baseline">기준선</s:String>
+    <s:String x:Key="S.Settings.Styles.TrimmingDelimiter">자르기 구분자</s:String>
+    <s:String x:Key="S.Settings.Styles.DelimiterCount">구분자 수</s:String>
+    <s:String x:Key="S.Settings.Styles.TrimmingGranularity">자르기 단위</s:String>
+    <s:String x:Key="S.Settings.Styles.TrimmingGranularity.None">없음</s:String>
+    <s:String x:Key="S.Settings.Styles.TrimmingGranularity.Character">문자</s:String>
+    <s:String x:Key="S.Settings.Styles.TrimmingGranularity.Word">단어</s:String>
+    <s:String x:Key="S.Settings.Styles.Underline">밑줄</s:String>
+    <s:String x:Key="S.Settings.Styles.Strikethrough">취소선</s:String>
+    <s:String x:Key="S.Settings.Styles.Foreground">전경</s:String>
+    <s:String x:Key="S.Settings.Styles.Outline">외곽선</s:String>
+    <s:String x:Key="S.Settings.Styles.OutlineThickness">외곽선 두께</s:String>
+    <s:String x:Key="S.Settings.Styles.Background">배경</s:String>
+    <s:String x:Key="S.Settings.Styles.CornerRadius">모서리 반경</s:String>
+    <s:String x:Key="S.Settings.Styles.Padding">패딩</s:String>
+    <s:String x:Key="S.Settings.Styles.Margin">여백</s:String>
+    <s:String x:Key="S.Settings.Styles.IgnoreNonModifiersKeys">수정자 키 아닌 키 무시</s:String>
+    <s:String x:Key="S.Settings.Styles.IgnoreJustModifiersKeys">수정자 키만 무시</s:String>
+    <s:String x:Key="S.Settings.Styles.IgnoreInjectedKeys">주입된 키 무시</s:String>
+    <s:String x:Key="S.Settings.Styles.IgnoreSpecialKeys">특수 키 무시</s:String>
+    <s:String x:Key="S.Settings.Styles.IgnoreArrowKeys">화살표 키 무시</s:String>
+    <s:String x:Key="S.Settings.Styles.IgnoreFunctionKeys">기능 키 무시</s:String>
+    <s:String x:Key="S.Settings.Styles.GroupLetterKeys">문자 키 그룹화</s:String>
+    <s:String x:Key="S.Settings.Styles.StickForLonger">키 입력을 더 오래 유지</s:String>
+    <s:String x:Key="S.Settings.Styles.StickForLonger.None">더 오래 유지하지 않음</s:String>
+    <s:String x:Key="S.Settings.Styles.StickForLonger.Time">시간이 다 될 때까지</s:String>
+    <s:String x:Key="S.Settings.Styles.StickForLonger.UntilStops">키 입력이 멈출 때까지</s:String>
+    <s:String x:Key="S.Settings.Styles.StickForLonger.UntilDifferentKey">다른 키 입력까지</s:String>
+    <s:String x:Key="S.Settings.Styles.StickForLonger.All">모든 옵션</s:String>
+    <s:String x:Key="S.Settings.Styles.StickForLongerTiming">더 오래 유지 타이밍</s:String>
+    <s:String x:Key="S.Settings.Styles.StickForLongerStopTiming">키 유지 종료 조건</s:String>
+    <s:String x:Key="S.Settings.Styles.ResolveKeyCombos">키 콤보 해석</s:String>
+    <s:String x:Key="S.Settings.Styles.ForceUpperCasing">키를 대문자로 강제</s:String>
+    <s:String x:Key="S.Settings.Styles.IgnoreRepeatedPresses">반복 입력 무시</s:String>
+    <s:String x:Key="S.Settings.Styles.ShowRepeatedPressMultiplier">반복 입력 배수 표시</s:String>
+    <s:String x:Key="S.Settings.Styles.AppendDirection">추가 방향</s:String>
+    <s:String x:Key="S.Settings.Styles.MaximumQuantityOfLines">최대 줄 수</s:String>
+    <s:String x:Key="S.Settings.Styles.TimingOffset">타이밍 오프셋</s:String>
+    <s:String x:Key="S.Settings.Styles.Duration">지속 시간</s:String>
+    <s:String x:Key="S.Settings.Styles.KeyTranslations">키 번역</s:String>
+    <s:String x:Key="S.Settings.Styles.KeyTranslations.Info">번역된 이름을 표시할 키를 선택하세요</s:String>
+    <s:String x:Key="S.Settings.Styles.KeyAliases">키 별칭</s:String>
+    <s:String x:Key="S.Settings.Styles.KeyAliases.Info">키 이름에 대한 별칭 설정</s:String>
+    <s:String x:Key="S.Settings.Styles.KeyPrefix">키 접두사</s:String>
+    <s:String x:Key="S.Settings.Styles.KeySeparator">키 구분자</s:String>
+    <s:String x:Key="S.Settings.Styles.UseNewLineForSeparator">각 키 구분자에 새 줄 사용</s:String>
+    <s:String x:Key="S.Settings.Styles.ModifierSeparator">수정자 구분자</s:String>
+    <s:String x:Key="S.Settings.Styles.KeySuffix">키 접미사</s:String>
+    <s:String x:Key="S.Settings.Styles.Animate">애니메이션</s:String>
+    <s:String x:Key="S.Settings.Styles.AnimationTiming">애니메이션 타이밍</s:String>
+    <s:String x:Key="S.Settings.Styles.AnimationStyle">애니메이션 스타일</s:String>
+    <s:String x:Key="S.Settings.Styles.AnimationStyle.ScaleAndOpacity">크기 및 불투명도</s:String>
+    <s:String x:Key="S.Settings.Styles.AnimationStyle.Scale">크기</s:String>
+    <s:String x:Key="S.Settings.Styles.AnimationStyle.Opacity">불투명도</s:String>
+    <s:String x:Key="S.Settings.Styles.DifferentiateLeftVersusRightModifierKeys">왼쪽/오른쪽 수정자 키 구분</s:String>
+    <s:String x:Key="S.Settings.Styles.TranslateOrAliasModifierKeys">수정자 키 번역 또는 별칭</s:String>
+    <s:String x:Key="S.Settings.Styles.MiterLimit">마이터 제한</s:String>
+    <s:String x:Key="S.Settings.Styles.DashOffset">대시 오프셋</s:String>
+
+    <!--Settings • Styles > Video-->
+    <s:String x:Key="S.Settings.Styles.MaxFramerate">최대 프레임레이트</s:String>
+    <s:String x:Key="S.Settings.Styles.Mute">볼륨 음소거</s:String>
+    <s:String x:Key="S.Settings.Styles.Volume">볼륨</s:String>
+
+    <!--Settings • Styles > Progress-->
+    <s:String x:Key="S.Settings.Styles.DisplayMode">표시 모드</s:String>
+    <s:String x:Key="S.Settings.Styles.DisplayMode.Text">텍스트</s:String>
+    <s:String x:Key="S.Settings.Styles.DisplayMode.Bar">바</s:String>
+    <s:String x:Key="S.Settings.Styles.BasedOn">기준</s:String>
+    <s:String x:Key="S.Settings.Styles.BasedOn.Segment">세그먼트</s:String>
+    <s:String x:Key="S.Settings.Styles.BasedOn.Timeline">타임라인</s:String>
+    <s:String x:Key="S.Settings.Styles.BasedOn.Capture">캡처</s:String>
+    <s:String x:Key="S.Settings.Styles.Format">형식</s:String>
+    <s:String x:Key="S.Settings.Styles.Format.DateTime">날짜 및 시간</s:String>
+    <s:String x:Key="S.Settings.Styles.Format.Time">시간</s:String>
+    <s:String x:Key="S.Settings.Styles.Format.Percentage">백분율</s:String>
+    <s:String x:Key="S.Settings.Styles.Format.Other">기타</s:String>
+    <s:String x:Key="S.Settings.Styles.Format.Other.Info">사양에 따라 자체 형식을 만드세요</s:String>
+    <s:String x:Key="S.Settings.Styles.CustomFormat">사용자 지정 형식</s:String>
+    <s:String x:Key="S.Settings.Styles.CustomFormat.Specification">사양</s:String>
+    <s:String x:Key="S.Settings.Styles.Offset">오프셋</s:String>
+    <s:String x:Key="S.Settings.Styles.Offset.ToggleSign">부호 전환</s:String>
+    <s:String x:Key="S.Settings.Styles.ShowTotal">합계 표시</s:String>
+    <s:String x:Key="S.Settings.Styles.Separator">구분자</s:String>
+    <s:String x:Key="S.Settings.Styles.Prefix">접두사</s:String>
+    <s:String x:Key="S.Settings.Styles.Suffix">접미사</s:String>
+    <s:String x:Key="S.Settings.Styles.Thickness">두께</s:String>
+    <s:String x:Key="S.Settings.Styles.Orientation">방향</s:String>
+    <s:String x:Key="S.Settings.Styles.Orientation.Horizontal">가로</s:String>
+    <s:String x:Key="S.Settings.Styles.Orientation.Vertical">세로</s:String>
+    
+    <!--Settings • Styles > Shape-->
+    <s:String x:Key="S.Settings.Styles.Shape">도형</s:String>
+    <s:String x:Key="S.Settings.Styles.Shape.LineArrow">선 화살표</s:String>
+    <s:String x:Key="S.Settings.Styles.Shape.Arrow">화살표</s:String>
+    <s:String x:Key="S.Settings.Styles.Shape.Rectangle">사각형</s:String>
+    <s:String x:Key="S.Settings.Styles.Shape.Ellipse">타원</s:String>
+    <s:String x:Key="S.Settings.Styles.Shape.Triangle">삼각형</s:String>
+
+    <!--Settings • Styles > Drawing-->
+    <s:String x:Key="S.Settings.Styles.DrawingMode">그리기 모드</s:String>
+    <s:String x:Key="S.Settings.Styles.DrawingMode.Pen">펜</s:String>
+    <s:String x:Key="S.Settings.Styles.DrawingMode.Highlighter">형광펜</s:String>
+    <s:String x:Key="S.Settings.Styles.DrawingMode.Airbrush">에어브러시</s:String>
+    <s:String x:Key="S.Settings.Styles.DrawingMode.Eraser">지우개</s:String>
+    <s:String x:Key="S.Settings.Styles.TipShape">끝 모양</s:String>
+    <s:String x:Key="S.Settings.Styles.TipShape.Circle">원</s:String>
+    <s:String x:Key="S.Settings.Styles.TipShape.Rectangle">사각형</s:String>
+    <s:String x:Key="S.Settings.Styles.TipShape.Diamond">다이아몬드</s:String>
+    <s:String x:Key="S.Settings.Styles.TipShape.HorizontalLine">가로 선</s:String>
+    <s:String x:Key="S.Settings.Styles.TipShape.VerticalLine">세로 선</s:String>
+    <s:String x:Key="S.Settings.Styles.StrokeColor">선 색상</s:String>
+    <s:String x:Key="S.Settings.Styles.StrokeThickness">선 두께</s:String>
+
+    <!--Settings • Styles > Pixelation-->
+    <s:String x:Key="S.Settings.Styles.SmoothnessRadius">부드러움 반경</s:String>
+    <s:String x:Key="S.Settings.Styles.ApplyInverse">선택의 반전에 적용</s:String>
+    <s:String x:Key="S.Settings.Styles.BlockWidth">블록 너비</s:String>
+    <s:String x:Key="S.Settings.Styles.BlockHeight">블록 높이</s:String>
+    <s:String x:Key="S.Settings.Styles.SyncWidthHeight">너비와 높이 동기화</s:String>
+    <s:String x:Key="S.Settings.Styles.PixelAverage">각 픽셀 블록의 평균 색상 계산</s:String>
+    <s:String x:Key="S.Settings.Styles.RotatePixelBlock">세그먼트 각도에 따라 픽셀 블록 회전</s:String>
+
+    <!--Settings • Styles > Blur-->
+    <s:String x:Key="S.Settings.Styles.BlurRadius">흐림 반경</s:String>
+
+    <!--Settings • Styles > Brightness-->
+    <s:String x:Key="S.Settings.Styles.LightIntensity">빛 강도</s:String>
+
+    <!--Settings • Styles > LineCap-->
+    <s:String x:Key="S.Settings.Styles.LineCap.Start">시작 선 끝</s:String>
+    <s:String x:Key="S.Settings.Styles.LineCap.Dash">대시 선 끝</s:String>
+    <s:String x:Key="S.Settings.Styles.LineCap.End">끝 선 끝</s:String>
+    <s:String x:Key="S.Settings.Styles.LineCap.Flat">평평</s:String>
+    <s:String x:Key="S.Settings.Styles.LineCap.Square">사각</s:String>
+    <s:String x:Key="S.Settings.Styles.LineCap.Round">둥글게</s:String>
+    <s:String x:Key="S.Settings.Styles.LineCap.Triangle">삼각형</s:String>
+
+    <!--Settings • Styles > LineJoin-->
+    <s:String x:Key="S.Settings.Styles.LineJoin">선 연결</s:String>
+    <s:String x:Key="S.Settings.Styles.LineJoin.Bevel">평평</s:String>
+    <s:String x:Key="S.Settings.Styles.LineJoin.Miter">사각</s:String>
+    <s:String x:Key="S.Settings.Styles.LineJoin.Round">둥글게</s:String>
+
+    <!--Settings • Styles > Dash-->
+    <s:String x:Key="S.Settings.Styles.Dash">대시 스타일</s:String>
+    <s:String x:Key="S.Settings.Styles.Dash.Solid">실선</s:String>
+    <s:String x:Key="S.Settings.Styles.Dash.Dash">대시</s:String>
+    <s:String x:Key="S.Settings.Styles.Dash.Dot">점</s:String>
+    <s:String x:Key="S.Settings.Styles.Dash.DashDot">대시, 점</s:String>
+    <s:String x:Key="S.Settings.Styles.Dash.DashDotDot">대시, 점, 점</s:String>
+    <s:String x:Key="S.Settings.Styles.Dash.Custom">사용자 지정</s:String>
+
+    <!--Settings • Effects-->
+    <s:String x:Key="S.Settings.Effects.None">아직 추가된 효과 없음</s:String>
+    <s:String x:Key="S.Settings.Effects.Add.Info">새 효과 추가</s:String>
+    <s:String x:Key="S.Settings.Effects.Reset.Info">기본 설정으로 초기화</s:String>
+    <s:String x:Key="S.Settings.Effects.RemoveAll.Info">모든 효과 제거</s:String>
+
+    <!--Settings • Editor-->
+    <s:String x:Key="S.Settings.Editor.WindowPosition">창 위치</s:String>
+    <s:String x:Key="S.Settings.Editor.WindowPosition.Center">강제 가운데</s:String>
+    <s:String x:Key="S.Settings.Editor.WindowPosition.Previous">이전 위치 사용</s:String>
+    <s:String x:Key="S.Settings.Editor.WindowPosition.System">시스템 결정</s:String>
+    <s:String x:Key="S.Settings.Editor.WindowPosition.UsePrevious">이전 창 크기 사용</s:String>
+    <s:String x:Key="S.Settings.Editor.CacheHandling">닫을 때 프로젝트 캐시 처리</s:String>
+    <s:String x:Key="S.Settings.Editor.CacheHandling.Keep">항상 캐시에 유지</s:String>
+    <s:String x:Key="S.Settings.Editor.CacheHandling.Delete">항상 캐시에서 삭제</s:String>
+    <s:String x:Key="S.Settings.Editor.InsertPosition">녹화 삽입 위치</s:String>
+    <s:String x:Key="S.Settings.Editor.InsertPosition.Start">타임라인 시작</s:String>
+    <s:String x:Key="S.Settings.Editor.InsertPosition.Current">현재 위치</s:String>
+    <s:String x:Key="S.Settings.Editor.InsertPosition.After">모든 세그먼트 이후</s:String>
+    <s:String x:Key="S.Settings.Editor.SegmentPasteBehavior">세그먼트 붙여넣기 동작</s:String>
+    <s:String x:Key="S.Settings.Editor.SegmentPasteBehavior.Existing">선택한 트랙에</s:String>
+    <s:String x:Key="S.Settings.Editor.SegmentPasteBehavior.New">새 트랙에</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert">미디어 삽입 옵션</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Info">타임라인에 미디어를 삽입하는 방법을 선택하세요</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Grouping">그룹화</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Grouping.Ask">직접 선택</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Grouping.Separate">각 파일별 별도 트랙</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Grouping.Separate.Info">각 파일을 별도 트랙에, 시간상 순차적으로</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Grouping.SingleTrack">단일 트랙</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Grouping.SingleTrack.Info">모든 파일을 단일 트랙에</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Grouping.SeparateForType">유형별 트랙</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Grouping.SeparateForType.Info">같은 유형의 미디어 파일이 그룹화됩니다</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Sorting">정렬</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Sorting.Original">원래 선택 순서</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Sorting.Name">이름</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Sorting.NameNumber">이름 (숫자 파싱)</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Sorting.NameSemantic">이름 (시맨틱 버전 파싱)</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Sorting.Length">길이</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Sorting.Date">날짜</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Sorting.Size">크기</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Direction">방향</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Direction.Ascending">오름차순</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Direction.Descending">내림차순</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.MediaDuration">정적 미디어 지속 시간</s:String>
+    <s:String x:Key="S.Settings.Editor.MediaInsert.Gap">파일 간 간격</s:String>
+    <s:String x:Key="S.Settings.Editor.Timeline">타임라인</s:String>
+    <s:String x:Key="S.Settings.Editor.Timeline.TrackHeight">트랙 높이</s:String>
+    <s:String x:Key="S.Settings.Editor.Timeline.GenerateThumbnails">썸네일 생성</s:String>
+    <s:String x:Key="S.Settings.Editor.Timeline.ThumbnailPanelMargin">썸네일 패널 여백</s:String>
+    <s:String x:Key="S.Settings.Editor.Timeline.ThumbnailMargin">썸네일 여백</s:String>
+
+    <!--Settings • Exporter-->
+    <s:String x:Key="S.Settings.Exporter.UncommonFormat">흔하지 않은 형식 표시</s:String>
+    <s:String x:Key="S.Settings.Exporter.UncommonFormat.Info">AVI, AC3 등 오래되거나 흔하지 않은 형식을 사용할 수 있습니다</s:String>
+
+    <!--Settings • Storage-->
+    <s:String x:Key="S.Settings.Storage.Cache">캐시</s:String>
+    <s:String x:Key="S.Settings.Storage.Cache.Path">캐시 경로</s:String>
+    <s:String x:Key="S.Settings.Storage.Cache.Logs">로그 경로</s:String>
+    <s:String x:Key="S.Settings.Storage.SelectPath">경로를 선택하려면 클릭</s:String>
+    <s:String x:Key="S.Settings.Storage.Navigate">탐색기로 이동</s:String>
+    <s:String x:Key="S.Settings.Storage.Info">캐시 폴더는 녹화/프로젝트 및 기타 임시 파일을 저장하는 데 사용됩니다</s:String>
+    <s:String x:Key="S.Settings.Storage.FreeSpace">{1} 중 {0} 남음</s:String>
+    <s:String x:Key="S.Settings.Storage.AppSettings">앱 설정</s:String>
+    <s:String x:Key="S.Settings.Storage.AppSettings.Global">전역</s:String>
+    <s:String x:Key="S.Settings.Storage.AppSettings.Local">로컬</s:String>
+    <s:String x:Key="S.Settings.Storage.AppSettings.GlobalSettings">전역 설정</s:String>
+    <s:String x:Key="S.Settings.Storage.AppSettings.GlobalSettings.Info">%AppData%/N-Studio 폴더에 저장된 설정</s:String>
+    <s:String x:Key="S.Settings.Storage.AppSettings.LocalSettings">로컬 설정</s:String>
+    <s:String x:Key="S.Settings.Storage.AppSettings.LocalSettings.Info">앱 실행 파일과 같은 폴더의 파일에 저장된 설정</s:String>
+    <s:String x:Key="S.Settings.Storage.AppSettings.LocalSettings.Create">로컬 설정 만들기</s:String>
+    <s:String x:Key="S.Settings.Storage.Cleanup.DeleteOnClose">앱 종료 시 캐시의 모든 파일 삭제</s:String>
+    <s:String x:Key="S.Settings.Storage.Cleanup.DeleteOnClose.Ask">캐시의 모든 파일을 삭제하기 전에 물어보기</s:String>
+    <s:String x:Key="S.Settings.Storage.Cleanup.RemoveOld">오래된 프로젝트 자동 제거</s:String>
+    <s:String x:Key="S.Settings.Storage.Cleanup.RemoveOld.MaxAge">최대 기간</s:String>
+    <s:String x:Key="S.Settings.Storage.Cleanup.RemoveOld.MaxAge.Info">이보다 오래된 닫힌 프로젝트는 앱을 열 때 삭제됩니다</s:String>
+
+    <s:String x:Key="S.Settings.Storage.Cleanup.Clear.All.Header">모든 설정을 제거하시겠습니까?</s:String>
+    <s:String x:Key="S.Settings.Storage.Cleanup.Clear.Global.Header">전역 설정을 제거하시겠습니까?</s:String>
+    <s:String x:Key="S.Settings.Storage.Cleanup.Clear.Local.Header">로컬 설정을 제거하시겠습니까?</s:String>
+    <s:String x:Key="S.Settings.Storage.Cleanup.Clear.Description">변경 사항을 보려면 애플리케이션을 다시 시작해야 합니다.</s:String>
+
+    <!--Settings • Plugins-->
+    <s:String x:Key="S.Settings.Plugin.Path">경로</s:String>
+    <s:String x:Key="S.Settings.Plugin.SelectFile">파일을 선택하려면 클릭</s:String>
+    <s:String x:Key="S.Settings.Plugin.Version">버전</s:String>
+    <s:String x:Key="S.Settings.Plugin.Version.Unrecognized">인식되지 않음</s:String>
+    <s:String x:Key="S.Settings.Plugin.Files.All">지원되는 모든 파일</s:String>
+    <s:String x:Key="S.Settings.Plugin.Ffmpeg.Select">FFmpeg 실행 파일 위치 선택</s:String>
+    <s:String x:Key="S.Settings.Plugin.Ffmpeg.File">FFmpeg 실행 파일</s:String>
+    <s:String x:Key="S.Settings.Plugin.Gifski.Select">Gifski 라이브러리 위치 선택</s:String>
+    <s:String x:Key="S.Settings.Plugin.Gifski.File">Gifski 라이브러리</s:String>
+    <s:String x:Key="S.Settings.Plugin.Clear.Info">디스크에서 파일을 제거하지 않고 경로만 지우기</s:String>
+    <s:String x:Key="S.Settings.Plugin.Remove.Info">경로를 지우고 디스크에서 파일 제거</s:String>
+    <s:String x:Key="S.Settings.Plugin.PackedDownload">패키지 다운로드</s:String>
+    <s:String x:Key="S.Settings.Plugin.StoreLimitations">스토어 제한</s:String>
+    <s:String x:Key="S.Settings.Plugin.StoreLimitations.Info">Microsoft Store 정책으로 인해 플러그인을 수동으로 다운로드해야 합니다</s:String>
+    
+    <!--Settings • Update-->
+    <s:String x:Key="S.Settings.Update.UpToDate">최신 상태입니다</s:String>
+    <s:String x:Key="S.Settings.Update.LastChecked">마지막 확인:</s:String>
+    <s:String x:Key="S.Settings.Update.ReleaseNotes">릴리스 노트</s:String>
+    <s:String x:Key="S.Settings.Update.CheckForUpdates">업데이트 확인</s:String>
+    <s:String x:Key="S.Settings.Update.Checking">업데이트 확인 중...</s:String>
+    <s:String x:Key="S.Settings.Update.DownloadInstall">다운로드 및 설치</s:String>
+    <s:String x:Key="S.Settings.Update.Install">설치</s:String>
+    <s:String x:Key="S.Settings.Update.Description">설명</s:String>
+    <s:String x:Key="S.Settings.Update.Pending">다운로드 대기 중</s:String>
+    <s:String x:Key="S.Settings.Update.Error">오류 발생</s:String>
+    <s:String x:Key="S.Settings.Update.NeverChecked">확인한 적 없음</s:String>
+    <s:String x:Key="S.Settings.Update.CheckOnStart">시작 시 업데이트 확인</s:String>
+    <s:String x:Key="S.Settings.Update.CheckOnStart.AutoInstall">앱 종료 후 자동으로 업데이트 설치</s:String>
+    <s:String x:Key="S.Settings.Update.CheckOnStart.Prompt">설치 시작 전 물어보기</s:String>
+    <s:String x:Key="S.Settings.Update.CheckForTranslation">번역 업데이트 확인</s:String>
+    <s:String x:Key="S.Settings.Update.CheckForTranslation.Info">업데이트된 번역이 자동으로 다운로드되어 설치됩니다</s:String>
+    <s:String x:Key="S.Settings.Update.StoreHandled">업데이트 방법?</s:String>
+    <s:String x:Key="S.Settings.Update.StoreHandled.Info">업데이트가 Microsoft Store를 통해 직접 처리됩니다</s:String>
+    <s:String x:Key="S.Settings.Update.StoreHandled.Action">Microsoft Store 열기</s:String>
+    <s:String x:Key="S.Settings.Update.SteamHandled.Info">업데이트는 Steam을 통해 직접 관리됩니다</s:String>
+
+    <!--Settings • About-->
+    <s:String x:Key="S.Settings.About.Contact">연락처</s:String>
+    <s:String x:Key="S.Settings.About.Contact.Email">이메일</s:String>
+    <s:String x:Key="S.Settings.About.Contact.Email.Copy">이메일 복사</s:String>
+    <s:String x:Key="S.Settings.About.Dependencies">종속성</s:String>
+
+    <!--Windows • Preset Settings-->
+    <s:String x:Key="S.PresetSettings.Title">N-Studio • 프리셋 설정</s:String>
+    <s:String x:Key="S.PresetSettings.Presets">프리셋</s:String>
+    <s:String x:Key="S.PresetSettings.Add.Info">새 프리셋 추가</s:String>
+    <s:String x:Key="S.PresetSettings.Duplicate">복제</s:String>
+    <s:String x:Key="S.PresetSettings.Duplicate.Info">선택한 프리셋 복제</s:String>
+    <s:String x:Key="S.PresetSettings.Reset.Info">기본 설정으로 초기화</s:String>
+    <s:String x:Key="S.PresetSettings.Remove.Info">선택한 프리셋 제거</s:String>
+    <s:String x:Key="S.PresetSettings.Copy">복사</s:String>
+    <s:String x:Key="S.PresetSettings.Copied">(복사)</s:String>
+
+    <!--Windows • Preset Settings > Identification-->
+    <s:String x:Key="S.Preset.Identification">식별</s:String>
+    <s:String x:Key="S.Preset.Identification.Info">제목, 설명 등</s:String>
+    <s:String x:Key="S.Preset.Identification.Title">제목</s:String>
+    <s:String x:Key="S.Preset.Identification.Description">설명</s:String>
+    <s:String x:Key="S.Preset.Identification.Service">서비스</s:String>
+    <s:String x:Key="S.Preset.Identification.Encoder">인코더</s:String>
+    <s:String x:Key="S.Preset.Identification.Enabled">활성화됨</s:String>
+    <s:String x:Key="S.Preset.Identification.Enabled.Info">활성화된 프리셋만 사용할 수 있습니다</s:String>
+    <s:String x:Key="S.Preset.Identification.AutoSave">출력 선택 자동 저장</s:String>
+    <s:String x:Key="S.Preset.Identification.AutoSave.Info">출력 경로와 업로드 대상이 기억됩니다</s:String>
+
+    <!--Windows • Preset Settings > Export-->
+    <s:String x:Key="S.Preset.Export.Title">내보내기 옵션</s:String>
+    <s:String x:Key="S.Preset.Export.Title.Info">출력 대상, 업로드 및 내보내기 후 동작</s:String>
+    <s:String x:Key="S.Preset.Export.Folder">폴더로 내보내기</s:String>
+    <s:String x:Key="S.Preset.Export.Folder.Info">선택한 폴더로 프로젝트를 내보냅니다</s:String>
+    <s:String x:Key="S.Preset.Export.Upload">서비스에 업로드</s:String>
+    <s:String x:Key="S.Preset.Export.Upload.Info">선택한 온라인 서비스에 프로젝트를 업로드합니다</s:String>
+    <s:String x:Key="S.Preset.Export.Clipboard">클립보드에 복사</s:String>
+    <s:String x:Key="S.Preset.Export.Clipboard.Info">내보내기 후 애니메이션의 경로 또는 링크를 복사합니다</s:String>
+    <s:String x:Key="S.Preset.Export.Commands">명령 실행</s:String>
+    <s:String x:Key="S.Preset.Export.Commands.Info">내보내기 후 명령을 실행합니다</s:String>
+
+    <!--Windows • Preset Settings > Output-->
+    <s:String x:Key="S.Preset.Output.Title">출력</s:String>
+    <s:String x:Key="S.Preset.Output.Title.Info">기본 출력 폴더 및 파일 이름</s:String>
+    <s:String x:Key="S.Preset.Output.Folder">폴더</s:String>
+    <s:String x:Key="S.Preset.Output.FileName">파일 이름</s:String>
+    <s:String x:Key="S.Preset.Output.Select">출력 폴더 선택</s:String>
+    <s:String x:Key="S.Preset.Output.Overwrite">덮어쓰기</s:String>
+    <s:String x:Key="S.Preset.Output.Overwrite.Warn">경고</s:String>
+    <s:String x:Key="S.Preset.Output.Overwrite.Warn.Info">같은 이름의 다른 파일이 존재함을 경고만 합니다</s:String>
+    <s:String x:Key="S.Preset.Output.Overwrite.Prompt">확인</s:String>
+    <s:String x:Key="S.Preset.Output.Overwrite.Prompt.Info">파일을 덮어쓸지 사용자에게 묻습니다</s:String>
+    <s:String x:Key="S.Preset.Output.Overwrite.Allow">허용</s:String>
+    <s:String x:Key="S.Preset.Output.Overwrite.Allow.Info">단순히 파일을 덮어씁니다</s:String>
+    <s:String x:Key="S.Preset.Output.ExportAsProject">프로젝트로 내보내기</s:String>
+    <s:String x:Key="S.Preset.Output.ExportAsProject.Info">같은 위치에 프로젝트로도 내보냅니다</s:String>
+
+    <!--Windows • Preset Settings > Upload-->
+    <s:String x:Key="S.Preset.Upload.Title">업로드</s:String>
+    <s:String x:Key="S.Preset.Upload.Title.Info">기본 업로드 프리셋</s:String>
+    <s:String x:Key="S.Preset.Upload.Title2">업로드 옵션</s:String>
+    <s:String x:Key="S.Preset.Upload.Title2.Info">선택한 업로드 서비스 및 파일 형식에 특정한 옵션</s:String>
+    <s:String x:Key="S.Preset.Upload.Preset">프리셋</s:String>
+
+    <!--Windows • Preset Settings > Clipboard-->
+    <s:String x:Key="S.Preset.Clipboard.Title">클립보드</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Title.Info">내보내기 후 경로 또는 링크 복사</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior">복사 동작</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior.File">파일</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior.File.Info">출력 파일을 클립보드에 복사합니다.</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior.FolderPath">폴더 경로</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior.FolderPath.Info">출력 파일의 폴더 경로를 클립보드에 복사합니다.</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior.FilePath">파일 경로</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior.FilePath.Info">출력 파일의 경로를 클립보드에 복사합니다.</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior.Link">링크</s:String>
+    <s:String x:Key="S.Preset.Clipboard.Behavior.Link.Info">업로드 서비스에서 생성된 링크를 클립보드에 복사합니다.</s:String>
+
+    <!--Windows • Preset Settings > Commands-->
+    <s:String x:Key="S.Preset.Commands.Title">사용자 지정 명령</s:String>
+    <s:String x:Key="S.Preset.Commands.Title.Info">내보내기 후 실행할 명령</s:String>
+    <s:String x:Key="S.Preset.Commands.Commands">명령</s:String>
+    <s:String x:Key="S.Preset.Commands.Commands.Info">Type commands to be executed after the encoding.&#10;To execute multiple commands, type each one on a separated line.&#10;Macros:&#10;{p} = Output file path.&#10;{f} = Output folder path.&#10;{u} = URL of the uploaded file.</s:String>
+
+    <!--Windows • Preset Settings > Playback-->
+    <s:String x:Key="S.Preset.Playback.Title">재생</s:String>
+    <s:String x:Key="S.Preset.Playback.Title.Info">애니메이션의 재생 및 프레임레이트 옵션</s:String>
+
+    <s:String x:Key="S.Preset.Playback.AnimatedImage.Looped">애니메이션 반복</s:String>
+    <s:String x:Key="S.Preset.Playback.AnimatedImage.Looped.Info">재생 시 끝에 도달하면 애니메이션이 다시 시작됩니다</s:String>
+    <s:String x:Key="S.Preset.Playback.AnimatedImage.Looped.Forever">영원히 반복</s:String>
+    <s:String x:Key="S.Preset.Playback.AnimatedImage.Looped.Forever.Info">애니메이션이 멈추지 않고 반복됩니다</s:String>
+    <s:String x:Key="S.Preset.Playback.AnimatedImage.Looped.Count">반복 횟수</s:String>
+    <s:String x:Key="S.Preset.Playback.AnimatedImage.Looped.Count.Info">애니메이션이 반복되어야 하는 횟수</s:String>
+
+    <!--Windows • Preset Settings > Encoder-->
+    <s:String x:Key="S.Preset.Encoder.Title">인코더 옵션</s:String>
+    <s:String x:Key="S.Preset.Encoder.Title.Info">선택한 인코더 및 파일 형식에 특정한 옵션</s:String>
+    <s:String x:Key="S.Preset.Encoder.Version">버전</s:String>
+    <s:String x:Key="S.Preset.Encoder.Quality">품질</s:String>
+    <s:String x:Key="S.Preset.Encoder.Pass">패스</s:String>
+
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.UseCommands">명령 사용</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.UseCommands.Info">FFmpeg에 직접 인수를 입력합니다 (고급 모드)</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.Parameters">매개변수</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.Parameters.Info">FFmpeg에 전달될 매개변수 목록입니다.&#10;&#10;특수 매개변수:&#10;{I}는 입력 경로(프레임)입니다.&#10;{O}는 출력 경로(내보낸 파일)입니다.&#10;{W}는 프레임 너비입니다.&#10;{H}는 프레임 높이입니다.</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.Preview">미리보기</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.Preview.Info">FFmpeg에 전송될 전체 명령</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.Help.PngFilters">PNG 필터</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.Help.Format">형식 문서</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.Help.Filters">필터 문서</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.PixelFormat">픽셀 형식</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.Pass">2-패스 인코딩을 하려면 '-pass 2'를 추가하세요</s:String>
+
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.FrameStrategy">프레임레이트 전략</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.FrameStrategy.Info">FFmpeg가 이미지 시퀀스를 읽거나 쓸 때 프레임 타이밍을 해석하고 조정하는 방법을 제어합니다.&#10;프레임을 그대로 유지하거나, 복제하거나, 원하는 프레임레이트에 맞게 삭제할지 결정합니다</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.FrameStrategy.Passthrough">타임스탬프 그대로 사용</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.FrameStrategy.Cfr">고정 프레임레이트</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.FrameStrategy.Vfr">가변 프레임레이트</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.FrameStrategy.Drop">프레임 삭제</s:String>
+    <s:String x:Key="S.Preset.Encoder.FFmpeg.FrameStrategy.Dup">프레임 복제</s:String>
+
+    <!--Preset • Apng-->
+    <s:String x:Key="S.Preset.Encoder.Apng.DetectUnchanged">변경되지 않은 픽셀 감지</s:String>
+    <s:String x:Key="S.Preset.Encoder.Apng.DetectUnchanged.Info">프레임 간에 변경되지 않은 불필요한 부분을 스캔하고 제거합니다</s:String>
+    <s:String x:Key="S.Preset.Encoder.Apng.PaintTransparent">변경되지 않은 모든 픽셀을 투명 색상으로 칠하기</s:String>
+    <s:String x:Key="S.Preset.Encoder.Apng.PaintTransparent.Info">프레임 간에 변경되지 않은 픽셀을 투명 색상으로 대체합니다</s:String>
+    <s:String x:Key="S.Preset.Encoder.Apng.Prediction">예측</s:String>
+    <s:String x:Key="S.Preset.Encoder.Apng.Prediction.None">없음</s:String>
+    <s:String x:Key="S.Preset.Encoder.Apng.Prediction.Sub">Sub</s:String>
+    <s:String x:Key="S.Preset.Encoder.Apng.Prediction.Up">Up</s:String>
+    <s:String x:Key="S.Preset.Encoder.Apng.Prediction.Average">평균</s:String>
+    <s:String x:Key="S.Preset.Encoder.Apng.Prediction.Mixed">혼합</s:String>
+
+    <!--Preset • Gif-->
+    <s:String x:Key="S.Preset.Encoder.Gif.GlobalColorTable">전역 색상 테이블 사용</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.GlobalColorTable.Info">GIF의 품질 및/또는 크기를 줄일 수 있습니다</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer">양자화기</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Info">색상 감소 알고리즘 (양자화)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Neural">신경망</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Neural.Info">고충실도 양자화. 느리지만 색상이 많을 때 좋습니다</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Octree">옥트리</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Octree.Info">색상이 적은 애니메이션에 좋습니다. 빠르지만 색상 밴딩이 발생할 수 있습니다</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.MedianCut">미디언 컷</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.MedianCut.Info">옥트리보다 덜 좋고 느립니다</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Grayscale">그레이스케일</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Grayscale.Info">고정 그레이스케일 팔레트를 사용하여 훨씬 빠릅니다</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.MostUsed">가장 많이 사용된 색상</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.MostUsed.Info">프레임에서 가장 많이 사용된 색상을 단순히 가져옵니다</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Sampling">샘플링</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Sampling.Info">샘플링 계수:&#10;값이 1이면 더 좋은 GIF가 되지만 렌더링이 느려집니다</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Sampling.Best">최고</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Sampling.Fastest">가장 빠름</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Colors">색상</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Colors.Info">최대 색상 수 (각 프레임)</s:String>
+
+    <s:String x:Key="S.Preset.Encoder.Gif.Transparency.Enable">투명도 활성화</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Transparency.Enable.Info">전체 투명도 모드를 활성화하여 GIF 배경을 완전히 투명하게 만듭니다.&#10;이 옵션이 활성화되면 크로마 키 대체 프로세스가 무시됩니다</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Transparency.Pick">투명으로 표시할 색상 선택</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Transparency.Pick.Info">색상이 선택되면 투명으로 변환되어 생성된 GIF에서 투명하게 표시됩니다.&#10;색상이 선택되지 않으면 모든 투명 색상(Alpha = 0%)이 정상적으로 투명하게 표시됩니다</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.DetectUnchanged">변경되지 않은 픽셀 감지</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.DetectUnchanged.Info">프레임 간 변경되지 않은 픽셀을 분석하고 감지하여&#10;필요한 부분만 GIF에 저장할 수 있습니다</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.PaintWithChroma">이 픽셀을 크로마 키로 대체</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.PaintWithChroma.Info">반복/변경되지 않은 픽셀이 이 크로마 키로 대체되어&#10;프레임당 더 적은 색상을 사용할 수 있습니다</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Color">색상</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.ChromaKey">크로마 키</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Dither">디더</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Dither.Scale">Bayer 스케일</s:String>
+
+    <!--Preset • Gifski-->
+    <s:String x:Key="S.Preset.Encoder.Gif.Faster">더 빠른 인코딩 프로세스 사용</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Faster.Info">GIF 품질이 저하될 수 있습니다</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.ExtraEffort">추가 노력</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.ExtraEffort.Info">인코딩이 상당히 느려지지만 약간 더 좋은 GIF가 될 수 있습니다</s:String>
+
+    <!--Preset • KGy SOFT-->
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.BackColor">배경 색상</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.BackColor.Info">선택한 양자화기에 의해 불투명으로 간주되는 알파(투명도) 픽셀이 양자화 색상을 얻기 전에 이 색상과 혼합됩니다</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.AlphaThreshold">알파 임계값</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.AlphaThreshold.Info">양자화 색상이 투명해지는 입력 알파 값을 결정합니다.&#10;0이면 결과에 투명도가 없습니다.&#10;255이면 완전히 투명한 픽셀만 투명으로 간주됩니다</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.WhiteThreshold">흰색 임계값</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.WhiteThreshold.Info">결과 색상을 흰색으로 간주하는 가장 낮은 입력 밝기를 결정합니다.&#10;결과의 밝기에 영향을 줍니다. 오차 확산 디더링이 이 매개변수를 보정할 수 있습니다</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.DirectMapping">직접 매핑</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.DirectMapping.Info">체크하면 양자화 색상이 가장 가까운 팔레트 항목을 찾는 대신 직접 매핑으로 결정됩니다.&#10;양자화가 빨라지지만 대비가 높아질 수 있습니다. 오차 확산 디더링이 보정할 수 있습니다</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.PaletteSize">팔레트 크기</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.PaletteSize.Info">프레임당 팔레트의 최대 크기를 결정합니다</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.CustomBitLevel">사용자 지정 비트 레벨</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.CustomBitLevel.Info">체크하면 비트 레벨을 수동으로 구성할 수 있습니다.&#10;⚠️ 경고: 가장 높은 비트 레벨은 많은 메모리가 필요할 수 있습니다!</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.BitLevel">비트 레벨</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.BitLevel.Info">값이 높을수록 정확도가 높아지고, 대상 색 공간이 커지며, 처리가 느려지고 메모리 사용량이 증가합니다.&#10;예: 1이면 최대 8색, 2이면 최대 64색.&#10;옥트리 및 Wu 양자화기에서는 단색 음영의 최대 수에도 영향을 줍니다.&#10;예: 5(Wu 기본값)이면 32개의 단색 음영만 구분됩니다.&#10;⚠️ 주의: Wu 양자화기는 최고값에서 최소 650MB를 사용합니다</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.BlackAndWhite">흑백</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.BlackAndWhite.Info">검정과 흰색의 고정 1 bpp 팔레트</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.Grayscale4">그레이스케일 4색</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.Grayscale4.Info">4개의 그레이스케일 항목이 있는 고정 2 bpp 팔레트</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.Grayscale16">그레이스케일 16색</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.Grayscale16.Info">16개의 그레이스케일 항목이 있는 고정 4 bpp 팔레트</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.Grayscale">그레이스케일 256색</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.Grayscale.Info">256개의 그레이스케일 항목이 있는 고정 8 bpp 팔레트</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.SystemDefault4BppPalette">시스템 기본 4 bpp 팔레트</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.SystemDefault4BppPalette.Info">표준 16 sRGB 색상을 사용하는 고정 4 bpp 팔레트</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.SystemDefault8BppPalette">시스템 기본 8 bpp 팔레트</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.SystemDefault8BppPalette.Info">'웹 안전' 색상과 투명도를 포함한 고정 8 bpp 팔레트</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.Rgb332">RGB 332 팔레트</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Predefined.Rgb332.Info">RGB 332 색 공간을 사용하는 고정 8 bpp 팔레트</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Palette.Octree">옥트리 양자화기</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Palette.Octree.Info">옥트리 알고리즘으로 각 프레임의 팔레트 최적화</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Palette.MedianCut">미디언 컷 양자화기</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Palette.MedianCut.Info">미디언 컷 알고리즘으로 각 프레임의 팔레트 최적화</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Palette.Wu">Wu 양자화기</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Quantizer.Palette.Wu.Info">Xiaolin Wu 알고리즘으로 각 프레임의 팔레트 최적화</s:String>
+
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer">디더러</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Strength">강도</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Strength.Info">디더러의 강도, 또는 0으로 자동 보정</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Seed">시드</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Seed.Info">특정 랜덤 디더링 패턴을 생성하는 데 사용할 정수 시드.&#10;비워 두면 매 프레임마다 랜덤 시드 사용</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.None">없음</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.None.Info">디더링 없이 프레임을 양자화합니다.</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.SerpentineProcessing">서펜타인 처리</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.SerpentineProcessing.Info">체크하면 오차 전파 방향이 줄마다 변경됩니다.&#10;오차 확산 디더링의 리플 효과를 줄이는 데 도움이 됩니다</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer2X2">Bayer 2x2 (순서)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer2X2.Info">2x2 Bayer 매트릭스 패턴</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer3X3">Bayer 3x3 (순서)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer3X3.Info">3x3 Bayer 매트릭스 패턴</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer4X4">Bayer 4x4 (순서)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer4X4.Info">4x4 Bayer 매트릭스 패턴</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer8X8">Bayer 8x8 (순서)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.Bayer8X8.Info">8x8 Bayer 매트릭스 패턴</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.DottedHalftone">점 하프톤 (순서)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.DottedHalftone.Info">점 하프톤 패턴의 8x8 매트릭스</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.BlueNoise">블루 노이즈 (순서)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.Ordered.BlueNoise.Info">블루 노이즈 패턴의 64x64 매트릭스</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Atkinson">Atkinson (오차 확산)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Atkinson.Info">Bill Atkinson의 4x3 매트릭스 (유효값 6개)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Burkes">Burkes (오차 확산)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Burkes.Info">D. Burkes의 5x2 매트릭스</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.FloydSteinberg">Floyd-Steinberg (오차 확산)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.FloydSteinberg.Info">Floyd와 Steinberg의 원본 3x2 매트릭스</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.JarvisJudiceNinke">Jarvis-Judice-Ninke (오차 확산)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.JarvisJudiceNinke.Info">Jarvis, Judice, Ninke의 5x3 매트릭스</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Sierra3">Sierra 3 (오차 확산)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Sierra3.Info">Frankie Sierra의 5x3 매트릭스</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Sierra2">Sierra 2 (오차 확산)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Sierra2.Info">Frankie Sierra의 5x2 매트릭스</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.SierraLite">Sierra Lite (오차 확산)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.SierraLite.Info">Frankie Sierra의 3x2 매트릭스</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.StevensonArce">Stevenson-Arce (오차 확산)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.StevensonArce.Info">Stevenson과 Arce의 7x4 육각형 매트릭스</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Stucki">Stucki (오차 확산)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.ErrorDiffusion.Stucki.Info">Stucki의 5x3 매트릭스</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.RandomNoise">랜덤 노이즈</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.RandomNoise.Info">랜덤 화이트 노이즈</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.InterleavedGradientNoise">인터리브드 그라데이션 노이즈</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.Ditherer.InterleavedGradientNoise.Info">공식으로 생성된 비랜덤 그라데이션 노이즈</s:String>
+
+    <s:String x:Key="S.Preset.Encoder.Gif.AllowDeltaFrames">델타 프레임 허용</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.AllowDeltaFrames.Info">체크하면 인코딩 중 변경되지 않은 픽셀을 감지합니다.&#13;&#10;최적화된 양자화기와 함께 사용하면 프레임이 256색 이상을 가질 수 있습니다.&#13;&#10;양자화기가 투명도를 사용하지 않고 잘린 프레임 허용이 체크 해제된 경우 이 옵션은 무시됩니다</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.DeltaTolerance">델타 허용 오차</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.DeltaTolerance.Info">변경된 픽셀을 감지할 때 최대 허용 오차를 지정합니다.&#13;&#10;0이면 차이를 전혀 허용하지 않습니다.&#13;&#10;255이면 내용 없이 추가되는 프레임이 있을 수 있습니다.&#13;&#10;최적화된 양자화기의 합리적인 범위는 0~16입니다. 고정 색상은 디더링과 함께 더 큰 값을 사용할 수 있습니다</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.AllowClippedFrames">잘린 프레임 허용</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.AllowClippedFrames.Info">체크하면 인코더가 실제 해상도보다 작은 프레임을 추가할 수 있습니다.&#13;&#10;델타 프레임 허용이 체크 해제된 경우 가능한 투명 테두리만 자를 수 있습니다</s:String>
+
+    <s:String x:Key="S.Preset.Encoder.Gif.AllowDeltaIgnored">현재 구성이 알파를 사용하지 않고 잘린 프레임 허용이 체크 해제되어 델타 프레임 허용이 무시됩니다</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.AllowDeltaIgnored.Enable">잘린 프레임 활성화</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.HighDeltaTolerance">델타 허용 오차가 너무 높으면 결과가 품질이 낮을 수 있습니다</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.HighDeltaTolerance.Reset">델타 허용 오차 초기화</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.AllowClippedIgnored">현재 구성이 알파를 사용하지 않고 델타 프레임 허용이 체크 해제되어 잘린 프레임 허용이 효과가 없습니다</s:String>
+    <s:String x:Key="S.Preset.Encoder.Gif.AllowClippedIgnored.Enable">델타 프레임 활성화</s:String>
+
+    <!--Preset • Webm-->
+    <s:String x:Key="S.Preset.Encoder.Webm.Preset.None">없음</s:String>
+    <s:String x:Key="S.Preset.Encoder.Webm.Preset.Default">기본</s:String>
+    <s:String x:Key="S.Preset.Encoder.Webm.Preset.Picture">사진</s:String>
+    <s:String x:Key="S.Preset.Encoder.Webm.Preset.Photo">포토</s:String>
+    <s:String x:Key="S.Preset.Encoder.Webm.Preset.Drawing">그리기</s:String>
+    <s:String x:Key="S.Preset.Encoder.Webm.Preset.Icon">아이콘</s:String>
+    <s:String x:Key="S.Preset.Encoder.Webm.Preset.Text">텍스트</s:String>
+    <s:String x:Key="S.Preset.Encoder.Webm.Lossless">무손실 모드 사용</s:String>
+    <s:String x:Key="S.Preset.Encoder.Webm.Lossless.Info">최대 품질, 색상 저하 없음</s:String>
+    
+    <!--Preset • Video-->
+    <s:String x:Key="S.Preset.Encoder.Video.Codec">코덱</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Codec.Info">원시 픽셀을 출력 파일로 변환하는&#10;비디오 인코더</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset">코덱 프리셋</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.None">없음</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.VerySlow">매우 느림</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Slower">더 느림</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Slow">느림</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Medium">중간</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Fast">빠름</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Faster">더 빠름</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.VeryFast">매우 빠름</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.SuperFast">초고속</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.UltraFast">울트라 패스트</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Quality">품질</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Balanced">균형</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Speed">속도</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Default">기본</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Lossless">무손실</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.LosslessHp">무손실 (고성능)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Hp">고성능</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Hq">고품질</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Bd">블루레이 디스크</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.LowLatency">저지연</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.LowLatencyHp">저지연 (고성능)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.LowLatencyHq">저지연 (고품질)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.CodecPreset.Info">인코딩 속도 대 압축 비율,&#10;느린 프리셋이 더 나은 압축을 제공할 수 있습니다&#10;(파일 크기 대비 품질)</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.HardwareAcceleration">하드웨어 가속</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.HardwareAcceleration.Off">끄기</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.HardwareAcceleration.On">켜기</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.HardwareAcceleration.Auto">자동 선택</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.HardwareAcceleration.Info">전용 하드웨어(비디오 그래픽) 사용을 제어합니다.&#10;끄기: 전용 하드웨어를 사용하지 않습니다.&#10;켜기: 전용 하드웨어를 사용하고 특수 인코더를 선택할 수 있습니다.&#10;자동: 전용 하드웨어를 사용하고 가능한 경우 올바른 인코더를 자동 선택합니다</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.PixelFormat">픽셀 형식</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.PixelFormat.Auto">자동</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Crf.Info">상수 레이트 팩터.&#10;품질 및 레이트 제어 설정.&#10;이 속성을 설정하지 않으려면 비워 두세요</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.QualityLevel">품질 수준</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.QualityLevel.Info">값이 작을수록 품질이 좋습니다</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Bitrate">비트레이트</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Info">대상 비디오 비트 레이트</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Mode">비트레이트 모드</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Mode.Constant">고정</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Mode.Variable">가변</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Minimum">최소 레이트</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Minimum.Info">최소 비트레이트 허용 오차.&#10;CBR 모드 사용 시 가장 유용합니다.&#10;이 속성을 설정하지 않으려면 비워 두거나 0으로 설정하세요</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Maximum">최대 레이트</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Maximum.Info">최대 비트레이트 허용 오차.&#10;버퍼 크기도 설정해야 합니다.&#10;이 속성을 설정하지 않으려면 비워 두거나 0으로 설정하세요</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Buffer">버퍼 크기</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Bitrate.Buffer.Info">레이트 제어 버퍼 크기.&#10;이 속성을 설정하지 않으려면 비워 두거나 0으로 설정하세요</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Audio.Include">오디오 포함</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Audio.Include.Info">프로젝트에 오디오 트랙이 있으면 출력 파일에 포함됩니다</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Audio.Format">오디오 형식</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Audio.Codec">오디오 코덱</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Audio.BitRate">오디오 비트 레이트</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Audio.SampleRate">오디오 샘플 레이트</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Audio.Channels">채널</s:String>
+    <s:String x:Key="S.Preset.Encoder.Video.Audio.Channels.Info">프로젝트의 채널 수를 따르려면 비워 두세요</s:String>
+
+    <!--Preset • Psd-->
+    <s:String x:Key="S.Preset.Encoder.Psd.Compress">이미지 압축</s:String>
+    <s:String x:Key="S.Preset.Encoder.Psd.Compress.Info">RLE 알고리즘을 사용하여 이미지 데이터를 압축합니다</s:String>
+
+    <!--Preset • Zip-->
+    <s:String x:Key="S.Preset.Encoder.Image.Zip">이미지 Zip 압축</s:String>
+    <s:String x:Key="S.Preset.Encoder.Image.Zip.Info">이미지를 압축된 폴더 안에 내보냅니다</s:String>
+
+    <!--Windows • Upload Preset Settings-->
+    <s:String x:Key="S.UploadPreset.Title">업로드 프리셋</s:String>
+    <s:String x:Key="S.UploadPreset.None">사용 가능한 프리셋 없음</s:String>
+    <s:String x:Key="S.UploadPreset.NoSelected">선택된 프리셋 없음</s:String>
+    <s:String x:Key="S.UploadPreset.Type.None">없음</s:String>
+    <s:String x:Key="S.UploadPreset.Type.Custom">사용자 지정</s:String>
+    <s:String x:Key="S.UploadPreset.IsAnonymous">익명</s:String>
+    <s:String x:Key="S.UploadPreset.IsAnonymous.Info">업로드가 어떤 계정에도 연결되지 않습니다</s:String>
+    <s:String x:Key="S.UploadPreset.Authorization">인증</s:String>
+    <s:String x:Key="S.UploadPreset.DirectLinks">직접 링크 사용</s:String>
+    <s:String x:Key="S.UploadPreset.DirectLinks.Info">제공된 링크가 업로드된 파일을 직접 가리킵니다</s:String>
+    <s:String x:Key="S.UploadPreset.PreferVideo">비디오 선호</s:String>
+    <s:String x:Key="S.UploadPreset.PreferVideo.Info">제공된 링크가 GIF 대신 비디오가 됩니다</s:String>
+    <s:String x:Key="S.UploadPreset.UploadToAlbum">앨범에 업로드</s:String>
+    <s:String x:Key="S.UploadPreset.UploadToAlbum.Info">파일이 선택한 앨범에 업로드됩니다</s:String>
+    <s:String x:Key="S.UploadPreset.Album">앨범</s:String>
+    <s:String x:Key="S.UploadPreset.Album.AskMe.Title">직접 선택</s:String>
+    <s:String x:Key="S.UploadPreset.Album.Empty.Title">사용 가능한 것 없음</s:String>
+    <s:String x:Key="S.UploadPreset.Album.Empty.Message">사용 가능한 앨범 또는 폴더 없음</s:String>
+    <s:String x:Key="S.UploadPreset.Album.NotSelected.Title">선택되지 않음</s:String>
+    <s:String x:Key="S.UploadPreset.Album.NotSelected.Message">선택된 앨범 또는 폴더 없음</s:String>
+    <s:String x:Key="S.UploadPreset.Album.Refresh">앨범 새로고침</s:String>
+
+    <s:String x:Key="S.UploadPreset.Status.Authorized">인증 완료.</s:String>
+    <s:String x:Key="S.UploadPreset.Status.NotAuthorized">인증되지 않음.</s:String>
+    <s:String x:Key="S.UploadPreset.Status.Expired">{0}에 인증이 만료되었습니다.</s:String>
+    <s:String x:Key="S.UploadPreset.Status.Valid">{0}까지 인증 유효.</s:String>
+
+    <!--Windows • Upload Preset Settings > History-->
+    <s:String x:Key="S.UploadPreset.History.Title">업로드 기록</s:String>
+    <s:String x:Key="S.UploadPreset.History.Title.Info">이 프리셋으로 업로드된 파일 목록</s:String>
+    <s:String x:Key="S.UploadPreset.History.Item">업로드 항목</s:String>
+    <s:String x:Key="S.UploadPreset.History.Details">세부 정보</s:String>
+
+    <s:String x:Key="S.UploadPreset.History.Empty.Header">이 프리셋에 대한 업로드 기록이 없습니다</s:String>
+    <s:String x:Key="S.UploadPreset.History.Empty.Message">파일이 업로드되면 이 목록에 표시됩니다</s:String>
+    <s:String x:Key="S.UploadPreset.History.NotSelected.Header">이전 업로드가 선택되지 않음</s:String>
+    <s:String x:Key="S.UploadPreset.History.NotSelected.Message">업로드를 선택하면 아래에 세부 정보가 표시됩니다</s:String>
+
+    <!--Presets • Listing-->
+    <s:String x:Key="S.Presets.Default.Title">기본 ({0})</s:String>
+    <s:String x:Key="S.Presets.Default.Description">인코더의 기본 프리셋</s:String>
+    <s:String x:Key="S.Presets.Twitter.Title">X/Twitter용 ({0})</s:String>
+    <s:String x:Key="S.Presets.Twitter.Description">X/Twitter 업로드 제한을 준수합니다 (크기 및 해상도 제외)</s:String>
+    <s:String x:Key="S.Presets.Hevc.Title">HEVC ({0})</s:String>
+    <s:String x:Key="S.Presets.Hevc.Description">고효율 비디오 코딩</s:String>
+    <s:String x:Key="S.Presets.Vp8.Title">VP8 ({0})</s:String>
+    <s:String x:Key="S.Presets.Vp8.Description">더 오래되고 잘 알려진 코덱</s:String>
+    <s:String x:Key="S.Presets.Filename.Animation">애니메이션</s:String>
+    <s:String x:Key="S.Presets.Filename.Video">비디오</s:String>
+    <s:String x:Key="S.Presets.Filename.Image">이미지</s:String>
+    <s:String x:Key="S.Presets.Filename.Audio">오디오</s:String>
+    <s:String x:Key="S.Presets.Filename.Project">프로젝트</s:String>
+
+    <s:String x:Key="S.Presets.Gif.Embedded.High.Title">고품질</s:String>
+    <s:String x:Key="S.Presets.Gif.Embedded.High.Description">색상과 그라데이션이 많은 녹화에 더 적합합니다.</s:String>
+    <s:String x:Key="S.Presets.Gif.Embedded.Transparent.Title">고품질 • 투명 배경</s:String>
+    <s:String x:Key="S.Presets.Gif.Embedded.Transparent.Description">투명 배경으로 애니메이션 저장을 지원합니다.</s:String>
+    <s:String x:Key="S.Presets.Gif.Embedded.Graphics.Title">고품질 • 그래픽</s:String>
+    <s:String x:Key="S.Presets.Gif.Embedded.Graphics.Description">색상 수가 적은 녹화에 더 좋습니다.</s:String>
+    <s:String x:Key="S.Presets.Gif.KGySoft.Balanced.Title">KGy SOFT • 균형</s:String>
+    <s:String x:Key="S.Presets.Gif.KGySoft.Balanced.Description">디더링 없이 Wu 양자화기를 사용하여 사진과 같은 이미지에 좋은 품질.</s:String>
+    <s:String x:Key="S.Presets.Gif.KGySoft.High.Title">KGy SOFT • 고품질</s:String>
+    <s:String x:Key="S.Presets.Gif.KGySoft.High.Description">높은 비트 레벨과 Floyd-Steinberg 오차 확산 디더링을 사용하는 Wu 양자화기로 사진과 같은 이미지에 고품질.</s:String>
+    <s:String x:Key="S.Presets.Gif.KGySoft.Fast.Title">KGy SOFT • 저품질, 더 빠름</s:String>
+    <s:String x:Key="S.Presets.Gif.KGySoft.Fast.Description">모든 프레임을 동일한 사전 정의된 '웹 안전' 팔레트와 Bayer 8x8 순서 디더링으로 양자화.</s:String>
+    <s:String x:Key="S.Presets.Gif.Ffmpeg.High.Title">FFmpeg • 고품질</s:String>
+    <s:String x:Key="S.Presets.Gif.Ffmpeg.High.Description">이미지 품질이 높지만 파일 크기가 더 큽니다.</s:String>
+    <s:String x:Key="S.Presets.Gif.Ffmpeg.Low.Title">FFmpeg • 저품질</s:String>
+    <s:String x:Key="S.Presets.Gif.Ffmpeg.Low.Description">이미지 품질이 낮지만 파일 크기가 더 작습니다.</s:String>
+    <s:String x:Key="S.Presets.Gif.Gifski.High.Title">Gifski • 고품질</s:String>
+    <s:String x:Key="S.Presets.Gif.Gifski.High.Description">이미지 품질이 높지만 파일 크기가 더 큽니다.</s:String>
+    <s:String x:Key="S.Presets.Gif.Gifski.Low.Title">Gifski • 저품질</s:String>
+    <s:String x:Key="S.Presets.Gif.Gifski.Low.Description">이미지 품질이 낮지만 파일 크기가 더 작습니다.</s:String>
+    <s:String x:Key="S.Presets.Gif.Gifski.Fast.Title">Gifski • 저품질 및 더 빠른 인코딩</s:String>
+    <s:String x:Key="S.Presets.Gif.Gifski.Fast.Description">이미지 품질이 더 낮고 인코딩이 빠르지만 파일 크기가 더 작습니다.</s:String>
+
+    <s:String x:Key="S.Presets.Apng.Ffmpeg.High.Title">FFmpeg • 고품질</s:String>
+    <s:String x:Key="S.Presets.Apng.Ffmpeg.High.Description">이미지 품질이 높고 파일 크기가 작지만 인코딩이 느립니다.</s:String>
+    <s:String x:Key="S.Presets.Apng.Ffmpeg.Low.Title">FFmpeg • 저품질</s:String>
+    <s:String x:Key="S.Presets.Apng.Ffmpeg.Low.Description">이미지 품질이 낮고 파일 크기가 작으며 인코딩이 빠릅니다.</s:String>
+    <s:String x:Key="S.Presets.Webp.Ffmpeg.High.Title">고품질</s:String>
+    <s:String x:Key="S.Presets.Webp.Ffmpeg.High.Description">이미지 품질이 높고 파일 크기가 작습니다.</s:String>
+
+    <s:String x:Key="S.Presets.Audio.Low.Title">낮음</s:String>
+    <s:String x:Key="S.Presets.Audio.Low.Description">캐주얼 음성 나레이션용; 128 kbps • 44.1 kHz</s:String>
+    <s:String x:Key="S.Presets.Audio.Medium.Title">중간</s:String>
+    <s:String x:Key="S.Presets.Audio.Medium.Description">일상 오디오를 위한 균형 잡힌 충실도; 192 kbps • 44.1 kHz</s:String>
+    <s:String x:Key="S.Presets.Audio.High.Title">높음</s:String>
+    <s:String x:Key="S.Presets.Audio.High.Description">음악 및 비디오 재생을 위한 풍부한 사운드; 320 kbps • 48 kHz</s:String>
+    <s:String x:Key="S.Presets.Audio.Studio.Title">스튜디오</s:String>
+    <s:String x:Key="S.Presets.Audio.Studio.Description">전문 마스터링을 위한 최대 디테일; 320 kbps • 96 kHz</s:String>
+
+    <!--Font Styles-->
+    <s:String x:Key="S.FontStyles">글꼴 스타일</s:String>
+    <s:String x:Key="S.FontStyles.Normal">보통</s:String>
+    <s:String x:Key="S.FontStyles.Oblique">기울임</s:String>
+    <s:String x:Key="S.FontStyles.Italic">이탤릭</s:String>
+
+    <!--Font Weight-->
+    <s:String x:Key="S.FontWeights">글꼴 두께</s:String>
+    <s:String x:Key="S.FontWeights.Thin">얇게</s:String>
+    <s:String x:Key="S.FontWeights.ExtraLight">매우 가볍게</s:String>
+    <s:String x:Key="S.FontWeights.Light">가볍게</s:String>
+    <s:String x:Key="S.FontWeights.Normal">보통</s:String>
+    <s:String x:Key="S.FontWeights.Medium">중간</s:String>
+    <s:String x:Key="S.FontWeights.SemiBold">세미 볼드</s:String>
+    <s:String x:Key="S.FontWeights.Bold">굵게</s:String>
+    <s:String x:Key="S.FontWeights.ExtraBold">매우 굵게</s:String>
+    <s:String x:Key="S.FontWeights.Heavy">무겁게</s:String>
+    <s:String x:Key="S.FontWeights.ExtraHeavy">매우 무겁게</s:String>
+
+    <!--Font Stretch-->
+    <s:String x:Key="S.FontStretch">글꼴 너비</s:String>
+    <s:String x:Key="S.FontStretch.UltraCondensed">초극단 압축</s:String>
+    <s:String x:Key="S.FontStretch.ExtraCondensed">극단 압축</s:String>
+    <s:String x:Key="S.FontStretch.Condensed">압축</s:String>
+    <s:String x:Key="S.FontStretch.SemiCondensed">세미 압축</s:String>
+    <s:String x:Key="S.FontStretch.Medium">중간</s:String>
+    <s:String x:Key="S.FontStretch.Normal">보통</s:String>
+    <s:String x:Key="S.FontStretch.SemiExpanded">세미 확장</s:String>
+    <s:String x:Key="S.FontStretch.Expanded">확장</s:String>
+    <s:String x:Key="S.FontStretch.ExtraExpanded">극단 확장</s:String>
+    <s:String x:Key="S.FontStretch.UltraExpanded">초극단 확장</s:String>
+
+    <!--Alignment-->
+    <s:String x:Key="S.Alignment.Horizontal">가로 정렬</s:String>
+    <s:String x:Key="S.Alignment.Vertical">세로 정렬</s:String>
+    <s:String x:Key="S.Alignment.Top">위</s:String>
+    <s:String x:Key="S.Alignment.Left">왼쪽</s:String>
+    <s:String x:Key="S.Alignment.Center">가운데</s:String>
+    <s:String x:Key="S.Alignment.Bottom">아래</s:String>
+    <s:String x:Key="S.Alignment.Right">오른쪽</s:String>
+    <s:String x:Key="S.Alignment.Stretch">늘리기</s:String>
+    <s:String x:Key="S.Alignment.Free">자유 (바인딩 없음)</s:String>
+
+    <!--Orientation-->
+    <s:String x:Key="S.Orientation">방향</s:String>
+    <s:String x:Key="S.Orientation.Horizontal">가로</s:String>
+    <s:String x:Key="S.Orientation.Vertical">세로</s:String>
+
+    <!--Text Alignment-->
+    <s:String x:Key="S.TextAlignment">텍스트 정렬</s:String>
+    <s:String x:Key="S.TextAlignment.Left">왼쪽</s:String>
+    <s:String x:Key="S.TextAlignment.Right">오른쪽</s:String>
+    <s:String x:Key="S.TextAlignment.Center">가운데</s:String>
+    <s:String x:Key="S.TextAlignment.Justify">양쪽 맞춤</s:String>
+</ResourceDictionary>

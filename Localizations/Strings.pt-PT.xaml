@@ -45,6 +45,7 @@
     <!--<s:String x:Key="S.Imperative.Continue">Continuar</s:String>-->
     <!--<s:String x:Key="S.Imperative.Clear">Limpar</s:String>-->
     <!--<s:String x:Key="S.Imperative.SeeMore">Ver mais</s:String>-->
+    <!--<s:String x:Key="S.Imperative.SeeError">Ver erro</s:String>-->
     <!--<s:String x:Key="S.Imperative.FixIssue">Corrigir problema</s:String>-->
     <!--<s:String x:Key="S.Imperative.Login">Entrar</s:String>-->
     <!--<s:String x:Key="S.Imperative.Logout">Sair (Logout)</s:String>-->
@@ -153,50 +154,53 @@
     <!--Dialogs • Troubleshooter-->
     <s:String x:Key="S.Dialog.Troubleshooter.Header">Resolução de problemas</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Subtitle">Verifique se as funções básicas da aplicação estão a funcionar e tente recuperá‑las.</s:String>
-    <!-- <s:String x:Key="S.Dialog.Troubleshooter.Header2">Pós‑instalação</s:String> -->
+    <!--<s:String x:Key="S.Dialog.Troubleshooter.Header2">Pós‑instalação</s:String> -->
     <s:String x:Key="S.Dialog.Troubleshooter.Subtitle2">Preparações e testes básicos para garantir que tudo está a funcionar.</s:String>
-    <!-- <s:String x:Key="S.Dialog.Troubleshooter.Test.FolderAccess.Title">Acesso à pasta</s:String> -->
+    <!--<s:String x:Key="S.Dialog.Troubleshooter.Test.FolderAccess.Title">Acesso à pasta</s:String> -->
     <s:String x:Key="S.Dialog.Troubleshooter.Test.FolderAccess.Description">Verifica se a aplicação tem acesso à pasta de cache</s:String>
     <!--<s:String x:Key="S.Dialog.Troubleshooter.Test.FFmpeg.Title">FFmpeg</s:String>-->
     <s:String x:Key="S.Dialog.Troubleshooter.Test.FFmpeg.Description">Utilizado para exportação de vídeo/animação</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Test.Screen.Title">Gravação de ecrã</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Test.Screen.Description">Verifica se a captura de ecrã está a funcionar</s:String>
-    <!-- <s:String x:Key="S.Dialog.Troubleshooter.Test.Audio.Title">Gravação de áudio</s:String> -->
+    <!--<s:String x:Key="S.Dialog.Troubleshooter.Test.Audio.Title">Gravação de áudio</s:String> -->
     <s:String x:Key="S.Dialog.Troubleshooter.Test.Audio.Description">Verifica se a captura de áudio está a funcionar</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Result.Passed">Concluído</s:String>
-    <!-- <s:String x:Key="S.Dialog.Troubleshooter.Result.Failed">Falhou – {0}</s:String> -->
-    <!-- <s:String x:Key="S.Dialog.Troubleshooter.Result.FailedShort">Falhou</s:String> -->
-    <!-- <s:String x:Key="S.Dialog.Troubleshooter.Error.CacheReadMismatch">O conteúdo lido do cache não corresponde ao conteúdo escrito.</s:String> -->
-    <!-- <s:String x:Key="S.Dialog.Troubleshooter.Error.AppDataReadMismatch">O conteúdo lido do AppData não corresponde ao conteúdo escrito.</s:String> -->
-    <!-- <s:String x:Key="S.Dialog.Troubleshooter.Error.CachePathMissing">O caminho do cache não está configurado ou está vazio.</s:String> -->
+    <!--<s:String x:Key="S.Dialog.Troubleshooter.Result.Failed">Falhou – {0}</s:String> -->
+    <!--<s:String x:Key="S.Dialog.Troubleshooter.Result.FailedShort">Falhou</s:String> -->
+    <!--<s:String x:Key="S.Dialog.Troubleshooter.Error.CacheReadMismatch">O conteúdo lido do cache não corresponde ao conteúdo escrito.</s:String> -->
+    <!--<s:String x:Key="S.Dialog.Troubleshooter.Error.AppDataReadMismatch">O conteúdo lido do AppData não corresponde ao conteúdo escrito.</s:String> -->
+    <!--<s:String x:Key="S.Dialog.Troubleshooter.Error.CachePathMissing">O caminho do cache não está configurado ou está vazio.</s:String> -->
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegNotFound">FFmpeg não encontrado. Diretório da aplicação, pasta de plugins, ProgramData e PATH do sistema verificados.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegLocationInvalid">A localização do FFmpeg está vazia ou o ficheiro não existe.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionEmptyOutput">O FFmpeg devolveu uma saída vazia. O executável pode estar corrompido ou incompatível.</s:String>
-    <!-- <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionCommandFailed">O comando FFmpeg -version falhou. Saída: {0}</s:String> -->
+    <!--<s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionCommandFailed">O comando FFmpeg -version falhou. Saída: {0}</s:String> -->
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionUnknown">Não foi possível determinar a versão do FFmpeg a partir da saída.</s:String>
-    <!-- <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionOld">A versão do FFmpeg {0} é anterior à 6.0. Atualize para uma versão mais recente.</s:String> -->
-    <!-- <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingFailed">Falha na codificação do FFmpeg.</s:String> -->
+    <!--<s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionOld">A versão do FFmpeg {0} é anterior à 6.0. Atualize para uma versão mais recente.</s:String> -->
+    <!--<s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionUnsupported">A versão {0} do FFmpeg não é compatível.</s:String>-->
+    <!--<s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingFailed">Falha na codificação do FFmpeg.</s:String> -->
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingOutputMissing">Falha na codificação do FFmpeg. O ficheiro de saída não foi criado.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingOutputEmpty">Falha na codificação do FFmpeg. O ficheiro de saída está vazio.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegDownloadFailed">Falha no download do FFmpeg através do GitHub e da API.</s:String>
-    <!-- <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegAssetMissing">Nenhum asset compatível do FFmpeg encontrado na versão mais recente do GitHub.</s:String> -->
-    <!-- <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegExtractionFailed">Falha ao extrair o FFmpeg do arquivo.</s:String> -->
+    <!--<s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegAssetMissing">Nenhum asset compatível do FFmpeg encontrado na versão mais recente do GitHub.</s:String> -->
+    <!--<s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegExtractionFailed">Falha ao extrair o FFmpeg do arquivo.</s:String> -->
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegApiDownloadInvalid">O download do FFmpeg através da API resultou num ficheiro vazio ou inexistente.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegExeMissingInArchive">ffmpeg.exe não encontrado no arquivo descarregado.</s:String>
-    <!-- <s:String x:Key="S.Dialog.Troubleshooter.Error.Unexpected">Erro inesperado: {0}</s:String> -->
+    <!--<s:String x:Key="S.Dialog.Troubleshooter.Error.Unexpected">Erro inesperado: {0}</s:String> -->
     <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoMonitors">Nenhum monitor detetado.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoFramesCaptured">Nenhum fotograma capturado.</s:String>
+    <!--<s:String x:Key="S.Dialog.Troubleshooter.Screen.DpiAwareness">Reconhecimento de DPI</s:String>-->
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.DpiAwarenessFailure">O reconhecimento de DPI por monitor V2 não está ativo. Verifique a substituição de dimensionamento de DPI elevado da aplicação nas definições de compatibilidade do Windows.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDevices">Nenhum dispositivo de áudio ativo detetado.</s:String>
-    <!-- <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Output">Saída</s:String> -->
-    <!-- <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Input">Entrada</s:String> -->
+    <!--<s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Output">Saída</s:String> -->
+    <!--<s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Input">Entrada</s:String> -->
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoActiveOutputStream">Nenhum fluxo de áudio do sistema ativo detetado</s:String>
-    <!-- <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDataCaptured">Nenhum dado de áudio capturado</s:String> -->
-    <!-- <s:String x:Key="S.Dialog.Troubleshooter.Audio.CapturedBytes">Capturado {0}</s:String> -->
-    <!-- <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestNotImplemented">Teste não implementado.</s:String> -->
-    <!-- <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestPassed">Teste concluído com sucesso.</s:String> -->
-    <!-- <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestFailed">Teste falhou.</s:String> -->
-    <!-- <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestCancelled">Teste cancelado.</s:String> -->
-    <!-- <s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestError">Erro no teste: {0}</s:String> -->
+    <!--<s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDataCaptured">Nenhum dado de áudio capturado</s:String> -->
+    <!--<s:String x:Key="S.Dialog.Troubleshooter.Audio.CapturedBytes">Capturado {0}</s:String> -->
+    <!--<s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestNotImplemented">Teste não implementado.</s:String> -->
+    <!--<s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestPassed">Teste concluído com sucesso.</s:String> -->
+    <!--<s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestFailed">Teste falhou.</s:String> -->
+    <!--<s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestCancelled">Teste cancelado.</s:String> -->
+    <!--<s:String x:Key="S.Dialog.Troubleshooter.TestItem.TestError">Erro no teste: {0}</s:String> -->
     <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairNotAvailable">Reparação não disponível para este teste.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.TestItem.Repairing">A reparar…</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.TestItem.RepairCompleted">Reparação concluída com sucesso.</s:String>
@@ -519,6 +523,10 @@
     <!--<s:String x:Key="S.Validation.Missing.Ffmpeg.Message">FFmpeg não foi encontrado. Baixe-o via Configurações > Plugins</s:String>-->
     <!--<s:String x:Key="S.Validation.Missing.Gifski.Message">Gifski não foi encontrado. Baixe-o via Configurações > Plugins</s:String>-->
 
+    <!--Validation • Unsupported dependency-->
+    <s:String x:Key="S.Validation.Unsupported.Header">Não compatível</s:String>
+    <s:String x:Key="S.Validation.Unsupported.Ffmpeg.Message">A versão atual do FFmpeg não é compatível. Descarregue uma nova através de Definições > Plugins</s:String>
+    
     <!--Validation • Empty parameters-->
     <!--<s:String x:Key="S.Validation.EmptyParameters.Header">Parâmetros vazios</s:String>-->
     <!--<s:String x:Key="S.Validation.EmptyParameters.Message">Nenhum parâmetro definido para a predefinição</s:String>-->
@@ -527,6 +535,10 @@
     <!--<s:String x:Key="S.Validation.MissingParameters.Header">Parâmetros ausentes</s:String>-->
     <!--<s:String x:Key="S.Validation.MissingParameters.Message">Os parâmetros especiais {input} e/ou {output} estão ausentes no campo de parâmetros</s:String>-->
 
+    <!--Validation • Invalid FFmpeg parameters-->
+    <!--<s:String x:Key="S.Validation.InvalidFfmpegParameters.Header">Falha na validação do FFmpeg</s:String>-->
+    <s:String x:Key="S.Validation.InvalidFfmpegParameters.Message">O FFmpeg não conseguiu codificar com as definições selecionadas.</s:String>
+    
     <!--Validation • Invalid audio codec-->
     <!--<s:String x:Key="S.Validation.InvalidAudioCodec.Header">Codec de áudio inválido</s:String>-->
     <!--<s:String x:Key="S.Validation.InvalidAudioCodec.Webm.Message">O áudio WebM deve usar Opus ou Vorbis</s:String>-->
@@ -680,7 +692,7 @@
 
     <!--Warnings • FFmpeg missing-->
     <s:String x:Key="S.Warning.TroubleshooterFfmpeg.Header">FFmpeg em falta</s:String>
-    <!-- <s:String x:Key="S.Warning.TroubleshooterFfmpeg.Message">A exportação de vídeo não será possível sem este plugin</s:String> -->
+    <!--<s:String x:Key="S.Warning.TroubleshooterFfmpeg.Message">A exportação de vídeo não será possível sem este plugin</s:String> -->
 
     <!--Warnings • Graphics engine-->
     <!--<s:String x:Key="S.Warning.Graphics.Title">Alternar Adaptador Gráfico</s:String>-->
@@ -1147,15 +1159,15 @@
     <s:String x:Key="S.Editor.Timeline">Linha temporal</s:String>
     <!--<s:String x:Key="S.Editor.Timeline.Split">Dividir</s:String>-->
     <s:String x:Key="S.Editor.Timeline.Delete">Eliminar seleção</s:String>
-    <!-- <s:String x:Key="S.Editor.Timeline.TrimStart">Aparar início</s:String> -->
-    <!-- <s:String x:Key="S.Editor.Timeline.TrimEnd">Aparar fim</s:String> -->
-    <!-- <s:String x:Key="S.Editor.Timeline.TrimEmpty">Remover partes vazias...</s:String> -->
-    <!-- <s:String x:Key="S.Editor.Timeline.TrimEmpty.Start">Início</s:String> -->
-    <!-- <s:String x:Key="S.Editor.Timeline.TrimEmpty.StartEnd">Início e fim</s:String> -->
-    <!-- <s:String x:Key="S.Editor.Timeline.TrimEmpty.End">Fim</s:String> -->
-    <!-- <s:String x:Key="S.Editor.Timeline.SetLength">Definir duração...</s:String> -->
+    <!--<s:String x:Key="S.Editor.Timeline.TrimStart">Aparar início</s:String> -->
+    <!--<s:String x:Key="S.Editor.Timeline.TrimEnd">Aparar fim</s:String> -->
+    <!--<s:String x:Key="S.Editor.Timeline.TrimEmpty">Remover partes vazias...</s:String> -->
+    <!--<s:String x:Key="S.Editor.Timeline.TrimEmpty.Start">Início</s:String> -->
+    <!--<s:String x:Key="S.Editor.Timeline.TrimEmpty.StartEnd">Início e fim</s:String> -->
+    <!--<s:String x:Key="S.Editor.Timeline.TrimEmpty.End">Fim</s:String> -->
+    <!--<s:String x:Key="S.Editor.Timeline.SetLength">Definir duração...</s:String> -->
     <s:String x:Key="S.Editor.Timeline.OptimizeForLoop">Otimizar para ciclo...</s:String>
-    <!-- <s:String x:Key="S.Editor.Timeline.Automatic">Duração automática</s:String> -->
+    <!--<s:String x:Key="S.Editor.Timeline.Automatic">Duração automática</s:String> -->
     <s:String x:Key="S.Editor.Timeline.TimeScroll">Deslocação temporal</s:String>
 
     <!--<s:String x:Key="S.Editor.Insert">Inserir</s:String>-->
@@ -1311,14 +1323,15 @@
     <!--<s:String x:Key="S.FeedbackPreview.FFmpeg.Header">Cabeçalho</s:String>-->
     <!--<s:String x:Key="S.FeedbackPreview.FFmpeg.Version">Versão</s:String>-->
     <!--<s:String x:Key="S.FeedbackPreview.FFmpeg.Older">(mais antiga)</s:String>-->
+    <!--<s:String x:Key="S.FeedbackPreview.FFmpeg.Unsupported">(não compatível)</s:String>-->
     <!--<s:String x:Key="S.FeedbackPreview.FFmpeg.Location">Local</s:String>-->
-    <!-- <s:String x:Key="S.FeedbackPreview.Telemetry.When">Quando</s:String> -->
-    <!-- <s:String x:Key="S.FeedbackPreview.Telemetry.Category">Categoria</s:String> -->
+    <!--<s:String x:Key="S.FeedbackPreview.Telemetry.When">Quando</s:String> -->
+    <!--<s:String x:Key="S.FeedbackPreview.Telemetry.Category">Categoria</s:String> -->
     <s:String x:Key="S.FeedbackPreview.Telemetry.Location">Localização</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.Trigger">Acionador</s:String>
-    <!-- <s:String x:Key="S.FeedbackPreview.Telemetry.Input">Entrada</s:String> -->
+    <!--<s:String x:Key="S.FeedbackPreview.Telemetry.Input">Entrada</s:String> -->
     <s:String x:Key="S.FeedbackPreview.Telemetry.UserInitiated">Iniciado pelo utilizador?</s:String>
-    <!-- <s:String x:Key="S.FeedbackPreview.Telemetry.Description">Descrição</s:String> -->
+    <!--<s:String x:Key="S.FeedbackPreview.Telemetry.Description">Descrição</s:String> -->
 
     <!--Project Types -->
     <!--<s:String x:Key="S.ProjectTypes.Recording">Gravação</s:String>-->
@@ -2149,6 +2162,7 @@
     <!--<s:String x:Key="S.Settings.Update.StoreHandled">Como atualizar?</s:String>-->
     <!--<s:String x:Key="S.Settings.Update.StoreHandled.Info">As atualizações são gerenciadas diretamente pela loja da Microsoft</s:String>-->
     <!--<s:String x:Key="S.Settings.Update.StoreHandled.Action">Abrir a loja da Microsoft</s:String>-->
+    <!--<s:String x:Key="S.Settings.Update.SteamHandled.Info">As atualizações são gerenciadas diretamente pela Steam</s:String>-->
 
     <!--Settings • About-->
     <!--<s:String x:Key="S.Settings.About.Contact">Contato</s:String>-->

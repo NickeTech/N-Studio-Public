@@ -45,6 +45,7 @@
     <!--<s:String x:Key="S.Imperative.Continue">Continuar</s:String>-->
     <!--<s:String x:Key="S.Imperative.Clear">Borrar</s:String>-->
     <!--<s:String x:Key="S.Imperative.SeeMore">Ver más</s:String>-->
+    <!--<s:String x:Key="S.Imperative.SeeError">Ver error</s:String>-->
     <!--<s:String x:Key="S.Imperative.FixIssue">Solucionar problema</s:String>-->
     <!--<s:String x:Key="S.Imperative.Login">Iniciar sesión</s:String>-->
     <!--<s:String x:Key="S.Imperative.Logout">Cerrar sesión</s:String>-->
@@ -175,6 +176,7 @@
     <!--<s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionCommandFailed">El comando FFmpeg -version falló. Salida: {0}</s:String>-->
     <!--<s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionUnknown">No se pudo determinar la versión de FFmpeg a partir de la salida.</s:String>-->
     <!--<s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionOld">La versión de FFmpeg {0} es anterior a la 6.0. Actualiza a una versión más reciente.</s:String>-->
+    <!--<s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionUnsupported">La versión de FFmpeg {0} no es compatible.</s:String>-->
     <!--<s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingFailed">La codificación con FFmpeg falló.</s:String>-->
     <!--<s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingOutputMissing">La codificación con FFmpeg falló. No se creó el archivo de salida.</s:String>-->
     <!--<s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingOutputEmpty">La codificación con FFmpeg falló. El archivo de salida está vacío.</s:String>-->
@@ -186,6 +188,8 @@
     <!--<s:String x:Key="S.Dialog.Troubleshooter.Error.Unexpected">Error inesperado: {0}</s:String>-->
     <!--<s:String x:Key="S.Dialog.Troubleshooter.Screen.NoMonitors">No se detectaron monitores.</s:String>-->
     <!--<s:String x:Key="S.Dialog.Troubleshooter.Screen.NoFramesCaptured">No se capturaron fotogramas.</s:String>-->
+    <!--<s:String x:Key="S.Dialog.Troubleshooter.Screen.DpiAwareness">Reconocimiento de PPP</s:String>-->
+    <!--<s:String x:Key="S.Dialog.Troubleshooter.Screen.DpiAwarenessFailure">El reconocimiento de PPP por monitor V2 no está activo. Comprueba la invalidación de escalado de PPP alto de la aplicación en la configuración de compatibilidad de Windows.</s:String>-->
     <!--<s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDevices">No se detectaron dispositivos de audio activos.</s:String>-->
     <!--<s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Output">Salida</s:String>-->
     <!--<s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Input">Entrada</s:String>-->
@@ -519,6 +523,10 @@
     <s:String x:Key="S.Validation.Missing.Ffmpeg.Message">No se encontró FFmpeg. Descárgalo desde Configuración > Plugins</s:String>
     <s:String x:Key="S.Validation.Missing.Gifski.Message">No se encontró Gifski. Descárgalo desde Configuración > Plugins</s:String>
 
+    <!--Validation • Unsupported dependency-->
+    <!--<s:String x:Key="S.Validation.Unsupported.Header">No compatible</s:String>-->
+    <!--<s:String x:Key="S.Validation.Unsupported.Ffmpeg.Message">La versión actual de FFmpeg no es compatible. Descarga una nueva a través de Configuración > Plugins</s:String>-->
+    
     <!--Validation • Empty parameters-->
     <!--<s:String x:Key="S.Validation.EmptyParameters.Header">Parámetros vacíos</s:String>-->
     <!--<s:String x:Key="S.Validation.EmptyParameters.Message">No hay parámetros configurados para el ajuste preestablecido</s:String>-->
@@ -527,6 +535,10 @@
     <!--<s:String x:Key="S.Validation.MissingParameters.Header">Parámetros faltantes</s:String>-->
     <!--<s:String x:Key="S.Validation.MissingParameters.Message">Los parámetros especiales {input} y/o {output} faltan en el campo de parámetros</s:String>-->
 
+    <!--Validation • Invalid FFmpeg parameters-->
+    <!--<s:String x:Key="S.Validation.InvalidFfmpegParameters.Header">Error de validación de FFmpeg</s:String>-->
+    <!--<s:String x:Key="S.Validation.InvalidFfmpegParameters.Message">FFmpeg no pudo codificar con la configuración seleccionada.</s:String>-->
+    
     <!--Validation • Invalid audio codec-->
     <!--<s:String x:Key="S.Validation.InvalidAudioCodec.Header">Códec de audio no válido</s:String>-->
     <!--<s:String x:Key="S.Validation.InvalidAudioCodec.Webm.Message">El audio WebM debe usar Opus o Vorbis</s:String>-->
@@ -1311,6 +1323,7 @@
     <!--<s:String x:Key="S.FeedbackPreview.FFmpeg.Header">Encabezado</s:String>-->
     <!--<s:String x:Key="S.FeedbackPreview.FFmpeg.Version">Versión</s:String>-->
     <!--<s:String x:Key="S.FeedbackPreview.FFmpeg.Older">(anterior)</s:String>-->
+    <!--<s:String x:Key="S.FeedbackPreview.FFmpeg.Unsupported">(no compatible)</s:String>-->
     <!--<s:String x:Key="S.FeedbackPreview.FFmpeg.Location">Ubicación</s:String>-->
     <!-- <s:String x:Key="S.FeedbackPreview.Telemetry.When">Cuándo</s:String> -->
     <!-- <s:String x:Key="S.FeedbackPreview.Telemetry.Category">Categoría</s:String> -->
@@ -2149,6 +2162,7 @@
     <!--<s:String x:Key="S.Settings.Update.StoreHandled">¿Cómo actualizar?</s:String>-->
     <!--<s:String x:Key="S.Settings.Update.StoreHandled.Info">Las actualizaciones se gestionan directamente a través de Microsoft Store</s:String>-->
     <!--<s:String x:Key="S.Settings.Update.StoreHandled.Action">Abrir Microsoft Store</s:String>-->
+    <!--<s:String x:Key="S.Settings.Update.SteamHandled.Info">Las actualizaciones se gestionan directamente a través de Steam</s:String>-->
 
     <!--Settings • About-->
     <!--<s:String x:Key="S.Settings.About.Contact">Contacto</s:String>-->

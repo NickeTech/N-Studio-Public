@@ -45,6 +45,7 @@
     <s:String x:Key="S.Imperative.Continue">Fortfahren</s:String>
     <s:String x:Key="S.Imperative.Clear">Löschen</s:String>
     <s:String x:Key="S.Imperative.SeeMore">Mehr anzeigen</s:String>
+    <s:String x:Key="S.Imperative.SeeError">Fehler anzeigen</s:String>
     <s:String x:Key="S.Imperative.FixIssue">Problem beheben</s:String>
     <s:String x:Key="S.Imperative.Login">Anmelden</s:String>
     <s:String x:Key="S.Imperative.Logout">Abmelden</s:String>
@@ -175,6 +176,7 @@
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionCommandFailed">FFmpeg‑Befehl „‑version“ fehlgeschlagen. Ausgabe: {0}</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionUnknown">FFmpeg‑Version konnte nicht aus der Ausgabe bestimmt werden.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionOld">FFmpeg‑Version {0} ist älter als 6.0. Bitte aktualisieren.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionUnsupported">FFmpeg-Version {0} wird nicht unterstützt.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingFailed">FFmpeg‑Kodierung fehlgeschlagen.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingOutputMissing">FFmpeg‑Kodierung fehlgeschlagen. Ausgabedatei wurde nicht erstellt.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingOutputEmpty">FFmpeg‑Kodierung fehlgeschlagen. Ausgabedatei ist leer.</s:String>
@@ -186,6 +188,8 @@
     <s:String x:Key="S.Dialog.Troubleshooter.Error.Unexpected">Unerwarteter Fehler: {0}</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoMonitors">Keine Monitore erkannt.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoFramesCaptured">Keine Frames aufgenommen.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.DpiAwareness">DPI-Skalierungsbewusstsein</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.DpiAwarenessFailure">Das DPI-Bewusstsein pro Monitor (V2) ist nicht aktiv. Überprüfen Sie die Überschreibung der hohen DPI-Skalierung der App in den Windows-Kompatibilitätseinstellungen.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDevices">Keine aktiven Audiogeräte erkannt.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Output">Ausgabe</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Input">Eingabe</s:String>
@@ -519,6 +523,10 @@
     <s:String x:Key="S.Validation.Missing.Ffmpeg.Message">FFmpeg wurde nicht gefunden. Lade es über Einstellungen > Plugins herunter</s:String>
     <s:String x:Key="S.Validation.Missing.Gifski.Message">Gifski wurde nicht gefunden. Lade es über Einstellungen > Plugins herunter</s:String>
 
+    <!--Validation • Unsupported dependency-->
+    <s:String x:Key="S.Validation.Unsupported.Header">Nicht unterstützt</s:String>
+    <s:String x:Key="S.Validation.Unsupported.Ffmpeg.Message">Die aktuelle FFmpeg-Version wird nicht unterstützt. Laden Sie eine neue über Einstellungen > Plugins herunter</s:String>
+    
     <!--Validation • Empty parameters-->
     <s:String x:Key="S.Validation.EmptyParameters.Header">Leere Parameter</s:String>
     <s:String x:Key="S.Validation.EmptyParameters.Message">Für das Preset wurden keine Parameter gesetzt</s:String>
@@ -527,6 +535,10 @@
     <s:String x:Key="S.Validation.MissingParameters.Header">Fehlende Parameter</s:String>
     <s:String x:Key="S.Validation.MissingParameters.Message">Die speziellen Parameter {input} und/oder {output} fehlen im Parameterfeld</s:String>
 
+    <!--Validation • Invalid FFmpeg parameters-->
+    <s:String x:Key="S.Validation.InvalidFfmpegParameters.Header">FFmpeg-Validierung fehlgeschlagen</s:String>
+    <s:String x:Key="S.Validation.InvalidFfmpegParameters.Message">FFmpeg konnte mit den ausgewählten Einstellungen nicht kodieren.</s:String>
+    
     <!--Validation • Invalid audio codec-->
     <s:String x:Key="S.Validation.InvalidAudioCodec.Header">Ungültiger Audiocodec</s:String>
     <s:String x:Key="S.Validation.InvalidAudioCodec.Webm.Message">WebM-Audio muss Opus oder Vorbis verwenden</s:String>
@@ -1311,6 +1323,7 @@
     <!--<s:String x:Key="S.FeedbackPreview.FFmpeg.Header">Header</s:String>-->
     <!--<s:String x:Key="S.FeedbackPreview.FFmpeg.Version">Version</s:String>-->
     <s:String x:Key="S.FeedbackPreview.FFmpeg.Older">(älter)</s:String>
+    <s:String x:Key="S.FeedbackPreview.FFmpeg.Unsupported">(nicht unterstützt)</s:String>
     <s:String x:Key="S.FeedbackPreview.FFmpeg.Location">Ort</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.When">Wann</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.Category">Kategorie</s:String>
@@ -2149,6 +2162,7 @@
     <s:String x:Key="S.Settings.Update.StoreHandled">Wie sollen Updates installiert werden?</s:String>
     <s:String x:Key="S.Settings.Update.StoreHandled.Info">Die Updates werden direkt über den Microsoft Store gehandhabt</s:String>
     <s:String x:Key="S.Settings.Update.StoreHandled.Action">Microsoft Store öffnen</s:String>
+    <s:String x:Key="S.Settings.Update.SteamHandled.Info">Die Updates werden direkt über Steam gehandhabt</s:String>
 
     <!--Settings • About-->
     <s:String x:Key="S.Settings.About.Contact">Kontakt</s:String>

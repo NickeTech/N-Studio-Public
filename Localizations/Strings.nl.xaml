@@ -45,6 +45,7 @@
     <s:String x:Key="S.Imperative.Continue">Doorgaan</s:String>
     <s:String x:Key="S.Imperative.Clear">Wissen</s:String>
     <s:String x:Key="S.Imperative.SeeMore">Meer zien</s:String>
+    <s:String x:Key="S.Imperative.SeeError">Fout bekijken</s:String>
     <s:String x:Key="S.Imperative.FixIssue">Probleem oplossen</s:String>
     <s:String x:Key="S.Imperative.Login">Inloggen</s:String>
     <s:String x:Key="S.Imperative.Logout">Uitloggen</s:String>
@@ -175,6 +176,7 @@
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionCommandFailed">FFmpeg‑opdracht “‑version” is mislukt. Uitvoer: {0}</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionUnknown">Kon FFmpeg‑versie niet bepalen op basis van de uitvoer.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionOld">FFmpeg‑versie {0} is ouder dan 6.0. Werk bij naar een nieuwere versie.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionUnsupported">FFmpeg-versie {0} wordt niet ondersteund.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingFailed">FFmpeg‑codering mislukt.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingOutputMissing">FFmpeg‑codering mislukt. Uitvoerbestand is niet aangemaakt.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingOutputEmpty">FFmpeg‑codering mislukt. Uitvoerbestand is leeg.</s:String>
@@ -186,6 +188,8 @@
     <s:String x:Key="S.Dialog.Troubleshooter.Error.Unexpected">Onverwachte fout: {0}</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoMonitors">Geen monitoren gedetecteerd.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoFramesCaptured">Geen frames vastgelegd.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.DpiAwareness">DPI-bewustzijn</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.DpiAwarenessFailure">DPI-bewustzijn per beeldscherm V2 is niet actief. Controleer de hoge DPI-schaalinstelling van de app in de Windows-compatibiliteitsinstellingen.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDevices">Geen actieve audioapparaten gedetecteerd.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Output">Uitgang</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Input">Ingang</s:String>
@@ -519,6 +523,10 @@
     <s:String x:Key="S.Validation.Missing.Ffmpeg.Message">FFmpeg is niet gevonden. Download het via Instellingen > Plug-ins</s:String>
     <s:String x:Key="S.Validation.Missing.Gifski.Message">Gifski is niet gevonden. Download het via Instellingen > Plug-ins</s:String>
 
+    <!--Validation • Unsupported dependency-->
+    <s:String x:Key="S.Validation.Unsupported.Header">Niet ondersteund</s:String>
+    <s:String x:Key="S.Validation.Unsupported.Ffmpeg.Message">De huidige FFmpeg-versie wordt niet ondersteund. Download een nieuwe via Instellingen > Plug-ins</s:String>
+    
     <!--Validation • Empty parameters-->
     <s:String x:Key="S.Validation.EmptyParameters.Header">Lege parameters</s:String>
     <s:String x:Key="S.Validation.EmptyParameters.Message">Er zijn geen parameters ingesteld voor de preset</s:String>
@@ -527,6 +535,10 @@
     <s:String x:Key="S.Validation.MissingParameters.Header">Ontbrekende parameters</s:String>
     <s:String x:Key="S.Validation.MissingParameters.Message">De speciale parameters {input} en/of {output} ontbreken in het parametersveld</s:String>
 
+    <!--Validation • Invalid FFmpeg parameters-->
+    <s:String x:Key="S.Validation.InvalidFfmpegParameters.Header">FFmpeg-validatie mislukt</s:String>
+    <s:String x:Key="S.Validation.InvalidFfmpegParameters.Message">FFmpeg kon niet coderen met de geselecteerde instellingen.</s:String>
+    
     <!--Validation • Invalid audio codec-->
     <s:String x:Key="S.Validation.InvalidAudioCodec.Header">Ongeldige audiocodec</s:String>
     <s:String x:Key="S.Validation.InvalidAudioCodec.Webm.Message">WebM-audio moet Opus of Vorbis gebruiken</s:String>
@@ -1311,6 +1323,7 @@
     <!--<s:String x:Key="S.FeedbackPreview.FFmpeg.Header">Header</s:String>-->
     <s:String x:Key="S.FeedbackPreview.FFmpeg.Version">Versie</s:String>
     <s:String x:Key="S.FeedbackPreview.FFmpeg.Older">(ouder)</s:String>
+    <s:String x:Key="S.FeedbackPreview.FFmpeg.Unsupported">(niet ondersteund)</s:String>
     <s:String x:Key="S.FeedbackPreview.FFmpeg.Location">Locatie</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.When">Wanneer</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.Category">Categorie</s:String>
@@ -2149,6 +2162,7 @@
     <s:String x:Key="S.Settings.Update.StoreHandled">Hoe update ik?</s:String>
     <s:String x:Key="S.Settings.Update.StoreHandled.Info">Updates worden rechtstreeks via de Microsoft Store afgehandeld</s:String>
     <s:String x:Key="S.Settings.Update.StoreHandled.Action">Microsoft Store openen</s:String>
+    <s:String x:Key="S.Settings.Update.SteamHandled.Info">Updates worden rechtstreeks via Steam afgehandeld</s:String>
 
     <!--Settings • About-->
     <!--<s:String x:Key="S.Settings.About.Contact">Contact</s:String>-->

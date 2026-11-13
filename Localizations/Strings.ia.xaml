@@ -45,6 +45,7 @@
     <s:String x:Key="S.Imperative.Continue">Continuar</s:String>
     <s:String x:Key="S.Imperative.Clear">Netter</s:String>
     <s:String x:Key="S.Imperative.SeeMore">Vider plus</s:String>
+    <s:String x:Key="S.Imperative.SeeError">Vider error</s:String>
     <s:String x:Key="S.Imperative.FixIssue">Resolver problema</s:String>
     <s:String x:Key="S.Imperative.Login">Conectar</s:String>
     <s:String x:Key="S.Imperative.Logout">Disconnector</s:String>
@@ -175,6 +176,7 @@
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionCommandFailed">Le commando FFmpeg -version falleva. Output: {0}</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionUnknown">Impossibile determinar le version de FFmpeg ab le output.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionOld">Le version FFmpeg {0} es plus ancian que 6.0. Per favor actualisa.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionUnsupported">Le version de FFmpeg {0} non es supportate.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingFailed">Le codification FFmpeg falleva.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingOutputMissing">Le codification FFmpeg falleva. Le file de output non esseva create.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingOutputEmpty">Le codification FFmpeg falleva. Le file de output es vacue.</s:String>
@@ -186,6 +188,8 @@
     <s:String x:Key="S.Dialog.Troubleshooter.Error.Unexpected">Error inexpectate: {0}</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoMonitors">Nulle monitores detegite.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoFramesCaptured">Nulle quadros capturate.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.DpiAwareness">Sensibilitate a DPI</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.DpiAwarenessFailure">Le sensibilitate a DPI per monitor V2 non es active. Verifica le substitution de scalamento de alte DPI del application in le parametros de compatibilitate de Windows.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDevices">Nulle dispositivos audio active detegite.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Output">Exito</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Input">Entrada</s:String>
@@ -519,6 +523,10 @@
     <s:String x:Key="S.Validation.Missing.Ffmpeg.Message">FFmpeg non esseva trovate. Delecar lo via Settings > Plugins</s:String>
     <s:String x:Key="S.Validation.Missing.Gifski.Message">Gifski non esseva trovate. Delecar lo via Settings > Plugins</s:String>
 
+    <!--Validation • Unsupported dependency-->
+    <s:String x:Key="S.Validation.Unsupported.Header">Non supportate</s:String>
+    <s:String x:Key="S.Validation.Unsupported.Ffmpeg.Message">Le currente version de FFmpeg non es supportate. Discarga un nove via Parametros > Plugins</s:String>
+    
     <!--Validation • Empty parameters-->
     <s:String x:Key="S.Validation.EmptyParameters.Header">Parameters vacue</s:String>
     <s:String x:Key="S.Validation.EmptyParameters.Message">Nulle parameters setiate pro le preset</s:String>
@@ -527,6 +535,10 @@
     <s:String x:Key="S.Validation.MissingParameters.Header">Parameters mancante</s:String>
     <s:String x:Key="S.Validation.MissingParameters.Message">Le parameters special {input} e/o {output} manca del campo de parameters</s:String>
 
+    <!--Validation • Invalid FFmpeg parameters-->
+    <s:String x:Key="S.Validation.InvalidFfmpegParameters.Header">Validation de FFmpeg fallite</s:String>
+    <s:String x:Key="S.Validation.InvalidFfmpegParameters.Message">FFmpeg non poteva codificar con le parametros selecte.</s:String>
+    
     <!--Validation • Invalid audio codec-->
     <s:String x:Key="S.Validation.InvalidAudioCodec.Header">Codec audio non valide</s:String>
     <s:String x:Key="S.Validation.InvalidAudioCodec.Webm.Message">Le audio WebM debe usar Opus o Vorbis</s:String>
@@ -1311,6 +1323,7 @@
     <!--<s:String x:Key="S.FeedbackPreview.FFmpeg.Header">Header</s:String>-->
     <!--<s:String x:Key="S.FeedbackPreview.FFmpeg.Version">Version</s:String>-->
     <s:String x:Key="S.FeedbackPreview.FFmpeg.Older">(plus vetule)</s:String>
+    <s:String x:Key="S.FeedbackPreview.FFmpeg.Unsupported">(non supportate)</s:String>
     <!--<s:String x:Key="S.FeedbackPreview.FFmpeg.Location">Location</s:String>-->
     <s:String x:Key="S.FeedbackPreview.Telemetry.When">Quando</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.Category">Categoria</s:String>
@@ -2149,6 +2162,7 @@
     <s:String x:Key="S.Settings.Update.StoreHandled">Como actualizar?</s:String>
     <s:String x:Key="S.Settings.Update.StoreHandled.Info">Le actualisationes es manageate directemente per le Microsoft Store</s:String>
     <s:String x:Key="S.Settings.Update.StoreHandled.Action">Aperir Microsoft Store</s:String>
+    <s:String x:Key="S.Settings.Update.SteamHandled.Info">Le actualisationes es manageate directemente per Steam</s:String>
 
     <!--Settings • About-->
     <s:String x:Key="S.Settings.About.Contact">Contacto</s:String>

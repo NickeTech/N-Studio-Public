@@ -45,6 +45,7 @@
     <s:String x:Key="S.Imperative.Continue">Продолжить</s:String>
     <s:String x:Key="S.Imperative.Clear">Очистить</s:String>
     <s:String x:Key="S.Imperative.SeeMore">Подробнее</s:String>
+    <s:String x:Key="S.Imperative.SeeError">Посмотреть ошибку</s:String>
     <s:String x:Key="S.Imperative.FixIssue">Исправить проблему</s:String>
     <s:String x:Key="S.Imperative.Login">Войти</s:String>
     <s:String x:Key="S.Imperative.Logout">Выйти</s:String>
@@ -175,6 +176,7 @@
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionCommandFailed">Команда FFmpeg -version завершилась ошибкой. Вывод: {0}</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionUnknown">Не удалось определить версию FFmpeg по выводу.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionOld">Версия FFmpeg {0} старее 6.0. Обновите до более новой версии.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionUnsupported">Версия FFmpeg {0} не поддерживается.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingFailed">Ошибка кодирования FFmpeg.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingOutputMissing">Ошибка кодирования FFmpeg. Файл вывода не был создан.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingOutputEmpty">Ошибка кодирования FFmpeg. Файл вывода пуст.</s:String>
@@ -186,6 +188,8 @@
     <s:String x:Key="S.Dialog.Troubleshooter.Error.Unexpected">Непредвиденная ошибка: {0}</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoMonitors">Мониторы не обнаружены.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoFramesCaptured">Кадры не были захвачены.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.DpiAwareness">Поддержка DPI</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.DpiAwarenessFailure">Поддержка DPI для каждого монитора V2 не активна. Проверьте переопределение масштабирования высокого DPI для приложения в параметрах совместимости Windows.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDevices">Активные аудиоустройства не обнаружены.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Output">Вывод</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Input">Ввод</s:String>
@@ -519,6 +523,10 @@
     <s:String x:Key="S.Validation.Missing.Ffmpeg.Message">FFmpeg не найден. Скачайте его через Настройки > Плагины</s:String>
     <s:String x:Key="S.Validation.Missing.Gifski.Message">Gifski не найден. Скачайте его через Настройки > Плагины</s:String>
 
+    <!--Validation • Unsupported dependency-->
+    <s:String x:Key="S.Validation.Unsupported.Header">Не поддерживается</s:String>
+    <s:String x:Key="S.Validation.Unsupported.Ffmpeg.Message">Текущая версия FFmpeg не поддерживается. Загрузите новую через Настройки > Плагины</s:String>
+    
     <!--Validation • Empty parameters-->
     <s:String x:Key="S.Validation.EmptyParameters.Header">Пустые параметры</s:String>
     <s:String x:Key="S.Validation.EmptyParameters.Message">Для пресета не заданы параметры</s:String>
@@ -527,6 +535,10 @@
     <s:String x:Key="S.Validation.MissingParameters.Header">Недостающие параметры</s:String>
     <s:String x:Key="S.Validation.MissingParameters.Message">В поле параметров отсутствуют специальные параметры {input} и/или {output}</s:String>
 
+    <!--Validation • Invalid FFmpeg parameters-->
+    <s:String x:Key="S.Validation.InvalidFfmpegParameters.Header">Ошибка проверки FFmpeg</s:String>
+    <s:String x:Key="S.Validation.InvalidFfmpegParameters.Message">FFmpeg не удалось выполнить кодирование с выбранными параметрами.</s:String>
+    
     <!--Validation • Invalid audio codec-->
     <s:String x:Key="S.Validation.InvalidAudioCodec.Header">Недопустимый аудиокодек</s:String>
     <s:String x:Key="S.Validation.InvalidAudioCodec.Webm.Message">Аудио WebM должно использовать Opus или Vorbis</s:String>
@@ -1311,6 +1323,7 @@
     <s:String x:Key="S.FeedbackPreview.FFmpeg.Header">Заголовок</s:String>
     <s:String x:Key="S.FeedbackPreview.FFmpeg.Version">Версия</s:String>
     <s:String x:Key="S.FeedbackPreview.FFmpeg.Older">(старее)</s:String>
+    <s:String x:Key="S.FeedbackPreview.FFmpeg.Unsupported">(не поддерживается)</s:String>
     <s:String x:Key="S.FeedbackPreview.FFmpeg.Location">Расположение</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.When">Когда</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.Category">Категория</s:String>
@@ -2149,6 +2162,7 @@
     <s:String x:Key="S.Settings.Update.StoreHandled">Как обновлять?</s:String>
     <s:String x:Key="S.Settings.Update.StoreHandled.Info">Обновления обрабатываются напрямую через Microsoft Store</s:String>
     <s:String x:Key="S.Settings.Update.StoreHandled.Action">Открыть Microsoft Store</s:String>
+    <s:String x:Key="S.Settings.Update.SteamHandled.Info">Обновления обрабатываются напрямую через Steam</s:String>
 
     <!--Settings • About-->
     <s:String x:Key="S.Settings.About.Contact">Контакты</s:String>

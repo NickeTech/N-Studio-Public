@@ -45,6 +45,7 @@
     <s:String x:Key="S.Imperative.Continue">Fortsæt</s:String>
     <s:String x:Key="S.Imperative.Clear">Ryd</s:String>
     <s:String x:Key="S.Imperative.SeeMore">Se mere</s:String>
+    <s:String x:Key="S.Imperative.SeeError">Se fejl</s:String>
     <s:String x:Key="S.Imperative.FixIssue">Ret problem</s:String>
     <s:String x:Key="S.Imperative.Login">Log ind</s:String>
     <s:String x:Key="S.Imperative.Logout">Log ud</s:String>
@@ -175,6 +176,7 @@
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionCommandFailed">FFmpeg -version kommando mislykkedes. Output: {0}</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionUnknown">Kunne ikke bestemme FFmpeg-version fra output.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionOld">FFmpeg version {0} er ældre end 6.0. Opdater venligst til en nyere version.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegVersionUnsupported">FFmpeg version {0} understøttes ikke.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingFailed">FFmpeg-kodning mislykkedes.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingOutputMissing">FFmpeg-kodning mislykkedes. Outputfil blev ikke oprettet.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Error.FFmpegEncodingOutputEmpty">FFmpeg-kodning mislykkedes. Outputfilen er tom.</s:String>
@@ -186,6 +188,8 @@
     <s:String x:Key="S.Dialog.Troubleshooter.Error.Unexpected">Uventet fejl: {0}</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoMonitors">Ingen skærme fundet.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Screen.NoFramesCaptured">Ingen frames optaget.</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.DpiAwareness">DPI-understøttelse</s:String>
+    <s:String x:Key="S.Dialog.Troubleshooter.Screen.DpiAwarenessFailure">DPI-understøttelse pr. skærm V2 er ikke aktiv. Kontrollér appens tilsidesættelse af høj DPI-skalering i Windows-kompatibilitetsindstillingerne.</s:String>
     <s:String x:Key="S.Dialog.Troubleshooter.Audio.NoDevices">Ingen aktive lydenheder fundet.</s:String>
     <!-- <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Output">Output</s:String> -->
     <!-- <s:String x:Key="S.Dialog.Troubleshooter.Audio.Direction.Input">Input</s:String> -->
@@ -519,6 +523,10 @@
     <s:String x:Key="S.Validation.Missing.Ffmpeg.Message">FFmpeg blev ikke fundet. Download det via Indstillinger > Plugins</s:String>
     <s:String x:Key="S.Validation.Missing.Gifski.Message">Gifski blev ikke fundet. Download det via Indstillinger > Plugins</s:String>
 
+    <!--Validation • Unsupported dependency-->
+    <s:String x:Key="S.Validation.Unsupported.Header">Ikke understøttet</s:String>
+    <s:String x:Key="S.Validation.Unsupported.Ffmpeg.Message">Den aktuelle FFmpeg-version understøttes ikke. Download en ny via Indstillinger > Plugins</s:String>
+    
     <!--Validation • Empty parameters-->
     <s:String x:Key="S.Validation.EmptyParameters.Header">Tomme parametre</s:String>
     <s:String x:Key="S.Validation.EmptyParameters.Message">Ingen parametre er angivet for forudindstilling</s:String>
@@ -527,6 +535,10 @@
     <s:String x:Key="S.Validation.MissingParameters.Header">Manglende parametre</s:String>
     <s:String x:Key="S.Validation.MissingParameters.Message">De specielle parametre {input} og/eller {output} mangler i parameterfeltet</s:String>
 
+    <!--Validation • Invalid FFmpeg parameters-->
+    <s:String x:Key="S.Validation.InvalidFfmpegParameters.Header">FFmpeg-validering mislykkedes</s:String>
+    <s:String x:Key="S.Validation.InvalidFfmpegParameters.Message">FFmpeg kunne ikke kodere med de valgte indstillinger.</s:String>
+    
     <!--Validation • Invalid audio codec-->
     <s:String x:Key="S.Validation.InvalidAudioCodec.Header">Ugyldig lydcodec</s:String>
     <s:String x:Key="S.Validation.InvalidAudioCodec.Webm.Message">WebM-lyd skal bruge Opus eller Vorbis</s:String>
@@ -1311,6 +1323,7 @@
     <!--<s:String x:Key="S.FeedbackPreview.FFmpeg.Header">Header</s:String>-->
     <!--<s:String x:Key="S.FeedbackPreview.FFmpeg.Version">Version</s:String>-->
     <s:String x:Key="S.FeedbackPreview.FFmpeg.Older">(ældre)</s:String>
+    <s:String x:Key="S.FeedbackPreview.FFmpeg.Unsupported">(understøttes ikke)</s:String>
     <s:String x:Key="S.FeedbackPreview.FFmpeg.Location">Placering</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.When">Hvornår</s:String>
     <s:String x:Key="S.FeedbackPreview.Telemetry.Category">Kategori</s:String>
@@ -2149,6 +2162,7 @@
     <s:String x:Key="S.Settings.Update.StoreHandled">Hvordan opdateres?</s:String>
     <s:String x:Key="S.Settings.Update.StoreHandled.Info">Opdateringer håndteres direkte via Microsoft Store</s:String>
     <s:String x:Key="S.Settings.Update.StoreHandled.Action">Åbn Microsoft Store</s:String>
+    <s:String x:Key="S.Settings.Update.SteamHandled.Info">Opdateringer håndteres direkte via Steam</s:String>
 
     <!--Settings • About-->
     <s:String x:Key="S.Settings.About.Contact">Kontakt</s:String>

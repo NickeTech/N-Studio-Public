@@ -73,14 +73,15 @@ The agent must output languages in exactly this order:
 7. fr  
 8. ia (interlingua) 
 9. it  
-10. ja  
-11. nl  
-12. pt (Brazil)  
-13. pt-PT  
-14. ru  
-15. sv  
-16. zh-Hans  
-17. zh-Hant  
+10. ja
+11. ko
+12. nl  
+13. pt (Brazil)  
+14. pt-PT  
+15. ru  
+16. sv  
+17. zh-Hans  
+18. zh-Hant  
 
 No additions, no reordering.
 
